@@ -851,10 +851,28 @@
       ]
     },
     {
+      "id": "english:practice:classify-and-produce-phone",
+      "type": "practice",
+      "path": "practices/classify-and-produce-phone.md",
+      "stages": [
+        6,
+        7
+      ]
+    },
+    {
       "id": "english:practice:investigate-linguistic-question",
       "type": "practice",
       "path": "practices/investigate-linguistic-question.md",
       "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:practice:learn-word-pronunciation",
+      "type": "practice",
+      "path": "practices/learn-word-pronunciation.md",
+      "stages": [
+        6,
         7
       ]
     },
@@ -872,6 +890,11 @@
       "path": "references/anderson-2018-essentials-of-linguistics.md"
     },
     {
+      "id": "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols",
+      "type": "reference",
+      "path": "references/international-phonetic-association-undated-diacritics-and-other-symbols.md"
+    },
+    {
       "id": "english:reference:international-phonetic-association-undated-interactive-chart",
       "type": "reference",
       "path": "references/international-phonetic-association-undated-interactive-chart.md"
@@ -885,6 +908,11 @@
       "id": "english:reference:mann-taboada-undated-rst-introduction",
       "type": "reference",
       "path": "references/mann-taboada-undated-rst-introduction.md"
+    },
+    {
+      "id": "english:reference:merriam-webster-undated-pin-entry",
+      "type": "reference",
+      "path": "references/merriam-webster-undated-pin-entry.md"
     },
     {
       "id": "english:reference:roberts-2012-information-structure",
@@ -2699,6 +2727,81 @@
       "target": "english:reference:mann-taboada-undated-rst-introduction"
     },
     {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:consonant-articulation"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:vowel-articulation"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contrast-and-distribution"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_principles",
+      "target": "english:principle:realization-varies-with-environment"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_principles",
+      "target": "english:principle:validation-does-not-establish-truth"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_models",
+      "target": "english:model:phonological-word-model"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_methods",
+      "target": "english:method:analyze-sound-realization"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
       "source": "english:practice:investigate-linguistic-question",
       "relationship": "uses_concepts",
       "target": "english:concept:evidence-and-analysis"
@@ -2717,6 +2820,91 @@
       "source": "english:practice:investigate-linguistic-question",
       "relationship": "references",
       "target": "english:reference:xiongxianfei-2026-knowledge-practice-system"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:connected-speech"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_principles",
+      "target": "english:principle:realization-varies-with-environment"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_principles",
+      "target": "english:principle:validation-does-not-establish-truth"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_models",
+      "target": "english:model:phonological-word-model"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_methods",
+      "target": "english:method:analyze-sound-realization"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "composes",
+      "target": "english:practice:classify-and-produce-phone"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:merriam-webster-undated-pin-entry"
     },
     {
       "source": "english:practice:maintain-english-package",

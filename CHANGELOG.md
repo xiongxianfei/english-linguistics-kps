@@ -12,6 +12,10 @@ Version 0.1.0 is a broad provisional foundation, not a completed scientific revi
 ## Summary
 Version 0.1.0 is a broad provisional foundation, not a completed scientific review. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
 
+## Integrated pronunciation Practices
+
+Added Learn a word pronunciation and Classify and produce a phone, each with six self-contained stages, explicit General American scope, listening and production checks, uncertainty routes, worked analysis and blank private-record template. Added bounded source records for the Merriam-Webster pin entry and the official IPA diacritics and other-symbol panels. Updated navigation, source register and typed dependencies. Procedures and performance criteria remain provisional, with no invented learner results or claims of independently validated effectiveness.
+
 ## General American pronunciation policy
 
 General American is the primary pronunciation reference for future examples. The new PRONUNCIATION policy documents phonemic versus phonetic notation, transcriber limitations and copyright constraints, with three additional source records and policy regression tests. Existing British-style examples remain labeled alternatives; this is an authoring update, not an independent scientific review.

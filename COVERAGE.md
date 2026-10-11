@@ -120,6 +120,8 @@ Generated navigation over canonical knowledge objects. Stage labels record cover
 - [Regular inflectional exponents are conditioned by stem sounds](principles/exponents-are-conditioned-by-sound.md) (principle; provisional)
 - [Phonetic realization varies with environment](principles/realization-varies-with-environment.md) (principle; provisional)
 - [Phonological word model](models/phonological-word-model.md) (model; provisional)
+- [Classify and produce a phone](practices/classify-and-produce-phone.md) (practice; provisional)
+- [Learn a word pronunciation](practices/learn-word-pronunciation.md) (practice; provisional)
 
 ## Stage 7 Interfaces and Integration
 
@@ -141,7 +143,9 @@ Generated navigation over canonical knowledge objects. Stage labels record cover
 - [Compare argument mappings](methods/compare-argument-mappings.md) (method; provisional)
 - [Evaluate linguistic claim](methods/evaluate-linguistic-claim.md) (method; provisional)
 - [Trace discourse interpretation](methods/trace-discourse-interpretation.md) (method; provisional)
+- [Classify and produce a phone](practices/classify-and-produce-phone.md) (practice; provisional)
 - [Investigate linguistic question](practices/investigate-linguistic-question.md) (practice; provisional)
+- [Learn a word pronunciation](practices/learn-word-pronunciation.md) (practice; provisional)
 - [Maintain English package](practices/maintain-english-package.md) (practice; provisional)
 
 ## Coverage limits

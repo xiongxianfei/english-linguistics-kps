@@ -126,7 +126,9 @@ Prioritize theory-sensitive analyses, accent-sensitive phonetics, generalized ne
 | [Compare argument mappings](methods/compare-argument-mappings.md) | method | Selected source support only | Inspect claim-specific evidence and counterexamples; independent review pending |
 | [Evaluate linguistic claim](methods/evaluate-linguistic-claim.md) | method | Selected source support only | Inspect claim-specific evidence and counterexamples; independent review pending |
 | [Trace discourse interpretation](methods/trace-discourse-interpretation.md) | method | Selected source support only | Inspect claim-specific evidence and counterexamples; independent review pending |
+| [Classify and produce a phone](practices/classify-and-produce-phone.md) | practice | Selected source support only | Inspect claim-specific evidence and counterexamples; independent review pending |
 | [Investigate linguistic question](practices/investigate-linguistic-question.md) | practice | Selected source support only | Inspect claim-specific evidence and counterexamples; independent review pending |
+| [Learn a word pronunciation](practices/learn-word-pronunciation.md) | practice | Selected source support only | Inspect claim-specific evidence and counterexamples; independent review pending |
 | [Maintain English package](practices/maintain-english-package.md) | practice | Selected source support only | Inspect claim-specific evidence and counterexamples; independent review pending |
 
 ## Promotion criterion

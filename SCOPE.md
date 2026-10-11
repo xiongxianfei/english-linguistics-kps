@@ -14,7 +14,7 @@ The draft states its working analyses and variety limits rather than presenting 
 
 ## Audience and purpose
 
-The primary audience is an independent reader building a scientific model of English. The repository is knowledge-first, not a sequence of graded lessons. Methods and Practices support investigation and review, not an asserted learning intervention.
+The primary audience is an independent reader building a scientific model of English. The repository is knowledge-first, not a sequence of graded lessons. Methods and Practices support investigation, review and bounded pronunciation work. The two pronunciation Practices additionally integrate analysis, listening, articulation, production and verification; their learning effectiveness has not been established. They do not turn the knowledge base into a graded course or certify a reader's competence.
 
 ## Working syntax
 
