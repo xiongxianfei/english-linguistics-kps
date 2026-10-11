@@ -24,6 +24,10 @@ The English knowledge objects, worked examples, domain tests, navigation generat
 
 Reference records describe external publications without relicensing them. Anderson's first-edition textbook and IPA charts have their own CC BY-SA terms; the Roberts article and RST site retain their own terms. This repository bundles none of their full texts, charts, fonts, audio or video. Do not interpret the package MIT license as permission to copy those external assets.
 
+## Pronunciation source and media rights
+
+The [General American pronunciation policy](PRONUNCIATION.md) links to Sounds American, toPhonetics and the International Phonetic Association's interactive chart. Sounds American generally applies CC BY-NC-ND conditions to its own content, and the IPA interactive chart has separate restricted terms and recording rights; the downloadable static IPA chart is a different work with CC BY-SA terms. No third-party media, chart artwork, font, interactive code or bulk transcription data is copied or sublicensed. Refer to the individual source records before considering reuse.
+
 ## No implied endorsement
 
 A cited author, publisher or institution has not endorsed this package. A selected-source support summary is narrower than verification of a whole object or the English architecture.

@@ -10,7 +10,7 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
+references: ["english:reference:anderson-2018-essentials-of-linguistics","english:reference:sounds-american-undated-chart-and-terms","english:reference:tophonetics-undated-english-transcription","english:reference:international-phonetic-association-undated-interactive-chart"]
 uses_concepts: ["english:concept:representation-levels", "english:concept:allomorphy", "english:concept:phone-phoneme-and-allophone", "english:concept:consonant-articulation", "english:concept:connected-speech"]
 ---
 
@@ -28,7 +28,7 @@ Distinguish morphological exponents, phonological categories and observed phonet
 
 ## Inputs and prerequisites
 
-The word or utterance, a target accent and transcription convention; a recording is required for token-specific acoustic claims. A spelling alone supports only a predicted pronunciation analysis.
+The word or utterance and its intended sense, a declared accent and transcription convention (default: General American), and explicit source/provenance information. A recording is required for token-specific acoustic claims. A spelling alone supports only a predicted pronunciation analysis.
 
 ## Rationale
 
@@ -37,11 +37,15 @@ Spelling can hide the conditioning sound, and an allomorph can contain several p
 ## Procedure
 
 1. State spelling, intended lexeme and grammatical feature.
-2. Determine the phonological form of the base in the target accent.
+2. Default to **General American** unless an alternate accent is explicitly requested. Find a candidate broad word form, for example using the **American** option at toPhonetics. Check lexical sense, homographs, alternate readings and the weak-form setting; retain uncertainty and cross-check disputed forms with an independent dictionary.
 3. For regular inflection, identify the final sound and select the relevant exponent.
-4. Annotate syllables, lexical stress and relevant sound environment.
+4. Annotate syllables, lexical stress and relevant sound environment. Use the official IPA chart for symbol meaning, and Sounds American as a teaching reference for articulatory gestures; neither alone establishes the lexical pronunciation.
 5. Predict connected-speech processes only with explicit conditions.
-6. If audio exists, distinguish measured or heard features from predicted ones; record uncertainty.
+6. If audio exists, distinguish measured or heard features from predicted ones; record uncertainty. Cite each source's actual inspected extent, and do not copy third-party charts, videos, recordings or transcription databases into the repository.
+
+## General American lookup procedure
+
+The default convention is specified in [PRONUNCIATION](../PRONUNCIATION.md). A broad /r/ is a language-analysis shorthand for an American rhotic, not an observed IPA trill. toPhonetics describes its American text outputs as phonemic, not narrow phone-by-phone acoustics; Sounds American is pedagogical articulation guidance; the interactive IPA chart is an inventory of phone symbols. If sources disagree, document the accent, conventions, morphological form, lexical sense and unresolved evidence, rather than choosing whichever symbol looks most precise.
 
 ## Worked example
 
@@ -68,6 +72,12 @@ Selected source contributions are recorded below. They do not verify every examp
 - [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
 
 - [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#aspiration) — support is limited to the named section in that record.
+
+## Additional source records
+
+- [Sounds American chart and terms](../references/sounds-american-undated-chart-and-terms.md#located-contributions) identifies an American instructional articulation resource, not a verified measurement.
+- [toPhonetics transcription tool and FAQ](../references/tophonetics-undated-english-transcription.md#located-contributions) establishes tool options and its stated broad convention, not output accuracy for any particular word.
+- [Interactive IPA chart](../references/international-phonetic-association-undated-interactive-chart.md#located-contributions) identifies a general IPA symbol resource, not a fixed English inventory.
 
 ## Related knowledge
 

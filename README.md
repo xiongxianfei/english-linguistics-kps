@@ -16,11 +16,13 @@ A broad provisional model of English across Stages 0 through 7, organized as reu
 
 Read the [whole system model](models/english-system-architecture.md), [stage coverage](COVERAGE.md), [knowledge index](INDEX.md), and [scientific review queue](REVIEW-QUEUE.md). For a complete worked case, see the [integrated utterance analysis](models/integrated-utterance-analysis.md).
 
+New pronunciation analyses use **General American English as the primary reference variety**. Read the [General American pronunciation policy](PRONUNCIATION.md) for source roles, IPA conventions, evidence levels and copyright restrictions; earlier British-style examples remain explicitly accent-dependent.
+
 This is the user-authorized broad first draft. It is not independently reviewed linguistic reference material, an exhaustive grammar, a proficiency assessment, or a claim that all English theories agree.
 
 ## What is included
 
-The initial package contains 108 knowledge objects: 72 Concepts, 13 Principles, 15 Models, 6 Methods and 2 research-maintenance Practices. Five publication-based Reference records document exactly what was inspected. Stage 0 covers foundations; Stage 1 morphology and lexicon; Stage 2 syntax; Stage 3 semantics; Stage 4 pragmatics; Stage 5 discourse and information structure; Stage 6 phonetics and phonology; Stage 7 interfaces and integration.
+The initial package contains 108 knowledge objects: 72 Concepts, 13 Principles, 15 Models, 6 Methods and 2 research-maintenance Practices. Eight publication-based Reference records document exactly what was inspected. Stage 0 covers foundations; Stage 1 morphology and lexicon; Stage 2 syntax; Stage 3 semantics; Stage 4 pragmatics; Stage 5 discourse and information structure; Stage 6 phonetics and phonology; Stage 7 interfaces and integration.
 
 ## Evidence status
 

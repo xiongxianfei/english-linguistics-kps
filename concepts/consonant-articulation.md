@@ -10,7 +10,7 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:international-phonetic-association-undated-ipa-chart"]
+references: ["english:reference:international-phonetic-association-undated-ipa-chart","english:reference:sounds-american-undated-chart-and-terms","english:reference:international-phonetic-association-undated-interactive-chart"]
 uses_concepts: ["english:concept:representation-levels", "english:concept:phone-phoneme-and-allophone", "english:concept:vowel-articulation"]
 ---
 
@@ -30,6 +30,10 @@ Consonants can be classified by voicing, place and manner of articulation. These
 
 Introductory feature bundles: /p/ voiceless bilabial stop; /z/ voiced alveolar fricative; /ŋ/ voiced velar nasal. /s/ contrasts with /z/ principally in the laryngeal dimension. /θ/ and /ð/ are dental fricatives, distinct from alveolar /s/ and /z/.
 
+## General American reference system
+
+The General American pronunciation default is stated in [PRONUNCIATION](../PRONUNCIATION.md). An ordinary English rhotic can be written phonemically as /r/ for convenience while common approximant articulation is represented more precisely as [ɹ]; this notation is not a claim that speakers produce an IPA alveolar trill [r]. American intervocalic /t/ and /d/ may surface as a tap [ɾ] under suitable stress and segmental conditions. These are illustrations of phonological versus phonetic levels, not invariant pronunciations across all speakers. Sounds American offers pedagogical articulation demonstrations, whereas the interactive IPA chart describes cross-language phone symbols.
+
 ## Distinctions
 
 English nasals /m n ŋ/ share nasal manner but have different places. /ŋ/ is not an approximant. An affricate such as /tʃ/ has a coordinated closure and fricated release rather than being classified by its two letters.
@@ -45,6 +49,11 @@ Actual English stop contrasts use cues including voice onset timing, aspiration 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
 - [IPA chart and component charts on the official website](../references/international-phonetic-association-undated-ipa-chart.md#consonants) — support is limited to the named section in that record.
+
+## Additional source records
+
+- [Sounds American chart and terms](../references/sounds-american-undated-chart-and-terms.md#located-contributions) documents the resource's American sound focus, not a recorded speaker study.
+- [Interactive IPA chart](../references/international-phonetic-association-undated-interactive-chart.md#located-contributions) supplies official symbol context, not a language-specific pronunciation dictionary.
 
 ## Related knowledge
 

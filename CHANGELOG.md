@@ -12,6 +12,10 @@ Version 0.1.0 is a broad provisional foundation, not a completed scientific revi
 ## Summary
 Version 0.1.0 is a broad provisional foundation, not a completed scientific review. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
 
+## General American pronunciation policy
+
+General American is the primary pronunciation reference for future examples. The new PRONUNCIATION policy documents phonemic versus phonetic notation, transcriber limitations and copyright constraints, with three additional source records and policy regression tests. Existing British-style examples remain labeled alternatives; this is an authoring update, not an independent scientific review.
+
 ## Version 0 1 0
 
 Initial coverage of Stages 0 through 7; 108 KPS knowledge objects; five publication records; typed dependencies, source limits and a complete review queue. Includes explicit interface Models, six analysis Methods, two maintenance Practices and constructed regression fixtures.

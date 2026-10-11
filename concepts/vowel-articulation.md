@@ -10,7 +10,7 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:international-phonetic-association-undated-ipa-chart"]
+references: ["english:reference:international-phonetic-association-undated-ipa-chart","english:reference:sounds-american-undated-chart-and-terms","english:reference:tophonetics-undated-english-transcription"]
 uses_concepts: ["english:concept:stress", "english:concept:representation-levels", "english:concept:syllable-structure"]
 ---
 
@@ -28,7 +28,11 @@ Vowel descriptions commonly use height, backness and lip rounding. English lexic
 
 ## Worked example
 
-Working labels: /iː/ close front unrounded; /uː/ close back rounded; /æ/ near-open front unrounded; /ə/ central mid-like and usually neutral or unrounded. English schwa is strongly associated with unstressed syllables in the system used here.
+Primary General American broad labels: /i/ close front unrounded (FLEECE), /u/ conventionally close and rounded (GOOSE), /æ/ near-open front unrounded (TRAP), and /ə/ central, commonly unstressed (the first syllable of *about*). The earlier /iː/ and /uː/ spellings illustrate a British-style broad convention and are not the new default. These IPA categories are not identical to one measured American speaker's vowel targets.
+
+## General American transcription and source scope
+
+New word examples use the General American convention defined in [PRONUNCIATION](../PRONUNCIATION.md). toPhonetics can suggest a broad word transcription but cannot establish its acoustic vowel position. Sounds American helps explain instructional articulation; the International Phonetic Association chart identifies general phonetic symbols. GOOSE fronting, cot and caught mergers, schwa reduction and contextual vowel duration need separate accent-sensitive treatment. The absence of /ː/ in a conventional phonemic transcription does not imply identical phonetic durations.
 
 ## Distinctions
 
@@ -45,6 +49,11 @@ Exact qualities, diphthongization and reduction vary by accent and context. No a
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
 - [IPA chart and component charts on the official website](../references/international-phonetic-association-undated-ipa-chart.md#vowels) — support is limited to the named section in that record.
+
+## Additional source records
+
+- [Sounds American chart and terms](../references/sounds-american-undated-chart-and-terms.md#located-contributions) supports the stated *resource role*, not every example or vowel realization.
+- [toPhonetics transcription tool and FAQ](../references/tophonetics-undated-english-transcription.md#located-contributions) documents the broad North American notation convention, not measured articulatory values.
 
 ## Related knowledge
 

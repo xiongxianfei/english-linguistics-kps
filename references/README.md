@@ -10,7 +10,7 @@ status: "draft"
 The source register records actual publications and inspected extent, not a blanket bibliography proving all content.
 
 ## Summary
-Five records support selected structural conventions and linguistic distinctions. All knowledge objects remain provisional. A missing reference is a visible research gap; an abstract-only record is not full-text review.
+Eight records support selected structural conventions, linguistic distinctions and the declared pronunciation-source workflow. All knowledge objects remain provisional. A missing reference is a visible research gap; an abstract-only record is not full-text review.
 
 ## Publications
 
@@ -20,6 +20,10 @@ Five records support selected structural conventions and linguistic distinctions
 - [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](roberts-2012-information-structure.md) — Journal HTML abstract and publication metadata only. Full article PDF, detailed formal derivations and evidence sections were not inspected.
 - [Rhetorical Structure Theory website introduction and relation definitions](mann-taboada-undated-rst-introduction.md) — Introduction HTML and linked relation-definitions text, including Evidence, Cause, Elaboration, Contrast and Concession. The 1988 paper cited by the website was not inspected as a full text.
 
+- [Sounds American American IPA chart and terms](sounds-american-undated-chart-and-terms.md) — Search-indexed home chart and indexed usage terms only; no instructional videos or sound recordings played; used for pedagogical articulation orientation.
+- [toPhonetics converter and FAQ](tophonetics-undated-english-transcription.md) — Inspected homepage and FAQ text; American transcriptions are candidate broad phonemic forms and have not been batch tested or verified here.
+- [Interactive IPA chart](international-phonetic-association-undated-interactive-chart.md) — Official interactive page URL, associated official chart background and copyright notes; no playable tokens inspected; interactive media and the static chart have distinct licence conditions.
+
 ## Source rights and limits
 
-No external full texts, charts, font files or media are distributed. Each record includes nonclaims and attribution. The KPS source establishes its own conventions only. The first-edition Anderson mirror is not silently substituted for the uninspected second edition. Failed access to other candidate sites was not treated as successful inspection.
+No external full texts, charts, font files or media are distributed. The primary General American transcription policy is documented in [PRONUNCIATION](../PRONUNCIATION.md). Each record includes nonclaims and attribution. The KPS source establishes its own conventions only. The first-edition Anderson mirror is not silently substituted for the uninspected second edition. Failed access to other candidate sites was not treated as successful inspection.

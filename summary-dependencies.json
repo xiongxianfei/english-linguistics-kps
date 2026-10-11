@@ -79,9 +79,11 @@
     },
     "concepts/consonant-articulation.md": {
       "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5",
-      "concepts/vowel-articulation.md": "7a1070c4c3d3e2a10812f1124aa346f0694cf082e9735d72a42012ab59a36dcc",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
+      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
+      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
+      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
+      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535"
     },
     "concepts/constituency.md": {
       "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
@@ -234,7 +236,7 @@
     "concepts/phone-phoneme-and-allophone.md": {
       "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
       "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5",
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
       "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
     },
     "concepts/phonotactics.md": {
@@ -283,10 +285,12 @@
       "concepts/wh-dependency.md": "cb9d0a05f19c119b761886f073e22cbd8bcf925521e7edfc6d44f39962a737fe"
     },
     "concepts/representation-levels.md": {
-      "concepts/consonant-articulation.md": "72f399430dd7157cc060d91957026206660afcc7d93b67797f7b93decbce2066",
+      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
       "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/vowel-articulation.md": "7a1070c4c3d3e2a10812f1124aa346f0694cf082e9735d72a42012ab59a36dcc",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
+      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
+      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
+      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
+      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
     },
     "concepts/root-base-and-stem.md": {
       "concepts/affix.md": "3507629792cf1b7cde7de38335e2d3fdc4e9f34f9eb8932e7e867c1e7255008d",
@@ -322,7 +326,7 @@
     "concepts/stress.md": {
       "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
       "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
-      "concepts/vowel-articulation.md": "7a1070c4c3d3e2a10812f1124aa346f0694cf082e9735d72a42012ab59a36dcc",
+      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
       "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
     },
     "concepts/suppletion.md": {
@@ -331,7 +335,7 @@
     },
     "concepts/syllable-structure.md": {
       "concepts/phonotactics.md": "961bc1309bc7111830aa51d5f1dfc2e101cfd982c76e21a4a281671079327fd6",
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5",
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
       "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee"
     },
     "concepts/temporal-causal-and-evidential-relations.md": {
@@ -355,10 +359,12 @@
       "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862"
     },
     "concepts/vowel-articulation.md": {
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5",
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
       "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
       "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
+      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
+      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535",
+      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
     },
     "concepts/wh-dependency.md": {
       "concepts/do-support-and-inversion.md": "34571c994cb48253601474cabbd42b92d78983823958677d6e4b6a54ae6a5dd9",
@@ -380,10 +386,13 @@
     "methods/analyze-sound-realization.md": {
       "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
       "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
-      "concepts/consonant-articulation.md": "72f399430dd7157cc060d91957026206660afcc7d93b67797f7b93decbce2066",
+      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
       "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
+      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4",
+      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
+      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535",
+      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
     },
     "methods/compare-argument-mappings.md": {
       "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
@@ -423,7 +432,7 @@
       "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e",
       "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
       "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5",
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
       "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862"
     },
     "models/focus-prosody-interface.md": {
@@ -449,9 +458,9 @@
     },
     "models/morphology-phonology-interface.md": {
       "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/consonant-articulation.md": "72f399430dd7157cc060d91957026206660afcc7d93b67797f7b93decbce2066",
+      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
       "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5"
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653"
     },
     "models/nested-clause-model.md": {
       "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
@@ -461,7 +470,7 @@
     },
     "models/phonological-word-model.md": {
       "concepts/phonotactics.md": "961bc1309bc7111830aa51d5f1dfc2e101cfd982c76e21a4a281671079327fd6",
-      "concepts/representation-levels.md": "67093fbec85a1e7aa96ea2319a2831ae2de7686b188bf3313ae591d34e5d7ae5",
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
       "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
       "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f"
     },
@@ -532,7 +541,7 @@
     },
     "principles/exponents-are-conditioned-by-sound.md": {
       "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/consonant-articulation.md": "72f399430dd7157cc060d91957026206660afcc7d93b67797f7b93decbce2066",
+      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
       "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
       "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
     },
