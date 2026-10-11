@@ -872,6 +872,11 @@
       "path": "references/anderson-2018-essentials-of-linguistics.md"
     },
     {
+      "id": "english:reference:international-phonetic-association-undated-interactive-chart",
+      "type": "reference",
+      "path": "references/international-phonetic-association-undated-interactive-chart.md"
+    },
+    {
       "id": "english:reference:international-phonetic-association-undated-ipa-chart",
       "type": "reference",
       "path": "references/international-phonetic-association-undated-ipa-chart.md"
@@ -885,6 +890,16 @@
       "id": "english:reference:roberts-2012-information-structure",
       "type": "reference",
       "path": "references/roberts-2012-information-structure.md"
+    },
+    {
+      "id": "english:reference:sounds-american-undated-chart-and-terms",
+      "type": "reference",
+      "path": "references/sounds-american-undated-chart-and-terms.md"
+    },
+    {
+      "id": "english:reference:tophonetics-undated-english-transcription",
+      "type": "reference",
+      "path": "references/tophonetics-undated-english-transcription.md"
     },
     {
       "id": "english:reference:xiongxianfei-2026-knowledge-practice-system",
@@ -1137,6 +1152,16 @@
       "source": "english:concept:consonant-articulation",
       "relationship": "references",
       "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
     },
     {
       "source": "english:concept:constituency",
@@ -1754,6 +1779,16 @@
       "target": "english:reference:international-phonetic-association-undated-ipa-chart"
     },
     {
+      "source": "english:concept:representation-levels",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
+    },
+    {
+      "source": "english:concept:representation-levels",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
       "source": "english:concept:root-base-and-stem",
       "relationship": "uses_concepts",
       "target": "english:concept:affix"
@@ -1972,6 +2007,16 @@
       "source": "english:concept:vowel-articulation",
       "relationship": "references",
       "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
     },
     {
       "source": "english:concept:wh-dependency",
@@ -2567,6 +2612,21 @@
       "source": "english:method:analyze-sound-realization",
       "relationship": "references",
       "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
     },
     {
       "source": "english:method:compare-argument-mappings",

@@ -16,6 +16,8 @@ A broad provisional model of English across Stages 0 through 7, organized as reu
 
 Read the [whole system model](models/english-system-architecture.md), [stage coverage](COVERAGE.md), [knowledge index](INDEX.md), and [scientific review queue](REVIEW-QUEUE.md). For a complete worked case, see the [integrated utterance analysis](models/integrated-utterance-analysis.md).
 
+New pronunciation analyses use **General American English as the primary reference variety**. Read the [General American pronunciation policy](PRONUNCIATION.md) for source roles, IPA conventions, evidence levels and copyright restrictions; earlier British-style examples remain explicitly accent-dependent.
+
 This is the user-authorized broad first draft. It is not independently reviewed linguistic reference material, an exhaustive grammar, a proficiency assessment, or a claim that all English theories agree.
 
 ## What is included
