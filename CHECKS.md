@@ -22,7 +22,7 @@ python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-The original upstream suite contains 31 regression tests. The domain suite adds 16 tests of publication invariants and constructed fixtures. Inspect actual run results in the PR and validation-evidence.json rather than assuming the commands passed.
+The original upstream suite contains 31 regression tests. The domain suite covers publication invariants, constructed fixtures, the General American policy and the two integrated pronunciation Practices. Inspect the current test count rather than assuming the initial suite is unchanged. Inspect actual run results in the PR and validation-evidence.json rather than assuming the commands passed.
 
 ## What is checked
 
@@ -31,6 +31,10 @@ The upstream validator covers metadata, local links/fragments, typed IDs, headin
 ## Constructed model tests
 
 Suffix functions are tested on explicitly declared regular English final-sound patterns. Scope tests include shared witnesses and empty restrictors. A token-span fixture checks five finite clauses and places the Recipient to-PP outside the relative. These tests establish implementation consistency with the declared model, not empirical support for the model.
+
+## Pronunciation Practice checks
+
+The new Practice tests check stage maps, local content, General American scope, source links, acyclic composition and explicit pending states for missing listening or production. They also protect the distinction between symbol classification, auditory inference and learner performance. These are document-contract checks, not a test of anyone's hearing, articulation, pronunciation, retention or the procedures' effectiveness. The [recorded local check results](data/pronunciation-practice-validation.json) identify the actual commands, scope and source-file hashes; PR CI provides a separate execution on the committed changes.
 
 ## Dependency review
 

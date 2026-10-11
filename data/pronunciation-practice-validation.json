@@ -1,0 +1,61 @@
+{
+  "base_commit": "d0c0874d920be1acc34fe266e94acad6ef4c67fd",
+  "executed_at": "2026-10-11T20:29:30.944518+00:00",
+  "scope": "Publication structure, Practice contract and constructed-model regression only; no learner audio evaluated",
+  "independent_scientific_review": false,
+  "practice_application_recorded": false,
+  "dependency_review": "Authoring inspection of new Practices and linked definitions, examples and source nonclaims; not expert review. Existing dependency summaries unchanged.",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "validate.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output": "PASS {\"markdown_documents\": 137, \"knowledge_objects\": 110, \"reference_records\": 10, \"by_type\": {\"concept\": 72, \"method\": 6, \"model\": 15, \"practice\": 4, \"principle\": 13}, \"local_links\": 809, \"typed_relationships\": 398, \"practice_stages\": 19, \"heading_identifiers\": 1289, \"summary_recipients\": 111, \"summary_dependencies\": 399, \"manifest_files\": 0}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "test_validate.py"
+      ],
+      "exit_code": 0,
+      "output": "test_01_clean_package (__main__.PublicationChecks.test_01_clean_package) ... ok\ntest_02_missing_summary (__main__.PublicationChecks.test_02_missing_summary) ... ok\ntest_03_empty_summary (__main__.PublicationChecks.test_03_empty_summary) ... ok\ntest_04_imperative_principle (__main__.PublicationChecks.test_04_imperative_principle) ... ok\ntest_05_missing_method_rationale (__main__.PublicationChecks.test_05_missing_method_rationale) ... ok\ntest_06_link_only_stage_action (__main__.PublicationChecks.test_06_link_only_stage_action) ... ok\ntest_07_nonconsecutive_stage (__main__.PublicationChecks.test_07_nonconsecutive_stage) ... ok\ntest_08_invented_ti_fragment (__main__.PublicationChecks.test_08_invented_ti_fragment) ... ok\ntest_09_duplicate_heading (__main__.PublicationChecks.test_09_duplicate_heading) ... ok\ntest_10_missing_target (__main__.PublicationChecks.test_10_missing_target) ... ok\ntest_11_target_outside_package (__main__.PublicationChecks.test_11_target_outside_package) ... ok\ntest_12_duplicate_identity (__main__.PublicationChecks.test_12_duplicate_identity) ... ok\ntest_13_wrong_relationship_role (__main__.PublicationChecks.test_13_wrong_relationship_role) ... ok\ntest_14_unknown_identity (__main__.PublicationChecks.test_14_unknown_identity) ... ok\ntest_15_wrong_folder_role (__main__.PublicationChecks.test_15_wrong_folder_role) ... ok\ntest_16_recursive_composition_cycle (__main__.PublicationChecks.test_16_recursive_composition_cycle) ... ok\ntest_17_metadata_id_is_not_an_anchor (__main__.PublicationChecks.test_17_metadata_id_is_not_an_anchor) ... ok\ntest_18_changed_dependency_needs_review (__main__.PublicationChecks.test_18_changed_dependency_needs_review) ... ok\ntest_19_exact_version_not_major_line (__main__.PublicationChecks.test_19_exact_version_not_major_line) ... ok\ntest_20_wrong_language_in_file (__main__.PublicationChecks.test_20_wrong_language_in_file) ... ok\ntest_21_custom_html_anchor (__main__.PublicationChecks.test_21_custom_html_anchor) ... ok\ntest_22_application_wikilink (__main__.PublicationChecks.test_22_application_wikilink) ... ok\ntest_23_missing_reference_access_extent (__main__.PublicationChecks.test_23_missing_reference_access_extent) ... ok\ntest_24_manifest_detects_tamper (__main__.PublicationChecks.test_24_manifest_detects_tamper) ... ok\ntest_25_manifest_detects_unlisted_payload (__main__.PublicationChecks.test_25_manifest_detects_unlisted_payload) ... ok\ntest_26_fenced_demonstration_is_not_live (__main__.PublicationChecks.test_26_fenced_demonstration_is_not_live) ... ok\ntest_27_fresh_manifest_verifies (__main__.PublicationChecks.test_27_fresh_manifest_verifies) ... ok\ntest_28_duplicate_metadata_key (__main__.PublicationChecks.test_28_duplicate_metadata_key) ... ok\ntest_29_missing_stage_map (__main__.PublicationChecks.test_29_missing_stage_map) ... ok\ntest_30_review_refresh_does_not_hide_broken_links (__main__.PublicationChecks.test_30_review_refresh_does_not_hide_broken_links) ... ok\ntest_31_manifest_ignores_checkout_and_caches (__main__.PublicationChecks.test_31_manifest_ignores_checkout_and_caches) ... ok\n\n----------------------------------------------------------------------\nRan 31 tests in 3.367s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_domain.py"
+      ],
+      "exit_code": 0,
+      "output": "Domain publication checks: 110 knowledge objects; 0 errors; no factual certification\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/build_navigation.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "Navigation views checked\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_all_stages_and_provisional_metadata (test_domain.DomainTests.test_all_stages_and_provisional_metadata) ... ok\ntest_distinct_books_need_not_be_shared (test_domain.DomainTests.test_distinct_books_need_not_be_shared) ... ok\ntest_empty_quantifier_domains (test_domain.DomainTests.test_empty_quantifier_domains) ... ok\ntest_five_finite_clauses (test_domain.DomainTests.test_five_finite_clauses) ... ok\ntest_focus_is_answer_not_wh_word (test_domain.DomainTests.test_focus_is_answer_not_wh_word) ... ok\ntest_navigation_fresh (test_domain.DomainTests.test_navigation_fresh) ... ok\ntest_no_reviewed_status_without_record (test_domain.DomainTests.test_no_reviewed_status_without_record) ... ok\ntest_not_every_does_not_require_some_pass (test_domain.DomainTests.test_not_every_does_not_require_some_pass) ... ok\ntest_past_regular_patterns (test_domain.DomainTests.test_past_regular_patterns) ... ok\ntest_plural_regular_patterns (test_domain.DomainTests.test_plural_regular_patterns) ... ok\ntest_provisional_label_required (test_domain.DomainTests.test_provisional_label_required) ... ok\ntest_recipient_is_not_patient (test_domain.DomainTests.test_recipient_is_not_patient) ... ok\ntest_relative_ends_before_recipient_pp (test_domain.DomainTests.test_relative_ends_before_recipient_pp) ... ok\ntest_shared_book_satisfies_both_readings (test_domain.DomainTests.test_shared_book_satisfies_both_readings) ... ok\ntest_spans_are_nested_or_disjoint (test_domain.DomainTests.test_spans_are_nested_or_disjoint) ... ok\ntest_unknown_spelling_is_not_a_sound (test_domain.DomainTests.test_unknown_spelling_is_not_a_sound) ... ok\ntest_general_american_is_primary (test_general_american_policy.GeneralAmericanPolicyTests.test_general_american_is_primary) ... ok\ntest_no_automatic_scientific_promotion (test_general_american_policy.GeneralAmericanPolicyTests.test_no_automatic_scientific_promotion) ... ok\ntest_source_records_are_bounded (test_general_american_policy.GeneralAmericanPolicyTests.test_source_records_are_bounded) ... ok\ntest_transcription_levels_are_distinct (test_general_american_policy.GeneralAmericanPolicyTests.test_transcription_levels_are_distinct) ... ok\ntest_added_sources_state_actual_access_and_nonclaims (test_pronunciation_practices.PronunciationPracticeTests.test_added_sources_state_actual_access_and_nonclaims) ... ok\ntest_analysis_listening_and_production_are_distinct (test_pronunciation_practices.PronunciationPracticeTests.test_analysis_listening_and_production_are_distinct) ... ok\ntest_composition_is_one_way (test_pronunciation_practices.PronunciationPracticeTests.test_composition_is_one_way) ... ok\ntest_no_invented_review_or_performance (test_pronunciation_practices.PronunciationPracticeTests.test_no_invented_review_or_performance) ... ok\ntest_phone_supports_both_input_routes_and_features (test_pronunciation_practices.PronunciationPracticeTests.test_phone_supports_both_input_routes_and_features) ... ok\ntest_reuses_existing_methods_and_models (test_pronunciation_practices.PronunciationPracticeTests.test_reuses_existing_methods_and_models) ... ok\ntest_rights_privacy_and_discomfort_fallback (test_pronunciation_practices.PronunciationPracticeTests.test_rights_privacy_and_discomfort_fallback) ... ok\ntest_stage_maps_and_six_local_stages (test_pronunciation_practices.PronunciationPracticeTests.test_stage_maps_and_six_local_stages) ... ok\ntest_two_real_practices_with_ga_scope (test_pronunciation_practices.PronunciationPracticeTests.test_two_real_practices_with_ga_scope) ... ok\ntest_word_includes_retrieval_transfer_and_source_checks (test_pronunciation_practices.PronunciationPracticeTests.test_word_includes_retrieval_transfer_and_source_checks) ... ok\n\n----------------------------------------------------------------------\nRan 30 tests in 0.133s\n\nOK\n"
+    }
+  ],
+  "practice_sha256": {
+    "practices/learn-word-pronunciation.md": "4577e674e18c97599db501fc9da0e29bf92c2e4b12c51e877ce081bac11e9d51",
+    "practices/classify-and-produce-phone.md": "656b8ef60152c8d052fe0d8302d149bd3cddc08bbbc058f2ab1417e1f56abffa"
+  }
+}

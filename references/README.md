@@ -10,7 +10,7 @@ status: "draft"
 The source register records actual publications and inspected extent, not a blanket bibliography proving all content.
 
 ## Summary
-Eight records support selected structural conventions, linguistic distinctions and the declared pronunciation-source workflow. All knowledge objects remain provisional. A missing reference is a visible research gap; an abstract-only record is not full-text review.
+Ten records support selected structural conventions, linguistic distinctions and the declared pronunciation-source workflow. All knowledge objects remain provisional. A missing reference is a visible research gap; an abstract-only record is not full-text review.
 
 ## Publications
 
@@ -23,6 +23,9 @@ Eight records support selected structural conventions, linguistic distinctions a
 - [Sounds American American IPA chart and terms](sounds-american-undated-chart-and-terms.md) — Search-indexed home chart and indexed usage terms only; no instructional videos or sound recordings played; used for pedagogical articulation orientation.
 - [toPhonetics converter and FAQ](tophonetics-undated-english-transcription.md) — Inspected homepage and FAQ text; American transcriptions are candidate broad phonemic forms and have not been batch tested or verified here.
 - [Interactive IPA chart](international-phonetic-association-undated-interactive-chart.md) — Official interactive page URL, associated official chart background and copyright notes; no playable tokens inspected; interactive media and the static chart have distinct licence conditions.
+
+- [IPA diacritics and other symbols](international-phonetic-association-undated-diacritics-and-other-symbols.md) — Visual inspection of official diacritics and other-symbol PNG panels with consonant/vowel cross-checks; no audio inspected. Supports symbol modifiers and coordination, not learning effectiveness.
+- [Merriam-Webster pin entry](merriam-webster-undated-pin-entry.md) — Retrieved lexical entry and its displayed dictionary notation; no audio played and the separate pronunciation-key page was inaccessible. Supports lexical identification only.
 
 ## Source rights and limits
 

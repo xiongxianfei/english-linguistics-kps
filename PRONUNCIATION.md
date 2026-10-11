@@ -45,6 +45,10 @@ These are **authored illustrative examples**, not transcriptions copied from a p
 6. For surface realizations such as [ɾ] or [pʰ], distinguish a predicted contextual phone from a **recorded and inspected** token. A source video or browser text-to-speech playback is not evidence of how a specific speaker pronounced a different utterance.
 7. Record the source, URL, date, inspected extent, phonemic convention, proposed form, uncertainty, and counterexamples in the associated KPS object. Retain provisional status pending actual claim-level review.
 
+## Operational Practices
+
+[Learn a word pronunciation](practices/learn-word-pronunciation.md) combines candidate phonemic lookup, source checking, listening, articulation, recording, feedback and unprompted retrieval. [Classify and produce a phone](practices/classify-and-produce-phone.md) separates symbol-led and audio-led analysis, consonant and vowel feature branches, diacritics and actual performance. Neither is completed merely by copying IPA. Both provide partial-result statuses when evidence or feedback is unavailable and keep personal records outside the public repository.
+
 ## Historical and alternate varieties
 Existing British-style symbols in older draft objects are not silently interpreted as General American. Either relabel them as a British illustrative convention, or create a separately supported GA counterpart before using the example as a default. Do not perform blind symbol substitution on entire word transcriptions: lexical incidence, mergers, rhoticity, vowels and stress can differ across accents. An update to the primary reference variety does not invalidate other English varieties.
 

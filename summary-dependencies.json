@@ -508,11 +508,47 @@
       "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
       "concepts/root-base-and-stem.md": "8929a22913e5e9fd7518df40312daac81b9a54afcffeaaf37fb0c3860a5aa334"
     },
+    "practices/classify-and-produce-phone.md": {
+      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
+      "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
+      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
+      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
+      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
+      "methods/analyze-sound-realization.md": "1ca5aabdc23873a0d37085d2de1b160ee939357e017ffc7c09db619ac5098e5d",
+      "models/phonological-word-model.md": "9677a6eb539560dc4b901a29e0af871be0523824b704e47b6059998a2fb72272",
+      "principles/realization-varies-with-environment.md": "66813e6053b2dd0a646bde1322a1e3d10188fd2af84dabebf62fa39a34924eef",
+      "principles/validation-does-not-establish-truth.md": "612078485951e199722a2c04b52b2338ad6003f23c93e17d51dc83bc74fb8b6b",
+      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4",
+      "references/international-phonetic-association-undated-diacritics-and-other-symbols.md": "934eb3b3052dc063bde1fa7c85779345cb0daca56d343b036b3d089561d303dc",
+      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
+      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
+      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535"
+    },
     "practices/investigate-linguistic-question.md": {
       "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
       "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e",
       "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
       "references/xiongxianfei-2026-knowledge-practice-system.md": "37f663722ce0bcc816e5e4acfbbb8922d1958d14e9e4e252df214f1ea8d69d97"
+    },
+    "practices/learn-word-pronunciation.md": {
+      "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
+      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
+      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
+      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
+      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
+      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
+      "methods/analyze-sound-realization.md": "1ca5aabdc23873a0d37085d2de1b160ee939357e017ffc7c09db619ac5098e5d",
+      "models/phonological-word-model.md": "9677a6eb539560dc4b901a29e0af871be0523824b704e47b6059998a2fb72272",
+      "practices/classify-and-produce-phone.md": "656b8ef60152c8d052fe0d8302d149bd3cddc08bbbc058f2ab1417e1f56abffa",
+      "principles/realization-varies-with-environment.md": "66813e6053b2dd0a646bde1322a1e3d10188fd2af84dabebf62fa39a34924eef",
+      "principles/validation-does-not-establish-truth.md": "612078485951e199722a2c04b52b2338ad6003f23c93e17d51dc83bc74fb8b6b",
+      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4",
+      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
+      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
+      "references/merriam-webster-undated-pin-entry.md": "3fb8505819866163029e4769bf8b6c0a589a9e13138f9a00c2b7111b543920dd",
+      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535",
+      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
     },
     "practices/maintain-english-package.md": {
       "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
@@ -583,6 +619,9 @@
       "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
       "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
       "references/xiongxianfei-2026-knowledge-practice-system.md": "37f663722ce0bcc816e5e4acfbbb8922d1958d14e9e4e252df214f1ea8d69d97"
+    },
+    "references/international-phonetic-association-undated-diacritics-and-other-symbols.md": {
+      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
     }
   }
 }

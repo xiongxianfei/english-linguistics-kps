@@ -132,7 +132,9 @@ Generated navigation over canonical knowledge objects. Stage labels record cover
 
 ## Practices
 
+- [Classify and produce a phone](practices/classify-and-produce-phone.md) — Stage 6, 7; provisional.
 - [Investigate linguistic question](practices/investigate-linguistic-question.md) — Stage 7; provisional.
+- [Learn a word pronunciation](practices/learn-word-pronunciation.md) — Stage 6, 7; provisional.
 - [Maintain English package](practices/maintain-english-package.md) — Stage 7; provisional.
 
 ## Other views
