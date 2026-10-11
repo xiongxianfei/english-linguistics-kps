@@ -22,7 +22,7 @@ This is the user-authorized broad first draft. It is not independently reviewed 
 
 ## What is included
 
-The initial package contains 108 knowledge objects: 72 Concepts, 13 Principles, 15 Models, 6 Methods and 2 research-maintenance Practices. Five publication-based Reference records document exactly what was inspected. Stage 0 covers foundations; Stage 1 morphology and lexicon; Stage 2 syntax; Stage 3 semantics; Stage 4 pragmatics; Stage 5 discourse and information structure; Stage 6 phonetics and phonology; Stage 7 interfaces and integration.
+The initial package contains 108 knowledge objects: 72 Concepts, 13 Principles, 15 Models, 6 Methods and 2 research-maintenance Practices. Eight publication-based Reference records document exactly what was inspected. Stage 0 covers foundations; Stage 1 morphology and lexicon; Stage 2 syntax; Stage 3 semantics; Stage 4 pragmatics; Stage 5 discourse and information structure; Stage 6 phonetics and phonology; Stage 7 interfaces and integration.
 
 ## Evidence status
 
