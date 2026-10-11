@@ -1,0 +1,22 @@
+name: Linguistic content review
+description: Report a bounded claim, counterexample, source gap, or scope correction
+title: "review: "
+body:
+  - type: textarea
+    id: object
+    attributes:
+      label: Knowledge object and claim
+      description: Link the exact file and quote only the necessary claim.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and scope
+      description: Identify variety, theoretical framework, source locator and what was actually inspected.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction or unresolved alternatives
