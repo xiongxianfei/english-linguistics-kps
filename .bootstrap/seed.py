@@ -48,6 +48,14 @@ for name,content in payload['files'].items():
     target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(content,encoding='utf-8')
 print('Extracted 136 authored files after integrity checks',flush=True)
+# Correct a document-format issue reported by the unchanged upstream checker.
+# Linguistic bracketing is an example, not an application-specific wikilink.
+compound=ROOT/'concepts/compounding.md'
+text=compound.read_text(encoding='utf-8')
+old='a useful hierarchy is [[school [teach-er]]-s].'
+if text.count(old)!=1:
+    raise SystemExit('Unexpected compound example while applying reviewed format correction')
+compound.write_text(text.replace(old,'a useful hierarchy is `[[school [teach-er]]-s]`.'),encoding='utf-8')
 lock=json.loads((ROOT/'upstream-lock.json').read_text())
 if lock['commit']!=PIN or lock['copied_files']!=BLOBS:
     raise SystemExit('Upstream lock mismatch')
@@ -87,6 +95,6 @@ run(['tools/check_domain.py'])
 run(['tools/build_navigation.py','--check'])
 run(['-m','unittest','discover','-s','tests','-v'])
 validation=json.loads(run(['validate.py','.','--json']))
-evidence={'recorded_at':datetime.now(timezone.utc).isoformat(),'python':platform.python_version(),'build_input_commit':os.environ.get('GITHUB_SHA'),'upstream_commit':PIN,'scope':'Publication structure and constructed-model consistency only; not linguistic truth','scientific_review':'No independent scientific review performed','initial_summary_review':'AI-assisted authoring review of linked summaries and source scope; not expert approval','validation':validation,'executed_checks':results}
+evidence={'recorded_at':datetime.now(timezone.utc).isoformat(),'python':platform.python_version(),'build_input_commit':os.environ.get('GITHUB_SHA'),'upstream_commit':PIN,'scope':'Publication structure and constructed-model consistency only; not linguistic truth','scientific_review':'No independent scientific review performed','initial_summary_review':'AI-assisted authoring review of linked summaries and source scope; not expert approval','format_corrections':['Compounding bracket example marked as inline code after initial validation failure'],'validation':validation,'executed_checks':results}
 (ROOT/'validation-evidence.json').write_text(json.dumps(evidence,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('All executed checks passed; evidence recorded; scientific status remains provisional',flush=True)
