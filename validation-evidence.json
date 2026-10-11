@@ -1,0 +1,113 @@
+{
+  "recorded_at": "2026-10-11T19:20:39.832808+00:00",
+  "python": "3.12.3",
+  "build_input_commit": "30243080dec8b577ceef5eaac4099502fd03fc85",
+  "upstream_commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
+  "scope": "Publication structure and constructed-model consistency only; not linguistic truth",
+  "scientific_review": "No independent scientific review performed",
+  "initial_summary_review": "AI-assisted authoring review of linked summaries and source scope; not expert approval",
+  "format_corrections": [
+    "Compounding bracket example marked as inline code after initial validation failure"
+  ],
+  "validation": {
+    "ok": true,
+    "scope": "publication structure and declared dependency changes only; not factual or domain conformance validation",
+    "stats": {
+      "markdown_documents": 129,
+      "knowledge_objects": 108,
+      "reference_records": 5,
+      "by_type": {
+        "concept": 72,
+        "method": 6,
+        "model": 15,
+        "practice": 2,
+        "principle": 13
+      },
+      "local_links": 715,
+      "typed_relationships": 357,
+      "practice_stages": 7,
+      "heading_identifiers": 1186,
+      "summary_recipients": 108,
+      "summary_dependencies": 357,
+      "manifest_files": 0
+    },
+    "errors": []
+  },
+  "executed_checks": [
+    {
+      "command": [
+        "python3",
+        "tools/build_navigation.py"
+      ],
+      "exit_code": 0,
+      "output": "Navigation views written\n"
+    },
+    {
+      "command": [
+        "python3",
+        "validate.py",
+        ".",
+        "--accept-reviewed-summaries"
+      ],
+      "exit_code": 0,
+      "output": "PASS {\"markdown_documents\": 129, \"knowledge_objects\": 108, \"reference_records\": 5, \"by_type\": {\"concept\": 72, \"method\": 6, \"model\": 15, \"practice\": 2, \"principle\": 13}, \"local_links\": 715, \"typed_relationships\": 357, \"practice_stages\": 7, \"heading_identifiers\": 1186, \"summary_recipients\": 108, \"summary_dependencies\": 357, \"manifest_files\": 0}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "validate.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output": "PASS {\"markdown_documents\": 129, \"knowledge_objects\": 108, \"reference_records\": 5, \"by_type\": {\"concept\": 72, \"method\": 6, \"model\": 15, \"practice\": 2, \"principle\": 13}, \"local_links\": 715, \"typed_relationships\": 357, \"practice_stages\": 7, \"heading_identifiers\": 1186, \"summary_recipients\": 108, \"summary_dependencies\": 357, \"manifest_files\": 0}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "test_validate.py"
+      ],
+      "exit_code": 0,
+      "output": "test_01_clean_package (__main__.PublicationChecks.test_01_clean_package) ... ok\ntest_02_missing_summary (__main__.PublicationChecks.test_02_missing_summary) ... ok\ntest_03_empty_summary (__main__.PublicationChecks.test_03_empty_summary) ... ok\ntest_04_imperative_principle (__main__.PublicationChecks.test_04_imperative_principle) ... ok\ntest_05_missing_method_rationale (__main__.PublicationChecks.test_05_missing_method_rationale) ... ok\ntest_06_link_only_stage_action (__main__.PublicationChecks.test_06_link_only_stage_action) ... ok\ntest_07_nonconsecutive_stage (__main__.PublicationChecks.test_07_nonconsecutive_stage) ... ok\ntest_08_invented_ti_fragment (__main__.PublicationChecks.test_08_invented_ti_fragment) ... ok\ntest_09_duplicate_heading (__main__.PublicationChecks.test_09_duplicate_heading) ... ok\ntest_10_missing_target (__main__.PublicationChecks.test_10_missing_target) ... ok\ntest_11_target_outside_package (__main__.PublicationChecks.test_11_target_outside_package) ... ok\ntest_12_duplicate_identity (__main__.PublicationChecks.test_12_duplicate_identity) ... ok\ntest_13_wrong_relationship_role (__main__.PublicationChecks.test_13_wrong_relationship_role) ... ok\ntest_14_unknown_identity (__main__.PublicationChecks.test_14_unknown_identity) ... ok\ntest_15_wrong_folder_role (__main__.PublicationChecks.test_15_wrong_folder_role) ... ok\ntest_16_recursive_composition_cycle (__main__.PublicationChecks.test_16_recursive_composition_cycle) ... ok\ntest_17_metadata_id_is_not_an_anchor (__main__.PublicationChecks.test_17_metadata_id_is_not_an_anchor) ... ok\ntest_18_changed_dependency_needs_review (__main__.PublicationChecks.test_18_changed_dependency_needs_review) ... ok\ntest_19_exact_version_not_major_line (__main__.PublicationChecks.test_19_exact_version_not_major_line) ... ok\ntest_20_wrong_language_in_file (__main__.PublicationChecks.test_20_wrong_language_in_file) ... ok\ntest_21_custom_html_anchor (__main__.PublicationChecks.test_21_custom_html_anchor) ... ok\ntest_22_application_wikilink (__main__.PublicationChecks.test_22_application_wikilink) ... ok\ntest_23_missing_reference_access_extent (__main__.PublicationChecks.test_23_missing_reference_access_extent) ... ok\ntest_24_manifest_detects_tamper (__main__.PublicationChecks.test_24_manifest_detects_tamper) ... ok\ntest_25_manifest_detects_unlisted_payload (__main__.PublicationChecks.test_25_manifest_detects_unlisted_payload) ... ok\ntest_26_fenced_demonstration_is_not_live (__main__.PublicationChecks.test_26_fenced_demonstration_is_not_live) ... ok\ntest_27_fresh_manifest_verifies (__main__.PublicationChecks.test_27_fresh_manifest_verifies) ... ok\ntest_28_duplicate_metadata_key (__main__.PublicationChecks.test_28_duplicate_metadata_key) ... ok\ntest_29_missing_stage_map (__main__.PublicationChecks.test_29_missing_stage_map) ... ok\ntest_30_review_refresh_does_not_hide_broken_links (__main__.PublicationChecks.test_30_review_refresh_does_not_hide_broken_links) ... ok\ntest_31_manifest_ignores_checkout_and_caches (__main__.PublicationChecks.test_31_manifest_ignores_checkout_and_caches) ... ok\n\n----------------------------------------------------------------------\nRan 31 tests in 7.219s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_domain.py"
+      ],
+      "exit_code": 0,
+      "output": "Domain publication checks: 108 knowledge objects; 0 errors; no factual certification\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/build_navigation.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "Navigation views checked\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_all_stages_and_provisional_metadata (test_domain.DomainTests.test_all_stages_and_provisional_metadata) ... ok\ntest_distinct_books_need_not_be_shared (test_domain.DomainTests.test_distinct_books_need_not_be_shared) ... ok\ntest_empty_quantifier_domains (test_domain.DomainTests.test_empty_quantifier_domains) ... ok\ntest_five_finite_clauses (test_domain.DomainTests.test_five_finite_clauses) ... ok\ntest_focus_is_answer_not_wh_word (test_domain.DomainTests.test_focus_is_answer_not_wh_word) ... ok\ntest_navigation_fresh (test_domain.DomainTests.test_navigation_fresh) ... ok\ntest_no_reviewed_status_without_record (test_domain.DomainTests.test_no_reviewed_status_without_record) ... ok\ntest_not_every_does_not_require_some_pass (test_domain.DomainTests.test_not_every_does_not_require_some_pass) ... ok\ntest_past_regular_patterns (test_domain.DomainTests.test_past_regular_patterns) ... ok\ntest_plural_regular_patterns (test_domain.DomainTests.test_plural_regular_patterns) ... ok\ntest_provisional_label_required (test_domain.DomainTests.test_provisional_label_required) ... ok\ntest_recipient_is_not_patient (test_domain.DomainTests.test_recipient_is_not_patient) ... ok\ntest_relative_ends_before_recipient_pp (test_domain.DomainTests.test_relative_ends_before_recipient_pp) ... ok\ntest_shared_book_satisfies_both_readings (test_domain.DomainTests.test_shared_book_satisfies_both_readings) ... ok\ntest_spans_are_nested_or_disjoint (test_domain.DomainTests.test_spans_are_nested_or_disjoint) ... ok\ntest_unknown_spelling_is_not_a_sound (test_domain.DomainTests.test_unknown_spelling_is_not_a_sound) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.145s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "validate.py",
+        ".",
+        "--json"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"scope\": \"publication structure and declared dependency changes only; not factual or domain conformance validation\",\n  \"stats\": {\n    \"markdown_documents\": 129,\n    \"knowledge_objects\": 108,\n    \"reference_records\": 5,\n    \"by_type\": {\n      \"concept\": 72,\n      \"method\": 6,\n      \"model\": 15,\n      \"practice\": 2,\n      \"principle\": 13\n    },\n    \"local_links\": 715,\n    \"typed_relationships\": 357,\n    \"practice_stages\": 7,\n    \"heading_identifiers\": 1186,\n    \"summary_recipients\": 108,\n    \"summary_dependencies\": 357,\n    \"manifest_files\": 0\n  },\n  \"errors\": []\n}\n"
+    }
+  ]
+}
