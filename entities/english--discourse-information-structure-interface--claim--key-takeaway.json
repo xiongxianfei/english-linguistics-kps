@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:information-structure"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:discourse-information-structure-interface:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Discourse Information Structure interface — summary claim",
+  "owner": "english:discourse-information-structure-interface",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A stated discourse context constrains an information-structure analysis without making grammatical Subject, Topic and Focus interchangeable.",
+  "status": "draft",
+  "version": "0.1.0"
+}

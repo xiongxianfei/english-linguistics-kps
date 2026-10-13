@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexicalization",
+    "linguistics:morphology",
+    "linguistics:morphology:compounds"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:compounding:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Compounding — summary claim",
+  "owner": "english:compounding",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Compounding combines lexical bases into a larger lexical expression.",
+  "status": "draft",
+  "version": "0.1.0"
+}

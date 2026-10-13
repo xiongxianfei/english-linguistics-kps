@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "description": "Represents a system with assumptions, implications and limits.",
+  "domains": [],
+  "id": "kps:role:model",
+  "kind": "role",
+  "label": "Model",
+  "relations": [],
+  "required_sections": [
+    "Purpose",
+    "Representation",
+    "Assumptions and limits",
+    "Evaluation and counterevidence"
+  ],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.1.0"
+}

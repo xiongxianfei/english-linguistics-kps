@@ -1,9 +1,3 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
-
 # Scope and theory policy
 
 ## Key takeaway

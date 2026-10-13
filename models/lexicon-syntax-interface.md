@@ -1,61 +1,38 @@
----
-id: "english:model:lexicon-syntax-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:lexical-selection", "english:concept:head-and-dependent", "english:concept:object-and-pp-complement", "english:concept:valency-and-argument-structure"]
----
-
 # Lexicon Syntax interface
 
 ## Key takeaway
-Lexical senses and constructions constrain the category and form of licensed syntactic complements.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/lexicon-syntax-interface.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Lexical senses and constructions constrain the category and form of licensed syntactic complements. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/lexicon-syntax-interface.md#summary) in the canonical KPS 12 content.
 
 ## Purpose
 
-Lexical senses and constructions constrain the category and form of licensed syntactic complements.
+This is a compatibility redirect. Read [Purpose](../knowledge/lexicon-syntax-interface.md#purpose) in the canonical KPS 12 content.
 
 ## Representation
 
-| Lexical sense | Working frame | Local distinctions |
-|---|---|---|
-| DEPEND dependence | Subject + V + on-PP | NP inside PP complements ON |
-| DISCUSS transitive | Subject + V + NP | NP is Direct Object |
-| PUT placement | Subject + V + NP + location complement | Location is not another Object |
-| RUN management | Subject + V + NP | Different from locomotion use |
+This is a compatibility redirect. Read [Representation](../knowledge/lexicon-syntax-interface.md#representation) in the canonical KPS 12 content.
 
 ## Worked interpretation
 
-For "The result depends on the weather", on the weather is a PP complement of DEPEND; the weather is an NP complement of ON. The grammar is not a generic SVO template followed by an unrelated lexical pass. Selection information participates in grammatical licensing.
+This is a compatibility redirect. Read [Worked interpretation](../knowledge/lexicon-syntax-interface.md#worked-interpretation) in the canonical KPS 12 content.
 
 ## Assumptions and limits
 
-The frames are sense-specific working descriptions. Constructional theories may locate some information outside an item-specific entry; dialectal data can change the relevant permitted forms.
+This is a compatibility redirect. Read [Assumptions and limits](../knowledge/lexicon-syntax-interface.md#assumptions-and-limits) in the canonical KPS 12 content.
 
 ## Evaluation and counterevidence
 
-Compare attested frames, accepted omission and meaning shifts. Count semantic arguments separately from overt NP objects. A frame must explain local hierarchy rather than infer functions from participant importance.
+This is a compatibility redirect. Read [Evaluation and counterevidence](../knowledge/lexicon-syntax-interface.md#evaluation-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/lexicon-syntax-interface.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Lexical selection](../concepts/lexical-selection.md) provides a related distinction used in the local explanation.
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
-- [Valency and argument structure](../concepts/valency-and-argument-structure.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/lexicon-syntax-interface.md#related-knowledge) in the canonical KPS 12 content.
+

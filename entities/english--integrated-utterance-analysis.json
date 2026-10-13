@@ -1,0 +1,120 @@
+{
+  "aliases": [
+    "english:model:integrated-utterance-analysis"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:integrated-utterance-analysis:claim:key-takeaway"
+  ],
+  "content": "knowledge/integrated-utterance-analysis.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:information-structure",
+    "linguistics:lexicon",
+    "linguistics:morphology",
+    "linguistics:phonetics",
+    "linguistics:phonology",
+    "linguistics:pragmatics",
+    "linguistics:prosody",
+    "linguistics:semantics",
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:integrated-utterance-analysis",
+  "kind": "knowledge",
+  "label": "Integrated utterance analysis",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:integrated-utterance-analysis",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:relative-clause",
+        "english:concept:semantic-role",
+        "english:concept:allomorphy",
+        "english:concept:contextual-resolution",
+        "english:concept:discourse-relation",
+        "english:concept:focus-topic-and-qud",
+        "english:concept:interface"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:integrated-utterance-analysis",
+    "old_path": "models/integrated-utterance-analysis.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:relative-clause"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-role"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:allomorphy"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:contextual-resolution"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:discourse-relation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:focus-topic-and-qud"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:interface"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

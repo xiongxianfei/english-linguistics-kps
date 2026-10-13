@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:information-structure:focus-and-alternatives",
+  "kind": "domain",
+  "label": "Focus and alternatives",
+  "parents": [
+    "linguistics:information-structure"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Information Structure: focus and alternatives. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

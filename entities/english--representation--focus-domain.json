@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:information-structure"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:focus-domain",
+  "kind": "representation",
+  "label": "Focus domain",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "question_under_discussion",
+      "focus_span",
+      "background"
+    ]
+  },
+  "version": "0.1.0"
+}

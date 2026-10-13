@@ -1,0 +1,42 @@
+{
+  "access_extent": "HTML landing metadata and selected HTML chapter scripts: 6.2 Allomorphs, 9.3 Thematic Roles and Passive Sentences, 3.4 Aspirated Stops in English, and 8.8 Adjuncts. Videos, audio, image measurements and the complete book were not inspected.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:anderson-2018-essentials-of-linguistics"
+  ],
+  "content": "sources/anderson-2018-essentials-of-linguistics.md",
+  "creator": "Catherine Anderson",
+  "date_basis": "Publication date and creator from the inspected book landing metadata. This record is not the second edition.",
+  "domains": [],
+  "id": "english:anderson-2018-essentials-of-linguistics",
+  "kind": "source",
+  "label": "Essentials of Linguistics selected first edition sections",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "HTML landing metadata and selected HTML chapter scripts: 6.2 Allomorphs, 9.3 Thematic Roles and Passive Sentences, 3.4 Aspirated Stops in English, and 8.8 Adjuncts. Videos, audio, image measurements and the complete book were not inspected.",
+      "accessed": "2026-10-11",
+      "creator": "Catherine Anderson",
+      "date_basis": "Publication date and creator from the inspected book landing metadata. This record is not the second edition.",
+      "id": "english:reference:anderson-2018-essentials-of-linguistics",
+      "language": "KPS 9.x",
+      "publication": "Essentials of Linguistics, first edition, McMaster University",
+      "publication_date": "2018-03-15",
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:anderson-2018-essentials-of-linguistics",
+    "old_path": "references/anderson-2018-essentials-of-linguistics.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Essentials of Linguistics, first edition, McMaster University",
+  "publication_date": "2018-03-15",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

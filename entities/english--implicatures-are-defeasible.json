@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:principle:implicatures-are-defeasible"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:implicatures-are-defeasible:claim:key-takeaway"
+  ],
+  "content": "knowledge/implicatures-are-defeasible.md",
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:implicature"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:implicatures-are-defeasible",
+  "kind": "knowledge",
+  "label": "Conversational inferences can be defeasible",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:implicatures-are-defeasible",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "pragmatics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        4
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:implicature",
+        "english:concept:gricean-reasoning",
+        "english:concept:negation-and-entailment"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:implicatures-are-defeasible",
+    "old_path": "principles/implicatures-are-defeasible.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:implicature"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:gricean-reasoning"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:negation-and-entailment"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        4
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

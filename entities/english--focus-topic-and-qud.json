@@ -1,0 +1,96 @@
+{
+  "aliases": [
+    "english:concept:focus-topic-and-qud"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:focus-topic-and-qud:claim:key-takeaway"
+  ],
+  "content": "knowledge/focus-topic-and-qud.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:information-structure",
+    "linguistics:information-structure:focus-and-alternatives",
+    "linguistics:information-structure:qud-organization",
+    "linguistics:information-structure:topic-and-background",
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:question-under-discussion"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:focus-topic-and-qud",
+  "kind": "knowledge",
+  "label": "Focus topic and question under discussion",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:focus-topic-and-qud",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "pragmatics"
+      ],
+      "references": [
+        "english:reference:roberts-2012-information-structure"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        4
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:prosody",
+        "english:concept:givenness-and-bridging",
+        "english:concept:common-ground"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:focus-topic-and-qud",
+    "old_path": "concepts/focus-topic-and-qud.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:prosody"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:givenness-and-bridging"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:common-ground"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:roberts-2012-information-structure"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        4
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

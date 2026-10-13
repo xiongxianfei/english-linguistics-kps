@@ -1,0 +1,42 @@
+{
+  "access_extent": "Official chart webpage text and visual inspection of its pulmonic-consonant, vowel and suprasegmental PNG subcharts. No audio, articulatory measurements or language-specific full inventory was examined.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:international-phonetic-association-undated-ipa-chart"
+  ],
+  "content": "sources/international-phonetic-association-undated-ipa-chart.md",
+  "creator": "International Phonetic Association",
+  "date_basis": "The webpage publication date was not established; chart revision and reissue dates are not substituted for a webpage publication date.",
+  "domains": [],
+  "id": "english:international-phonetic-association-undated-ipa-chart",
+  "kind": "source",
+  "label": "International Phonetic Alphabet official chart",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Official chart webpage text and visual inspection of its pulmonic-consonant, vowel and suprasegmental PNG subcharts. No audio, articulatory measurements or language-specific full inventory was examined.",
+      "accessed": "2026-10-11",
+      "creator": "International Phonetic Association",
+      "date_basis": "The webpage publication date was not established; chart revision and reissue dates are not substituted for a webpage publication date.",
+      "id": "english:reference:international-phonetic-association-undated-ipa-chart",
+      "language": "KPS 9.x",
+      "publication": "IPA chart and component charts on the official website",
+      "publication_date": null,
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:international-phonetic-association-undated-ipa-chart",
+    "old_path": "references/international-phonetic-association-undated-ipa-chart.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "IPA chart and component charts on the official website",
+  "publication_date": null,
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

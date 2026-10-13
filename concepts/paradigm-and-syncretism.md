@@ -1,51 +1,34 @@
----
-id: "english:concept:paradigm-and-syncretism"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:inflection", "english:concept:finiteness", "english:concept:auxiliary-chain"]
----
-
 # Paradigm and syncretism
 
 ## Key takeaway
-A paradigm organizes the grammatical forms of a lexeme by feature values or form categories.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/paradigm-and-syncretism.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A paradigm organizes the grammatical forms of a lexeme by feature values or form categories. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/paradigm-and-syncretism.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A paradigm organizes the grammatical forms of a lexeme by feature values or form categories. Syncretism occurs when distinct cells share the same overt form. The shape of a word therefore need not uniquely identify its grammatical use.
+This is a compatibility redirect. Read [Definition](../knowledge/paradigm-and-syncretism.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-WRITE: plain write; third-person singular present writes; past wrote; past participle written; ing form writing. PUT has put in the plain, past and past-participle cells, plus puts and putting. The shared string does not collapse all three cells into one tense.
+This is a compatibility redirect. Read [Worked example](../knowledge/paradigm-and-syncretism.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Past tense is not past participle. "They worked" and "They have worked" use the same spelling but different positions in the paradigm and auxiliary structure.
+This is a compatibility redirect. Read [Distinctions](../knowledge/paradigm-and-syncretism.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Person and tense features do not exhaust all paradigm distinctions. This introductory layout follows conventional English principal forms rather than claiming each cell is a separate underlying morpheme.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/paradigm-and-syncretism.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/paradigm-and-syncretism.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
-- [Finiteness](../concepts/finiteness.md) provides a related distinction used in the local explanation.
-- [Auxiliary chain](../concepts/auxiliary-chain.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/paradigm-and-syncretism.md#related-knowledge) in the canonical KPS 12 content.
+

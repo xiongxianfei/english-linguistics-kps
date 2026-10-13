@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:anaphora-and-accessibility",
+    "linguistics:information-structure",
+    "linguistics:information-structure:givenness"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:anaphora-and-accessibility:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Anaphora and accessibility — summary claim",
+  "owner": "english:anaphora-and-accessibility",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Anaphora links an expression's interpretation to discourse material or a structurally available antecedent.",
+  "status": "draft",
+  "version": "0.1.0"
+}

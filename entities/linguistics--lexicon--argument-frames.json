@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:lexicon:argument-frames",
+  "kind": "domain",
+  "label": "Argument frames",
+  "parents": [
+    "linguistics:lexicon"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Lexicon: argument frames. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

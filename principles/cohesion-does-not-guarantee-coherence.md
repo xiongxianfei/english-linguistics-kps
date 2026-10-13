@@ -1,51 +1,34 @@
----
-id: "english:principle:cohesion-does-not-guarantee-coherence"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:cohesion-and-coherence", "english:concept:discourse-relation", "english:concept:focus-topic-and-qud"]
----
-
 # Cohesive links do not guarantee coherence
 
 ## Key takeaway
-Explicit linguistic links do not by themselves establish a well motivated conceptual relationship among all discourse units.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/cohesion-does-not-guarantee-coherence.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Explicit linguistic links do not by themselves establish a well motivated conceptual relationship among all discourse units. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/cohesion-does-not-guarantee-coherence.md#summary) in the canonical KPS 12 content.
 
 ## Statement
 
-Explicit linguistic links do not by themselves establish a well motivated conceptual relationship among all discourse units.
+This is a compatibility redirect. Read [Statement](../knowledge/cohesion-does-not-guarantee-coherence.md#statement) in the canonical KPS 12 content.
 
 ## Explanation
 
-Pronouns can maintain referent identity while an utterance fails to address the active issue. Conversely, a relevant causal or explanatory connection can be inferred without an overt connective. Thus counting cohesive devices cannot substitute for interpreting the contribution of each unit.
+This is a compatibility redirect. Read [Explanation](../knowledge/cohesion-does-not-guarantee-coherence.md#explanation) in the canonical KPS 12 content.
 
 ## Worked contrast
 
-"Maya bought a telescope. She likes coffee. The telescope was costly" has anaphoric links, but the coffee statement may need additional motivation. A wider story about Maya's spending could supply that motivation.
+This is a compatibility redirect. Read [Worked contrast](../knowledge/cohesion-does-not-guarantee-coherence.md#worked-contrast) in the canonical KPS 12 content.
 
 ## Scope and counterevidence
 
-Coherence is context-dependent and framework-sensitive. The principle predicts the need for an interpretive account, not a context-free binary coherence score or a measured quality metric.
+This is a compatibility redirect. Read [Scope and counterevidence](../knowledge/cohesion-does-not-guarantee-coherence.md#scope-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/cohesion-does-not-guarantee-coherence.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Cohesion and coherence](../concepts/cohesion-and-coherence.md) provides a related distinction used in the local explanation.
-- [Discourse relation](../concepts/discourse-relation.md) provides a related distinction used in the local explanation.
-- [Focus topic and question under discussion](../concepts/focus-topic-and-qud.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/cohesion-does-not-guarantee-coherence.md#related-knowledge) in the canonical KPS 12 content.
+

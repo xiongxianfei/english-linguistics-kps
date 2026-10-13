@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:prosodic-acoustic-description",
+  "kind": "representation",
+  "label": "Prosodic acoustic description",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "pitch_pattern",
+      "duration",
+      "intensity",
+      "measurement_method",
+      "recording_id"
+    ]
+  },
+  "version": "0.1.0"
+}

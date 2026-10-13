@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:cohesion-and-coherence"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:cohesion-does-not-guarantee-coherence:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Cohesive links do not guarantee coherence — summary claim",
+  "owner": "english:cohesion-does-not-guarantee-coherence",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Explicit linguistic links do not by themselves establish a well motivated conceptual relationship among all discourse units.",
+  "status": "draft",
+  "version": "0.1.0"
+}

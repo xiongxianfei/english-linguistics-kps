@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "english:concept:lexical-selection"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:lexical-selection:claim:key-takeaway"
+  ],
+  "content": "knowledge/lexical-selection.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexical-senses",
+    "linguistics:semantics",
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:lexical-selection",
+  "kind": "knowledge",
+  "label": "Lexical selection",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:lexical-selection",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "morphology-and-lexicon"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        1
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:head-and-dependent",
+        "english:concept:grammaticality-and-acceptability",
+        "english:concept:valency-and-argument-structure"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:lexical-selection",
+    "old_path": "concepts/lexical-selection.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:head-and-dependent"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:grammaticality-and-acceptability"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:valency-and-argument-structure"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        1
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

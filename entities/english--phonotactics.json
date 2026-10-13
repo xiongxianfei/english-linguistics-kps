@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:phonotactics"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:phonotactics:claim:key-takeaway"
+  ],
+  "content": "knowledge/phonotactics.md",
+  "domains": [
+    "linguistics:phonology",
+    "linguistics:phonology:phonotactics"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:phonotactics",
+  "kind": "knowledge",
+  "label": "Phonotactics",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:phonotactics",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        6
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:syllable-structure",
+        "english:concept:contrast-and-distribution",
+        "english:concept:constraint-and-preference"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:phonotactics",
+    "old_path": "concepts/phonotactics.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:syllable-structure"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:contrast-and-distribution"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:constraint-and-preference"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

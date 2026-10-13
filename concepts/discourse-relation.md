@@ -1,53 +1,34 @@
----
-id: "english:concept:discourse-relation"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
-evidence_status: "provisional"
-source_status: "selected-support-only"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: ["english:reference:mann-taboada-undated-rst-introduction"]
-uses_concepts: ["english:concept:cohesion-and-coherence", "english:concept:contrast-and-concession", "english:concept:temporal-causal-and-evidential-relations"]
----
-
 # Discourse relation
 
 ## Key takeaway
-A discourse relation links units through an interpretive relation such as explanation, result, elaboration, example, contrast or condition.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/discourse-relation.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A discourse relation links units through an interpretive relation such as explanation, result, elaboration, example, contrast or condition. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/discourse-relation.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A discourse relation links units through an interpretive relation such as explanation, result, elaboration, example, contrast or condition. A connective can signal such a relation but is not identical to it. Relations can also be inferred without an overt connective.
+This is a compatibility redirect. Read [Definition](../knowledge/discourse-relation.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-"Maya stayed home because she was ill" introduces the reason; "Maya was ill, so she stayed home" introduces the result. "The camera has a large sensor" elaborates a prior camera mention. A particular historic library can exemplify a general statement about historic buildings.
+This is a compatibility redirect. Read [Worked example](../knowledge/discourse-relation.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-The same connective may support different relations, and one relation can be expressed by multiple forms. However and but differ syntactically even when both help convey opposition.
+This is a compatibility redirect. Read [Distinctions](../knowledge/discourse-relation.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Relation inventories and nuclearity are theory-dependent. The RST source supplies a particular system, not a universal taxonomy. The examples here are analyst proposals, not annotated corpus findings.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/discourse-relation.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
-
-- [Rhetorical Structure Theory website introduction and relation definitions](../references/mann-taboada-undated-rst-introduction.md#relations) — support is limited to the named section in that record.
+This is a compatibility redirect. Read [Evidence status](../knowledge/discourse-relation.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Cohesion and coherence](../concepts/cohesion-and-coherence.md) provides a related distinction used in the local explanation.
-- [Contrast and concession](../concepts/contrast-and-concession.md) provides a related distinction used in the local explanation.
-- [Temporal causal and evidential relations](../concepts/temporal-causal-and-evidential-relations.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/discourse-relation.md#related-knowledge) in the canonical KPS 12 content.
+

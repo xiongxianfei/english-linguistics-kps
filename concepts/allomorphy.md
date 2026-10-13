@@ -1,53 +1,34 @@
----
-id: "english:concept:allomorphy"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
-evidence_status: "provisional"
-source_status: "selected-support-only"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:morpheme", "english:concept:phone-phoneme-and-allophone", "english:concept:inflection"]
----
-
 # Allomorphy
 
 ## Key takeaway
-Allomorphy is variation in the forms realizing a morphological unit.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/allomorphy.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Allomorphy is variation in the forms realizing a morphological unit. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/allomorphy.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-Allomorphy is variation in the forms realizing a morphological unit. An allomorph can consist of one segment, several segments or a more complex realization. Morphological identity is not the same as identity of sound.
+This is a compatibility redirect. Read [Definition](../knowledge/allomorphy.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-In the introductory regular-plural analysis, books has /s/, keys has /z/, and watches has /ɪz/ (or /əz/ in relevant pronunciations). Each realizes plural number. The final sound of the base conditions the selection; the letters gh in laughs correspond to final /f/, not /h/.
+This is a compatibility redirect. Read [Worked example](../knowledge/allomorphy.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Allophones realize a phoneme; allomorphs realize a morpheme. /ɪz/ is not a single plural phoneme. Plural and regular past are distinct morphemes even though both exhibit conditioned alternants.
+This is a compatibility redirect. Read [Distinctions](../knowledge/allomorphy.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-An alternative analysis derives these variants from a single underlying exponent plus phonological rules. The chosen surface-allomorph description does not settle that theoretical question. Irregular plurals need separate lexical treatment.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/allomorphy.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
-
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
+This is a compatibility redirect. Read [Evidence status](../knowledge/allomorphy.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Morpheme](../concepts/morpheme.md) provides a related distinction used in the local explanation.
-- [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/allomorphy.md#related-knowledge) in the canonical KPS 12 content.
+

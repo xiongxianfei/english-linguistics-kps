@@ -1,53 +1,34 @@
----
-id: "english:principle:realization-varies-with-environment"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
-evidence_status: "provisional"
-source_status: "selected-support-only"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:contrast-and-distribution", "english:concept:stress"]
----
-
 # Phonetic realization varies with environment
 
 ## Key takeaway
-A phonological category can have different phonetic realizations without a change of lexical identity.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/realization-varies-with-environment.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A phonological category can have different phonetic realizations without a change of lexical identity. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/realization-varies-with-environment.md#summary) in the canonical KPS 12 content.
 
 ## Statement
 
-A phonological category can have different phonetic realizations without a change of lexical identity.
+This is a compatibility redirect. Read [Statement](../knowledge/realization-varies-with-environment.md#statement) in the canonical KPS 12 content.
 
 ## Explanation
 
-Articulation and phonological context condition variants. If aspiration is predictable in the relevant English environment rather than distinguishing words, representing the variants under one phoneme captures a generalization that an inventory of isolated phones misses.
+This is a compatibility redirect. Read [Explanation](../knowledge/realization-varies-with-environment.md#explanation) in the canonical KPS 12 content.
 
 ## Worked contrast
 
-Compare a typical [pʰ] in stressed pin and [p] after /s/ in spin. The difference is phonetic, while the analysis retains /p/. The conditioning involves stress and syllable structure, not a blanket rule for every word-initial letter p.
+This is a compatibility redirect. Read [Worked contrast](../knowledge/realization-varies-with-environment.md#worked-contrast) in the canonical KPS 12 content.
 
 ## Scope and counterevidence
 
-The selected source supports the aspiration contrast in its English teaching system. Actual tokens, dialects and speaking styles vary; allophones can also overlap in variable environments.
+This is a compatibility redirect. Read [Scope and counterevidence](../knowledge/realization-varies-with-environment.md#scope-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
-
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#aspiration) — support is limited to the named section in that record.
+This is a compatibility redirect. Read [Evidence status](../knowledge/realization-varies-with-environment.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
-- [Contrast and distribution](../concepts/contrast-and-distribution.md) provides a related distinction used in the local explanation.
-- [Stress](../concepts/stress.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/realization-varies-with-environment.md#related-knowledge) in the canonical KPS 12 content.
+

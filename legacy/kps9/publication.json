@@ -1,0 +1,22 @@
+{
+  "package": "English Linguistics KPS",
+  "version": "0.1.0",
+  "kps_language": "9.x",
+  "validated_with": "9.0.1",
+  "markdown_profile": "practical-markdown-v1",
+  "scientific_status": "provisional",
+  "independent_review": false,
+  "created": "2026-10-11",
+  "upstream_commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
+  "independent": true,
+  "knowledge_types": [
+    "concept",
+    "principle",
+    "model",
+    "method",
+    "practice"
+  ],
+  "reference_is_supporting_record": true,
+  "scope": "Broad introductory Stage 0 through 7 knowledge model; not exhaustive or scientifically certified",
+  "license": "MIT"
+}

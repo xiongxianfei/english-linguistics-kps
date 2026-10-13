@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:articulatory-phonetics",
+    "linguistics:phonology",
+    "linguistics:phonology:distinctive-features"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:consonant-articulation:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Consonant articulation — summary claim",
+  "owner": "english:consonant-articulation",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Consonants can be classified by voicing, place and manner of articulation.",
+  "status": "draft",
+  "version": "0.1.0"
+}

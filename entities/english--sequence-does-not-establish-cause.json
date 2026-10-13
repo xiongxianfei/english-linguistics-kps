@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:principle:sequence-does-not-establish-cause"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:sequence-does-not-establish-cause:claim:key-takeaway"
+  ],
+  "content": "knowledge/sequence-does-not-establish-cause.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:discourse-inference"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:sequence-does-not-establish-cause",
+  "kind": "knowledge",
+  "label": "Temporal sequence does not establish causation",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:sequence-does-not-establish-cause",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "discourse-and-information-structure"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        5
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:temporal-causal-and-evidential-relations",
+        "english:concept:discourse-relation",
+        "english:concept:constraint-and-preference"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:sequence-does-not-establish-cause",
+    "old_path": "principles/sequence-does-not-establish-cause.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:temporal-causal-and-evidential-relations"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:discourse-relation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:constraint-and-preference"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        5
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

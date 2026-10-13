@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:presupposition",
+    "linguistics:semantics"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:semantics-pragmatics-interface:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Semantics Pragmatics interface — summary claim",
+  "owner": "english:semantics-pragmatics-interface",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Conventional meaning, contextual resolution and defeasible inference jointly constrain utterance interpretation.",
+  "status": "draft",
+  "version": "0.1.0"
+}

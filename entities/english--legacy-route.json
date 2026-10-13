@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "english:legacy-route",
+  "kind": "sequence",
+  "label": "Legacy Stage 0 through 7 route",
+  "ordering_meaning": "An inherited introductory navigation route. Positions are neither empirical mastery claims nor mandatory processing or learning dependencies.",
+  "positions": {
+    "0": "Foundations",
+    "1": "Morphology and Lexicon",
+    "2": "Syntax",
+    "3": "Semantics",
+    "4": "Pragmatics",
+    "5": "Discourse and Information Structure",
+    "6": "Phonetics and Phonology",
+    "7": "Interfaces and Integration"
+  },
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.1.0"
+}

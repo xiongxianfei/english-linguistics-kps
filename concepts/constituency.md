@@ -1,50 +1,34 @@
----
-id: "english:concept:constituency"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [0]
-perspectives: ["foundations"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:phrase-and-clause", "english:concept:head-and-dependent"]
----
-
 # Constituency
 
 ## Key takeaway
-A constituent is a unit in a proposed hierarchical syntactic analysis.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/constituency.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A constituent is a unit in a proposed hierarchical syntactic analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/constituency.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A constituent is a unit in a proposed hierarchical syntactic analysis. A sequence can be a constituent inside a larger constituent. Constituency tests supply evidence about grouping; they do not mechanically define a single universally correct tree.
+This is a compatibility redirect. Read [Definition](../knowledge/constituency.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-In "Nina examined the damaged samples", substitution of "them" for "the damaged samples" supports treating that sequence as a unit. "What did Nina examine?" supplies a second relevant context. A failed substitution on its own may reflect discourse or category restrictions rather than absence of constituency.
+This is a compatibility redirect. Read [Worked example](../knowledge/constituency.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Adjacency is not constituency. "samples yesterday" can be adjacent without forming the same kind of unit as "the damaged samples". Coordinate structures and ellipsis require particular care when using diagnostic tests.
+This is a compatibility redirect. Read [Distinctions](../knowledge/constituency.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Use converging diagnostics, explicitly specified readings, and a named syntactic framework. The worked examples are constructed; corpus searches and speaker judgments would provide additional evidence.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/constituency.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/constituency.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Phrase and clause](../concepts/phrase-and-clause.md) provides a related distinction used in the local explanation.
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/constituency.md#related-knowledge) in the canonical KPS 12 content.
+

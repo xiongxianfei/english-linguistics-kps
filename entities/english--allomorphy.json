@@ -1,0 +1,92 @@
+{
+  "aliases": [
+    "english:concept:allomorphy"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:allomorphy:claim:key-takeaway"
+  ],
+  "content": "knowledge/allomorphy.md",
+  "domains": [
+    "linguistics:morphology",
+    "linguistics:morphology:allomorphy",
+    "linguistics:phonology"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:allomorphy",
+  "kind": "knowledge",
+  "label": "Allomorphy",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:allomorphy",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "morphology-and-lexicon"
+      ],
+      "references": [
+        "english:reference:anderson-2018-essentials-of-linguistics"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        1
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:morpheme",
+        "english:concept:phone-phoneme-and-allophone",
+        "english:concept:inflection"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:allomorphy",
+    "old_path": "concepts/allomorphy.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:morpheme"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:phone-phoneme-and-allophone"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:inflection"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:anderson-2018-essentials-of-linguistics"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        1
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:quantification-and-scope"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:quantification-and-scope:claim:key-takeaway"
+  ],
+  "content": "knowledge/quantification-and-scope.md",
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:quantification-and-scope"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:quantification-and-scope",
+  "kind": "knowledge",
+  "label": "Quantification and scope",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:quantification-and-scope",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "semantics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        3
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:negation-and-entailment",
+        "english:concept:implicature",
+        "english:concept:ambiguity-and-vagueness"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:quantification-and-scope",
+    "old_path": "concepts/quantification-and-scope.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:negation-and-entailment"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:implicature"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:ambiguity-and-vagueness"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        3
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

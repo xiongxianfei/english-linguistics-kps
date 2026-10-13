@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:semantics:reference-and-denotation",
+  "kind": "domain",
+  "label": "Reference and denotation",
+  "parents": [
+    "linguistics:semantics"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Semantics: reference and denotation. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

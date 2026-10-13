@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexical-senses",
+    "linguistics:semantics",
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:selection-is-sense-sensitive:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Complement selection is sensitive to lexical sense and construction — summary claim",
+  "owner": "english:selection-is-sense-sensitive",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Knowing a word's lexical category alone does not determine all of its allowable complement patterns.",
+  "status": "draft",
+  "version": "0.1.0"
+}

@@ -1,61 +1,38 @@
----
-id: "english:model:morphology-phonology-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:allomorphy", "english:concept:inflection", "english:concept:consonant-articulation", "english:concept:representation-levels"]
----
-
 # Morphology Phonology interface
 
 ## Key takeaway
-Regular English inflection links morphological features to sound-conditioned exponents.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/morphology-phonology-interface.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Regular English inflection links morphological features to sound-conditioned exponents. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/morphology-phonology-interface.md#summary) in the canonical KPS 12 content.
 
 ## Purpose
 
-Regular English inflection links morphological features to sound-conditioned exponents.
+This is a compatibility redirect. Read [Purpose](../knowledge/morphology-phonology-interface.md#purpose) in the canonical KPS 12 content.
 
 ## Representation
 
-| Morpheme | Special environment first | Voiceless remainder | Voiced remainder |
-|---|---|---|---|
-| Regular plural | Sibilants -> /ɪz/ | /s/ | /z/ |
-| Regular past | /t,d/ -> /ɪd/ | /t/ | /d/ |
-
-The weak vowel can differ across accents; /əz/ and /əd/ are relevant alternatives. Vowels are included in the voiced environments of this simplified model.
+This is a compatibility redirect. Read [Representation](../knowledge/morphology-phonology-interface.md#representation) in the canonical KPS 12 content.
 
 ## Worked interpretation
 
-Watch ends in /tʃ/, not /h/, so watches selects the syllabic plural. Laugh ends in /f/, so laughs has /s/ and laughed /t/. DELIVER ends in a voiced vowel or rhotic realization in the accents at issue, so delivered has /d/.
+This is a compatibility redirect. Read [Worked interpretation](../knowledge/morphology-phonology-interface.md#worked-interpretation) in the canonical KPS 12 content.
 
 ## Assumptions and limits
 
-These are regular-pattern models, not full lexical pronunciation tools. Irregular stems, lexicalized adjectives, suffix-conditioned stress and accent variation are outside the algorithm. A single-underlying-exponent analysis is a compatible alternative explanation of the surface variants.
+This is a compatibility redirect. Read [Assumptions and limits](../knowledge/morphology-phonology-interface.md#assumptions-and-limits) in the canonical KPS 12 content.
 
 ## Evaluation and counterevidence
 
-The supplied pure functions accept final phonemes, not English spellings; tests include sibilants, vowels and /t,d/. Passing proves implementation agreement with these declared cases, not scientific completeness.
+This is a compatibility redirect. Read [Evaluation and counterevidence](../knowledge/morphology-phonology-interface.md#evaluation-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/morphology-phonology-interface.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Allomorphy](../concepts/allomorphy.md) provides a related distinction used in the local explanation.
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
-- [Consonant articulation](../concepts/consonant-articulation.md) provides a related distinction used in the local explanation.
-- [Orthography phonology and phonetics](../concepts/representation-levels.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/morphology-phonology-interface.md#related-knowledge) in the canonical KPS 12 content.
+

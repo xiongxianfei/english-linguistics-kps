@@ -1,51 +1,34 @@
----
-id: "english:concept:utterance-and-speaker-meaning"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:deixis", "english:concept:speech-act", "english:concept:contextual-resolution"]
----
-
 # Utterance and speaker meaning
 
 ## Key takeaway
-A sentence is a linguistic expression considered abstractly; an utterance is a particular use in context.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/utterance-and-speaker-meaning.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A sentence is a linguistic expression considered abstractly; an utterance is a particular use in context. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/utterance-and-speaker-meaning.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A sentence is a linguistic expression considered abstractly; an utterance is a particular use in context. Speaker meaning concerns what is communicated by that use. Conventional meaning constrains interpretation without guaranteeing a fully resolved proposition independent of context.
+This is a compatibility redirect. Read [Definition](../knowledge/utterance-and-speaker-meaning.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-"It is cold in here" attributes coldness to a relevant environment; it need not assert that the speaker feels cold. Near an open window it can indirectly request closure. The same wording can instead be a temperature observation in a measurement discussion.
+This is a compatibility redirect. Read [Worked example](../knowledge/utterance-and-speaker-meaning.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Speaker meaning is not unrestricted hidden dictionary content. Nor is all pragmatics optional information added after a complete context-free semantic interpretation: indexicals need contextual values.
+This is a compatibility redirect. Read [Distinctions](../knowledge/utterance-and-speaker-meaning.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Indirect requests can be highly conventionalized constructions. Semantic/pragmatic boundaries are theory-dependent; this package does not insist that every request interpretation is freshly calculated from literal ability each time.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/utterance-and-speaker-meaning.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/utterance-and-speaker-meaning.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Deixis](../concepts/deixis.md) provides a related distinction used in the local explanation.
-- [Speech act](../concepts/speech-act.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/utterance-and-speaker-meaning.md#related-knowledge) in the canonical KPS 12 content.
+

@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "english:concept:valency-and-argument-structure"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:valency-and-argument-structure:claim:key-takeaway"
+  ],
+  "content": "knowledge/valency-and-argument-structure.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:argument-frames",
+    "linguistics:syntax",
+    "linguistics:syntax:construction-mappings"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:valency-and-argument-structure",
+  "kind": "knowledge",
+  "label": "Valency and argument structure",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:valency-and-argument-structure",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "morphology-and-lexicon"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        1
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:lexical-selection",
+        "english:concept:semantic-role",
+        "english:concept:complement-and-modifier"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:valency-and-argument-structure",
+    "old_path": "concepts/valency-and-argument-structure.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-selection"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-role"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:complement-and-modifier"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        1
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

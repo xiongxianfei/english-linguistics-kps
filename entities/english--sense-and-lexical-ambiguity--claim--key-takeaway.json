@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexical-senses",
+    "linguistics:semantics",
+    "linguistics:semantics:semantic-ambiguity"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:sense-and-lexical-ambiguity:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Sense and lexical ambiguity — summary claim",
+  "owner": "english:sense-and-lexical-ambiguity",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A sense is a conventional interpretation associated with a lexical item in an analysis.",
+  "status": "draft",
+  "version": "0.1.0"
+}

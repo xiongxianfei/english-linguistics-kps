@@ -1,0 +1,126 @@
+{
+  "aliases": [
+    "english:method:analyze-sound-realization"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:analyze-sound-realization:claim:key-takeaway"
+  ],
+  "content": "knowledge/analyze-sound-realization.md",
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:acoustic-phonetics",
+    "linguistics:phonology",
+    "linguistics:phonology:phonological-processes",
+    "linguistics:prosody"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:analyze-sound-realization",
+  "kind": "knowledge",
+  "label": "Analyze sound realization",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:method:analyze-sound-realization",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [
+        "english:reference:anderson-2018-essentials-of-linguistics",
+        "english:reference:sounds-american-undated-chart-and-terms",
+        "english:reference:tophonetics-undated-english-transcription",
+        "english:reference:international-phonetic-association-undated-interactive-chart"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "method",
+      "uses_concepts": [
+        "english:concept:representation-levels",
+        "english:concept:allomorphy",
+        "english:concept:phone-phoneme-and-allophone",
+        "english:concept:consonant-articulation",
+        "english:concept:connected-speech"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:method:analyze-sound-realization",
+    "old_path": "methods/analyze-sound-realization.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:representation-levels"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:allomorphy"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:phone-phoneme-and-allophone"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:consonant-articulation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:connected-speech"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:tophonetics-undated-english-transcription"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-interactive-chart"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:method"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

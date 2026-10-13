@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:phonology:phonotactics",
+  "kind": "domain",
+  "label": "Phonotactics",
+  "parents": [
+    "linguistics:phonology"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Phonology: phonotactics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

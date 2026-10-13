@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:phonetics:coarticulation-and-reduction",
+  "kind": "domain",
+  "label": "Coarticulation and reduction",
+  "parents": [
+    "linguistics:phonetics"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Phonetics: coarticulation and reduction. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

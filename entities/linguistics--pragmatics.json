@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:pragmatics",
+  "kind": "domain",
+  "label": "Pragmatics",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Contextual interpretation, communicative action and defeasible inference; inferred intention is not observed behaviour.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

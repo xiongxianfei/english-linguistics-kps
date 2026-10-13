@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:morphology",
+    "linguistics:morphology:allomorphy",
+    "linguistics:phonetics",
+    "linguistics:phonology",
+    "linguistics:phonology:phonological-processes"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:morphology-phonology-interface:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Morphology Phonology interface — summary claim",
+  "owner": "english:morphology-phonology-interface",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Regular English inflection links morphological features to sound-conditioned exponents.",
+  "status": "draft",
+  "version": "0.1.0"
+}

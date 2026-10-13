@@ -1,51 +1,34 @@
----
-id: "english:principle:accent-does-not-exhaust-focus"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:focus-topic-and-qud", "english:concept:prosody", "english:concept:stress"]
----
-
 # An accented word need not exhaust the focus domain
 
 ## Key takeaway
-The same prominent word can participate in a narrow focus or a larger focused constituent.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/accent-does-not-exhaust-focus.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-The same prominent word can participate in a narrow focus or a larger focused constituent. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/accent-does-not-exhaust-focus.md#summary) in the canonical KPS 12 content.
 
 ## Statement
 
-The same prominent word can participate in a narrow focus or a larger focused constituent.
+This is a compatibility redirect. Read [Statement](../knowledge/accent-does-not-exhaust-focus.md#statement) in the canonical KPS 12 content.
 
 ## Explanation
 
-Information structure organizes alternatives relative to a question or discourse context; prosody realizes prominence under its own constraints. A pitch accent on a word can support focus projection to a larger domain, so identifying the strongest word alone underdetermines the full focus interpretation.
+This is a compatibility redirect. Read [Explanation](../knowledge/accent-does-not-exhaust-focus.md#explanation) in the canonical KPS 12 content.
 
 ## Worked contrast
 
-"What did Nina repair?" can receive "Nina repaired the PRINTER" with NP focus. "What did Nina do?" can receive the same wording and prominence with VP focus repaired the printer. Subject, Topic, focus domain and accented syllable therefore need separate labels.
+This is a compatibility redirect. Read [Worked contrast](../knowledge/accent-does-not-exhaust-focus.md#worked-contrast) in the canonical KPS 12 content.
 
 ## Scope and counterevidence
 
-The abstract-only Roberts record supports a QUD/prosody connection, not the detailed projection conditions. The constructed broad/narrow examples and relevant English intonation constraints require further source and audio review.
+This is a compatibility redirect. Read [Scope and counterevidence](../knowledge/accent-does-not-exhaust-focus.md#scope-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/accent-does-not-exhaust-focus.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Focus topic and question under discussion](../concepts/focus-topic-and-qud.md) provides a related distinction used in the local explanation.
-- [Prosody and intonation](../concepts/prosody.md) provides a related distinction used in the local explanation.
-- [Stress](../concepts/stress.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/accent-does-not-exhaust-focus.md#related-knowledge) in the canonical KPS 12 content.
+

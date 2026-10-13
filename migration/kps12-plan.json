@@ -1,0 +1,1644 @@
+{
+  "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+  "baseline_files": {
+    ".github/ISSUE_TEMPLATE/content-review.yml": "f9e759e89c8345837c0dd5bfa54ba34d625c37f431c5071e2954a1ad57cb15fd",
+    ".github/pull_request_template.md": "a55af0737187999e6b9eca1b4a43f53e34523c99bc4290ff4bc982586cd00678",
+    ".github/workflows/checks.yml": "43714ea31b98a9b00a6ddc7f735eb8b637e7a087e39b83f5932f1a1e8c576f53",
+    ".gitignore": "3f34bd3edd4f1004d4821b9164d5a2294471c8d2654dc83bc25d1b9240c51e0a",
+    "AGENTS.md": "e95f7b702305688a1fb6852b04fc89d0e9bda04e710dba925e37a0857de25371",
+    "AUTHORING.md": "ce2411f7968e9343267e79137fdcfe643b07986f88833bcbb65cd183a44ff9b0",
+    "CHANGELOG.md": "d1f62981a971abd146fc8b5c6086ae623a6f53b3049f86fcc08ca0240ed82888",
+    "CHECKS.md": "415e5929a39821db9d92e8e7e059b8a7fe7f1e53035841a2bceb44fc7259e9f6",
+    "COMPATIBILITY.md": "d60738981e326c06708f77e01d2db99ce0ac7d075301414f7b8c836eba49c800",
+    "CONTRIBUTING.md": "521c34d5f6e1abe01164d9552fe76515ff90cbbfcb2ce67d22bec899625e6b2b",
+    "COVERAGE.md": "a108a60ed1c829093438365caee90e783be1791b4b10e6298b19befe9d0c215d",
+    "INDEX.md": "103dcfb868301d889a8ed4adec254f778e91122fd44b3be8d0eaacf9f8d006bb",
+    "LICENSE": "5522e6c3380f36d25cbdc97508a913229e1ea3cbc9af51b970574144869976f6",
+    "NAVIGATION.md": "6f67dc8c0b12ef37de38ca84af440e8202bf6308eabee00c8c2f30571ebeb293",
+    "NOTICE.md": "d85e289674a4d0e69f24d76d2ca593e5202e70f8ed8c890746cdfbb3522748a8",
+    "PRONUNCIATION.md": "a65c17b795f70a57965ddead2c2a9a7680e9bf52335e7ae14c2d33391eb31fdd",
+    "README.md": "b5bf82ab914530f2c0daa4c2f1301475c1c5f55d1e9a0b3ef9d8984b1ffde3ab",
+    "REVIEW-QUEUE.md": "b8be554c6924f60fbd73318f62308786c3730f0bae938c6b86fe03306e41d326",
+    "REVIEW.md": "3918eb06d2e0cdfa5f5d0473a2134ed4236fb0ab530c3c5100628892b33d4dcd",
+    "SCOPE.md": "28d5bffadf210b6cac45bf46a136663b0559d7e7e0efa98d07a3b6e5631cdb43",
+    "TEMPLATES.md": "efc7cb59adcf9e9ab97d9f8057b8a1621d332a766411a8e2cb7c68daba86d5f1",
+    "concepts/affix.md": "3507629792cf1b7cde7de38335e2d3fdc4e9f34f9eb8932e7e867c1e7255008d",
+    "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
+    "concepts/ambiguity-and-vagueness.md": "cca7a4dfcca0e4f060a180e39fef7c144d8e2f880b3197c5cbe3f905f9017599",
+    "concepts/anaphora-and-accessibility.md": "f44a10f92c2f624acd81c84e8eb2a7ceb7f299c5e7a442b6750f493c2f19ce4d",
+    "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
+    "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
+    "concepts/clause-architecture.md": "ba0df5b242e83f28184f1f044172238ca0e1275eb7fd1240440f8fe366905a35",
+    "concepts/cohesion-and-coherence.md": "50778c2fa719a209719e74397b3bec4af4073212fda5196ad785b3a15bec8bf6",
+    "concepts/collocation.md": "09833490a8c98c1c48dc6d5f25be2fb1ded44fba6ed78b97bf55009a3a2850d4",
+    "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
+    "concepts/complement-and-modifier.md": "891f09711283ee26f59c544e875c463687cfc9418b2abe6e1a18a20553b78ce7",
+    "concepts/complement-clause.md": "e7273fd8460323fda5000bb2bbcd29271cbd423e05c72fe2a8193f8a2f36695b",
+    "concepts/compositionality.md": "aacaa48de1cd6de94b9ed4ac443d38f8376513de483f80ee0985f0db9dc89f81",
+    "concepts/compounding.md": "74ccb1bbd6cd2d1ee5013d6c89846e4e0c1f2ce26c6eed19725f29013e1296ae",
+    "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
+    "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
+    "concepts/constituency.md": "00c5bcd0e8ebb614999387bc0c4e3db9e5050de918d917282c6a93cee4fb8deb",
+    "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
+    "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
+    "concepts/contrast-and-concession.md": "57a1849928835e74cc3df07f898c397b12a10afc168211c1e221b9263dbf0a45",
+    "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
+    "concepts/coordination-and-subordination.md": "300bd74720691b79f0d27095960d3622c9015599e230393ccfe125350e4e1710",
+    "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
+    "concepts/derivation.md": "f0b28bccd24381b3e6191c1d5df71edee020279ed4ee8cad35b92ae14d7ffb05",
+    "concepts/discourse-referent.md": "d7e48b219114a97eac6dd3a613d165ab49559cd6ebf64fa348acf4201fe04cdf",
+    "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
+    "concepts/do-support-and-inversion.md": "34571c994cb48253601474cabbd42b92d78983823958677d6e4b6a54ae6a5dd9",
+    "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
+    "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e",
+    "concepts/finiteness.md": "5f1f0cf1506930e9fe73521847a67ef0805ad98efcbe2fcf7e152e09e51bcfac",
+    "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
+    "concepts/givenness-and-bridging.md": "9873b5ec2ca62eec12d9e5f4e6dbc301e9a40f2ee04dff8b1ec4fdfba8f26c2b",
+    "concepts/grammaticality-and-acceptability.md": "c9e7dd290725f8c7a8a2409eb6d6e41feb770f0f60355c9b4672fbd813263cc0",
+    "concepts/gricean-reasoning.md": "c986b73a19ead4767de2fe709e309e821060709ab7921caa53b45311001e9dfd",
+    "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
+    "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
+    "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
+    "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
+    "concepts/lexeme-and-word-form.md": "4d442bac0f3c56494dadeb9fc99f9edff92c9431c1091f5b01d614840f7e0c77",
+    "concepts/lexical-entry.md": "3b96104ba28183935e0fe289634878bd8ea041040a273e85b6dae7d401f0e2b1",
+    "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
+    "concepts/modality.md": "1809ed664860e2463d00ce964e4813fe86207c2632f50f80a0f30fa2790b698a",
+    "concepts/morpheme.md": "9f7b512e0a9fb5dd5f18a14096ce7614dd0db31ae7f368e894473d8dde4b41fa",
+    "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e",
+    "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
+    "concepts/paradigm-and-syncretism.md": "d8b0a08cbaf98e95a82eb6dd40033f318886be91ab1f955c0af36caa24171544",
+    "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
+    "concepts/phonotactics.md": "961bc1309bc7111830aa51d5f1dfc2e101cfd982c76e21a4a281671079327fd6",
+    "concepts/phrase-and-clause.md": "9cb097d9d9666c008a1a435089b32ce220d377068a5d094d51b88932ef6d8c25",
+    "concepts/predicative-complement.md": "6d2e9d8fc263d45d7cb7d0219dc96171d92e36e4eac8ec37dd812cd35b53f698",
+    "concepts/presupposition.md": "ae77e79b5998c29940ef2aa8e28c12f53417b5e1d5567c33975e81700065b3ef",
+    "concepts/productivity-and-lexicalization.md": "2c64e41601e1655a6bb145f8560a5fb87ff254f423243153434ab5590a2b568e",
+    "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
+    "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da",
+    "concepts/reference-and-denotation.md": "132598041012ad03d2d0b0cbcb8de19b2339044891dfea8354e31b4c5ea09a5e",
+    "concepts/relative-clause.md": "134b48766bcbbfc9b7a6c8feac612f704f29a6bc195b01d0988197b215fd9a74",
+    "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
+    "concepts/root-base-and-stem.md": "8929a22913e5e9fd7518df40312daac81b9a54afcffeaaf37fb0c3860a5aa334",
+    "concepts/semantic-predicate.md": "15f5ea65456846155a6fa6ee71f75d239834c01c36d14280d78b1e7ee8348c65",
+    "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862",
+    "concepts/sense-and-lexical-ambiguity.md": "50f1f1d1fb7c71a1ccccbb31ba384c8fec3282adeb1851b7c99c5f83ea1e0d25",
+    "concepts/situation-type.md": "a1e57cb5f4adbb08dc64bb99aab39b98b69156eea1232628d96d669ef8f37be0",
+    "concepts/speech-act.md": "e1775daee1608d748abb60305ab485a4dac3186d4fa98d7e8b9beccd38a9df00",
+    "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
+    "concepts/suppletion.md": "b883f278973224f6d1f4764b1f2efeb9f28856ad65dca7ac0e24ec6441cba06e",
+    "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
+    "concepts/temporal-causal-and-evidential-relations.md": "65266678e238ab966625ed9d376e32a844c59792ecea918aae9032ffac16c606",
+    "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6",
+    "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5",
+    "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe",
+    "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
+    "concepts/wh-dependency.md": "cb9d0a05f19c119b761886f073e22cbd8bcf925521e7edfc6d44f39962a737fe",
+    "data/integrated-example.json": "f0eb3b5b1ecbfebdb92bd761e2d04104542574ca06d9aa7478d9447830ff9a7b",
+    "data/pronunciation-practice-validation.json": "1d46fd79dcb0ade557d0a0dec75fe0cc45c3f19b0eec01978287db085b19896d",
+    "knowledge-graph.json": "d175f9deec42a8081c1538156d995b7dda7b5889d902887c7b306c0a502f3aaa",
+    "methods/analyze-complete-utterance.md": "10cd1b8c31e0d51bcf0bbe667e367a42b2a1f1a50d6491e74634c0fa5ab48e33",
+    "methods/analyze-constituency.md": "6ccb59bc7fa949e3cdeabefdcdb7ebaf4b91f550b0e50675c2f084512398e469",
+    "methods/analyze-sound-realization.md": "1ca5aabdc23873a0d37085d2de1b160ee939357e017ffc7c09db619ac5098e5d",
+    "methods/compare-argument-mappings.md": "659305d21d704170c2a81af7d808d593cba3fba7957b48f0cd9374ddf73d14c7",
+    "methods/evaluate-linguistic-claim.md": "1aac341a888bda6a28d037b064b59408e8e46da97c9bd7de0abcccd5ec9529ba",
+    "methods/trace-discourse-interpretation.md": "7ec291f97af15e7d66005a2d7c44469f2230ea47383d71aa043c404258c3a32a",
+    "models/auxiliary-selection-model.md": "1828d519a85a42abbeafc877894e2de849453f55ce614b1b0034df2f69e40e69",
+    "models/discourse-network-model.md": "d110ae2d9a2ae366be26b32f9a6a6ad8cc1e4e7bf4eafb1479936f8c9944f29b",
+    "models/english-system-architecture.md": "7bd6526824f036224160a2701ca99166a5e53b80a20cc8d970660437c784d7ed",
+    "models/focus-prosody-interface.md": "b1ddd564dd0b9e3fed2b8cf17e8b5da19c09cc9fd3b63126e0e747538eb3fb4d",
+    "models/integrated-utterance-analysis.md": "6f768026eaba84bf0c41da0aaa07e7f7c68d94d4d5c6c37337fbcb014cdfb97d",
+    "models/lexicon-syntax-interface.md": "ba824780a79aaed3e5a687b3bbe291d06817d05e6e2aa5feb176eadb3340f581",
+    "models/morphology-phonology-interface.md": "6e10999ad6c8681f7811395d001909240a1f785903cdfc711840e322ad494b47",
+    "models/nested-clause-model.md": "48bfece6c79d9b8152742d33063ce817cbbd580a392960d9d69886fc5f6893dc",
+    "models/phonological-word-model.md": "9677a6eb539560dc4b901a29e0af871be0523824b704e47b6059998a2fb72272",
+    "models/quantifier-scope-model.md": "e43c4b26b8863682aa725757fbd077efe51babaa744388e05697ef3cda1a7232",
+    "models/semantics-pragmatics-interface.md": "0472729b0dc55c5da1fa467b9721f9caf5a53e7eea2dc50a6958a69687d88d9d",
+    "models/syntax-semantics-interface.md": "e1195f7acef8d9e3b4066fb8076839a391ba3fe01fce832082ae059227e3a5f6",
+    "models/temporal-reference-model.md": "7edca0ad3a35b7e8f74b7526dc635a09989e05e74f30504cb22a89ab44d16c8b",
+    "models/utterance-interpretation-model.md": "3cc35ecb6a34a6bb263f2fe3d16c5c2160f2f7f888d92c00fed542832f351b1f",
+    "models/word-formation-hierarchy.md": "4f826764ee04099156b44f1a490a5738752c669716fb6090ac48d12b77cb9953",
+    "practices/classify-and-produce-phone.md": "656b8ef60152c8d052fe0d8302d149bd3cddc08bbbc058f2ab1417e1f56abffa",
+    "practices/investigate-linguistic-question.md": "a391d03599749d3abf363b17a2ba4df53bfdba88960f6a8536b991e63f0048dc",
+    "practices/learn-word-pronunciation.md": "4577e674e18c97599db501fc9da0e29bf92c2e4b12c51e877ce081bac11e9d51",
+    "practices/maintain-english-package.md": "a77835a02d5f7a45cf45a961805be9e8ad8b238435826230fdbc7199203ec96b",
+    "principles/accent-does-not-exhaust-focus.md": "24b0fcf59c93151380fb4075016a6867d4da7cb612c38ab9fe826591b13a8a7a",
+    "principles/category-does-not-determine-function.md": "86ca2db4a134d42241ac60068cae44ee98340d366338ad1a610eaaf6636404d8",
+    "principles/cohesion-does-not-guarantee-coherence.md": "5faa4eedfa1c02ae3a2622cf89175de3997af3bbdc34443f8ddf564e552a6ac8",
+    "principles/context-supplies-reference-values.md": "092b0f54ace11b868abbb32c1e239c75a539f227547e8fdadad71c74f54487be",
+    "principles/exponents-are-conditioned-by-sound.md": "9ab9c2fdde83d3aa41f2ec9d5541f5b8c864a0e9e26f3f6bf84e82c79c48a8b1",
+    "principles/functions-do-not-determine-roles.md": "babe7b17a4c6ad78678f96798fddc2f0f34ba1805449a3a6332f6f43478fe475",
+    "principles/implicatures-are-defeasible.md": "0e5b33fbf3b7192f6ebcdb319164cb634ed632cb2c5fb53cd090a39d087dcc8d",
+    "principles/local-heads-determine-local-relations.md": "0eb30d1ac9552261c01751a9bd301acf452ef1d1ed6f6cc3dd7a04e64762b894",
+    "principles/realization-varies-with-environment.md": "66813e6053b2dd0a646bde1322a1e3d10188fd2af84dabebf62fa39a34924eef",
+    "principles/scope-determines-operator-interaction.md": "819c98bcd9ab30c28c796b42b2b4d2011de5a6132e12be76cb08933ed6f95a3c",
+    "principles/selection-is-sense-sensitive.md": "ed54253ff069e6cd5f61ad935c615f914c37518b0aae92ed6f3ec2d3f84a3695",
+    "principles/sequence-does-not-establish-cause.md": "4cf35cea8d5b1edb95ffe77c0b8eb62c5b33a348482c69cad1a76aa1b576bc2d",
+    "principles/validation-does-not-establish-truth.md": "612078485951e199722a2c04b52b2338ad6003f23c93e17d51dc83bc74fb8b6b",
+    "publication.json": "fbd92885a1b50b6dcc9424d696ed19d0ed91c59239c5c56f5d50f5a0a1854a65",
+    "references/README.md": "79fb2750aa83b2357c443dbef6766f0e200cfa153fedae57096e4594df2cef5d",
+    "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4",
+    "references/international-phonetic-association-undated-diacritics-and-other-symbols.md": "934eb3b3052dc063bde1fa7c85779345cb0daca56d343b036b3d089561d303dc",
+    "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
+    "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
+    "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89",
+    "references/merriam-webster-undated-pin-entry.md": "3fb8505819866163029e4769bf8b6c0a589a9e13138f9a00c2b7111b543920dd",
+    "references/roberts-2012-information-structure.md": "792a384436c8221f5d8a970a79322e4c8c22c8eaafe2cd2d76f12ea9a09c431b",
+    "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535",
+    "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77",
+    "references/xiongxianfei-2026-knowledge-practice-system.md": "37f663722ce0bcc816e5e4acfbbb8922d1958d14e9e4e252df214f1ea8d69d97",
+    "summary-dependencies.json": "07c097d0ab38b6c6c4dcfdc17648abc672a192c286b9110abccdb49097d03705",
+    "test_validate.py": "e0acecb878f70f1d2da1321089c9faf4f72ae2fb391688fd0579db9cfc9a1d4e",
+    "tests/test_domain.py": "77125d2c3c436c0b0f57f95f7b46ed9f5711cf3cad5da06715dfacae5af77115",
+    "tests/test_general_american_policy.py": "7a8d68bd572dd7e1be2e6bde3a2fd2f496061d6df5187e7410ec23c13c68964c",
+    "tests/test_pronunciation_practices.py": "c120cdafd6fb145c155eaefcf0f1939cc6027239f7d869747467ec90f0fd3d32",
+    "tools/build_navigation.py": "70a1e4532b332b0b48942c0576d8db59059253d874f754dcf45bd8a3cff26be1",
+    "tools/check_domain.py": "515feca0c0b583eec63411d72379d830b362b92b0f3757360b9358530bfdc7d5",
+    "tools/linguistic_examples.py": "d3ebaa6d24d6d2885d5d5e11f917941359161b518a1c9752405f82bd65a75d0e",
+    "upstream-lock.json": "1d7e1625e8848b6ea5770a2c2ea1ca279109060e9bf041756beb9dca575063bc",
+    "validate.py": "1195ea350787102844470268c713484e99de2f7d146058ba035a68c29a23527a",
+    "validation-evidence.json": "793623f7988ff1fce24183ed8ab8645660467f642c2d7a40779f6e14c36717d9"
+  },
+  "classification": {
+    "concepts/affix.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:morphological-units"
+    ],
+    "concepts/allomorphy.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:allomorphy",
+      "linguistics:phonology"
+    ],
+    "concepts/ambiguity-and-vagueness.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:semantic-ambiguity"
+    ],
+    "concepts/anaphora-and-accessibility.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:anaphora-and-accessibility",
+      "linguistics:information-structure",
+      "linguistics:information-structure:givenness"
+    ],
+    "concepts/auxiliary-chain.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-architecture"
+    ],
+    "concepts/category-and-function.md": [
+      "linguistics:foundations",
+      "linguistics:syntax",
+      "linguistics:syntax:syntactic-categories"
+    ],
+    "concepts/clause-architecture.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-architecture"
+    ],
+    "concepts/cohesion-and-coherence.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:cohesion-and-coherence"
+    ],
+    "concepts/collocation.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:collocation"
+    ],
+    "concepts/common-ground.md": [
+      "linguistics:discourse",
+      "linguistics:information-structure",
+      "linguistics:information-structure:qud-organization",
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:common-ground"
+    ],
+    "concepts/complement-and-modifier.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:constituency-and-dependency"
+    ],
+    "concepts/complement-clause.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-linking"
+    ],
+    "concepts/compositionality.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:compositional-meaning"
+    ],
+    "concepts/compounding.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:lexicalization",
+      "linguistics:morphology",
+      "linguistics:morphology:compounds"
+    ],
+    "concepts/connected-speech.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:coarticulation-and-reduction",
+      "linguistics:phonology",
+      "linguistics:phonology:phonological-processes",
+      "linguistics:prosody",
+      "linguistics:prosody:prosodic-phrasing"
+    ],
+    "concepts/consonant-articulation.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:articulatory-phonetics",
+      "linguistics:phonology",
+      "linguistics:phonology:distinctive-features"
+    ],
+    "concepts/constituency.md": [
+      "linguistics:foundations",
+      "linguistics:syntax",
+      "linguistics:syntax:constituency-and-dependency"
+    ],
+    "concepts/constraint-and-preference.md": [
+      "kps:knowledge-maintenance"
+    ],
+    "concepts/contextual-resolution.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:context-and-deixis"
+    ],
+    "concepts/contrast-and-concession.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:discourse-relations"
+    ],
+    "concepts/contrast-and-distribution.md": [
+      "linguistics:phonology",
+      "linguistics:phonology:phonemic-contrast"
+    ],
+    "concepts/coordination-and-subordination.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-linking"
+    ],
+    "concepts/deixis.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:context-and-deixis"
+    ],
+    "concepts/derivation.md": [
+      "linguistics:lexicon",
+      "linguistics:morphology",
+      "linguistics:morphology:derivational-morphology"
+    ],
+    "concepts/discourse-referent.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:anaphora-and-accessibility"
+    ],
+    "concepts/discourse-relation.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:discourse-relations"
+    ],
+    "concepts/do-support-and-inversion.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-architecture"
+    ],
+    "concepts/evidence-and-analysis.md": [
+      "kps:knowledge-maintenance"
+    ],
+    "concepts/expression-and-representation.md": [
+      "kps:knowledge-maintenance",
+      "linguistics:foundations"
+    ],
+    "concepts/finiteness.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-architecture"
+    ],
+    "concepts/focus-topic-and-qud.md": [
+      "linguistics:discourse",
+      "linguistics:information-structure",
+      "linguistics:information-structure:focus-and-alternatives",
+      "linguistics:information-structure:qud-organization",
+      "linguistics:information-structure:topic-and-background",
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:question-under-discussion"
+    ],
+    "concepts/givenness-and-bridging.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:anaphora-and-accessibility",
+      "linguistics:information-structure",
+      "linguistics:information-structure:givenness"
+    ],
+    "concepts/grammaticality-and-acceptability.md": [
+      "linguistics:foundations",
+      "linguistics:syntax",
+      "linguistics:syntax:syntactic-diagnostics"
+    ],
+    "concepts/gricean-reasoning.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:implicature"
+    ],
+    "concepts/head-and-dependent.md": [
+      "linguistics:foundations",
+      "linguistics:syntax",
+      "linguistics:syntax:constituency-and-dependency"
+    ],
+    "concepts/implicature.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:implicature"
+    ],
+    "concepts/inflection.md": [
+      "linguistics:lexicon",
+      "linguistics:morphology",
+      "linguistics:morphology:inflectional-paradigms"
+    ],
+    "concepts/interface.md": [
+      "kps:knowledge-maintenance"
+    ],
+    "concepts/lexeme-and-word-form.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:lexical-identity",
+      "linguistics:morphology",
+      "linguistics:morphology:morphological-units"
+    ],
+    "concepts/lexical-entry.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:lexical-identity"
+    ],
+    "concepts/lexical-selection.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:lexical-senses",
+      "linguistics:semantics",
+      "linguistics:syntax"
+    ],
+    "concepts/modality.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:modal-semantics"
+    ],
+    "concepts/morpheme.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:morphological-units"
+    ],
+    "concepts/negation-and-entailment.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:negation-and-entailment"
+    ],
+    "concepts/object-and-pp-complement.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:grammatical-functions"
+    ],
+    "concepts/paradigm-and-syncretism.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:inflectional-paradigms"
+    ],
+    "concepts/phone-phoneme-and-allophone.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:phonetic-transcription",
+      "linguistics:phonology",
+      "linguistics:phonology:allophonic-distribution",
+      "linguistics:phonology:phonemic-contrast"
+    ],
+    "concepts/phonotactics.md": [
+      "linguistics:phonology",
+      "linguistics:phonology:phonotactics"
+    ],
+    "concepts/phrase-and-clause.md": [
+      "linguistics:foundations",
+      "linguistics:syntax",
+      "linguistics:syntax:syntactic-categories"
+    ],
+    "concepts/predicative-complement.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:grammatical-functions"
+    ],
+    "concepts/presupposition.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:presupposition",
+      "linguistics:semantics"
+    ],
+    "concepts/productivity-and-lexicalization.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:lexicalization",
+      "linguistics:morphology",
+      "linguistics:morphology:derivational-morphology",
+      "linguistics:morphology:morphological-productivity"
+    ],
+    "concepts/prosody.md": [
+      "linguistics:information-structure",
+      "linguistics:phonetics",
+      "linguistics:phonology",
+      "linguistics:prosody",
+      "linguistics:prosody:intonation",
+      "linguistics:prosody:pitch-accent-and-prominence",
+      "linguistics:prosody:prosodic-phrasing",
+      "linguistics:prosody:rhythmic-organization"
+    ],
+    "concepts/quantification-and-scope.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:quantification-and-scope"
+    ],
+    "concepts/reference-and-denotation.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:reference-and-denotation"
+    ],
+    "concepts/relative-clause.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-linking"
+    ],
+    "concepts/representation-levels.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:acoustic-phonetics",
+      "linguistics:phonetics:phonetic-transcription",
+      "linguistics:phonology"
+    ],
+    "concepts/root-base-and-stem.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:morphological-units"
+    ],
+    "concepts/semantic-predicate.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:compositional-meaning"
+    ],
+    "concepts/semantic-role.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:participant-roles"
+    ],
+    "concepts/sense-and-lexical-ambiguity.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:lexical-senses",
+      "linguistics:semantics",
+      "linguistics:semantics:semantic-ambiguity"
+    ],
+    "concepts/situation-type.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:temporal-and-event-semantics"
+    ],
+    "concepts/speech-act.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:speech-actions"
+    ],
+    "concepts/stress.md": [
+      "linguistics:information-structure",
+      "linguistics:phonetics",
+      "linguistics:phonology",
+      "linguistics:prosody",
+      "linguistics:prosody:lexical-stress"
+    ],
+    "concepts/suppletion.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:inflectional-paradigms"
+    ],
+    "concepts/syllable-structure.md": [
+      "linguistics:phonology",
+      "linguistics:phonology:syllable-organization",
+      "linguistics:prosody"
+    ],
+    "concepts/temporal-causal-and-evidential-relations.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:discourse-relations"
+    ],
+    "concepts/tense-and-aspect.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:temporal-and-event-semantics"
+    ],
+    "concepts/utterance-and-speaker-meaning.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:speech-actions"
+    ],
+    "concepts/valency-and-argument-structure.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:argument-frames",
+      "linguistics:syntax",
+      "linguistics:syntax:construction-mappings"
+    ],
+    "concepts/vowel-articulation.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:articulatory-phonetics",
+      "linguistics:phonology",
+      "linguistics:phonology:distinctive-features"
+    ],
+    "concepts/wh-dependency.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-linking"
+    ],
+    "methods/analyze-complete-utterance.md": [
+      "linguistics:discourse",
+      "linguistics:information-structure",
+      "linguistics:lexicon",
+      "linguistics:morphology",
+      "linguistics:phonetics",
+      "linguistics:phonology",
+      "linguistics:pragmatics",
+      "linguistics:prosody",
+      "linguistics:semantics",
+      "linguistics:syntax"
+    ],
+    "methods/analyze-constituency.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:constituency-and-dependency",
+      "linguistics:syntax:syntactic-diagnostics"
+    ],
+    "methods/analyze-sound-realization.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:acoustic-phonetics",
+      "linguistics:phonology",
+      "linguistics:phonology:phonological-processes",
+      "linguistics:prosody"
+    ],
+    "methods/compare-argument-mappings.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:participant-roles",
+      "linguistics:syntax",
+      "linguistics:syntax:grammatical-functions"
+    ],
+    "methods/evaluate-linguistic-claim.md": [
+      "kps:knowledge-maintenance"
+    ],
+    "methods/trace-discourse-interpretation.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:discourse-inference",
+      "linguistics:pragmatics"
+    ],
+    "models/auxiliary-selection-model.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-architecture"
+    ],
+    "models/discourse-network-model.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:discourse-relations"
+    ],
+    "models/english-system-architecture.md": [
+      "linguistics:discourse",
+      "linguistics:information-structure",
+      "linguistics:lexicon",
+      "linguistics:morphology",
+      "linguistics:phonetics",
+      "linguistics:phonology",
+      "linguistics:pragmatics",
+      "linguistics:prosody",
+      "linguistics:semantics",
+      "linguistics:syntax"
+    ],
+    "models/focus-prosody-interface.md": [
+      "linguistics:information-structure",
+      "linguistics:information-structure:focus-and-alternatives",
+      "linguistics:information-structure:focus-projection",
+      "linguistics:pragmatics",
+      "linguistics:prosody",
+      "linguistics:prosody:pitch-accent-and-prominence"
+    ],
+    "models/integrated-utterance-analysis.md": [
+      "linguistics:discourse",
+      "linguistics:information-structure",
+      "linguistics:lexicon",
+      "linguistics:morphology",
+      "linguistics:phonetics",
+      "linguistics:phonology",
+      "linguistics:pragmatics",
+      "linguistics:prosody",
+      "linguistics:semantics",
+      "linguistics:syntax"
+    ],
+    "models/lexicon-syntax-interface.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:argument-frames",
+      "linguistics:syntax",
+      "linguistics:syntax:construction-mappings"
+    ],
+    "models/morphology-phonology-interface.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:allomorphy",
+      "linguistics:phonetics",
+      "linguistics:phonology",
+      "linguistics:phonology:phonological-processes"
+    ],
+    "models/nested-clause-model.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:clause-architecture"
+    ],
+    "models/phonological-word-model.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:phonetic-transcription",
+      "linguistics:phonology",
+      "linguistics:phonology:phonotactics",
+      "linguistics:phonology:syllable-organization",
+      "linguistics:prosody"
+    ],
+    "models/quantifier-scope-model.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:quantification-and-scope"
+    ],
+    "models/semantics-pragmatics-interface.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:presupposition",
+      "linguistics:semantics"
+    ],
+    "models/syntax-semantics-interface.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:compositional-meaning",
+      "linguistics:syntax",
+      "linguistics:syntax:construction-mappings"
+    ],
+    "models/temporal-reference-model.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:temporal-and-event-semantics"
+    ],
+    "models/utterance-interpretation-model.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:speech-actions"
+    ],
+    "models/word-formation-hierarchy.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:compounds"
+    ],
+    "practices/classify-and-produce-phone.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:articulatory-phonetics",
+      "linguistics:phonetics:speech-perception",
+      "linguistics:phonology"
+    ],
+    "practices/investigate-linguistic-question.md": [
+      "kps:knowledge-maintenance"
+    ],
+    "practices/learn-word-pronunciation.md": [
+      "linguistics:lexicon",
+      "linguistics:morphology",
+      "linguistics:phonetics",
+      "linguistics:phonetics:speech-perception",
+      "linguistics:phonology",
+      "linguistics:prosody",
+      "linguistics:prosody:lexical-stress"
+    ],
+    "practices/maintain-english-package.md": [
+      "kps:knowledge-maintenance"
+    ],
+    "principles/accent-does-not-exhaust-focus.md": [
+      "linguistics:information-structure",
+      "linguistics:information-structure:focus-projection",
+      "linguistics:prosody",
+      "linguistics:prosody:pitch-accent-and-prominence"
+    ],
+    "principles/category-does-not-determine-function.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:syntactic-categories"
+    ],
+    "principles/cohesion-does-not-guarantee-coherence.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:cohesion-and-coherence"
+    ],
+    "principles/context-supplies-reference-values.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:context-and-deixis"
+    ],
+    "principles/exponents-are-conditioned-by-sound.md": [
+      "linguistics:morphology",
+      "linguistics:morphology:allomorphy",
+      "linguistics:phonology"
+    ],
+    "principles/functions-do-not-determine-roles.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:participant-roles",
+      "linguistics:syntax",
+      "linguistics:syntax:grammatical-functions"
+    ],
+    "principles/implicatures-are-defeasible.md": [
+      "linguistics:pragmatics",
+      "linguistics:pragmatics:implicature"
+    ],
+    "principles/local-heads-determine-local-relations.md": [
+      "linguistics:syntax",
+      "linguistics:syntax:constituency-and-dependency"
+    ],
+    "principles/realization-varies-with-environment.md": [
+      "linguistics:phonetics",
+      "linguistics:phonetics:coarticulation-and-reduction",
+      "linguistics:phonology",
+      "linguistics:phonology:allophonic-distribution"
+    ],
+    "principles/scope-determines-operator-interaction.md": [
+      "linguistics:semantics",
+      "linguistics:semantics:quantification-and-scope"
+    ],
+    "principles/selection-is-sense-sensitive.md": [
+      "linguistics:lexicon",
+      "linguistics:lexicon:lexical-senses",
+      "linguistics:semantics",
+      "linguistics:syntax"
+    ],
+    "principles/sequence-does-not-establish-cause.md": [
+      "linguistics:discourse",
+      "linguistics:discourse:discourse-inference"
+    ],
+    "principles/validation-does-not-establish-truth.md": [
+      "kps:knowledge-maintenance"
+    ]
+  },
+  "date": "2026-10-13",
+  "domains": [
+    {
+      "label": "Phonetics",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Speech production, acoustic signals and perception; measured tokens must be distinguished from predicted transcriptions.",
+      "slug": "phonetics",
+      "top_level": true
+    },
+    {
+      "label": "Articulatory phonetics",
+      "parents": [
+        "linguistics:phonetics"
+      ],
+      "scope": "Phonetics: articulatory phonetics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonetics:articulatory-phonetics",
+      "top_level": false
+    },
+    {
+      "label": "Acoustic phonetics",
+      "parents": [
+        "linguistics:phonetics"
+      ],
+      "scope": "Phonetics: acoustic phonetics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonetics:acoustic-phonetics",
+      "top_level": false
+    },
+    {
+      "label": "Speech perception",
+      "parents": [
+        "linguistics:phonetics"
+      ],
+      "scope": "Phonetics: speech perception. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonetics:speech-perception",
+      "top_level": false
+    },
+    {
+      "label": "Phonetic transcription",
+      "parents": [
+        "linguistics:phonetics"
+      ],
+      "scope": "Phonetics: phonetic transcription. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonetics:phonetic-transcription",
+      "top_level": false
+    },
+    {
+      "label": "Coarticulation and reduction",
+      "parents": [
+        "linguistics:phonetics"
+      ],
+      "scope": "Phonetics: coarticulation and reduction. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonetics:coarticulation-and-reduction",
+      "top_level": false
+    },
+    {
+      "label": "Phonology",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Language-specific contrasts, sound-pattern representations and contextual distributions; not equivalent to acoustics or spelling.",
+      "slug": "phonology",
+      "top_level": true
+    },
+    {
+      "label": "Phonemic contrast",
+      "parents": [
+        "linguistics:phonology"
+      ],
+      "scope": "Phonology: phonemic contrast. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonology:phonemic-contrast",
+      "top_level": false
+    },
+    {
+      "label": "Distinctive features",
+      "parents": [
+        "linguistics:phonology"
+      ],
+      "scope": "Phonology: distinctive features. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonology:distinctive-features",
+      "top_level": false
+    },
+    {
+      "label": "Allophonic distribution",
+      "parents": [
+        "linguistics:phonology"
+      ],
+      "scope": "Phonology: allophonic distribution. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonology:allophonic-distribution",
+      "top_level": false
+    },
+    {
+      "label": "Phonotactics",
+      "parents": [
+        "linguistics:phonology"
+      ],
+      "scope": "Phonology: phonotactics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonology:phonotactics",
+      "top_level": false
+    },
+    {
+      "label": "Syllable organization",
+      "parents": [
+        "linguistics:phonology"
+      ],
+      "scope": "Phonology: syllable organization. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonology:syllable-organization",
+      "top_level": false
+    },
+    {
+      "label": "Phonological processes",
+      "parents": [
+        "linguistics:phonology"
+      ],
+      "scope": "Phonology: phonological processes. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonology:phonological-processes",
+      "top_level": false
+    },
+    {
+      "label": "Phonological theory alternatives",
+      "parents": [
+        "linguistics:phonology"
+      ],
+      "scope": "Phonology: phonological theory alternatives. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "phonology:phonological-theory-alternatives",
+      "top_level": false
+    },
+    {
+      "label": "Morphology",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Word forms, word formation and paradigmatic relations, with explicit links to lexical and phonological representations.",
+      "slug": "morphology",
+      "top_level": true
+    },
+    {
+      "label": "Morphological units",
+      "parents": [
+        "linguistics:morphology"
+      ],
+      "scope": "Morphology: morphological units. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "morphology:morphological-units",
+      "top_level": false
+    },
+    {
+      "label": "Inflectional paradigms",
+      "parents": [
+        "linguistics:morphology"
+      ],
+      "scope": "Morphology: inflectional paradigms. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "morphology:inflectional-paradigms",
+      "top_level": false
+    },
+    {
+      "label": "Derivational morphology",
+      "parents": [
+        "linguistics:morphology"
+      ],
+      "scope": "Morphology: derivational morphology. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "morphology:derivational-morphology",
+      "top_level": false
+    },
+    {
+      "label": "Compounds",
+      "parents": [
+        "linguistics:morphology"
+      ],
+      "scope": "Morphology: compounds. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "morphology:compounds",
+      "top_level": false
+    },
+    {
+      "label": "Allomorphy",
+      "parents": [
+        "linguistics:morphology"
+      ],
+      "scope": "Morphology: allomorphy. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "morphology:allomorphy",
+      "top_level": false
+    },
+    {
+      "label": "Morphological productivity",
+      "parents": [
+        "linguistics:morphology"
+      ],
+      "scope": "Morphology: morphological productivity. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "morphology:morphological-productivity",
+      "top_level": false
+    },
+    {
+      "label": "Lexicon",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Lexical identities, senses and conventional selection information; lexical entries are not restricted to a list of spellings.",
+      "slug": "lexicon",
+      "top_level": true
+    },
+    {
+      "label": "Lexical identity",
+      "parents": [
+        "linguistics:lexicon"
+      ],
+      "scope": "Lexicon: lexical identity. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "lexicon:lexical-identity",
+      "top_level": false
+    },
+    {
+      "label": "Lexical senses",
+      "parents": [
+        "linguistics:lexicon"
+      ],
+      "scope": "Lexicon: lexical senses. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "lexicon:lexical-senses",
+      "top_level": false
+    },
+    {
+      "label": "Argument frames",
+      "parents": [
+        "linguistics:lexicon"
+      ],
+      "scope": "Lexicon: argument frames. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "lexicon:argument-frames",
+      "top_level": false
+    },
+    {
+      "label": "Collocation",
+      "parents": [
+        "linguistics:lexicon"
+      ],
+      "scope": "Lexicon: collocation. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "lexicon:collocation",
+      "top_level": false
+    },
+    {
+      "label": "Lexicalization",
+      "parents": [
+        "linguistics:lexicon"
+      ],
+      "scope": "Lexicon: lexicalization. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "lexicon:lexicalization",
+      "top_level": false
+    },
+    {
+      "label": "Lexical relations",
+      "parents": [
+        "linguistics:lexicon"
+      ],
+      "scope": "Lexicon: lexical relations. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "lexicon:lexical-relations",
+      "top_level": false
+    },
+    {
+      "label": "Lexical variation",
+      "parents": [
+        "linguistics:lexicon"
+      ],
+      "scope": "Lexicon: lexical variation. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "lexicon:lexical-variation",
+      "top_level": false
+    },
+    {
+      "label": "Syntax",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Constituent and dependency structure, grammatical categories and functions, with stated framework alternatives.",
+      "slug": "syntax",
+      "top_level": true
+    },
+    {
+      "label": "Syntactic categories",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: syntactic categories. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:syntactic-categories",
+      "top_level": false
+    },
+    {
+      "label": "Constituency and dependency",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: constituency and dependency. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:constituency-and-dependency",
+      "top_level": false
+    },
+    {
+      "label": "Grammatical functions",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: grammatical functions. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:grammatical-functions",
+      "top_level": false
+    },
+    {
+      "label": "Clause architecture",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: clause architecture. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:clause-architecture",
+      "top_level": false
+    },
+    {
+      "label": "Clause linking",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: clause linking. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:clause-linking",
+      "top_level": false
+    },
+    {
+      "label": "Construction mappings",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: construction mappings. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:construction-mappings",
+      "top_level": false
+    },
+    {
+      "label": "Syntactic diagnostics",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: syntactic diagnostics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:syntactic-diagnostics",
+      "top_level": false
+    },
+    {
+      "label": "Ellipsis and discontinuity",
+      "parents": [
+        "linguistics:syntax"
+      ],
+      "scope": "Syntax: ellipsis and discontinuity. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "syntax:ellipsis-and-discontinuity",
+      "top_level": false
+    },
+    {
+      "label": "Semantics",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Conventional interpretation, composition, reference and operator interactions; the semantics/pragmatics boundary remains theory-dependent.",
+      "slug": "semantics",
+      "top_level": true
+    },
+    {
+      "label": "Compositional meaning",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: compositional meaning. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:compositional-meaning",
+      "top_level": false
+    },
+    {
+      "label": "Reference and denotation",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: reference and denotation. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:reference-and-denotation",
+      "top_level": false
+    },
+    {
+      "label": "Participant roles",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: participant roles. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:participant-roles",
+      "top_level": false
+    },
+    {
+      "label": "Quantification and scope",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: quantification and scope. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:quantification-and-scope",
+      "top_level": false
+    },
+    {
+      "label": "Negation and entailment",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: negation and entailment. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:negation-and-entailment",
+      "top_level": false
+    },
+    {
+      "label": "Temporal and event semantics",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: temporal and event semantics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:temporal-and-event-semantics",
+      "top_level": false
+    },
+    {
+      "label": "Modal semantics",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: modal semantics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:modal-semantics",
+      "top_level": false
+    },
+    {
+      "label": "Semantic ambiguity",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: semantic ambiguity. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:semantic-ambiguity",
+      "top_level": false
+    },
+    {
+      "label": "Plural and collective interpretation",
+      "parents": [
+        "linguistics:semantics"
+      ],
+      "scope": "Semantics: plural and collective interpretation. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "semantics:plural-and-collective-interpretation",
+      "top_level": false
+    },
+    {
+      "label": "Pragmatics",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Contextual interpretation, communicative action and defeasible inference; inferred intention is not observed behaviour.",
+      "slug": "pragmatics",
+      "top_level": true
+    },
+    {
+      "label": "Context and deixis",
+      "parents": [
+        "linguistics:pragmatics"
+      ],
+      "scope": "Pragmatics: context and deixis. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "pragmatics:context-and-deixis",
+      "top_level": false
+    },
+    {
+      "label": "Common ground",
+      "parents": [
+        "linguistics:pragmatics"
+      ],
+      "scope": "Pragmatics: common ground. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "pragmatics:common-ground",
+      "top_level": false
+    },
+    {
+      "label": "Implicature",
+      "parents": [
+        "linguistics:pragmatics"
+      ],
+      "scope": "Pragmatics: implicature. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "pragmatics:implicature",
+      "top_level": false
+    },
+    {
+      "label": "Presupposition",
+      "parents": [
+        "linguistics:pragmatics"
+      ],
+      "scope": "Pragmatics: presupposition. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "pragmatics:presupposition",
+      "top_level": false
+    },
+    {
+      "label": "Speech actions",
+      "parents": [
+        "linguistics:pragmatics"
+      ],
+      "scope": "Pragmatics: speech actions. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "pragmatics:speech-actions",
+      "top_level": false
+    },
+    {
+      "label": "Question under discussion",
+      "parents": [
+        "linguistics:pragmatics"
+      ],
+      "scope": "Pragmatics: question under discussion. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "pragmatics:question-under-discussion",
+      "top_level": false
+    },
+    {
+      "label": "Social pragmatics",
+      "parents": [
+        "linguistics:pragmatics"
+      ],
+      "scope": "Pragmatics: social pragmatics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "pragmatics:social-pragmatics",
+      "top_level": false
+    },
+    {
+      "label": "Discourse",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Connections among utterances, referent accessibility and discourse relations, without treating textual cohesion as sufficient coherence.",
+      "slug": "discourse",
+      "top_level": true
+    },
+    {
+      "label": "Anaphora and accessibility",
+      "parents": [
+        "linguistics:discourse"
+      ],
+      "scope": "Discourse: anaphora and accessibility. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "discourse:anaphora-and-accessibility",
+      "top_level": false
+    },
+    {
+      "label": "Cohesion and coherence",
+      "parents": [
+        "linguistics:discourse"
+      ],
+      "scope": "Discourse: cohesion and coherence. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "discourse:cohesion-and-coherence",
+      "top_level": false
+    },
+    {
+      "label": "Discourse relations",
+      "parents": [
+        "linguistics:discourse"
+      ],
+      "scope": "Discourse: discourse relations. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "discourse:discourse-relations",
+      "top_level": false
+    },
+    {
+      "label": "Discourse inference",
+      "parents": [
+        "linguistics:discourse"
+      ],
+      "scope": "Discourse: discourse inference. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "discourse:discourse-inference",
+      "top_level": false
+    },
+    {
+      "label": "Interaction and turn taking",
+      "parents": [
+        "linguistics:discourse"
+      ],
+      "scope": "Discourse: interaction and turn taking. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "discourse:interaction-and-turn-taking",
+      "top_level": false
+    },
+    {
+      "label": "Information Structure",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Topic, focus, background and givenness relative to discourse and a question under discussion; not synonymous with syntax or prosodic accent.",
+      "slug": "information-structure",
+      "top_level": true
+    },
+    {
+      "label": "Topic and background",
+      "parents": [
+        "linguistics:information-structure"
+      ],
+      "scope": "Information Structure: topic and background. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "information-structure:topic-and-background",
+      "top_level": false
+    },
+    {
+      "label": "Focus and alternatives",
+      "parents": [
+        "linguistics:information-structure"
+      ],
+      "scope": "Information Structure: focus and alternatives. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "information-structure:focus-and-alternatives",
+      "top_level": false
+    },
+    {
+      "label": "Givenness",
+      "parents": [
+        "linguistics:information-structure"
+      ],
+      "scope": "Information Structure: givenness. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "information-structure:givenness",
+      "top_level": false
+    },
+    {
+      "label": "Qud organization",
+      "parents": [
+        "linguistics:information-structure"
+      ],
+      "scope": "Information Structure: qud organization. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "information-structure:qud-organization",
+      "top_level": false
+    },
+    {
+      "label": "Focus projection",
+      "parents": [
+        "linguistics:information-structure"
+      ],
+      "scope": "Information Structure: focus projection. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "information-structure:focus-projection",
+      "top_level": false
+    },
+    {
+      "label": "Information packaging constructions",
+      "parents": [
+        "linguistics:information-structure"
+      ],
+      "scope": "Information Structure: information packaging constructions. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "information-structure:information-packaging-constructions",
+      "top_level": false
+    },
+    {
+      "label": "Prosody",
+      "parents": [
+        "linguistics:language"
+      ],
+      "scope": "Prominence, phrasing, timing and intonation, independently navigable while interacting with phonology, phonetics and information structure.",
+      "slug": "prosody",
+      "top_level": true
+    },
+    {
+      "label": "Lexical stress",
+      "parents": [
+        "linguistics:prosody"
+      ],
+      "scope": "Prosody: lexical stress. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "prosody:lexical-stress",
+      "top_level": false
+    },
+    {
+      "label": "Pitch accent and prominence",
+      "parents": [
+        "linguistics:prosody"
+      ],
+      "scope": "Prosody: pitch accent and prominence. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "prosody:pitch-accent-and-prominence",
+      "top_level": false
+    },
+    {
+      "label": "Intonation",
+      "parents": [
+        "linguistics:prosody"
+      ],
+      "scope": "Prosody: intonation. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "prosody:intonation",
+      "top_level": false
+    },
+    {
+      "label": "Prosodic phrasing",
+      "parents": [
+        "linguistics:prosody"
+      ],
+      "scope": "Prosody: prosodic phrasing. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "prosody:prosodic-phrasing",
+      "top_level": false
+    },
+    {
+      "label": "Rhythmic organization",
+      "parents": [
+        "linguistics:prosody"
+      ],
+      "scope": "Prosody: rhythmic organization. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "prosody:rhythmic-organization",
+      "top_level": false
+    },
+    {
+      "label": "Prosodic annotation and measurement",
+      "parents": [
+        "linguistics:prosody"
+      ],
+      "scope": "Prosody: prosodic annotation and measurement. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+      "slug": "prosody:prosodic-annotation-and-measurement",
+      "top_level": false
+    }
+  ],
+  "interfaces": [
+    {
+      "predicate": "kps:constrains",
+      "slug": "lexicon-syntax-interface",
+      "source": "lexical-selection-frame",
+      "source_domain": "lexicon",
+      "source_fields": [
+        "lexeme",
+        "sense",
+        "licensed_complements"
+      ],
+      "target": "syntactic-complement-structure",
+      "target_domain": "syntax",
+      "target_fields": [
+        "head",
+        "complement_category",
+        "grammatical_function"
+      ]
+    },
+    {
+      "predicate": "kps:maps-to",
+      "slug": "morphology-phonology-interface",
+      "source": "inflection-features",
+      "source_domain": "morphology",
+      "source_fields": [
+        "lexeme",
+        "grammatical_features"
+      ],
+      "target": "phonological-exponent",
+      "target_domain": "phonology",
+      "target_fields": [
+        "stem_final_segment",
+        "exponent",
+        "variety"
+      ]
+    },
+    {
+      "predicate": "kps:maps-to",
+      "slug": "syntax-semantics-interface",
+      "source": "clause-functions",
+      "source_domain": "syntax",
+      "source_fields": [
+        "construction",
+        "constituents",
+        "grammatical_functions"
+      ],
+      "target": "participant-roles",
+      "target_domain": "semantics",
+      "target_fields": [
+        "predicate",
+        "participants",
+        "working_roles"
+      ]
+    },
+    {
+      "predicate": "kps:constrains",
+      "slug": "semantics-pragmatics-interface",
+      "source": "conventional-contribution",
+      "source_domain": "semantics",
+      "source_fields": [
+        "expression",
+        "conventional_meaning",
+        "context_arguments"
+      ],
+      "target": "utterance-interpretation",
+      "target_domain": "pragmatics",
+      "target_fields": [
+        "resolved_values",
+        "inferences",
+        "uncertainty"
+      ]
+    },
+    {
+      "predicate": "kps:constrains",
+      "slug": "focus-prosody-interface",
+      "source": "focus-domain",
+      "source_domain": "information-structure",
+      "source_fields": [
+        "question_under_discussion",
+        "focus_span",
+        "background"
+      ],
+      "target": "prominence-pattern",
+      "target_domain": "prosody",
+      "target_fields": [
+        "accent_location",
+        "phrasing",
+        "variety"
+      ]
+    }
+  ],
+  "new_interfaces": [
+    {
+      "example": "For the existing illustrative pin /pɪn/ example, [pʰɪn] is a possible context-sensitive phonetic description. It is not a measured token. The spelling, broad form and phonetic description must remain separate.",
+      "label": "Phonology Phonetics interface",
+      "limitation": "A variety, stress and segmental context must be stated. This bridge does not assert a universal phonetics–phonology boundary or an executable production model. No audio has been recorded or inspected during migration.",
+      "predicate": "kps:constrains",
+      "slug": "phonology-phonetics-interface",
+      "source": "phonological-form",
+      "source_domain": "phonology",
+      "source_fields": [
+        "segments",
+        "syllables",
+        "stress"
+      ],
+      "statement": "Phonological representations constrain possible phonetic analyses without uniquely specifying an observed speech token.",
+      "target": "phonetic-realization",
+      "target_domain": "phonetics",
+      "target_fields": [
+        "transcription_level",
+        "context",
+        "observed_or_predicted",
+        "recording_id"
+      ],
+      "uses": [
+        "representation-levels",
+        "phone-phoneme-and-allophone",
+        "phonological-word-model",
+        "realization-varies-with-environment"
+      ]
+    },
+    {
+      "example": "The existing Nina repaired the PRINTER illustration uses capitals to mark a proposed prominence pattern. Capitals contain no measured fundamental frequency, duration or intensity values.",
+      "label": "Prosody Phonetics interface",
+      "limitation": "The relation is schematic and potentially many-to-many, but its cardinality remains unspecified here. Acoustic cues, speakers and contexts need empirical investigation; an abstract prominence label does not predict numerical measurements.",
+      "predicate": "kps:constrains",
+      "slug": "prosody-phonetics-interface",
+      "source": "prominence-pattern",
+      "source_domain": "prosody",
+      "source_fields": [
+        "accent_location",
+        "phrasing",
+        "variety"
+      ],
+      "statement": "A prosodic prominence analysis must be distinguished from the phonetic measurements used to investigate its realization.",
+      "target": "prosodic-acoustic-description",
+      "target_domain": "phonetics",
+      "target_fields": [
+        "pitch_pattern",
+        "duration",
+        "intensity",
+        "measurement_method",
+        "recording_id"
+      ],
+      "uses": [
+        "prosody",
+        "stress",
+        "focus-prosody-interface",
+        "analyze-sound-realization"
+      ]
+    },
+    {
+      "example": "The questions Who repaired the printer? and What did Nina repair? provide different constructed contexts for Nina repaired the printer. They do not make a permanently fixed topic or focus an intrinsic property of the sentence string.",
+      "label": "Discourse Information Structure interface",
+      "limitation": "This is a QUD-compatible working bridge, not a consensus theory of discourse. Context may be insufficient to identify one topic or focus; alternative analyses must remain explicit.",
+      "predicate": "kps:constrains",
+      "slug": "discourse-information-structure-interface",
+      "source": "discourse-context",
+      "source_domain": "discourse",
+      "source_fields": [
+        "accessible_referents",
+        "prior_utterances",
+        "candidate_questions"
+      ],
+      "statement": "A stated discourse context constrains an information-structure analysis without making grammatical Subject, Topic and Focus interchangeable.",
+      "target": "focus-domain",
+      "target_domain": "information-structure",
+      "target_fields": [
+        "question_under_discussion",
+        "focus_span",
+        "background"
+      ],
+      "uses": [
+        "focus-topic-and-qud",
+        "common-ground",
+        "givenness-and-bridging",
+        "discourse-referent"
+      ]
+    },
+    {
+      "example": "This report is ready and These reports are ready are constructed contrasts for relating nominal number and verb form in a restricted descriptive analysis. Their orthographic differences alone are not a universal agreement algorithm.",
+      "label": "Morphology Syntax interface",
+      "limitation": "Agreement varies by construction and variety; syncretism can conceal feature differences. This is a proposed bridge based on existing distinctions, with external claim support pending.",
+      "predicate": "kps:constrains",
+      "slug": "morphology-syntax-interface",
+      "source": "grammatical-word-features",
+      "source_domain": "morphology",
+      "source_fields": [
+        "lexeme",
+        "number",
+        "person",
+        "tense",
+        "word_form"
+      ],
+      "statement": "Word-form features and syntactic distributions must be represented separately even when an analysis connects them through agreement or finiteness.",
+      "target": "agreement-and-finiteness-pattern",
+      "target_domain": "syntax",
+      "target_fields": [
+        "construction",
+        "controller",
+        "agreement_form",
+        "finiteness"
+      ],
+      "uses": [
+        "inflection",
+        "paradigm-and-syncretism",
+        "finiteness",
+        "auxiliary-chain"
+      ]
+    },
+    {
+      "example": "The existing RUN locomotion and management distinctions illustrate why run a company cannot be interpreted by selecting a spelling and ignoring lexical sense and construction.",
+      "label": "Lexicon Semantics interface",
+      "limitation": "The location of lexical and constructional information differs among theories. This bridge is schematic and does not establish an exhaustive sense inventory, an automatic disambiguator or full claim-level support.",
+      "predicate": "kps:constrains",
+      "slug": "lexicon-semantics-interface",
+      "source": "lexical-sense-entry",
+      "source_domain": "lexicon",
+      "source_fields": [
+        "lexeme",
+        "sense",
+        "selection"
+      ],
+      "statement": "A sense-specific lexical entry constrains an interpretation without making a spelling identify one context-independent predicate.",
+      "target": "predicate-interpretation",
+      "target_domain": "semantics",
+      "target_fields": [
+        "predicate",
+        "arguments",
+        "contextual_restrictions"
+      ],
+      "uses": [
+        "lexical-entry",
+        "sense-and-lexical-ambiguity",
+        "semantic-predicate",
+        "lexical-selection"
+      ]
+    }
+  ],
+  "schema": "kps12-migration-plan-v1"
+}

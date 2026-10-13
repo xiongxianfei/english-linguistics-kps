@@ -1,51 +1,34 @@
----
-id: "english:concept:compositionality"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [3]
-perspectives: ["semantics"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-predicate", "english:concept:sense-and-lexical-ambiguity", "english:concept:quantification-and-scope"]
----
-
 # Compositionality
 
 ## Key takeaway
-The compositionality principle relates the interpretation of a complex expression to interpretations of its parts and their mode of combination.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/compositionality.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-The compositionality principle relates the interpretation of a complex expression to interpretations of its parts and their mode of combination. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/compositionality.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-The compositionality principle relates the interpretation of a complex expression to interpretations of its parts and their mode of combination. Its force depends on what counts as a part, a meaning and a structural operation in the theory.
+This is a compatibility redirect. Read [Definition](../knowledge/compositionality.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-"Maya admires Ravi" and "Ravi admires Maya" use the same lexical identities but reverse argument assignment. For intersective red book, BOOK(x) and RED(x) describe the same candidate x. Former teacher is not simply someone who is simultaneously former and a teacher.
+This is a compatibility redirect. Read [Worked example](../knowledge/compositionality.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Not all adjective modification is set intersection. Lexicalized compounds and idioms may contribute stored meanings at larger structural units; this complicates a word-by-word model without automatically refuting all compositional theories.
+This is a compatibility redirect. Read [Distinctions](../knowledge/compositionality.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-This package uses simplified formulas for explanatory purposes. Definite descriptions add contextual or uniqueness-related requirements beyond conjunction, and the formulas do not constitute a complete formal semantics.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/compositionality.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/compositionality.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
-- [Sense and lexical ambiguity](../concepts/sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.
-- [Quantification and scope](../concepts/quantification-and-scope.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/compositionality.md#related-knowledge) in the canonical KPS 12 content.
+

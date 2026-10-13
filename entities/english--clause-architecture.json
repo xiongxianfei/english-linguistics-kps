@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:clause-architecture"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:clause-architecture:claim:key-takeaway"
+  ],
+  "content": "knowledge/clause-architecture.md",
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:clause-architecture"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:clause-architecture",
+  "kind": "knowledge",
+  "label": "Clause architecture",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:clause-architecture",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "syntax"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        2
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:phrase-and-clause",
+        "english:concept:complement-and-modifier",
+        "english:concept:category-and-function"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:clause-architecture",
+    "old_path": "concepts/clause-architecture.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:phrase-and-clause"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:complement-and-modifier"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:category-and-function"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        2
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

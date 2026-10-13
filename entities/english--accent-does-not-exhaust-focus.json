@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "english:principle:accent-does-not-exhaust-focus"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:accent-does-not-exhaust-focus:claim:key-takeaway"
+  ],
+  "content": "knowledge/accent-does-not-exhaust-focus.md",
+  "domains": [
+    "linguistics:information-structure",
+    "linguistics:information-structure:focus-projection",
+    "linguistics:prosody",
+    "linguistics:prosody:pitch-accent-and-prominence"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:accent-does-not-exhaust-focus",
+  "kind": "knowledge",
+  "label": "An accented word need not exhaust the focus domain",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:accent-does-not-exhaust-focus",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:focus-topic-and-qud",
+        "english:concept:prosody",
+        "english:concept:stress"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:accent-does-not-exhaust-focus",
+    "old_path": "principles/accent-does-not-exhaust-focus.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:focus-topic-and-qud"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:prosody"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:stress"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

@@ -1,0 +1,91 @@
+{
+  "aliases": [
+    "english:concept:discourse-relation"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:discourse-relation:claim:key-takeaway"
+  ],
+  "content": "knowledge/discourse-relation.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:discourse-relations"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:discourse-relation",
+  "kind": "knowledge",
+  "label": "Discourse relation",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:discourse-relation",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "discourse-and-information-structure"
+      ],
+      "references": [
+        "english:reference:mann-taboada-undated-rst-introduction"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        5
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:cohesion-and-coherence",
+        "english:concept:contrast-and-concession",
+        "english:concept:temporal-causal-and-evidential-relations"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:discourse-relation",
+    "old_path": "concepts/discourse-relation.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:cohesion-and-coherence"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:contrast-and-concession"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:temporal-causal-and-evidential-relations"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:mann-taboada-undated-rst-introduction"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        5
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

@@ -1,0 +1,87 @@
+{
+  "aliases": [
+    "english:concept:productivity-and-lexicalization"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:productivity-and-lexicalization:claim:key-takeaway"
+  ],
+  "content": "knowledge/productivity-and-lexicalization.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexicalization",
+    "linguistics:morphology",
+    "linguistics:morphology:derivational-morphology",
+    "linguistics:morphology:morphological-productivity"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:productivity-and-lexicalization",
+  "kind": "knowledge",
+  "label": "Productivity and lexicalization",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:productivity-and-lexicalization",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "morphology-and-lexicon"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        1
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:derivation",
+        "english:concept:compounding",
+        "english:concept:lexical-entry"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:productivity-and-lexicalization",
+    "old_path": "concepts/productivity-and-lexicalization.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:derivation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:compounding"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-entry"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        1
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

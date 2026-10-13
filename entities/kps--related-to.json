@@ -1,0 +1,23 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "Declared topical navigation link; no causal or automatic inverse inference.",
+  "domains": [],
+  "id": "kps:related-to",
+  "kind": "relation-type",
+  "label": "related to",
+  "layer": "navigation",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "knowledge",
+    "interface"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "knowledge",
+    "interface"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,92 @@
+{
+  "aliases": [
+    "english:method:analyze-constituency"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:analyze-constituency:claim:key-takeaway"
+  ],
+  "content": "knowledge/analyze-constituency.md",
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:constituency-and-dependency",
+    "linguistics:syntax:syntactic-diagnostics"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:analyze-constituency",
+  "kind": "knowledge",
+  "label": "Analyze constituency",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:method:analyze-constituency",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "method",
+      "uses_concepts": [
+        "english:concept:constituency",
+        "english:concept:head-and-dependent",
+        "english:concept:relative-clause",
+        "english:concept:object-and-pp-complement"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:method:analyze-constituency",
+    "old_path": "methods/analyze-constituency.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:constituency"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:head-and-dependent"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:relative-clause"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:object-and-pp-complement"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:method"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

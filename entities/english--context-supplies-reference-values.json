@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:principle:context-supplies-reference-values"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:context-supplies-reference-values:claim:key-takeaway"
+  ],
+  "content": "knowledge/context-supplies-reference-values.md",
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:context-and-deixis"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:context-supplies-reference-values",
+  "kind": "knowledge",
+  "label": "Context supplies values for context sensitive expressions",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:context-supplies-reference-values",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "pragmatics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        4
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:deixis",
+        "english:concept:contextual-resolution",
+        "english:concept:reference-and-denotation"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:context-supplies-reference-values",
+    "old_path": "principles/context-supplies-reference-values.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:deixis"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:contextual-resolution"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:reference-and-denotation"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        4
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

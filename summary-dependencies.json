@@ -1,627 +1,780 @@
 {
-  "format": 1,
-  "meaning": "Declared/direct dependencies requiring human summary review after content changes; not proof of factual or semantic validity.",
-  "entries": {
-    "concepts/affix.md": {
-      "concepts/derivation.md": "f0b28bccd24381b3e6191c1d5df71edee020279ed4ee8cad35b92ae14d7ffb05",
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "concepts/root-base-and-stem.md": "8929a22913e5e9fd7518df40312daac81b9a54afcffeaaf37fb0c3860a5aa334"
-    },
-    "concepts/allomorphy.md": {
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "concepts/morpheme.md": "9f7b512e0a9fb5dd5f18a14096ce7614dd0db31ae7f368e894473d8dde4b41fa",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "concepts/ambiguity-and-vagueness.md": {
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da",
-      "concepts/sense-and-lexical-ambiguity.md": "50f1f1d1fb7c71a1ccccbb31ba384c8fec3282adeb1851b7c99c5f83ea1e0d25"
-    },
-    "concepts/anaphora-and-accessibility.md": {
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/discourse-referent.md": "d7e48b219114a97eac6dd3a613d165ab49559cd6ebf64fa348acf4201fe04cdf",
-      "concepts/givenness-and-bridging.md": "9873b5ec2ca62eec12d9e5f4e6dbc301e9a40f2ee04dff8b1ec4fdfba8f26c2b"
-    },
-    "concepts/auxiliary-chain.md": {
-      "concepts/finiteness.md": "5f1f0cf1506930e9fe73521847a67ef0805ad98efcbe2fcf7e152e09e51bcfac",
-      "concepts/paradigm-and-syncretism.md": "d8b0a08cbaf98e95a82eb6dd40033f318886be91ab1f955c0af36caa24171544",
-      "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6"
-    },
-    "concepts/category-and-function.md": {
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/predicative-complement.md": "6d2e9d8fc263d45d7cb7d0219dc96171d92e36e4eac8ec37dd812cd35b53f698"
-    },
-    "concepts/clause-architecture.md": {
-      "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
-      "concepts/complement-and-modifier.md": "891f09711283ee26f59c544e875c463687cfc9418b2abe6e1a18a20553b78ce7",
-      "concepts/phrase-and-clause.md": "9cb097d9d9666c008a1a435089b32ce220d377068a5d094d51b88932ef6d8c25"
-    },
-    "concepts/cohesion-and-coherence.md": {
-      "concepts/anaphora-and-accessibility.md": "f44a10f92c2f624acd81c84e8eb2a7ceb7f299c5e7a442b6750f493c2f19ce4d",
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43"
-    },
-    "concepts/collocation.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f"
-    },
-    "concepts/common-ground.md": {
-      "concepts/discourse-referent.md": "d7e48b219114a97eac6dd3a613d165ab49559cd6ebf64fa348acf4201fe04cdf",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/presupposition.md": "ae77e79b5998c29940ef2aa8e28c12f53417b5e1d5567c33975e81700065b3ef"
-    },
-    "concepts/complement-and-modifier.md": {
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "concepts/complement-clause.md": {
-      "concepts/finiteness.md": "5f1f0cf1506930e9fe73521847a67ef0805ad98efcbe2fcf7e152e09e51bcfac",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
-      "concepts/wh-dependency.md": "cb9d0a05f19c119b761886f073e22cbd8bcf925521e7edfc6d44f39962a737fe"
-    },
-    "concepts/compositionality.md": {
-      "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da",
-      "concepts/semantic-predicate.md": "15f5ea65456846155a6fa6ee71f75d239834c01c36d14280d78b1e7ee8348c65",
-      "concepts/sense-and-lexical-ambiguity.md": "50f1f1d1fb7c71a1ccccbb31ba384c8fec3282adeb1851b7c99c5f83ea1e0d25"
-    },
-    "concepts/compounding.md": {
-      "concepts/compositionality.md": "aacaa48de1cd6de94b9ed4ac443d38f8376513de483f80ee0985f0db9dc89f81",
-      "concepts/productivity-and-lexicalization.md": "2c64e41601e1655a6bb145f8560a5fb87ff254f423243153434ab5590a2b568e",
-      "concepts/root-base-and-stem.md": "8929a22913e5e9fd7518df40312daac81b9a54afcffeaaf37fb0c3860a5aa334"
-    },
-    "concepts/connected-speech.md": {
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee"
-    },
-    "concepts/consonant-articulation.md": {
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
-      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
-      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535"
-    },
-    "concepts/constituency.md": {
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/phrase-and-clause.md": "9cb097d9d9666c008a1a435089b32ce220d377068a5d094d51b88932ef6d8c25"
-    },
-    "concepts/constraint-and-preference.md": {
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/grammaticality-and-acceptability.md": "c9e7dd290725f8c7a8a2409eb6d6e41feb770f0f60355c9b4672fbd813263cc0",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f"
-    },
-    "concepts/contextual-resolution.md": {
-      "concepts/anaphora-and-accessibility.md": "f44a10f92c2f624acd81c84e8eb2a7ceb7f299c5e7a442b6750f493c2f19ce4d",
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6"
-    },
-    "concepts/contrast-and-concession.md": {
-      "concepts/coordination-and-subordination.md": "300bd74720691b79f0d27095960d3622c9015599e230393ccfe125350e4e1710",
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e"
-    },
-    "concepts/contrast-and-distribution.md": {
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/phonotactics.md": "961bc1309bc7111830aa51d5f1dfc2e101cfd982c76e21a4a281671079327fd6"
-    },
-    "concepts/coordination-and-subordination.md": {
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/phrase-and-clause.md": "9cb097d9d9666c008a1a435089b32ce220d377068a5d094d51b88932ef6d8c25",
-      "concepts/relative-clause.md": "134b48766bcbbfc9b7a6c8feac612f704f29a6bc195b01d0988197b215fd9a74"
-    },
-    "concepts/deixis.md": {
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/reference-and-denotation.md": "132598041012ad03d2d0b0cbcb8de19b2339044891dfea8354e31b4c5ea09a5e",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862"
-    },
-    "concepts/derivation.md": {
-      "concepts/affix.md": "3507629792cf1b7cde7de38335e2d3fdc4e9f34f9eb8932e7e867c1e7255008d",
-      "concepts/lexeme-and-word-form.md": "4d442bac0f3c56494dadeb9fc99f9edff92c9431c1091f5b01d614840f7e0c77",
-      "concepts/productivity-and-lexicalization.md": "2c64e41601e1655a6bb145f8560a5fb87ff254f423243153434ab5590a2b568e"
-    },
-    "concepts/discourse-referent.md": {
-      "concepts/anaphora-and-accessibility.md": "f44a10f92c2f624acd81c84e8eb2a7ceb7f299c5e7a442b6750f493c2f19ce4d",
-      "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
-      "concepts/reference-and-denotation.md": "132598041012ad03d2d0b0cbcb8de19b2339044891dfea8354e31b4c5ea09a5e"
-    },
-    "concepts/discourse-relation.md": {
-      "concepts/cohesion-and-coherence.md": "50778c2fa719a209719e74397b3bec4af4073212fda5196ad785b3a15bec8bf6",
-      "concepts/contrast-and-concession.md": "57a1849928835e74cc3df07f898c397b12a10afc168211c1e221b9263dbf0a45",
-      "concepts/temporal-causal-and-evidential-relations.md": "65266678e238ab966625ed9d376e32a844c59792ecea918aae9032ffac16c606",
-      "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89"
-    },
-    "concepts/do-support-and-inversion.md": {
-      "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
-      "concepts/finiteness.md": "5f1f0cf1506930e9fe73521847a67ef0805ad98efcbe2fcf7e152e09e51bcfac",
-      "concepts/wh-dependency.md": "cb9d0a05f19c119b761886f073e22cbd8bcf925521e7edfc6d44f39962a737fe"
-    },
-    "concepts/evidence-and-analysis.md": {
-      "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e",
-      "concepts/grammaticality-and-acceptability.md": "c9e7dd290725f8c7a8a2409eb6d6e41feb770f0f60355c9b4672fbd813263cc0",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f"
-    },
-    "concepts/expression-and-representation.md": {
-      "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
-      "concepts/reference-and-denotation.md": "132598041012ad03d2d0b0cbcb8de19b2339044891dfea8354e31b4c5ea09a5e"
-    },
-    "concepts/finiteness.md": {
-      "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
-      "concepts/complement-clause.md": "e7273fd8460323fda5000bb2bbcd29271cbd423e05c72fe2a8193f8a2f36695b",
-      "concepts/phrase-and-clause.md": "9cb097d9d9666c008a1a435089b32ce220d377068a5d094d51b88932ef6d8c25"
-    },
-    "concepts/focus-topic-and-qud.md": {
-      "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
-      "concepts/givenness-and-bridging.md": "9873b5ec2ca62eec12d9e5f4e6dbc301e9a40f2ee04dff8b1ec4fdfba8f26c2b",
-      "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
-      "references/roberts-2012-information-structure.md": "792a384436c8221f5d8a970a79322e4c8c22c8eaafe2cd2d76f12ea9a09c431b"
-    },
-    "concepts/givenness-and-bridging.md": {
-      "concepts/anaphora-and-accessibility.md": "f44a10f92c2f624acd81c84e8eb2a7ceb7f299c5e7a442b6750f493c2f19ce4d",
-      "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43"
-    },
-    "concepts/grammaticality-and-acceptability.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f"
-    },
-    "concepts/gricean-reasoning.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0"
-    },
-    "concepts/head-and-dependent.md": {
-      "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
-      "concepts/complement-and-modifier.md": "891f09711283ee26f59c544e875c463687cfc9418b2abe6e1a18a20553b78ce7"
-    },
-    "concepts/implicature.md": {
-      "concepts/gricean-reasoning.md": "c986b73a19ead4767de2fe709e309e821060709ab7921caa53b45311001e9dfd",
-      "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da",
-      "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5"
-    },
-    "concepts/inflection.md": {
-      "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/lexeme-and-word-form.md": "4d442bac0f3c56494dadeb9fc99f9edff92c9431c1091f5b01d614840f7e0c77",
-      "concepts/paradigm-and-syncretism.md": "d8b0a08cbaf98e95a82eb6dd40033f318886be91ab1f955c0af36caa24171544"
-    },
-    "concepts/interface.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e"
-    },
-    "concepts/lexeme-and-word-form.md": {
-      "concepts/derivation.md": "f0b28bccd24381b3e6191c1d5df71edee020279ed4ee8cad35b92ae14d7ffb05",
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "concepts/paradigm-and-syncretism.md": "d8b0a08cbaf98e95a82eb6dd40033f318886be91ab1f955c0af36caa24171544"
-    },
-    "concepts/lexical-entry.md": {
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
-      "concepts/sense-and-lexical-ambiguity.md": "50f1f1d1fb7c71a1ccccbb31ba384c8fec3282adeb1851b7c99c5f83ea1e0d25",
-      "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe"
-    },
-    "concepts/lexical-selection.md": {
-      "concepts/grammaticality-and-acceptability.md": "c9e7dd290725f8c7a8a2409eb6d6e41feb770f0f60355c9b4672fbd813263cc0",
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe"
-    },
-    "concepts/modality.md": {
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/semantic-predicate.md": "15f5ea65456846155a6fa6ee71f75d239834c01c36d14280d78b1e7ee8348c65",
-      "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6"
-    },
-    "concepts/morpheme.md": {
-      "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/root-base-and-stem.md": "8929a22913e5e9fd7518df40312daac81b9a54afcffeaaf37fb0c3860a5aa334"
-    },
-    "concepts/negation-and-entailment.md": {
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
-      "concepts/presupposition.md": "ae77e79b5998c29940ef2aa8e28c12f53417b5e1d5567c33975e81700065b3ef",
-      "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da"
-    },
-    "concepts/object-and-pp-complement.md": {
-      "concepts/complement-and-modifier.md": "891f09711283ee26f59c544e875c463687cfc9418b2abe6e1a18a20553b78ce7",
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862"
-    },
-    "concepts/paradigm-and-syncretism.md": {
-      "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
-      "concepts/finiteness.md": "5f1f0cf1506930e9fe73521847a67ef0805ad98efcbe2fcf7e152e09e51bcfac",
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6"
-    },
-    "concepts/phone-phoneme-and-allophone.md": {
-      "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "concepts/phonotactics.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
-      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f"
-    },
-    "concepts/phrase-and-clause.md": {
-      "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
-      "concepts/constituency.md": "00c5bcd0e8ebb614999387bc0c4e3db9e5050de918d917282c6a93cee4fb8deb",
-      "concepts/finiteness.md": "5f1f0cf1506930e9fe73521847a67ef0805ad98efcbe2fcf7e152e09e51bcfac"
-    },
-    "concepts/predicative-complement.md": {
-      "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "concepts/semantic-predicate.md": "15f5ea65456846155a6fa6ee71f75d239834c01c36d14280d78b1e7ee8348c65"
-    },
-    "concepts/presupposition.md": {
-      "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
-      "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e"
-    },
-    "concepts/productivity-and-lexicalization.md": {
-      "concepts/compounding.md": "74ccb1bbd6cd2d1ee5013d6c89846e4e0c1f2ce26c6eed19725f29013e1296ae",
-      "concepts/derivation.md": "f0b28bccd24381b3e6191c1d5df71edee020279ed4ee8cad35b92ae14d7ffb05",
-      "concepts/lexical-entry.md": "3b96104ba28183935e0fe289634878bd8ea041040a273e85b6dae7d401f0e2b1"
-    },
-    "concepts/prosody.md": {
-      "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee"
-    },
-    "concepts/quantification-and-scope.md": {
-      "concepts/ambiguity-and-vagueness.md": "cca7a4dfcca0e4f060a180e39fef7c144d8e2f880b3197c5cbe3f905f9017599",
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
-      "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e"
-    },
-    "concepts/reference-and-denotation.md": {
-      "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
-      "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da",
-      "concepts/semantic-predicate.md": "15f5ea65456846155a6fa6ee71f75d239834c01c36d14280d78b1e7ee8348c65"
-    },
-    "concepts/relative-clause.md": {
-      "concepts/constituency.md": "00c5bcd0e8ebb614999387bc0c4e3db9e5050de918d917282c6a93cee4fb8deb",
-      "concepts/coordination-and-subordination.md": "300bd74720691b79f0d27095960d3622c9015599e230393ccfe125350e4e1710",
-      "concepts/wh-dependency.md": "cb9d0a05f19c119b761886f073e22cbd8bcf925521e7edfc6d44f39962a737fe"
-    },
-    "concepts/representation-levels.md": {
-      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
-      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
-      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
-    },
-    "concepts/root-base-and-stem.md": {
-      "concepts/affix.md": "3507629792cf1b7cde7de38335e2d3fdc4e9f34f9eb8932e7e867c1e7255008d",
-      "concepts/compounding.md": "74ccb1bbd6cd2d1ee5013d6c89846e4e0c1f2ce26c6eed19725f29013e1296ae",
-      "concepts/derivation.md": "f0b28bccd24381b3e6191c1d5df71edee020279ed4ee8cad35b92ae14d7ffb05"
-    },
-    "concepts/semantic-predicate.md": {
-      "concepts/compositionality.md": "aacaa48de1cd6de94b9ed4ac443d38f8376513de483f80ee0985f0db9dc89f81",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862",
-      "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe"
-    },
-    "concepts/semantic-role.md": {
-      "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "concepts/semantic-predicate.md": "15f5ea65456846155a6fa6ee71f75d239834c01c36d14280d78b1e7ee8348c65",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "concepts/sense-and-lexical-ambiguity.md": {
-      "concepts/ambiguity-and-vagueness.md": "cca7a4dfcca0e4f060a180e39fef7c144d8e2f880b3197c5cbe3f905f9017599",
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/lexical-entry.md": "3b96104ba28183935e0fe289634878bd8ea041040a273e85b6dae7d401f0e2b1"
-    },
-    "concepts/situation-type.md": {
-      "concepts/lexical-entry.md": "3b96104ba28183935e0fe289634878bd8ea041040a273e85b6dae7d401f0e2b1",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862",
-      "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6"
-    },
-    "concepts/speech-act.md": {
-      "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
-      "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
-      "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5"
-    },
-    "concepts/stress.md": {
-      "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
-      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
-      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
-    },
-    "concepts/suppletion.md": {
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "concepts/paradigm-and-syncretism.md": "d8b0a08cbaf98e95a82eb6dd40033f318886be91ab1f955c0af36caa24171544"
-    },
-    "concepts/syllable-structure.md": {
-      "concepts/phonotactics.md": "961bc1309bc7111830aa51d5f1dfc2e101cfd982c76e21a4a281671079327fd6",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee"
-    },
-    "concepts/temporal-causal-and-evidential-relations.md": {
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/modality.md": "1809ed664860e2463d00ce964e4813fe86207c2632f50f80a0f30fa2790b698a",
-      "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6"
-    },
-    "concepts/tense-and-aspect.md": {
-      "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
-      "concepts/modality.md": "1809ed664860e2463d00ce964e4813fe86207c2632f50f80a0f30fa2790b698a",
-      "concepts/situation-type.md": "a1e57cb5f4adbb08dc64bb99aab39b98b69156eea1232628d96d669ef8f37be0"
-    },
-    "concepts/utterance-and-speaker-meaning.md": {
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
-      "concepts/speech-act.md": "e1775daee1608d748abb60305ab485a4dac3186d4fa98d7e8b9beccd38a9df00"
-    },
-    "concepts/valency-and-argument-structure.md": {
-      "concepts/complement-and-modifier.md": "891f09711283ee26f59c544e875c463687cfc9418b2abe6e1a18a20553b78ce7",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862"
-    },
-    "concepts/vowel-articulation.md": {
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
-      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
-      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535",
-      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
-    },
-    "concepts/wh-dependency.md": {
-      "concepts/do-support-and-inversion.md": "34571c994cb48253601474cabbd42b92d78983823958677d6e4b6a54ae6a5dd9",
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/relative-clause.md": "134b48766bcbbfc9b7a6c8feac612f704f29a6bc195b01d0988197b215fd9a74"
-    },
-    "methods/analyze-complete-utterance.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f"
-    },
-    "methods/analyze-constituency.md": {
-      "concepts/constituency.md": "00c5bcd0e8ebb614999387bc0c4e3db9e5050de918d917282c6a93cee4fb8deb",
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "concepts/relative-clause.md": "134b48766bcbbfc9b7a6c8feac612f704f29a6bc195b01d0988197b215fd9a74"
-    },
-    "methods/analyze-sound-realization.md": {
-      "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
-      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4",
-      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
-      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535",
-      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
-    },
-    "methods/compare-argument-mappings.md": {
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862",
-      "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "methods/evaluate-linguistic-claim.md": {
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/grammaticality-and-acceptability.md": "c9e7dd290725f8c7a8a2409eb6d6e41feb770f0f60355c9b4672fbd813263cc0",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
-      "references/xiongxianfei-2026-knowledge-practice-system.md": "37f663722ce0bcc816e5e4acfbbb8922d1958d14e9e4e252df214f1ea8d69d97"
-    },
-    "methods/trace-discourse-interpretation.md": {
-      "concepts/anaphora-and-accessibility.md": "f44a10f92c2f624acd81c84e8eb2a7ceb7f299c5e7a442b6750f493c2f19ce4d",
-      "concepts/discourse-referent.md": "d7e48b219114a97eac6dd3a613d165ab49559cd6ebf64fa348acf4201fe04cdf",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/temporal-causal-and-evidential-relations.md": "65266678e238ab966625ed9d376e32a844c59792ecea918aae9032ffac16c606",
-      "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89"
-    },
-    "models/auxiliary-selection-model.md": {
-      "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
-      "concepts/do-support-and-inversion.md": "34571c994cb48253601474cabbd42b92d78983823958677d6e4b6a54ae6a5dd9",
-      "concepts/finiteness.md": "5f1f0cf1506930e9fe73521847a67ef0805ad98efcbe2fcf7e152e09e51bcfac",
-      "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6"
-    },
-    "models/discourse-network-model.md": {
-      "concepts/contrast-and-concession.md": "57a1849928835e74cc3df07f898c397b12a10afc168211c1e221b9263dbf0a45",
-      "concepts/discourse-referent.md": "d7e48b219114a97eac6dd3a613d165ab49559cd6ebf64fa348acf4201fe04cdf",
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/temporal-causal-and-evidential-relations.md": "65266678e238ab966625ed9d376e32a844c59792ecea918aae9032ffac16c606",
-      "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89"
-    },
-    "models/english-system-architecture.md": {
-      "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
-      "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862"
-    },
-    "models/focus-prosody-interface.md": {
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
-      "references/roberts-2012-information-structure.md": "792a384436c8221f5d8a970a79322e4c8c22c8eaafe2cd2d76f12ea9a09c431b"
-    },
-    "models/integrated-utterance-analysis.md": {
-      "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
-      "concepts/relative-clause.md": "134b48766bcbbfc9b7a6c8feac612f704f29a6bc195b01d0988197b215fd9a74",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862"
-    },
-    "models/lexicon-syntax-interface.md": {
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe"
-    },
-    "models/morphology-phonology-interface.md": {
-      "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653"
-    },
-    "models/nested-clause-model.md": {
-      "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
-      "concepts/clause-architecture.md": "ba0df5b242e83f28184f1f044172238ca0e1275eb7fd1240440f8fe366905a35",
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/relative-clause.md": "134b48766bcbbfc9b7a6c8feac612f704f29a6bc195b01d0988197b215fd9a74"
-    },
-    "models/phonological-word-model.md": {
-      "concepts/phonotactics.md": "961bc1309bc7111830aa51d5f1dfc2e101cfd982c76e21a4a281671079327fd6",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
-      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f"
-    },
-    "models/quantifier-scope-model.md": {
-      "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e",
-      "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da",
-      "concepts/semantic-predicate.md": "15f5ea65456846155a6fa6ee71f75d239834c01c36d14280d78b1e7ee8348c65"
-    },
-    "models/semantics-pragmatics-interface.md": {
-      "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
-      "concepts/presupposition.md": "ae77e79b5998c29940ef2aa8e28c12f53417b5e1d5567c33975e81700065b3ef"
-    },
-    "models/syntax-semantics-interface.md": {
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862",
-      "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe"
-    },
-    "models/temporal-reference-model.md": {
-      "concepts/modality.md": "1809ed664860e2463d00ce964e4813fe86207c2632f50f80a0f30fa2790b698a",
-      "concepts/situation-type.md": "a1e57cb5f4adbb08dc64bb99aab39b98b69156eea1232628d96d669ef8f37be0",
-      "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6"
-    },
-    "models/utterance-interpretation-model.md": {
-      "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
-      "concepts/speech-act.md": "e1775daee1608d748abb60305ab485a4dac3186d4fa98d7e8b9beccd38a9df00",
-      "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5"
-    },
-    "models/word-formation-hierarchy.md": {
-      "concepts/affix.md": "3507629792cf1b7cde7de38335e2d3fdc4e9f34f9eb8932e7e867c1e7255008d",
-      "concepts/compounding.md": "74ccb1bbd6cd2d1ee5013d6c89846e4e0c1f2ce26c6eed19725f29013e1296ae",
-      "concepts/derivation.md": "f0b28bccd24381b3e6191c1d5df71edee020279ed4ee8cad35b92ae14d7ffb05",
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "concepts/root-base-and-stem.md": "8929a22913e5e9fd7518df40312daac81b9a54afcffeaaf37fb0c3860a5aa334"
-    },
-    "practices/classify-and-produce-phone.md": {
-      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
-      "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
-      "concepts/vowel-articulation.md": "06431fe25a2eae25efe2d64bd13a7eb44ac6707cb3d3e3b4509cf6bbf7962f8d",
-      "methods/analyze-sound-realization.md": "1ca5aabdc23873a0d37085d2de1b160ee939357e017ffc7c09db619ac5098e5d",
-      "models/phonological-word-model.md": "9677a6eb539560dc4b901a29e0af871be0523824b704e47b6059998a2fb72272",
-      "principles/realization-varies-with-environment.md": "66813e6053b2dd0a646bde1322a1e3d10188fd2af84dabebf62fa39a34924eef",
-      "principles/validation-does-not-establish-truth.md": "612078485951e199722a2c04b52b2338ad6003f23c93e17d51dc83bc74fb8b6b",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4",
-      "references/international-phonetic-association-undated-diacritics-and-other-symbols.md": "934eb3b3052dc063bde1fa7c85779345cb0daca56d343b036b3d089561d303dc",
-      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
-      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535"
-    },
-    "practices/investigate-linguistic-question.md": {
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/expression-and-representation.md": "a0e822a5db52d64d245dd70e9ec67dd260bd248bcdffe59609903fe664b49c9e",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
-      "references/xiongxianfei-2026-knowledge-practice-system.md": "37f663722ce0bcc816e5e4acfbbb8922d1958d14e9e4e252df214f1ea8d69d97"
-    },
-    "practices/learn-word-pronunciation.md": {
-      "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/representation-levels.md": "3a3bcd1517a092568d11ff6218d6b31023f0b068a111ca23e9b863a8a2b99653",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
-      "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
-      "methods/analyze-sound-realization.md": "1ca5aabdc23873a0d37085d2de1b160ee939357e017ffc7c09db619ac5098e5d",
-      "models/phonological-word-model.md": "9677a6eb539560dc4b901a29e0af871be0523824b704e47b6059998a2fb72272",
-      "practices/classify-and-produce-phone.md": "656b8ef60152c8d052fe0d8302d149bd3cddc08bbbc058f2ab1417e1f56abffa",
-      "principles/realization-varies-with-environment.md": "66813e6053b2dd0a646bde1322a1e3d10188fd2af84dabebf62fa39a34924eef",
-      "principles/validation-does-not-establish-truth.md": "612078485951e199722a2c04b52b2338ad6003f23c93e17d51dc83bc74fb8b6b",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4",
-      "references/international-phonetic-association-undated-interactive-chart.md": "1e32732b5ce9b1fe30ae3c203fe959815ccd4271c13989e1d345c7e085e473e1",
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1",
-      "references/merriam-webster-undated-pin-entry.md": "3fb8505819866163029e4769bf8b6c0a589a9e13138f9a00c2b7111b543920dd",
-      "references/sounds-american-undated-chart-and-terms.md": "fd56ca0d28b1ec9a16804632b42ed4f36c3f2b1934c273211fc612a2a83ef535",
-      "references/tophonetics-undated-english-transcription.md": "566d63763b241ed9191f8cb4aa8e2ba6ad117d5836dfd7a7df9e93e758a5fe77"
-    },
-    "practices/maintain-english-package.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
-      "references/xiongxianfei-2026-knowledge-practice-system.md": "37f663722ce0bcc816e5e4acfbbb8922d1958d14e9e4e252df214f1ea8d69d97"
-    },
-    "principles/accent-does-not-exhaust-focus.md": {
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee"
-    },
-    "principles/category-does-not-determine-function.md": {
-      "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
-      "concepts/complement-and-modifier.md": "891f09711283ee26f59c544e875c463687cfc9418b2abe6e1a18a20553b78ce7"
-    },
-    "principles/cohesion-does-not-guarantee-coherence.md": {
-      "concepts/cohesion-and-coherence.md": "50778c2fa719a209719e74397b3bec4af4073212fda5196ad785b3a15bec8bf6",
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43"
-    },
-    "principles/context-supplies-reference-values.md": {
-      "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
-      "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
-      "concepts/reference-and-denotation.md": "132598041012ad03d2d0b0cbcb8de19b2339044891dfea8354e31b4c5ea09a5e"
-    },
-    "principles/exponents-are-conditioned-by-sound.md": {
-      "concepts/allomorphy.md": "2af1156f6cdaf08f6d22dae5378ead1a65b81ff1bcff4c6e0ee6dc5ad6482224",
-      "concepts/consonant-articulation.md": "3f474a965ce669bdc6d5861e32921c818c05753f3bb4f40e8ab5f80779c67e15",
-      "concepts/inflection.md": "26f5adcbdeb868f44d45c10a6824adda9a53428016fcf11606ba5b375ade85b6",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "principles/functions-do-not-determine-roles.md": {
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c",
-      "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "principles/implicatures-are-defeasible.md": {
-      "concepts/gricean-reasoning.md": "c986b73a19ead4767de2fe709e309e821060709ab7921caa53b45311001e9dfd",
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
-      "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e"
-    },
-    "principles/local-heads-determine-local-relations.md": {
-      "concepts/head-and-dependent.md": "983e74a48362cb170884a5f8dd0ec4c97a09c8b6764d7ceaf67709e2262469ce",
-      "concepts/object-and-pp-complement.md": "02e5ed12e6bdbfa6bfefbcdbb65037d8c13faa0f0871dd945a706d19a715710c"
-    },
-    "principles/realization-varies-with-environment.md": {
-      "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
-      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
-      "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
-      "references/anderson-2018-essentials-of-linguistics.md": "ef383ff6ec0365d586292403de183df3d2edee6f02678b34505a35736ce49bc4"
-    },
-    "principles/scope-determines-operator-interaction.md": {
-      "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e",
-      "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da"
-    },
-    "principles/selection-is-sense-sensitive.md": {
-      "concepts/lexical-entry.md": "3b96104ba28183935e0fe289634878bd8ea041040a273e85b6dae7d401f0e2b1",
-      "concepts/lexical-selection.md": "d70bd89dbe6b432f201cd01adc2f01e2084d1fd25e879c1a2569d7e8137a5f2f",
-      "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe"
-    },
-    "principles/sequence-does-not-establish-cause.md": {
-      "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
-      "concepts/discourse-relation.md": "ad3458ded59d1bf93ae0f0b24884e721a571f531d57a7a8c77cb733ac5a39167",
-      "concepts/temporal-causal-and-evidential-relations.md": "65266678e238ab966625ed9d376e32a844c59792ecea918aae9032ffac16c606"
-    },
-    "principles/validation-does-not-establish-truth.md": {
-      "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",
-      "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
-      "references/xiongxianfei-2026-knowledge-practice-system.md": "37f663722ce0bcc816e5e4acfbbb8922d1958d14e9e4e252df214f1ea8d69d97"
-    },
-    "references/international-phonetic-association-undated-diacritics-and-other-symbols.md": {
-      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
-    }
-  }
+  "content_sha256": {
+    "english:accent-does-not-exhaust-focus": "30d4b70b196a587c9dbb2fb5dd554dedbbf5e75bdf3a176ca13033cfdc848398",
+    "english:affix": "210d637fb8d18216b07ba06bcfddc241237c36e6981ee53fabaa450766a912fd",
+    "english:allomorphy": "86e1732ea1d850a05c18c8a1ab95a92556b89b6b21a6576bb33a4af350a453fd",
+    "english:ambiguity-and-vagueness": "cca286463773eacab7789c300d8020024d2e2da1297559296fd3870d5f847013",
+    "english:analyze-complete-utterance": "35371cdd3da255176ee498c1027c31fa3adcab76fa1fdba480056d294d9b72f7",
+    "english:analyze-constituency": "fdd70c07e37a0938bc998d3d815387f20acddaf8e61432e488d4ef938eb41ab8",
+    "english:analyze-sound-realization": "dd83197a234abd77cfa406599b8d29779799cabe3397448572d13dee8e05104d",
+    "english:anaphora-and-accessibility": "0615a18e7e00e0f20c2f4200ce2c4ac01f66f536921b264c5a9b9e32da52f333",
+    "english:anderson-2018-essentials-of-linguistics": "ccc3f1eb0cfb0aac7a32574a3b9e1d841f84ede0b7f3b5aaeef692ef174f4ef8",
+    "english:auxiliary-chain": "1d0eee261ba0d44fe00b81436814263e9b5ac24131483c00596bc5ccfcc2ce78",
+    "english:auxiliary-selection-model": "92410bc75f2752547ebc86fb4dd2d63c6301e441e2e8a5812610932e0866983f",
+    "english:category-and-function": "72f6c60ac4e25db3b30b09624596bcf0b1fdb559bf5b3c756657fae648f7b74f",
+    "english:category-does-not-determine-function": "2c5456dfaf24189af32a9ff09ad28c353e737d9d551d07b9a75932e4a6b52a4d",
+    "english:classify-and-produce-phone": "3a970249c810585c3666d138b3166cdb0d4f035a3da0a94fefc4632bb5800f93",
+    "english:clause-architecture": "b4264d54c66284c2f11aba23070266008885bca7a3580059a0faaea686280fe6",
+    "english:cohesion-and-coherence": "a9343d7e0ee1cfa9ad038f6f8a684e4a557bb618575bbc44bf56a6abd54299b8",
+    "english:cohesion-does-not-guarantee-coherence": "00c412488bc24f59724bafb70e4c93fb3c083e1a71dbfb50efcf2153f13d5e68",
+    "english:collocation": "5735d514a3589407969d18c1e96874380b793fa45535680906766693223304dd",
+    "english:common-ground": "0e1340ba79d378ea4ee5b1e55b2648ff247f421af3ddaedde66a306aaeb48a8d",
+    "english:compare-argument-mappings": "697a5dcc80c14ea0e4af0a5bb1983068df0b0f03a88dc01ce97ab8741d95a458",
+    "english:complement-and-modifier": "d0ac87b2e901f24bf803c9297195cce19a40164c541afd3ed54d18b4e0d02259",
+    "english:complement-clause": "d67ff38bf9e69db7c13a7b1ac5d19bd3aa85d81d3c47d57cee73e41826eaa2b0",
+    "english:compositionality": "11aac282ea1683e0ae4eb13cbfab3cfa4c16b4dcf3212af7a1b26d254ef01456",
+    "english:compounding": "d25f5f5e23fdb3cbc3d4966d157e99bea5aec9799f0a8b3be2a001ae09481d4a",
+    "english:connected-speech": "7d54a65deba19d02deaee1bd31ca08e5d77cfb0b14279a12f0c508ccd043d09f",
+    "english:consonant-articulation": "a47e3ede53760411e06a9cf72b9a04b17dae392c27a610b96a78498136375c31",
+    "english:constituency": "907670645f4e2e66c2e27165d2188685c7f42b4cb0ea9a50633784ab510fcc33",
+    "english:constraint-and-preference": "3a580ed661872d2b2d4c910fb1c2bd8d6fbf2bf5b5a5205cfd04768c2b4f9d1b",
+    "english:context-supplies-reference-values": "9bf6ea47776afd52f29f8a1129c1809336a9e9feb8c047cbbc666fa0e81e579c",
+    "english:contextual-resolution": "e909d8bdff8c9e12413010c0349d182b702020f543cb9a06aabdba71a7dfe5fc",
+    "english:contrast-and-concession": "efef48f7056d6ab1e0fdbb9198225c71fdabd18e78d3d032b01c3ed4d539e2dc",
+    "english:contrast-and-distribution": "e40bbba4deb49e17854e95a2d83bf24e9b6982529995f1851c7704cf57a7a6e0",
+    "english:coordination-and-subordination": "21f16638feef65daf36bb154f88aceea085db407228a0faaaa2b706f53eb432e",
+    "english:deixis": "5db3ef954f7536a3f82f16a8602487373f7088b56298cd3ee128198993c5007a",
+    "english:derivation": "05d9f9ff3fc5e516b2635400faec21d3c817b9398d0b0466fe601a2ed55df2c3",
+    "english:discourse-information-structure-interface": "3f9fff42840c49f25185206b01b9b96a0a987771ba9168974c5ab53e047866ef",
+    "english:discourse-network-model": "b3fe32df970e74a9613bd15d3b2282fe05daaa64db6285c736fc49b01a3890b5",
+    "english:discourse-referent": "ba81e4802f2ee88053dba2349979ffdd068acc743a9f60f11adcd069e896f20f",
+    "english:discourse-relation": "a210fbdff20ed1b1dbae265112f203f83ee01ae5cfe06b5f50f56e2acdb036d3",
+    "english:do-support-and-inversion": "1ee9e8cd7d7a678850f511679b50fc9ec8c24ae37746ecb4e9f66c691eda53ee",
+    "english:english-system-architecture": "c3c073202dec5540780ede31d12274f24cdb01d6ff8fc8cc913ca277a0578cff",
+    "english:evaluate-linguistic-claim": "1649daac88e8f599e43e790b157be71cf2355f38499c78c471fc0313f9b160af",
+    "english:evidence-and-analysis": "41147dac178df077bed8002acdc100ac5144c31205403d05943f8b91ae3c29f2",
+    "english:exponents-are-conditioned-by-sound": "f0a105fc970eb9b9c6104d9da4552a2eedf27c0b27fbd7df4d2f03a6b3fbaaff",
+    "english:expression-and-representation": "8a780eb684571c1f7e6ec9a05495ff62f34f81576fbd9b87e8b66f0e99fdf531",
+    "english:finiteness": "0d59a4d33ff9b7064aca20cbe4d05a56aad7a5f57893871935687df2d02c30af",
+    "english:focus-prosody-interface": "498b3fb5126e44dbe111439de96748a6b64c1c45bbcb4c341101af6ccac4bc5d",
+    "english:focus-topic-and-qud": "645be621933ba5675f4042834cb95791fe04c2580c6532a6c2319c5145c11fa4",
+    "english:functions-do-not-determine-roles": "e8c3eea418ad17252299a4a1113c1a657a3e17428be4d0a4c2ed89b6338ab2cf",
+    "english:givenness-and-bridging": "601640a41fb1231e030926f9577cb2634c9f7501bea05c9b98f23a8ab562df55",
+    "english:grammaticality-and-acceptability": "5759049961192c9f6509a4d7765357cccafd1a6cc6c5596302c95170d7d49e9d",
+    "english:gricean-reasoning": "5d117dbd2f29b59aeaf8e83795b287abecce9fe38854d8fc899349949b82147d",
+    "english:head-and-dependent": "da4a504359a5ed97d1c0407e5fbd07144765eb4bc84d9ee055cebd57d8bfa4b7",
+    "english:implicature": "a752f31054b11fb013a2461102db4e9303c5b45475ec769a3dec9390fa5888b0",
+    "english:implicatures-are-defeasible": "cf62202fa86be701985835fb76330ebdb519f60525535299f7f5d8778dcef14d",
+    "english:inflection": "123acabf0456cc061eb14ab2e887cc71c5edbe4df1ae237038ebb7402c0e8637",
+    "english:integrated-utterance-analysis": "c7e7c85dc323b08c4e65905c5ac1ecd791eac002fb67f674d1ecd02c9af1866d",
+    "english:interface": "2c366e02ea5326883405f939b80f28e7e31df4e1166e7d4295a1585889c8e79f",
+    "english:international-phonetic-association-undated-diacritics-and-other-symbols": "3dac35062c931ac7c8a304bec2f78778946a7af221be1f0b425cc1cefc3f5bee",
+    "english:international-phonetic-association-undated-interactive-chart": "ed8dc436defe62933edc2fb7e45979fc3e17abb1c9cc62c9e87f472274a1baba",
+    "english:international-phonetic-association-undated-ipa-chart": "97cb0436ea97f761421797a8f78966918ceac237f6f8142432346739b195b0e8",
+    "english:investigate-linguistic-question": "a5e0397bf4fa94ad57cd71a65cda95f10ad1038cd9db917813196f7644a94549",
+    "english:learn-word-pronunciation": "e895c66f9d7aa852132ee22cbcc69e30761676c6f219aec057a9b2a0cd7c9645",
+    "english:lexeme-and-word-form": "e27c9995fd2f6812a0a3858fdb316813453e0172033e92cb515ffffcc9bf34c3",
+    "english:lexical-entry": "8dbff818bf9ae7aed82a40c142dcbe0d14f232033a2583a1f215e8b853dc8d10",
+    "english:lexical-selection": "39f1a041668a13ccfc65d7dc331e397cb6027f22741afa57bfd40c7863125255",
+    "english:lexicon-semantics-interface": "dd188c452b14cc5b6a1b54365b546ecf31027c23b3dbf4d13684341af32650ef",
+    "english:lexicon-syntax-interface": "54fbe2d01f3092d543b685c6266e81dffec5ae703feb949b8a53bbd77b885e24",
+    "english:local-heads-determine-local-relations": "534916ca8df2544b7612dd5cc676ea0b44e2f696df8f059a4eac5fa1f6f9d98f",
+    "english:maintain-english-package": "969f54ba3fdd707ff0156552cd9c6675f80bf70449374263bff525eadae7e55c",
+    "english:mann-taboada-undated-rst-introduction": "9eb6fde5fcf016f227285744247d8fc630b9c334b072fbba1933bd01743fd1fd",
+    "english:merriam-webster-undated-pin-entry": "56e69362f878399639874bc4b3aa5481d379fc225cfdd430f10fae837a536ece",
+    "english:modality": "e97877084e2d419b2afc5b86f350f04a162e24d7ee66c776a723580b3d15e6bd",
+    "english:morpheme": "de5128054ce5cfb4ea056b4f03ec0343609be1375b0632f2e5a6a1c085bbb09c",
+    "english:morphology-phonology-interface": "00382eb658aaa46a952f0630ba0465803cb56d26160a784bd15c0ceca20266f4",
+    "english:morphology-syntax-interface": "8f738cfaf4e39d30a444acf3d59529c4b2aad67059ee9c94160c875154cbdb8b",
+    "english:negation-and-entailment": "1e3831f75fc37c333bd2f259ce9a93c808be49d3ab8c53a88a2b516b104c15f3",
+    "english:nested-clause-model": "82b1049f1ec688dabf88c8135266d7a15faaa98830636e62350c3431da652171",
+    "english:object-and-pp-complement": "8ad03ac595e5b0df8b2a742377a29f29ce57bad110b7b684f3606c720fe72338",
+    "english:paradigm-and-syncretism": "d2e138ea023e4764b41ecf1f202ca5af6909a513e4bf8baf81c3c8f8b54e2888",
+    "english:phone-phoneme-and-allophone": "02d1a87ecf9b056be7ef7ce00e005a5363d05f8e8944d3f5567615628de9273e",
+    "english:phonological-word-model": "83e7471840f2dbf426a36c109e70e886aa5a3e70cce1fcae511d14fd168f8c3c",
+    "english:phonology-phonetics-interface": "c9096eb1d5c8ccf3130f433b10f49201c73364a50dd94ffc91aee91d80ffb716",
+    "english:phonotactics": "179997779ce0f90e812f69bdcb9cde3226449c7ebbf2df4a3f3ff15b17d7df55",
+    "english:phrase-and-clause": "1aa7fb8c8785586d1a3c153bcae5f430f4ddaecc37d2f96c99e76e519a8cdf06",
+    "english:predicative-complement": "c47b4ecd36d03cf66a3a8dead8b7ae67858712f4598903dfadb39b1d0da56778",
+    "english:presupposition": "edeb1ba5a8c8c6a2cb2acc4987023e9f0380b82f269f1f146847f3e1869dbfc2",
+    "english:productivity-and-lexicalization": "713ec5c4d8db3a7bfa714748584b5f0295a44d1b5b2a6c5945d280dca27bd34f",
+    "english:prosody": "091377f8985507cc337b4e9012da48db5f6eb42342c5e659c4a86c0b073fffa5",
+    "english:prosody-phonetics-interface": "2a4c55b069363089a814e96296bccd33d2d0cae16637a5faac21d3bf4b899b46",
+    "english:quantification-and-scope": "4d0d4c9e1274d62d596bd00ac18e6c013986619206f6d0c14e607768767dd36d",
+    "english:quantifier-scope-model": "915d706862b06e5eceb5f59d3496e76b8b2b78988f3876483fa8101db501616f",
+    "english:realization-varies-with-environment": "ae4366b99c2f1a5c123df91e5b741b054f14d8ad2c8dee6be80b624f50f00741",
+    "english:reference-and-denotation": "e6e009c05b183560506dc5643ee255a6fa8480775b9c76e5e58b919fff5d6285",
+    "english:relative-clause": "d68ff52163f09c5ffaf47d87c918990eea135f875ea1126d8022c0481fd091ef",
+    "english:representation-levels": "3046bd7604c8d6f4bc7ea0a122e51e6ea394e9acab42799550b4eb8edfdd984a",
+    "english:roberts-2012-information-structure": "252b18c002c89129c7577f6409efd208370bf3e94bc9e7ecd2033e9d6c98e9a1",
+    "english:root-base-and-stem": "a32927162813a4c0ef097135a948d85d5a3f23e3f53afb4b55036f2544b04c9d",
+    "english:scope-determines-operator-interaction": "4f823960ca00748570ce053bbc4861fc477322028ad48c050564953335b8bbc5",
+    "english:selection-is-sense-sensitive": "5ca731ae4e730c7c5ab9a361c61deeb76718342e02c8b145a2db4179d96144d5",
+    "english:semantic-predicate": "f6ccde8831f21b27f3e3c539adf6067dc699564d96a2d15858291f01bc36fed4",
+    "english:semantic-role": "5d4bb41dc40d70ccfc1ace404897b32bf69ca9bafa97c1dbc667ba85675ab610",
+    "english:semantics-pragmatics-interface": "04cf79fd25a1878d6d89c9e933264d8c37ab64534abc37ccacbd95252aaecb17",
+    "english:sense-and-lexical-ambiguity": "86154e171e86be827dbd31943d5cc50a9b1f5f83fedc0621518ab0c98c4ffcc2",
+    "english:sequence-does-not-establish-cause": "49e625913ac1442beb12dbbe81a713614c4846914f063356d1346c4ab7e2a933",
+    "english:situation-type": "554e95f02dfa4eca8c36edfcae9d6346ef457835f6ee3dcc46adf90d8949c8ea",
+    "english:sounds-american-undated-chart-and-terms": "197403c1634424aac92d11c7d4f5ef72aad08031939dcdd78bc920ca1706ea7f",
+    "english:speech-act": "300f9389b6e04d059a561cd323dddc4cd3aa803fa5b04fd0947d9fea95b4e53d",
+    "english:stress": "0f4d52d0d0871bfd650f6db2d8b8fecf708069761a39196f286f6808db922532",
+    "english:suppletion": "e552b157adb5a317e91f1a8d180ee11c714d7de7a7f1749e5a62f5c5a9b1e7f1",
+    "english:syllable-structure": "1e316558a54f5613a09b1624662c2d1b03cb9503c5cf20bb087e21af45974df4",
+    "english:syntax-semantics-interface": "b75e6065c589f257538195fc1c4b51dd97d26b63d9453e1e7668d1c6b0387191",
+    "english:temporal-causal-and-evidential-relations": "e50a29420fff114a59c74b0890ede8d8215fce6445c0f1ae017411f1b3a2277d",
+    "english:temporal-reference-model": "b07b305d324ff1ffa2632588b2ba1a2610aef1bcd5e9176455929de2bbd18681",
+    "english:tense-and-aspect": "9d1505b8547045908369b074aae384c8827c33149fa7f7cd7064b93399e5ef2a",
+    "english:tophonetics-undated-english-transcription": "34bc8d0b6c68db3af7d37fadd363491f583f5feefc01c2b174e27b7c60b56f32",
+    "english:trace-discourse-interpretation": "2adf5f174f7232b2096115bf986947debdfc7a3d88361fdf8208380eafc31ddc",
+    "english:utterance-and-speaker-meaning": "796ae6b759ea25235790cfc9f89e1bbfcd2562e9e6f4da37a0fbb52dfac31db7",
+    "english:utterance-interpretation-model": "c8a50e30d1d922bc3e5532ae7b4202634ed7ccff88c26954ee649bd7b35fde6f",
+    "english:valency-and-argument-structure": "26310f70ae82768df0139cb34d397bee3f7a6f1ddab05f7bd36f515b13e582e1",
+    "english:validation-does-not-establish-truth": "6775cceb06271d3ae7578c96c3484c17902dae4da879f59d2ab1b52112e15d12",
+    "english:vowel-articulation": "72e52def72b7d99d91becc6f17b0d924e7024b4f55784d7170ddd63ee2aa2c48",
+    "english:wh-dependency": "a72c9c606839b0c6fb16d2bd3412d9c341f677b37da65cf1500ea734fd4e8507",
+    "english:word-formation-hierarchy": "6df7c2d521c112249473614d94be176bca44482043841ef1434bc88a0d5b02a6",
+    "english:xiongxianfei-2026-knowledge-practice-system": "0c4076ea97f33037c8e707af38c3df06c37cfde41670dac15ace3564ef75a9f8"
+  },
+  "dependencies": {
+    "english:accent-does-not-exhaust-focus": [
+      "english:focus-topic-and-qud",
+      "english:prosody",
+      "english:stress"
+    ],
+    "english:affix": [
+      "english:derivation",
+      "english:inflection",
+      "english:root-base-and-stem"
+    ],
+    "english:allomorphy": [
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:inflection",
+      "english:morpheme",
+      "english:phone-phoneme-and-allophone"
+    ],
+    "english:ambiguity-and-vagueness": [
+      "english:contextual-resolution",
+      "english:quantification-and-scope",
+      "english:sense-and-lexical-ambiguity"
+    ],
+    "english:analyze-complete-utterance": [
+      "english:constraint-and-preference",
+      "english:evidence-and-analysis",
+      "english:expression-and-representation",
+      "english:interface"
+    ],
+    "english:analyze-constituency": [
+      "english:constituency",
+      "english:head-and-dependent",
+      "english:object-and-pp-complement",
+      "english:relative-clause"
+    ],
+    "english:analyze-sound-realization": [
+      "english:allomorphy",
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:connected-speech",
+      "english:consonant-articulation",
+      "english:international-phonetic-association-undated-interactive-chart",
+      "english:phone-phoneme-and-allophone",
+      "english:representation-levels",
+      "english:sounds-american-undated-chart-and-terms",
+      "english:tophonetics-undated-english-transcription"
+    ],
+    "english:anaphora-and-accessibility": [
+      "english:contextual-resolution",
+      "english:discourse-referent",
+      "english:givenness-and-bridging"
+    ],
+    "english:auxiliary-chain": [
+      "english:finiteness",
+      "english:paradigm-and-syncretism",
+      "english:tense-and-aspect"
+    ],
+    "english:auxiliary-selection-model": [
+      "english:auxiliary-chain",
+      "english:do-support-and-inversion",
+      "english:finiteness",
+      "english:tense-and-aspect"
+    ],
+    "english:category-and-function": [
+      "english:head-and-dependent",
+      "english:predicative-complement"
+    ],
+    "english:category-does-not-determine-function": [
+      "english:category-and-function",
+      "english:complement-and-modifier"
+    ],
+    "english:classify-and-produce-phone": [
+      "english:analyze-sound-realization",
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:consonant-articulation",
+      "english:contrast-and-distribution",
+      "english:international-phonetic-association-undated-diacritics-and-other-symbols",
+      "english:international-phonetic-association-undated-interactive-chart",
+      "english:international-phonetic-association-undated-ipa-chart",
+      "english:phone-phoneme-and-allophone",
+      "english:phonological-word-model",
+      "english:realization-varies-with-environment",
+      "english:representation-levels",
+      "english:sounds-american-undated-chart-and-terms",
+      "english:syllable-structure",
+      "english:validation-does-not-establish-truth",
+      "english:vowel-articulation"
+    ],
+    "english:clause-architecture": [
+      "english:category-and-function",
+      "english:complement-and-modifier",
+      "english:phrase-and-clause"
+    ],
+    "english:cohesion-and-coherence": [
+      "english:anaphora-and-accessibility",
+      "english:discourse-relation",
+      "english:focus-topic-and-qud"
+    ],
+    "english:cohesion-does-not-guarantee-coherence": [
+      "english:cohesion-and-coherence",
+      "english:discourse-relation",
+      "english:focus-topic-and-qud"
+    ],
+    "english:collocation": [
+      "english:constraint-and-preference",
+      "english:lexical-selection"
+    ],
+    "english:common-ground": [
+      "english:discourse-referent",
+      "english:focus-topic-and-qud",
+      "english:presupposition"
+    ],
+    "english:compare-argument-mappings": [
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:lexical-selection",
+      "english:object-and-pp-complement",
+      "english:semantic-role",
+      "english:valency-and-argument-structure"
+    ],
+    "english:complement-and-modifier": [
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:head-and-dependent",
+      "english:lexical-selection",
+      "english:object-and-pp-complement"
+    ],
+    "english:complement-clause": [
+      "english:finiteness",
+      "english:lexical-selection",
+      "english:wh-dependency"
+    ],
+    "english:compositionality": [
+      "english:quantification-and-scope",
+      "english:semantic-predicate",
+      "english:sense-and-lexical-ambiguity"
+    ],
+    "english:compounding": [
+      "english:compositionality",
+      "english:productivity-and-lexicalization",
+      "english:root-base-and-stem"
+    ],
+    "english:connected-speech": [
+      "english:phone-phoneme-and-allophone",
+      "english:prosody",
+      "english:stress"
+    ],
+    "english:consonant-articulation": [
+      "english:international-phonetic-association-undated-interactive-chart",
+      "english:international-phonetic-association-undated-ipa-chart",
+      "english:phone-phoneme-and-allophone",
+      "english:representation-levels",
+      "english:sounds-american-undated-chart-and-terms",
+      "english:vowel-articulation"
+    ],
+    "english:constituency": [
+      "english:head-and-dependent",
+      "english:phrase-and-clause"
+    ],
+    "english:constraint-and-preference": [
+      "english:contextual-resolution",
+      "english:grammaticality-and-acceptability",
+      "english:lexical-selection"
+    ],
+    "english:context-supplies-reference-values": [
+      "english:contextual-resolution",
+      "english:deixis",
+      "english:reference-and-denotation"
+    ],
+    "english:contextual-resolution": [
+      "english:anaphora-and-accessibility",
+      "english:constraint-and-preference",
+      "english:deixis"
+    ],
+    "english:contrast-and-concession": [
+      "english:coordination-and-subordination",
+      "english:discourse-relation",
+      "english:negation-and-entailment"
+    ],
+    "english:contrast-and-distribution": [
+      "english:evidence-and-analysis",
+      "english:phone-phoneme-and-allophone",
+      "english:phonotactics"
+    ],
+    "english:coordination-and-subordination": [
+      "english:discourse-relation",
+      "english:phrase-and-clause",
+      "english:relative-clause"
+    ],
+    "english:deixis": [
+      "english:contextual-resolution",
+      "english:reference-and-denotation",
+      "english:semantic-role"
+    ],
+    "english:derivation": [
+      "english:affix",
+      "english:lexeme-and-word-form",
+      "english:productivity-and-lexicalization"
+    ],
+    "english:discourse-information-structure-interface": [
+      "english:common-ground",
+      "english:discourse-referent",
+      "english:focus-topic-and-qud",
+      "english:givenness-and-bridging"
+    ],
+    "english:discourse-network-model": [
+      "english:contrast-and-concession",
+      "english:discourse-referent",
+      "english:discourse-relation",
+      "english:mann-taboada-undated-rst-introduction",
+      "english:temporal-causal-and-evidential-relations"
+    ],
+    "english:discourse-referent": [
+      "english:anaphora-and-accessibility",
+      "english:common-ground",
+      "english:reference-and-denotation"
+    ],
+    "english:discourse-relation": [
+      "english:cohesion-and-coherence",
+      "english:contrast-and-concession",
+      "english:mann-taboada-undated-rst-introduction",
+      "english:temporal-causal-and-evidential-relations"
+    ],
+    "english:do-support-and-inversion": [
+      "english:auxiliary-chain",
+      "english:finiteness",
+      "english:wh-dependency"
+    ],
+    "english:english-system-architecture": [
+      "english:category-and-function",
+      "english:expression-and-representation",
+      "english:focus-topic-and-qud",
+      "english:interface",
+      "english:representation-levels",
+      "english:semantic-role"
+    ],
+    "english:evaluate-linguistic-claim": [
+      "english:evidence-and-analysis",
+      "english:grammaticality-and-acceptability",
+      "english:interface",
+      "english:xiongxianfei-2026-knowledge-practice-system"
+    ],
+    "english:evidence-and-analysis": [
+      "english:expression-and-representation",
+      "english:grammaticality-and-acceptability",
+      "english:interface"
+    ],
+    "english:exponents-are-conditioned-by-sound": [
+      "english:allomorphy",
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:consonant-articulation",
+      "english:inflection"
+    ],
+    "english:expression-and-representation": [
+      "english:category-and-function",
+      "english:reference-and-denotation"
+    ],
+    "english:finiteness": [
+      "english:auxiliary-chain",
+      "english:complement-clause",
+      "english:phrase-and-clause"
+    ],
+    "english:focus-prosody-interface": [
+      "english:focus-topic-and-qud",
+      "english:prosody",
+      "english:roberts-2012-information-structure",
+      "english:stress"
+    ],
+    "english:focus-topic-and-qud": [
+      "english:common-ground",
+      "english:givenness-and-bridging",
+      "english:prosody",
+      "english:roberts-2012-information-structure"
+    ],
+    "english:functions-do-not-determine-roles": [
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:object-and-pp-complement",
+      "english:semantic-role"
+    ],
+    "english:givenness-and-bridging": [
+      "english:anaphora-and-accessibility",
+      "english:common-ground",
+      "english:focus-topic-and-qud"
+    ],
+    "english:grammaticality-and-acceptability": [
+      "english:constraint-and-preference",
+      "english:lexical-selection"
+    ],
+    "english:gricean-reasoning": [
+      "english:constraint-and-preference",
+      "english:focus-topic-and-qud",
+      "english:implicature"
+    ],
+    "english:head-and-dependent": [
+      "english:category-and-function",
+      "english:complement-and-modifier"
+    ],
+    "english:implicature": [
+      "english:gricean-reasoning",
+      "english:quantification-and-scope",
+      "english:utterance-and-speaker-meaning"
+    ],
+    "english:implicatures-are-defeasible": [
+      "english:gricean-reasoning",
+      "english:implicature",
+      "english:negation-and-entailment"
+    ],
+    "english:inflection": [
+      "english:allomorphy",
+      "english:lexeme-and-word-form",
+      "english:paradigm-and-syncretism"
+    ],
+    "english:integrated-utterance-analysis": [
+      "english:allomorphy",
+      "english:contextual-resolution",
+      "english:discourse-relation",
+      "english:focus-topic-and-qud",
+      "english:interface",
+      "english:relative-clause",
+      "english:semantic-role"
+    ],
+    "english:interface": [
+      "english:constraint-and-preference",
+      "english:evidence-and-analysis",
+      "english:expression-and-representation"
+    ],
+    "english:investigate-linguistic-question": [
+      "english:evidence-and-analysis",
+      "english:expression-and-representation",
+      "english:interface",
+      "english:xiongxianfei-2026-knowledge-practice-system"
+    ],
+    "english:learn-word-pronunciation": [
+      "english:analyze-sound-realization",
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:classify-and-produce-phone",
+      "english:connected-speech",
+      "english:evidence-and-analysis",
+      "english:international-phonetic-association-undated-interactive-chart",
+      "english:international-phonetic-association-undated-ipa-chart",
+      "english:merriam-webster-undated-pin-entry",
+      "english:phone-phoneme-and-allophone",
+      "english:phonological-word-model",
+      "english:realization-varies-with-environment",
+      "english:representation-levels",
+      "english:sounds-american-undated-chart-and-terms",
+      "english:stress",
+      "english:syllable-structure",
+      "english:tophonetics-undated-english-transcription",
+      "english:validation-does-not-establish-truth"
+    ],
+    "english:lexeme-and-word-form": [
+      "english:derivation",
+      "english:inflection",
+      "english:paradigm-and-syncretism"
+    ],
+    "english:lexical-entry": [
+      "english:lexical-selection",
+      "english:sense-and-lexical-ambiguity",
+      "english:valency-and-argument-structure"
+    ],
+    "english:lexical-selection": [
+      "english:grammaticality-and-acceptability",
+      "english:head-and-dependent",
+      "english:valency-and-argument-structure"
+    ],
+    "english:lexicon-semantics-interface": [
+      "english:lexical-entry",
+      "english:lexical-selection",
+      "english:semantic-predicate",
+      "english:sense-and-lexical-ambiguity"
+    ],
+    "english:lexicon-syntax-interface": [
+      "english:head-and-dependent",
+      "english:lexical-selection",
+      "english:object-and-pp-complement",
+      "english:valency-and-argument-structure"
+    ],
+    "english:local-heads-determine-local-relations": [
+      "english:head-and-dependent",
+      "english:object-and-pp-complement"
+    ],
+    "english:maintain-english-package": [
+      "english:constraint-and-preference",
+      "english:evidence-and-analysis",
+      "english:interface",
+      "english:xiongxianfei-2026-knowledge-practice-system"
+    ],
+    "english:modality": [
+      "english:contextual-resolution",
+      "english:semantic-predicate",
+      "english:tense-and-aspect"
+    ],
+    "english:morpheme": [
+      "english:allomorphy",
+      "english:phone-phoneme-and-allophone",
+      "english:root-base-and-stem"
+    ],
+    "english:morphology-phonology-interface": [
+      "english:allomorphy",
+      "english:consonant-articulation",
+      "english:inflection",
+      "english:representation-levels"
+    ],
+    "english:morphology-syntax-interface": [
+      "english:auxiliary-chain",
+      "english:finiteness",
+      "english:inflection",
+      "english:paradigm-and-syncretism"
+    ],
+    "english:negation-and-entailment": [
+      "english:implicature",
+      "english:presupposition",
+      "english:quantification-and-scope"
+    ],
+    "english:nested-clause-model": [
+      "english:auxiliary-chain",
+      "english:clause-architecture",
+      "english:head-and-dependent",
+      "english:relative-clause"
+    ],
+    "english:object-and-pp-complement": [
+      "english:complement-and-modifier",
+      "english:head-and-dependent",
+      "english:semantic-role"
+    ],
+    "english:paradigm-and-syncretism": [
+      "english:auxiliary-chain",
+      "english:finiteness",
+      "english:inflection"
+    ],
+    "english:phone-phoneme-and-allophone": [
+      "english:allomorphy",
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:contrast-and-distribution",
+      "english:representation-levels"
+    ],
+    "english:phonological-word-model": [
+      "english:phonotactics",
+      "english:representation-levels",
+      "english:stress",
+      "english:syllable-structure"
+    ],
+    "english:phonology-phonetics-interface": [
+      "english:phone-phoneme-and-allophone",
+      "english:phonological-word-model",
+      "english:realization-varies-with-environment",
+      "english:representation-levels"
+    ],
+    "english:phonotactics": [
+      "english:constraint-and-preference",
+      "english:contrast-and-distribution",
+      "english:syllable-structure"
+    ],
+    "english:phrase-and-clause": [
+      "english:auxiliary-chain",
+      "english:constituency",
+      "english:finiteness"
+    ],
+    "english:predicative-complement": [
+      "english:category-and-function",
+      "english:object-and-pp-complement",
+      "english:semantic-predicate"
+    ],
+    "english:presupposition": [
+      "english:common-ground",
+      "english:implicature",
+      "english:negation-and-entailment"
+    ],
+    "english:productivity-and-lexicalization": [
+      "english:compounding",
+      "english:derivation",
+      "english:lexical-entry"
+    ],
+    "english:prosody": [
+      "english:connected-speech",
+      "english:focus-topic-and-qud",
+      "english:stress"
+    ],
+    "english:prosody-phonetics-interface": [
+      "english:analyze-sound-realization",
+      "english:focus-prosody-interface",
+      "english:prosody",
+      "english:stress"
+    ],
+    "english:quantification-and-scope": [
+      "english:ambiguity-and-vagueness",
+      "english:implicature",
+      "english:negation-and-entailment"
+    ],
+    "english:quantifier-scope-model": [
+      "english:negation-and-entailment",
+      "english:quantification-and-scope",
+      "english:semantic-predicate"
+    ],
+    "english:realization-varies-with-environment": [
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:contrast-and-distribution",
+      "english:phone-phoneme-and-allophone",
+      "english:stress"
+    ],
+    "english:reference-and-denotation": [
+      "english:deixis",
+      "english:quantification-and-scope",
+      "english:semantic-predicate"
+    ],
+    "english:relative-clause": [
+      "english:constituency",
+      "english:coordination-and-subordination",
+      "english:wh-dependency"
+    ],
+    "english:representation-levels": [
+      "english:consonant-articulation",
+      "english:international-phonetic-association-undated-interactive-chart",
+      "english:international-phonetic-association-undated-ipa-chart",
+      "english:phone-phoneme-and-allophone",
+      "english:tophonetics-undated-english-transcription",
+      "english:vowel-articulation"
+    ],
+    "english:root-base-and-stem": [
+      "english:affix",
+      "english:compounding",
+      "english:derivation"
+    ],
+    "english:scope-determines-operator-interaction": [
+      "english:negation-and-entailment",
+      "english:quantification-and-scope"
+    ],
+    "english:selection-is-sense-sensitive": [
+      "english:lexical-entry",
+      "english:lexical-selection",
+      "english:valency-and-argument-structure"
+    ],
+    "english:semantic-predicate": [
+      "english:compositionality",
+      "english:semantic-role",
+      "english:valency-and-argument-structure"
+    ],
+    "english:semantic-role": [
+      "english:anderson-2018-essentials-of-linguistics",
+      "english:category-and-function",
+      "english:object-and-pp-complement",
+      "english:semantic-predicate"
+    ],
+    "english:semantics-pragmatics-interface": [
+      "english:common-ground",
+      "english:contextual-resolution",
+      "english:implicature",
+      "english:presupposition"
+    ],
+    "english:sense-and-lexical-ambiguity": [
+      "english:ambiguity-and-vagueness",
+      "english:contextual-resolution",
+      "english:lexical-entry"
+    ],
+    "english:sequence-does-not-establish-cause": [
+      "english:constraint-and-preference",
+      "english:discourse-relation",
+      "english:temporal-causal-and-evidential-relations"
+    ],
+    "english:situation-type": [
+      "english:lexical-entry",
+      "english:semantic-role",
+      "english:tense-and-aspect"
+    ],
+    "english:speech-act": [
+      "english:common-ground",
+      "english:deixis",
+      "english:utterance-and-speaker-meaning"
+    ],
+    "english:stress": [
+      "english:international-phonetic-association-undated-ipa-chart",
+      "english:prosody",
+      "english:syllable-structure",
+      "english:vowel-articulation"
+    ],
+    "english:suppletion": [
+      "english:inflection",
+      "english:paradigm-and-syncretism"
+    ],
+    "english:syllable-structure": [
+      "english:phonotactics",
+      "english:representation-levels",
+      "english:stress"
+    ],
+    "english:syntax-semantics-interface": [
+      "english:object-and-pp-complement",
+      "english:semantic-role",
+      "english:valency-and-argument-structure"
+    ],
+    "english:temporal-causal-and-evidential-relations": [
+      "english:discourse-relation",
+      "english:modality",
+      "english:tense-and-aspect"
+    ],
+    "english:temporal-reference-model": [
+      "english:modality",
+      "english:situation-type",
+      "english:tense-and-aspect"
+    ],
+    "english:tense-and-aspect": [
+      "english:auxiliary-chain",
+      "english:modality",
+      "english:situation-type"
+    ],
+    "english:trace-discourse-interpretation": [
+      "english:anaphora-and-accessibility",
+      "english:discourse-referent",
+      "english:focus-topic-and-qud",
+      "english:mann-taboada-undated-rst-introduction",
+      "english:temporal-causal-and-evidential-relations"
+    ],
+    "english:utterance-and-speaker-meaning": [
+      "english:contextual-resolution",
+      "english:deixis",
+      "english:speech-act"
+    ],
+    "english:utterance-interpretation-model": [
+      "english:deixis",
+      "english:implicature",
+      "english:speech-act",
+      "english:utterance-and-speaker-meaning"
+    ],
+    "english:valency-and-argument-structure": [
+      "english:complement-and-modifier",
+      "english:lexical-selection",
+      "english:semantic-role"
+    ],
+    "english:validation-does-not-establish-truth": [
+      "english:evidence-and-analysis",
+      "english:interface",
+      "english:xiongxianfei-2026-knowledge-practice-system"
+    ],
+    "english:vowel-articulation": [
+      "english:international-phonetic-association-undated-ipa-chart",
+      "english:representation-levels",
+      "english:sounds-american-undated-chart-and-terms",
+      "english:stress",
+      "english:syllable-structure",
+      "english:tophonetics-undated-english-transcription"
+    ],
+    "english:wh-dependency": [
+      "english:do-support-and-inversion",
+      "english:head-and-dependent",
+      "english:relative-clause"
+    ],
+    "english:word-formation-hierarchy": [
+      "english:affix",
+      "english:compounding",
+      "english:derivation",
+      "english:inflection",
+      "english:root-base-and-stem"
+    ]
+  },
+  "format": 12
 }

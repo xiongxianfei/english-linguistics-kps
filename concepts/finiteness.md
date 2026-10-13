@@ -1,51 +1,34 @@
----
-id: "english:concept:finiteness"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [2]
-perspectives: ["syntax"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:auxiliary-chain", "english:concept:phrase-and-clause", "english:concept:complement-clause"]
----
-
 # Finiteness
 
 ## Key takeaway
-Finiteness classifies a clause or verbal element relative to tense, agreement and distributional properties in a particular grammar.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/finiteness.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Finiteness classifies a clause or verbal element relative to tense, agreement and distributional properties in a particular grammar. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/finiteness.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-Finiteness classifies a clause or verbal element relative to tense, agreement and distributional properties in a particular grammar. A finite auxiliary chain can include several nonfinite forms. Main/subordinate status is a separate dimension.
+This is a compatibility redirect. Read [Definition](../knowledge/finiteness.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-In "Nina may have been waiting", may is finite; have is plain, been a past participle and waiting an ing form. In "I know that Nina left", the subordinate clause is finite. In "I want Nina to leave", the infinitival complement is nonfinite despite having an overt subject.
+This is a compatibility redirect. Read [Worked example](../knowledge/finiteness.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-A visible Subject does not make a clause finite. Every verb-looking word does not introduce a separate clause. Finite status does not require an overt tense suffix in all constructions.
+This is a compatibility redirect. Read [Distinctions](../knowledge/finiteness.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Imperatives, subjunctives and auxiliary complement analyses complicate elementary definitions. The draft does not equate finiteness with one universal morphological feature bundle.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/finiteness.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/finiteness.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Auxiliary chain](../concepts/auxiliary-chain.md) provides a related distinction used in the local explanation.
-- [Phrase and clause](../concepts/phrase-and-clause.md) provides a related distinction used in the local explanation.
-- [Complement clause](../concepts/complement-clause.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/finiteness.md#related-knowledge) in the canonical KPS 12 content.
+

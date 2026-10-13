@@ -1,53 +1,34 @@
----
-id: "english:principle:exponents-are-conditioned-by-sound"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
-evidence_status: "provisional"
-source_status: "selected-support-only"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:allomorphy", "english:concept:consonant-articulation", "english:concept:inflection"]
----
-
 # Regular inflectional exponents are conditioned by stem sounds
 
 ## Key takeaway
-Regular English plural and past endings vary with the relevant final sound of the base rather than its last written letter.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/exponents-are-conditioned-by-sound.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Regular English plural and past endings vary with the relevant final sound of the base rather than its last written letter. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/exponents-are-conditioned-by-sound.md#summary) in the canonical KPS 12 content.
 
 ## Statement
 
-Regular English plural and past endings vary with the relevant final sound of the base rather than its last written letter.
+This is a compatibility redirect. Read [Statement](../knowledge/exponents-are-conditioned-by-sound.md#statement) in the canonical KPS 12 content.
 
 ## Explanation
 
-The morphological feature remains the same while its exponent fits the neighboring sound pattern. Different spelling sequences can correspond to the same conditioning sound, and the same written suffix can have several pronunciations.
+This is a compatibility redirect. Read [Explanation](../knowledge/exponents-are-conditioned-by-sound.md#explanation) in the canonical KPS 12 content.
 
 ## Worked contrast
 
-Books has plural /s/, keys /z/, watches /ɪz/. Laughed has regular past /t/ after /f/, played /d/ after a vowel, and needed /ɪd/ after /d/. The special sibilant and alveolar-stop cases must be checked before the general voicing split.
+This is a compatibility redirect. Read [Worked contrast](../knowledge/exponents-are-conditioned-by-sound.md#worked-contrast) in the canonical KPS 12 content.
 
 ## Scope and counterevidence
 
-Only regular productive suffix patterns are modeled. Irregular nouns, stem alternations, participial adjectives and accent-dependent weak vowels require additional lexical information. No frequency or pronunciation training outcome is claimed.
+This is a compatibility redirect. Read [Scope and counterevidence](../knowledge/exponents-are-conditioned-by-sound.md#scope-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
-
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
+This is a compatibility redirect. Read [Evidence status](../knowledge/exponents-are-conditioned-by-sound.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Allomorphy](../concepts/allomorphy.md) provides a related distinction used in the local explanation.
-- [Consonant articulation](../concepts/consonant-articulation.md) provides a related distinction used in the local explanation.
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/exponents-are-conditioned-by-sound.md#related-knowledge) in the canonical KPS 12 content.
+

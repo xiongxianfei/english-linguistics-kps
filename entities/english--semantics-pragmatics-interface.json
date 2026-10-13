@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "english:model:semantics-pragmatics-interface"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:semantics-pragmatics-interface:claim:key-takeaway"
+  ],
+  "content": "knowledge/semantics-pragmatics-interface.md",
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:presupposition",
+    "linguistics:semantics"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:semantics-pragmatics-interface",
+  "kind": "interface",
+  "label": "Semantics Pragmatics interface",
+  "mapping": {
+    "cardinality": "unspecified",
+    "claim": "english:semantics-pragmatics-interface:claim:key-takeaway",
+    "predicate": "kps:constrains",
+    "scope": "The working analysis, context and variety limits in knowledge/semantics-pragmatics-interface.md; not a neural processing claim.",
+    "source": "english:representation:conventional-contribution",
+    "target": "english:representation:utterance-interpretation"
+  },
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:semantics-pragmatics-interface",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:contextual-resolution",
+        "english:concept:implicature",
+        "english:concept:presupposition",
+        "english:concept:common-ground"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:semantics-pragmatics-interface",
+    "old_path": "models/semantics-pragmatics-interface.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:contextual-resolution"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:implicature"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:presupposition"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:common-ground"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

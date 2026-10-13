@@ -1,0 +1,105 @@
+{
+  "aliases": [
+    "english:concept:vowel-articulation"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:vowel-articulation:claim:key-takeaway"
+  ],
+  "content": "knowledge/vowel-articulation.md",
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:articulatory-phonetics",
+    "linguistics:phonology",
+    "linguistics:phonology:distinctive-features"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:vowel-articulation",
+  "kind": "knowledge",
+  "label": "Vowel articulation",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:vowel-articulation",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology"
+      ],
+      "references": [
+        "english:reference:international-phonetic-association-undated-ipa-chart",
+        "english:reference:sounds-american-undated-chart-and-terms",
+        "english:reference:tophonetics-undated-english-transcription"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        6
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:stress",
+        "english:concept:representation-levels",
+        "english:concept:syllable-structure"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:vowel-articulation",
+    "old_path": "concepts/vowel-articulation.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:stress"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:representation-levels"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:syllable-structure"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:tophonetics-undated-english-transcription"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

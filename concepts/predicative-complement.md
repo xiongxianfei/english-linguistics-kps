@@ -1,51 +1,34 @@
----
-id: "english:concept:predicative-complement"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [2]
-perspectives: ["syntax"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:category-and-function", "english:concept:semantic-predicate", "english:concept:object-and-pp-complement"]
----
-
 # Predicative complement
 
 ## Key takeaway
-A predicative complement attributes a property, classification or identity to a predicand rather than functioning as an ordinary Object participant.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/predicative-complement.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A predicative complement attributes a property, classification or identity to a predicand rather than functioning as an ordinary Object participant. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/predicative-complement.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A predicative complement attributes a property, classification or identity to a predicand rather than functioning as an ordinary Object participant. Its category can be NP, AdjP or another licensed expression depending on the construction.
+This is a compatibility redirect. Read [Definition](../knowledge/predicative-complement.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-"Maya became a technician" classifies Maya; "Maya met a technician" introduces a different participant in a meeting. "They painted the door blue" contains an Object, the door, and a predicative expression blue attributed to it.
+This is a compatibility redirect. Read [Worked example](../knowledge/predicative-complement.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Postverbal NP is not enough to identify Object. Equating the two noun phrases informally is a teaching aid, not a sufficient grammatical test for every predicative construction.
+This is a compatibility redirect. Read [Distinctions](../knowledge/predicative-complement.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Copular, resultative and depictive constructions need finer distinctions than this introduction supplies. Some location expressions are analyzed predicatively in other grammars; the package names its working function labels.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/predicative-complement.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/predicative-complement.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Category and function](../concepts/category-and-function.md) provides a related distinction used in the local explanation.
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/predicative-complement.md#related-knowledge) in the canonical KPS 12 content.
+

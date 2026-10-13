@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:syntax:ellipsis-and-discontinuity",
+  "kind": "domain",
+  "label": "Ellipsis and discontinuity",
+  "parents": [
+    "linguistics:syntax"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Syntax: ellipsis and discontinuity. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

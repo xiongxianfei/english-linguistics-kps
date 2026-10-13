@@ -1,20 +1,29 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
-
-# Validation and review limits
+# KPS 12 validation boundaries
 
 ## Key takeaway
-Structural correctness, declared-model consistency and scientific review are separate claims.
+Executable invariants, preserved source content and scientific truth are different questions.
 
 ## Summary
-Structural correctness, declared-model consistency and scientific review are separate claims. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
+The active suite validates the entity-centric KPS 12 profile, domain and interface semantics, claim ownership, evidence limitations, relative links and deterministic views. The original KPS 9 suite remains runnable against the preserved baseline. Test success does not certify linguistic truth or the effectiveness of pronunciation Practices.
 
-## Commands
+## Recorded execution
+Run `python3 tools/run_checks.py` to execute active and historical suites, verify exact first-migration reproducibility, and write `validation-evidence.json` with actual outcomes and a SHA-256 input manifest. CI uploads its newly executed report rather than claiming the committed local report was a CI run. For future content releases, replace the first-migration reproduction gate with a reviewed new fixture; do not regenerate an old migration to overwrite later authored changes.
 
+## Active checks
 ```bash
+python3 validate.py .
+python3 test_validate.py
+python3 tools/check_domain.py
+python3 tools/build_navigation.py --check
+python3 -m unittest discover -s tests -v
+python3 tools/check_preservation.py
+```
+
+The active tests include destructive mutations in temporary copies: unknown domains and predicates, dangling targets, alias collisions, domain and composition cycles, malformed interfaces, claim version drift, unsupported evidence promotion, stale views and pending dependency reviews. The General American policy, phone/word Practice contracts and constructed linguistic fixtures are also tested on active KPS 12 content.
+
+## Historical regression checks
+```bash
+cd legacy/kps9
 python3 validate.py .
 python3 test_validate.py
 python3 tools/check_domain.py
@@ -22,36 +31,21 @@ python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-The original upstream suite contains 31 regression tests. The domain suite covers publication invariants, constructed fixtures, the General American policy and the two integrated pronunciation Practices. Inspect the current test count rather than assuming the initial suite is unchanged. Inspect actual run results in the PR and validation-evidence.json rather than assuming the commands passed.
-
-## What is checked
-
-The upstream validator covers metadata, local links/fragments, typed IDs, headings, Practice stage structure and dependent-summary hashes. The domain checker adds stage coverage, visible provisional status, Reference access/date metadata and restrictions on unsupported review promotion. Generated indexes must match current canonical objects.
-
-## Constructed model tests
-
-Suffix functions are tested on explicitly declared regular English final-sound patterns. Scope tests include shared witnesses and empty restrictors. A token-span fixture checks five finite clauses and places the Recipient to-PP outside the relative. These tests establish implementation consistency with the declared model, not empirical support for the model.
-
-## Pronunciation Practice checks
-
-The new Practice tests check stage maps, local content, General American scope, source links, acyclic composition and explicit pending states for missing listening or production. They also protect the distinction between symbol classification, auditory inference and learner performance. These are document-contract checks, not a test of anyone's hearing, articulation, pronunciation, retention or the procedures' effectiveness. The [recorded local check results](data/pronunciation-practice-validation.json) identify the actual commands, scope and source-file hashes; PR CI provides a separate execution on the committed changes.
+Historical tests describe the old profile only. The preservation checker verifies the exact baseline hashes and the migrated body transformations, rather than treating historical tests as evidence of active-profile correctness.
 
 ## Dependency review
-
-After inspecting affected local summaries and source scope, run:
+Ordinary validation and view generation never accept a changed dependency baseline. Write a review record containing `reviewer`, `date`, `findings`, `before_sha256`, `after_sha256`, `changed_entities` and `affected_dependents`, then run:
 
 ```bash
+python3 tools/accept_dependency_review.py --record reviews/your-editorial-review.json
 python3 tools/build_navigation.py
-python3 validate.py . --accept-reviewed-summaries
 python3 validate.py .
 ```
 
-Never put the refresh command into ordinary CI. For the initial draft, the authoring assistant reviewed generated links and summaries before recording the first baseline. That was an authoring review, not independent scientific review. Future baseline updates need their own inspection.
+The hashes are SHA-256 of the canonical sorted JSON serialization used by the tool for the complete previous and proposed snapshot. The acceptance tool requires an exact matching change set and affected-dependent set; it does not perform the human or editorial review. No such acceptance belongs in CI, and no scientific status changes as a side effect.
 
-## What is not checked
+## Reproducibility and security
+The permanent GitHub Actions workflow has `contents: read`, does not retain credentials and has no deployment or branch-writing step. Temporary migration/export workflows are removed before the final pull request is ready. Validation reports identify their input tree or payload manifest; no old validation report is relabelled as a new execution.
 
-No tool here certifies linguistic truth, source completeness, naturalness in all dialects, measured pronunciation, prosodic interpretation, or learner competence. All linguistic objects remain provisional regardless of green checks. No independent reviewer approval is fabricated.
-
-## Publication security
-
-The permanent CI workflow uses read-only contents permission and no deployment credentials. A one-time implementation-branch materializer was used to create the initial files and is removed before merge. The main package does not retain a branch-writing workflow or automatically accept future generated content.
+## Limits
+JSON validation cannot prove a publication was read, a reviewer performed a review, a linguistic claim is true, a waveform was measured or a learner improved. The package remains scientifically provisional. Missing atomic-claim decomposition and unrepresented subdomains are explicit review work.

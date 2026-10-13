@@ -1,51 +1,34 @@
----
-id: "english:principle:implicatures-are-defeasible"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:implicature", "english:concept:gricean-reasoning", "english:concept:negation-and-entailment"]
----
-
 # Conversational inferences can be defeasible
 
 ## Key takeaway
-A context-supported inference can be cancelled without cancelling the asserted existential content that supported it.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/implicatures-are-defeasible.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A context-supported inference can be cancelled without cancelling the asserted existential content that supported it. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/implicatures-are-defeasible.md#summary) in the canonical KPS 12 content.
 
 ## Statement
 
-A context-supported inference can be cancelled without cancelling the asserted existential content that supported it.
+This is a compatibility redirect. Read [Statement](../knowledge/implicatures-are-defeasible.md#statement) in the canonical KPS 12 content.
 
 ## Explanation
 
-An inference from weaker wording depends on assumptions about alternatives, relevance and speaker knowledge. Defeating one assumption can remove the inference while preserving the underlying claim. The result differs from a semantic entailment in the selected interpretation.
+This is a compatibility redirect. Read [Explanation](../knowledge/implicatures-are-defeasible.md#explanation) in the canonical KPS 12 content.
 
 ## Worked contrast
 
-"Some files were checked; in fact all were checked" retains some while cancelling not all. "Some files were checked, but no file was checked" contradicts the existential assertion under the same reading.
+This is a compatibility redirect. Read [Worked contrast](../knowledge/implicatures-are-defeasible.md#worked-contrast) in the canonical KPS 12 content.
 
 ## Scope and counterevidence
 
-Cancellability is a diagnostic, not a universal classifier. Implicatures can be misleading and cancellations can be pragmatically awkward. This draft does not establish a processing theory or a default not-all inference in every context.
+This is a compatibility redirect. Read [Scope and counterevidence](../knowledge/implicatures-are-defeasible.md#scope-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/implicatures-are-defeasible.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Conversational implicature](../concepts/implicature.md) provides a related distinction used in the local explanation.
-- [Gricean reasoning](../concepts/gricean-reasoning.md) provides a related distinction used in the local explanation.
-- [Negation and entailment](../concepts/negation-and-entailment.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/implicatures-are-defeasible.md#related-knowledge) in the canonical KPS 12 content.
+

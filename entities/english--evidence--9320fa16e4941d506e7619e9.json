@@ -1,0 +1,19 @@
+{
+  "about": "english:classify-and-produce-phone",
+  "aliases": [],
+  "assessment": "Preserves an existing document citation. No claim-level support is inferred by migration.",
+  "assessment_relation": "context-only",
+  "domains": [],
+  "id": "english:evidence:9320fa16e4941d506e7619e9",
+  "inspection_extent": "Historical source-record inspection extent is retained; migration performs no new source inspection.",
+  "kind": "evidence",
+  "label": "Classify and produce a phone — legacy source context",
+  "locator": null,
+  "record_origin": "legacy-citation-migration",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source": "english:anderson-2018-essentials-of-linguistics",
+  "status": "draft",
+  "version": "0.1.0"
+}

@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:temporal-and-event-semantics"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:situation-type:claim:key-takeaway",
+  "kind": "claim",
+  "label": "States events and lexical aspect — summary claim",
+  "owner": "english:situation-type",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Situation type concerns a predicate or construction's temporal and dynamic character.",
+  "status": "draft",
+  "version": "0.1.0"
+}

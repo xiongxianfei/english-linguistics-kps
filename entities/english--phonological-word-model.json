@@ -1,0 +1,95 @@
+{
+  "aliases": [
+    "english:model:phonological-word-model"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:phonological-word-model:claim:key-takeaway"
+  ],
+  "content": "knowledge/phonological-word-model.md",
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:phonetic-transcription",
+    "linguistics:phonology",
+    "linguistics:phonology:phonotactics",
+    "linguistics:phonology:syllable-organization",
+    "linguistics:prosody"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:phonological-word-model",
+  "kind": "knowledge",
+  "label": "Phonological word model",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:phonological-word-model",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        6
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:syllable-structure",
+        "english:concept:phonotactics",
+        "english:concept:stress",
+        "english:concept:representation-levels"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:phonological-word-model",
+    "old_path": "models/phonological-word-model.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:syllable-structure"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:phonotactics"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:stress"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:representation-levels"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

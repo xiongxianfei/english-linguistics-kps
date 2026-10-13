@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:information-structure",
+  "kind": "domain",
+  "label": "Information Structure",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Topic, focus, background and givenness relative to discourse and a question under discussion; not synonymous with syntax or prosodic accent.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

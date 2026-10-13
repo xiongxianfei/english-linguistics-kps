@@ -1,53 +1,34 @@
----
-id: "english:concept:stress"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
-evidence_status: "provisional"
-source_status: "selected-support-only"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: ["english:reference:international-phonetic-association-undated-ipa-chart"]
-uses_concepts: ["english:concept:vowel-articulation", "english:concept:prosody", "english:concept:syllable-structure"]
----
-
 # Stress
 
 ## Key takeaway
-Lexical stress is a prominence relation among syllables in a word.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/stress.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Lexical stress is a prominence relation among syllables in a word. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/stress.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-Lexical stress is a prominence relation among syllables in a word. Its realization can involve duration, vowel quality, pitch and intensity, depending on the language and context. Primary and secondary stress are represented by different IPA marks.
+This is a compatibility redirect. Read [Definition](../knowledge/stress.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-In /əˈbaʊt/, ˈ marks primary stress before /baʊt/; ˌ is secondary stress. Record noun and record verb often differ in stress placement and also vowel quality. Stress should not be described as a property of an individual written letter.
+This is a compatibility redirect. Read [Worked example](../knowledge/stress.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Stress is not identical to loudness or pitch. An unstressed vowel is not always schwa. Word stress and utterance-level accent are related, but a focused word is not a new lexical stress category.
+This is a compatibility redirect. Read [Distinctions](../knowledge/stress.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Accent-specific stress patterns need documented pronunciations. The phonetic cue bundle is not a claim that all cues always increase together or that every stressed syllable has a pitch rise.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/stress.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
-
-- [IPA chart and component charts on the official website](../references/international-phonetic-association-undated-ipa-chart.md#suprasegmentals) — support is limited to the named section in that record.
+This is a compatibility redirect. Read [Evidence status](../knowledge/stress.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Vowel articulation](../concepts/vowel-articulation.md) provides a related distinction used in the local explanation.
-- [Prosody and intonation](../concepts/prosody.md) provides a related distinction used in the local explanation.
-- [Syllable structure](../concepts/syllable-structure.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/stress.md#related-knowledge) in the canonical KPS 12 content.
+

@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:implicature"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:gricean-reasoning:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Gricean reasoning — summary claim",
+  "owner": "english:gricean-reasoning",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Gricean analysis models conversational expectations involving informativeness, truthfulness or support, relevance and clarity.",
+  "status": "draft",
+  "version": "0.1.0"
+}

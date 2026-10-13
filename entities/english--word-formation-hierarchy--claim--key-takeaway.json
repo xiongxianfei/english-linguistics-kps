@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:morphology",
+    "linguistics:morphology:compounds"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:word-formation-hierarchy:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Word formation hierarchy — summary claim",
+  "owner": "english:word-formation-hierarchy",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Morphological analyses distinguish the element, the operation, its input base and the resulting lexeme or word form.",
+  "status": "draft",
+  "version": "0.1.0"
+}

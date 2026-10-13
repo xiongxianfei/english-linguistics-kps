@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "english:method:compare-argument-mappings"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:compare-argument-mappings:claim:key-takeaway"
+  ],
+  "content": "knowledge/compare-argument-mappings.md",
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:participant-roles",
+    "linguistics:syntax",
+    "linguistics:syntax:grammatical-functions"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:compare-argument-mappings",
+  "kind": "knowledge",
+  "label": "Compare argument mappings",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:method:compare-argument-mappings",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [
+        "english:reference:anderson-2018-essentials-of-linguistics"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "method",
+      "uses_concepts": [
+        "english:concept:semantic-role",
+        "english:concept:valency-and-argument-structure",
+        "english:concept:lexical-selection",
+        "english:concept:object-and-pp-complement"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:method:compare-argument-mappings",
+    "old_path": "methods/compare-argument-mappings.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-role"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:valency-and-argument-structure"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-selection"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:object-and-pp-complement"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:anderson-2018-essentials-of-linguistics"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:method"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

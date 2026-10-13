@@ -1,37 +1,30 @@
----
-id: "english:reference:international-phonetic-association-undated-interactive-chart"
-type: "reference"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-creator: "International Phonetic Association"
-publication: "Interactive IPA Chart and associated chart notes"
-publication_date: null
-date_basis: "Interactive page publication date not established; site maintenance and copyright years are not equated with publication date."
-accessed: "2026-10-11"
-access_extent: "Requested interactive page returned no indexable chart text; official IPA chart overview, associated about page and indexed interactive-chart licence/recording descriptions were inspected. Interactive sound controls were not exercised."
-reviewed: null
----
-
 # Interactive IPA chart
 
 ## Key takeaway
-The interactive IPA chart is a cross-language symbol reference, not a dictionary of General American word forms.
+
+This is a compatibility redirect. Read [Key takeaway](../sources/international-phonetic-association-undated-interactive-chart.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-The [requested interactive IPA chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_EI/IPA_charts_EI.html) is accompanied by [official IPA chart information](https://www.internationalphoneticassociation.org/content/ipa-chart) and [interactive chart notes](https://www.internationalphoneticassociation.org/IPAcharts/common_files/IPA_charts_about.html). The International Phonetic Association maintains the IPA; the interactive interface includes third-party sound recordings and material subject to specific rights.
+
+This is a compatibility redirect. Read [Summary](../sources/international-phonetic-association-undated-interactive-chart.md#summary) in the canonical KPS 12 content.
 
 ## Publication identity
-Official publisher: International Phonetic Association. Date of this particular interactive edition not established. Accessed October 11, 2026.
+
+This is a compatibility redirect. Read [Publication identity](../sources/international-phonetic-association-undated-interactive-chart.md#publication-identity) in the canonical KPS 12 content.
 
 ## Inspection extent
-The interactive page URL was opened, but the chart content did not yield inspectable text or playable tokens in this environment. The official chart overview, descriptions and copyright information in associated pages were inspected. No measurement or actual audio playback was performed.
+
+This is a compatibility redirect. Read [Inspection extent](../sources/international-phonetic-association-undated-interactive-chart.md#inspection-extent) in the canonical KPS 12 content.
 
 ## Located contributions
-The official Association maintains IPA symbol standards and chart organization. The interactive chart can support learning and comparison of phone categories. Site information distinguishes the interactive chart's restricted redistribution terms and contributor recording rights from the separately downloadable standard chart's CC BY-SA 4.0 terms.
+
+This is a compatibility redirect. Read [Located contributions](../sources/international-phonetic-association-undated-interactive-chart.md#located-contributions) in the canonical KPS 12 content.
 
 ## Limits and rights
-IPA phone symbols are not automatically General American phonemes. Do not infer a specific American lexical transcription from the chart alone. Link to the chart rather than copying or adapting interactive media; recordings have contributor-specific copyright restrictions. Do not assume that the static chart's CC BY-SA licence covers every interactive asset.
+
+This is a compatibility redirect. Read [Limits and rights](../sources/international-phonetic-association-undated-interactive-chart.md#limits-and-rights) in the canonical KPS 12 content.
 
 ## Nonclaims
-This reference does not claim to have played a recording, audited the interface or established an American-English phoneme inventory, allophonic distribution, or measured articulatory realization.
+
+This is a compatibility redirect. Read [Nonclaims](../sources/international-phonetic-association-undated-interactive-chart.md#nonclaims) in the canonical KPS 12 content.
+

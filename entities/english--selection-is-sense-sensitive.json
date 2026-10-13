@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "english:principle:selection-is-sense-sensitive"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:selection-is-sense-sensitive:claim:key-takeaway"
+  ],
+  "content": "knowledge/selection-is-sense-sensitive.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexical-senses",
+    "linguistics:semantics",
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:selection-is-sense-sensitive",
+  "kind": "knowledge",
+  "label": "Complement selection is sensitive to lexical sense and construction",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:selection-is-sense-sensitive",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "morphology-and-lexicon"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        1
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:lexical-entry",
+        "english:concept:lexical-selection",
+        "english:concept:valency-and-argument-structure"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:selection-is-sense-sensitive",
+    "old_path": "principles/selection-is-sense-sensitive.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-entry"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-selection"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:valency-and-argument-structure"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        1
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

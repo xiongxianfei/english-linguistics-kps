@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "domains": [
+    "kps:knowledge-maintenance"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:evidence-and-analysis:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Evidence and analysis — summary claim",
+  "owner": "english:evidence-and-analysis",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "An attested token, a constructed example, an elicited judgment, a source statement and an analyst's model are different evidence objects.",
+  "status": "draft",
+  "version": "0.1.0"
+}

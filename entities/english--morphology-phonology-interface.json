@@ -1,0 +1,102 @@
+{
+  "aliases": [
+    "english:model:morphology-phonology-interface"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:morphology-phonology-interface:claim:key-takeaway"
+  ],
+  "content": "knowledge/morphology-phonology-interface.md",
+  "domains": [
+    "linguistics:morphology",
+    "linguistics:morphology:allomorphy",
+    "linguistics:phonetics",
+    "linguistics:phonology",
+    "linguistics:phonology:phonological-processes"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:morphology-phonology-interface",
+  "kind": "interface",
+  "label": "Morphology Phonology interface",
+  "mapping": {
+    "cardinality": "unspecified",
+    "claim": "english:morphology-phonology-interface:claim:key-takeaway",
+    "predicate": "kps:maps-to",
+    "scope": "The working analysis, context and variety limits in knowledge/morphology-phonology-interface.md; not a neural processing claim.",
+    "source": "english:representation:inflection-features",
+    "target": "english:representation:phonological-exponent"
+  },
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:morphology-phonology-interface",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:allomorphy",
+        "english:concept:inflection",
+        "english:concept:consonant-articulation",
+        "english:concept:representation-levels"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:morphology-phonology-interface",
+    "old_path": "models/morphology-phonology-interface.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:allomorphy"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:inflection"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:consonant-articulation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:representation-levels"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

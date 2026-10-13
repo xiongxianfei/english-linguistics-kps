@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "english:concept:compounding"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:compounding:claim:key-takeaway"
+  ],
+  "content": "knowledge/compounding.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexicalization",
+    "linguistics:morphology",
+    "linguistics:morphology:compounds"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:compounding",
+  "kind": "knowledge",
+  "label": "Compounding",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:compounding",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "morphology-and-lexicon"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        1
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:root-base-and-stem",
+        "english:concept:productivity-and-lexicalization",
+        "english:concept:compositionality"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:compounding",
+    "old_path": "concepts/compounding.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:root-base-and-stem"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:productivity-and-lexicalization"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:compositionality"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        1
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

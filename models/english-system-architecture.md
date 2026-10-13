@@ -1,70 +1,38 @@
----
-id: "english:model:english-system-architecture"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:interface", "english:concept:expression-and-representation", "english:concept:category-and-function", "english:concept:semantic-role", "english:concept:focus-topic-and-qud", "english:concept:representation-levels"]
----
-
 # English system architecture
 
 ## Key takeaway
-English is documented here through distinct, interacting representations rather than a fixed processing staircase.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/english-system-architecture.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-English is documented here through distinct, interacting representations rather than a fixed processing staircase. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/english-system-architecture.md#summary) in the canonical KPS 12 content.
 
 ## Purpose
 
-English is documented here through distinct, interacting representations rather than a fixed processing staircase.
+This is a compatibility redirect. Read [Purpose](../knowledge/english-system-architecture.md#purpose) in the canonical KPS 12 content.
 
 ## Representation
 
-| System | Representation | Example question |
-|---|---|---|
-| Morphology | Lexemes and grammatical word forms | What does plural change? |
-| Lexicon | Senses and selection | Which complements does this use permit? |
-| Syntax | Constituent hierarchy and functions | What is inside the PP? |
-| Semantics | Predicates and operators | What truth conditions and roles? |
-| Pragmatics | Contextual interpretation | Which referent and intention? |
-| Discourse | Referents and relations | How do utterances connect? |
-| Information structure | Given status, Topic, Focus, QUD | Which alternatives matter? |
-| Phonology and prosody | Segments, syllables, prominence | How is sound organized? |
-| Phonetics | Articulation and acoustic realization | What was physically produced? |
-
-Orthography is a writing representation, not a mandatory stage of speech processing. Interface edges are named in the companion Models and explained locally.
+This is a compatibility redirect. Read [Representation](../knowledge/english-system-architecture.md#representation) in the canonical KPS 12 content.
 
 ## Worked interpretation
 
-For "Maya was given the reports", Maya is an NP, Subject and Recipient. The reports is a retained Object and Theme. Context resolves the individuals and documents. A QUD can focus Maya without making her a permanent Topic. The plural exponent of reports is /s/ in the regular pronunciation.
+This is a compatibility redirect. Read [Worked interpretation](../knowledge/english-system-architecture.md#worked-interpretation) in the canonical KPS 12 content.
 
 ## Assumptions and limits
 
-The subsystem list is an authored documentation architecture, not a universally accepted taxonomy or a neural model. Two-way arrows mean possible constraint relations, not proof of symmetric direct causation among all pairs. Stage numbers provide an entry route, not ontological types.
+This is a compatibility redirect. Read [Assumptions and limits](../knowledge/english-system-architecture.md#assumptions-and-limits) in the canonical KPS 12 content.
 
 ## Evaluation and counterevidence
 
-Check one complete example across levels. A proposed edge must name its source and target representations and explain a concrete mapping. Remove decorative arrows with no explanatory use; preserve genuine theoretical alternatives.
+This is a compatibility redirect. Read [Evaluation and counterevidence](../knowledge/english-system-architecture.md#evaluation-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/english-system-architecture.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Linguistic interface](../concepts/interface.md) provides a related distinction used in the local explanation.
-- [Expression and representation](../concepts/expression-and-representation.md) provides a related distinction used in the local explanation.
-- [Category and function](../concepts/category-and-function.md) provides a related distinction used in the local explanation.
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Focus topic and question under discussion](../concepts/focus-topic-and-qud.md) provides a related distinction used in the local explanation.
-- [Orthography phonology and phonetics](../concepts/representation-levels.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/english-system-architecture.md#related-knowledge) in the canonical KPS 12 content.
+

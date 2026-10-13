@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:collocation"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:collocation:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Collocation — summary claim",
+  "owner": "english:collocation",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Collocation concerns conventional patterns of lexical co-occurrence.",
+  "status": "draft",
+  "version": "0.1.0"
+}

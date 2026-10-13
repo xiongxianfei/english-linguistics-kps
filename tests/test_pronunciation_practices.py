@@ -9,8 +9,8 @@ sys.path.insert(0, str(ROOT))
 import validate as kps
 
 FILES = {
-    'word': ROOT / 'practices/learn-word-pronunciation.md',
-    'phone': ROOT / 'practices/classify-and-produce-phone.md',
+    'word': ROOT / 'knowledge/learn-word-pronunciation.md',
+    'phone': ROOT / 'knowledge/classify-and-produce-phone.md',
 }
 
 class PronunciationPracticeTests(unittest.TestCase):
@@ -19,9 +19,9 @@ class PronunciationPracticeTests(unittest.TestCase):
 
     def test_two_real_practices_with_ga_scope(self):
         for doc in self.docs.values():
-            self.assertEqual(doc.meta['type'], 'practice')
+            self.assertEqual(doc.meta['roles'], ['kps:role:practice'])
             self.assertEqual(doc.meta['reference_variety'], 'General American')
-            self.assertEqual(doc.meta['stages'], [6, 7])
+            self.assertEqual(doc.meta['sequences'][0]['positions'], [6, 7])
             self.assertEqual(doc.meta['status'], 'draft')
 
     def test_stage_maps_and_six_local_stages(self):
@@ -74,14 +74,14 @@ class PronunciationPracticeTests(unittest.TestCase):
 
     def test_composition_is_one_way(self):
         word, phone = self.docs['word'], self.docs['phone']
-        self.assertEqual(word.meta['composes'], [phone.meta['id']])
-        self.assertNotIn(word.meta['id'], phone.meta.get('composes', []))
-        self.assertNotIn(word.meta['id'], phone.meta.get('uses_practices', []))
+        self.assertEqual(kps.targets(word, 'kps:composes'), [phone.meta['id']])
+        self.assertNotIn(word.meta['id'], kps.targets(phone, 'kps:composes'))
+        self.assertNotIn(word.meta['id'], kps.targets(phone, 'kps:uses'))
 
     def test_reuses_existing_methods_and_models(self):
         for doc in self.docs.values():
-            self.assertIn('english:method:analyze-sound-realization', doc.meta['uses_methods'])
-            self.assertIn('english:model:phonological-word-model', doc.meta['uses_models'])
+            self.assertIn('english:analyze-sound-realization', kps.targets(doc, 'kps:uses'))
+            self.assertIn('english:phonological-word-model', kps.targets(doc, 'kps:uses'))
             self.assertIn('../PRONUNCIATION.md', doc.links)
 
     def test_rights_privacy_and_discomfort_fallback(self):
@@ -95,7 +95,7 @@ class PronunciationPracticeTests(unittest.TestCase):
     def test_added_sources_state_actual_access_and_nonclaims(self):
         for file in ('merriam-webster-undated-pin-entry.md',
                      'international-phonetic-association-undated-diacritics-and-other-symbols.md'):
-            doc = kps.parse(ROOT / 'references' / file)
+            doc = kps.parse(ROOT / 'sources' / file)
             self.assertTrue(doc.meta['access_extent'])
             self.assertIsNone(doc.meta['reviewed'])
             self.assertTrue(kps.section(doc, 'Nonclaims').strip())

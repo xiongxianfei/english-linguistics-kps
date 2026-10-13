@@ -1,0 +1,85 @@
+{
+  "aliases": [
+    "english:concept:phrase-and-clause"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:phrase-and-clause:claim:key-takeaway"
+  ],
+  "content": "knowledge/phrase-and-clause.md",
+  "domains": [
+    "linguistics:foundations",
+    "linguistics:syntax",
+    "linguistics:syntax:syntactic-categories"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:phrase-and-clause",
+  "kind": "knowledge",
+  "label": "Phrase and clause",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:phrase-and-clause",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "foundations"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        0
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:finiteness",
+        "english:concept:auxiliary-chain",
+        "english:concept:constituency"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:phrase-and-clause",
+    "old_path": "concepts/phrase-and-clause.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:finiteness"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:auxiliary-chain"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:constituency"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        0
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

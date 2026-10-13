@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:compositionality"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:compositionality:claim:key-takeaway"
+  ],
+  "content": "knowledge/compositionality.md",
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:compositional-meaning"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:compositionality",
+  "kind": "knowledge",
+  "label": "Compositionality",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:compositionality",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "semantics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        3
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:semantic-predicate",
+        "english:concept:sense-and-lexical-ambiguity",
+        "english:concept:quantification-and-scope"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:compositionality",
+    "old_path": "concepts/compositionality.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-predicate"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:sense-and-lexical-ambiguity"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:quantification-and-scope"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        3
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

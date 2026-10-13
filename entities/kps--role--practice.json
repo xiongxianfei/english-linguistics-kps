@@ -1,0 +1,18 @@
+{
+  "aliases": [],
+  "description": "Composes locally executable operations toward a recurring goal.",
+  "domains": [],
+  "id": "kps:role:practice",
+  "kind": "role",
+  "label": "Practice",
+  "relations": [],
+  "required_sections": [
+    "Purpose and prerequisites",
+    "Stage map",
+    "Current practice summary"
+  ],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.1.0"
+}

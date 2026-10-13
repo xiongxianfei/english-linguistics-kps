@@ -1,0 +1,104 @@
+{
+  "aliases": [
+    "english:practice:maintain-english-package"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:maintain-english-package:claim:key-takeaway"
+  ],
+  "content": "knowledge/maintain-english-package.md",
+  "domains": [
+    "kps:knowledge-maintenance"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:maintain-english-package",
+  "kind": "knowledge",
+  "label": "Maintain English package",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:practice:maintain-english-package",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "practice_format": "staged-inline-stageN-v1",
+      "references": [
+        "english:reference:xiongxianfei-2026-knowledge-practice-system"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stage_order": "recommended; prerequisites and evidence govern entry",
+      "stage_titles": [
+        "Stage1 Scope the change",
+        "Stage2 Review content and dependencies",
+        "Stage3 Check and publish"
+      ],
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "practice",
+      "uses_concepts": [
+        "english:concept:evidence-and-analysis",
+        "english:concept:interface",
+        "english:concept:constraint-and-preference"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:practice:maintain-english-package",
+    "old_path": "practices/maintain-english-package.md",
+    "old_version": "0.1.0"
+  },
+  "practice_format": "staged-inline-stageN-v1",
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:evidence-and-analysis"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:interface"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:constraint-and-preference"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:xiongxianfei-2026-knowledge-practice-system"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:practice"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "stage_order": "recommended; prerequisites and evidence govern entry",
+  "stage_titles": [
+    "Stage1 Scope the change",
+    "Stage2 Review content and dependencies",
+    "Stage3 Check and publish"
+  ],
+  "status": "draft",
+  "version": "0.2.0"
+}

@@ -1,0 +1,42 @@
+{
+  "access_extent": "Journal HTML abstract and publication metadata only. Full article PDF, detailed formal derivations and evidence sections were not inspected.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:roberts-2012-information-structure"
+  ],
+  "content": "sources/roberts-2012-information-structure.md",
+  "creator": "Craige Roberts",
+  "date_basis": "Publication date from the journal landing metadata; DOI 10.3765/sp.5.6.",
+  "domains": [],
+  "id": "english:roberts-2012-information-structure",
+  "kind": "source",
+  "label": "Information Structure and an integrated theory of pragmatics",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Journal HTML abstract and publication metadata only. Full article PDF, detailed formal derivations and evidence sections were not inspected.",
+      "accessed": "2026-10-11",
+      "creator": "Craige Roberts",
+      "date_basis": "Publication date from the journal landing metadata; DOI 10.3765/sp.5.6.",
+      "id": "english:reference:roberts-2012-information-structure",
+      "language": "KPS 9.x",
+      "publication": "Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.",
+      "publication_date": "2012-12-19",
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:roberts-2012-information-structure",
+    "old_path": "references/roberts-2012-information-structure.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.",
+  "publication_date": "2012-12-19",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:prosody",
+  "kind": "domain",
+  "label": "Prosody",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Prominence, phrasing, timing and intonation, independently navigable while interacting with phonology, phonetics and information structure.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

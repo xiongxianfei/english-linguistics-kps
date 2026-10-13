@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:foundations",
+    "linguistics:syntax",
+    "linguistics:syntax:syntactic-categories"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:phrase-and-clause:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Phrase and clause — summary claim",
+  "owner": "english:phrase-and-clause",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A phrase is a syntactic unit organized as a phrase category; it may contain one word or many.",
+  "status": "draft",
+  "version": "0.1.0"
+}

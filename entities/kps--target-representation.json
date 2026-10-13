@@ -1,0 +1,21 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "The target endpoint of a documented mapping.",
+  "domains": [],
+  "id": "kps:target-representation",
+  "kind": "relation-type",
+  "label": "target representation",
+  "layer": "interface",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "interface"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "representation"
+  ],
+  "version": "0.1.0"
+}

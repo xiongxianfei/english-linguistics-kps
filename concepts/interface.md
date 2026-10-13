@@ -1,51 +1,34 @@
----
-id: "english:concept:interface"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:expression-and-representation", "english:concept:constraint-and-preference", "english:concept:evidence-and-analysis"]
----
-
 # Linguistic interface
 
 ## Key takeaway
-An interface is a systematic correspondence or constraint between representations in different analytical systems.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/interface.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-An interface is a systematic correspondence or constraint between representations in different analytical systems. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/interface.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-An interface is a systematic correspondence or constraint between representations in different analytical systems. It is not automatically a separate linguistic level or proof of a literal temporal processing pipeline. Documentation should name both representations and the mapping being proposed.
+This is a compatibility redirect. Read [Definition](../knowledge/interface.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-A Syntax-Semantics mapping relates Subject/Object/PP functions to Agent/Recipient/Theme roles. A Morphology-Phonology mapping conditions a plural exponent on the preceding stem sound. Focus and prosody connect information organization with accent placement; phonetics concerns the physical realization.
+This is a compatibility redirect. Read [Worked example](../knowledge/interface.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Bidirectional influence does not mean every subsystem directly and symmetrically determines every other one. A topic-tagged link is not an explained interface.
+This is a compatibility redirect. Read [Distinctions](../knowledge/interface.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-The repository's system map is an authored organizational model. Competing theories distribute work differently across lexicon, syntax and semantics. No neural implementation or processing-time claim follows from the arrows.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/interface.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/interface.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Expression and representation](../concepts/expression-and-representation.md) provides a related distinction used in the local explanation.
-- [Constraint and preference](../concepts/constraint-and-preference.md) provides a related distinction used in the local explanation.
-- [Evidence and analysis](../concepts/evidence-and-analysis.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/interface.md#related-knowledge) in the canonical KPS 12 content.
+

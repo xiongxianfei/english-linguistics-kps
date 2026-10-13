@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:prosody:pitch-accent-and-prominence",
+  "kind": "domain",
+  "label": "Pitch accent and prominence",
+  "parents": [
+    "linguistics:prosody"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Prosody: pitch accent and prominence. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

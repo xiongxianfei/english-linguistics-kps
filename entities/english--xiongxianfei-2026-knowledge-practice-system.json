@@ -1,0 +1,42 @@
+{
+  "access_extent": "README, AUTHORING, COMPATIBILITY, CHECKS, domain-package guidance and validator/test source; no claim of independent validation of KPS as a productivity intervention.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:xiongxianfei-2026-knowledge-practice-system"
+  ],
+  "content": "sources/xiongxianfei-2026-knowledge-practice-system.md",
+  "creator": "xiongxianfei",
+  "date_basis": "Release metadata and repository commit history; inspected pinned commit rather than inferring a publication date from access time.",
+  "domains": [],
+  "id": "english:xiongxianfei-2026-knowledge-practice-system",
+  "kind": "source",
+  "label": "Knowledge Practice System authoring and validation",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "README, AUTHORING, COMPATIBILITY, CHECKS, domain-package guidance and validator/test source; no claim of independent validation of KPS as a productivity intervention.",
+      "accessed": "2026-10-11",
+      "creator": "xiongxianfei",
+      "date_basis": "Release metadata and repository commit history; inspected pinned commit rather than inferring a publication date from access time.",
+      "id": "english:reference:xiongxianfei-2026-knowledge-practice-system",
+      "language": "KPS 9.x",
+      "publication": "Knowledge Practice System 9.0.1",
+      "publication_date": "2026-10-07",
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:xiongxianfei-2026-knowledge-practice-system",
+    "old_path": "references/xiongxianfei-2026-knowledge-practice-system.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Knowledge Practice System 9.0.1",
+  "publication_date": "2026-10-07",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

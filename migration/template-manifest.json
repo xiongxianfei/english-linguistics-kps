@@ -1,0 +1,32 @@
+{
+  "format": 12,
+  "files": [
+    ".github/ISSUE_TEMPLATE/content-review.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows/checks.yml",
+    "AGENTS.md",
+    "AUTHORING.md",
+    "CHECKS.md",
+    "COMPATIBILITY.md",
+    "CONTRIBUTING.md",
+    "MIGRATION.md",
+    "NAVIGATION.md",
+    "README.md",
+    "TEMPLATES.md",
+    "migration/kps12-plan.json",
+    "migration/template-manifest.json",
+    "schema/entity.schema.json",
+    "spec/KPS12.md",
+    "test_validate.py",
+    "tests/test_general_american_policy.py",
+    "tests/test_kps12.py",
+    "tools/accept_dependency_review.py",
+    "tools/build_navigation.py",
+    "tools/check_domain.py",
+    "tools/check_preservation.py",
+    "tools/kps12.py",
+    "tools/migrate_kps12.py",
+    "tools/run_checks.py",
+    "validate.py"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:foundations",
+  "kind": "domain",
+  "label": "Analytical foundations",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Cross-domain distinctions such as representation, category, function, constituency and acceptability.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

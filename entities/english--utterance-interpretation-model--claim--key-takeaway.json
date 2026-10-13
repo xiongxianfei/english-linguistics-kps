@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:speech-actions"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:utterance-interpretation-model:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Utterance interpretation model — summary claim",
+  "owner": "english:utterance-interpretation-model",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "An utterance interpretation records conventional constraints, contextual values and defeasible communicated inferences separately.",
+  "status": "draft",
+  "version": "0.1.0"
+}

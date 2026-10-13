@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "english:principle:category-does-not-determine-function"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:category-does-not-determine-function:claim:key-takeaway"
+  ],
+  "content": "knowledge/category-does-not-determine-function.md",
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:syntactic-categories"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:category-does-not-determine-function",
+  "kind": "knowledge",
+  "label": "Category does not determine grammatical function",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:category-does-not-determine-function",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "foundations"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        0
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:category-and-function",
+        "english:concept:complement-and-modifier"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:category-does-not-determine-function",
+    "old_path": "principles/category-does-not-determine-function.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:category-and-function"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:complement-and-modifier"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        0
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

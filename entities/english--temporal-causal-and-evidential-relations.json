@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:temporal-causal-and-evidential-relations"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:temporal-causal-and-evidential-relations:claim:key-takeaway"
+  ],
+  "content": "knowledge/temporal-causal-and-evidential-relations.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:discourse-relations"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:temporal-causal-and-evidential-relations",
+  "kind": "knowledge",
+  "label": "Temporal causal and evidential relations",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:temporal-causal-and-evidential-relations",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "discourse-and-information-structure"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        5
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:tense-and-aspect",
+        "english:concept:modality",
+        "english:concept:discourse-relation"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:temporal-causal-and-evidential-relations",
+    "old_path": "concepts/temporal-causal-and-evidential-relations.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:tense-and-aspect"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:modality"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:discourse-relation"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        5
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

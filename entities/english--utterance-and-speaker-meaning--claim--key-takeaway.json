@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:speech-actions"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:utterance-and-speaker-meaning:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Utterance and speaker meaning — summary claim",
+  "owner": "english:utterance-and-speaker-meaning",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A sentence is a linguistic expression considered abstractly; an utterance is a particular use in context.",
+  "status": "draft",
+  "version": "0.1.0"
+}

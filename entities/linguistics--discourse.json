@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:discourse",
+  "kind": "domain",
+  "label": "Discourse",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Connections among utterances, referent accessibility and discourse relations, without treating textual cohesion as sufficient coherence.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

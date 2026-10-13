@@ -1,0 +1,42 @@
+{
+  "access_extent": "Introduction HTML and linked relation-definitions text, including Evidence, Cause, Elaboration, Contrast and Concession. The 1988 paper cited by the website was not inspected as a full text.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:mann-taboada-undated-rst-introduction"
+  ],
+  "content": "sources/mann-taboada-undated-rst-introduction.md",
+  "creator": "William C. Mann and Maite Taboada, website credits",
+  "date_basis": "No reliable publication date established. The copyright range is not treated as the publication date.",
+  "domains": [],
+  "id": "english:mann-taboada-undated-rst-introduction",
+  "kind": "source",
+  "label": "Introduction to Rhetorical Structure Theory",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Introduction HTML and linked relation-definitions text, including Evidence, Cause, Elaboration, Contrast and Concession. The 1988 paper cited by the website was not inspected as a full text.",
+      "accessed": "2026-10-11",
+      "creator": "William C. Mann and Maite Taboada, website credits",
+      "date_basis": "No reliable publication date established. The copyright range is not treated as the publication date.",
+      "id": "english:reference:mann-taboada-undated-rst-introduction",
+      "language": "KPS 9.x",
+      "publication": "Rhetorical Structure Theory website introduction and relation definitions",
+      "publication_date": null,
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:mann-taboada-undated-rst-introduction",
+    "old_path": "references/mann-taboada-undated-rst-introduction.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Rhetorical Structure Theory website introduction and relation definitions",
+  "publication_date": null,
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

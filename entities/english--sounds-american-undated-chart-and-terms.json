@@ -1,0 +1,42 @@
+{
+  "access_extent": "Search-indexed homepage descriptions and sound-symbol list plus a retrieved terms-of-use description; interactive teaching videos, audio and detailed sound lessons were not directly played or independently tested.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:sounds-american-undated-chart-and-terms"
+  ],
+  "content": "sources/sounds-american-undated-chart-and-terms.md",
+  "creator": "Sounds American",
+  "date_basis": "The chart's own publication date was not established; the terms-of-use page gives March 23, 2022.",
+  "domains": [],
+  "id": "english:sounds-american-undated-chart-and-terms",
+  "kind": "source",
+  "label": "Sounds American chart and usage terms",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Search-indexed homepage descriptions and sound-symbol list plus a retrieved terms-of-use description; interactive teaching videos, audio and detailed sound lessons were not directly played or independently tested.",
+      "accessed": "2026-10-11",
+      "creator": "Sounds American",
+      "date_basis": "The chart's own publication date was not established; the terms-of-use page gives March 23, 2022.",
+      "id": "english:reference:sounds-american-undated-chart-and-terms",
+      "language": "KPS 9.x",
+      "publication": "Sounds American interactive American IPA chart and terms of use",
+      "publication_date": null,
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:sounds-american-undated-chart-and-terms",
+    "old_path": "references/sounds-american-undated-chart-and-terms.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Sounds American interactive American IPA chart and terms of use",
+  "publication_date": null,
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

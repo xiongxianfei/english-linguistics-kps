@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:implicature"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:implicature:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Conversational implicature — summary claim",
+  "owner": "english:implicature",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Conversational implicature concerns communicated information beyond what is straightforwardly asserted under the relevant conventional interpretation.",
+  "status": "draft",
+  "version": "0.1.0"
+}

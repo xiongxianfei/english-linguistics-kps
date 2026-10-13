@@ -1,62 +1,38 @@
----
-id: "english:model:auxiliary-selection-model"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [2]
-perspectives: ["syntax"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:auxiliary-chain", "english:concept:finiteness", "english:concept:tense-and-aspect", "english:concept:do-support-and-inversion"]
----
-
 # Auxiliary selection model
 
 ## Key takeaway
-Local auxiliary selection explains the form of each following verb independently of the construction label.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/auxiliary-selection-model.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Local auxiliary selection explains the form of each following verb independently of the construction label. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/auxiliary-selection-model.md#summary) in the canonical KPS 12 content.
 
 ## Purpose
 
-Local auxiliary selection explains the form of each following verb independently of the construction label.
+This is a compatibility redirect. Read [Purpose](../knowledge/auxiliary-selection-model.md#purpose) in the canonical KPS 12 content.
 
 ## Representation
 
-| Selecting auxiliary | Selected form | Construction |
-|---|---|---|
-| Central modal | Plain | Modal |
-| Perfect HAVE | Past participle | Perfect |
-| Progressive BE | Ing form | Progressive |
-| Passive BE | Past participle | Verbal passive |
-| Support DO | Plain | Support for relevant finite constructions |
+This is a compatibility redirect. Read [Representation](../knowledge/auxiliary-selection-model.md#representation) in the canonical KPS 12 content.
 
 ## Worked interpretation
 
-In may have been working, may is finite, have plain, been past participle, working ing. In has been reviewed, has is finite, been a past participle introducing passive BE, and reviewed the lexical past participle. Identical participial morphology does not identify identical constructions.
+This is a compatibility redirect. Read [Worked interpretation](../knowledge/auxiliary-selection-model.md#worked-interpretation) in the canonical KPS 12 content.
 
 ## Assumptions and limits
 
-Finite versus nonfinite and tense versus aspect are independent dimensions. BE with an adjectival participle is not automatically verbal passive. The model concerns central standard-English patterns, not all semi-auxiliaries or dialectal modal combinations.
+This is a compatibility redirect. Read [Assumptions and limits](../knowledge/auxiliary-selection-model.md#assumptions-and-limits) in the canonical KPS 12 content.
 
 ## Evaluation and counterevidence
 
-For each chain, annotate selecting item, selected form and semantic construction separately. A mismatch such as may has exposes a selection error; an unusual but licensed chain is not rejected merely for stylistic heaviness.
+This is a compatibility redirect. Read [Evaluation and counterevidence](../knowledge/auxiliary-selection-model.md#evaluation-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/auxiliary-selection-model.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Auxiliary chain](../concepts/auxiliary-chain.md) provides a related distinction used in the local explanation.
-- [Finiteness](../concepts/finiteness.md) provides a related distinction used in the local explanation.
-- [Tense and aspect](../concepts/tense-and-aspect.md) provides a related distinction used in the local explanation.
-- [Do support and inversion](../concepts/do-support-and-inversion.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/auxiliary-selection-model.md#related-knowledge) in the canonical KPS 12 content.
+

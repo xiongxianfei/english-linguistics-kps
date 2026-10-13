@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:lexicon",
+  "kind": "domain",
+  "label": "Lexicon",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Lexical identities, senses and conventional selection information; lexical entries are not restricted to a list of spellings.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

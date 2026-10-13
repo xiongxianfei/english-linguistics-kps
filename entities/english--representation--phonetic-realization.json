@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:phonetic-realization",
+  "kind": "representation",
+  "label": "Phonetic realization",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "transcription_level",
+      "context",
+      "observed_or_predicted",
+      "recording_id"
+    ]
+  },
+  "version": "0.1.0"
+}

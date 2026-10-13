@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:reference-and-denotation"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:reference-and-denotation:claim:key-takeaway"
+  ],
+  "content": "knowledge/reference-and-denotation.md",
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:reference-and-denotation"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:reference-and-denotation",
+  "kind": "knowledge",
+  "label": "Reference and denotation",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:reference-and-denotation",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "semantics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        3
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:semantic-predicate",
+        "english:concept:quantification-and-scope",
+        "english:concept:deixis"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:reference-and-denotation",
+    "old_path": "concepts/reference-and-denotation.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-predicate"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:quantification-and-scope"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:deixis"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        3
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

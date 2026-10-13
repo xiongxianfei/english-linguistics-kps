@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:discourse:interaction-and-turn-taking",
+  "kind": "domain",
+  "label": "Interaction and turn taking",
+  "parents": [
+    "linguistics:discourse"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Discourse: interaction and turn taking. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

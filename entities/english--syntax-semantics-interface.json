@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "english:model:syntax-semantics-interface"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:syntax-semantics-interface:claim:key-takeaway"
+  ],
+  "content": "knowledge/syntax-semantics-interface.md",
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:compositional-meaning",
+    "linguistics:syntax",
+    "linguistics:syntax:construction-mappings"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:syntax-semantics-interface",
+  "kind": "interface",
+  "label": "Syntax Semantics interface",
+  "mapping": {
+    "cardinality": "unspecified",
+    "claim": "english:syntax-semantics-interface:claim:key-takeaway",
+    "predicate": "kps:maps-to",
+    "scope": "The working analysis, context and variety limits in knowledge/syntax-semantics-interface.md; not a neural processing claim.",
+    "source": "english:representation:clause-functions",
+    "target": "english:representation:participant-roles"
+  },
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:syntax-semantics-interface",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:semantic-role",
+        "english:concept:object-and-pp-complement",
+        "english:concept:valency-and-argument-structure"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:syntax-semantics-interface",
+    "old_path": "models/syntax-semantics-interface.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-role"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:object-and-pp-complement"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:valency-and-argument-structure"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

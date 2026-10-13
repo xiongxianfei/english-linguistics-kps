@@ -1,9 +1,3 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
-
 # Attribution and source rights
 
 ## Key takeaway
@@ -14,7 +8,7 @@ Original package content is distinct from upstream KPS tooling and external refe
 
 ## Upstream material
 
-AUTHORING.md, validate.py and test_validate.py are copied unchanged from xiongxianfei/knowledge-practice-system commit 60972c57199ae8bc21d4b7a00ac55552b4105277, repository edition 9.0.1, under MIT. Copyright (c) 2026 xiongxianfei. LICENSE preserves the MIT permission and warranty text. Upstream hashes are recorded in upstream-lock.json.
+The historical legacy/kps9/AUTHORING.md, legacy/kps9/validate.py and legacy/kps9/test_validate.py are copied unchanged from xiongxianfei/knowledge-practice-system commit 60972c57199ae8bc21d4b7a00ac55552b4105277, repository edition 9.0.1, under MIT. Copyright (c) 2026 xiongxianfei. LICENSE preserves the MIT permission and warranty text. Historical upstream hashes are recorded in legacy/kps9/upstream-lock.json. Active KPS 12 tooling is newly authored and does not claim to be unchanged upstream tooling.
 
 ## Original content
 

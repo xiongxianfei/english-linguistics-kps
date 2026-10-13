@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:agreement-and-finiteness-pattern",
+  "kind": "representation",
+  "label": "Agreement and finiteness pattern",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "construction",
+      "controller",
+      "agreement_form",
+      "finiteness"
+    ]
+  },
+  "version": "0.1.0"
+}

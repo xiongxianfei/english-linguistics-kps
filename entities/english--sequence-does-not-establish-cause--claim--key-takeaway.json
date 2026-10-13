@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:discourse-inference"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:sequence-does-not-establish-cause:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Temporal sequence does not establish causation — summary claim",
+  "owner": "english:sequence-does-not-establish-cause",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "An event following another in time does not by itself demonstrate that the earlier event caused it.",
+  "status": "draft",
+  "version": "0.1.0"
+}

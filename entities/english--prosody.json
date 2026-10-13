@@ -1,0 +1,90 @@
+{
+  "aliases": [
+    "english:concept:prosody"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:prosody:claim:key-takeaway"
+  ],
+  "content": "knowledge/prosody.md",
+  "domains": [
+    "linguistics:information-structure",
+    "linguistics:phonetics",
+    "linguistics:phonology",
+    "linguistics:prosody",
+    "linguistics:prosody:intonation",
+    "linguistics:prosody:pitch-accent-and-prominence",
+    "linguistics:prosody:prosodic-phrasing",
+    "linguistics:prosody:rhythmic-organization"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:prosody",
+  "kind": "knowledge",
+  "label": "Prosody and intonation",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:prosody",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        6
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:focus-topic-and-qud",
+        "english:concept:stress",
+        "english:concept:connected-speech"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:prosody",
+    "old_path": "concepts/prosody.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:focus-topic-and-qud"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:stress"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:connected-speech"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

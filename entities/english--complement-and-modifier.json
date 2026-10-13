@@ -1,0 +1,91 @@
+{
+  "aliases": [
+    "english:concept:complement-and-modifier"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:complement-and-modifier:claim:key-takeaway"
+  ],
+  "content": "knowledge/complement-and-modifier.md",
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:constituency-and-dependency"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:complement-and-modifier",
+  "kind": "knowledge",
+  "label": "Complement and modifier",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:complement-and-modifier",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "syntax"
+      ],
+      "references": [
+        "english:reference:anderson-2018-essentials-of-linguistics"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        2
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:head-and-dependent",
+        "english:concept:lexical-selection",
+        "english:concept:object-and-pp-complement"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:complement-and-modifier",
+    "old_path": "concepts/complement-and-modifier.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:head-and-dependent"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-selection"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:object-and-pp-complement"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:anderson-2018-essentials-of-linguistics"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        2
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

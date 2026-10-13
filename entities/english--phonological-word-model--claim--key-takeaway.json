@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:phonetic-transcription",
+    "linguistics:phonology",
+    "linguistics:phonology:phonotactics",
+    "linguistics:phonology:syllable-organization",
+    "linguistics:prosody"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:phonological-word-model:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Phonological word model — summary claim",
+  "owner": "english:phonological-word-model",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Segment categories, syllable organization, stress and phonetic realization provide distinct descriptions of a sound pattern.",
+  "status": "draft",
+  "version": "0.1.0"
+}

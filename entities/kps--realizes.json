@@ -1,0 +1,21 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "A scoped realization correspondence, not an unqualified identity relation.",
+  "domains": [],
+  "id": "kps:realizes",
+  "kind": "relation-type",
+  "label": "realizes",
+  "layer": "semantic",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "representation"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "representation"
+  ],
+  "version": "0.1.0"
+}

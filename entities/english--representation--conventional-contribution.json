@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:semantics"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:conventional-contribution",
+  "kind": "representation",
+  "label": "Conventional contribution",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "expression",
+      "conventional_meaning",
+      "context_arguments"
+    ]
+  },
+  "version": "0.1.0"
+}

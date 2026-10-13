@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonology"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:phonological-form",
+  "kind": "representation",
+  "label": "Phonological form",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "segments",
+      "syllables",
+      "stress"
+    ]
+  },
+  "version": "0.1.0"
+}

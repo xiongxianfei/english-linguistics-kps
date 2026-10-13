@@ -1,51 +1,34 @@
----
-id: "english:concept:lexeme-and-word-form"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:inflection", "english:concept:derivation", "english:concept:paradigm-and-syncretism"]
----
-
 # Lexeme and word form
 
 ## Key takeaway
-A lexeme is an abstract lexical identity associated with a family of grammatical forms.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/lexeme-and-word-form.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A lexeme is an abstract lexical identity associated with a family of grammatical forms. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/lexeme-and-word-form.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A lexeme is an abstract lexical identity associated with a family of grammatical forms. A word form realizes a particular form in that family. The same visible string may realize more than one paradigm cell, and related meanings do not by themselves establish one lexeme.
+This is a compatibility redirect. Read [Definition](../knowledge/lexeme-and-word-form.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-WRITE has the forms write, writes, wrote, written and writing. REWRITE is a related but distinct lexeme. In "Maya rewrote it", rewrote is the past word form of REWRITE, not a new lexeme created by past inflection.
+This is a compatibility redirect. Read [Worked example](../knowledge/lexeme-and-word-form.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Lexeme is not identical to root, spelling or dictionary entry. A dictionary may group related senses or split homonyms using editorial conventions; morphology requires its own analysis.
+This is a compatibility redirect. Read [Distinctions](../knowledge/lexeme-and-word-form.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Lexeme-based morphology is the working representation here. Boundaries between inflection, derivation and lexical identity can be disputed, especially for participles and category conversion.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/lexeme-and-word-form.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/lexeme-and-word-form.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
-- [Derivation](../concepts/derivation.md) provides a related distinction used in the local explanation.
-- [Paradigm and syncretism](../concepts/paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/lexeme-and-word-form.md#related-knowledge) in the canonical KPS 12 content.
+

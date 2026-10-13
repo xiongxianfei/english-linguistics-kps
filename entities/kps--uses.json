@@ -1,0 +1,23 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "Document depends on another explanation; not a causal or learning prerequisite claim.",
+  "domains": [],
+  "id": "kps:uses",
+  "kind": "relation-type",
+  "label": "uses",
+  "layer": "document",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "knowledge",
+    "interface"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "knowledge",
+    "interface"
+  ],
+  "version": "0.1.0"
+}

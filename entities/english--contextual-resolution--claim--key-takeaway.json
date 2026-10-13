@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:context-and-deixis"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:contextual-resolution:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Contextual resolution — summary claim",
+  "owner": "english:contextual-resolution",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Contextual resolution identifies values needed to interpret an expression in its use, such as a pronoun referent, deictic place or relevant comparison class.",
+  "status": "draft",
+  "version": "0.1.0"
+}

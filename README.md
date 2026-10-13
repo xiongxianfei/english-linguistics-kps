@@ -1,63 +1,44 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
-
-# English Linguistics KPS
+# English Linguistics KPS 12
 
 ## Key takeaway
-A broad provisional model of English across Stages 0 through 7, organized as reusable KPS knowledge objects rather than a course transcript.
+English linguistics is represented as a network of generic knowledge entities, with independent roles, domains, claims, evidence and scoped interfaces.
 
 ## Summary
-A broad provisional model of English across Stages 0 through 7, organized as reusable KPS knowledge objects rather than a course transcript. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
+Domain package **0.2.0** implements **KPS 12.x**, local profile **12.0.0-draft.1**. All 110 legacy knowledge objects and 10 source records are preserved and migrated; five explicitly provisional bridge Models extend interface coverage. Scientific status remains provisional. This is a working repository implementation, not an announcement of an upstream KPS 12 release or an independently reviewed grammar.
 
 ## Start here
+Read the [KPS 12 core specification](spec/KPS12.md), [ten domain views](DOMAINS.md), [representation interfaces](INTERFACES.md), [role index](INDEX.md), [coverage gaps and legacy route](COVERAGE.md), and [claim review queue](REVIEW-QUEUE.md). The [whole-system Model](knowledge/english-system-architecture.md) and [integrated utterance analysis](knowledge/integrated-utterance-analysis.md) remain available.
 
-Read the [whole system model](models/english-system-architecture.md), [stage coverage](COVERAGE.md), [knowledge index](INDEX.md), and [scientific review queue](REVIEW-QUEUE.md). For a complete worked case, see the [integrated utterance analysis](models/integrated-utterance-analysis.md).
+## Ten independently navigable domains
+Phonetics, Phonology, Morphology, Lexicon, Syntax, Semantics, Pragmatics, Discourse, Information Structure and Prosody are explicit domain entities. Their internal subdomains, memberships, interfaces and unrepresented areas are visible in [DOMAINS](DOMAINS.md). Domain overlap is allowed; folder location does not determine subject membership.
 
-New pronunciation analyses use **General American English as the primary reference variety**. Read the [General American pronunciation policy](PRONUNCIATION.md) for source roles, IPA conventions, evidence levels and copyright restrictions; earlier British-style examples remain explicitly accent-dependent.
+## Canonical layout
+`entities/` contains the canonical generic JSON entity records. `knowledge/` contains role-neutral Markdown explanations; `sources/` retains bibliographic explanations and nonclaims. Roles, domains, representations, interfaces, claims, evidence and the legacy route are themselves addressable entities. `knowledge-graph.json` and `views/` are generated views, not independent sources of truth.
 
-This is the user-authorized broad first draft. It is not independently reviewed linguistic reference material, an exhaustive grammar, a proficiency assessment, or a claim that all English theories agree.
+Old paths remain as redirects. The byte-preserved [KPS 9 baseline](legacy/kps9/README.md), [migration guide](MIGRATION.md) and migration manifests make preservation and identity changes inspectable.
 
-## What is included
+## Evidence boundary
+Key takeaways are exposed as versioned summary claims. This does not decompose every sentence into an atomic proposition. Legacy citations are migrated as **context-only**, retaining their original access limits; they are not automatically converted into claim support. No claim is promoted to reviewed by migration or green tests. Five added bridge Models use constructed examples and explicitly pending external support.
 
-The initial package contains 110 knowledge objects: 72 Concepts, 13 Principles, 15 Models, 6 Methods and 4 Practices covering research, maintenance and pronunciation work. Ten publication-based Reference records document exactly what was inspected. Stage 0 covers foundations; Stage 1 morphology and lexicon; Stage 2 syntax; Stage 3 semantics; Stage 4 pragmatics; Stage 5 discourse and information structure; Stage 6 phonetics and phonology; Stage 7 interfaces and integration.
+## Pronunciation policy
+[PRONUNCIATION.md](PRONUNCIATION.md) retains **General American English as the primary reference variety** for new pronunciation analyses, separates broad phonemic forms from phonetic realizations, and preserves source-rights limits. The [word-pronunciation Practice](knowledge/learn-word-pronunciation.md) and [phone-classification Practice](knowledge/classify-and-produce-phone.md) retain their full stages and pending learner outcomes.
 
-## Pronunciation Practices
-
-Use [Learn a word pronunciation](practices/learn-word-pronunciation.md) to connect a checked General American word form with listening, articulation, recording and later retrieval. Use [Classify and produce a phone](practices/classify-and-produce-phone.md) to investigate a symbol or recorded target, describe its features and test listening and production separately. Each has six self-contained stages, an illustrative example, fallback decisions and a private-record template. They are proposed procedures, not validated teaching programmes or completed learner results.
-
-## Evidence status
-
-Every linguistic object has status draft, evidence_status provisional and reviewed null. Some objects have selected-passage source support; many still need claim-level external support. Even source-linked objects may contain constructed examples or author synthesis that the linked passage does not establish. The [source register](references/README.md) distinguishes inspected text, abstract-only inspection, limitations and nonclaims. No independent expert review or learner outcome is claimed.
-
-## Architecture
-
-KPS role is independent of linguistic subsystem and stage. A Concept defines a distinction; a Principle explains a scoped relationship; a Model represents a proposed structure; a Method gives an operation; a Practice combines operations for a recurring analytical or maintenance goal. References support provenance and are not a sixth core type. Interfaces are Models with explicit assumptions, not a new role folder. [Typed graph data](knowledge-graph.json) connects stable identities and supports navigation; its arrows are not a causal brain model.
-
-## Use locally
-
-Clone or download this repository and open README.md in a Markdown reader or open the directory as an Obsidian vault. Ordinary relative Markdown links are canonical; no Obsidian plugin, wikilink extension or sibling KPS installation is required. Unicode IPA is text, not a pronunciation recording. No third-party textbook, chart image, font or old AI-generated summary poster is bundled.
-
-## Checks
-
-Use Python 3.10 or newer; the included upstream checker uses modern type annotations. No third-party Python packages are required.
+## Use and validate
+Python 3.10 or newer; no third-party Python packages are required.
 
 ```bash
 python3 validate.py .
-python3 test_validate.py
-python3 tools/check_domain.py
 python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
+python3 tools/check_preservation.py
+python3 tools/kps12.py query --domain linguistics:prosody
+python3 tools/kps12.py query --interfaces
+python3 tools/kps12.py query --id english:concept:phone-phoneme-and-allophone
 ```
 
-These commands check publication structure, declared review status and the internal consistency of constructed fixtures. They do not certify linguistic truth. See [check scope](CHECKS.md).
+The last command resolves a preserved KPS 9 identity to its canonical KPS 12 entity.
 
-## Contribute
+See [CHECKS](CHECKS.md) for exact test boundaries and [AUTHORING](AUTHORING.md) before changing content. Generated views never silently accept dependency changes.
 
-Read [AUTHORING](AUTHORING.md), [domain scope](SCOPE.md), and [CONTRIBUTING](CONTRIBUTING.md). Prefer a small, evidence-aware correction over mass generation. Preserve counterexamples, source limits and theoretical alternatives. Never refresh summary-dependencies.json merely to silence a warning.
-
-## Version and license
-
-Domain version: 0.1.0, provisional. KPS language: 9.x. Upstream tooling is pinned to release 9.0.1 and the commit recorded in [compatibility](COMPATIBILITY.md) and [upstream lock](upstream-lock.json). New original content and tooling use the MIT license in LICENSE; upstream attribution and exclusions are in [NOTICE](NOTICE.md). Third-party publications retain their own licenses.
+## License and release status
+Original package content and tooling are MIT-licensed; external sources retain their rights. See [NOTICE](NOTICE.md). This branch is a reviewable KPS 12 migration; merging, tagging and publishing a release are separate actions.

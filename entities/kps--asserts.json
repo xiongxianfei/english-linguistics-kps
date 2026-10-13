@@ -1,0 +1,22 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "Ownership of a versioned authored claim.",
+  "domains": [],
+  "id": "kps:asserts",
+  "kind": "relation-type",
+  "label": "asserts",
+  "layer": "claim",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "knowledge",
+    "interface"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "claim"
+  ],
+  "version": "0.1.0"
+}

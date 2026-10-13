@@ -1,22 +1,15 @@
 {
-  "package": "English Linguistics KPS",
-  "version": "0.1.0",
-  "kps_language": "9.x",
-  "validated_with": "9.0.1",
-  "markdown_profile": "practical-markdown-v1",
-  "scientific_status": "provisional",
+  "baseline_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+  "created": "2026-10-13",
+  "entity_schema": "kps:12:entity",
+  "graph_format": 12,
   "independent_review": false,
-  "created": "2026-10-11",
-  "upstream_commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
-  "independent": true,
-  "knowledge_types": [
-    "concept",
-    "principle",
-    "model",
-    "method",
-    "practice"
-  ],
-  "reference_is_supporting_record": true,
-  "scope": "Broad introductory Stage 0 through 7 knowledge model; not exhaustive or scientifically certified",
-  "license": "MIT"
+  "kps_language": "12.x",
+  "license": "MIT",
+  "package": "English Linguistics KPS",
+  "profile_status": "experimental local implementation",
+  "profile_version": "12.0.0-draft.1",
+  "scientific_status": "provisional",
+  "scope": "Ten-domain English knowledge architecture; broad provisional content, not exhaustive or scientifically certified.",
+  "version": "0.2.0"
 }

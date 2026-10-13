@@ -1,9 +1,3 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
-
 # Changelog
 
 ## Key takeaway
@@ -11,6 +5,10 @@ Version 0.1.0 is a broad provisional foundation, not a completed scientific revi
 
 ## Summary
 Version 0.1.0 is a broad provisional foundation, not a completed scientific review. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
+
+## Version 0 2 0 KPS 12
+
+Full entity-centric migration to the local 12.0.0-draft.1 profile. Preserves 110 knowledge objects and 10 sources; introduces explicit domains, versioned summary claims, context-only evidence, typed mappings and five provisional bridge Models. No independent scientific review or upstream KPS release is claimed.
 
 ## Integrated pronunciation Practices
 

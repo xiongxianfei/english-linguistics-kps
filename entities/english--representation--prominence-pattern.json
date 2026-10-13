@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:prosody"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:prominence-pattern",
+  "kind": "representation",
+  "label": "Prominence pattern",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "accent_location",
+      "phrasing",
+      "variety"
+    ]
+  },
+  "version": "0.1.0"
+}

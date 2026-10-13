@@ -1,0 +1,42 @@
+{
+  "access_extent": "Retrieved HTML for the pin entry: noun headword, displayed dictionary pronunciation label, plural form and sense distinction. Audio was not played; the separate pronunciation-key URL could not be retrieved.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:merriam-webster-undated-pin-entry"
+  ],
+  "content": "sources/merriam-webster-undated-pin-entry.md",
+  "creator": "Merriam-Webster",
+  "date_basis": "The page lists updated example sentences dated October 10, 2026, not a publication date for the pronunciation or definition.",
+  "domains": [],
+  "id": "english:merriam-webster-undated-pin-entry",
+  "kind": "source",
+  "label": "Merriam Webster pin dictionary entry",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Retrieved HTML for the pin entry: noun headword, displayed dictionary pronunciation label, plural form and sense distinction. Audio was not played; the separate pronunciation-key URL could not be retrieved.",
+      "accessed": "2026-10-11",
+      "creator": "Merriam-Webster",
+      "date_basis": "The page lists updated example sentences dated October 10, 2026, not a publication date for the pronunciation or definition.",
+      "id": "english:reference:merriam-webster-undated-pin-entry",
+      "language": "KPS 9.x",
+      "publication": "Pin entry in Merriam-Webster.com Dictionary",
+      "publication_date": null,
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:merriam-webster-undated-pin-entry",
+    "old_path": "references/merriam-webster-undated-pin-entry.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Pin entry in Merriam-Webster.com Dictionary",
+  "publication_date": null,
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

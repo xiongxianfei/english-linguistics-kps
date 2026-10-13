@@ -1,51 +1,34 @@
----
-id: "english:concept:contextual-resolution"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:anaphora-and-accessibility", "english:concept:constraint-and-preference", "english:concept:deixis"]
----
-
 # Contextual resolution
 
 ## Key takeaway
-Contextual resolution identifies values needed to interpret an expression in its use, such as a pronoun referent, deictic place or relevant comparison class.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/contextual-resolution.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Contextual resolution identifies values needed to interpret an expression in its use, such as a pronoun referent, deictic place or relevant comparison class. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/contextual-resolution.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-Contextual resolution identifies values needed to interpret an expression in its use, such as a pronoun referent, deictic place or relevant comparison class. It is distinct from inferring additional communicated propositions, although both processes use context.
+This is a compatibility redirect. Read [Definition](../knowledge/contextual-resolution.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-"Maya put the laptop beside the chair. Ravi switched it on" normally favors the laptop. The chair is more recent, but switch on and ordinary world knowledge favor an electrical device. An electronic massage-chair context can alter that preference.
+This is a compatibility redirect. Read [Worked example](../knowledge/contextual-resolution.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Recency is evidence, not a deterministic rule. A later apology can favor an antecedent without logically proving who was late. Grammatical binding restrictions still constrain candidate dependencies.
+This is a compatibility redirect. Read [Distinctions](../knowledge/contextual-resolution.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-No computational resolution model or measured human processing outcome is claimed. Cases involving deictic pointing, ellipsis, binding and discourse inference must be distinguished rather than all reduced to nearest-noun selection.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/contextual-resolution.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/contextual-resolution.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Anaphora and accessibility](../concepts/anaphora-and-accessibility.md) provides a related distinction used in the local explanation.
-- [Constraint and preference](../concepts/constraint-and-preference.md) provides a related distinction used in the local explanation.
-- [Deixis](../concepts/deixis.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/contextual-resolution.md#related-knowledge) in the canonical KPS 12 content.
+

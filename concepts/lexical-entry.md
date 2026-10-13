@@ -1,51 +1,34 @@
----
-id: "english:concept:lexical-entry"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:valency-and-argument-structure", "english:concept:lexical-selection", "english:concept:sense-and-lexical-ambiguity"]
----
-
 # Lexical entry
 
 ## Key takeaway
-A lexical entry represents item-specific linguistic information relevant to a lexeme or sense: form, category, paradigm, meaning, selection, alternations and conventional combinations.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/lexical-entry.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A lexical entry represents item-specific linguistic information relevant to a lexeme or sense: form, category, paradigm, meaning, selection, alternations and conventional combinations. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/lexical-entry.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A lexical entry represents item-specific linguistic information relevant to a lexeme or sense: form, category, paradigm, meaning, selection, alternations and conventional combinations. This is a model of linguistic knowledge, not a claim that every item is stored in one mental database row.
+This is a compatibility redirect. Read [Definition](../knowledge/lexical-entry.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-For placement PUT, an entry links an Agent/Causer, Theme and location/Goal to Subject, Object and locative complement patterns. For DEPEND, the dependence sense licenses an on-PP. A translation equivalent alone does not provide these distinctions.
+This is a compatibility redirect. Read [Worked example](../knowledge/lexical-entry.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-A sense-specific entry is not merely a spelling with one gloss. RUN in locomotion and management uses exhibits different participant structures even when the word form runs is unchanged.
+This is a compatibility redirect. Read [Distinctions](../knowledge/lexical-entry.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Lexicalist and constructional approaches distribute information differently. This package explicitly uses a descriptive entry as a documentation device and leaves psycholinguistic storage claims unverified.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/lexical-entry.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/lexical-entry.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Valency and argument structure](../concepts/valency-and-argument-structure.md) provides a related distinction used in the local explanation.
-- [Lexical selection](../concepts/lexical-selection.md) provides a related distinction used in the local explanation.
-- [Sense and lexical ambiguity](../concepts/sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/lexical-entry.md#related-knowledge) in the canonical KPS 12 content.
+

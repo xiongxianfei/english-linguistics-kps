@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:information-structure",
+    "linguistics:lexicon",
+    "linguistics:morphology",
+    "linguistics:phonetics",
+    "linguistics:phonology",
+    "linguistics:pragmatics",
+    "linguistics:prosody",
+    "linguistics:semantics",
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:integrated-utterance-analysis:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Integrated utterance analysis — summary claim",
+  "owner": "english:integrated-utterance-analysis",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A worked passage illustrates parallel analyses across subsystems while distinguishing explicit claims from contextual preferences.",
+  "status": "draft",
+  "version": "0.1.0"
+}

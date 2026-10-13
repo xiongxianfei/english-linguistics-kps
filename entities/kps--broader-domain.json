@@ -1,0 +1,21 @@
+{
+  "acyclic": true,
+  "aliases": [],
+  "description": "Broader classification scope, not linguistic causation.",
+  "domains": [],
+  "id": "kps:broader-domain",
+  "kind": "relation-type",
+  "label": "broader domain",
+  "layer": "classification",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "domain"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "domain"
+  ],
+  "version": "0.1.0"
+}

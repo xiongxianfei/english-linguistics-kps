@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:articulatory-phonetics",
+    "linguistics:phonetics:speech-perception",
+    "linguistics:phonology"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:classify-and-produce-phone:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Classify and produce a phone — summary claim",
+  "owner": "english:classify-and-produce-phone",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Identify what the input represents, build a justified articulatory description, then listen and attempt the sound without confusing a chart label, a phoneme or an observed token.",
+  "status": "draft",
+  "version": "0.1.0"
+}

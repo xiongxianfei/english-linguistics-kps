@@ -1,0 +1,598 @@
+{
+  "$id": "urn:kps:12:entity-schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "knowledge"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "content",
+          "claims",
+          "claim_extraction",
+          "evidence_status"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "interface"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "content",
+          "claims",
+          "claim_extraction",
+          "evidence_status",
+          "mapping"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "source"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "content",
+          "creator",
+          "publication",
+          "publication_date",
+          "date_basis",
+          "accessed",
+          "access_extent"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "domain"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "parents",
+          "scope",
+          "top_level"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "role"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "description",
+          "required_sections"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "relation-type"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_kinds",
+          "target_kinds",
+          "layer",
+          "acyclic",
+          "description"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "representation"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "structure",
+          "scope",
+          "evidence_status"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "claim"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "owner",
+          "owner_version",
+          "statement",
+          "scope",
+          "evidence_status",
+          "extraction"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "evidence"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "about",
+          "source",
+          "assessment_relation",
+          "assessment",
+          "inspection_extent",
+          "locator"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "sequence"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "positions",
+          "ordering_meaning"
+        ]
+      }
+    }
+  ],
+  "description": "Serialization schema. Graph and authoring invariants additionally require tools/kps12.py.",
+  "properties": {
+    "about": {
+      "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+      "type": "string"
+    },
+    "access_extent": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "accessed": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "acyclic": {
+      "type": "boolean"
+    },
+    "aliases": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "assessment": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "assessment_relation": {
+      "enum": [
+        "context-only",
+        "supports",
+        "qualifies",
+        "contradicts"
+      ]
+    },
+    "basis_kind": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "claim_extraction": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "claims": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "content": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "creator": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "date_basis": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "description": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "domains": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "evidence_status": {
+      "enum": [
+        "provisional",
+        "reviewed"
+      ]
+    },
+    "extraction": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "granularity": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+      "type": "string"
+    },
+    "inspection_extent": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "knowledge",
+        "source",
+        "domain",
+        "role",
+        "relation-type",
+        "representation",
+        "interface",
+        "claim",
+        "evidence",
+        "sequence"
+      ]
+    },
+    "label": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "layer": {
+      "enum": [
+        "document",
+        "classification",
+        "semantic",
+        "workflow",
+        "navigation",
+        "claim",
+        "interface",
+        "evidence"
+      ]
+    },
+    "locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mapping": {
+      "additionalProperties": false,
+      "properties": {
+        "cardinality": {
+          "enum": [
+            "unspecified",
+            "one-to-one",
+            "one-to-many",
+            "many-to-one",
+            "many-to-many"
+          ]
+        },
+        "claim": {
+          "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+          "type": "string"
+        },
+        "predicate": {
+          "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+          "type": "string"
+        },
+        "scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source": {
+          "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+          "type": "string"
+        },
+        "target": {
+          "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "target",
+        "predicate",
+        "claim",
+        "scope",
+        "cardinality"
+      ],
+      "type": "object"
+    },
+    "migration": {
+      "type": "object"
+    },
+    "ordering_meaning": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "owner": {
+      "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+      "type": "string"
+    },
+    "owner_version": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "parents": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "positions": {
+      "additionalProperties": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "object"
+    },
+    "practice_format": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "publication": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "record_origin": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reference_variety": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "relations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+            "type": "string"
+          },
+          "expected_target_role": {
+            "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+            "type": "string"
+          },
+          "legacy_predicate": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "predicate": {
+            "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+            "type": "string"
+          },
+          "scope": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "target": {
+            "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+            "type": "string"
+          }
+        },
+        "required": [
+          "predicate",
+          "target"
+        ],
+        "type": "object"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "required_sections": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "review_records": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "reviewed": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "roles": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "schema": {
+      "const": "kps:12:entity"
+    },
+    "scope": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "sequences": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "positions": {
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "scheme": {
+            "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+            "type": "string"
+          }
+        },
+        "required": [
+          "scheme",
+          "positions"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "source": {
+      "pattern": "^[a-z][a-z0-9-]*(?::[a-z0-9][a-z0-9-]*)+$",
+      "type": "string"
+    },
+    "source_kinds": {
+      "items": {
+        "enum": [
+          "knowledge",
+          "source",
+          "domain",
+          "role",
+          "relation-type",
+          "representation",
+          "interface",
+          "claim",
+          "evidence",
+          "sequence"
+        ]
+      },
+      "type": "array"
+    },
+    "source_status": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "stage_order": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "stage_titles": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "statement": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "deprecated"
+      ]
+    },
+    "structure": {
+      "minProperties": 1,
+      "type": "object"
+    },
+    "target_kinds": {
+      "items": {
+        "enum": [
+          "knowledge",
+          "source",
+          "domain",
+          "role",
+          "relation-type",
+          "representation",
+          "interface",
+          "claim",
+          "evidence",
+          "sequence"
+        ]
+      },
+      "type": "array"
+    },
+    "top_level": {
+      "type": "boolean"
+    },
+    "version": {
+      "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[a-zA-Z0-9.-]+)?$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "kind",
+    "label",
+    "version",
+    "status",
+    "roles",
+    "domains",
+    "aliases",
+    "relations"
+  ],
+  "title": "KPS 12 local draft entity profile",
+  "type": "object"
+}

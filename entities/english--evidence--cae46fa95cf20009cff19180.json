@@ -1,0 +1,19 @@
+{
+  "about": "english:vowel-articulation",
+  "aliases": [],
+  "assessment": "Preserves an existing document citation. No claim-level support is inferred by migration.",
+  "assessment_relation": "context-only",
+  "domains": [],
+  "id": "english:evidence:cae46fa95cf20009cff19180",
+  "inspection_extent": "Historical source-record inspection extent is retained; migration performs no new source inspection.",
+  "kind": "evidence",
+  "label": "Vowel articulation — legacy source context",
+  "locator": null,
+  "record_origin": "legacy-citation-migration",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source": "english:tophonetics-undated-english-transcription",
+  "status": "draft",
+  "version": "0.1.0"
+}

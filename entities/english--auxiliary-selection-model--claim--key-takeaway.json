@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:clause-architecture"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:auxiliary-selection-model:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Auxiliary selection model — summary claim",
+  "owner": "english:auxiliary-selection-model",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Local auxiliary selection explains the form of each following verb independently of the construction label.",
+  "status": "draft",
+  "version": "0.1.0"
+}

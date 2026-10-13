@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:syntax",
+  "kind": "domain",
+  "label": "Syntax",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Constituent and dependency structure, grammatical categories and functions, with stated framework alternatives.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

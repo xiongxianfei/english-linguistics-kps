@@ -1,0 +1,101 @@
+{
+  "aliases": [
+    "english:model:lexicon-syntax-interface"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:lexicon-syntax-interface:claim:key-takeaway"
+  ],
+  "content": "knowledge/lexicon-syntax-interface.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:argument-frames",
+    "linguistics:syntax",
+    "linguistics:syntax:construction-mappings"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:lexicon-syntax-interface",
+  "kind": "interface",
+  "label": "Lexicon Syntax interface",
+  "mapping": {
+    "cardinality": "unspecified",
+    "claim": "english:lexicon-syntax-interface:claim:key-takeaway",
+    "predicate": "kps:constrains",
+    "scope": "The working analysis, context and variety limits in knowledge/lexicon-syntax-interface.md; not a neural processing claim.",
+    "source": "english:representation:lexical-selection-frame",
+    "target": "english:representation:syntactic-complement-structure"
+  },
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:lexicon-syntax-interface",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:lexical-selection",
+        "english:concept:head-and-dependent",
+        "english:concept:object-and-pp-complement",
+        "english:concept:valency-and-argument-structure"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:lexicon-syntax-interface",
+    "old_path": "models/lexicon-syntax-interface.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-selection"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:head-and-dependent"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:object-and-pp-complement"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:valency-and-argument-structure"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

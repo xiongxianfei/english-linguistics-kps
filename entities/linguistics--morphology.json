@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:morphology",
+  "kind": "domain",
+  "label": "Morphology",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Word forms, word formation and paradigmatic relations, with explicit links to lexical and phonological representations.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

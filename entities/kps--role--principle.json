@@ -1,0 +1,18 @@
+{
+  "aliases": [],
+  "description": "States and explains a scoped relationship with counterevidence boundaries.",
+  "domains": [],
+  "id": "kps:role:principle",
+  "kind": "role",
+  "label": "Principle",
+  "relations": [],
+  "required_sections": [
+    "Statement",
+    "Explanation",
+    "Scope and counterevidence"
+  ],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.1.0"
+}

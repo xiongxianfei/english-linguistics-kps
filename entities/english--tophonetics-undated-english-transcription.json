@@ -1,0 +1,42 @@
+{
+  "access_extent": "Home page feature description and FAQ explanatory passages on British/American selection, phonemic level, weak forms, vowel length notation, alternatives, source dictionary and audio playback. No live word conversion was executed or recorded.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:tophonetics-undated-english-transcription"
+  ],
+  "content": "sources/tophonetics-undated-english-transcription.md",
+  "creator": "toPhonetics",
+  "date_basis": "The current page and FAQ were inspected on 2026-10-11; no stable publication date was established for the present edition.",
+  "domains": [],
+  "id": "english:tophonetics-undated-english-transcription",
+  "kind": "source",
+  "label": "toPhonetics transcription converter and FAQ",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Home page feature description and FAQ explanatory passages on British/American selection, phonemic level, weak forms, vowel length notation, alternatives, source dictionary and audio playback. No live word conversion was executed or recorded.",
+      "accessed": "2026-10-11",
+      "creator": "toPhonetics",
+      "date_basis": "The current page and FAQ were inspected on 2026-10-11; no stable publication date was established for the present edition.",
+      "id": "english:reference:tophonetics-undated-english-transcription",
+      "language": "KPS 9.x",
+      "publication": "toPhonetics English text to phonemic transcription tool and FAQ",
+      "publication_date": null,
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:tophonetics-undated-english-transcription",
+    "old_path": "references/tophonetics-undated-english-transcription.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "toPhonetics English text to phonemic transcription tool and FAQ",
+  "publication_date": null,
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

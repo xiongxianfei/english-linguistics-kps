@@ -1,0 +1,19 @@
+{
+  "about": "english:functions-do-not-determine-roles",
+  "aliases": [],
+  "assessment": "Preserves an existing document citation. No claim-level support is inferred by migration.",
+  "assessment_relation": "context-only",
+  "domains": [],
+  "id": "english:evidence:6869880c7194172f4f392007",
+  "inspection_extent": "Historical source-record inspection extent is retained; migration performs no new source inspection.",
+  "kind": "evidence",
+  "label": "Grammatical functions do not determine semantic roles — legacy source context",
+  "locator": null,
+  "record_origin": "legacy-citation-migration",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source": "english:anderson-2018-essentials-of-linguistics",
+  "status": "draft",
+  "version": "0.1.0"
+}

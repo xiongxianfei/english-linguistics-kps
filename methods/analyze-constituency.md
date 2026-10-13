@@ -1,73 +1,50 @@
----
-id: "english:method:analyze-constituency"
-type: "method"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:constituency", "english:concept:head-and-dependent", "english:concept:relative-clause", "english:concept:object-and-pp-complement"]
----
-
 # Analyze constituency
 
 ## Key takeaway
-Record candidate constituent boundaries and local relations using converging diagnostics.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/analyze-constituency.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Record candidate constituent boundaries and local relations using converging diagnostics. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/analyze-constituency.md#summary) in the canonical KPS 12 content.
 
 ## Objective
 
-Record candidate constituent boundaries and local relations using converging diagnostics.
+This is a compatibility redirect. Read [Objective](../knowledge/analyze-constituency.md#objective) in the canonical KPS 12 content.
 
 ## Inputs and prerequisites
 
-A short expression with intended reading and enough surrounding context; familiarity with NP, PP, VP and clause labels. State whether the analysis adopts NP or DP and how auxiliary chains are treated.
+This is a compatibility redirect. Read [Inputs and prerequisites](../knowledge/analyze-constituency.md#inputs-and-prerequisites) in the canonical KPS 12 content.
 
 ## Rationale
 
-A correct category label assigned to the wrong span still produces an incorrect analysis. Substitution, question-answer contexts and coordination can contribute evidence, but any one test can be confounded by grammar or discourse.
+This is a compatibility redirect. Read [Rationale](../knowledge/analyze-constituency.md#rationale) in the canonical KPS 12 content.
 
 ## Procedure
 
-1. Preserve the original string and assign token indices.
-2. Mark a complete candidate constituent, not just its head.
-3. Apply at least two appropriate grouping diagnostics when available.
-4. Draw nesting and state each local head and dependency.
-5. Check whether a rival reading yields another legitimate grouping.
-6. Record evidence, failed tests, framework choices and unresolved boundaries.
+This is a compatibility redirect. Read [Procedure](../knowledge/analyze-constituency.md#procedure) in the canonical KPS 12 content.
 
 ## Worked example
 
-In "Anna sent the reports that Maya had prepared to Leo", the intended Object is "the reports that Maya had prepared". The relative is "that Maya had prepared __"; "to Leo" is a higher complement of SENT. A pronoun substitution for the full Object yields "Anna sent them to Leo".
+This is a compatibility redirect. Read [Worked example](../knowledge/analyze-constituency.md#worked-example) in the canonical KPS 12 content.
 
 ## Expected effect
 
-The output is an explicit, revisable analysis with its assumptions and uncertainties exposed. This is a design expectation, not a measured learning outcome.
+This is a compatibility redirect. Read [Expected effect](../knowledge/analyze-constituency.md#expected-effect) in the canonical KPS 12 content.
 
 ## Validation and counterevidence
 
-The replacement must preserve the intended function and meaning sufficiently for the test. Reject partially crossing constituent spans in this tree model. A failure of a single diagnostic is not decisive; retain alternative analyses when appropriate.
+This is a compatibility redirect. Read [Validation and counterevidence](../knowledge/analyze-constituency.md#validation-and-counterevidence) in the canonical KPS 12 content.
 
 ## Limits
 
-This procedure produces a proposed analysis, not a universal syntactic tree. Discontinuous constructions, ellipsis and coordination can invalidate simple contiguous-span assumptions.
+This is a compatibility redirect. Read [Limits](../knowledge/analyze-constituency.md#limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/analyze-constituency.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Constituency](../concepts/constituency.md) provides a related distinction used in the local explanation.
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
-- [Relative clause](../concepts/relative-clause.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/analyze-constituency.md#related-knowledge) in the canonical KPS 12 content.
+

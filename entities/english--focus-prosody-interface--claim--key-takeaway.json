@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:information-structure",
+    "linguistics:information-structure:focus-and-alternatives",
+    "linguistics:information-structure:focus-projection",
+    "linguistics:pragmatics",
+    "linguistics:prosody",
+    "linguistics:prosody:pitch-accent-and-prominence"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:focus-prosody-interface:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Information Structure Prosody interface — summary claim",
+  "owner": "english:focus-prosody-interface",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Focus domains constrain possible prosodic realizations without being identical to the most strongly accented word.",
+  "status": "draft",
+  "version": "0.1.0"
+}

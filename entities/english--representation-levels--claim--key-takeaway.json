@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:acoustic-phonetics",
+    "linguistics:phonetics:phonetic-transcription",
+    "linguistics:phonology"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:representation-levels:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Orthography phonology and phonetics — summary claim",
+  "owner": "english:representation-levels",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Orthography describes writing; phonology describes language-specific sound organization; phonetics describes speech production, signals and perception.",
+  "status": "draft",
+  "version": "0.1.0"
+}

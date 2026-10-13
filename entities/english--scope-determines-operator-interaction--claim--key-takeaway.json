@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:quantification-and-scope"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:scope-determines-operator-interaction:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Scope determines the interaction of semantic operators — summary claim",
+  "owner": "english:scope-determines-operator-interaction",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Reversing quantifier or negation scope can change truth conditions while leaving overt words in the same order.",
+  "status": "draft",
+  "version": "0.1.0"
+}

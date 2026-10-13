@@ -1,75 +1,50 @@
----
-id: "english:method:evaluate-linguistic-claim"
-type: "method"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "selected-support-only"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: ["english:reference:xiongxianfei-2026-knowledge-practice-system"]
-uses_concepts: ["english:concept:evidence-and-analysis", "english:concept:grammaticality-and-acceptability", "english:concept:interface"]
----
-
 # Evaluate linguistic claim
 
 ## Key takeaway
-Assess a bounded claim against inspected sources, counterexamples and its declared scope before changing evidence status.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/evaluate-linguistic-claim.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Assess a bounded claim against inspected sources, counterexamples and its declared scope before changing evidence status. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/evaluate-linguistic-claim.md#summary) in the canonical KPS 12 content.
 
 ## Objective
 
-Assess a bounded claim against inspected sources, counterexamples and its declared scope before changing evidence status.
+This is a compatibility redirect. Read [Objective](../knowledge/evaluate-linguistic-claim.md#objective) in the canonical KPS 12 content.
 
 ## Inputs and prerequisites
 
-A precise claim, intended linguistic variety and theoretical framework, and candidate sources. Bibliographic discovery is not equivalent to reading the supporting passage.
+This is a compatibility redirect. Read [Inputs and prerequisites](../knowledge/evaluate-linguistic-claim.md#inputs-and-prerequisites) in the canonical KPS 12 content.
 
 ## Rationale
 
-Authoritative publications can contain simplifications, disagree, or support a narrower claim than an author needs. A source link should indicate its actual contribution rather than function as a credibility badge.
+This is a compatibility redirect. Read [Rationale](../knowledge/evaluate-linguistic-claim.md#rationale) in the canonical KPS 12 content.
 
 ## Procedure
 
-1. Separate definitions, descriptive generalizations, explanatory hypotheses and design choices.
-2. Record which data or argument would bear on the claim.
-3. Inspect the source passage, identify edition/date and exact section or page.
-4. Compare claim and passage scope; retain dialect and framework qualifiers.
-5. Search for a relevant counterexample or competing analysis.
-6. Record support, inference and unresolved issues; request independent review before labelling an object reviewed.
-7. Revisit dependent summaries if the claim changes.
+This is a compatibility redirect. Read [Procedure](../knowledge/evaluate-linguistic-claim.md#procedure) in the canonical KPS 12 content.
 
 ## Worked example
 
-A source explains [pʰ] in stressed English onsets. It does not justify "every initial p in every accent is aspirated". Likewise, a QUD article abstract can establish that its author proposes a focus-context relationship, but not verify every detailed focus-projection rule in this package.
+This is a compatibility redirect. Read [Worked example](../knowledge/evaluate-linguistic-claim.md#worked-example) in the canonical KPS 12 content.
 
 ## Expected effect
 
-The output is an explicit, revisable analysis with its assumptions and uncertainties exposed. This is a design expectation, not a measured learning outcome.
+This is a compatibility redirect. Read [Expected effect](../knowledge/evaluate-linguistic-claim.md#expected-effect) in the canonical KPS 12 content.
 
 ## Validation and counterevidence
 
-A reader must be able to locate the supporting passage. Abstract-only, unavailable and bibliographic-only records cannot masquerade as full-text review. This initial draft has no independent reviewer approvals. The domain checker protects this status distinction but cannot judge truth.
+This is a compatibility redirect. Read [Validation and counterevidence](../knowledge/evaluate-linguistic-claim.md#validation-and-counterevidence) in the canonical KPS 12 content.
 
 ## Limits
 
-No amount of formatting establishes empirical support. If evidence is unavailable, retain provisional status, narrow the claim or remove it; do not invent a citation or an observation.
+This is a compatibility redirect. Read [Limits](../knowledge/evaluate-linguistic-claim.md#limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
-
-- [Knowledge Practice System 9.0.1](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
+This is a compatibility redirect. Read [Evidence status](../knowledge/evaluate-linguistic-claim.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Evidence and analysis](../concepts/evidence-and-analysis.md) provides a related distinction used in the local explanation.
-- [Grammaticality and acceptability](../concepts/grammaticality-and-acceptability.md) provides a related distinction used in the local explanation.
-- [Linguistic interface](../concepts/interface.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/evaluate-linguistic-claim.md#related-knowledge) in the canonical KPS 12 content.
+

@@ -1,50 +1,34 @@
----
-id: "english:concept:head-and-dependent"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [0]
-perspectives: ["foundations"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:category-and-function", "english:concept:complement-and-modifier"]
----
-
 # Head and dependent
 
 ## Key takeaway
-A head is the organizing element of a headed construction in a stated analysis.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/head-and-dependent.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A head is the organizing element of a headed construction in a stated analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/head-and-dependent.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A head is the organizing element of a headed construction in a stated analysis. Dependents stand in local relationships to that head. The head of an inner phrase and the head licensing the whole phrase occupy different levels of the hierarchy.
+This is a compatibility redirect. Read [Definition](../knowledge/head-and-dependent.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-In "relies on the technician", RELY licenses the PP "on the technician". Inside that PP, ON licenses the NP "the technician". The noun technician heads its own NP. Calling technician an Object of RELY collapses these two dependency levels.
+This is a compatibility redirect. Read [Worked example](../knowledge/head-and-dependent.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-A local head is not simply the most meaningful word. Coordination is not an ordinary modifier relationship between conjuncts, and theories may treat a coordinator or determiner as a functional head.
+This is a compatibility redirect. Read [Distinctions](../knowledge/head-and-dependent.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Headedness and projection labels depend partly on theory. This introductory package uses lexical heads for NP, VP, AdjP, AdvP and PP, without claiming that alternative analyses are refuted.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/head-and-dependent.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/head-and-dependent.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Category and function](../concepts/category-and-function.md) provides a related distinction used in the local explanation.
-- [Complement and modifier](../concepts/complement-and-modifier.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/head-and-dependent.md#related-knowledge) in the canonical KPS 12 content.
+

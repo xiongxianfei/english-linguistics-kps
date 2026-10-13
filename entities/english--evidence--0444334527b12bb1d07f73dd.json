@@ -1,0 +1,19 @@
+{
+  "about": "english:discourse-relation",
+  "aliases": [],
+  "assessment": "Preserves an existing document citation. No claim-level support is inferred by migration.",
+  "assessment_relation": "context-only",
+  "domains": [],
+  "id": "english:evidence:0444334527b12bb1d07f73dd",
+  "inspection_extent": "Historical source-record inspection extent is retained; migration performs no new source inspection.",
+  "kind": "evidence",
+  "label": "Discourse relation — legacy source context",
+  "locator": null,
+  "record_origin": "legacy-citation-migration",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source": "english:mann-taboada-undated-rst-introduction",
+  "status": "draft",
+  "version": "0.1.0"
+}

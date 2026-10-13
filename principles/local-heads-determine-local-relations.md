@@ -1,50 +1,34 @@
----
-id: "english:principle:local-heads-determine-local-relations"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [0]
-perspectives: ["foundations"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:head-and-dependent", "english:concept:object-and-pp-complement"]
----
-
 # Local heads determine local dependency relations
 
 ## Key takeaway
-A relation between an inner NP and its preposition must be distinguished from the relation between the whole PP and a higher head.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/local-heads-determine-local-relations.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A relation between an inner NP and its preposition must be distinguished from the relation between the whole PP and a higher head. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/local-heads-determine-local-relations.md#summary) in the canonical KPS 12 content.
 
 ## Statement
 
-A relation between an inner NP and its preposition must be distinguished from the relation between the whole PP and a higher head.
+This is a compatibility redirect. Read [Statement](../knowledge/local-heads-determine-local-relations.md#statement) in the canonical KPS 12 content.
 
 ## Explanation
 
-Hierarchical representation makes each dependency local. The fact that a Recipient is semantically important to SEND does not erase the intervening preposition. This explains why answering a higher-level question with an inner NP can produce category errors even when the intended participant is correctly identified.
+This is a compatibility redirect. Read [Explanation](../knowledge/local-heads-determine-local-relations.md#explanation) in the canonical KPS 12 content.
 
 ## Worked contrast
 
-In "Maya sent the report to Ravi", SEND licenses the PP to Ravi, while TO licenses Ravi. In "The result depends on the weather", DEPEND licenses an on-PP, not a Direct Object called the weather.
+This is a compatibility redirect. Read [Worked contrast](../knowledge/local-heads-determine-local-relations.md#worked-contrast) in the canonical KPS 12 content.
 
 ## Scope and counterevidence
 
-Head choice is framework-sensitive, so the claim concerns the explicitly adopted tree. It does not rule out alternative dependency formalisms, but an alternative must state its own local relations consistently.
+This is a compatibility redirect. Read [Scope and counterevidence](../knowledge/local-heads-determine-local-relations.md#scope-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/local-heads-determine-local-relations.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/local-heads-determine-local-relations.md#related-knowledge) in the canonical KPS 12 content.
+

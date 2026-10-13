@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "english:concept:sense-and-lexical-ambiguity"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:sense-and-lexical-ambiguity:claim:key-takeaway"
+  ],
+  "content": "knowledge/sense-and-lexical-ambiguity.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexical-senses",
+    "linguistics:semantics",
+    "linguistics:semantics:semantic-ambiguity"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:sense-and-lexical-ambiguity",
+  "kind": "knowledge",
+  "label": "Sense and lexical ambiguity",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:sense-and-lexical-ambiguity",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "morphology-and-lexicon"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        1
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:lexical-entry",
+        "english:concept:ambiguity-and-vagueness",
+        "english:concept:contextual-resolution"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:sense-and-lexical-ambiguity",
+    "old_path": "concepts/sense-and-lexical-ambiguity.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:lexical-entry"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:ambiguity-and-vagueness"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:contextual-resolution"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        1
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

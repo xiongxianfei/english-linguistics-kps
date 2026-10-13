@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "description": "Supplies a bounded repeatable operation and validation criteria.",
+  "domains": [],
+  "id": "kps:role:method",
+  "kind": "role",
+  "label": "Method",
+  "relations": [],
+  "required_sections": [
+    "Objective",
+    "Inputs and prerequisites",
+    "Rationale",
+    "Procedure",
+    "Expected effect",
+    "Validation and counterevidence"
+  ],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.1.0"
+}

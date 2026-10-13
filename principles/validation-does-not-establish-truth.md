@@ -1,52 +1,34 @@
----
-id: "english:principle:validation-does-not-establish-truth"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "selected-support-only"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: ["english:reference:xiongxianfei-2026-knowledge-practice-system"]
-uses_concepts: ["english:concept:evidence-and-analysis", "english:concept:interface"]
----
-
 # Structural validation does not establish linguistic truth
 
 ## Key takeaway
-Passing publication checks establishes only the properties those checks actually inspect.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/validation-does-not-establish-truth.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Passing publication checks establishes only the properties those checks actually inspect. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/validation-does-not-establish-truth.md#summary) in the canonical KPS 12 content.
 
 ## Statement
 
-Passing publication checks establishes only the properties those checks actually inspect.
+This is a compatibility redirect. Read [Statement](../knowledge/validation-does-not-establish-truth.md#statement) in the canonical KPS 12 content.
 
 ## Explanation
 
-A validator can detect a broken relative link or an undeclared identifier. Those operations contain no evidence about whether a semantic analysis predicts attested judgments or whether a transcription matches a recording. A coherent schema can hold a false claim just as easily as a true one.
+This is a compatibility redirect. Read [Explanation](../knowledge/validation-does-not-establish-truth.md#explanation) in the canonical KPS 12 content.
 
 ## Worked contrast
 
-A test can verify that a declared plural algorithm returns /ɪz/ after /tʃ/. It cannot establish that every English plural follows that algorithm. A reviewed dependency snapshot records a version comparison, not a human learning outcome.
+This is a compatibility redirect. Read [Worked contrast](../knowledge/validation-does-not-establish-truth.md#worked-contrast) in the canonical KPS 12 content.
 
 ## Scope and counterevidence
 
-This is a reasoned limitation of the tooling contract. The initial package remains provisional even when CI passes. Future promotion requires traceable sources, counterexamples and accountable scientific review.
+This is a compatibility redirect. Read [Scope and counterevidence](../knowledge/validation-does-not-establish-truth.md#scope-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
-
-- [Knowledge Practice System 9.0.1](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
+This is a compatibility redirect. Read [Evidence status](../knowledge/validation-does-not-establish-truth.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Evidence and analysis](../concepts/evidence-and-analysis.md) provides a related distinction used in the local explanation.
-- [Linguistic interface](../concepts/interface.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/validation-does-not-establish-truth.md#related-knowledge) in the canonical KPS 12 content.
+

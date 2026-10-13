@@ -1,0 +1,90 @@
+{
+  "aliases": [
+    "english:method:evaluate-linguistic-claim"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:evaluate-linguistic-claim:claim:key-takeaway"
+  ],
+  "content": "knowledge/evaluate-linguistic-claim.md",
+  "domains": [
+    "kps:knowledge-maintenance"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:evaluate-linguistic-claim",
+  "kind": "knowledge",
+  "label": "Evaluate linguistic claim",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:method:evaluate-linguistic-claim",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [
+        "english:reference:xiongxianfei-2026-knowledge-practice-system"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "method",
+      "uses_concepts": [
+        "english:concept:evidence-and-analysis",
+        "english:concept:grammaticality-and-acceptability",
+        "english:concept:interface"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:method:evaluate-linguistic-claim",
+    "old_path": "methods/evaluate-linguistic-claim.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:evidence-and-analysis"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:grammaticality-and-acceptability"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:interface"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:xiongxianfei-2026-knowledge-practice-system"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:method"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

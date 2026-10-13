@@ -1,0 +1,30 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "Explicit subject membership, with overlaps permitted.",
+  "domains": [],
+  "id": "kps:in-domain",
+  "kind": "relation-type",
+  "label": "in domain",
+  "layer": "classification",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "knowledge",
+    "interface",
+    "representation",
+    "source",
+    "domain",
+    "role",
+    "relation-type",
+    "claim",
+    "evidence",
+    "sequence"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "domain"
+  ],
+  "version": "0.1.0"
+}

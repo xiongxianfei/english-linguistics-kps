@@ -1,37 +1,30 @@
----
-id: "english:reference:merriam-webster-undated-pin-entry"
-type: "reference"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-publication_date: null
-accessed: "2026-10-11"
-reviewed: null
-creator: "Merriam-Webster"
-publication: "Pin entry in Merriam-Webster.com Dictionary"
-date_basis: "The page lists updated example sentences dated October 10, 2026, not a publication date for the pronunciation or definition."
-access_extent: "Retrieved HTML for the pin entry: noun headword, displayed dictionary pronunciation label, plural form and sense distinction. Audio was not played; the separate pronunciation-key URL could not be retrieved."
----
-
 # Merriam Webster pin dictionary entry
 
 ## Key takeaway
-A dictionary lookup can identify the intended lexical item, but an unread notation key or unheard audio must remain unverified.
+
+This is a compatibility redirect. Read [Key takeaway](../sources/merriam-webster-undated-pin-entry.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-The [Merriam-Webster pin entry](https://www.merriam-webster.com/dictionary/pin) supplies a concrete lexical lookup for the word Practice. It distinguishes a noun for a fastener, related uses and the uppercase abbreviation. This source does not by itself verify the Practice's IPA normalization, aspiration prediction or any learner recording.
+
+This is a compatibility redirect. Read [Summary](../sources/merriam-webster-undated-pin-entry.md#summary) in the canonical KPS 12 content.
 
 ## Publication identity
-Merriam-Webster.com Dictionary, entry “pin”; publication date of the relevant lexical information undetermined. Accessed October 11, 2026. The page's recent-example update date is not substituted for a pronunciation publication date.
+
+This is a compatibility redirect. Read [Publication identity](../sources/merriam-webster-undated-pin-entry.md#publication-identity) in the canonical KPS 12 content.
 
 ## Inspection extent
-The retrieved page showed the noun entry, the displayed pronunciation label `ˈpin`, the plural *pins* and separate lexical uses. The pronunciation label is preserved as displayed, not relabeled as IPA. Audio playback was not performed. The separate help/pronunciation-key URL was inaccessible, so no claim of inspecting that key is made.
+
+This is a compatibility redirect. Read [Inspection extent](../sources/merriam-webster-undated-pin-entry.md#inspection-extent) in the canonical KPS 12 content.
 
 ## Located contribution
-The entry supports identifying the chosen noun meaning and grammatical form before pronunciation work. It exemplifies a separate lexical source a learner can consult, with notation checked on its own terms. No assumption is made that every pair of dictionaries supplies independent evidence.
+
+This is a compatibility redirect. Read [Located contribution](../sources/merriam-webster-undated-pin-entry.md#located-contribution) in the canonical KPS 12 content.
 
 ## Limits and rights
-This record summarizes the limited inspected entry, not the dictionary database. The Practice's broad `/pɪn/` and illustrative `[pʰɪn]` belong to a separate authored analysis supported in part by the existing introductory phonology source. No dictionary recording, bulk entries or proprietary display assets are copied.
+
+This is a compatibility redirect. Read [Limits and rights](../sources/merriam-webster-undated-pin-entry.md#limits-and-rights) in the canonical KPS 12 content.
 
 ## Nonclaims
-The record does not claim to have heard the dictionary audio, mapped every respelling symbol using a verified key, evaluated a learner, verified any other word, or established an optimal pronunciation-learning procedure.
+
+This is a compatibility redirect. Read [Nonclaims](../sources/merriam-webster-undated-pin-entry.md#nonclaims) in the canonical KPS 12 content.
+

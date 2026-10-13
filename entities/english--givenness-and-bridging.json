@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "english:concept:givenness-and-bridging"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:givenness-and-bridging:claim:key-takeaway"
+  ],
+  "content": "knowledge/givenness-and-bridging.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:anaphora-and-accessibility",
+    "linguistics:information-structure",
+    "linguistics:information-structure:givenness"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:givenness-and-bridging",
+  "kind": "knowledge",
+  "label": "Givenness and bridging",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:givenness-and-bridging",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "discourse-and-information-structure"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        5
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:anaphora-and-accessibility",
+        "english:concept:focus-topic-and-qud",
+        "english:concept:common-ground"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:givenness-and-bridging",
+    "old_path": "concepts/givenness-and-bridging.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:anaphora-and-accessibility"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:focus-topic-and-qud"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:common-ground"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        5
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

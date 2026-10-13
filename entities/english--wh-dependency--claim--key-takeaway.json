@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:clause-linking"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:wh-dependency:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Wh dependency — summary claim",
+  "owner": "english:wh-dependency",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A wh-dependency links an interrogative or relative expression with a grammatical position in a clause.",
+  "status": "draft",
+  "version": "0.1.0"
+}

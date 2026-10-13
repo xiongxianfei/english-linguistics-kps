@@ -1,40 +1,26 @@
----
-id: "english:reference:roberts-2012-information-structure"
-type: "reference"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-creator: "Craige Roberts"
-publication: "Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6."
-publication_date: "2012-12-19"
-date_basis: "Publication date from the journal landing metadata; DOI 10.3765/sp.5.6."
-accessed: "2026-10-11"
-access_extent: "Journal HTML abstract and publication metadata only. Full article PDF, detailed formal derivations and evidence sections were not inspected."
-reviewed: null
----
-
 # Information Structure and an integrated theory of pragmatics
 
 ## Key takeaway
-This record identifies the inspected publication and limits its contribution to the stated passages.
+
+This is a compatibility redirect. Read [Key takeaway](../sources/roberts-2012-information-structure.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.. Creator: Craige Roberts. Selected inspection is documented below; this is not verification of the entire publication or the whole English package.
+
+This is a compatibility redirect. Read [Summary](../sources/roberts-2012-information-structure.md#summary) in the canonical KPS 12 content.
 
 ## Publication identity
 
-[Publication](https://semprag.org/index.php/sp/article/view/sp.5.6)
-
-Date: 2012-12-19. Date basis: Publication date from the journal landing metadata; DOI 10.3765/sp.5.6.
+This is a compatibility redirect. Read [Publication identity](../sources/roberts-2012-information-structure.md#publication-identity) in the canonical KPS 12 content.
 
 ## Inspection extent
 
-Accessed 2026-10-11. Journal HTML abstract and publication metadata only. Full article PDF, detailed formal derivations and evidence sections were not inspected.
+This is a compatibility redirect. Read [Inspection extent](../sources/roberts-2012-information-structure.md#inspection-extent) in the canonical KPS 12 content.
 
 ## Abstract
 
-The abstract proposes discourse organization through questions under discussion and connects this with focus/prosodic interpretation. This establishes the existence and broad aim of Roberts' proposal; the package's detailed focus tables remain provisional constructed illustrations.
+This is a compatibility redirect. Read [Abstract](../sources/roberts-2012-information-structure.md#abstract) in the canonical KPS 12 content.
 
 ## Nonclaims
 
-An abstract is not evidence that every proposed focus-projection example is correct. No claim is made that QUD models are the only pragmatic framework. Full-text and competing-analysis review remains on the queue.
+This is a compatibility redirect. Read [Nonclaims](../sources/roberts-2012-information-structure.md#nonclaims) in the canonical KPS 12 content.
+

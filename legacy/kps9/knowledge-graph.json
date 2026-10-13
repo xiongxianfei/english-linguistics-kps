@@ -1,0 +1,2930 @@
+{
+  "format": 1,
+  "description": "Generated typed dependency graph, not a causal model of the brain.",
+  "nodes": [
+    {
+      "id": "english:concept:affix",
+      "type": "concept",
+      "path": "concepts/affix.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:allomorphy",
+      "type": "concept",
+      "path": "concepts/allomorphy.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:ambiguity-and-vagueness",
+      "type": "concept",
+      "path": "concepts/ambiguity-and-vagueness.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:anaphora-and-accessibility",
+      "type": "concept",
+      "path": "concepts/anaphora-and-accessibility.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:concept:auxiliary-chain",
+      "type": "concept",
+      "path": "concepts/auxiliary-chain.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:category-and-function",
+      "type": "concept",
+      "path": "concepts/category-and-function.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:concept:clause-architecture",
+      "type": "concept",
+      "path": "concepts/clause-architecture.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:cohesion-and-coherence",
+      "type": "concept",
+      "path": "concepts/cohesion-and-coherence.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:concept:collocation",
+      "type": "concept",
+      "path": "concepts/collocation.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:common-ground",
+      "type": "concept",
+      "path": "concepts/common-ground.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:complement-and-modifier",
+      "type": "concept",
+      "path": "concepts/complement-and-modifier.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:complement-clause",
+      "type": "concept",
+      "path": "concepts/complement-clause.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:compositionality",
+      "type": "concept",
+      "path": "concepts/compositionality.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:compounding",
+      "type": "concept",
+      "path": "concepts/compounding.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:connected-speech",
+      "type": "concept",
+      "path": "concepts/connected-speech.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:consonant-articulation",
+      "type": "concept",
+      "path": "concepts/consonant-articulation.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:constituency",
+      "type": "concept",
+      "path": "concepts/constituency.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:concept:constraint-and-preference",
+      "type": "concept",
+      "path": "concepts/constraint-and-preference.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:concept:contextual-resolution",
+      "type": "concept",
+      "path": "concepts/contextual-resolution.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:contrast-and-concession",
+      "type": "concept",
+      "path": "concepts/contrast-and-concession.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:concept:contrast-and-distribution",
+      "type": "concept",
+      "path": "concepts/contrast-and-distribution.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:coordination-and-subordination",
+      "type": "concept",
+      "path": "concepts/coordination-and-subordination.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:deixis",
+      "type": "concept",
+      "path": "concepts/deixis.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:derivation",
+      "type": "concept",
+      "path": "concepts/derivation.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:discourse-referent",
+      "type": "concept",
+      "path": "concepts/discourse-referent.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:concept:discourse-relation",
+      "type": "concept",
+      "path": "concepts/discourse-relation.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:concept:do-support-and-inversion",
+      "type": "concept",
+      "path": "concepts/do-support-and-inversion.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:evidence-and-analysis",
+      "type": "concept",
+      "path": "concepts/evidence-and-analysis.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:concept:expression-and-representation",
+      "type": "concept",
+      "path": "concepts/expression-and-representation.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:concept:finiteness",
+      "type": "concept",
+      "path": "concepts/finiteness.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:focus-topic-and-qud",
+      "type": "concept",
+      "path": "concepts/focus-topic-and-qud.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:givenness-and-bridging",
+      "type": "concept",
+      "path": "concepts/givenness-and-bridging.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:concept:grammaticality-and-acceptability",
+      "type": "concept",
+      "path": "concepts/grammaticality-and-acceptability.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:concept:gricean-reasoning",
+      "type": "concept",
+      "path": "concepts/gricean-reasoning.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:head-and-dependent",
+      "type": "concept",
+      "path": "concepts/head-and-dependent.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:concept:implicature",
+      "type": "concept",
+      "path": "concepts/implicature.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:inflection",
+      "type": "concept",
+      "path": "concepts/inflection.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:interface",
+      "type": "concept",
+      "path": "concepts/interface.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:concept:lexeme-and-word-form",
+      "type": "concept",
+      "path": "concepts/lexeme-and-word-form.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:lexical-entry",
+      "type": "concept",
+      "path": "concepts/lexical-entry.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:lexical-selection",
+      "type": "concept",
+      "path": "concepts/lexical-selection.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:modality",
+      "type": "concept",
+      "path": "concepts/modality.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:morpheme",
+      "type": "concept",
+      "path": "concepts/morpheme.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:negation-and-entailment",
+      "type": "concept",
+      "path": "concepts/negation-and-entailment.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:object-and-pp-complement",
+      "type": "concept",
+      "path": "concepts/object-and-pp-complement.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:paradigm-and-syncretism",
+      "type": "concept",
+      "path": "concepts/paradigm-and-syncretism.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:phone-phoneme-and-allophone",
+      "type": "concept",
+      "path": "concepts/phone-phoneme-and-allophone.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:phonotactics",
+      "type": "concept",
+      "path": "concepts/phonotactics.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:phrase-and-clause",
+      "type": "concept",
+      "path": "concepts/phrase-and-clause.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:concept:predicative-complement",
+      "type": "concept",
+      "path": "concepts/predicative-complement.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:presupposition",
+      "type": "concept",
+      "path": "concepts/presupposition.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:productivity-and-lexicalization",
+      "type": "concept",
+      "path": "concepts/productivity-and-lexicalization.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:prosody",
+      "type": "concept",
+      "path": "concepts/prosody.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:quantification-and-scope",
+      "type": "concept",
+      "path": "concepts/quantification-and-scope.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:reference-and-denotation",
+      "type": "concept",
+      "path": "concepts/reference-and-denotation.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:relative-clause",
+      "type": "concept",
+      "path": "concepts/relative-clause.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:concept:representation-levels",
+      "type": "concept",
+      "path": "concepts/representation-levels.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:root-base-and-stem",
+      "type": "concept",
+      "path": "concepts/root-base-and-stem.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:semantic-predicate",
+      "type": "concept",
+      "path": "concepts/semantic-predicate.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:semantic-role",
+      "type": "concept",
+      "path": "concepts/semantic-role.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:sense-and-lexical-ambiguity",
+      "type": "concept",
+      "path": "concepts/sense-and-lexical-ambiguity.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:situation-type",
+      "type": "concept",
+      "path": "concepts/situation-type.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:speech-act",
+      "type": "concept",
+      "path": "concepts/speech-act.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:stress",
+      "type": "concept",
+      "path": "concepts/stress.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:suppletion",
+      "type": "concept",
+      "path": "concepts/suppletion.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:syllable-structure",
+      "type": "concept",
+      "path": "concepts/syllable-structure.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:temporal-causal-and-evidential-relations",
+      "type": "concept",
+      "path": "concepts/temporal-causal-and-evidential-relations.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:concept:tense-and-aspect",
+      "type": "concept",
+      "path": "concepts/tense-and-aspect.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:concept:utterance-and-speaker-meaning",
+      "type": "concept",
+      "path": "concepts/utterance-and-speaker-meaning.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:concept:valency-and-argument-structure",
+      "type": "concept",
+      "path": "concepts/valency-and-argument-structure.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:concept:vowel-articulation",
+      "type": "concept",
+      "path": "concepts/vowel-articulation.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:concept:wh-dependency",
+      "type": "concept",
+      "path": "concepts/wh-dependency.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:principle:accent-does-not-exhaust-focus",
+      "type": "principle",
+      "path": "principles/accent-does-not-exhaust-focus.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:principle:category-does-not-determine-function",
+      "type": "principle",
+      "path": "principles/category-does-not-determine-function.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:principle:cohesion-does-not-guarantee-coherence",
+      "type": "principle",
+      "path": "principles/cohesion-does-not-guarantee-coherence.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:principle:context-supplies-reference-values",
+      "type": "principle",
+      "path": "principles/context-supplies-reference-values.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:principle:exponents-are-conditioned-by-sound",
+      "type": "principle",
+      "path": "principles/exponents-are-conditioned-by-sound.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:principle:functions-do-not-determine-roles",
+      "type": "principle",
+      "path": "principles/functions-do-not-determine-roles.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:principle:implicatures-are-defeasible",
+      "type": "principle",
+      "path": "principles/implicatures-are-defeasible.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:principle:local-heads-determine-local-relations",
+      "type": "principle",
+      "path": "principles/local-heads-determine-local-relations.md",
+      "stages": [
+        0
+      ]
+    },
+    {
+      "id": "english:principle:realization-varies-with-environment",
+      "type": "principle",
+      "path": "principles/realization-varies-with-environment.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:principle:scope-determines-operator-interaction",
+      "type": "principle",
+      "path": "principles/scope-determines-operator-interaction.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:principle:selection-is-sense-sensitive",
+      "type": "principle",
+      "path": "principles/selection-is-sense-sensitive.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:principle:sequence-does-not-establish-cause",
+      "type": "principle",
+      "path": "principles/sequence-does-not-establish-cause.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:principle:validation-does-not-establish-truth",
+      "type": "principle",
+      "path": "principles/validation-does-not-establish-truth.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:auxiliary-selection-model",
+      "type": "model",
+      "path": "models/auxiliary-selection-model.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:model:discourse-network-model",
+      "type": "model",
+      "path": "models/discourse-network-model.md",
+      "stages": [
+        5
+      ]
+    },
+    {
+      "id": "english:model:english-system-architecture",
+      "type": "model",
+      "path": "models/english-system-architecture.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:focus-prosody-interface",
+      "type": "model",
+      "path": "models/focus-prosody-interface.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:integrated-utterance-analysis",
+      "type": "model",
+      "path": "models/integrated-utterance-analysis.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:lexicon-syntax-interface",
+      "type": "model",
+      "path": "models/lexicon-syntax-interface.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:morphology-phonology-interface",
+      "type": "model",
+      "path": "models/morphology-phonology-interface.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:nested-clause-model",
+      "type": "model",
+      "path": "models/nested-clause-model.md",
+      "stages": [
+        2
+      ]
+    },
+    {
+      "id": "english:model:phonological-word-model",
+      "type": "model",
+      "path": "models/phonological-word-model.md",
+      "stages": [
+        6
+      ]
+    },
+    {
+      "id": "english:model:quantifier-scope-model",
+      "type": "model",
+      "path": "models/quantifier-scope-model.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:model:semantics-pragmatics-interface",
+      "type": "model",
+      "path": "models/semantics-pragmatics-interface.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:syntax-semantics-interface",
+      "type": "model",
+      "path": "models/syntax-semantics-interface.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:model:temporal-reference-model",
+      "type": "model",
+      "path": "models/temporal-reference-model.md",
+      "stages": [
+        3
+      ]
+    },
+    {
+      "id": "english:model:utterance-interpretation-model",
+      "type": "model",
+      "path": "models/utterance-interpretation-model.md",
+      "stages": [
+        4
+      ]
+    },
+    {
+      "id": "english:model:word-formation-hierarchy",
+      "type": "model",
+      "path": "models/word-formation-hierarchy.md",
+      "stages": [
+        1
+      ]
+    },
+    {
+      "id": "english:method:analyze-complete-utterance",
+      "type": "method",
+      "path": "methods/analyze-complete-utterance.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:method:analyze-constituency",
+      "type": "method",
+      "path": "methods/analyze-constituency.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:method:analyze-sound-realization",
+      "type": "method",
+      "path": "methods/analyze-sound-realization.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:method:compare-argument-mappings",
+      "type": "method",
+      "path": "methods/compare-argument-mappings.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:method:evaluate-linguistic-claim",
+      "type": "method",
+      "path": "methods/evaluate-linguistic-claim.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:method:trace-discourse-interpretation",
+      "type": "method",
+      "path": "methods/trace-discourse-interpretation.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:practice:classify-and-produce-phone",
+      "type": "practice",
+      "path": "practices/classify-and-produce-phone.md",
+      "stages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "english:practice:investigate-linguistic-question",
+      "type": "practice",
+      "path": "practices/investigate-linguistic-question.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:practice:learn-word-pronunciation",
+      "type": "practice",
+      "path": "practices/learn-word-pronunciation.md",
+      "stages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "english:practice:maintain-english-package",
+      "type": "practice",
+      "path": "practices/maintain-english-package.md",
+      "stages": [
+        7
+      ]
+    },
+    {
+      "id": "english:reference:anderson-2018-essentials-of-linguistics",
+      "type": "reference",
+      "path": "references/anderson-2018-essentials-of-linguistics.md"
+    },
+    {
+      "id": "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols",
+      "type": "reference",
+      "path": "references/international-phonetic-association-undated-diacritics-and-other-symbols.md"
+    },
+    {
+      "id": "english:reference:international-phonetic-association-undated-interactive-chart",
+      "type": "reference",
+      "path": "references/international-phonetic-association-undated-interactive-chart.md"
+    },
+    {
+      "id": "english:reference:international-phonetic-association-undated-ipa-chart",
+      "type": "reference",
+      "path": "references/international-phonetic-association-undated-ipa-chart.md"
+    },
+    {
+      "id": "english:reference:mann-taboada-undated-rst-introduction",
+      "type": "reference",
+      "path": "references/mann-taboada-undated-rst-introduction.md"
+    },
+    {
+      "id": "english:reference:merriam-webster-undated-pin-entry",
+      "type": "reference",
+      "path": "references/merriam-webster-undated-pin-entry.md"
+    },
+    {
+      "id": "english:reference:roberts-2012-information-structure",
+      "type": "reference",
+      "path": "references/roberts-2012-information-structure.md"
+    },
+    {
+      "id": "english:reference:sounds-american-undated-chart-and-terms",
+      "type": "reference",
+      "path": "references/sounds-american-undated-chart-and-terms.md"
+    },
+    {
+      "id": "english:reference:tophonetics-undated-english-transcription",
+      "type": "reference",
+      "path": "references/tophonetics-undated-english-transcription.md"
+    },
+    {
+      "id": "english:reference:xiongxianfei-2026-knowledge-practice-system",
+      "type": "reference",
+      "path": "references/xiongxianfei-2026-knowledge-practice-system.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "english:concept:affix",
+      "relationship": "uses_concepts",
+      "target": "english:concept:root-base-and-stem"
+    },
+    {
+      "source": "english:concept:affix",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:concept:affix",
+      "relationship": "uses_concepts",
+      "target": "english:concept:derivation"
+    },
+    {
+      "source": "english:concept:allomorphy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:morpheme"
+    },
+    {
+      "source": "english:concept:allomorphy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:concept:allomorphy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:concept:allomorphy",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:concept:ambiguity-and-vagueness",
+      "relationship": "uses_concepts",
+      "target": "english:concept:sense-and-lexical-ambiguity"
+    },
+    {
+      "source": "english:concept:ambiguity-and-vagueness",
+      "relationship": "uses_concepts",
+      "target": "english:concept:quantification-and-scope"
+    },
+    {
+      "source": "english:concept:ambiguity-and-vagueness",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:concept:anaphora-and-accessibility",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-referent"
+    },
+    {
+      "source": "english:concept:anaphora-and-accessibility",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:concept:anaphora-and-accessibility",
+      "relationship": "uses_concepts",
+      "target": "english:concept:givenness-and-bridging"
+    },
+    {
+      "source": "english:concept:auxiliary-chain",
+      "relationship": "uses_concepts",
+      "target": "english:concept:finiteness"
+    },
+    {
+      "source": "english:concept:auxiliary-chain",
+      "relationship": "uses_concepts",
+      "target": "english:concept:paradigm-and-syncretism"
+    },
+    {
+      "source": "english:concept:auxiliary-chain",
+      "relationship": "uses_concepts",
+      "target": "english:concept:tense-and-aspect"
+    },
+    {
+      "source": "english:concept:category-and-function",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:concept:category-and-function",
+      "relationship": "uses_concepts",
+      "target": "english:concept:predicative-complement"
+    },
+    {
+      "source": "english:concept:clause-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phrase-and-clause"
+    },
+    {
+      "source": "english:concept:clause-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:complement-and-modifier"
+    },
+    {
+      "source": "english:concept:clause-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:category-and-function"
+    },
+    {
+      "source": "english:concept:cohesion-and-coherence",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:concept:cohesion-and-coherence",
+      "relationship": "uses_concepts",
+      "target": "english:concept:anaphora-and-accessibility"
+    },
+    {
+      "source": "english:concept:cohesion-and-coherence",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:concept:collocation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:concept:collocation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:concept:common-ground",
+      "relationship": "uses_concepts",
+      "target": "english:concept:presupposition"
+    },
+    {
+      "source": "english:concept:common-ground",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-referent"
+    },
+    {
+      "source": "english:concept:common-ground",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:concept:complement-and-modifier",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:concept:complement-and-modifier",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:concept:complement-and-modifier",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:concept:complement-and-modifier",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:concept:complement-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:finiteness"
+    },
+    {
+      "source": "english:concept:complement-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:concept:complement-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:wh-dependency"
+    },
+    {
+      "source": "english:concept:compositionality",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-predicate"
+    },
+    {
+      "source": "english:concept:compositionality",
+      "relationship": "uses_concepts",
+      "target": "english:concept:sense-and-lexical-ambiguity"
+    },
+    {
+      "source": "english:concept:compositionality",
+      "relationship": "uses_concepts",
+      "target": "english:concept:quantification-and-scope"
+    },
+    {
+      "source": "english:concept:compounding",
+      "relationship": "uses_concepts",
+      "target": "english:concept:root-base-and-stem"
+    },
+    {
+      "source": "english:concept:compounding",
+      "relationship": "uses_concepts",
+      "target": "english:concept:productivity-and-lexicalization"
+    },
+    {
+      "source": "english:concept:compounding",
+      "relationship": "uses_concepts",
+      "target": "english:concept:compositionality"
+    },
+    {
+      "source": "english:concept:connected-speech",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:concept:connected-speech",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:concept:connected-speech",
+      "relationship": "uses_concepts",
+      "target": "english:concept:prosody"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:vowel-articulation"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:concept:consonant-articulation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "source": "english:concept:constituency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phrase-and-clause"
+    },
+    {
+      "source": "english:concept:constituency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:concept:constraint-and-preference",
+      "relationship": "uses_concepts",
+      "target": "english:concept:grammaticality-and-acceptability"
+    },
+    {
+      "source": "english:concept:constraint-and-preference",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:concept:constraint-and-preference",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:concept:contextual-resolution",
+      "relationship": "uses_concepts",
+      "target": "english:concept:anaphora-and-accessibility"
+    },
+    {
+      "source": "english:concept:contextual-resolution",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:concept:contextual-resolution",
+      "relationship": "uses_concepts",
+      "target": "english:concept:deixis"
+    },
+    {
+      "source": "english:concept:contrast-and-concession",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:concept:contrast-and-concession",
+      "relationship": "uses_concepts",
+      "target": "english:concept:negation-and-entailment"
+    },
+    {
+      "source": "english:concept:contrast-and-concession",
+      "relationship": "uses_concepts",
+      "target": "english:concept:coordination-and-subordination"
+    },
+    {
+      "source": "english:concept:contrast-and-distribution",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:concept:contrast-and-distribution",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phonotactics"
+    },
+    {
+      "source": "english:concept:contrast-and-distribution",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:concept:coordination-and-subordination",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phrase-and-clause"
+    },
+    {
+      "source": "english:concept:coordination-and-subordination",
+      "relationship": "uses_concepts",
+      "target": "english:concept:relative-clause"
+    },
+    {
+      "source": "english:concept:coordination-and-subordination",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:concept:deixis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:reference-and-denotation"
+    },
+    {
+      "source": "english:concept:deixis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:concept:deixis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:concept:derivation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:affix"
+    },
+    {
+      "source": "english:concept:derivation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:productivity-and-lexicalization"
+    },
+    {
+      "source": "english:concept:derivation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexeme-and-word-form"
+    },
+    {
+      "source": "english:concept:discourse-referent",
+      "relationship": "uses_concepts",
+      "target": "english:concept:reference-and-denotation"
+    },
+    {
+      "source": "english:concept:discourse-referent",
+      "relationship": "uses_concepts",
+      "target": "english:concept:anaphora-and-accessibility"
+    },
+    {
+      "source": "english:concept:discourse-referent",
+      "relationship": "uses_concepts",
+      "target": "english:concept:common-ground"
+    },
+    {
+      "source": "english:concept:discourse-relation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:cohesion-and-coherence"
+    },
+    {
+      "source": "english:concept:discourse-relation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contrast-and-concession"
+    },
+    {
+      "source": "english:concept:discourse-relation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:temporal-causal-and-evidential-relations"
+    },
+    {
+      "source": "english:concept:discourse-relation",
+      "relationship": "references",
+      "target": "english:reference:mann-taboada-undated-rst-introduction"
+    },
+    {
+      "source": "english:concept:do-support-and-inversion",
+      "relationship": "uses_concepts",
+      "target": "english:concept:auxiliary-chain"
+    },
+    {
+      "source": "english:concept:do-support-and-inversion",
+      "relationship": "uses_concepts",
+      "target": "english:concept:wh-dependency"
+    },
+    {
+      "source": "english:concept:do-support-and-inversion",
+      "relationship": "uses_concepts",
+      "target": "english:concept:finiteness"
+    },
+    {
+      "source": "english:concept:evidence-and-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:concept:evidence-and-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:grammaticality-and-acceptability"
+    },
+    {
+      "source": "english:concept:evidence-and-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:expression-and-representation"
+    },
+    {
+      "source": "english:concept:expression-and-representation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:category-and-function"
+    },
+    {
+      "source": "english:concept:expression-and-representation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:reference-and-denotation"
+    },
+    {
+      "source": "english:concept:finiteness",
+      "relationship": "uses_concepts",
+      "target": "english:concept:auxiliary-chain"
+    },
+    {
+      "source": "english:concept:finiteness",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phrase-and-clause"
+    },
+    {
+      "source": "english:concept:finiteness",
+      "relationship": "uses_concepts",
+      "target": "english:concept:complement-clause"
+    },
+    {
+      "source": "english:concept:focus-topic-and-qud",
+      "relationship": "uses_concepts",
+      "target": "english:concept:prosody"
+    },
+    {
+      "source": "english:concept:focus-topic-and-qud",
+      "relationship": "uses_concepts",
+      "target": "english:concept:givenness-and-bridging"
+    },
+    {
+      "source": "english:concept:focus-topic-and-qud",
+      "relationship": "uses_concepts",
+      "target": "english:concept:common-ground"
+    },
+    {
+      "source": "english:concept:focus-topic-and-qud",
+      "relationship": "references",
+      "target": "english:reference:roberts-2012-information-structure"
+    },
+    {
+      "source": "english:concept:givenness-and-bridging",
+      "relationship": "uses_concepts",
+      "target": "english:concept:anaphora-and-accessibility"
+    },
+    {
+      "source": "english:concept:givenness-and-bridging",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:concept:givenness-and-bridging",
+      "relationship": "uses_concepts",
+      "target": "english:concept:common-ground"
+    },
+    {
+      "source": "english:concept:grammaticality-and-acceptability",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:concept:grammaticality-and-acceptability",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:concept:gricean-reasoning",
+      "relationship": "uses_concepts",
+      "target": "english:concept:implicature"
+    },
+    {
+      "source": "english:concept:gricean-reasoning",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:concept:gricean-reasoning",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:concept:head-and-dependent",
+      "relationship": "uses_concepts",
+      "target": "english:concept:category-and-function"
+    },
+    {
+      "source": "english:concept:head-and-dependent",
+      "relationship": "uses_concepts",
+      "target": "english:concept:complement-and-modifier"
+    },
+    {
+      "source": "english:concept:implicature",
+      "relationship": "uses_concepts",
+      "target": "english:concept:gricean-reasoning"
+    },
+    {
+      "source": "english:concept:implicature",
+      "relationship": "uses_concepts",
+      "target": "english:concept:quantification-and-scope"
+    },
+    {
+      "source": "english:concept:implicature",
+      "relationship": "uses_concepts",
+      "target": "english:concept:utterance-and-speaker-meaning"
+    },
+    {
+      "source": "english:concept:inflection",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexeme-and-word-form"
+    },
+    {
+      "source": "english:concept:inflection",
+      "relationship": "uses_concepts",
+      "target": "english:concept:paradigm-and-syncretism"
+    },
+    {
+      "source": "english:concept:inflection",
+      "relationship": "uses_concepts",
+      "target": "english:concept:allomorphy"
+    },
+    {
+      "source": "english:concept:interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:expression-and-representation"
+    },
+    {
+      "source": "english:concept:interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:concept:interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:concept:lexeme-and-word-form",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:concept:lexeme-and-word-form",
+      "relationship": "uses_concepts",
+      "target": "english:concept:derivation"
+    },
+    {
+      "source": "english:concept:lexeme-and-word-form",
+      "relationship": "uses_concepts",
+      "target": "english:concept:paradigm-and-syncretism"
+    },
+    {
+      "source": "english:concept:lexical-entry",
+      "relationship": "uses_concepts",
+      "target": "english:concept:valency-and-argument-structure"
+    },
+    {
+      "source": "english:concept:lexical-entry",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:concept:lexical-entry",
+      "relationship": "uses_concepts",
+      "target": "english:concept:sense-and-lexical-ambiguity"
+    },
+    {
+      "source": "english:concept:lexical-selection",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:concept:lexical-selection",
+      "relationship": "uses_concepts",
+      "target": "english:concept:grammaticality-and-acceptability"
+    },
+    {
+      "source": "english:concept:lexical-selection",
+      "relationship": "uses_concepts",
+      "target": "english:concept:valency-and-argument-structure"
+    },
+    {
+      "source": "english:concept:modality",
+      "relationship": "uses_concepts",
+      "target": "english:concept:tense-and-aspect"
+    },
+    {
+      "source": "english:concept:modality",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:concept:modality",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-predicate"
+    },
+    {
+      "source": "english:concept:morpheme",
+      "relationship": "uses_concepts",
+      "target": "english:concept:allomorphy"
+    },
+    {
+      "source": "english:concept:morpheme",
+      "relationship": "uses_concepts",
+      "target": "english:concept:root-base-and-stem"
+    },
+    {
+      "source": "english:concept:morpheme",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:concept:negation-and-entailment",
+      "relationship": "uses_concepts",
+      "target": "english:concept:quantification-and-scope"
+    },
+    {
+      "source": "english:concept:negation-and-entailment",
+      "relationship": "uses_concepts",
+      "target": "english:concept:presupposition"
+    },
+    {
+      "source": "english:concept:negation-and-entailment",
+      "relationship": "uses_concepts",
+      "target": "english:concept:implicature"
+    },
+    {
+      "source": "english:concept:object-and-pp-complement",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:concept:object-and-pp-complement",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:concept:object-and-pp-complement",
+      "relationship": "uses_concepts",
+      "target": "english:concept:complement-and-modifier"
+    },
+    {
+      "source": "english:concept:paradigm-and-syncretism",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:concept:paradigm-and-syncretism",
+      "relationship": "uses_concepts",
+      "target": "english:concept:finiteness"
+    },
+    {
+      "source": "english:concept:paradigm-and-syncretism",
+      "relationship": "uses_concepts",
+      "target": "english:concept:auxiliary-chain"
+    },
+    {
+      "source": "english:concept:phone-phoneme-and-allophone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contrast-and-distribution"
+    },
+    {
+      "source": "english:concept:phone-phoneme-and-allophone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:concept:phone-phoneme-and-allophone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:allomorphy"
+    },
+    {
+      "source": "english:concept:phone-phoneme-and-allophone",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:concept:phonotactics",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:concept:phonotactics",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contrast-and-distribution"
+    },
+    {
+      "source": "english:concept:phonotactics",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:concept:phrase-and-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:finiteness"
+    },
+    {
+      "source": "english:concept:phrase-and-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:auxiliary-chain"
+    },
+    {
+      "source": "english:concept:phrase-and-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constituency"
+    },
+    {
+      "source": "english:concept:predicative-complement",
+      "relationship": "uses_concepts",
+      "target": "english:concept:category-and-function"
+    },
+    {
+      "source": "english:concept:predicative-complement",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-predicate"
+    },
+    {
+      "source": "english:concept:predicative-complement",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:concept:presupposition",
+      "relationship": "uses_concepts",
+      "target": "english:concept:common-ground"
+    },
+    {
+      "source": "english:concept:presupposition",
+      "relationship": "uses_concepts",
+      "target": "english:concept:negation-and-entailment"
+    },
+    {
+      "source": "english:concept:presupposition",
+      "relationship": "uses_concepts",
+      "target": "english:concept:implicature"
+    },
+    {
+      "source": "english:concept:productivity-and-lexicalization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:derivation"
+    },
+    {
+      "source": "english:concept:productivity-and-lexicalization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:compounding"
+    },
+    {
+      "source": "english:concept:productivity-and-lexicalization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-entry"
+    },
+    {
+      "source": "english:concept:prosody",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:concept:prosody",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:concept:prosody",
+      "relationship": "uses_concepts",
+      "target": "english:concept:connected-speech"
+    },
+    {
+      "source": "english:concept:quantification-and-scope",
+      "relationship": "uses_concepts",
+      "target": "english:concept:negation-and-entailment"
+    },
+    {
+      "source": "english:concept:quantification-and-scope",
+      "relationship": "uses_concepts",
+      "target": "english:concept:implicature"
+    },
+    {
+      "source": "english:concept:quantification-and-scope",
+      "relationship": "uses_concepts",
+      "target": "english:concept:ambiguity-and-vagueness"
+    },
+    {
+      "source": "english:concept:reference-and-denotation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-predicate"
+    },
+    {
+      "source": "english:concept:reference-and-denotation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:quantification-and-scope"
+    },
+    {
+      "source": "english:concept:reference-and-denotation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:deixis"
+    },
+    {
+      "source": "english:concept:relative-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:wh-dependency"
+    },
+    {
+      "source": "english:concept:relative-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constituency"
+    },
+    {
+      "source": "english:concept:relative-clause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:coordination-and-subordination"
+    },
+    {
+      "source": "english:concept:representation-levels",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:concept:representation-levels",
+      "relationship": "uses_concepts",
+      "target": "english:concept:consonant-articulation"
+    },
+    {
+      "source": "english:concept:representation-levels",
+      "relationship": "uses_concepts",
+      "target": "english:concept:vowel-articulation"
+    },
+    {
+      "source": "english:concept:representation-levels",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:concept:representation-levels",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
+    },
+    {
+      "source": "english:concept:representation-levels",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "source": "english:concept:root-base-and-stem",
+      "relationship": "uses_concepts",
+      "target": "english:concept:affix"
+    },
+    {
+      "source": "english:concept:root-base-and-stem",
+      "relationship": "uses_concepts",
+      "target": "english:concept:derivation"
+    },
+    {
+      "source": "english:concept:root-base-and-stem",
+      "relationship": "uses_concepts",
+      "target": "english:concept:compounding"
+    },
+    {
+      "source": "english:concept:semantic-predicate",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:concept:semantic-predicate",
+      "relationship": "uses_concepts",
+      "target": "english:concept:compositionality"
+    },
+    {
+      "source": "english:concept:semantic-predicate",
+      "relationship": "uses_concepts",
+      "target": "english:concept:valency-and-argument-structure"
+    },
+    {
+      "source": "english:concept:semantic-role",
+      "relationship": "uses_concepts",
+      "target": "english:concept:category-and-function"
+    },
+    {
+      "source": "english:concept:semantic-role",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-predicate"
+    },
+    {
+      "source": "english:concept:semantic-role",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:concept:semantic-role",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:concept:sense-and-lexical-ambiguity",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-entry"
+    },
+    {
+      "source": "english:concept:sense-and-lexical-ambiguity",
+      "relationship": "uses_concepts",
+      "target": "english:concept:ambiguity-and-vagueness"
+    },
+    {
+      "source": "english:concept:sense-and-lexical-ambiguity",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:concept:situation-type",
+      "relationship": "uses_concepts",
+      "target": "english:concept:tense-and-aspect"
+    },
+    {
+      "source": "english:concept:situation-type",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:concept:situation-type",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-entry"
+    },
+    {
+      "source": "english:concept:speech-act",
+      "relationship": "uses_concepts",
+      "target": "english:concept:utterance-and-speaker-meaning"
+    },
+    {
+      "source": "english:concept:speech-act",
+      "relationship": "uses_concepts",
+      "target": "english:concept:common-ground"
+    },
+    {
+      "source": "english:concept:speech-act",
+      "relationship": "uses_concepts",
+      "target": "english:concept:deixis"
+    },
+    {
+      "source": "english:concept:stress",
+      "relationship": "uses_concepts",
+      "target": "english:concept:vowel-articulation"
+    },
+    {
+      "source": "english:concept:stress",
+      "relationship": "uses_concepts",
+      "target": "english:concept:prosody"
+    },
+    {
+      "source": "english:concept:stress",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:concept:stress",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:concept:suppletion",
+      "relationship": "uses_concepts",
+      "target": "english:concept:paradigm-and-syncretism"
+    },
+    {
+      "source": "english:concept:suppletion",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:concept:syllable-structure",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phonotactics"
+    },
+    {
+      "source": "english:concept:syllable-structure",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:concept:syllable-structure",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:concept:temporal-causal-and-evidential-relations",
+      "relationship": "uses_concepts",
+      "target": "english:concept:tense-and-aspect"
+    },
+    {
+      "source": "english:concept:temporal-causal-and-evidential-relations",
+      "relationship": "uses_concepts",
+      "target": "english:concept:modality"
+    },
+    {
+      "source": "english:concept:temporal-causal-and-evidential-relations",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:concept:tense-and-aspect",
+      "relationship": "uses_concepts",
+      "target": "english:concept:auxiliary-chain"
+    },
+    {
+      "source": "english:concept:tense-and-aspect",
+      "relationship": "uses_concepts",
+      "target": "english:concept:situation-type"
+    },
+    {
+      "source": "english:concept:tense-and-aspect",
+      "relationship": "uses_concepts",
+      "target": "english:concept:modality"
+    },
+    {
+      "source": "english:concept:utterance-and-speaker-meaning",
+      "relationship": "uses_concepts",
+      "target": "english:concept:deixis"
+    },
+    {
+      "source": "english:concept:utterance-and-speaker-meaning",
+      "relationship": "uses_concepts",
+      "target": "english:concept:speech-act"
+    },
+    {
+      "source": "english:concept:utterance-and-speaker-meaning",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:concept:valency-and-argument-structure",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:concept:valency-and-argument-structure",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:concept:valency-and-argument-structure",
+      "relationship": "uses_concepts",
+      "target": "english:concept:complement-and-modifier"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:concept:vowel-articulation",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
+    },
+    {
+      "source": "english:concept:wh-dependency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:relative-clause"
+    },
+    {
+      "source": "english:concept:wh-dependency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:do-support-and-inversion"
+    },
+    {
+      "source": "english:concept:wh-dependency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:principle:accent-does-not-exhaust-focus",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:principle:accent-does-not-exhaust-focus",
+      "relationship": "uses_concepts",
+      "target": "english:concept:prosody"
+    },
+    {
+      "source": "english:principle:accent-does-not-exhaust-focus",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:principle:category-does-not-determine-function",
+      "relationship": "uses_concepts",
+      "target": "english:concept:category-and-function"
+    },
+    {
+      "source": "english:principle:category-does-not-determine-function",
+      "relationship": "uses_concepts",
+      "target": "english:concept:complement-and-modifier"
+    },
+    {
+      "source": "english:principle:cohesion-does-not-guarantee-coherence",
+      "relationship": "uses_concepts",
+      "target": "english:concept:cohesion-and-coherence"
+    },
+    {
+      "source": "english:principle:cohesion-does-not-guarantee-coherence",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:principle:cohesion-does-not-guarantee-coherence",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:principle:context-supplies-reference-values",
+      "relationship": "uses_concepts",
+      "target": "english:concept:deixis"
+    },
+    {
+      "source": "english:principle:context-supplies-reference-values",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:principle:context-supplies-reference-values",
+      "relationship": "uses_concepts",
+      "target": "english:concept:reference-and-denotation"
+    },
+    {
+      "source": "english:principle:exponents-are-conditioned-by-sound",
+      "relationship": "uses_concepts",
+      "target": "english:concept:allomorphy"
+    },
+    {
+      "source": "english:principle:exponents-are-conditioned-by-sound",
+      "relationship": "uses_concepts",
+      "target": "english:concept:consonant-articulation"
+    },
+    {
+      "source": "english:principle:exponents-are-conditioned-by-sound",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:principle:exponents-are-conditioned-by-sound",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:principle:functions-do-not-determine-roles",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:principle:functions-do-not-determine-roles",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:principle:functions-do-not-determine-roles",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:principle:implicatures-are-defeasible",
+      "relationship": "uses_concepts",
+      "target": "english:concept:implicature"
+    },
+    {
+      "source": "english:principle:implicatures-are-defeasible",
+      "relationship": "uses_concepts",
+      "target": "english:concept:gricean-reasoning"
+    },
+    {
+      "source": "english:principle:implicatures-are-defeasible",
+      "relationship": "uses_concepts",
+      "target": "english:concept:negation-and-entailment"
+    },
+    {
+      "source": "english:principle:local-heads-determine-local-relations",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:principle:local-heads-determine-local-relations",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:principle:realization-varies-with-environment",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:principle:realization-varies-with-environment",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contrast-and-distribution"
+    },
+    {
+      "source": "english:principle:realization-varies-with-environment",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:principle:realization-varies-with-environment",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:principle:scope-determines-operator-interaction",
+      "relationship": "uses_concepts",
+      "target": "english:concept:quantification-and-scope"
+    },
+    {
+      "source": "english:principle:scope-determines-operator-interaction",
+      "relationship": "uses_concepts",
+      "target": "english:concept:negation-and-entailment"
+    },
+    {
+      "source": "english:principle:selection-is-sense-sensitive",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-entry"
+    },
+    {
+      "source": "english:principle:selection-is-sense-sensitive",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:principle:selection-is-sense-sensitive",
+      "relationship": "uses_concepts",
+      "target": "english:concept:valency-and-argument-structure"
+    },
+    {
+      "source": "english:principle:sequence-does-not-establish-cause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:temporal-causal-and-evidential-relations"
+    },
+    {
+      "source": "english:principle:sequence-does-not-establish-cause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:principle:sequence-does-not-establish-cause",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:principle:validation-does-not-establish-truth",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:principle:validation-does-not-establish-truth",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:principle:validation-does-not-establish-truth",
+      "relationship": "references",
+      "target": "english:reference:xiongxianfei-2026-knowledge-practice-system"
+    },
+    {
+      "source": "english:model:auxiliary-selection-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:auxiliary-chain"
+    },
+    {
+      "source": "english:model:auxiliary-selection-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:finiteness"
+    },
+    {
+      "source": "english:model:auxiliary-selection-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:tense-and-aspect"
+    },
+    {
+      "source": "english:model:auxiliary-selection-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:do-support-and-inversion"
+    },
+    {
+      "source": "english:model:discourse-network-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-referent"
+    },
+    {
+      "source": "english:model:discourse-network-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:model:discourse-network-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contrast-and-concession"
+    },
+    {
+      "source": "english:model:discourse-network-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:temporal-causal-and-evidential-relations"
+    },
+    {
+      "source": "english:model:discourse-network-model",
+      "relationship": "references",
+      "target": "english:reference:mann-taboada-undated-rst-introduction"
+    },
+    {
+      "source": "english:model:english-system-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:model:english-system-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:expression-and-representation"
+    },
+    {
+      "source": "english:model:english-system-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:category-and-function"
+    },
+    {
+      "source": "english:model:english-system-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:model:english-system-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:model:english-system-architecture",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:model:focus-prosody-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:model:focus-prosody-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:prosody"
+    },
+    {
+      "source": "english:model:focus-prosody-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:model:focus-prosody-interface",
+      "relationship": "references",
+      "target": "english:reference:roberts-2012-information-structure"
+    },
+    {
+      "source": "english:model:integrated-utterance-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:relative-clause"
+    },
+    {
+      "source": "english:model:integrated-utterance-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:model:integrated-utterance-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:allomorphy"
+    },
+    {
+      "source": "english:model:integrated-utterance-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:model:integrated-utterance-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-relation"
+    },
+    {
+      "source": "english:model:integrated-utterance-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:model:integrated-utterance-analysis",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:model:lexicon-syntax-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:model:lexicon-syntax-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:model:lexicon-syntax-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:model:lexicon-syntax-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:valency-and-argument-structure"
+    },
+    {
+      "source": "english:model:morphology-phonology-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:allomorphy"
+    },
+    {
+      "source": "english:model:morphology-phonology-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:model:morphology-phonology-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:consonant-articulation"
+    },
+    {
+      "source": "english:model:morphology-phonology-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:model:nested-clause-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:clause-architecture"
+    },
+    {
+      "source": "english:model:nested-clause-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:relative-clause"
+    },
+    {
+      "source": "english:model:nested-clause-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:auxiliary-chain"
+    },
+    {
+      "source": "english:model:nested-clause-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:model:phonological-word-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:model:phonological-word-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phonotactics"
+    },
+    {
+      "source": "english:model:phonological-word-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:model:phonological-word-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:model:quantifier-scope-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:quantification-and-scope"
+    },
+    {
+      "source": "english:model:quantifier-scope-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:negation-and-entailment"
+    },
+    {
+      "source": "english:model:quantifier-scope-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-predicate"
+    },
+    {
+      "source": "english:model:semantics-pragmatics-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contextual-resolution"
+    },
+    {
+      "source": "english:model:semantics-pragmatics-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:implicature"
+    },
+    {
+      "source": "english:model:semantics-pragmatics-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:presupposition"
+    },
+    {
+      "source": "english:model:semantics-pragmatics-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:common-ground"
+    },
+    {
+      "source": "english:model:syntax-semantics-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:model:syntax-semantics-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:model:syntax-semantics-interface",
+      "relationship": "uses_concepts",
+      "target": "english:concept:valency-and-argument-structure"
+    },
+    {
+      "source": "english:model:temporal-reference-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:tense-and-aspect"
+    },
+    {
+      "source": "english:model:temporal-reference-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:situation-type"
+    },
+    {
+      "source": "english:model:temporal-reference-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:modality"
+    },
+    {
+      "source": "english:model:utterance-interpretation-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:utterance-and-speaker-meaning"
+    },
+    {
+      "source": "english:model:utterance-interpretation-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:deixis"
+    },
+    {
+      "source": "english:model:utterance-interpretation-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:speech-act"
+    },
+    {
+      "source": "english:model:utterance-interpretation-model",
+      "relationship": "uses_concepts",
+      "target": "english:concept:implicature"
+    },
+    {
+      "source": "english:model:word-formation-hierarchy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:root-base-and-stem"
+    },
+    {
+      "source": "english:model:word-formation-hierarchy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:compounding"
+    },
+    {
+      "source": "english:model:word-formation-hierarchy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:affix"
+    },
+    {
+      "source": "english:model:word-formation-hierarchy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:derivation"
+    },
+    {
+      "source": "english:model:word-formation-hierarchy",
+      "relationship": "uses_concepts",
+      "target": "english:concept:inflection"
+    },
+    {
+      "source": "english:method:analyze-complete-utterance",
+      "relationship": "uses_concepts",
+      "target": "english:concept:expression-and-representation"
+    },
+    {
+      "source": "english:method:analyze-complete-utterance",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:method:analyze-complete-utterance",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:method:analyze-complete-utterance",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:method:analyze-constituency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constituency"
+    },
+    {
+      "source": "english:method:analyze-constituency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:head-and-dependent"
+    },
+    {
+      "source": "english:method:analyze-constituency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:relative-clause"
+    },
+    {
+      "source": "english:method:analyze-constituency",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:allomorphy"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:consonant-articulation"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "uses_concepts",
+      "target": "english:concept:connected-speech"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
+    },
+    {
+      "source": "english:method:analyze-sound-realization",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "source": "english:method:compare-argument-mappings",
+      "relationship": "uses_concepts",
+      "target": "english:concept:semantic-role"
+    },
+    {
+      "source": "english:method:compare-argument-mappings",
+      "relationship": "uses_concepts",
+      "target": "english:concept:valency-and-argument-structure"
+    },
+    {
+      "source": "english:method:compare-argument-mappings",
+      "relationship": "uses_concepts",
+      "target": "english:concept:lexical-selection"
+    },
+    {
+      "source": "english:method:compare-argument-mappings",
+      "relationship": "uses_concepts",
+      "target": "english:concept:object-and-pp-complement"
+    },
+    {
+      "source": "english:method:compare-argument-mappings",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:method:evaluate-linguistic-claim",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:method:evaluate-linguistic-claim",
+      "relationship": "uses_concepts",
+      "target": "english:concept:grammaticality-and-acceptability"
+    },
+    {
+      "source": "english:method:evaluate-linguistic-claim",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:method:evaluate-linguistic-claim",
+      "relationship": "references",
+      "target": "english:reference:xiongxianfei-2026-knowledge-practice-system"
+    },
+    {
+      "source": "english:method:trace-discourse-interpretation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:discourse-referent"
+    },
+    {
+      "source": "english:method:trace-discourse-interpretation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:anaphora-and-accessibility"
+    },
+    {
+      "source": "english:method:trace-discourse-interpretation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:temporal-causal-and-evidential-relations"
+    },
+    {
+      "source": "english:method:trace-discourse-interpretation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:focus-topic-and-qud"
+    },
+    {
+      "source": "english:method:trace-discourse-interpretation",
+      "relationship": "references",
+      "target": "english:reference:mann-taboada-undated-rst-introduction"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:consonant-articulation"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:vowel-articulation"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:contrast-and-distribution"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_principles",
+      "target": "english:principle:realization-varies-with-environment"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_principles",
+      "target": "english:principle:validation-does-not-establish-truth"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_models",
+      "target": "english:model:phonological-word-model"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "uses_methods",
+      "target": "english:method:analyze-sound-realization"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:practice:classify-and-produce-phone",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:practice:investigate-linguistic-question",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:practice:investigate-linguistic-question",
+      "relationship": "uses_concepts",
+      "target": "english:concept:expression-and-representation"
+    },
+    {
+      "source": "english:practice:investigate-linguistic-question",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:practice:investigate-linguistic-question",
+      "relationship": "references",
+      "target": "english:reference:xiongxianfei-2026-knowledge-practice-system"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:representation-levels"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:phone-phoneme-and-allophone"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:stress"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:syllable-structure"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:connected-speech"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_principles",
+      "target": "english:principle:realization-varies-with-environment"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_principles",
+      "target": "english:principle:validation-does-not-establish-truth"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_models",
+      "target": "english:model:phonological-word-model"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "uses_methods",
+      "target": "english:method:analyze-sound-realization"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "composes",
+      "target": "english:practice:classify-and-produce-phone"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:tophonetics-undated-english-transcription"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "source": "english:practice:learn-word-pronunciation",
+      "relationship": "references",
+      "target": "english:reference:merriam-webster-undated-pin-entry"
+    },
+    {
+      "source": "english:practice:maintain-english-package",
+      "relationship": "uses_concepts",
+      "target": "english:concept:evidence-and-analysis"
+    },
+    {
+      "source": "english:practice:maintain-english-package",
+      "relationship": "uses_concepts",
+      "target": "english:concept:interface"
+    },
+    {
+      "source": "english:practice:maintain-english-package",
+      "relationship": "uses_concepts",
+      "target": "english:concept:constraint-and-preference"
+    },
+    {
+      "source": "english:practice:maintain-english-package",
+      "relationship": "references",
+      "target": "english:reference:xiongxianfei-2026-knowledge-practice-system"
+    }
+  ]
+}

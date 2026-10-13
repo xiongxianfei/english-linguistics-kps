@@ -1,52 +1,38 @@
----
-id: "english:reference:international-phonetic-association-undated-ipa-chart"
-type: "reference"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-creator: "International Phonetic Association"
-publication: "IPA chart and component charts on the official website"
-publication_date: null
-date_basis: "The webpage publication date was not established; chart revision and reissue dates are not substituted for a webpage publication date."
-accessed: "2026-10-11"
-access_extent: "Official chart webpage text and visual inspection of its pulmonic-consonant, vowel and suprasegmental PNG subcharts. No audio, articulatory measurements or language-specific full inventory was examined."
-reviewed: null
----
-
 # International Phonetic Alphabet official chart
 
 ## Key takeaway
-This record identifies the inspected publication and limits its contribution to the stated passages.
+
+This is a compatibility redirect. Read [Key takeaway](../sources/international-phonetic-association-undated-ipa-chart.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-IPA chart and component charts on the official website. Creator: International Phonetic Association. Selected inspection is documented below; this is not verification of the entire publication or the whole English package.
+
+This is a compatibility redirect. Read [Summary](../sources/international-phonetic-association-undated-ipa-chart.md#summary) in the canonical KPS 12 content.
 
 ## Publication identity
 
-[Publication](https://www.internationalphoneticassociation.org/content/ipa-chart)
-
-Date: undated. Date basis: The webpage publication date was not established; chart revision and reissue dates are not substituted for a webpage publication date.
+This is a compatibility redirect. Read [Publication identity](../sources/international-phonetic-association-undated-ipa-chart.md#publication-identity) in the canonical KPS 12 content.
 
 ## Inspection extent
 
-Accessed 2026-10-11. Official chart webpage text and visual inspection of its pulmonic-consonant, vowel and suprasegmental PNG subcharts. No audio, articulatory measurements or language-specific full inventory was examined.
+This is a compatibility redirect. Read [Inspection extent](../sources/international-phonetic-association-undated-ipa-chart.md#inspection-extent) in the canonical KPS 12 content.
 
 ## Authority
 
-The official site identifies and maintains the IPA chart and explains revision/reissue history. It supports symbol identity and chart organization, not a single complete pronunciation standard for all English varieties.
+This is a compatibility redirect. Read [Authority](../sources/international-phonetic-association-undated-ipa-chart.md#authority) in the canonical KPS 12 content.
 
 ## Consonants
 
-The [pulmonic consonant chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_E/images/IPA_Kiel_CP_0600.png) locates [z] as a voiced alveolar fricative and [ŋ] as a voiced velar nasal. These are chart classifications, not measurements of every English realization.
+This is a compatibility redirect. Read [Consonants](../sources/international-phonetic-association-undated-ipa-chart.md#consonants) in the canonical KPS 12 content.
 
 ## Vowels
 
-The [vowel chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_E/images/IPA_Kiel_V_0600.png) places [i] close front unrounded, [u] close back rounded and [æ] near-open front unrounded. Broad English phonemes written with similar symbols may have accent-specific realizations.
+This is a compatibility redirect. Read [Vowels](../sources/international-phonetic-association-undated-ipa-chart.md#vowels) in the canonical KPS 12 content.
 
 ## Suprasegmentals
 
-The [suprasegmentals chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_E/images/IPA_Kiel_S_0600.png) identifies ˈ as primary stress, ˌ as secondary stress, and ː as a length mark. These symbols do not themselves encode exact durations or acoustic recordings.
+This is a compatibility redirect. Read [Suprasegmentals](../sources/international-phonetic-association-undated-ipa-chart.md#suprasegmentals) in the canonical KPS 12 content.
 
 ## Nonclaims
 
-The IPA chart does not establish English phoneme inventories, word meanings, allophonic distributions or focus interpretation. Original charts and fonts are not redistributed. The official site supplies its own attribution and CC BY-SA terms.
+This is a compatibility redirect. Read [Nonclaims](../sources/international-phonetic-association-undated-ipa-chart.md#nonclaims) in the canonical KPS 12 content.
+

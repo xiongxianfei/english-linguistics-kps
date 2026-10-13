@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:anaphora-and-accessibility"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:discourse-referent:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Discourse referent — summary claim",
+  "owner": "english:discourse-referent",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A discourse referent is a representation used to track an individual, group, event or other object through discourse.",
+  "status": "draft",
+  "version": "0.1.0"
+}

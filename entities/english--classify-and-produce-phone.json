@@ -1,0 +1,197 @@
+{
+  "aliases": [
+    "english:practice:classify-and-produce-phone"
+  ],
+  "basis_kind": "AI-assisted authored procedure; source support for selected distinctions and resource capabilities only; learning effectiveness untested",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:classify-and-produce-phone:claim:key-takeaway"
+  ],
+  "content": "knowledge/classify-and-produce-phone.md",
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:articulatory-phonetics",
+    "linguistics:phonetics:speech-perception",
+    "linguistics:phonology"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:classify-and-produce-phone",
+  "kind": "knowledge",
+  "label": "Classify and produce a phone",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored procedure; source support for selected distinctions and resource capabilities only; learning effectiveness untested",
+      "evidence_status": "provisional",
+      "id": "english:practice:classify-and-produce-phone",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology",
+        "interfaces-and-integration"
+      ],
+      "practice_format": "staged-inline-stageN-v1",
+      "reference_variety": "General American",
+      "references": [
+        "english:reference:international-phonetic-association-undated-ipa-chart",
+        "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols",
+        "english:reference:international-phonetic-association-undated-interactive-chart",
+        "english:reference:sounds-american-undated-chart-and-terms",
+        "english:reference:anderson-2018-essentials-of-linguistics"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stage_order": "recommended; evidence availability and prerequisites govern entry",
+      "stage_titles": [
+        "Stage1 Identify the input and evidence",
+        "Stage2 Locate the target and choose a route",
+        "Stage3 Build the articulatory feature description",
+        "Stage4 Listen reproduce and compare contrasts",
+        "Stage5 Verify the classification and production",
+        "Stage6 Record limits and test a new context"
+      ],
+      "stages": [
+        6,
+        7
+      ],
+      "status": "draft",
+      "type": "practice",
+      "uses_concepts": [
+        "english:concept:representation-levels",
+        "english:concept:phone-phoneme-and-allophone",
+        "english:concept:consonant-articulation",
+        "english:concept:vowel-articulation",
+        "english:concept:contrast-and-distribution",
+        "english:concept:syllable-structure"
+      ],
+      "uses_methods": [
+        "english:method:analyze-sound-realization"
+      ],
+      "uses_models": [
+        "english:model:phonological-word-model"
+      ],
+      "uses_principles": [
+        "english:principle:realization-varies-with-environment",
+        "english:principle:validation-does-not-establish-truth"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:practice:classify-and-produce-phone",
+    "old_path": "practices/classify-and-produce-phone.md",
+    "old_version": "0.1.0"
+  },
+  "practice_format": "staged-inline-stageN-v1",
+  "reference_variety": "General American",
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:representation-levels"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:phone-phoneme-and-allophone"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:consonant-articulation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:vowel-articulation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:contrast-and-distribution"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:syllable-structure"
+    },
+    {
+      "expected_target_role": "kps:role:principle",
+      "legacy_predicate": "uses_principles",
+      "predicate": "kps:uses",
+      "target": "english:realization-varies-with-environment"
+    },
+    {
+      "expected_target_role": "kps:role:principle",
+      "legacy_predicate": "uses_principles",
+      "predicate": "kps:uses",
+      "target": "english:validation-does-not-establish-truth"
+    },
+    {
+      "expected_target_role": "kps:role:model",
+      "legacy_predicate": "uses_models",
+      "predicate": "kps:uses",
+      "target": "english:phonological-word-model"
+    },
+    {
+      "expected_target_role": "kps:role:method",
+      "legacy_predicate": "uses_methods",
+      "predicate": "kps:uses",
+      "target": "english:analyze-sound-realization"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-diacritics-and-other-symbols"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:anderson-2018-essentials-of-linguistics"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:practice"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6,
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "stage_order": "recommended; evidence availability and prerequisites govern entry",
+  "stage_titles": [
+    "Stage1 Identify the input and evidence",
+    "Stage2 Locate the target and choose a route",
+    "Stage3 Build the articulatory feature description",
+    "Stage4 Listen reproduce and compare contrasts",
+    "Stage5 Verify the classification and production",
+    "Stage6 Record limits and test a new context"
+  ],
+  "status": "draft",
+  "version": "0.2.0"
+}

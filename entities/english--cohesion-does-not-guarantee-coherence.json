@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:principle:cohesion-does-not-guarantee-coherence"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:cohesion-does-not-guarantee-coherence:claim:key-takeaway"
+  ],
+  "content": "knowledge/cohesion-does-not-guarantee-coherence.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:cohesion-and-coherence"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:cohesion-does-not-guarantee-coherence",
+  "kind": "knowledge",
+  "label": "Cohesive links do not guarantee coherence",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:cohesion-does-not-guarantee-coherence",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "discourse-and-information-structure"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        5
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:cohesion-and-coherence",
+        "english:concept:discourse-relation",
+        "english:concept:focus-topic-and-qud"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:cohesion-does-not-guarantee-coherence",
+    "old_path": "principles/cohesion-does-not-guarantee-coherence.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:cohesion-and-coherence"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:discourse-relation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:focus-topic-and-qud"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        5
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

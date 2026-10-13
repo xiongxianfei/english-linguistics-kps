@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:foundations",
+    "linguistics:syntax",
+    "linguistics:syntax:constituency-and-dependency"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:head-and-dependent:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Head and dependent — summary claim",
+  "owner": "english:head-and-dependent",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A head is the organizing element of a headed construction in a stated analysis.",
+  "status": "draft",
+  "version": "0.1.0"
+}

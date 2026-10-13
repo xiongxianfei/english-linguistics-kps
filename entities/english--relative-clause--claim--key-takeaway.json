@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:clause-linking"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:relative-clause:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Relative clause — summary claim",
+  "owner": "english:relative-clause",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "An integrated relative clause modifies a nominal expression and establishes a dependency involving a position within that clause.",
+  "status": "draft",
+  "version": "0.1.0"
+}

@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:lexicon:lexicalization",
+    "linguistics:morphology",
+    "linguistics:morphology:derivational-morphology",
+    "linguistics:morphology:morphological-productivity"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:productivity-and-lexicalization:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Productivity and lexicalization — summary claim",
+  "owner": "english:productivity-and-lexicalization",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Productivity concerns the extendability of a pattern to suitable new bases.",
+  "status": "draft",
+  "version": "0.1.0"
+}

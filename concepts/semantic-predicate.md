@@ -1,51 +1,34 @@
----
-id: "english:concept:semantic-predicate"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [3]
-perspectives: ["semantics"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-role", "english:concept:compositionality", "english:concept:valency-and-argument-structure"]
----
-
 # Semantic predicate
 
 ## Key takeaway
-A semantic predicate expresses a property or relation that combines with arguments.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/semantic-predicate.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A semantic predicate expresses a property or relation that combines with arguments. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/semantic-predicate.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A semantic predicate expresses a property or relation that combines with arguments. Its arity and argument order must be declared. This is not identical to the syntactic Predicate constituent of a clause, which can contain objects, auxiliaries and modifiers.
+This is a compatibility redirect. Read [Definition](../knowledge/semantic-predicate.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-For "Maya admires Ravi", use ADMIRE(Maya, Ravi). The lexical relation ADMIRE is the semantic predicate; the VP admires Ravi is the syntactic Predicate. For GIVE(x,y,z), this package consistently orders arguments as giver, recipient, transferred theme.
+This is a compatibility redirect. Read [Worked example](../knowledge/semantic-predicate.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-GIVE(Agent, Recipient, Theme) names role positions; GIVE(Maya, Ravi, book) supplies fillers. Tense, definiteness and quantification are deliberately omitted by this simple formula, not disproved or fully represented.
+This is a compatibility redirect. Read [Distinctions](../knowledge/semantic-predicate.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Semantic composition can make entire VPs property-denoting, so the lexical predicate is not the only possible semantic predicate. Event-variable representations provide a different, often richer analysis.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/semantic-predicate.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/semantic-predicate.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Compositionality](../concepts/compositionality.md) provides a related distinction used in the local explanation.
-- [Valency and argument structure](../concepts/valency-and-argument-structure.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/semantic-predicate.md#related-knowledge) in the canonical KPS 12 content.
+

@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:participant-roles",
+    "linguistics:syntax",
+    "linguistics:syntax:grammatical-functions"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:compare-argument-mappings:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Compare argument mappings — summary claim",
+  "owner": "english:compare-argument-mappings",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Separate participant roles from grammatical functions when comparing constructions.",
+  "status": "draft",
+  "version": "0.1.0"
+}

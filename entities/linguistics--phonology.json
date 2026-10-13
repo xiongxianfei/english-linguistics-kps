@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:phonology",
+  "kind": "domain",
+  "label": "Phonology",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Language-specific contrasts, sound-pattern representations and contextual distributions; not equivalent to acoustics or spelling.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

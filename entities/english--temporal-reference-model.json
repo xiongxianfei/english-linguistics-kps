@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:model:temporal-reference-model"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:temporal-reference-model:claim:key-takeaway"
+  ],
+  "content": "knowledge/temporal-reference-model.md",
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:temporal-and-event-semantics"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:temporal-reference-model",
+  "kind": "knowledge",
+  "label": "Temporal reference model",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:temporal-reference-model",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "semantics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        3
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:tense-and-aspect",
+        "english:concept:situation-type",
+        "english:concept:modality"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:temporal-reference-model",
+    "old_path": "models/temporal-reference-model.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:tense-and-aspect"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:situation-type"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:modality"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        3
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

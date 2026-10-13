@@ -1,0 +1,42 @@
+{
+  "access_extent": "Requested interactive page returned no indexable chart text; official IPA chart overview, associated about page and indexed interactive-chart licence/recording descriptions were inspected. Interactive sound controls were not exercised.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:international-phonetic-association-undated-interactive-chart"
+  ],
+  "content": "sources/international-phonetic-association-undated-interactive-chart.md",
+  "creator": "International Phonetic Association",
+  "date_basis": "Interactive page publication date not established; site maintenance and copyright years are not equated with publication date.",
+  "domains": [],
+  "id": "english:international-phonetic-association-undated-interactive-chart",
+  "kind": "source",
+  "label": "Interactive IPA chart",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Requested interactive page returned no indexable chart text; official IPA chart overview, associated about page and indexed interactive-chart licence/recording descriptions were inspected. Interactive sound controls were not exercised.",
+      "accessed": "2026-10-11",
+      "creator": "International Phonetic Association",
+      "date_basis": "Interactive page publication date not established; site maintenance and copyright years are not equated with publication date.",
+      "id": "english:reference:international-phonetic-association-undated-interactive-chart",
+      "language": "KPS 9.x",
+      "publication": "Interactive IPA Chart and associated chart notes",
+      "publication_date": null,
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:international-phonetic-association-undated-interactive-chart",
+    "old_path": "references/international-phonetic-association-undated-interactive-chart.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Interactive IPA Chart and associated chart notes",
+  "publication_date": null,
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

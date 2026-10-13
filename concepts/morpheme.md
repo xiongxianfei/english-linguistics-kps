@@ -1,51 +1,34 @@
----
-id: "english:concept:morpheme"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:allomorphy", "english:concept:root-base-and-stem", "english:concept:phone-phoneme-and-allophone"]
----
-
 # Morpheme
 
 ## Key takeaway
-A morpheme is an abstract unit associated with a recurring grammatical or lexical contribution in a morphological analysis.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/morpheme.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A morpheme is an abstract unit associated with a recurring grammatical or lexical contribution in a morphological analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/morpheme.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A morpheme is an abstract unit associated with a recurring grammatical or lexical contribution in a morphological analysis. It is not necessarily one syllable, one letter or one independently pronounceable segment. Its exponents can be discontinuous, irregular or absent in a particular form.
+This is a compatibility redirect. Read [Definition](../knowledge/morpheme.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-In regular "books", BOOK and plural inflection have distinguishable contributions. In "went", the past of GO is not obtained by segmenting off an ordinary English past suffix. A morpheme-based description must allow nonconcatenative realization or be supplemented by a word-based account.
+This is a compatibility redirect. Read [Worked example](../knowledge/morpheme.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-A phoneme distinguishes sound patterns; a morpheme relates form to a morphological contribution. Calling the plural a phoneme confuses the abstract grammatical feature with the sounds used to realize it.
+This is a compatibility redirect. Read [Distinctions](../knowledge/morpheme.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Morpheme segmentation is an analytical proposal. Do not force each meaningful contrast into a one-piece string segment or infer etymological decomposition from modern spelling.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/morpheme.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/morpheme.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Allomorphy](../concepts/allomorphy.md) provides a related distinction used in the local explanation.
-- [Root base and stem](../concepts/root-base-and-stem.md) provides a related distinction used in the local explanation.
-- [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/morpheme.md#related-knowledge) in the canonical KPS 12 content.
+

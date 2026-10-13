@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:semantics",
+  "kind": "domain",
+  "label": "Semantics",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Conventional interpretation, composition, reference and operator interactions; the semantics/pragmatics boundary remains theory-dependent.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

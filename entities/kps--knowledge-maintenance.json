@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "kps:knowledge-maintenance",
+  "kind": "domain",
+  "label": "Knowledge investigation and maintenance",
+  "parents": [],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Evidence evaluation, representation design and editorial maintenance; not a linguistic subsystem.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

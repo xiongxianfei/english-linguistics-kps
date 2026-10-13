@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:prosody:prosodic-annotation-and-measurement",
+  "kind": "domain",
+  "label": "Prosodic annotation and measurement",
+  "parents": [
+    "linguistics:prosody"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Prosody: prosodic annotation and measurement. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

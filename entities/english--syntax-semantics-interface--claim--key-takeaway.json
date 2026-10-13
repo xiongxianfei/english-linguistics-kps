@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:compositional-meaning",
+    "linguistics:syntax",
+    "linguistics:syntax:construction-mappings"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:syntax-semantics-interface:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Syntax Semantics interface — summary claim",
+  "owner": "english:syntax-semantics-interface",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions.",
+  "status": "draft",
+  "version": "0.1.0"
+}

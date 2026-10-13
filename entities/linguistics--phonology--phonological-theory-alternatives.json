@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:phonology:phonological-theory-alternatives",
+  "kind": "domain",
+  "label": "Phonological theory alternatives",
+  "parents": [
+    "linguistics:phonology"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Phonology: phonological theory alternatives. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

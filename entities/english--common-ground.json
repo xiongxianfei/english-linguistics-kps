@@ -1,0 +1,87 @@
+{
+  "aliases": [
+    "english:concept:common-ground"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:common-ground:claim:key-takeaway"
+  ],
+  "content": "knowledge/common-ground.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:information-structure",
+    "linguistics:information-structure:qud-organization",
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:common-ground"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:common-ground",
+  "kind": "knowledge",
+  "label": "Common ground",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:common-ground",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "pragmatics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        4
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:presupposition",
+        "english:concept:discourse-referent",
+        "english:concept:focus-topic-and-qud"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:common-ground",
+    "old_path": "concepts/common-ground.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:presupposition"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:discourse-referent"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:focus-topic-and-qud"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        4
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

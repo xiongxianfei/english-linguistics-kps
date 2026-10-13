@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "english:concept:stress"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:stress:claim:key-takeaway"
+  ],
+  "content": "knowledge/stress.md",
+  "domains": [
+    "linguistics:information-structure",
+    "linguistics:phonetics",
+    "linguistics:phonology",
+    "linguistics:prosody",
+    "linguistics:prosody:lexical-stress"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:stress",
+  "kind": "knowledge",
+  "label": "Stress",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:stress",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology"
+      ],
+      "references": [
+        "english:reference:international-phonetic-association-undated-ipa-chart"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        6
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:vowel-articulation",
+        "english:concept:prosody",
+        "english:concept:syllable-structure"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:stress",
+    "old_path": "concepts/stress.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:vowel-articulation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:prosody"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:syllable-structure"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-ipa-chart"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

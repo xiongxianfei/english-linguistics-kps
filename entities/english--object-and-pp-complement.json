@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:object-and-pp-complement"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:object-and-pp-complement:claim:key-takeaway"
+  ],
+  "content": "knowledge/object-and-pp-complement.md",
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:grammatical-functions"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:object-and-pp-complement",
+  "kind": "knowledge",
+  "label": "Object and PP complement",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:object-and-pp-complement",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "syntax"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        2
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:semantic-role",
+        "english:concept:head-and-dependent",
+        "english:concept:complement-and-modifier"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:object-and-pp-complement",
+    "old_path": "concepts/object-and-pp-complement.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-role"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:head-and-dependent"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:complement-and-modifier"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        2
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

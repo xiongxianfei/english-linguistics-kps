@@ -1,51 +1,34 @@
----
-id: "english:concept:speech-act"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:utterance-and-speaker-meaning", "english:concept:common-ground", "english:concept:deixis"]
----
-
 # Speech act
 
 ## Key takeaway
-A speech act is a communicative action performed through an utterance, such as asserting, asking, requesting or promising.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/speech-act.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A speech act is a communicative action performed through an utterance, such as asserting, asking, requesting or promising. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/speech-act.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A speech act is a communicative action performed through an utterance, such as asserting, asking, requesting or promising. Locutionary content, illocutionary force and perlocutionary effect separate the expression, communicative action and resulting consequences.
+This is a compatibility redirect. Read [Definition](../knowledge/speech-act.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-At a table, "Could you pass the jug?" can have interrogative form, ability-related conventional content and request force. The hearer may comply, refuse or feel annoyed. Successful recognition of a request does not entail successful compliance.
+This is a compatibility redirect. Read [Worked example](../knowledge/speech-act.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Interrogative syntax does not uniquely determine the act of asking for information. Illocution is not merely the semantic proposition, and absence of a response does not by itself identify a particular perlocutionary effect.
+This is a compatibility redirect. Read [Distinctions](../knowledge/speech-act.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Authority, uptake, sincerity and felicity conditions matter for performatives. The worked dialogue is constructed and does not establish universal politeness rankings or interactional outcomes.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/speech-act.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/speech-act.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Utterance and speaker meaning](../concepts/utterance-and-speaker-meaning.md) provides a related distinction used in the local explanation.
-- [Common ground](../concepts/common-ground.md) provides a related distinction used in the local explanation.
-- [Deixis](../concepts/deixis.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/speech-act.md#related-knowledge) in the canonical KPS 12 content.
+

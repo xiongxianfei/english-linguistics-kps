@@ -1,0 +1,21 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "Scoped analytical correspondence; no temporal-processing or one-to-one claim.",
+  "domains": [],
+  "id": "kps:maps-to",
+  "kind": "relation-type",
+  "label": "maps to",
+  "layer": "semantic",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "representation"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "representation"
+  ],
+  "version": "0.1.0"
+}

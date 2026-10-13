@@ -1,0 +1,83 @@
+{
+  "aliases": [
+    "english:concept:evidence-and-analysis"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:evidence-and-analysis:claim:key-takeaway"
+  ],
+  "content": "knowledge/evidence-and-analysis.md",
+  "domains": [
+    "kps:knowledge-maintenance"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:evidence-and-analysis",
+  "kind": "knowledge",
+  "label": "Evidence and analysis",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:evidence-and-analysis",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:interface",
+        "english:concept:grammaticality-and-acceptability",
+        "english:concept:expression-and-representation"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:evidence-and-analysis",
+    "old_path": "concepts/evidence-and-analysis.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:interface"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:grammaticality-and-acceptability"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:expression-and-representation"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

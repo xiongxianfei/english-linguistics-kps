@@ -1,59 +1,38 @@
----
-id: "english:model:syntax-semantics-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-role", "english:concept:object-and-pp-complement", "english:concept:valency-and-argument-structure"]
----
-
 # Syntax Semantics interface
 
 ## Key takeaway
-Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/syntax-semantics-interface.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/syntax-semantics-interface.md#summary) in the canonical KPS 12 content.
 
 ## Purpose
 
-Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions.
+This is a compatibility redirect. Read [Purpose](../knowledge/syntax-semantics-interface.md#purpose) in the canonical KPS 12 content.
 
 ## Representation
 
-| Construction | Giver | Recipient | Theme |
-|---|---|---|---|
-| Leo gave Maya a prize | Subject | Indirect Object | Direct Object |
-| Leo gave a prize to Maya | Subject | NP inside to-PP | Direct Object |
-| Maya was given a prize by Leo | NP inside by-PP | Subject | Retained Object |
+This is a compatibility redirect. Read [Representation](../knowledge/syntax-semantics-interface.md#representation) in the canonical KPS 12 content.
 
 ## Worked interpretation
 
-A passive can preserve the basic participant relations while changing grammatical functions. A causative alternation such as "The glass broke / Leo broke the glass" can add a Causer instead. A psych predicate can give a Stimulus Subject and Experiencer Object without passive morphology.
+This is a compatibility redirect. Read [Worked interpretation](../knowledge/syntax-semantics-interface.md#worked-interpretation) in the canonical KPS 12 content.
 
 ## Assumptions and limits
 
-Dative alternation has lexical, semantic and discourse restrictions; the table does not establish complete synonymy. Role inventories vary. The mapping is analytical rather than evidence of a particular neural transfer operation.
+This is a compatibility redirect. Read [Assumptions and limits](../knowledge/syntax-semantics-interface.md#assumptions-and-limits) in the canonical KPS 12 content.
 
 ## Evaluation and counterevidence
 
-Ask which participants are added, omitted, implicit or redistributed. A changed function alone does not necessarily add a role. Keep explicit versus inferred participants separate in every example.
+This is a compatibility redirect. Read [Evaluation and counterevidence](../knowledge/syntax-semantics-interface.md#evaluation-and-counterevidence) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/syntax-semantics-interface.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
-- [Valency and argument structure](../concepts/valency-and-argument-structure.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/syntax-semantics-interface.md#related-knowledge) in the canonical KPS 12 content.
+

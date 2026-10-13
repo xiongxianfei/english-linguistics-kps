@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:phonetics",
+  "kind": "domain",
+  "label": "Phonetics",
+  "parents": [
+    "linguistics:language"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Speech production, acoustic signals and perception; measured tokens must be distinguished from predicted transcriptions.",
+  "status": "draft",
+  "top_level": true,
+  "version": "0.1.0"
+}

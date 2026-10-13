@@ -1,0 +1,99 @@
+{
+  "aliases": [
+    "english:method:analyze-complete-utterance"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:analyze-complete-utterance:claim:key-takeaway"
+  ],
+  "content": "knowledge/analyze-complete-utterance.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:information-structure",
+    "linguistics:lexicon",
+    "linguistics:morphology",
+    "linguistics:phonetics",
+    "linguistics:phonology",
+    "linguistics:pragmatics",
+    "linguistics:prosody",
+    "linguistics:semantics",
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:analyze-complete-utterance",
+  "kind": "knowledge",
+  "label": "Analyze complete utterance",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:method:analyze-complete-utterance",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "method",
+      "uses_concepts": [
+        "english:concept:expression-and-representation",
+        "english:concept:interface",
+        "english:concept:constraint-and-preference",
+        "english:concept:evidence-and-analysis"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:method:analyze-complete-utterance",
+    "old_path": "methods/analyze-complete-utterance.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:expression-and-representation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:interface"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:constraint-and-preference"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:evidence-and-analysis"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:method"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

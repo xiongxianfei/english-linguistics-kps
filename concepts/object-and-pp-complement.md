@@ -1,51 +1,34 @@
----
-id: "english:concept:object-and-pp-complement"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [2]
-perspectives: ["syntax"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-role", "english:concept:head-and-dependent", "english:concept:complement-and-modifier"]
----
-
 # Object and PP complement
 
 ## Key takeaway
-A Direct Object and a PP complement are different syntactic realizations.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/object-and-pp-complement.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-A Direct Object and a PP complement are different syntactic realizations. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/object-and-pp-complement.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-A Direct Object and a PP complement are different syntactic realizations. An NP inside a PP stands in a local relation to its preposition. It must not be flattened into an Object of the higher verb simply because it expresses a core semantic participant.
+This is a compatibility redirect. Read [Definition](../knowledge/object-and-pp-complement.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-Compare "Nina sent Ravi a letter" with "Nina sent a letter to Ravi". Ravi is Indirect Object in the first construction. In the second, to Ravi is a PP and Ravi is the NP complement of TO. The Recipient relation remains a semantic description in both.
+This is a compatibility redirect. Read [Worked example](../knowledge/object-and-pp-complement.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-A preposition's complement is sometimes traditionally called its object; that terminology does not make it the Direct Object of SEND. State the head whenever using the word complement.
+This is a compatibility redirect. Read [Distinctions](../knowledge/object-and-pp-complement.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-The draft adopts a descriptive double-object/to-PP distinction. Alternative frameworks may use oblique arguments or different dependency labels, and dative alternations have lexical and semantic restrictions.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/object-and-pp-complement.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/object-and-pp-complement.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
-- [Complement and modifier](../concepts/complement-and-modifier.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/object-and-pp-complement.md#related-knowledge) in the canonical KPS 12 content.
+

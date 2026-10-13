@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:contrast-and-concession"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:contrast-and-concession:claim:key-takeaway"
+  ],
+  "content": "knowledge/contrast-and-concession.md",
+  "domains": [
+    "linguistics:discourse",
+    "linguistics:discourse:discourse-relations"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:contrast-and-concession",
+  "kind": "knowledge",
+  "label": "Contrast and concession",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:contrast-and-concession",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "discourse-and-information-structure"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        5
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:discourse-relation",
+        "english:concept:negation-and-entailment",
+        "english:concept:coordination-and-subordination"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:contrast-and-concession",
+    "old_path": "concepts/contrast-and-concession.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:discourse-relation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:negation-and-entailment"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:coordination-and-subordination"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        5
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

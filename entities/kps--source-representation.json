@@ -1,0 +1,21 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "The source endpoint of a documented mapping.",
+  "domains": [],
+  "id": "kps:source-representation",
+  "kind": "relation-type",
+  "label": "source representation",
+  "layer": "interface",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "interface"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "representation"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:grammatical-functions"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:object-and-pp-complement:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Object and PP complement — summary claim",
+  "owner": "english:object-and-pp-complement",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A Direct Object and a PP complement are different syntactic realizations.",
+  "status": "draft",
+  "version": "0.1.0"
+}

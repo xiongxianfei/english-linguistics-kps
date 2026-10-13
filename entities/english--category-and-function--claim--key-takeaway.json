@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:foundations",
+    "linguistics:syntax",
+    "linguistics:syntax:syntactic-categories"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:category-and-function:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Category and function — summary claim",
+  "owner": "english:category-and-function",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A syntactic category classifies an expression by its structural and distributional properties; a grammatical function describes its relationship within a larger construction.",
+  "status": "draft",
+  "version": "0.1.0"
+}

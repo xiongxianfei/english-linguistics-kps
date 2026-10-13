@@ -1,0 +1,92 @@
+{
+  "aliases": [
+    "english:principle:exponents-are-conditioned-by-sound"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:exponents-are-conditioned-by-sound:claim:key-takeaway"
+  ],
+  "content": "knowledge/exponents-are-conditioned-by-sound.md",
+  "domains": [
+    "linguistics:morphology",
+    "linguistics:morphology:allomorphy",
+    "linguistics:phonology"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:exponents-are-conditioned-by-sound",
+  "kind": "knowledge",
+  "label": "Regular inflectional exponents are conditioned by stem sounds",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:principle:exponents-are-conditioned-by-sound",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology"
+      ],
+      "references": [
+        "english:reference:anderson-2018-essentials-of-linguistics"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        6
+      ],
+      "status": "draft",
+      "type": "principle",
+      "uses_concepts": [
+        "english:concept:allomorphy",
+        "english:concept:consonant-articulation",
+        "english:concept:inflection"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:principle:exponents-are-conditioned-by-sound",
+    "old_path": "principles/exponents-are-conditioned-by-sound.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:allomorphy"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:consonant-articulation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:inflection"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:anderson-2018-essentials-of-linguistics"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:principle"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

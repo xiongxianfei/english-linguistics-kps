@@ -1,0 +1,19 @@
+{
+  "about": "english:representation-levels",
+  "aliases": [],
+  "assessment": "Preserves an existing document citation. No claim-level support is inferred by migration.",
+  "assessment_relation": "context-only",
+  "domains": [],
+  "id": "english:evidence:afb0024fc0f5a2c24273bb7b",
+  "inspection_extent": "Historical source-record inspection extent is retained; migration performs no new source inspection.",
+  "kind": "evidence",
+  "label": "Orthography phonology and phonetics — legacy source context",
+  "locator": null,
+  "record_origin": "legacy-citation-migration",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source": "english:international-phonetic-association-undated-ipa-chart",
+  "status": "draft",
+  "version": "0.1.0"
+}

@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:model:quantifier-scope-model"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:quantifier-scope-model:claim:key-takeaway"
+  ],
+  "content": "knowledge/quantifier-scope-model.md",
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:quantification-and-scope"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:quantifier-scope-model",
+  "kind": "knowledge",
+  "label": "Quantifier scope model",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:quantifier-scope-model",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "semantics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        3
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:quantification-and-scope",
+        "english:concept:negation-and-entailment",
+        "english:concept:semantic-predicate"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:quantifier-scope-model",
+    "old_path": "models/quantifier-scope-model.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:quantification-and-scope"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:negation-and-entailment"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:semantic-predicate"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        3
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:syntax"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation:clause-functions",
+  "kind": "representation",
+  "label": "Clause functions",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "An analytical representation for the documented interface, not a universal ontology or observed token.",
+  "status": "draft",
+  "structure": {
+    "observation_status": "schematic; no token measurements",
+    "record_fields": [
+      "construction",
+      "constituents",
+      "grammatical_functions"
+    ]
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,42 @@
+{
+  "access_extent": "Visual inspection of the official PNG diacritics and other-symbol panels, with the official consonant and vowel panels consulted for cross-checking. No chart audio, video or speaker recording was played.",
+  "accessed": "2026-10-11",
+  "aliases": [
+    "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols"
+  ],
+  "content": "sources/international-phonetic-association-undated-diacritics-and-other-symbols.md",
+  "creator": "International Phonetic Association",
+  "date_basis": "Chart images show a 2026 issue and the 2015/2005 revision; a separate publication date for these web images was not established.",
+  "domains": [],
+  "id": "english:international-phonetic-association-undated-diacritics-and-other-symbols",
+  "kind": "source",
+  "label": "IPA diacritics and other symbols",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "access_extent": "Visual inspection of the official PNG diacritics and other-symbol panels, with the official consonant and vowel panels consulted for cross-checking. No chart audio, video or speaker recording was played.",
+      "accessed": "2026-10-11",
+      "creator": "International Phonetic Association",
+      "date_basis": "Chart images show a 2026 issue and the 2015/2005 revision; a separate publication date for these web images was not established.",
+      "id": "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols",
+      "language": "KPS 9.x",
+      "publication": "Official IPA diacritics and other symbols subcharts",
+      "publication_date": null,
+      "reviewed": null,
+      "status": "draft",
+      "type": "reference",
+      "version": "0.1.0"
+    },
+    "old_id": "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols",
+    "old_path": "references/international-phonetic-association-undated-diacritics-and-other-symbols.md",
+    "old_version": "0.1.0"
+  },
+  "publication": "Official IPA diacritics and other symbols subcharts",
+  "publication_date": null,
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "status": "draft",
+  "version": "0.2.0"
+}

@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:grammatical-functions"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:predicative-complement:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Predicative complement — summary claim",
+  "owner": "english:predicative-complement",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A predicative complement attributes a property, classification or identity to a predicand rather than functioning as an ordinary Object participant.",
+  "status": "draft",
+  "version": "0.1.0"
+}

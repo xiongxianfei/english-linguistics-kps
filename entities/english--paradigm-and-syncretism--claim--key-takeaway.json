@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:morphology",
+    "linguistics:morphology:inflectional-paradigms"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:paradigm-and-syncretism:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Paradigm and syncretism — summary claim",
+  "owner": "english:paradigm-and-syncretism",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A paradigm organizes the grammatical forms of a lexeme by feature values or form categories.",
+  "status": "draft",
+  "version": "0.1.0"
+}

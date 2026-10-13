@@ -1,51 +1,34 @@
----
-id: "english:concept:temporal-causal-and-evidential-relations"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:tense-and-aspect", "english:concept:modality", "english:concept:discourse-relation"]
----
-
 # Temporal causal and evidential relations
 
 ## Key takeaway
-Temporal relations locate situations before, after or overlapping others.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/temporal-causal-and-evidential-relations.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Temporal relations locate situations before, after or overlapping others. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/temporal-causal-and-evidential-relations.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-Temporal relations locate situations before, after or overlapping others. Causal relations concern what brings about a situation. Evidential relations concern what supports believing a proposition. An explanation can operate at either causal or epistemic level and must be specified.
+This is a compatibility redirect. Read [Definition](../knowledge/temporal-causal-and-evidential-relations.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-"Maya entered. Ravi coughed" suggests sequence without necessarily indicating causation. "The road was icy. The car skidded" supports a causal inference. "The lights are off. Maya must have left" presents evidence for a conclusion, not necessarily a cause of leaving.
+This is a compatibility redirect. Read [Worked example](../knowledge/temporal-causal-and-evidential-relations.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Later mention does not mean later event: "Maya left. She had finished" places finishing earlier. A progressive can establish an overlapping interval without proving the complete duration of a following event.
+This is a compatibility redirect. Read [Distinctions](../knowledge/temporal-causal-and-evidential-relations.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-World knowledge makes the sample inferences defeasible. Temporal precedence alone is not sufficient for causation, and correlational discourse evidence is not a controlled causal study.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/temporal-causal-and-evidential-relations.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/temporal-causal-and-evidential-relations.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Tense and aspect](../concepts/tense-and-aspect.md) provides a related distinction used in the local explanation.
-- [Modality](../concepts/modality.md) provides a related distinction used in the local explanation.
-- [Discourse relation](../concepts/discourse-relation.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/temporal-causal-and-evidential-relations.md#related-knowledge) in the canonical KPS 12 content.
+

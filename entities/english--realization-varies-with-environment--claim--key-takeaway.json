@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:coarticulation-and-reduction",
+    "linguistics:phonology",
+    "linguistics:phonology:allophonic-distribution"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:realization-varies-with-environment:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Phonetic realization varies with environment — summary claim",
+  "owner": "english:realization-varies-with-environment",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A phonological category can have different phonetic realizations without a change of lexical identity.",
+  "status": "draft",
+  "version": "0.1.0"
+}

@@ -1,51 +1,34 @@
----
-id: "english:concept:inflection"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:lexeme-and-word-form", "english:concept:paradigm-and-syncretism", "english:concept:allomorphy"]
----
-
 # Inflection
 
 ## Key takeaway
-Inflection realizes grammatical distinctions within a lexeme's paradigm in the working lexeme-based model.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/inflection.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Inflection realizes grammatical distinctions within a lexeme's paradigm in the working lexeme-based model. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/inflection.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-Inflection realizes grammatical distinctions within a lexeme's paradigm in the working lexeme-based model. Number and tense are central English examples. Regular suffixation is one realization strategy, not the definition of inflection.
+This is a compatibility redirect. Read [Definition](../knowledge/inflection.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-BOOK to books expresses plural number within BOOK. GO to went expresses past tense within GO despite suppletive form. The grammatical feature is TENSE, its value is past, and went is the realizing word form; those are three different objects.
+This is a compatibility redirect. Read [Worked example](../knowledge/inflection.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Inflection does not have to preserve the visible shape of a stem. Conversely, a suffix does not automatically signal inflection: teacher is derivationally related to teach.
+This is a compatibility redirect. Read [Distinctions](../knowledge/inflection.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-Comparative morphology and participial uses raise framework-specific classification questions. This package records its choices rather than presenting the inflection/derivation boundary as exceptionless.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/inflection.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/inflection.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Lexeme and word form](../concepts/lexeme-and-word-form.md) provides a related distinction used in the local explanation.
-- [Paradigm and syncretism](../concepts/paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
-- [Allomorphy](../concepts/allomorphy.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/inflection.md#related-knowledge) in the canonical KPS 12 content.
+

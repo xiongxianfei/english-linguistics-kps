@@ -1,25 +1,22 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
-
-# Navigation conventions
+# KPS 12 navigation
 
 ## Key takeaway
-Portable relative Markdown links and stable metadata IDs serve different jobs.
+Browse one canonical knowledge graph by role, domain, interface, claim, evidence or sequence.
 
 ## Summary
-Portable relative Markdown links and stable metadata IDs serve different jobs. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
+INDEX.md, DOMAINS.md, INTERFACES.md, COVERAGE.md, SOURCES.md, REVIEW-QUEUE.md, views/domains and knowledge-graph.json are generated from canonical entity records. File hierarchy is not the ontology.
 
-## Files and headings
+## Commands
+```bash
+python3 tools/build_navigation.py
+python3 tools/build_navigation.py --check
+python3 tools/kps12.py query --domain linguistics:prosody
+python3 tools/kps12.py query --role kps:role:model --interfaces
+python3 tools/kps12.py query --id english:concept:prosody
+python3 tools/kps12.py query --claim english:prosody:claim:key-takeaway
+```
 
-Use [the system model](models/english-system-architecture.md) as an ordinary relative link. Use conservative ASCII words in headings under the current upstream validator. Heading fragments derive from the full heading text, not from metadata IDs. Do not create custom HTML anchors or use Obsidian wikilinks.
+An empty claim-evidence result means no substantive evidence record targets that claim; it does not mean the owner has no bibliography links. Use the explicit graph layers to distinguish citations, classifications, document dependencies and semantic mappings.
 
-## Generated views
-
-INDEX.md, COVERAGE.md, REVIEW-QUEUE.md and knowledge-graph.json are generated from canonical object metadata. Edit source objects and run python3 tools/build_navigation.py. CI --check detects drift without rewriting files. Stages 0 through 7 provide coverage navigation, while Practice stages are local numbered execution steps.
-
-## Reader limits
-
-Markdown rendering and IPA font appearance vary by application. Ordinary text and relative links remain usable without optional graph plugins. Generated views are not additional authoritative definitions.
+## Paths and anchors
+Canonical Markdown under knowledge and sources uses ordinary relative links. Old paths contain compatibility redirects and preserve original heading anchors. Entity IDs are not Markdown anchors. Sequence positions are navigation choices, not intrinsic linguistic levels.

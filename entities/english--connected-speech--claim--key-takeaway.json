@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:coarticulation-and-reduction",
+    "linguistics:phonology",
+    "linguistics:phonology:phonological-processes",
+    "linguistics:prosody",
+    "linguistics:prosody:prosodic-phrasing"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:connected-speech:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Connected speech — summary claim",
+  "owner": "english:connected-speech",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "Connected-speech processes describe context-sensitive realization across segments and word boundaries.",
+  "status": "draft",
+  "version": "0.1.0"
+}

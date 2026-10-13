@@ -1,13 +1,6 @@
 {
-  "repository": "xiongxianfei/knowledge-practice-system",
-  "release": "9.0.1",
-  "commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
-  "copied_files": {
-    "AUTHORING.md": "d5890f789418d4ecf21917add2a9a8915be28d06",
-    "validate.py": "b9f853f0b6c62d1c9b50839dc45324badc885f73",
-    "test_validate.py": "de1cd80c477fc71cd69c1863378fd2767ec687f8",
-    "LICENSE": "f2069d6cff77823390bd06ee0513c324db216050"
-  },
-  "hash_algorithm": "Git blob SHA1: SHA1(blob SP length NUL bytes)",
-  "purpose": "Pinned unchanged authoring contract and structural tooling; not scientific evidence"
+  "active_profile": "12.0.0-draft.1",
+  "legacy_lock": "legacy/kps9/upstream-lock.json",
+  "scope": "historical KPS 9 attribution only",
+  "upstream_kps12_release_claimed": false
 }

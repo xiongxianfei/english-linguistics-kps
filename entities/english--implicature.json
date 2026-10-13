@@ -1,0 +1,84 @@
+{
+  "aliases": [
+    "english:concept:implicature"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:implicature:claim:key-takeaway"
+  ],
+  "content": "knowledge/implicature.md",
+  "domains": [
+    "linguistics:pragmatics",
+    "linguistics:pragmatics:implicature"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:implicature",
+  "kind": "knowledge",
+  "label": "Conversational implicature",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:implicature",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "pragmatics"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        4
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:gricean-reasoning",
+        "english:concept:quantification-and-scope",
+        "english:concept:utterance-and-speaker-meaning"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:implicature",
+    "old_path": "concepts/implicature.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:gricean-reasoning"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:quantification-and-scope"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:utterance-and-speaker-meaning"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        4
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

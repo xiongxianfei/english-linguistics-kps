@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:semantics:temporal-and-event-semantics",
+  "kind": "domain",
+  "label": "Temporal and event semantics",
+  "parents": [
+    "linguistics:semantics"
+  ],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Semantics: temporal and event semantics. This is a provisional scope entry; zero classified entities means an explicit coverage gap.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}

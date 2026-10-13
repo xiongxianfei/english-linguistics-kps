@@ -1,0 +1,19 @@
+{
+  "about": "english:learn-word-pronunciation",
+  "aliases": [],
+  "assessment": "Preserves an existing document citation. No claim-level support is inferred by migration.",
+  "assessment_relation": "context-only",
+  "domains": [],
+  "id": "english:evidence:9b35c4f169ef2d1aac3605e6",
+  "inspection_extent": "Historical source-record inspection extent is retained; migration performs no new source inspection.",
+  "kind": "evidence",
+  "label": "Learn a word pronunciation — legacy source context",
+  "locator": null,
+  "record_origin": "legacy-citation-migration",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source": "english:merriam-webster-undated-pin-entry",
+  "status": "draft",
+  "version": "0.1.0"
+}

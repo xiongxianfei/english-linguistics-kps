@@ -1,0 +1,31 @@
+name: KPS and domain checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Python version
+        run: python3 --version
+      - name: KPS structural validation
+        run: python3 validate.py .
+      - name: Upstream regression tests
+        run: python3 test_validate.py
+      - name: Domain publication invariants
+        run: python3 tools/check_domain.py
+      - name: Generated navigation freshness
+        run: python3 tools/build_navigation.py --check
+      - name: Constructed model and domain regression tests
+        run: python3 -m unittest discover -s tests -v

@@ -1,0 +1,105 @@
+{
+  "aliases": [
+    "english:concept:representation-levels"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:representation-levels:claim:key-takeaway"
+  ],
+  "content": "knowledge/representation-levels.md",
+  "domains": [
+    "linguistics:phonetics",
+    "linguistics:phonetics:acoustic-phonetics",
+    "linguistics:phonetics:phonetic-transcription",
+    "linguistics:phonology"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:representation-levels",
+  "kind": "knowledge",
+  "label": "Orthography phonology and phonetics",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:concept:representation-levels",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology"
+      ],
+      "references": [
+        "english:reference:international-phonetic-association-undated-ipa-chart",
+        "english:reference:tophonetics-undated-english-transcription",
+        "english:reference:international-phonetic-association-undated-interactive-chart"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        6
+      ],
+      "status": "draft",
+      "type": "concept",
+      "uses_concepts": [
+        "english:concept:phone-phoneme-and-allophone",
+        "english:concept:consonant-articulation",
+        "english:concept:vowel-articulation"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:concept:representation-levels",
+    "old_path": "concepts/representation-levels.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:phone-phoneme-and-allophone"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:consonant-articulation"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:vowel-articulation"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:tophonetics-undated-english-transcription"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-interactive-chart"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:concept"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

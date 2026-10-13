@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "domains": [
+    "linguistics:semantics",
+    "linguistics:semantics:participant-roles"
+  ],
+  "evidence_status": "provisional",
+  "extraction": "key-takeaway-only",
+  "granularity": "summary-not-assumed-atomic",
+  "id": "english:semantic-role:claim:key-takeaway",
+  "kind": "claim",
+  "label": "Semantic role — summary claim",
+  "owner": "english:semantic-role",
+  "owner_version": "0.2.0",
+  "relations": [],
+  "reviewed": null,
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Only the qualified summary in the named owner; its assumptions, variety limits, examples and nonclaims remain in the full content.",
+  "statement": "A semantic role characterizes a participant's relationship to a predicate or situation.",
+  "status": "draft",
+  "version": "0.1.0"
+}

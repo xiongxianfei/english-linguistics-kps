@@ -1,51 +1,34 @@
----
-id: "english:concept:modality"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-stages: [3]
-perspectives: ["semantics"]
-evidence_status: "provisional"
-source_status: "external-support-pending"
-basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
-reviewed: null
-references: []
-uses_concepts: ["english:concept:tense-and-aspect", "english:concept:contextual-resolution", "english:concept:semantic-predicate"]
----
-
 # Modality
 
 ## Key takeaway
-Modality evaluates possibilities or necessities relative to a source of constraints and, in many theories, an ordering of relevant alternatives.
+
+This is a compatibility redirect. Read [Key takeaway](../knowledge/modality.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Modality evaluates possibilities or necessities relative to a source of constraints and, in many theories, an ordering of relevant alternatives. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it.
+
+This is a compatibility redirect. Read [Summary](../knowledge/modality.md#summary) in the canonical KPS 12 content.
 
 ## Definition
 
-Modality evaluates possibilities or necessities relative to a source of constraints and, in many theories, an ordering of relevant alternatives. Epistemic readings concern evidence or knowledge; deontic readings concern rules or obligations. Ability and disposition provide further modal domains.
+This is a compatibility redirect. Read [Definition](../knowledge/modality.md#definition) in the canonical KPS 12 content.
 
 ## Worked example
 
-"Visitors must wear badges" naturally expresses a rule. "The office is empty, so Maya must have left" expresses an inference, not a command to have left. "Maya may leave" can concern permission or possibility depending on context.
+This is a compatibility redirect. Read [Worked example](../knowledge/modality.md#worked-example) in the canonical KPS 12 content.
 
 ## Distinctions
 
-Both epistemic and deontic modality can involve necessity; necessity alone cannot classify the source. Epistemic must is not an assertion of infallible proof, and evidence may mislead.
+This is a compatibility redirect. Read [Distinctions](../knowledge/modality.md#distinctions) in the canonical KPS 12 content.
 
 ## Scope and limits
 
-The actual domain, strength and temporal interpretation need contextual specification. This note provides a working distinction, not a complete possible-worlds model or legal interpretation of must.
+This is a compatibility redirect. Read [Scope and limits](../knowledge/modality.md#scope-and-limits) in the canonical KPS 12 content.
 
 ## Evidence status
 
-**Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
-
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+This is a compatibility redirect. Read [Evidence status](../knowledge/modality.md#evidence-status) in the canonical KPS 12 content.
 
 ## Related knowledge
 
-- [Tense and aspect](../concepts/tense-and-aspect.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
+This is a compatibility redirect. Read [Related knowledge](../knowledge/modality.md#related-knowledge) in the canonical KPS 12 content.
+

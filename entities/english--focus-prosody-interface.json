@@ -1,0 +1,103 @@
+{
+  "aliases": [
+    "english:model:focus-prosody-interface"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:focus-prosody-interface:claim:key-takeaway"
+  ],
+  "content": "knowledge/focus-prosody-interface.md",
+  "domains": [
+    "linguistics:information-structure",
+    "linguistics:information-structure:focus-and-alternatives",
+    "linguistics:information-structure:focus-projection",
+    "linguistics:pragmatics",
+    "linguistics:prosody",
+    "linguistics:prosody:pitch-accent-and-prominence"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:focus-prosody-interface",
+  "kind": "interface",
+  "label": "Information Structure Prosody interface",
+  "mapping": {
+    "cardinality": "unspecified",
+    "claim": "english:focus-prosody-interface:claim:key-takeaway",
+    "predicate": "kps:constrains",
+    "scope": "The working analysis, context and variety limits in knowledge/focus-prosody-interface.md; not a neural processing claim.",
+    "source": "english:representation:focus-domain",
+    "target": "english:representation:prominence-pattern"
+  },
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:focus-prosody-interface",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "interfaces-and-integration"
+      ],
+      "references": [
+        "english:reference:roberts-2012-information-structure"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stages": [
+        7
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:focus-topic-and-qud",
+        "english:concept:prosody",
+        "english:concept:stress"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:focus-prosody-interface",
+    "old_path": "models/focus-prosody-interface.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:focus-topic-and-qud"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:prosody"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:stress"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:roberts-2012-information-structure"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "status": "draft",
+  "version": "0.2.0"
+}

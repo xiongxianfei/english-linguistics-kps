@@ -1,0 +1,215 @@
+{
+  "aliases": [
+    "english:practice:learn-word-pronunciation"
+  ],
+  "basis_kind": "AI-assisted authored procedure; source support for selected distinctions and resource capabilities only; learning effectiveness untested",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:learn-word-pronunciation:claim:key-takeaway"
+  ],
+  "content": "knowledge/learn-word-pronunciation.md",
+  "domains": [
+    "linguistics:lexicon",
+    "linguistics:morphology",
+    "linguistics:phonetics",
+    "linguistics:phonetics:speech-perception",
+    "linguistics:phonology",
+    "linguistics:prosody",
+    "linguistics:prosody:lexical-stress"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:learn-word-pronunciation",
+  "kind": "knowledge",
+  "label": "Learn a word pronunciation",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored procedure; source support for selected distinctions and resource capabilities only; learning effectiveness untested",
+      "composes": [
+        "english:practice:classify-and-produce-phone"
+      ],
+      "evidence_status": "provisional",
+      "id": "english:practice:learn-word-pronunciation",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "phonetics-and-phonology",
+        "interfaces-and-integration"
+      ],
+      "practice_format": "staged-inline-stageN-v1",
+      "reference_variety": "General American",
+      "references": [
+        "english:reference:sounds-american-undated-chart-and-terms",
+        "english:reference:tophonetics-undated-english-transcription",
+        "english:reference:international-phonetic-association-undated-ipa-chart",
+        "english:reference:international-phonetic-association-undated-interactive-chart",
+        "english:reference:anderson-2018-essentials-of-linguistics",
+        "english:reference:merriam-webster-undated-pin-entry"
+      ],
+      "reviewed": null,
+      "source_status": "selected-support-only",
+      "stage_order": "recommended; evidence availability and prerequisites govern entry",
+      "stage_titles": [
+        "Stage1 Define the word and situation",
+        "Stage2 Establish a candidate phonemic form",
+        "Stage3 Listen for segments syllables and stress",
+        "Stage4 Shape the sounds and assemble the word",
+        "Stage5 Record compare and diagnose",
+        "Stage6 Retrieve transfer and retain evidence"
+      ],
+      "stages": [
+        6,
+        7
+      ],
+      "status": "draft",
+      "type": "practice",
+      "uses_concepts": [
+        "english:concept:representation-levels",
+        "english:concept:phone-phoneme-and-allophone",
+        "english:concept:stress",
+        "english:concept:syllable-structure",
+        "english:concept:connected-speech",
+        "english:concept:evidence-and-analysis"
+      ],
+      "uses_methods": [
+        "english:method:analyze-sound-realization"
+      ],
+      "uses_models": [
+        "english:model:phonological-word-model"
+      ],
+      "uses_principles": [
+        "english:principle:realization-varies-with-environment",
+        "english:principle:validation-does-not-establish-truth"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:practice:learn-word-pronunciation",
+    "old_path": "practices/learn-word-pronunciation.md",
+    "old_version": "0.1.0"
+  },
+  "practice_format": "staged-inline-stageN-v1",
+  "reference_variety": "General American",
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:representation-levels"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:phone-phoneme-and-allophone"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:stress"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:syllable-structure"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:connected-speech"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:evidence-and-analysis"
+    },
+    {
+      "expected_target_role": "kps:role:principle",
+      "legacy_predicate": "uses_principles",
+      "predicate": "kps:uses",
+      "target": "english:realization-varies-with-environment"
+    },
+    {
+      "expected_target_role": "kps:role:principle",
+      "legacy_predicate": "uses_principles",
+      "predicate": "kps:uses",
+      "target": "english:validation-does-not-establish-truth"
+    },
+    {
+      "expected_target_role": "kps:role:model",
+      "legacy_predicate": "uses_models",
+      "predicate": "kps:uses",
+      "target": "english:phonological-word-model"
+    },
+    {
+      "expected_target_role": "kps:role:method",
+      "legacy_predicate": "uses_methods",
+      "predicate": "kps:uses",
+      "target": "english:analyze-sound-realization"
+    },
+    {
+      "expected_target_role": "kps:role:practice",
+      "legacy_predicate": "composes",
+      "predicate": "kps:composes",
+      "target": "english:classify-and-produce-phone"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:sounds-american-undated-chart-and-terms"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:tophonetics-undated-english-transcription"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-ipa-chart"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:international-phonetic-association-undated-interactive-chart"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:anderson-2018-essentials-of-linguistics"
+    },
+    {
+      "legacy_predicate": "references",
+      "predicate": "kps:cites",
+      "target": "english:merriam-webster-undated-pin-entry"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:practice"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        6,
+        7
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "selected-support-only",
+  "stage_order": "recommended; evidence availability and prerequisites govern entry",
+  "stage_titles": [
+    "Stage1 Define the word and situation",
+    "Stage2 Establish a candidate phonemic form",
+    "Stage3 Listen for segments syllables and stress",
+    "Stage4 Shape the sounds and assemble the word",
+    "Stage5 Record compare and diagnose",
+    "Stage6 Retrieve transfer and retain evidence"
+  ],
+  "status": "draft",
+  "version": "0.2.0"
+}

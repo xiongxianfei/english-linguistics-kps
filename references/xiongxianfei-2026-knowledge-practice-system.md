@@ -1,40 +1,26 @@
----
-id: "english:reference:xiongxianfei-2026-knowledge-practice-system"
-type: "reference"
-version: "0.1.0"
-language: "KPS 9.x"
-status: "draft"
-creator: "xiongxianfei"
-publication: "Knowledge Practice System 9.0.1"
-publication_date: "2026-10-07"
-date_basis: "Release metadata and repository commit history; inspected pinned commit rather than inferring a publication date from access time."
-accessed: "2026-10-11"
-access_extent: "README, AUTHORING, COMPATIBILITY, CHECKS, domain-package guidance and validator/test source; no claim of independent validation of KPS as a productivity intervention."
-reviewed: null
----
-
 # Knowledge Practice System authoring and validation
 
 ## Key takeaway
-This record identifies the inspected publication and limits its contribution to the stated passages.
+
+This is a compatibility redirect. Read [Key takeaway](../sources/xiongxianfei-2026-knowledge-practice-system.md#key-takeaway) in the canonical KPS 12 content.
 
 ## Summary
-Knowledge Practice System 9.0.1. Creator: xiongxianfei. Selected inspection is documented below; this is not verification of the entire publication or the whole English package.
+
+This is a compatibility redirect. Read [Summary](../sources/xiongxianfei-2026-knowledge-practice-system.md#summary) in the canonical KPS 12 content.
 
 ## Publication identity
 
-[Publication](https://github.com/xiongxianfei/knowledge-practice-system/tree/60972c57199ae8bc21d4b7a00ac55552b4105277)
-
-Date: 2026-10-07. Date basis: Release metadata and repository commit history; inspected pinned commit rather than inferring a publication date from access time.
+This is a compatibility redirect. Read [Publication identity](../sources/xiongxianfei-2026-knowledge-practice-system.md#publication-identity) in the canonical KPS 12 content.
 
 ## Inspection extent
 
-Accessed 2026-10-11. README, AUTHORING, COMPATIBILITY, CHECKS, domain-package guidance and validator/test source; no claim of independent validation of KPS as a productivity intervention.
+This is a compatibility redirect. Read [Inspection extent](../sources/xiongxianfei-2026-knowledge-practice-system.md#inspection-extent) in the canonical KPS 12 content.
 
 ## Checks
 
-The inspected authoring contract defines five roles, source records, portable Markdown, local completeness and structural checks. The checker explicitly does not prove factual truth. These support this package's authoring conventions, not any linguistic claim.
+This is a compatibility redirect. Read [Checks](../sources/xiongxianfei-2026-knowledge-practice-system.md#checks) in the canonical KPS 12 content.
 
 ## Nonclaims
 
-KPS compatibility is not a scientific certification. The upstream five-role system is an authored convention. Independent review of English claims remains outstanding.
+This is a compatibility redirect. Read [Nonclaims](../sources/xiongxianfei-2026-knowledge-practice-system.md#nonclaims) in the canonical KPS 12 content.
+

@@ -1,0 +1,91 @@
+{
+  "aliases": [
+    "english:model:auxiliary-selection-model"
+  ],
+  "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+  "claim_extraction": "summary-only; all other body assertions require claim-by-claim review",
+  "claims": [
+    "english:auxiliary-selection-model:claim:key-takeaway"
+  ],
+  "content": "knowledge/auxiliary-selection-model.md",
+  "domains": [
+    "linguistics:syntax",
+    "linguistics:syntax:clause-architecture"
+  ],
+  "evidence_status": "provisional",
+  "id": "english:auxiliary-selection-model",
+  "kind": "knowledge",
+  "label": "Auxiliary selection model",
+  "migration": {
+    "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+    "legacy_metadata": {
+      "basis_kind": "AI-assisted authored synthesis and constructed examples; independent review pending",
+      "evidence_status": "provisional",
+      "id": "english:model:auxiliary-selection-model",
+      "language": "KPS 9.x",
+      "perspectives": [
+        "syntax"
+      ],
+      "references": [],
+      "reviewed": null,
+      "source_status": "external-support-pending",
+      "stages": [
+        2
+      ],
+      "status": "draft",
+      "type": "model",
+      "uses_concepts": [
+        "english:concept:auxiliary-chain",
+        "english:concept:finiteness",
+        "english:concept:tense-and-aspect",
+        "english:concept:do-support-and-inversion"
+      ],
+      "version": "0.1.0"
+    },
+    "old_id": "english:model:auxiliary-selection-model",
+    "old_path": "models/auxiliary-selection-model.md",
+    "old_version": "0.1.0"
+  },
+  "relations": [
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:auxiliary-chain"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:finiteness"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:tense-and-aspect"
+    },
+    {
+      "expected_target_role": "kps:role:concept",
+      "legacy_predicate": "uses_concepts",
+      "predicate": "kps:uses",
+      "target": "english:do-support-and-inversion"
+    }
+  ],
+  "reviewed": null,
+  "roles": [
+    "kps:role:model"
+  ],
+  "schema": "kps:12:entity",
+  "sequences": [
+    {
+      "positions": [
+        2
+      ],
+      "scheme": "english:legacy-route"
+    }
+  ],
+  "source_status": "external-support-pending",
+  "status": "draft",
+  "version": "0.2.0"
+}

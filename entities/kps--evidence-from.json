@@ -1,0 +1,21 @@
+{
+  "acyclic": false,
+  "aliases": [],
+  "description": "Source provenance of an evidence assessment.",
+  "domains": [],
+  "id": "kps:evidence-from",
+  "kind": "relation-type",
+  "label": "evidence from",
+  "layer": "evidence",
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "source_kinds": [
+    "evidence"
+  ],
+  "status": "draft",
+  "target_kinds": [
+    "source"
+  ],
+  "version": "0.1.0"
+}

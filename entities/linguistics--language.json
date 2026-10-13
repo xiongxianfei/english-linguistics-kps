@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "domains": [],
+  "id": "linguistics:language",
+  "kind": "domain",
+  "label": "Linguistics",
+  "parents": [],
+  "relations": [],
+  "roles": [],
+  "schema": "kps:12:entity",
+  "scope": "Provisional subject-classification root for this English package, not a complete universal ontology.",
+  "status": "draft",
+  "top_level": false,
+  "version": "0.1.0"
+}
