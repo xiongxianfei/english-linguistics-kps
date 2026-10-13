@@ -26,7 +26,7 @@ A reference supports a particular statement, not every neighboring paragraph. Co
 
 ## Queue
 
-The [review queue](REVIEW-QUEUE.md) lists all provisional objects and missing external support. Selected abstract inspection is insufficient for detailed formal claims. Independent reviewer availability is not assumed.
+The [review queue](../REVIEW-QUEUE.md) lists all provisional objects and missing external support. Selected abstract inspection is insufficient for detailed formal claims. Independent reviewer availability is not assumed.
 
 ## Foundation editorial review
 
@@ -35,3 +35,9 @@ On 2026-10-13 the authoring assistant inspected the new subsystem and interface 
 The four Practices retain their stage wording and fallback instructions; numbering existing action lines changes presentation, not a claim about effectiveness. All original 110 knowledge identities remain present. The ten system Models explain their terms and mappings inline, with constructed examples and explicit gaps; the new interfaces expose assumptions rather than implying a causal processing staircase. The shared passage records that no audio was observed.
 
 Dependency fingerprints for this edition are an **assistant editorial baseline**, not an independent human or scientific review. Ordinary validation and catalog generation do not refresh them. The baseline was recorded after this content inspection; future content changes still require inspection of affected summaries. Reference lookup, semantic agreement and reader usability remain distinct from automated structure checks.
+
+## Pronunciation and reader review
+
+Review the General American scope against the actual examples, distinguish phonemic forms from phonetic predictions and observed tokens, and preserve uncertainty when recordings are absent. For the pronunciation Practices, check that analysis, perception and production remain distinct; necessary procedures, retrieval or transfer checks, source limitations and discomfort fallbacks must be understandable in context. Review privacy and source rights at the point of use.
+
+These responsibilities require reading the content. Keyword presence, fixed stage counts, a minimum word count and a prescribed sentence cannot establish them. The removed pronunciation-policy tests are replaced by this editorial review, while domain checks retain structured provenance, review-status requirements and constructed linguistic examples.

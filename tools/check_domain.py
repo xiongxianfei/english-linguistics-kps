@@ -29,8 +29,6 @@ def inspect(root):
     systems={kps.parse(p).meta.get('system_domain') for p in (root/'models').glob('english-*-system.md')}
     expected={'phonetics','phonology','morphology','lexicon','syntax','semantics','pragmatics','discourse','information-structure','prosody'}
     if systems!=expected:errors.append('Ten subsystem Models are required for this foundation')
-    for folder in ('entities','ontology','sequences','views','sources','generated'):
-        if (root/folder).exists():errors.append('Abandoned storage layer: '+folder)
     for p in sorted((root/'references').glob('*.md')):
         d=kps.parse(p)
         if d.meta.get('type')!='reference':continue

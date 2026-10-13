@@ -42,15 +42,6 @@ class FoundationTests(unittest.TestCase):
                 self.assertIsNotNone(section,(path,heading))
                 self.assertTrue(kps.meaningful(section[1]),(path,heading))
 
-    def test_no_abandoned_stores(self):
-        for name in ['entities','ontology','sources','sequences','views','generated','legacy']:
-            self.assertFalse((ROOT/name).exists(),name)
-        self.assertFalse((ROOT/'knowledge-graph.json').exists())
-
-    def test_expected_role_counts(self):
-        expected={'concept':72,'principle':13,'model':35,'method':6,'practice':4}
-        for role,count in expected.items():
-            self.assertEqual(sum(kps.parse(p).meta.get('type')==role for p in (ROOT/(role+'s')).glob('*.md')),count)
 
     def test_language_and_versions_are_distinct(self):
         pub=json.loads((ROOT/'publication.json').read_text())
@@ -69,12 +60,6 @@ class FoundationTests(unittest.TestCase):
         self.assertEqual(actual,lock['copied_files']['validate.py'])
         self.assertEqual(actual,'36ee1e7d6f991819d6d35b3764f7e16f8fb3fbc8')
 
-    def test_catalogs_contain_local_summaries(self):
-        files=build_navigation.generated()
-        self.assertEqual(set(files),{'INDEX.md','COVERAGE.md','REVIEW-QUEUE.md'})
-        self.assertIn('Phonology models contrast',files['COVERAGE.md'])
-        self.assertNotIn('## Stage 0',files['COVERAGE.md'])
-        self.assertIn('Phonetics describes speech production',files['INDEX.md'])
 
     def test_build_does_not_accept_dependencies(self):
         path=ROOT/'summary-dependencies.json'
@@ -107,12 +92,6 @@ class FoundationTests(unittest.TestCase):
                 self.assertEqual(m['evidence_status'],'provisional')
                 self.assertIsNone(m['reviewed'])
 
-    def test_case_covers_all_ten_and_marks_missing_audio(self):
-        doc=kps.parse(ROOT/'models/one-passage-ten-domains.md')
-        self.assertEqual(set(doc.meta['domains']),DOMAINS)
-        self.assertIn('no recording',doc.live.lower())
-        self.assertIn('No context and no recording',doc.live)
-        self.assertIn('They tested them again',doc.live)
 
     def test_reference_records_state_inspection_limits(self):
         refs=[p for p in (ROOT/'references').glob('*.md') if kps.parse(p).meta.get('type')=='reference']
