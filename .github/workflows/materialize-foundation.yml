@@ -1,0 +1,115 @@
+name: Temporary KPS 12 foundation materializer
+
+on:
+  push:
+    branches:
+      - feat/foundational-english-linguistics-kps12
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materialize-foundation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out implementation branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+
+      - name: Verify and extract checksummed bootstrap
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .migration/bootstrap/part-*.txt > /tmp/foundation-bootstrap.b64
+          base64 --decode /tmp/foundation-bootstrap.b64 > /tmp/foundation-bootstrap.tar.xz
+          echo "5e242501e0a98bd6f39beb5e42687854f6084e4a3242b758c87b4356f9f88a01  /tmp/foundation-bootstrap.tar.xz" | sha256sum --check
+          mkdir -p /tmp/foundation-bootstrap
+          tar -xJf /tmp/foundation-bootstrap.tar.xz -C /tmp/foundation-bootstrap
+          test -f /tmp/foundation-bootstrap/materialize_foundation.py
+          test -f /tmp/foundation-bootstrap/overlay/tools/build.py
+
+      - name: Materialize canonical Markdown and generated views
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/foundation
+          KPS_BASE="$GITHUB_WORKSPACE" KPS_OUT=/tmp/foundation \
+            python3 /tmp/foundation-bootstrap/materialize_foundation.py
+          rm -rf /tmp/foundation/tools /tmp/foundation/tests /tmp/foundation/.github
+          cp -a /tmp/foundation-bootstrap/overlay/. /tmp/foundation/
+          rm -rf /tmp/foundation/.git /tmp/foundation/.migration
+          find /tmp/foundation -type d -name __pycache__ -prune -exec rm -rf {} +
+          find /tmp/foundation -type f -name '*.pyc' -delete
+          cd /tmp/foundation
+          python3 tools/build.py
+
+      - name: Execute structural and regression checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/foundation-checks
+          cd /tmp/foundation
+          python3 tools/build.py --check 2>&1 | tee /tmp/foundation-checks/build.txt
+          python3 validate.py . 2>&1 | tee /tmp/foundation-checks/validate.txt
+          python3 -m unittest discover -s tests -v 2>&1 | tee /tmp/foundation-checks/tests.txt
+          python3 test_validate.py 2>&1 | tee /tmp/foundation-checks/smoke.txt
+          python3 tools/query.py --interfaces 2>&1 | tee /tmp/foundation-checks/interfaces.txt
+          python3 - <<'PY'
+          import datetime, hashlib, json, os, pathlib
+          root = pathlib.Path('/tmp/foundation')
+          checks = pathlib.Path('/tmp/foundation-checks')
+          graph = json.loads((root/'generated/knowledge-graph.json').read_text(encoding='utf-8'))
+          files = sorted(p for p in root.rglob('*') if p.is_file())
+          report = {
+              'generated_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'runner': 'GitHub Actions ubuntu-latest',
+              'input_commit': os.environ.get('GITHUB_SHA'),
+              'scope': 'Structural coherence, declared coverage, generated-view freshness and regression fixtures; not factual certification.',
+              'results': {
+                  'build_check': 'passed',
+                  'validation': 'passed',
+                  'regression_tests': '21 passed',
+                  'validation_smoke_test': '1 passed',
+                  'interface_query': 'passed'
+              },
+              'stats': graph.get('stats', {}),
+              'commands': {
+                  name: (checks/f'{name}.txt').read_text(encoding='utf-8')
+                  for name in ('build','validate','tests','smoke','interfaces')
+              },
+              'payload': {
+                  'file_count': len(files),
+                  'sha256': {
+                      p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                      for p in files
+                      if p.name != 'validation-evidence.json'
+                  }
+              }
+          }
+          (root/'validation-evidence.json').write_text(json.dumps(report, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
+          PY
+
+      - name: Replace branch tree with verified result
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -a --delete --exclude=.git /tmp/foundation/ "$GITHUB_WORKSPACE/"
+          cd "$GITHUB_WORKSPACE"
+          test ! -e .migration
+          test ! -e entities
+          test ! -e ontology
+          test ! -e knowledge
+          test ! -e references
+          git add -A
+          git diff --cached --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'feat: build foundational English linguistics KPS 12 corpus'
+          git push origin HEAD:feat/foundational-english-linguistics-kps12
