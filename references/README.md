@@ -29,4 +29,4 @@ Ten records support selected structural conventions, linguistic distinctions and
 
 ## Source rights and limits
 
-No external full texts, charts, font files or media are distributed. The primary General American transcription policy is documented in [PRONUNCIATION](../PRONUNCIATION.md). Each record includes nonclaims and attribution. The KPS source establishes its own conventions only. The first-edition Anderson mirror is not silently substituted for the uninspected second edition. Failed access to other candidate sites was not treated as successful inspection.
+No external full texts, charts, font files or media are distributed. The primary General American transcription policy is documented in [PRONUNCIATION](../docs/PRONUNCIATION.md). Each record includes nonclaims and attribution. The KPS source establishes its own conventions only. The first-edition Anderson mirror is not silently substituted for the uninspected second edition. Failed access to other candidate sites was not treated as successful inspection.

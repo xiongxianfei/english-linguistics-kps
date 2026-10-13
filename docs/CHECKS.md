@@ -36,7 +36,7 @@ One branch and one PR are the delivery workflow. The existing read-only PR check
 |---|---|
 | `validate.py` | KPS structure, links and dependencies in this package |
 | `tools/check_domain.py` | Missing evidence declarations, unsupported review claims and domain coverage |
-| `tools/build_navigation.py` | Keep three catalogs aligned with 130 canonical knowledge objects |
+| `tools/build_navigation.py` | Keep one knowledge index aligned with the canonical Markdown |
 | `tools/linguistic_examples.py` and `tests/` | Constructed examples, checker integrity, provenance and review declarations |
 
 These tools serve existing checks; none is required for reading. Catalog generation does not rewrite knowledge or accept dependency fingerprints. Keep the pinned validator local for standalone use, with Core as the upstream owner. Adopt a newer copy only through a separate compatibility review. No new sync, build or publishing script is needed.
@@ -47,10 +47,14 @@ These tools serve existing checks; none is required for reading. Catalog generat
 
 ## Supporting document locations
 
-The root retains its reader entry points, authoring contract and three optional catalogs. Supporting maintenance documents moved as follows; external bookmarks need updating because old paths do not redirect.
+The root retains the README, agent guidance, licensing, validator and required metadata. Authoring, pronunciation guidance and the single knowledge index live in `docs/`. Supporting maintenance documents moved as follows; external bookmarks need updating because old paths do not redirect.
 
 | Former root path | Current path |
 |---|---|
+| `AUTHORING.md` | [docs/AUTHORING.md](AUTHORING.md) |
+| `PRONUNCIATION.md` | [docs/PRONUNCIATION.md](PRONUNCIATION.md) |
+| `INDEX.md` | [docs/INDEX.md](INDEX.md) |
+| `COVERAGE.md`, `REVIEW-QUEUE.md` | Consolidated into the index and [review priorities](REVIEW.md#priority-evidence-gaps) |
 | `CHECKS.md` | [docs/CHECKS.md](CHECKS.md) |
 | `COMPATIBILITY.md` | [docs/COMPATIBILITY.md](COMPATIBILITY.md) |
 | `NAVIGATION.md` | [docs/NAVIGATION.md](NAVIGATION.md) |
@@ -66,3 +70,7 @@ The 2026-10-13 cleanup preserved the knowledge explanations, metadata, identitie
 ## Test allowlist
 
 Retain checks of the pinned validator against its lock, the actual package, source-access and review declarations, constructed linguistic examples, catalog freshness and the generator's read-only dependency behavior. Shared validator failure-case regressions remain in Core at the pinned revision. Versioned inventories and exact wording are reviewed as content rather than frozen in assertions. Pronunciation and reader review responsibilities are in [Review](REVIEW.md#pronunciation-and-reader-review).
+
+## Navigation cleanup dependency review
+
+The supporting-document cleanup moved pronunciation guidance into `docs/PRONUNCIATION.md` without changing its claims or conventions. Seven knowledge files and the source-register link changed only that destination. Their metadata, explanatory text and Practice stages are unchanged. The 18 affected receiving summaries were compared with the prior tree before refreshing their fingerprints; their claims and evidence limits remain unchanged. This is a path-only editorial review, not new linguistic source inspection or independent scientific review.

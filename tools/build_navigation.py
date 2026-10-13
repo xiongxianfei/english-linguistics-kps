@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build optional summary catalogs from Markdown; never rewrite knowledge or fingerprints."""
+"""Build the optional knowledge index from Markdown; never rewrite knowledge or fingerprints."""
 import argparse
 import pathlib
 import sys
@@ -32,30 +32,10 @@ def generated():
         index += '\n## ' + role.capitalize() + 's\n\n'
         for path, title, meta, summary in docs:
             if meta['type'] == role:
-                index += f'**[{title}]({path}).** {summary}\n\n'
+                index += f'**[{title}](../{path}).** {summary}\n\n'
     index += '## Reading boundaries\n\nSubsystem and interface Models are self-contained explanations, not filtered link lists. Role and domain do not determine a compulsory reading order.\n'
-    coverage = opening('Foundation coverage', 'Ten subsystem Models explain internal structure and major interfaces without claiming exhaustive coverage.')
-    coverage += '\n## Domain entry points\n\n| Domain | Local summary | Model |\n|---|---|---|\n'
-    for path, title, meta, summary in docs:
-        if meta.get('system_domain'):
-            coverage += f'| {meta["system_domain"]} | {summary.replace("|", ";")} | [{title}]({path}) |\n'
-    coverage += ('\n## Interfaces\n\nAn interface Model specifies two analytical representations, a scoped relationship, a worked contrast and limits. '
-                 'Fourteen Models cover selected links among the ten domains; this does not imply that every pair is connected or that the arrows are causal processing stages. '
-                 'The subsystem Models explain these connections inline.\n\n'
-                 '## Deliberate limits\n\nThe foundation does not exhaust accent inventories, acoustic measurement, lexical exceptions, formal derivations, '
-                 'corpus frequencies, discourse frameworks, variation, acquisition or historical change. A topic being named or linked does not establish scientific adequacy. '
-                 'Claim-specific external support and independent review remain incomplete.\n\n'
-                 '## One complete case\n\n[One passage across ten domains](models/one-passage-ten-domains.md) separates the word forms, clause functions, participant roles, '
-                 'reference choices, focus alternatives and predicted sound patterns of one constructed passage. No audio means no measured phonetic result.\n')
-    queue = opening('Scientific review queue', 'Review evidence and scope rather than promoting claims because files or tests exist.')
-    queue += ('\n## Review operation\n\nFor an item below, identify a bounded claim, inspect the relevant source passage, compare its scope with the local explanation, '
-              'check a counterexample and record what remains unsupported. A citation is not blanket support, and a constructed example is not a study. '
-              'Do not change scientific review status without an actual version-specific review record.\n\n'
-              '## Pending items\n\n| Object | Claim or purpose to inspect | Current source boundary |\n|---|---|---|\n')
-    for path, title, meta, summary in docs:
-        boundary = 'Selected references only; inspect claim fit' if meta.get('references') else 'External support still pending'
-        queue += f'| [{title}]({path}) | {summary.replace("|", ";")} | {boundary} |\n'
-    return {'INDEX.md': index, 'COVERAGE.md': coverage, 'REVIEW-QUEUE.md': queue}
+    index+='\n## Review and scope\n\n[Review priorities](REVIEW.md#priority-evidence-gaps) explain the remaining evidence work. [One passage across ten domains](../models/one-passage-ten-domains.md) illustrates the integrated analysis; no audio means no measured phonetic result.\n'
+    return {'docs/INDEX.md': index}
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -68,11 +48,12 @@ def main():
             if not path.is_file() or path.read_text(encoding='utf-8') != content:
                 stale.append(name)
         else:
+            path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(content, encoding='utf-8')
     if stale:
-        print('Stale catalogs: ' + ', '.join(stale))
+        print('Stale index: ' + ', '.join(stale))
         return 1
-    print('Summary catalogs checked' if args.check else 'Summary catalogs written')
+    print('Knowledge index checked' if args.check else 'Knowledge index written')
     return 0
 
 if __name__ == '__main__':

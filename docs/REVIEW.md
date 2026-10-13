@@ -26,7 +26,7 @@ A reference supports a particular statement, not every neighboring paragraph. Co
 
 ## Queue
 
-The [review queue](../REVIEW-QUEUE.md) lists all provisional objects and missing external support. Selected abstract inspection is insufficient for detailed formal claims. Independent reviewer availability is not assumed.
+Use the [knowledge index](INDEX.md) to locate a provisional object, then inspect its evidence status and Reference access limits. Specific remaining work is listed under [Priority evidence gaps](#priority-evidence-gaps). Selected abstract inspection is insufficient for detailed formal claims; independent reviewer availability is not assumed.
 
 ## Foundation editorial review
 
@@ -45,3 +45,9 @@ These responsibilities require reading the content. Keyword presence, fixed stag
 ## Recorded pronunciation dependency review
 
 The 2026-10-11 pronunciation publication record reports authoring inspection of the new Practices, linked definitions, examples and source nonclaims; existing dependency summaries were unchanged. No learner audio was evaluated, no Practice application was recorded, and this was not an independent scientific review. This preserves the inspection scope from the removed execution log, not a new review.
+
+## Priority evidence gaps
+
+Prioritize accent inventories and acoustic measurement, lexical exceptions, formal derivations, corpus frequencies, discourse frameworks, variation, acquisition and historical change. The current subsystem and interface Models are a bounded foundation, not exhaustive coverage.
+
+Use the [knowledge index](INDEX.md) to select a bounded claim. Read its Reference access limits, inspect the source passage, test a counterexample and record what remains unsupported. Objects without references need external support; selected references still require claim-level fit review. Never promote review status without an actual version-specific review record.

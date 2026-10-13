@@ -40,20 +40,20 @@ These areas overlap; their order here is neither a curriculum nor a language-pro
 - `methods/` gives bounded operations; `practices/` combines operations with local decisions and fallbacks.
 - `references/` records external publications, inspected contributions and nonclaims. It is not a sixth knowledge role.
 
-Markdown is canonical. No ontology registry, sequence store, entity database, generated knowledge views or build service is required to read this package. [INDEX](INDEX.md), [COVERAGE](COVERAGE.md) and [REVIEW QUEUE](REVIEW-QUEUE.md) are optional catalogs with local summaries; they do not replace the Models.
+Markdown is canonical. No ontology registry, sequence store, entity database, generated knowledge views or build service is required to read this package. The [knowledge index](docs/INDEX.md) provides local summaries by role; it does not replace the Models. [Review priorities](docs/REVIEW.md#priority-evidence-gaps) track unresolved evidence work.
 
 ## Apply the knowledge
 For an actual analysis, preserve the expression and context, identify complete constituents, separate grammatical functions from semantic roles, state unresolved references, and mark sound claims as predictions until audio is inspected. [Analyze complete utterance](methods/analyze-complete-utterance.md) gives the procedure. [Learn a word pronunciation](practices/learn-word-pronunciation.md) and [Classify and produce a phone](practices/classify-and-produce-phone.md) retain their locally usable stages and blank learner records.
 
 ## Evidence and pronunciation
-General American remains the primary variety for new pronunciation analyses. Broad phonemic forms, predicted realizations and observed tokens are different kinds of claim. Read [PRONUNCIATION](PRONUNCIATION.md) for notation and source-rights limits.
+General American remains the primary variety for new pronunciation analyses. Broad phonemic forms, predicted realizations and observed tokens are different kinds of claim. Read [PRONUNCIATION](docs/PRONUNCIATION.md) for notation and source-rights limits.
 
 Every linguistic object remains provisional. Selected source inspection does not validate every sentence in a file. Constructed examples are not corpus data, and successful tests do not establish truth or learning outcomes.
 
 ## Authoring and checks
 
-Reading requires no scripts. Maintainer guidance lives in `docs/`; [Checks](docs/CHECKS.md) explains the retained tools and document moves. The three optional catalogs remain at the root so their existing links and generation commands stay usable.
-The package follows the upstream [Knowledge Practice System](https://github.com/xiongxianfei/knowledge-practice-system) KPS 9.x contract. English package version 0.2.0 is independent of upstream Core 11.0.0; the copied structural checker is 9.1.0. See [AUTHORING](AUTHORING.md) and [COMPATIBILITY](docs/COMPATIBILITY.md).
+Reading requires no scripts. Maintainer guidance lives in `docs/`; [Checks](docs/CHECKS.md) explains the retained tools and document moves. The single optional index lives in `docs/INDEX.md`; authoring and pronunciation guidance are alongside it.
+The package follows the upstream [Knowledge Practice System](https://github.com/xiongxianfei/knowledge-practice-system) KPS 9.x contract. English package version 0.2.0 is independent of upstream Core 11.0.0; the copied structural checker is 9.1.0. See [AUTHORING](docs/AUTHORING.md) and [COMPATIBILITY](docs/COMPATIBILITY.md).
 
 ```bash
 python3 validate.py .

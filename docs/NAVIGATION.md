@@ -16,7 +16,7 @@ README and the ten English subsystem Models are the reader entry points. Each Mo
 Use ordinary relative Markdown links to real files. Heading fragments match the full heading in lowercase with hyphens; metadata identities do not create anchors. When a heading changes, update its stage map and incoming links.
 
 ## Optional catalogs
-INDEX.md summarizes each canonical item by role. COVERAGE.md describes the ten Model entry points and distinguishes foundational coverage from completeness. REVIEW-QUEUE.md identifies remaining evidence work. These catalogs are generated from the Markdown with tools/build_navigation.py; the generator does not produce an independent knowledge store or alter source files.
+[Knowledge index](INDEX.md) summarizes each canonical item by role. [Review priorities](REVIEW.md#priority-evidence-gaps) describe remaining evidence work and coverage limits. The index is generated from canonical Markdown with `python3 tools/build_navigation.py` from the repository root; the generator does not alter knowledge or dependency fingerprints.
 
 The old global stages metadata retained in unchanged inherited notes is historical classification only and is not used for navigation. Numbered stages inside a Practice are actions within that Practice, not a course sequence. There is no sequences/ folder.
 
