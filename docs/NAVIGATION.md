@@ -7,13 +7,19 @@ package_version: "0.2.0"
 # Navigation conventions
 
 ## Key takeaway
-Read self contained Models for understanding and use catalogs only to locate additional detail.
+Use the subject map to find a topic, read its explanations and follow a Practice for a target task.
 
 ## Summary
-README and the ten English subsystem Models are the reader entry points. Each Model includes the terms, structure, worked example and limitations needed for its own purpose. Links deepen the explanation; neither a graph nor a sequence engine is needed.
+The README links to the authored subject map and target Practices. The subject map organizes topics and their relationships; the role index catalogs files; Practices organize activities. The linked knowledge remains locally sufficient for its own purpose.
 
 ## Files and headings
 Use ordinary relative Markdown links to real files. Heading fragments match the full heading in lowercase with hyphens; metadata identities do not create anchors. When a heading changes, update its stage map and incoming links.
+
+## Subject navigation
+
+[English linguistics subject map](subject-map.md) is the authoritative subject outline for this package. Its sound-system section contains thirteen annotated topics; the other sections cover word structure, syntax, meaning and context. It links to existing knowledge across KPS roles and states the source basis and limits. A topic may refer to several files, and a file may support several topics. Edit this map as prose; no generator or new knowledge type is required.
+
+[Learn English linguistics](../practices/learn-english-linguistics.md) selects from the map and adds a learning route. Other Practices can use the same subject structure for different targets. Keep one shared subject outline rather than copying it into each Practice.
 
 ## Optional catalogs
 [Knowledge index](INDEX.md) summarizes each canonical item by role. [Review priorities](REVIEW.md#priority-evidence-gaps) describe remaining evidence work and coverage limits. The index is generated from canonical Markdown with `python3 tools/build_navigation.py` from the repository root; the generator does not alter knowledge or dependency fingerprints.
