@@ -10,7 +10,7 @@ package_version: "0.2.0"
 Understand English through five kinds of self-contained knowledge, ten subsystem Models and their interfaces.
 
 ## Summary
-This foundation contains **130 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and four Practices, plus ten supporting Reference records. It preserves all 110 existing knowledge items from main and adds ten subsystem Models, nine interface Models and one integrated worked case. The package is foundational and provisional, not a complete or independently reviewed grammar.
+This foundation contains **130 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and four Practices, plus eleven supporting Reference records. It preserves all 110 existing knowledge items from main and adds ten subsystem Models, nine interface Models and one integrated worked case. The package is foundational and provisional, not a complete or independently reviewed grammar.
 
 ## Start with an explanation
 [One passage across ten domains](models/one-passage-ten-domains.md) analyzes *Those students repaired the printers. They tested them again.* It distinguishes word forms, clause functions, semantic participants, contextual reference, discourse connections, focus and possible pronunciation. No recording was supplied, so its phonetic observations remain unknown rather than invented.

@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-phonology-system"
 type: "model"
-version: "0.2.1"
+version: "0.2.2"
 language: "KPS 9.x"
 status: "draft"
 domains: ["phonology"]
@@ -98,7 +98,17 @@ To describe a target, first identify its sound and notation, then fill in the ap
 ## Worked example
 The words *pin* and *bin* illustrate a broad /p/ versus /b/ contrast in a matched environment. *Pin* and *spin* instead help investigate the distribution of aspiration associated with /p/: the added /s/ changes the environment, so they are not a minimal pair differing only in aspiration.
 
-Write a table with the broad form, stress, neighboring sounds, predicted phone and evidence status. A possible [pʰ] in stressed *pin* and a less aspirated [p] after /s/ motivate an environment-sensitive realization account. No recording has been examined here, so these are illustrative predictions rather than measured tokens.
+The table applies a bounded aspiration generalization to constructed General American examples. A stressed syllable is relatively prominent within its word; its onset is the consonant material before its nucleus. Aspiration is the interval of voiceless airflow after a stop release, written with [ʰ].
+
+| Word and broad form | Target and environment | Predicted target realization | What the comparison shows |
+|---|---|---|---|
+| *pin* /pɪn/ | /p/ begins a stressed syllable, without preceding /s/ | [pʰ] | Voiceless stop aspiration is expected here |
+| *spin* /spɪn/ | /p/ follows /s/ in the stressed syllable's onset | [p], with less aspiration | Stress alone does not specify the realization |
+| *bin* /bɪn/ | /b/ in the matched word-initial environment | [b] as a broad phone label; voicing timing varies | /b/ falls outside the voiceless-stop class |
+
+The generalization links **category + environment** to a predicted realization: English /p t k/ commonly have aspiration at the beginning of a stressed syllable, while a preceding /s/ in the same onset blocks that usual pattern. It applies across different places because the shared voiceless-stop properties matter here. /s/ is also voiceless, but it is a fricative, so it does not belong to this stop class. Choosing only the feature "voiceless" would make the proposed class too broad.
+
+The /p/–/b/ distinction can distinguish words; the [pʰ]–[p] difference illustrated here is a contextual realization difference associated with /p/. These are distinct conclusions. No recording has been examined, so the table predicts target phones only. It does not transcribe complete productions or specify all realizations in unstressed, final or other environments. The [inspected aspiration passage](../references/anderson-2018-essentials-of-linguistics.md#aspiration) supports the bounded pattern, not a universal timing threshold.
 
 ## Interfaces
 **Morphology Phonology:** regular inflection connects number or tense features with exponents whose form depends partly on stem sounds. **Phonology Prosody:** segment organization interacts with syllables, stress and larger prosodic domains. **Phonology Phonetics:** an abstract category is realized under contextual and speaker-specific conditions; a broad form does not uniquely determine a waveform.
@@ -112,7 +122,7 @@ Diagnostic: a phone occurs only word-finally in a small sample. Has it been prov
 The onset-rhyme representation and examples are working analyses. English varieties differ in inventories and realizations. A complete variety-specific inventory, loanword phonotactics, rule interactions and empirical processing evidence remain outside this foundational Model.
 
 ## Evidence status
-**Provisional; independent review pending.** Selected passages on contrast, allomorphy and aspiration are identified in the [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). The [IPA chart record](../references/international-phonetic-association-undated-ipa-chart.md) supports the symbol classifications; it does not establish a complete English inventory or measured realizations. The inline feature explanations summarize the local articulation Concepts. These sources support bounded distinctions, not every generalization or the particular framework used here.
+**Provisional; independent review pending.** Selected passages on contrast, natural classes, allomorphy and aspiration are identified in the [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). The [IPA chart record](../references/international-phonetic-association-undated-ipa-chart.md) supports the symbol classifications; it does not establish a complete English inventory or measured realizations. The inline feature explanations summarize the local articulation Concepts. These sources support bounded distinctions, not every generalization or the particular framework used here.
 
 ## Related knowledge
 [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) and [contrast and distribution](../concepts/contrast-and-distribution.md) deepen the category distinction. [Syllable structure](../concepts/syllable-structure.md), [phonotactics](../concepts/phonotactics.md) and [stress](../concepts/stress.md) expand structural details. [Phonological word model](phonological-word-model.md) provides another worked representation.

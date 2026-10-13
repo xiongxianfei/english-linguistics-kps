@@ -1,7 +1,7 @@
 ---
 id: "english:reference:anderson-2018-essentials-of-linguistics"
 type: "reference"
-version: "0.2.0"
+version: "0.2.1"
 language: "KPS 9.x"
 status: "draft"
 creator: "Catherine Anderson"
@@ -9,7 +9,7 @@ publication: "Essentials of Linguistics, first edition, McMaster University"
 publication_date: "2018-03-15"
 date_basis: "Publication date and creator from the inspected book landing metadata. This record is not the second edition."
 accessed: "2026-10-13"
-access_extent: "HTML landing metadata and selected HTML chapter scripts: 6.2 Allomorphs, 9.3 Thematic Roles and Passive Sentences, 3.4 Aspirated Stops in English, and 8.8 Adjuncts. Videos, audio, image measurements and the complete book were not inspected. Additional HTML text inspected on 2026-10-13: 3.1 Broad and Narrow Transcription, 4.1 Phonemes and Contrast, 6.3 Inflectional Morphology, 8.3 Constituents (replacement-test discussion), 10.1 Elements of Word Meaning, and 3.7 Suprasegmentals. Selected allomorphy/passive passages rechecked. No new video/audio or full-book inspection."
+access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels and 4.4 Natural Classes added on 2026-10-13; aspiration and suprasegmental text rechecked. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
 reviewed: null
 ---
 
@@ -61,6 +61,12 @@ On 2026-10-13 the following selected HTML text was inspected, not the linked rec
 | [3.7 Suprasegmentals](https://pressbooks.pub/essentialsoflinguistics/chapter/3-8-suprasegmentals/) | Pitch, duration and intensity contribute to suprasegmental description |
 
 The passive chapter's simplified diagnostic should not be generalized into a requirement that every passive contain *be*. The chapter itself includes a *get* example. Its formal tree conventions and simplified meaning account are not silently adopted as the only analyses. New system Models are original working syntheses; this Reference does not establish all their claims.
+
+## Sound Model passages
+
+On 2026-10-13, additional HTML explanations were read in [2.6 Classifying Consonants](https://pressbooks.pub/essentialsoflinguistics/chapter/2-7-classifying-consonants/), [2.7 Classifying Vowels](https://pressbooks.pub/essentialsoflinguistics/chapter/2-8-vowels/) and [4.4 Natural Classes](https://pressbooks.pub/essentialsoflinguistics/chapter/4-5-natural-classes/). The 3.4 aspiration and 3.7 suprasegmental scripts were also reread. No embedded video or audio was inspected.
+
+These passages support consonant voicing/place/manner, vowel height/backness/rounding, and grouping segments by shared properties. The source's Canadian examples do not define a complete General American inventory. The Models use the official IPA chart for finer vowel-height labels; the textbook's muscle-tension explanation of tense/lax vowels is not adopted as a measurement rule. Its illustrative aspiration timings and broad statements about final stops are not treated as universal thresholds or exhaustive distributions. The natural-class explanation supports feature-based grouping without requiring this package to adopt the chapter's entire binary feature system.
 
 ## Nonclaims
 
