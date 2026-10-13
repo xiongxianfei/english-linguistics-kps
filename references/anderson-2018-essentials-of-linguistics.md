@@ -1,7 +1,7 @@
 ---
 id: "english:reference:anderson-2018-essentials-of-linguistics"
 type: "reference"
-version: "0.2.0"
+version: "0.2.2"
 language: "KPS 9.x"
 status: "draft"
 creator: "Catherine Anderson"
@@ -9,7 +9,7 @@ publication: "Essentials of Linguistics, first edition, McMaster University"
 publication_date: "2018-03-15"
 date_basis: "Publication date and creator from the inspected book landing metadata. This record is not the second edition."
 accessed: "2026-10-13"
-access_extent: "HTML landing metadata and selected HTML chapter scripts: 6.2 Allomorphs, 9.3 Thematic Roles and Passive Sentences, 3.4 Aspirated Stops in English, and 8.8 Adjuncts. Videos, audio, image measurements and the complete book were not inspected. Additional HTML text inspected on 2026-10-13: 3.1 Broad and Narrow Transcription, 4.1 Phonemes and Contrast, 6.3 Inflectional Morphology, 8.3 Constituents (replacement-test discussion), 10.1 Elements of Word Meaning, and 3.7 Suprasegmentals. Selected allomorphy/passive passages rechecked. No new video/audio or full-book inspection."
+access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels, 4.4 Natural Classes, 3.5 Assimilation, 3.6 Other Articulatory Processes and 3.8 Transcribing Casual Speech inspected on 2026-10-13; aspiration and suprasegmental text rechecked. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
 reviewed: null
 ---
 
@@ -62,6 +62,18 @@ On 2026-10-13 the following selected HTML text was inspected, not the linked rec
 
 The passive chapter's simplified diagnostic should not be generalized into a requirement that every passive contain *be*. The chapter itself includes a *get* example. Its formal tree conventions and simplified meaning account are not silently adopted as the only analyses. New system Models are original working syntheses; this Reference does not establish all their claims.
 
+## Sound Model passages
+
+On 2026-10-13, additional HTML explanations were read in [2.6 Classifying Consonants](https://pressbooks.pub/essentialsoflinguistics/chapter/2-7-classifying-consonants/), [2.7 Classifying Vowels](https://pressbooks.pub/essentialsoflinguistics/chapter/2-8-vowels/) and [4.4 Natural Classes](https://pressbooks.pub/essentialsoflinguistics/chapter/4-5-natural-classes/). The 3.4 aspiration and 3.7 suprasegmental scripts were also reread. No embedded video or audio was inspected.
+
+These passages support consonant voicing/place/manner, vowel height/backness/rounding, and grouping segments by shared properties. The source's Canadian examples do not define a complete General American inventory. The Models use the official IPA chart for finer vowel-height labels; the textbook's muscle-tension explanation of tense/lax vowels is not adopted as a measurement rule. Its illustrative aspiration timings and broad statements about final stops are not treated as universal thresholds or exhaustive distributions. The natural-class explanation supports feature-based grouping without requiring this package to adopt the chapter's entire binary feature system.
+
+## Connected speech passages
+
+On 2026-10-13 the HTML text of [3.5 Assimilation](https://pressbooks.pub/essentialsoflinguistics/chapter/3-6-articulatory-processes-assimilation/), [3.6 Other Articulatory Processes](https://pressbooks.pub/essentialsoflinguistics/chapter/3-7-other-articulatory-processes/) and [3.8 Transcribing Casual Speech](https://pressbooks.pub/essentialsoflinguistics/chapter/3-9-transcribing-casual-speech/) was inspected. Section 3.5 explains coarticulation and neighboring-feature effects; 3.6 distinguishes vowel reduction and segment deletion; 3.8 illustrates optional cluster simplification, including *asked*. The Models use these as bounded illustrations and preserve variety and context limits, not universal deletion rules.
+
+Section 3.8 credits material adapted from Michael Gasser and Indiana University, *How Language Works*, edition 3.0 (2011-08-30), under GNU FDL terms. The linked original was not separately inspected; this is one source lineage, not independent corroboration. No source audio or speech tokens were evaluated. The Models' diagnostic caution about missing acoustic cues is an authored evidence requirement, not a claimed instrumental replication of the chapter examples.
+
 ## Nonclaims
 
-The mirror states it is not regularly updated. Selected passages do not verify all concepts in this package or all claims on these topics. The text is CC BY-SA 4.0; no original chapters, figures or videos are bundled. Short original support summaries and constructed examples are provided rather than republishing the source.
+The mirror states it is not regularly updated. Selected passages do not verify all concepts in this package or all claims on these topics. The book states CC BY-SA 4.0 except where otherwise noted; section 3.8 identifies its adapted material under GNU FDL terms. No original chapters, figures or videos are bundled. Short original support summaries and constructed examples are provided rather than republishing the source.

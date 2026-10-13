@@ -282,6 +282,8 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 **[Investigate linguistic question](../practices/investigate-linguistic-question.md).** Turn a bounded English question into a transparent provisional analysis and a reviewable evidence trail.
 
+**[Learn English linguistics](../practices/learn-english-linguistics.md).** Learn to explain and investigate English examples by connecting established linguistic distinctions, their conditions and the evidence for an analysis.
+
 **[Learn a word pronunciation](../practices/learn-word-pronunciation.md).** Learn one General American word by connecting its intended meaning, checked phonemic form, listening evidence, articulatory actions, recorded attempts and a later unprompted check.
 
 **[Maintain English package](../practices/maintain-english-package.md).** Review changes and publish a coherent provisional package without confusing file integrity with linguistic truth.

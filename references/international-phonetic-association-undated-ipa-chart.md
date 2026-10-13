@@ -1,15 +1,15 @@
 ---
 id: "english:reference:international-phonetic-association-undated-ipa-chart"
 type: "reference"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 creator: "International Phonetic Association"
 publication: "IPA chart and component charts on the official website"
 publication_date: null
 date_basis: "The webpage publication date was not established; chart revision and reissue dates are not substituted for a webpage publication date."
-accessed: "2026-10-11"
-access_extent: "Official chart webpage text and visual inspection of its pulmonic-consonant, vowel and suprasegmental PNG subcharts. No audio, articulatory measurements or language-specific full inventory was examined."
+accessed: "2026-10-13"
+access_extent: "Original 2026-10-11 webpage and consonant/vowel/suprasegmental chart inspection; pulmonic-consonant and vowel PNG subcharts visually rechecked on 2026-10-13. No audio, articulatory measurements or language-specific full inventory was examined."
 reviewed: null
 ---
 
@@ -30,6 +30,8 @@ Date: undated. Date basis: The webpage publication date was not established; cha
 ## Inspection extent
 
 Accessed 2026-10-11. Official chart webpage text and visual inspection of its pulmonic-consonant, vowel and suprasegmental PNG subcharts. No audio, articulatory measurements or language-specific full inventory was examined.
+
+On 2026-10-13 the linked pulmonic-consonant and vowel PNG panels were visually rechecked against the selected tables in the sound Models. The suprasegmental panel was not newly inspected. Chart placement supports the stated phone categories, not an assumption that broad English transcriptions are exact articulatory targets.
 
 ## Authority
 
