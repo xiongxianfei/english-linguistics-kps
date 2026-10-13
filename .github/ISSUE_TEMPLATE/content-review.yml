@@ -1,22 +1,28 @@
-name: Linguistic content review
-description: Report a bounded claim, counterexample, source gap, or scope correction
+name: KPS 12 content or architecture review
+description: Report a bounded claim, mapping, classification or evidence issue.
 title: "review: "
 body:
-  - type: textarea
-    id: object
+  - type: input
+    id: entity
     attributes:
-      label: Knowledge object and claim
-      description: Link the exact file and quote only the necessary claim.
+      label: Entity ID and version
+      description: Include the affected claim or interface ID where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue and expected correction
+      description: Separate structural conformance from linguistic correctness.
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Evidence and scope
-      description: Identify variety, theoretical framework, source locator and what was actually inspected.
-    validations:
-      required: true
+      label: Inspected evidence and limits
+      description: Provide passage locators, counterexamples, variety and theoretical scope. Do not upload restricted sources or private learner data.
   - type: textarea
-    id: correction
+    id: checks
     attributes:
-      label: Proposed correction or unresolved alternatives
+      label: Reproduction or validation
+      description: Include commands actually run, not intended tests.
