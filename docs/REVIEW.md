@@ -41,3 +41,7 @@ Dependency fingerprints for this edition are an **assistant editorial baseline**
 Review the General American scope against the actual examples, distinguish phonemic forms from phonetic predictions and observed tokens, and preserve uncertainty when recordings are absent. For the pronunciation Practices, check that analysis, perception and production remain distinct; necessary procedures, retrieval or transfer checks, source limitations and discomfort fallbacks must be understandable in context. Review privacy and source rights at the point of use.
 
 These responsibilities require reading the content. Keyword presence, fixed stage counts, a minimum word count and a prescribed sentence cannot establish them. The removed pronunciation-policy tests are replaced by this editorial review, while domain checks retain structured provenance, review-status requirements and constructed linguistic examples.
+
+## Recorded pronunciation dependency review
+
+The 2026-10-11 pronunciation publication record reports authoring inspection of the new Practices, linked definitions, examples and source nonclaims; existing dependency summaries were unchanged. No learner audio was evaluated, no Practice application was recorded, and this was not an independent scientific review. This preserves the inspection scope from the removed execution log, not a new review.
