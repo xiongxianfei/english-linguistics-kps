@@ -1,0 +1,90 @@
+name: Temporary KPS 12 migration materializer
+on:
+  push:
+    branches: [feat/kps12-entity-architecture]
+    paths:
+      - .github/workflows/kps12-materialize.yml
+      - .migration/kps12-part-*.b64
+permissions:
+  contents: write
+concurrency:
+  group: kps12-one-time-materializer
+  cancel-in-progress: false
+jobs:
+  migrate:
+    if: github.repository == 'xiongxianfei/english-linguistics-kps' && github.ref == 'refs/heads/feat/kps12-entity-architecture'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: feat/kps12-entity-architecture
+          persist-credentials: true
+      - name: Verify payload and recover pinned input
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir "$RUNNER_TEMP/kps9-baseline" "$RUNNER_TEMP/kps12-templates"
+          git archive 034f21daa6946b744b367515cb4dbfc6a6720c4f | tar -x -C "$RUNNER_TEMP/kps9-baseline"
+          python3 - <<'PY'
+          import base64, hashlib, json, lzma, os
+          from pathlib import Path
+          encoded = ''.join(Path(f'.migration/kps12-part-{i}.b64').read_text() for i in range(6))
+          payload = base64.b64decode(encoded, validate=True)
+          assert hashlib.sha256(payload).hexdigest() == '400b108be8e1ad7f0762ea86db053070b189608baa5f8b884095bec50d811b40', 'Payload mismatch'
+          files = json.loads(lzma.decompress(payload))
+          target = Path(os.environ['RUNNER_TEMP']) / 'kps12-templates'
+          assert len(files) == 27
+          for relative, text in files.items():
+              p = target / relative
+              assert not Path(relative).is_absolute() and p.resolve().is_relative_to(target.resolve())
+              p.parent.mkdir(parents=True, exist_ok=True)
+              p.write_text(text, encoding='utf-8')
+          source = Path(os.environ['RUNNER_TEMP']) / 'kps9-baseline'
+          path = target / 'migration/kps12-plan.json'
+          plan = json.loads(path.read_text())
+          assert plan['base_commit'] == '034f21daa6946b744b367515cb4dbfc6a6720c4f'
+          plan['baseline_files'] = {p.relative_to(source).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(source.rglob('*')) if p.is_file()}
+          assert len(plan['baseline_files']) == 157
+          path.write_text(json.dumps(plan, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+          assert hashlib.sha256(path.read_bytes()).hexdigest() == '4f280fafd49be12823efa04ac03360d225ffda58fb7eedddf5de3bde8c549566', 'Baseline differs from inspected input'
+          PY
+      - name: Build full entity package and verify locally inspected payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 "$RUNNER_TEMP/kps12-templates/tools/migrate_kps12.py" --source "$RUNNER_TEMP/kps9-baseline" --target "$RUNNER_TEMP/kps12-output"
+          python3 - <<'PY'
+          import hashlib, os, sys
+          from pathlib import Path
+          root = Path(os.environ['RUNNER_TEMP']) / 'kps12-output'
+          sys.path.insert(0, str(root / 'tools'))
+          from run_checks import inventory
+          from kps12 import dump
+          files = inventory(root)
+          assert len(files) == 863
+          assert hashlib.sha256(dump(files).encode()).hexdigest() == '025e593e3e111b4f0040491ea9ecd1b7e1dead952b69993ea887758749fdfe6b', 'Generated payload differs from inspected local implementation'
+          PY
+      - name: Execute active and historical checks
+        run: python3 "$RUNNER_TEMP/kps12-output/tools/run_checks.py"
+      - name: Commit generated content only to the implementation branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -a --delete --exclude='/.git/' --exclude='/.github/' --exclude='__pycache__/' --exclude='*.pyc' "$RUNNER_TEMP/kps12-output/" ./
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all -- . ':!.github'
+          if ! git diff --cached --quiet; then
+            git commit -m 'feat: migrate full English knowledge package to KPS 12 entity architecture'
+            git push origin HEAD:refs/heads/feat/kps12-entity-architecture
+          fi
+      - name: Export actual migration check report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: kps12-materialization-validation
+          path: ${{ runner.temp }}/kps12-output/validation-evidence.json
+          retention-days: 2
+          if-no-files-found: warn
