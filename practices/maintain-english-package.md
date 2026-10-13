@@ -1,7 +1,7 @@
 ---
 id: "english:practice:maintain-english-package"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 stages: [7]
@@ -41,7 +41,7 @@ This is a proposed research-maintenance Practice for readers using the package, 
 
 **Why:** Large unbounded generations make inconsistent terminology and unsourced claims harder to notice.
 
-**What to do:** Read the affected object, declared dependencies and source status before editing.
+1. **What to do:** Read the affected object, declared dependencies and source status before editing.
 
 **What to observe:** Scope creep, duplicated definitions and stage labels mistaken for knowledge types.
 
@@ -63,7 +63,7 @@ If the required evidence is not available, publish the uncertainty and review ta
 
 **Why:** A changed source or definition can leave dependent models inconsistent even when all links resolve.
 
-**What to do:** Inspect modified claims, examples, reference records and affected local summaries.
+1. **What to do:** Inspect modified claims, examples, reference records and affected local summaries.
 
 **What to observe:** Removed qualifiers, altered theoretical commitments and falsely upgraded review status.
 
@@ -85,7 +85,7 @@ If a linked source changed but has not been reinspected, retain the warning and 
 
 **Why:** Automated structure checks and independent content review answer different questions.
 
-**What to do:** Run the upstream validator and regression suite plus domain checks; inspect the PR diff and merge status.
+1. **What to do:** Run the upstream validator and regression suite plus domain checks; inspect the PR diff and merge status.
 
 **What to observe:** Missing links, wrong typed IDs, stale snapshots and unexpected automation permissions.
 
@@ -123,7 +123,7 @@ The Practice is an authored operational synthesis. It is not an experimentally v
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Knowledge Practice System 9.0.1](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
+- [Knowledge Practice System authoring contract](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
 
 ## Related knowledge
 

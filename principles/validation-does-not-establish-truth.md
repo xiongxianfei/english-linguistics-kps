@@ -1,7 +1,7 @@
 ---
 id: "english:principle:validation-does-not-establish-truth"
 type: "principle"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 stages: [7]
@@ -44,7 +44,7 @@ This is a reasoned limitation of the tooling contract. The initial package remai
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Knowledge Practice System 9.0.1](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
+- [Knowledge Practice System authoring contract](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
 
 ## Related knowledge
 

@@ -1,7 +1,7 @@
 ---
 id: "english:practice:classify-and-produce-phone"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 stages: [6, 7]
@@ -54,7 +54,7 @@ For the intended consonant branch, describe **voicing, place and manner** plus r
 
 **Why:** These inputs support different conclusions; the letter `s` and the phone `[s]` are not interchangeable.
 
-**What to do:** Copy the exact input and notation, record provenance and context, and separate expected properties from observations.
+1. **What to do:** Copy the exact input and notation, record provenance and context, and separate expected properties from observations.
 
 **What to observe:** Missing diacritics, ambiguous slash/bracket use, dictionary shorthand and a recording without a stable target interval.
 
@@ -75,7 +75,7 @@ If you cannot determine whether a source uses broad /r/ as a convention or narro
 
 **Why:** A vowel-like approximant, a syllabic consonant and a diphthong defeat a simple letter-count or syllable-count rule.
 
-**What to do:** Use the symbol's chart location and contextual evidence, or form competing audio hypotheses when no trustworthy transcription exists.
+1. **What to do:** Use the symbol's chart location and contextual evidence, or form competing audio hypotheses when no trustworthy transcription exists.
 
 **What to observe:** Affricates, vowel movement, coarticulation, syllabicity and symbols that modify another symbol.
 
@@ -98,7 +98,7 @@ If the input is a sequence, classify its components and their coordination rathe
 
 **Why:** Voicing, constriction and lip/tongue configuration are different dimensions; one label cannot stand in for all of them.
 
-**What to do:** Follow the consonant or vowel branch and annotate diacritics separately.
+1. **What to do:** Follow the consonant or vowel branch and annotate diacritics separately.
 
 **What to observe:** Missing nasality, aspiration confused with voicing, vowel rounding guessed from height, and context-specific features treated as permanent.
 
@@ -137,7 +137,7 @@ A voiceless diacritic changes a plain vowel description: `[i̥]` must not be cal
 
 **Why:** Reading “voiced alveolar fricative” does not demonstrate hearing or producing one.
 
-**What to do:** Listen to an appropriate labeled reference, attempt the gesture comfortably, and compare a nearby contrast.
+1. **What to do:** Listen to an appropriate labeled reference, attempt the gesture comfortably, and compare a nearby contrast.
 
 **What to observe:** What is actually audible or visible, what is only inferred, and what changes when one feature is varied.
 
@@ -162,7 +162,7 @@ If the target cannot be reproduced comfortably, stop production and continue ana
 
 **Why:** Symbol lookup, perceptual identification and successful production are three different achievements.
 
-**What to do:** Check the label against the chart, test a labeled contrast without looking, and compare the recorded production or obtain informed feedback.
+1. **What to do:** Check the label against the chart, test a labeled contrast without looking, and compare the recorded production or obtain informed feedback.
 
 **What to observe:** Confusions, dependence on visual labels, recording limitations and disagreements between prediction and evidence.
 
@@ -185,7 +185,7 @@ For a familiar symbol with no audio, report “symbol category checked; percepti
 
 **Why:** Correctly identifying one isolated symbol does not establish the realization of every related English phoneme.
 
-**What to do:** Complete the record, apply the analysis to a new word or token, and separate stable category knowledge from contextual variation.
+1. **What to do:** Complete the record, apply the analysis to a new word or token, and separate stable category knowledge from contextual variation.
 
 **What to observe:** Changes due to stress, neighboring sounds, speech style, accent or a different transcription convention.
 

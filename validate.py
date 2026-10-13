@@ -18,6 +18,8 @@ import sys
 from typing import Any
 from urllib.parse import unquote, urlsplit
 
+VALIDATOR_VERSION = "9.1.0"
+
 CORE = {"concept", "principle", "model", "method", "practice"}
 FOLDERS = {k: k + 's' for k in CORE}
 RELATIONS = {"uses_concepts":"concept", "uses_principles":"principle", "uses_models":"model", "uses_methods":"method", "uses_practices":"practice", "composes":"practice", "references":"reference", "related_knowledge":None}
@@ -109,6 +111,36 @@ def meaningful(text: str) -> str:
     # Strip destinations and formatting; retain link labels for normal prose.
     return re.sub(r'\s+',' ',LINK.sub('',text).replace('*','').strip())
 
+def has_local_actions(body: str) -> bool:
+    """Recognize action-shaped content, not its usefulness or scientific truth.
+
+    The caller supplies live Markdown (code examples are already hidden).
+    Labels and word counts are deliberately not part of this check.
+    """
+    items = re.findall(r'^ {0,3}\d+[.)][ \t]+(.+)$', body, re.M)
+    if items and all(meaningful(item) for item in items):
+        return True
+    branches = re.findall(
+        r'^ {0,3}[-*+][ \t]+((?:if\b|when\b|otherwise\b).+)$',
+        body, re.M | re.I)
+    if branches and all(meaningful(item) for item in branches):
+        return True
+    lines = body.splitlines()
+    for i, line in enumerate(lines):
+        if not line.strip().startswith('|') or i + 2 >= len(lines):
+            continue
+        headers = [cell.strip() for cell in line.strip().strip('|').split('|')]
+        separator = [cell.strip() for cell in lines[i + 1].strip().strip('|').split('|')]
+        if len(headers) < 2 or len(separator) != len(headers):
+            continue
+        if not all(re.fullmatch(r':?-{3,}:?', cell) for cell in separator):
+            continue
+        # Header meaning and the suitability of each action remain review tasks.
+        row = [cell.strip() for cell in lines[i + 2].strip().strip('|').split('|')]
+        if len(row) == len(headers) and all(meaningful(cell) for cell in row):
+            return True
+    return False
+
 def resolve(root:Path,source:Path,destination:str) -> tuple[Path,str] | None:
     u=urlsplit(destination)
     if u.scheme or u.netloc:return None
@@ -137,18 +169,23 @@ def snapshot(root:Path,docs:dict[Path,Document],byid:dict[str,Document]) -> dict
     return {'format':1,'meaning':'Declared/direct dependencies requiring human summary review after content changes; not proof of factual or semantic validity.','entries':entries}
 
 def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,Any]:
-    root=root.resolve();errors=[];docs={};byid={};relations=0;local_links=0;stage_count=0
+    root=root.resolve();errors=[];warnings=[];docs={};byid={};relations=0;local_links=0;stage_count=0
     def error(code:str,path:Path|str,detail:str):errors.append({'code':code,'file':str(path.relative_to(root)) if isinstance(path,Path) else path,'detail':detail})
     try:pub=json.loads((root/'publication.json').read_text())
     except (OSError,ValueError):pub={};error('publication','publication.json','missing or invalid publication metadata')
     if pub.get('kps_language')!='9.x':error('compatibility','publication.json','expected major-line 9.x, not an exact-version dependency')
     if not re.fullmatch(r'9\.\d+\.\d+',str(pub.get('validated_with',''))):error('compatibility','publication.json','exact inspected authoring release must be recorded separately')
     if pub.get('markdown_profile')!='practical-markdown-v1':error('profile','publication.json','wrong Markdown profile')
+    minimum = str(pub.get('minimum_validator', '9.0.0'))
+    if not re.fullmatch(r'9\.\d+\.\d+', minimum):
+        error('validator-version', 'publication.json', 'invalid minimum validator version')
+    elif tuple(map(int, minimum.split('.'))) > tuple(map(int, VALIDATOR_VERSION.split('.'))):
+        error('validator-version', 'publication.json', 'requires a newer validator than ' + VALIDATOR_VERSION)
     for folder in [*FOLDERS.values(),'references']:
         if not (root/folder).is_dir():error('folder',folder,'missing required knowledge/reference folder')
     for path in sorted(root.rglob('*.md')):
-        if '.github' in path.relative_to(root).parts:
-            continue  # Hosting infrastructure, not KPS knowledge documents.
+        if any(part in {'.github', *MANIFEST_IGNORED_PARTS} for part in path.relative_to(root).parts):
+            continue  # Hosting/Git/cache infrastructure, not KPS knowledge documents.
         try:doc=parse(path)
         except (OSError,UnicodeError,ValueError) as exc:error('parse',path,str(exc));continue
         docs[path]=doc
@@ -188,6 +225,8 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
             if not ('limits' in hs or 'counterevidence' in hs):error('method-limits',path,'missing limits')
             if not ('validation' in hs or 'checks' in hs or 'counterevidence' in hs):error('method-validation',path,'no output/evaluation check')
         if typ=='practice':
+            if m.get('practice_format') == 'steps-first-v1' and (not re.fullmatch(r'9\.\d+\.\d+', minimum) or tuple(map(int, minimum.split('.'))) < (9, 1, 0)):
+                error('validator-version', path, 'steps-first-v1 requires minimum_validator 9.1.0 or later')
             stage_matches=list(re.finditer(r'^## (Stage(\d+) (.+))$',doc.live,re.M))
             if not stage_matches:error('practice-stages',path,'no StageN execution stages')
             nums=[int(x[2]) for x in stage_matches]
@@ -198,11 +237,8 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
             for match in stage_matches:
                 next_h=re.search(r'^## ',doc.live[match.end():],re.M)
                 body=doc.live[match.end():match.end()+next_h.start()] if next_h else doc.live[match.end():]
-                for label in ('Goal','Why','What to do','What to observe','Success signal','Next'):
-                    lm=re.search(r'\*\*'+re.escape(label)+r':\*\*\s*(.+)',body)
-                    if not lm or not meaningful(lm[1]):error('stage-local-card',path,match[1]+': missing or link-only '+label)
-                if 'procedure' not in body.lower():error('stage-procedure',path,match[1]+': no inline procedure')
-                if len(meaningful(body).split())<65:error('stage-thin',path,match[1]+': inspect insufficient local content (heuristic)')
+                if not has_local_actions(body):
+                    error('stage-actions', path, match[1] + ': missing local action list or decision table')
                 if '#'+slug(match[1]) not in doc.links:error('stage-navigation',path,match[1]+': no live stage-map link')
             stage_count+=len(stage_matches)
     graph={}
@@ -217,6 +253,16 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
                 if target_type and actual!=target_type:error('relationship-type',path,key+': '+str(ident))
                 if not target_type and actual not in CORE:error('relationship-type',path,key+' expects core knowledge: '+str(ident))
             if key=='composes':graph[doc.meta.get('id','')]=vals
+        for match in LINK.finditer(doc.live):
+            if not match[0].startswith('!'):
+                continue
+            alt = re.match(r'!\[([^\]]*)\]', match[0])
+            if not alt or not alt[1].strip():
+                warnings.append({'code':'image-alt', 'file':str(path.relative_to(root)), 'detail':'add a meaningful text alternative and nearby explanation'})
+            destination = match[1] or match[2]
+            parsed = urlsplit(destination)
+            if parsed.scheme or parsed.netloc:
+                warnings.append({'code':'remote-image', 'file':str(path.relative_to(root)), 'detail':'remote image is not an offline dependency; keep essential meaning local'})
         for dest in doc.links:
             try:r=resolve(root,path,dest)
             except ValueError as exc:error('local-link',path,dest+': '+str(exc));continue
@@ -236,7 +282,9 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
         for node in graph:walk(node,[],done)
     except ValueError as exc:error('composition-cycle','metadata',str(exc))
     expected=snapshot(root,docs,byid)
-    sf=root/'summary-dependencies.json'
+    sf=root/'internal/metadata/summary-dependencies.json'
+    if not sf.is_file():
+        sf=root/'summary-dependencies.json'
     if refresh and not errors:sf.write_text(json.dumps(expected,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     if sf.exists():
         try:old=json.loads(sf.read_text())
@@ -265,7 +313,7 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
             if actual!=named:error('manifest-coverage','MANIFEST.sha256','listed/actual payload sets differ')
     types=Counter(d.meta.get('type','document') for d in docs.values())
     stats={'markdown_documents':len(docs),'knowledge_objects':sum(types[x] for x in CORE),'reference_records':types['reference'],'by_type':{k:types[k] for k in sorted(CORE)},'local_links':local_links,'typed_relationships':relations,'practice_stages':stage_count,'heading_identifiers':sum(len(d.headings) for d in docs.values()),'summary_recipients':len(expected['entries']),'summary_dependencies':sum(map(len,expected['entries'].values())),'manifest_files':manifest_files}
-    return {'ok':not errors,'scope':'publication structure and declared dependency changes only; not factual or domain conformance validation','stats':stats,'errors':errors}
+    return {'ok':not errors,'scope':'publication structure and declared dependency changes only; not factual or domain conformance validation','stats':stats,'errors':errors,'warnings':warnings}
 
 def main() -> int:
     ap=argparse.ArgumentParser(description=__doc__)
@@ -279,5 +327,6 @@ def main() -> int:
     else:
         print('PASS' if result['ok'] else 'FAIL',json.dumps(result['stats']))
         for e in result['errors']:print(f"{e['code']}: {e['file']}: {e['detail']}")
+        for w in result['warnings']:print(f"WARNING {w['code']}: {w['file']}: {w['detail']}")
     return 0 if result['ok'] else 1
 if __name__=='__main__':sys.exit(main())

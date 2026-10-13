@@ -1,13 +1,14 @@
 {
   "repository": "xiongxianfei/knowledge-practice-system",
-  "release": "9.0.1",
-  "commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
+  "core_version": "11.0.0",
+  "kps_language": "9.x",
+  "validator_version": "9.1.0",
+  "commit": "ce17edc3ce9fa42e47b1d05740489291a3087fb6",
   "copied_files": {
-    "AUTHORING.md": "d5890f789418d4ecf21917add2a9a8915be28d06",
-    "validate.py": "b9f853f0b6c62d1c9b50839dc45324badc885f73",
-    "test_validate.py": "de1cd80c477fc71cd69c1863378fd2767ec687f8",
-    "LICENSE": "f2069d6cff77823390bd06ee0513c324db216050"
+    "validate.py": "36ee1e7d6f991819d6d35b3764f7e16f8fb3fbc8"
   },
+  "inspected_authoring": "docs/authoring.md",
+  "previous_validator_commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
   "hash_algorithm": "Git blob SHA1: SHA1(blob SP length NUL bytes)",
-  "purpose": "Pinned unchanged authoring contract and structural tooling; not scientific evidence"
+  "purpose": "Pinned authoring basis and unchanged structural checker, not evidence for linguistic claims"
 }

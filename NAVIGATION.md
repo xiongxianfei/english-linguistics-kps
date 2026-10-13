@@ -1,25 +1,24 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
 status: "draft"
+package_version: "0.2.0"
 ---
 
 # Navigation conventions
 
 ## Key takeaway
-Portable relative Markdown links and stable metadata IDs serve different jobs.
+Read self contained Models for understanding and use catalogs only to locate additional detail.
 
 ## Summary
-Portable relative Markdown links and stable metadata IDs serve different jobs. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
+README and the ten English subsystem Models are the reader entry points. Each Model includes the terms, structure, worked example and limitations needed for its own purpose. Links deepen the explanation; neither a graph nor a sequence engine is needed.
 
 ## Files and headings
+Use ordinary relative Markdown links to real files. Heading fragments match the full heading in lowercase with hyphens; metadata identities do not create anchors. When a heading changes, update its stage map and incoming links.
 
-Use [the system model](models/english-system-architecture.md) as an ordinary relative link. Use conservative ASCII words in headings under the current upstream validator. Heading fragments derive from the full heading text, not from metadata IDs. Do not create custom HTML anchors or use Obsidian wikilinks.
+## Optional catalogs
+INDEX.md summarizes each canonical item by role. COVERAGE.md describes the ten Model entry points and distinguishes foundational coverage from completeness. REVIEW-QUEUE.md identifies remaining evidence work. These catalogs are generated from the Markdown with tools/build_navigation.py; the generator does not produce an independent knowledge store or alter source files.
 
-## Generated views
+The old global stages metadata retained in unchanged inherited notes is historical classification only and is not used for navigation. Numbered stages inside a Practice are actions within that Practice, not a course sequence. There is no sequences/ folder.
 
-INDEX.md, COVERAGE.md, REVIEW-QUEUE.md and knowledge-graph.json are generated from canonical object metadata. Edit source objects and run python3 tools/build_navigation.py. CI --check detects drift without rewriting files. Stages 0 through 7 provide coverage navigation, while Practice stages are local numbered execution steps.
-
-## Reader limits
-
-Markdown rendering and IPA font appearance vary by application. Ordinary text and relative links remain usable without optional graph plugins. Generated views are not additional authoritative definitions.
+## Reader checks
+Hide links and attempt the file's intended task. Check that a Model explains the relationship instead of telling the reader to consult another file. Follow at least one real link in the intended reader when a click test is available; structural validation alone does not prove viewer behavior.

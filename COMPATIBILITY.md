@@ -1,33 +1,25 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
 status: "draft"
+package_version: "0.2.0"
 ---
 
 # KPS compatibility
 
 ## Key takeaway
-The domain versions its own content separately from the KPS authoring language and tested upstream release.
+English content version, upstream Core version and KPS document language are separate declarations.
 
 ## Summary
-The domain versions its own content separately from the KPS authoring language and tested upstream release. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
+English package 0.2.0 follows the KPS 9.x Markdown contract inspected in upstream Core 11.0.0. The copied checker is upstream 9.1.0, not a new English-specific schema. Closed experimental KPS 12 proposals are not the contract for this PR.
 
-## Declaration
+## Upstream basis
+The inspected [upstream revision](https://github.com/xiongxianfei/knowledge-practice-system/tree/ce17edc3ce9fa42e47b1d05740489291a3087fb6) is ce17edc3ce9fa42e47b1d05740489291a3087fb6. The local validate.py exactly matches its Git blob 36ee1e7d6f991819d6d35b3764f7e16f8fb3fbc8. upstream-lock.json records this pin and the earlier baseline. The earlier test suite is retained with its stage-action expectation updated to match the 9.1 checker; new domain regressions exercise the simplified layout.
 
-```json
-{"kps_language":"9.x","validated_with":"9.0.1","markdown_profile":"practical-markdown-v1","upstream_commit":"60972c57199ae8bc21d4b7a00ac55552b4105277"}
-```
+## Content preservation
+All 110 knowledge items from main commit 034f21daa6946b744b367515cb4dbfc6a6720c4f are retained. Of those, 104 files are byte-identical. The four Practices retain their explanations and stage titles while existing action lines become numbered for checker 9.1.0; two Practices also receive a current Reference link label. Two other items receive the same label correction without changing their claims. The six revised object versions advance accordingly. Twenty additional Models supply ten subsystem explanations, nine interfaces and a shared worked case. Original IDs and paths remain usable. No source store is renamed because main already uses references/.
 
-The authoring contract, validator and regression suite are pinned, not dynamically installed from a changing branch. See [lock metadata](upstream-lock.json). The exact validation execution is recorded separately in validation-evidence.json after checks actually run.
+## Deliberate simplification
+The optional knowledge-graph.json export is removed; Markdown and ordinary links suffice. No entities/, ontology/, sources/, views/, generated/, sequences/ or duplicated legacy/ repository is added. Git history retains earlier content. Legacy global stage metadata in preserved notes is ignored by navigation; local Practice stages remain meaningful operations.
 
-## Independent package
-
-The five knowledge folders and reference records are readable locally with no sibling package. Knowledge objects retain stable IDs independently of path changes. Domain version 0.1.0 does not pretend to be KPS release 0.1.0; language and content versions answer different questions.
-
-## Review on update
-
-Compare a candidate upstream release against AUTHORING.md, inspect changed validation behavior, review affected content and rerun the suites. Do not infer future compatibility from a matching major numeral alone. Upstream updates should use a separate reviewed PR and update attribution and lock hashes.
-
-## Limitations
-
-Compatibility is a structural and authoring claim. It is not factual certification, expert approval, verified learning benefit or a literal processing architecture. The current upstream validator uses a deliberately restricted Markdown and JSON-compatible YAML profile.
+## Limits
+Compatibility does not mean scientific review or complete adoption of the upstream Core's separate curation policy. No automatic merge, tag, release, visualization dependency or remote build service is introduced.

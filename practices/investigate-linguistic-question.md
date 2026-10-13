@@ -1,7 +1,7 @@
 ---
 id: "english:practice:investigate-linguistic-question"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 stages: [7]
@@ -42,7 +42,7 @@ This is a proposed research-maintenance Practice for readers using the package, 
 
 **Why:** A broad topic cannot establish which observation would discriminate competing accounts.
 
-**What to do:** Write the expression, context, candidate analyses and current uncertainty.
+1. **What to do:** Write the expression, context, candidate analyses and current uncertainty.
 
 **What to observe:** Ambiguous targets, missing context and claims imported from teaching shorthand.
 
@@ -64,7 +64,7 @@ If the problem requires audio, a regional variety or unavailable speaker context
 
 **Why:** Mistakes often assign a correct label to the wrong span or analytical dimension.
 
-**What to do:** Annotate morphology, local syntax, semantic interpretation and contextual contributions separately.
+1. **What to do:** Annotate morphology, local syntax, semantic interpretation and contextual contributions separately.
 
 **What to observe:** A pronoun referent confused with a semantic role, or a full NP called a relative clause.
 
@@ -86,7 +86,7 @@ When multiple analyses remain possible, keep them side by side. A diagram is a r
 
 **Why:** Sources and judgments have limits that must survive summarization.
 
-**What to do:** Read relevant passages and record source identity, locators, access extent and nonclaims.
+1. **What to do:** Read relevant passages and record source identity, locators, access extent and nonclaims.
 
 **What to observe:** Unsupported universals, accent mismatches, or multiple summaries of the same original account.
 
@@ -108,7 +108,7 @@ Do not upload restricted source PDFs or source illustrations. If uncertainty mat
 
 **Why:** A documented interpretation can be compared and revised without reconstructing the whole conversation.
 
-**What to do:** Choose the KPS role, explain locally, link actual dependencies and record unresolved questions.
+1. **What to do:** Choose the KPS role, explain locally, link actual dependencies and record unresolved questions.
 
 **What to observe:** Evidence status, examples labelled as constructed, and summaries affected by the change.
 
@@ -146,7 +146,7 @@ The Practice is an authored operational synthesis. It is not an experimentally v
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Knowledge Practice System 9.0.1](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
+- [Knowledge Practice System authoring contract](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
 
 ## Related knowledge
 

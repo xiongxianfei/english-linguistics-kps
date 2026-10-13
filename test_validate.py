@@ -47,7 +47,10 @@ class PublicationChecks(unittest.TestCase):
         ps=[p for p in sorted(self.root.rglob('*.md')) if v.parse(p).meta.get('type')=='method' and '\n## Rationale\n' in p.read_text()]
         p=ps[0];p.write_text(p.read_text().replace('## Rationale','## Explanation',1));self.expect('method-rationale')
     def test_06_link_only_stage_action(self):
-        p=self.find('practice');p.write_text(re.sub(r'(\*\*What to do:\*\*)[^\n]*',r'\1 [Read more](../README.md)',p.read_text(),count=1));self.expect('stage-local-card')
+        p=self.find('practice')
+        text=p.read_text()
+        text=re.sub(r'(## Stage1 [^\n]+\n).*?(?=\n## )',r'\1\n[Read more](../README.md)\n',text,count=1,flags=re.S)
+        p.write_text(text);self.expect('stage-actions')
     def test_07_nonconsecutive_stage(self):
         p=self.find('practice');p.write_text(p.read_text().replace('## Stage2 ','## Stage99 ',1));self.expect('stage-order')
     def test_08_invented_ti_fragment(self):

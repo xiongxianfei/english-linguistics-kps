@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -21,7 +21,7 @@ type: "concept"
 version: "0.1.0"
 language: "KPS 9.x"
 status: "draft"
-stages: [0]
+domains: ["foundations"]
 evidence_status: "provisional"
 reviewed: null
 references: []
@@ -44,7 +44,7 @@ Its meaning, use and important limitation.
 
 ## Role content
 
-A Concept defines and contrasts. A Principle explains a scoped declarative relationship and counterevidence. A Model contains an actual representation with assumptions and tests. A Method includes inputs, rationale, procedure, checks and limits. A Practice contains locally executable Stage1, Stage2 and later stages with Goal, Why, What to do, What to observe, Success signal and Next. Its current-use summary stays empty until actual application.
+A Concept defines and contrasts. A Principle explains a scoped declarative relationship and counterevidence. A Model contains an actual representation with assumptions and tests. A Method includes inputs, rationale, procedure, checks and limits. A Practice contains locally executable Stage1, Stage2 and later stages with prerequisites, numbered actions or a decision table, necessary explanation, expected output and fallback decisions. Use a stage map and keep each stage usable without leaving the file. Fixed repeated labels are optional, not required. New steps-first Practices declare practice_format: "steps-first-v1". The current-use summary contains only recorded experience or an explicitly blank record.
 
 ## Evidence status
 

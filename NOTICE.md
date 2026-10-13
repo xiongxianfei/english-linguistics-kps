@@ -14,7 +14,7 @@ Original package content is distinct from upstream KPS tooling and external refe
 
 ## Upstream material
 
-AUTHORING.md, validate.py and test_validate.py are copied unchanged from xiongxianfei/knowledge-practice-system commit 60972c57199ae8bc21d4b7a00ac55552b4105277, repository edition 9.0.1, under MIT. Copyright (c) 2026 xiongxianfei. LICENSE preserves the MIT permission and warranty text. Upstream hashes are recorded in upstream-lock.json.
+The initial 0.1.0 package copied AUTHORING.md, validate.py and test_validate.py unchanged from xiongxianfei/knowledge-practice-system commit 60972c57199ae8bc21d4b7a00ac55552b4105277, repository edition 9.0.1, under MIT. Copyright (c) 2026 xiongxianfei. LICENSE preserves the MIT permission and warranty text. The current checker pin and earlier baseline are recorded in upstream-lock.json; this edition adapts the authoring guide and one regression expectation as described in COMPATIBILITY.md.
 
 ## Original content
 
@@ -31,3 +31,7 @@ The [General American pronunciation policy](PRONUNCIATION.md) links to Sounds Am
 ## No implied endorsement
 
 A cited author, publisher or institution has not endorsed this package. A selected-source support summary is narrower than verification of a whole object or the English architecture.
+
+## Updated checker attribution
+
+The copied validate.py is from xiongxianfei/knowledge-practice-system revision ce17edc3ce9fa42e47b1d05740489291a3087fb6 (checker 9.1.0), under its MIT license. The original license and attribution remain. English-domain explanations are original working syntheses; cited publications and other third-party material retain their own rights. No external full text, recording, chart image or font is bundled.
