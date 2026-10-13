@@ -51,11 +51,12 @@ General American remains the primary variety for new pronunciation analyses. Bro
 Every linguistic object remains provisional. Selected source inspection does not validate every sentence in a file. Constructed examples are not corpus data, and successful tests do not establish truth or learning outcomes.
 
 ## Authoring and checks
-The package follows the upstream [Knowledge Practice System](https://github.com/xiongxianfei/knowledge-practice-system) KPS 9.x contract. English package version 0.2.0 is independent of upstream Core 11.0.0; the copied structural checker is 9.1.0. See [AUTHORING](AUTHORING.md) and [COMPATIBILITY](COMPATIBILITY.md).
+
+Reading requires no scripts. Maintainer guidance lives in `docs/`; [Checks](docs/CHECKS.md) explains the retained tools and document moves. The three optional catalogs remain at the root so their existing links and generation commands stay usable.
+The package follows the upstream [Knowledge Practice System](https://github.com/xiongxianfei/knowledge-practice-system) KPS 9.x contract. English package version 0.2.0 is independent of upstream Core 11.0.0; the copied structural checker is 9.1.0. See [AUTHORING](AUTHORING.md) and [COMPATIBILITY](docs/COMPATIBILITY.md).
 
 ```bash
 python3 validate.py .
-python3 test_validate.py
 python3 -m unittest discover -s tests -v
 python3 tools/check_domain.py
 python3 tools/build_navigation.py --check

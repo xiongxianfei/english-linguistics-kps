@@ -14,7 +14,7 @@ Automated assistants must preserve authoring, evidence and permission boundaries
 
 ## Authority
 
-AUTHORING.md applies the pinned upstream KPS authoring contract to this package. SCOPE.md and CHECKS.md state this domain's scope and verification limits. Do not redefine KPS roles, make up review records, or silently turn a provisional analysis into established science.
+AUTHORING.md applies the pinned upstream KPS authoring contract to this package. [Scope](docs/SCOPE.md) and [Checks](docs/CHECKS.md) state this domain's scope and verification limits. Do not redefine KPS roles, make up review records, or silently turn a provisional analysis into established science.
 
 ## Work method
 

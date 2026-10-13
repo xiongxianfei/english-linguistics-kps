@@ -1,0 +1,2 @@
+# Keep text bytes stable for dependency fingerprints and release checksums.
+* text=auto eol=lf

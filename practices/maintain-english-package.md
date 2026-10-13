@@ -85,7 +85,7 @@ If a linked source changed but has not been reinspected, retain the warning and 
 
 **Why:** Automated structure checks and independent content review answer different questions.
 
-1. **What to do:** Run the upstream validator and regression suite plus domain checks; inspect the PR diff and merge status.
+1. **What to do:** Run the pinned validator and domain checks; inspect the PR diff and merge status.
 
 **What to observe:** Missing links, wrong typed IDs, stale snapshots and unexpected automation permissions.
 
@@ -95,7 +95,7 @@ If a linked source changed but has not been reinspected, retain the warning and 
 
 **Procedure**
 
-Run python3 validate.py ., python3 test_validate.py, python3 tools/check_domain.py and python3 -m unittest discover -s tests -v. Review generated indexes with --check mode and ensure the permanent workflow has read-only contents access. The authoring assistant can record its own structural/content review but cannot claim independent human approval. Record release scope and limitations before publishing.
+Run python3 validate.py ., python3 tools/check_domain.py and python3 -m unittest discover -s tests -v. Review generated indexes with --check mode and ensure the permanent workflow has read-only contents access. The authoring assistant can record its own structural/content review but cannot claim independent human approval. Record release scope and limitations before publishing.
 
 **Decision points and fallback**
 
@@ -111,7 +111,7 @@ On failed checks, fix the cause rather than disable tests or protection. A reque
 
 **Next check:** Apply to a bounded linguistic question and record the actual evidence separately.
 
-The repository build checks in CHECKS.md concern publication structure and constructed model fixtures, not effectiveness of this Practice.
+The repository build checks in docs/CHECKS.md concern publication structure and constructed model fixtures, not effectiveness of this Practice.
 
 ## Limits
 

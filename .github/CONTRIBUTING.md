@@ -14,7 +14,7 @@ Contributions should improve a bounded claim, representation or evidence record 
 
 ## Before editing
 
-Read AUTHORING.md and SCOPE.md. Inspect the target, direct dependencies, local evidence and review queue. Preserve IDs for revisions; create a new object only when it has a distinct reusable role. Stages and perspectives are metadata, not additional types.
+Read [Authoring](../AUTHORING.md) and [Scope](../docs/SCOPE.md). Inspect the target, direct dependencies, local evidence and review queue. Preserve IDs for revisions; create a new object only when it has a distinct reusable role. Stages and perspectives are metadata, not additional types.
 
 ## Pull request content
 
@@ -26,7 +26,7 @@ An independent reviewer can narrow, challenge or reject an analysis. A review re
 
 ## Checks and snapshots
 
-Run the commands in CHECKS.md. Regenerate indexes with tools/build_navigation.py. Review dependent summaries before refreshing their hashes. A broken link, removed qualifier or missing source record must not be silenced through a status change or CI disablement.
+Run the commands in [Checks](../docs/CHECKS.md). Regenerate indexes with tools/build_navigation.py. Review dependent summaries before refreshing their hashes. A broken link, removed qualifier or missing source record must not be silenced through a status change or CI disablement.
 
 ## Licensing and privacy
 

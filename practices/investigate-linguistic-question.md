@@ -134,7 +134,7 @@ A structural pass is not scientific approval. Keep status draft and evidence pro
 
 **Next check:** Apply to a bounded linguistic question and record the actual evidence separately.
 
-The repository build checks in CHECKS.md concern publication structure and constructed model fixtures, not effectiveness of this Practice.
+The repository build checks in docs/CHECKS.md concern publication structure and constructed model fixtures, not effectiveness of this Practice.
 
 ## Limits
 
