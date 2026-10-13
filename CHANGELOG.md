@@ -12,6 +12,10 @@ Version 0.1.0 is a broad provisional foundation, not a completed scientific revi
 ## Summary
 Version 0.1.0 is a broad provisional foundation, not a completed scientific review. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
 
+## Version 0 2 0
+
+A new PR from main retains all 110 existing knowledge objects and adds ten self-contained subsystem Models, nine interface Models and one integrated case. The package uses the upstream KPS 9.x Markdown contract, references/ and checker 9.1.0. Closed experimental entity/view/sequence architectures are not imported. Optional catalogs now include local summaries instead of global stage ordering; the graph export is removed. Limited Reference inspections are extended without claiming full-book or independent scientific review.
+
 ## Integrated pronunciation Practices
 
 Added Learn a word pronunciation and Classify and produce a phone, each with six self-contained stages, explicit General American scope, listening and production checks, uncertainty routes, worked analysis and blank private-record template. Added bounded source records for the Merriam-Webster pin entry and the official IPA diacritics and other-symbol panels. Updated navigation, source register and typed dependencies. Procedures and performance criteria remain provisional, with no invented learner results or claims of independently validated effectiveness.

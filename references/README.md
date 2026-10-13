@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -14,7 +14,7 @@ Ten records support selected structural conventions, linguistic distinctions and
 
 ## Publications
 
-- [Knowledge Practice System 9.0.1](xiongxianfei-2026-knowledge-practice-system.md) — README, AUTHORING, COMPATIBILITY, CHECKS, domain-package guidance and validator/test source; no claim of independent validation of KPS as a productivity intervention.
+- [Knowledge Practice System authoring contract](xiongxianfei-2026-knowledge-practice-system.md) — Pinned Core 11.0.0 authoring contract and 9.1.0 validator; earlier inspection records retained; no claim of independent validation of KPS as a productivity intervention.
 - [Essentials of Linguistics, first edition, McMaster University](anderson-2018-essentials-of-linguistics.md) — HTML landing metadata and selected HTML chapter scripts: 6.2 Allomorphs, 9.3 Thematic Roles and Passive Sentences, 3.4 Aspirated Stops in English, and 8.8 Adjuncts. Videos, audio, image measurements and the complete book were not inspected.
 - [IPA chart and component charts on the official website](international-phonetic-association-undated-ipa-chart.md) — Official chart webpage text and visual inspection of its pulmonic-consonant, vowel and suprasegmental PNG subcharts. No audio, articulatory measurements or language-specific full inventory was examined.
 - [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](roberts-2012-information-structure.md) — Journal HTML abstract and publication metadata only. Full article PDF, detailed formal derivations and evidence sections were not inspected.

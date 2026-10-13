@@ -1,15 +1,15 @@
 ---
 id: "english:reference:anderson-2018-essentials-of-linguistics"
 type: "reference"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 creator: "Catherine Anderson"
 publication: "Essentials of Linguistics, first edition, McMaster University"
 publication_date: "2018-03-15"
 date_basis: "Publication date and creator from the inspected book landing metadata. This record is not the second edition."
-accessed: "2026-10-11"
-access_extent: "HTML landing metadata and selected HTML chapter scripts: 6.2 Allomorphs, 9.3 Thematic Roles and Passive Sentences, 3.4 Aspirated Stops in English, and 8.8 Adjuncts. Videos, audio, image measurements and the complete book were not inspected."
+accessed: "2026-10-13"
+access_extent: "HTML landing metadata and selected HTML chapter scripts: 6.2 Allomorphs, 9.3 Thematic Roles and Passive Sentences, 3.4 Aspirated Stops in English, and 8.8 Adjuncts. Videos, audio, image measurements and the complete book were not inspected. Additional HTML text inspected on 2026-10-13: 3.1 Broad and Narrow Transcription, 4.1 Phonemes and Contrast, 6.3 Inflectional Morphology, 8.3 Constituents (replacement-test discussion), 10.1 Elements of Word Meaning, and 3.7 Suprasegmentals. Selected allomorphy/passive passages rechecked. No new video/audio or full-book inspection."
 reviewed: null
 ---
 
@@ -46,6 +46,21 @@ The [Aspirated Stops chapter](https://pressbooks.pub/essentialsoflinguistics/cha
 ## Adjuncts
 
 The [Adjuncts chapter](https://pressbooks.pub/essentialsoflinguistics/chapter/8-9-adjuncts/) presents complement versus adjunct distinctions within an X-bar account. This supports recognizing the distinction, not treating that framework or a simple deletion test as universally decisive.
+
+## Additional foundation passages
+
+On 2026-10-13 the following selected HTML text was inspected, not the linked recordings:
+
+| Passage | Limited contribution |
+|---|---|
+| [3.1 Broad and Narrow Transcription](https://pressbooks.pub/essentialsoflinguistics/chapter/3-2-broad-and-narrow-transcription/) | Transcription detail is a choice; the source's accent examples are Canadian |
+| [4.1 Phonemes and Contrast](https://pressbooks.pub/essentialsoflinguistics/chapter/4-2-phonemes-and-contrast/) | Contrast differs from phonetic variation |
+| [6.3 Inflectional Morphology](https://pressbooks.pub/essentialsoflinguistics/chapter/6-4-inflectional-morphology/) | Inflection conveys grammatical distinctions |
+| [8.3 Constituents](https://pressbooks.pub/essentialsoflinguistics/chapter/8-4-constituents/) | Replacement supplies evidence for grouping, not an infallible parser |
+| [10.1 Word Meaning](https://pressbooks.pub/essentialsoflinguistics/chapter/10-2-elements-of-word-meaning-intensions-and-extensions/) | Reference and meaning are not identical |
+| [3.7 Suprasegmentals](https://pressbooks.pub/essentialsoflinguistics/chapter/3-8-suprasegmentals/) | Pitch, duration and intensity contribute to suprasegmental description |
+
+The passive chapter's simplified diagnostic should not be generalized into a requirement that every passive contain *be*. The chapter itself includes a *get* example. Its formal tree conventions and simplified meaning account are not silently adopted as the only analyses. New system Models are original working syntheses; this Reference does not establish all their claims.
 
 ## Nonclaims
 

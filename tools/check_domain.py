@@ -13,13 +13,10 @@ def inspect(root):
             except Exception as e:errors.append(f'{p.name}: {e}');continue
             if d.meta.get('type')!=role:continue
             count+=1;m=d.meta
-            for key in ['id','type','version','language','status','stages','evidence_status','basis_kind','reviewed']:
+            for key in ['id','type','version','language','status','evidence_status','basis_kind','reviewed']:
                 if key not in m:errors.append(f'{p.name}: missing {key}')
             if m.get('id') in seen:errors.append(f'{p.name}: duplicate identity')
             seen.add(m.get('id'))
-            values=m.get('stages',[])
-            if not isinstance(values,list) or not values or any(type(x) is not int or x not in range(8) for x in values):errors.append(f'{p.name}: invalid coverage stages')
-            else:stages.update(values)
             if m.get('evidence_status')=='provisional':
                 if 'provisional' not in kps.section(d,'Evidence status').lower():errors.append(f'{p.name}: provisional status not visible in body')
                 if m.get('reviewed') is not None:errors.append(f'{p.name}: provisional item claims reviewed date')
@@ -29,7 +26,11 @@ def inspect(root):
             else:errors.append(f'{p.name}: unsupported evidence status')
             if not kps.section(d,'Summary').strip():errors.append(f'{p.name}: empty summary')
             if role in {'concept','principle','model'} and not ('limit' in d.live.lower()):errors.append(f'{p.name}: missing scope limits')
-    if stages!=set(range(8)):errors.append('Stage coverage does not include all of 0 through 7')
+    systems={kps.parse(p).meta.get('system_domain') for p in (root/'models').glob('english-*-system.md')}
+    expected={'phonetics','phonology','morphology','lexicon','syntax','semantics','pragmatics','discourse','information-structure','prosody'}
+    if systems!=expected:errors.append('Ten subsystem Models are required for this foundation')
+    for folder in ('entities','ontology','sequences','views','sources','generated'):
+        if (root/folder).exists():errors.append('Abandoned storage layer: '+folder)
     for p in sorted((root/'references').glob('*.md')):
         d=kps.parse(p)
         if d.meta.get('type')!='reference':continue

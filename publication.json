@@ -1,13 +1,13 @@
 {
   "package": "English Linguistics KPS",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "kps_language": "9.x",
-  "validated_with": "9.0.1",
+  "validated_with": "9.1.0",
   "markdown_profile": "practical-markdown-v1",
   "scientific_status": "provisional",
   "independent_review": false,
   "created": "2026-10-11",
-  "upstream_commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
+  "upstream_commit": "ce17edc3ce9fa42e47b1d05740489291a3087fb6",
   "independent": true,
   "knowledge_types": [
     "concept",
@@ -17,6 +17,8 @@
     "practice"
   ],
   "reference_is_supporting_record": true,
-  "scope": "Broad introductory Stage 0 through 7 knowledge model; not exhaustive or scientifically certified",
-  "license": "MIT"
+  "scope": "Foundational knowledge across ten linguistic domains and their major interfaces; self-contained Markdown, not exhaustive or independently certified",
+  "license": "MIT",
+  "minimum_validator": "9.1.0",
+  "upstream_core": "11.0.0"
 }

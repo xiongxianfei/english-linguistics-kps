@@ -32,7 +32,7 @@ Neither the terms 'General American' nor 'standard' identifies a single invarian
 
 ## Boundaries
 
-This release does not exhaust sociolinguistics, language acquisition, diachrony, corpus linguistics, psycholinguistic processing or every competing formal theory. Stage 0 through 7 coverage means the major introductory topics are represented, not that all knowledge is complete or reviewed.
+This release does not exhaust sociolinguistics, language acquisition, diachrony, corpus linguistics, psycholinguistic processing or every competing formal theory. The ten subsystem Models provide foundational coverage, not a complete inventory or a compulsory reading order.
 
 ## Treatment of prior material
 

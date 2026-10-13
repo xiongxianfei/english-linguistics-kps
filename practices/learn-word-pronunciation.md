@@ -1,7 +1,7 @@
 ---
 id: "english:practice:learn-word-pronunciation"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 stages: [6, 7]
@@ -60,7 +60,7 @@ See the linked [toPhonetics record](../references/tophonetics-undated-english-tr
 
 **Why:** The same spelling can correspond to different words, senses or stress patterns; a plural or past form is not the uninflected base.
 
-**What to do:** Record spelling, a short meaning, grammatical form, an example sentence and General American as the target.
+1. **What to do:** Record spelling, a short meaning, grammatical form, an example sentence and General American as the target.
 
 **What to observe:** Homographs, proper names, abbreviations and differences between saying a word alone and in connected speech.
 
@@ -82,7 +82,7 @@ If a name or unfamiliar technical term has conflicting pronunciations, retain al
 
 **Why:** A converter supplies a candidate lexical analysis; it does not observe how a person pronounced the word.
 
-**What to do:** Select American in toPhonetics, inspect alternatives and settings, then compare the appropriate dictionary entry.
+1. **What to do:** Select American in toPhonetics, inspect alternatives and settings, then compare the appropriate dictionary entry.
 
 **What to observe:** Sense mismatch, an unrecognized word, different transcription conventions, weak forms and unresolved accent differences.
 
@@ -104,7 +104,7 @@ Do not resolve differing vowels, rhotics or stress by blind symbol substitution.
 
 **Why:** Recognizing a written sequence does not demonstrate hearing its syllables, contrasts or prominence.
 
-**What to do:** Listen without looking first, note what you perceive, then replay while comparing with the proposed transcription.
+1. **What to do:** Listen without looking first, note what you perceive, then replay while comparing with the proposed transcription.
 
 **What to observe:** Missing or additional syllables, difficult vowel contrasts, consonant sequence, lexical stress and possible reduction.
 
@@ -127,7 +127,7 @@ If sources are inaccessible, record “listening pending.” Do not infer that y
 
 **Why:** Separate phoneme names are not the same thing as coordinated speech movements.
 
-**What to do:** Inspect the relevant sound lesson, practice the difficult gesture, then join it into its syllable and word without extra vowels.
+1. **What to do:** Inspect the relevant sound lesson, practice the difficult gesture, then join it into its syllable and word without extra vowels.
 
 **What to observe:** Lip and tongue placement, constriction, airflow, vowel quality, smooth transitions and unintended segment insertion.
 
@@ -149,7 +149,7 @@ Stop if speaking causes discomfort. A mirror can show lips but not prove an inte
 
 **Why:** Knowing the intended word can bias self-listening, and automatic transcription can recover words despite sound differences.
 
-**What to do:** Record the word and its sentence, alternate reference and attempt playback, and obtain a listener's independent response when possible.
+1. **What to do:** Record the word and its sentence, alternate reference and attempt playback, and obtain a listener's independent response when possible.
 
 **What to observe:** Segment identity, syllable count, lexical stress, contextual realization and what the listener actually understood.
 
@@ -172,7 +172,7 @@ A different GA variant may be legitimate. First check lexical contrast and evide
 
 **Why:** A successful echoed attempt does not establish independent recall or use in a new sentence.
 
-**What to do:** Hide IPA and audio, produce the word from its meaning, use a new original sentence, and schedule a later self-check in your own record.
+1. **What to do:** Hide IPA and audio, produce the word from its meaning, use a new original sentence, and schedule a later self-check in your own record.
 
 **What to observe:** Dependence on the prompt, return of an earlier error, and differences between isolated and contextual production.
 
