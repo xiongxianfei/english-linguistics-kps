@@ -1,18 +1,19 @@
 ---
-id: "english:concept:evidence-and-analysis"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:evidence-and-analysis"
+aliases: ["english:concept:evidence-and-analysis"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["kps:knowledge-maintenance"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:interface", "english:concept:grammaticality-and-acceptability", "english:concept:expression-and-representation"]
+claims: [{"id":"key-takeaway","statement":"An attested token, a constructed example, an elicited judgment, a source statement and an analyst's model are different evidence objects.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:interface","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:grammaticality-and-acceptability","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:expression-and-representation","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Evidence and analysis
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Linguistic interface](../concepts/interface.md) provides a related distinction used in the local explanation.
-- [Grammaticality and acceptability](../concepts/grammaticality-and-acceptability.md) provides a related distinction used in the local explanation.
-- [Expression and representation](../concepts/expression-and-representation.md) provides a related distinction used in the local explanation.
+- [Linguistic interface](interface.md) provides a related distinction used in the local explanation.
+- [Grammaticality and acceptability](grammaticality-and-acceptability.md) provides a related distinction used in the local explanation.
+- [Expression and representation](expression-and-representation.md) provides a related distinction used in the local explanation.

@@ -1,29 +1,16 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
-
 # AI contribution guidance
 
 ## Key takeaway
-Automated assistants must preserve authoring, evidence and permission boundaries.
-
-## Summary
-Automated assistants must preserve authoring, evidence and permission boundaries. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
-
-## Authority
-
-AUTHORING.md is the upstream authoring contract. SCOPE.md and CHECKS.md state this domain's scope and verification limits. Do not redefine KPS roles, make up review records, or silently turn a provisional analysis into established science.
+Automated contributors may help author and validate structure but must not fabricate linguistic evidence, source inspection, speaker data, learner outcomes or human review.
 
 ## Work method
 
-Read the relevant source files and dependencies first. Use the smallest coherent change. Distinguish source statements, authored inference, pedagogical simplification and observations. Keep constructed examples labelled. Do not infer source inspection from a citation title or generate answer-shaped evidence.
+Read KPS.md, AUTHORING.md, SCOPE.md and the target dependencies. Change canonical Markdown only; regenerate views. Prefer a bounded, evidence-aware correction over mass text generation. Preserve uncertainty, competing analyses and constructed-example labels.
+
+## Repository rules
+
+Every knowledge file has exactly one primary role determined by its folder. Authors may introduce domains and predicates, but must use stable kebab-case and inspect possible duplicates. Use `sources/`, not `references/`; do not create `entities/`, `ontology/` or a generic `knowledge/` store.
 
 ## Execution
 
-Run actual checks and report failures honestly. Preserve branch protection and do not force-push shared branches. Do not run --accept-reviewed-summaries just to make a check green. That flag records an actual summary review; it does not perform one.
-
-## Data and content
-
-Never bundle private user conversations or third-party copyrighted material under the MIT notice. Do not claim a generated diagram, IPA string or unit test establishes linguistic truth. Missing context or recordings must stay missing in the published analysis.
+Run actual checks and report failures honestly. Structural validation does not establish scientific truth. Do not disable checks, refresh evidence status or invent review records to make CI green.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:lexeme-and-word-form"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:lexeme-and-word-form"
+aliases: ["english:concept:lexeme-and-word-form"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","lexicon:lexical-identity","morphology","morphology:morphological-units"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:inflection", "english:concept:derivation", "english:concept:paradigm-and-syncretism"]
+claims: [{"id":"key-takeaway","statement":"A lexeme is an abstract lexical identity associated with a family of grammatical forms.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:derivation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:paradigm-and-syncretism","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Lexeme and word form
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
-- [Derivation](../concepts/derivation.md) provides a related distinction used in the local explanation.
-- [Paradigm and syncretism](../concepts/paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
+- [Inflection](inflection.md) provides a related distinction used in the local explanation.
+- [Derivation](derivation.md) provides a related distinction used in the local explanation.
+- [Paradigm and syncretism](paradigm-and-syncretism.md) provides a related distinction used in the local explanation.

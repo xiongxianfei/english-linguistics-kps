@@ -1,18 +1,19 @@
 ---
-id: "english:concept:focus-topic-and-qud"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:focus-topic-and-qud"
+aliases: ["english:concept:focus-topic-and-qud"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["discourse","information-structure","information-structure:focus-and-alternatives","information-structure:qud-organization","information-structure:topic-and-background","pragmatics","pragmatics:question-under-discussion"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:roberts-2012-information-structure"]
-uses_concepts: ["english:concept:prosody", "english:concept:givenness-and-bridging", "english:concept:common-ground"]
+claims: [{"id":"key-takeaway","statement":"Topic concerns what a discourse stretch is about; a question under discussion is the issue being addressed; focus relates an expression or domain to relevant alternatives.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:prosody","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:givenness-and-bridging","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:common-ground","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:roberts-2012-information-structure","relation":"context-only"}]
 ---
+
 
 # Focus topic and question under discussion
 
@@ -44,10 +45,10 @@ Roberts supplies one QUD-based framework, not a universal consensus. Only its ab
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](../references/roberts-2012-information-structure.md#abstract) — support is limited to the named section in that record.
+- [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](../sources/roberts-2012-information-structure.md#abstract) — support is limited to the named section in that record.
 
 ## Related knowledge
 
-- [Prosody and intonation](../concepts/prosody.md) provides a related distinction used in the local explanation.
-- [Givenness and bridging](../concepts/givenness-and-bridging.md) provides a related distinction used in the local explanation.
-- [Common ground](../concepts/common-ground.md) provides a related distinction used in the local explanation.
+- [Prosody and intonation](prosody.md) provides a related distinction used in the local explanation.
+- [Givenness and bridging](givenness-and-bridging.md) provides a related distinction used in the local explanation.
+- [Common ground](common-ground.md) provides a related distinction used in the local explanation.

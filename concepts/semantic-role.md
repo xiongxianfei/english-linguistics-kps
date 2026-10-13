@@ -1,18 +1,19 @@
 ---
-id: "english:concept:semantic-role"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:semantic-role"
+aliases: ["english:concept:semantic-role"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:participant-roles"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:category-and-function", "english:concept:semantic-predicate", "english:concept:object-and-pp-complement"]
+claims: [{"id":"key-takeaway","statement":"A semantic role characterizes a participant's relationship to a predicate or situation.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:category-and-function","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-predicate","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"}]
 ---
+
 
 # Semantic role
 
@@ -44,10 +45,10 @@ Role inventories and boundaries differ. Passive need not contain an overt agent 
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#passive) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#passive) — support is limited to the named section in that record.
 
 ## Related knowledge
 
-- [Category and function](../concepts/category-and-function.md) provides a related distinction used in the local explanation.
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
+- [Category and function](category-and-function.md) provides a related distinction used in the local explanation.
+- [Semantic predicate](semantic-predicate.md) provides a related distinction used in the local explanation.
+- [Object and PP complement](object-and-pp-complement.md) provides a related distinction used in the local explanation.

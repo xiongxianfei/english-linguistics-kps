@@ -1,0 +1,1526 @@
+[
+  {
+    "id": "english:accent-does-not-exhaust-focus",
+    "title": "An accented word need not exhaust the focus domain",
+    "role": "principle",
+    "domains": [
+      "information-structure",
+      "information-structure:focus-projection",
+      "prosody",
+      "prosody:pitch-accent-and-prominence"
+    ],
+    "path": "principles/accent-does-not-exhaust-focus.md",
+    "summary": "The same prominent word can participate in a narrow focus or a larger focused constituent. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:affix",
+    "title": "Affix",
+    "role": "concept",
+    "domains": [
+      "morphology",
+      "morphology:morphological-units"
+    ],
+    "path": "concepts/affix.md",
+    "summary": "An affix is a bound morphological element attached to a base in the analysis adopted here. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:allomorphy",
+    "title": "Allomorphy",
+    "role": "concept",
+    "domains": [
+      "morphology",
+      "morphology:allomorphy",
+      "phonology"
+    ],
+    "path": "concepts/allomorphy.md",
+    "summary": "Allomorphy is variation in the forms realizing a morphological unit. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:ambiguity-and-vagueness",
+    "title": "Ambiguity and vagueness",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:semantic-ambiguity"
+    ],
+    "path": "concepts/ambiguity-and-vagueness.md",
+    "summary": "Ambiguity involves distinguishable interpretations of a form or structure. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:analyze-complete-utterance",
+    "title": "Analyze complete utterance",
+    "role": "method",
+    "domains": [
+      "discourse",
+      "information-structure",
+      "lexicon",
+      "morphology",
+      "phonetics",
+      "phonology",
+      "pragmatics",
+      "prosody",
+      "semantics",
+      "syntax"
+    ],
+    "path": "methods/analyze-complete-utterance.md",
+    "summary": "Produce a multi-level analysis whose representations remain distinct and whose interfaces are explicit. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:analyze-constituency",
+    "title": "Analyze constituency",
+    "role": "method",
+    "domains": [
+      "syntax",
+      "syntax:constituency-and-dependency",
+      "syntax:syntactic-diagnostics"
+    ],
+    "path": "methods/analyze-constituency.md",
+    "summary": "Record candidate constituent boundaries and local relations using converging diagnostics. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:analyze-sound-realization",
+    "title": "Analyze sound realization",
+    "role": "method",
+    "domains": [
+      "phonetics",
+      "phonetics:acoustic-phonetics",
+      "phonology",
+      "phonology:phonological-processes",
+      "prosody"
+    ],
+    "path": "methods/analyze-sound-realization.md",
+    "summary": "Distinguish morphological exponents, phonological categories and observed phonetic realizations. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:anaphora-and-accessibility",
+    "title": "Anaphora and accessibility",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:anaphora-and-accessibility",
+      "information-structure",
+      "information-structure:givenness"
+    ],
+    "path": "concepts/anaphora-and-accessibility.md",
+    "summary": "Anaphora links an expression's interpretation to discourse material or a structurally available antecedent. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:annotate-and-measure-prosody",
+    "title": "Annotate and measure prosody",
+    "role": "method",
+    "domains": [
+      "prosody",
+      "prosody:prosodic-annotation-and-measurement",
+      "phonetics",
+      "phonetics:acoustic-phonetics"
+    ],
+    "path": "methods/annotate-and-measure-prosody.md",
+    "summary": "This Method provides a bounded workflow for examining phrasing, prominence and intonation in recorded speech. It does not make capitalization, punctuation or predicted IPA count as acoustic evidence."
+  },
+  {
+    "id": "english:auxiliary-chain",
+    "title": "Auxiliary chain",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-architecture"
+    ],
+    "path": "concepts/auxiliary-chain.md",
+    "summary": "English auxiliary constructions constrain the form of a following verb. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:auxiliary-selection-model",
+    "title": "Auxiliary selection model",
+    "role": "model",
+    "domains": [
+      "syntax",
+      "syntax:clause-architecture"
+    ],
+    "path": "models/auxiliary-selection-model.md",
+    "summary": "Local auxiliary selection explains the form of each following verb independently of the construction label. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:category-and-function",
+    "title": "Category and function",
+    "role": "concept",
+    "domains": [
+      "foundations",
+      "syntax",
+      "syntax:syntactic-categories"
+    ],
+    "path": "concepts/category-and-function.md",
+    "summary": "A syntactic category classifies an expression by its structural and distributional properties; a grammatical function describes its relationship within a larger construction. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:category-does-not-determine-function",
+    "title": "Category does not determine grammatical function",
+    "role": "principle",
+    "domains": [
+      "syntax",
+      "syntax:syntactic-categories"
+    ],
+    "path": "principles/category-does-not-determine-function.md",
+    "summary": "A category label does not uniquely determine the grammatical function of its instances. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:classify-and-produce-phone",
+    "title": "Classify and produce a phone",
+    "role": "practice",
+    "domains": [
+      "phonetics",
+      "phonetics:articulatory-phonetics",
+      "phonetics:speech-perception",
+      "phonology"
+    ],
+    "path": "practices/classify-and-produce-phone.md",
+    "summary": "This Practice combines phone classification with listening, articulation, production and evidence checking. It yields a **phone classification record** with the input and its context, a proposed phonetic symbol, vowel/consonant analysis, articulatory features, source support, observed versus predicted properties, actual attempts and uncertainty. General American supplies the English reference contexts; the IPA chart itself is cross-language. The six stages give a recommended route, not compulsory prerequisites in every case. Symbol-led analysis and recording-led investigation converge on a revisable record, not on a claim that every input has one certain answer."
+  },
+  {
+    "id": "english:clause-architecture",
+    "title": "Clause architecture",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-architecture"
+    ],
+    "path": "concepts/clause-architecture.md",
+    "summary": "The working clause representation distinguishes Subject from Predicate and then analyzes the predicate's head, complements and modifiers. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:cohesion-and-coherence",
+    "title": "Cohesion and coherence",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:cohesion-and-coherence"
+    ],
+    "path": "concepts/cohesion-and-coherence.md",
+    "summary": "Cohesion concerns linguistic linking devices such as reference chains, repetition, lexical relations, ellipsis and connectives. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:cohesion-does-not-guarantee-coherence",
+    "title": "Cohesive links do not guarantee coherence",
+    "role": "principle",
+    "domains": [
+      "discourse",
+      "discourse:cohesion-and-coherence"
+    ],
+    "path": "principles/cohesion-does-not-guarantee-coherence.md",
+    "summary": "Explicit linguistic links do not by themselves establish a well motivated conceptual relationship among all discourse units. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:collocation",
+    "title": "Collocation",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:collocation"
+    ],
+    "path": "concepts/collocation.md",
+    "summary": "Collocation concerns conventional patterns of lexical co-occurrence. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:common-ground",
+    "title": "Common ground",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "information-structure",
+      "information-structure:qud-organization",
+      "pragmatics",
+      "pragmatics:common-ground"
+    ],
+    "path": "concepts/common-ground.md",
+    "summary": "Common ground is information participants mutually treat as accepted for the purposes of an interaction in a working discourse model. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:compare-argument-mappings",
+    "title": "Compare argument mappings",
+    "role": "method",
+    "domains": [
+      "semantics",
+      "semantics:participant-roles",
+      "syntax",
+      "syntax:grammatical-functions"
+    ],
+    "path": "methods/compare-argument-mappings.md",
+    "summary": "Separate participant roles from grammatical functions when comparing constructions. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:complement-and-modifier",
+    "title": "Complement and modifier",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:constituency-and-dependency"
+    ],
+    "path": "concepts/complement-and-modifier.md",
+    "summary": "A complement is licensed by the relevant head or construction in a closer selectional relationship; a modifier contributes a less lexically restricted elaboration. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:complement-clause",
+    "title": "Complement clause",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-linking"
+    ],
+    "path": "concepts/complement-clause.md",
+    "summary": "A complement clause occupies a position licensed by a head or construction. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:compositionality",
+    "title": "Compositionality",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:compositional-meaning"
+    ],
+    "path": "concepts/compositionality.md",
+    "summary": "The compositionality principle relates the interpretation of a complex expression to interpretations of its parts and their mode of combination. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:compounding",
+    "title": "Compounding",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexicalization",
+      "morphology",
+      "morphology:compounds"
+    ],
+    "path": "concepts/compounding.md",
+    "summary": "Compounding combines lexical bases into a larger lexical expression. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:connected-speech",
+    "title": "Connected speech",
+    "role": "concept",
+    "domains": [
+      "phonetics",
+      "phonetics:coarticulation-and-reduction",
+      "phonology",
+      "phonology:phonological-processes",
+      "prosody",
+      "prosody:prosodic-phrasing"
+    ],
+    "path": "concepts/connected-speech.md",
+    "summary": "Connected-speech processes describe context-sensitive realization across segments and word boundaries. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:consonant-articulation",
+    "title": "Consonant articulation",
+    "role": "concept",
+    "domains": [
+      "phonetics",
+      "phonetics:articulatory-phonetics",
+      "phonology",
+      "phonology:distinctive-features"
+    ],
+    "path": "concepts/consonant-articulation.md",
+    "summary": "Consonants can be classified by voicing, place and manner of articulation. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:constituency",
+    "title": "Constituency",
+    "role": "concept",
+    "domains": [
+      "foundations",
+      "syntax",
+      "syntax:constituency-and-dependency"
+    ],
+    "path": "concepts/constituency.md",
+    "summary": "A constituent is a unit in a proposed hierarchical syntactic analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:constraint-and-preference",
+    "title": "Constraint and preference",
+    "role": "concept",
+    "domains": [
+      "kps:knowledge-maintenance"
+    ],
+    "path": "concepts/constraint-and-preference.md",
+    "summary": "A grammatical licensing condition concerns what a stated grammar permits. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:context-supplies-reference-values",
+    "title": "Context supplies values for context sensitive expressions",
+    "role": "principle",
+    "domains": [
+      "pragmatics",
+      "pragmatics:context-and-deixis"
+    ],
+    "path": "principles/context-supplies-reference-values.md",
+    "summary": "Conventional meaning can constrain reference without uniquely determining the referent of an utterance. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:contextual-resolution",
+    "title": "Contextual resolution",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:context-and-deixis"
+    ],
+    "path": "concepts/contextual-resolution.md",
+    "summary": "Contextual resolution identifies values needed to interpret an expression in its use, such as a pronoun referent, deictic place or relevant comparison class. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:contrast-and-concession",
+    "title": "Contrast and concession",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:discourse-relations"
+    ],
+    "path": "concepts/contrast-and-concession.md",
+    "summary": "Contrast presents a relevant difference or opposition between discourse units. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:contrast-and-distribution",
+    "title": "Contrast and distribution",
+    "role": "concept",
+    "domains": [
+      "phonology",
+      "phonology:phonemic-contrast"
+    ],
+    "path": "concepts/contrast-and-distribution.md",
+    "summary": "A minimal pair differs in one relevant segment while contrasting lexical identity. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:coordination-and-subordination",
+    "title": "Coordination and subordination",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-linking"
+    ],
+    "path": "concepts/coordination-and-subordination.md",
+    "summary": "Coordination combines expressions of comparable syntactic status; subordination makes a clause dependent within a larger structure. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:deixis",
+    "title": "Deixis",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:context-and-deixis"
+    ],
+    "path": "concepts/deixis.md",
+    "summary": "Deictic expressions anchor interpretation to features of an utterance context such as speaker, addressee, place or time. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:derivation",
+    "title": "Derivation",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "morphology",
+      "morphology:derivational-morphology"
+    ],
+    "path": "concepts/derivation.md",
+    "summary": "Derivation forms a related lexeme using a morphological pattern. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:dialogue-and-turn-taking",
+    "title": "Dialogue and turn taking",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:interaction-and-turn-taking",
+      "pragmatics"
+    ],
+    "path": "concepts/dialogue-and-turn-taking.md",
+    "summary": "Dialogue and turn taking describe how participants coordinate speaking, responding and repairing misunderstandings. The organization is not reducible to punctuation or a fixed alternation of speakers. This initial English-focused account is provisional and does not claim one universal conversation system."
+  },
+  {
+    "id": "english:discourse-information-structure-interface",
+    "title": "Discourse Information Structure interface",
+    "role": "model",
+    "domains": [
+      "discourse",
+      "information-structure"
+    ],
+    "path": "models/discourse-information-structure-interface.md",
+    "summary": "A stated discourse context constrains an information-structure analysis without making grammatical Subject, Topic and Focus interchangeable. This KPS 12 bridge is an authored provisional synthesis with a constructed illustration, not newly inspected empirical evidence."
+  },
+  {
+    "id": "english:discourse-network-model",
+    "title": "Discourse network model",
+    "role": "model",
+    "domains": [
+      "discourse",
+      "discourse:discourse-relations"
+    ],
+    "path": "models/discourse-network-model.md",
+    "summary": "A discourse model tracks referents and relations while keeping textual order distinct from event order and causal direction. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:discourse-referent",
+    "title": "Discourse referent",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:anaphora-and-accessibility"
+    ],
+    "path": "concepts/discourse-referent.md",
+    "summary": "A discourse referent is a representation used to track an individual, group, event or other object through discourse. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:discourse-relation",
+    "title": "Discourse relation",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:discourse-relations"
+    ],
+    "path": "concepts/discourse-relation.md",
+    "summary": "A discourse relation links units through an interpretive relation such as explanation, result, elaboration, example, contrast or condition. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:do-support-and-inversion",
+    "title": "Do support and inversion",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-architecture"
+    ],
+    "path": "concepts/do-support-and-inversion.md",
+    "summary": "Ordinary English main-clause interrogatives and sentential negation interact with auxiliary syntax. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:ellipsis-and-discontinuity",
+    "title": "Ellipsis and discontinuity",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:ellipsis-and-discontinuity",
+      "discourse"
+    ],
+    "path": "concepts/ellipsis-and-discontinuity.md",
+    "summary": "Ellipsis concerns interpretations in which context licenses material that is not overtly pronounced. Discontinuity concerns dependencies whose related pieces are separated in the surface string. Both challenge analyses that equate syntactic structure with uninterrupted spans."
+  },
+  {
+    "id": "english:english-system-architecture",
+    "title": "English system architecture",
+    "role": "model",
+    "domains": [
+      "discourse",
+      "information-structure",
+      "lexicon",
+      "morphology",
+      "phonetics",
+      "phonology",
+      "pragmatics",
+      "prosody",
+      "semantics",
+      "syntax"
+    ],
+    "path": "models/english-system-architecture.md",
+    "summary": "English is documented here through distinct, interacting representations rather than a fixed processing staircase. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:evaluate-linguistic-claim",
+    "title": "Evaluate linguistic claim",
+    "role": "method",
+    "domains": [
+      "kps:knowledge-maintenance"
+    ],
+    "path": "methods/evaluate-linguistic-claim.md",
+    "summary": "Assess a bounded claim against inspected sources, counterexamples and its declared scope before changing evidence status. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:evidence-and-analysis",
+    "title": "Evidence and analysis",
+    "role": "concept",
+    "domains": [
+      "kps:knowledge-maintenance"
+    ],
+    "path": "concepts/evidence-and-analysis.md",
+    "summary": "An attested token, a constructed example, an elicited judgment, a source statement and an analyst's model are different evidence objects. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:exponents-are-conditioned-by-sound",
+    "title": "Regular inflectional exponents are conditioned by stem sounds",
+    "role": "principle",
+    "domains": [
+      "morphology",
+      "morphology:allomorphy",
+      "phonology"
+    ],
+    "path": "principles/exponents-are-conditioned-by-sound.md",
+    "summary": "Regular English plural and past endings vary with the relevant final sound of the base rather than its last written letter. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:expression-and-representation",
+    "title": "Expression and representation",
+    "role": "concept",
+    "domains": [
+      "foundations",
+      "kps:knowledge-maintenance"
+    ],
+    "path": "concepts/expression-and-representation.md",
+    "summary": "A linguistic expression and an analysis of it are different objects. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:finiteness",
+    "title": "Finiteness",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-architecture"
+    ],
+    "path": "concepts/finiteness.md",
+    "summary": "Finiteness classifies a clause or verbal element relative to tense, agreement and distributional properties in a particular grammar. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:focus-prosody-interface",
+    "title": "Information Structure Prosody interface",
+    "role": "model",
+    "domains": [
+      "information-structure",
+      "information-structure:focus-and-alternatives",
+      "information-structure:focus-projection",
+      "pragmatics",
+      "prosody",
+      "prosody:pitch-accent-and-prominence"
+    ],
+    "path": "models/focus-prosody-interface.md",
+    "summary": "Focus domains constrain possible prosodic realizations without being identical to the most strongly accented word. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:focus-topic-and-qud",
+    "title": "Focus topic and question under discussion",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "information-structure",
+      "information-structure:focus-and-alternatives",
+      "information-structure:qud-organization",
+      "information-structure:topic-and-background",
+      "pragmatics",
+      "pragmatics:question-under-discussion"
+    ],
+    "path": "concepts/focus-topic-and-qud.md",
+    "summary": "Topic concerns what a discourse stretch is about; a question under discussion is the issue being addressed; focus relates an expression or domain to relevant alternatives. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:functions-do-not-determine-roles",
+    "title": "Grammatical functions do not determine semantic roles",
+    "role": "principle",
+    "domains": [
+      "semantics",
+      "semantics:participant-roles",
+      "syntax",
+      "syntax:grammatical-functions"
+    ],
+    "path": "principles/functions-do-not-determine-roles.md",
+    "summary": "A Subject need not be an Agent, and an Object need not be a Patient. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:givenness-and-bridging",
+    "title": "Givenness and bridging",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:anaphora-and-accessibility",
+      "information-structure",
+      "information-structure:givenness"
+    ],
+    "path": "concepts/givenness-and-bridging.md",
+    "summary": "Givenness concerns contextual accessibility, not a permanent lexical property. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:grammaticality-and-acceptability",
+    "title": "Grammaticality and acceptability",
+    "role": "concept",
+    "domains": [
+      "foundations",
+      "syntax",
+      "syntax:syntactic-diagnostics"
+    ],
+    "path": "concepts/grammaticality-and-acceptability.md",
+    "summary": "Grammaticality concerns licensing under a specified grammar or variety. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:gricean-reasoning",
+    "title": "Gricean reasoning",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:implicature"
+    ],
+    "path": "concepts/gricean-reasoning.md",
+    "summary": "Gricean analysis models conversational expectations involving informativeness, truthfulness or support, relevance and clarity. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:head-and-dependent",
+    "title": "Head and dependent",
+    "role": "concept",
+    "domains": [
+      "foundations",
+      "syntax",
+      "syntax:constituency-and-dependency"
+    ],
+    "path": "concepts/head-and-dependent.md",
+    "summary": "A head is the organizing element of a headed construction in a stated analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:implicature",
+    "title": "Conversational implicature",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:implicature"
+    ],
+    "path": "concepts/implicature.md",
+    "summary": "Conversational implicature concerns communicated information beyond what is straightforwardly asserted under the relevant conventional interpretation. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:implicatures-are-defeasible",
+    "title": "Conversational inferences can be defeasible",
+    "role": "principle",
+    "domains": [
+      "pragmatics",
+      "pragmatics:implicature"
+    ],
+    "path": "principles/implicatures-are-defeasible.md",
+    "summary": "A context-supported inference can be cancelled without cancelling the asserted existential content that supported it. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:inflection",
+    "title": "Inflection",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "morphology",
+      "morphology:inflectional-paradigms"
+    ],
+    "path": "concepts/inflection.md",
+    "summary": "Inflection realizes grammatical distinctions within a lexeme's paradigm in the working lexeme-based model. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:information-packaging-constructions",
+    "title": "Information packaging constructions",
+    "role": "concept",
+    "domains": [
+      "information-structure",
+      "information-structure:information-packaging-constructions",
+      "syntax"
+    ],
+    "path": "concepts/information-packaging-constructions.md",
+    "summary": "Information packaging constructions include passives, clefts, existential presentations and marked fronting patterns when they are used to organize discourse information. Their interpretation depends on syntax, prosody and context; no single construction has one invariant discourse effect."
+  },
+  {
+    "id": "english:integrated-utterance-analysis",
+    "title": "Integrated utterance analysis",
+    "role": "model",
+    "domains": [
+      "discourse",
+      "information-structure",
+      "lexicon",
+      "morphology",
+      "phonetics",
+      "phonology",
+      "pragmatics",
+      "prosody",
+      "semantics",
+      "syntax"
+    ],
+    "path": "models/integrated-utterance-analysis.md",
+    "summary": "A worked passage illustrates parallel analyses across subsystems while distinguishing explicit claims from contextual preferences. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:interface",
+    "title": "Linguistic interface",
+    "role": "concept",
+    "domains": [
+      "kps:knowledge-maintenance"
+    ],
+    "path": "concepts/interface.md",
+    "summary": "An interface is a systematic correspondence or constraint between representations in different analytical systems. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:investigate-linguistic-question",
+    "title": "Investigate linguistic question",
+    "role": "practice",
+    "domains": [
+      "kps:knowledge-maintenance"
+    ],
+    "path": "practices/investigate-linguistic-question.md",
+    "summary": "Turn a bounded English question into a transparent provisional analysis and a reviewable evidence trail. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:learn-word-pronunciation",
+    "title": "Learn a word pronunciation",
+    "role": "practice",
+    "domains": [
+      "lexicon",
+      "morphology",
+      "phonetics",
+      "phonetics:speech-perception",
+      "phonology",
+      "prosody",
+      "prosody:lexical-stress"
+    ],
+    "path": "practices/learn-word-pronunciation.md",
+    "summary": "This Practice integrates scientific analysis with listening and actual production. It produces a **word pronunciation record**, not just an IPA string: spelling and sense, accent and convention, source-supported broad IPA, syllables and stress, context-conditioned sound predictions, recordings or witnessed attempts, feedback and unresolved questions. Analysis, perception and production have separate verification statuses. Use the six stages in the recommended order when starting; prerequisites and missing evidence determine where to enter or return. Reading this document or passing repository tests does not establish pronunciation competence."
+  },
+  {
+    "id": "english:lexeme-and-word-form",
+    "title": "Lexeme and word form",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexical-identity",
+      "morphology",
+      "morphology:morphological-units"
+    ],
+    "path": "concepts/lexeme-and-word-form.md",
+    "summary": "A lexeme is an abstract lexical identity associated with a family of grammatical forms. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:lexical-entry",
+    "title": "Lexical entry",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexical-identity"
+    ],
+    "path": "concepts/lexical-entry.md",
+    "summary": "A lexical entry represents item-specific linguistic information relevant to a lexeme or sense: form, category, paradigm, meaning, selection, alternations and conventional combinations. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:lexical-relations",
+    "title": "Lexical relations",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexical-relations",
+      "semantics"
+    ],
+    "path": "concepts/lexical-relations.md",
+    "summary": "Lexical relations organize parts of the lexicon by meaning and use. They support generalization and inference, but apparent synonyms commonly differ in register, collocation, connotation or constructional behavior."
+  },
+  {
+    "id": "english:lexical-selection",
+    "title": "Lexical selection",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexical-senses",
+      "semantics",
+      "syntax"
+    ],
+    "path": "concepts/lexical-selection.md",
+    "summary": "Selection relates lexical senses and constructions to allowable complements and their semantic properties. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:lexical-variation-and-register",
+    "title": "Lexical variation and register",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexical-variation",
+      "pragmatics"
+    ],
+    "path": "concepts/lexical-variation-and-register.md",
+    "summary": "Lexical variation includes regional, social, stylistic, technical and diachronic differences in form, sense and distribution. Register concerns recurrent choices associated with activities and communicative settings, not a single scale from informal to formal."
+  },
+  {
+    "id": "english:lexicon-morphology-interface",
+    "title": "Lexicon Morphology interface",
+    "role": "model",
+    "domains": [
+      "lexicon",
+      "morphology",
+      "lexicon:lexical-identity",
+      "morphology:word-formation"
+    ],
+    "path": "models/lexicon-morphology-interface.md",
+    "summary": "This interface connects lexical identity and stored information with inflectional and word-formation analyses. It preserves a distinction between a lexeme, its grammatical word forms, productive patterns and lexicalized outcomes."
+  },
+  {
+    "id": "english:lexicon-semantics-interface",
+    "title": "Lexicon Semantics interface",
+    "role": "model",
+    "domains": [
+      "lexicon",
+      "semantics"
+    ],
+    "path": "models/lexicon-semantics-interface.md",
+    "summary": "A sense-specific lexical entry constrains an interpretation without making a spelling identify one context-independent predicate. This KPS 12 bridge is an authored provisional synthesis with a constructed illustration, not newly inspected empirical evidence."
+  },
+  {
+    "id": "english:lexicon-syntax-interface",
+    "title": "Lexicon Syntax interface",
+    "role": "model",
+    "domains": [
+      "lexicon",
+      "lexicon:argument-frames",
+      "syntax",
+      "syntax:construction-mappings"
+    ],
+    "path": "models/lexicon-syntax-interface.md",
+    "summary": "Lexical senses and constructions constrain the category and form of licensed syntactic complements. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:local-heads-determine-local-relations",
+    "title": "Local heads determine local dependency relations",
+    "role": "principle",
+    "domains": [
+      "syntax",
+      "syntax:constituency-and-dependency"
+    ],
+    "path": "principles/local-heads-determine-local-relations.md",
+    "summary": "A relation between an inner NP and its preposition must be distinguished from the relation between the whole PP and a higher head. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:maintain-english-package",
+    "title": "Maintain English package",
+    "role": "practice",
+    "domains": [
+      "kps:knowledge-maintenance"
+    ],
+    "path": "practices/maintain-english-package.md",
+    "summary": "Review changes and publish a coherent provisional package without confusing file integrity with linguistic truth. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:modality",
+    "title": "Modality",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:modal-semantics"
+    ],
+    "path": "concepts/modality.md",
+    "summary": "Modality evaluates possibilities or necessities relative to a source of constraints and, in many theories, an ordering of relevant alternatives. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:morpheme",
+    "title": "Morpheme",
+    "role": "concept",
+    "domains": [
+      "morphology",
+      "morphology:morphological-units"
+    ],
+    "path": "concepts/morpheme.md",
+    "summary": "A morpheme is an abstract unit associated with a recurring grammatical or lexical contribution in a morphological analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:morphology-phonology-interface",
+    "title": "Morphology Phonology interface",
+    "role": "model",
+    "domains": [
+      "morphology",
+      "morphology:allomorphy",
+      "phonetics",
+      "phonology",
+      "phonology:phonological-processes"
+    ],
+    "path": "models/morphology-phonology-interface.md",
+    "summary": "Regular English inflection links morphological features to sound-conditioned exponents. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:morphology-syntax-interface",
+    "title": "Morphology Syntax interface",
+    "role": "model",
+    "domains": [
+      "morphology",
+      "syntax"
+    ],
+    "path": "models/morphology-syntax-interface.md",
+    "summary": "Word-form features and syntactic distributions must be represented separately even when an analysis connects them through agreement or finiteness. This KPS 12 bridge is an authored provisional synthesis with a constructed illustration, not newly inspected empirical evidence."
+  },
+  {
+    "id": "english:negation-and-entailment",
+    "title": "Negation and entailment",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:negation-and-entailment"
+    ],
+    "path": "concepts/negation-and-entailment.md",
+    "summary": "Under a stated classical interpretation, P entails Q if every model making P true makes Q true. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:nested-clause-model",
+    "title": "Nested clause model",
+    "role": "model",
+    "domains": [
+      "syntax",
+      "syntax:clause-architecture"
+    ],
+    "path": "models/nested-clause-model.md",
+    "summary": "A clause analysis records complete constituent spans and their nesting rather than counting verb-looking tokens. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:object-and-pp-complement",
+    "title": "Object and PP complement",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:grammatical-functions"
+    ],
+    "path": "concepts/object-and-pp-complement.md",
+    "summary": "A Direct Object and a PP complement are different syntactic realizations. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:paradigm-and-syncretism",
+    "title": "Paradigm and syncretism",
+    "role": "concept",
+    "domains": [
+      "morphology",
+      "morphology:inflectional-paradigms"
+    ],
+    "path": "concepts/paradigm-and-syncretism.md",
+    "summary": "A paradigm organizes the grammatical forms of a lexeme by feature values or form categories. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:phone-phoneme-and-allophone",
+    "title": "Phone phoneme and allophone",
+    "role": "concept",
+    "domains": [
+      "phonetics",
+      "phonetics:phonetic-transcription",
+      "phonology",
+      "phonology:allophonic-distribution",
+      "phonology:phonemic-contrast"
+    ],
+    "path": "concepts/phone-phoneme-and-allophone.md",
+    "summary": "A phoneme is an abstract contrastive category in a language analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:phonological-analysis-frameworks",
+    "title": "Phonological analysis frameworks",
+    "role": "concept",
+    "domains": [
+      "phonology",
+      "phonology:phonological-theory-alternatives"
+    ],
+    "path": "concepts/phonological-analysis-frameworks.md",
+    "summary": "Phonological frameworks provide different ways to represent contrasts, alternations and well-formedness. KPS records the chosen assumptions locally instead of presenting one framework as the only analysis."
+  },
+  {
+    "id": "english:phonological-word-model",
+    "title": "Phonological word model",
+    "role": "model",
+    "domains": [
+      "phonetics",
+      "phonetics:phonetic-transcription",
+      "phonology",
+      "phonology:phonotactics",
+      "phonology:syllable-organization",
+      "prosody"
+    ],
+    "path": "models/phonological-word-model.md",
+    "summary": "Segment categories, syllable organization, stress and phonetic realization provide distinct descriptions of a sound pattern. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:phonology-phonetics-interface",
+    "title": "Phonology Phonetics interface",
+    "role": "model",
+    "domains": [
+      "phonetics",
+      "phonology"
+    ],
+    "path": "models/phonology-phonetics-interface.md",
+    "summary": "Phonological representations constrain possible phonetic analyses without uniquely specifying an observed speech token. This KPS 12 bridge is an authored provisional synthesis with a constructed illustration, not newly inspected empirical evidence."
+  },
+  {
+    "id": "english:phonotactics",
+    "title": "Phonotactics",
+    "role": "concept",
+    "domains": [
+      "phonology",
+      "phonology:phonotactics"
+    ],
+    "path": "concepts/phonotactics.md",
+    "summary": "Phonotactics concerns restrictions and preferences on segment distributions and combinations in a language or variety. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:phrase-and-clause",
+    "title": "Phrase and clause",
+    "role": "concept",
+    "domains": [
+      "foundations",
+      "syntax",
+      "syntax:syntactic-categories"
+    ],
+    "path": "concepts/phrase-and-clause.md",
+    "summary": "A phrase is a syntactic unit organized as a phrase category; it may contain one word or many. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:plural-and-collective-interpretation",
+    "title": "Plural and collective interpretation",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:plural-and-collective-interpretation"
+    ],
+    "path": "concepts/plural-and-collective-interpretation.md",
+    "summary": "Plural interpretation concerns how predicates and quantifiers apply to more than one individual. Context, lexical meaning and construction can favor different readings without changing the overt plural marking."
+  },
+  {
+    "id": "english:politeness-and-social-meaning",
+    "title": "Politeness and social meaning",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:social-pragmatics",
+      "discourse"
+    ],
+    "path": "concepts/politeness-and-social-meaning.md",
+    "summary": "Social pragmatics examines how linguistic choices index stance, respect, distance, solidarity and identity. An indirect form can serve politeness in one context and avoidance, irony or hostility in another."
+  },
+  {
+    "id": "english:pragmatics-discourse-interface",
+    "title": "Pragmatics Discourse interface",
+    "role": "model",
+    "domains": [
+      "pragmatics",
+      "discourse",
+      "pragmatics:contextual-inference",
+      "discourse:discourse-inference"
+    ],
+    "path": "models/pragmatics-discourse-interface.md",
+    "summary": "This interface connects utterance-level pragmatic interpretation with discourse-level representations of accessible referents, relations and shared commitments. The correspondence is iterative rather than a one-way processing staircase."
+  },
+  {
+    "id": "english:predicative-complement",
+    "title": "Predicative complement",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:grammatical-functions"
+    ],
+    "path": "concepts/predicative-complement.md",
+    "summary": "A predicative complement attributes a property, classification or identity to a predicand rather than functioning as an ordinary Object participant. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:presupposition",
+    "title": "Presupposition",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:presupposition",
+      "semantics"
+    ],
+    "path": "concepts/presupposition.md",
+    "summary": "A presupposition is content treated as backgrounded in a use or associated with a triggering construction in a theory. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:productivity-and-lexicalization",
+    "title": "Productivity and lexicalization",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexicalization",
+      "morphology",
+      "morphology:derivational-morphology",
+      "morphology:morphological-productivity"
+    ],
+    "path": "concepts/productivity-and-lexicalization.md",
+    "summary": "Productivity concerns the extendability of a pattern to suitable new bases. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:prosody",
+    "title": "Prosody and intonation",
+    "role": "concept",
+    "domains": [
+      "information-structure",
+      "phonetics",
+      "phonology",
+      "prosody",
+      "prosody:intonation",
+      "prosody:pitch-accent-and-prominence",
+      "prosody:prosodic-phrasing",
+      "prosody:rhythmic-organization"
+    ],
+    "path": "concepts/prosody.md",
+    "summary": "Prosody organizes prominence, pitch patterns, timing and phrasing beyond individual segment identities. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:prosody-phonetics-interface",
+    "title": "Prosody Phonetics interface",
+    "role": "model",
+    "domains": [
+      "phonetics",
+      "prosody"
+    ],
+    "path": "models/prosody-phonetics-interface.md",
+    "summary": "A prosodic prominence analysis must be distinguished from the phonetic measurements used to investigate its realization. This KPS 12 bridge is an authored provisional synthesis with a constructed illustration, not newly inspected empirical evidence."
+  },
+  {
+    "id": "english:quantification-and-scope",
+    "title": "Quantification and scope",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:quantification-and-scope"
+    ],
+    "path": "concepts/quantification-and-scope.md",
+    "summary": "Quantification specifies how a claim ranges over a contextually relevant domain. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:quantifier-scope-model",
+    "title": "Quantifier scope model",
+    "role": "model",
+    "domains": [
+      "semantics",
+      "semantics:quantification-and-scope"
+    ],
+    "path": "models/quantifier-scope-model.md",
+    "summary": "A finite-domain toy model makes scope differences explicit without claiming that logic alone predicts English reading availability. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:realization-varies-with-environment",
+    "title": "Phonetic realization varies with environment",
+    "role": "principle",
+    "domains": [
+      "phonetics",
+      "phonetics:coarticulation-and-reduction",
+      "phonology",
+      "phonology:allophonic-distribution"
+    ],
+    "path": "principles/realization-varies-with-environment.md",
+    "summary": "A phonological category can have different phonetic realizations without a change of lexical identity. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:reference-and-denotation",
+    "title": "Reference and denotation",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:reference-and-denotation"
+    ],
+    "path": "concepts/reference-and-denotation.md",
+    "summary": "Reference concerns what an expression is used to pick out in context; denotation is a semantic value under an interpretation. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:relative-clause",
+    "title": "Relative clause",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-linking"
+    ],
+    "path": "concepts/relative-clause.md",
+    "summary": "An integrated relative clause modifies a nominal expression and establishes a dependency involving a position within that clause. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:representation-levels",
+    "title": "Orthography phonology and phonetics",
+    "role": "concept",
+    "domains": [
+      "phonetics",
+      "phonetics:acoustic-phonetics",
+      "phonetics:phonetic-transcription",
+      "phonology"
+    ],
+    "path": "concepts/representation-levels.md",
+    "summary": "Orthography describes writing; phonology describes language-specific sound organization; phonetics describes speech production, signals and perception. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:root-base-and-stem",
+    "title": "Root base and stem",
+    "role": "concept",
+    "domains": [
+      "morphology",
+      "morphology:morphological-units"
+    ],
+    "path": "concepts/root-base-and-stem.md",
+    "summary": "A root is a minimally analyzable lexical core within the chosen morphological analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:scope-determines-operator-interaction",
+    "title": "Scope determines the interaction of semantic operators",
+    "role": "principle",
+    "domains": [
+      "semantics",
+      "semantics:quantification-and-scope"
+    ],
+    "path": "principles/scope-determines-operator-interaction.md",
+    "summary": "Reversing quantifier or negation scope can change truth conditions while leaving overt words in the same order. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:selection-is-sense-sensitive",
+    "title": "Complement selection is sensitive to lexical sense and construction",
+    "role": "principle",
+    "domains": [
+      "lexicon",
+      "lexicon:lexical-senses",
+      "semantics",
+      "syntax"
+    ],
+    "path": "principles/selection-is-sense-sensitive.md",
+    "summary": "Knowing a word's lexical category alone does not determine all of its allowable complement patterns. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:semantic-predicate",
+    "title": "Semantic predicate",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:compositional-meaning"
+    ],
+    "path": "concepts/semantic-predicate.md",
+    "summary": "A semantic predicate expresses a property or relation that combines with arguments. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:semantic-role",
+    "title": "Semantic role",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:participant-roles"
+    ],
+    "path": "concepts/semantic-role.md",
+    "summary": "A semantic role characterizes a participant's relationship to a predicate or situation. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:semantics-pragmatics-interface",
+    "title": "Semantics Pragmatics interface",
+    "role": "model",
+    "domains": [
+      "pragmatics",
+      "pragmatics:presupposition",
+      "semantics"
+    ],
+    "path": "models/semantics-pragmatics-interface.md",
+    "summary": "Conventional meaning, contextual resolution and defeasible inference jointly constrain utterance interpretation. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:sense-and-lexical-ambiguity",
+    "title": "Sense and lexical ambiguity",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:lexical-senses",
+      "semantics",
+      "semantics:semantic-ambiguity"
+    ],
+    "path": "concepts/sense-and-lexical-ambiguity.md",
+    "summary": "A sense is a conventional interpretation associated with a lexical item in an analysis. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:sequence-does-not-establish-cause",
+    "title": "Temporal sequence does not establish causation",
+    "role": "principle",
+    "domains": [
+      "discourse",
+      "discourse:discourse-inference"
+    ],
+    "path": "principles/sequence-does-not-establish-cause.md",
+    "summary": "An event following another in time does not by itself demonstrate that the earlier event caused it. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:situation-type",
+    "title": "States events and lexical aspect",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:temporal-and-event-semantics"
+    ],
+    "path": "concepts/situation-type.md",
+    "summary": "Situation type concerns a predicate or construction's temporal and dynamic character. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:speech-act",
+    "title": "Speech act",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:speech-actions"
+    ],
+    "path": "concepts/speech-act.md",
+    "summary": "A speech act is a communicative action performed through an utterance, such as asserting, asking, requesting or promising. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:stress",
+    "title": "Stress",
+    "role": "concept",
+    "domains": [
+      "information-structure",
+      "phonetics",
+      "phonology",
+      "prosody",
+      "prosody:lexical-stress"
+    ],
+    "path": "concepts/stress.md",
+    "summary": "Lexical stress is a prominence relation among syllables in a word. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:suppletion",
+    "title": "Suppletion",
+    "role": "concept",
+    "domains": [
+      "morphology",
+      "morphology:inflectional-paradigms"
+    ],
+    "path": "concepts/suppletion.md",
+    "summary": "Suppletion describes paradigm-related forms whose relationship is not a regular productive phonological alternation in the synchronic system. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:syllable-structure",
+    "title": "Syllable structure",
+    "role": "concept",
+    "domains": [
+      "phonology",
+      "phonology:syllable-organization",
+      "prosody"
+    ],
+    "path": "concepts/syllable-structure.md",
+    "summary": "A working syllable model divides a syllable into onset and rhyme, with nucleus and coda inside the rhyme. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:syntax-prosody-interface",
+    "title": "Syntax Prosody interface",
+    "role": "model",
+    "domains": [
+      "syntax",
+      "prosody",
+      "syntax:constituency-and-dependency",
+      "prosody:prosodic-phrasing"
+    ],
+    "path": "models/syntax-prosody-interface.md",
+    "summary": "This interface relates clause and phrase structure to phrasing and prominence in spoken English. It treats syntax and prosody as distinct representations linked by defeasible, construction- and context-sensitive correspondences."
+  },
+  {
+    "id": "english:syntax-semantics-interface",
+    "title": "Syntax Semantics interface",
+    "role": "model",
+    "domains": [
+      "semantics",
+      "semantics:compositional-meaning",
+      "syntax",
+      "syntax:construction-mappings"
+    ],
+    "path": "models/syntax-semantics-interface.md",
+    "summary": "Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:temporal-causal-and-evidential-relations",
+    "title": "Temporal causal and evidential relations",
+    "role": "concept",
+    "domains": [
+      "discourse",
+      "discourse:discourse-relations"
+    ],
+    "path": "concepts/temporal-causal-and-evidential-relations.md",
+    "summary": "Temporal relations locate situations before, after or overlapping others. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:temporal-reference-model",
+    "title": "Temporal reference model",
+    "role": "model",
+    "domains": [
+      "semantics",
+      "semantics:temporal-and-event-semantics"
+    ],
+    "path": "models/temporal-reference-model.md",
+    "summary": "Temporal interpretation separates tense, reference time, event structure and aspectual viewpoint. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:tense-and-aspect",
+    "title": "Tense and aspect",
+    "role": "concept",
+    "domains": [
+      "semantics",
+      "semantics:temporal-and-event-semantics"
+    ],
+    "path": "concepts/tense-and-aspect.md",
+    "summary": "Tense relates temporal reference to an evaluation context; aspect concerns temporal perspective and situation structure. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:trace-discourse-interpretation",
+    "title": "Trace discourse interpretation",
+    "role": "method",
+    "domains": [
+      "discourse",
+      "discourse:discourse-inference",
+      "pragmatics"
+    ],
+    "path": "methods/trace-discourse-interpretation.md",
+    "summary": "Track reference and discourse relations while distinguishing asserted information from defeasible inference. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:utterance-and-speaker-meaning",
+    "title": "Utterance and speaker meaning",
+    "role": "concept",
+    "domains": [
+      "pragmatics",
+      "pragmatics:speech-actions"
+    ],
+    "path": "concepts/utterance-and-speaker-meaning.md",
+    "summary": "A sentence is a linguistic expression considered abstractly; an utterance is a particular use in context. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:utterance-interpretation-model",
+    "title": "Utterance interpretation model",
+    "role": "model",
+    "domains": [
+      "pragmatics",
+      "pragmatics:speech-actions"
+    ],
+    "path": "models/utterance-interpretation-model.md",
+    "summary": "An utterance interpretation records conventional constraints, contextual values and defeasible communicated inferences separately. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:valency-and-argument-structure",
+    "title": "Valency and argument structure",
+    "role": "concept",
+    "domains": [
+      "lexicon",
+      "lexicon:argument-frames",
+      "syntax",
+      "syntax:construction-mappings"
+    ],
+    "path": "concepts/valency-and-argument-structure.md",
+    "summary": "Valency describes a head's capacity for core arguments; argument structure represents the associated participant relations. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:validation-does-not-establish-truth",
+    "title": "Structural validation does not establish linguistic truth",
+    "role": "principle",
+    "domains": [
+      "kps:knowledge-maintenance"
+    ],
+    "path": "principles/validation-does-not-establish-truth.md",
+    "summary": "Passing publication checks establishes only the properties those checks actually inspect. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:vowel-articulation",
+    "title": "Vowel articulation",
+    "role": "concept",
+    "domains": [
+      "phonetics",
+      "phonetics:articulatory-phonetics",
+      "phonology",
+      "phonology:distinctive-features"
+    ],
+    "path": "concepts/vowel-articulation.md",
+    "summary": "Vowel descriptions commonly use height, backness and lip rounding. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:wh-dependency",
+    "title": "Wh dependency",
+    "role": "concept",
+    "domains": [
+      "syntax",
+      "syntax:clause-linking"
+    ],
+    "path": "concepts/wh-dependency.md",
+    "summary": "A wh-dependency links an interrogative or relative expression with a grammatical position in a clause. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  },
+  {
+    "id": "english:word-formation-hierarchy",
+    "title": "Word formation hierarchy",
+    "role": "model",
+    "domains": [
+      "morphology",
+      "morphology:compounds"
+    ],
+    "path": "models/word-formation-hierarchy.md",
+    "summary": "Morphological analyses distinguish the element, the operation, its input base and the resulting lexeme or word form. The definitions and worked cases below state the intended analysis and its limits. This initial object is provisional; links deepen the explanation but do not replace it."
+  }
+]

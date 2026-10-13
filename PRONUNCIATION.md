@@ -1,5 +1,5 @@
 ---
-language: "KPS 9.x"
+language: "KPS 12.x"
 package_version: "0.1.0"
 status: "draft"
 ---
@@ -32,9 +32,9 @@ This package uses conventional broad General American English transcription as i
 These are **authored illustrative examples**, not transcriptions copied from a provider or recordings of particular speakers. The use of /i/ and /u/ is a declared notation convention, not an attempt to replace the general IPA chart.
 
 ## Three source roles
-1. **Articulatory learning:** [Sounds American](https://soundsamerican.net/) describes and demonstrates selected General American sounds. Consult the [source record](references/sounds-american-undated-chart-and-terms.md) for the limited inspection and rights statement. Do not redistribute videos, audio, images, or adapted charts.
-2. **Candidate lexical transcription:** [toPhonetics](https://tophonetics.com/) with **American** selected provides broad transcription suggestions, possible reading alternatives, and optional weak forms. Its own [FAQ](https://tophonetics.com/faq/) says the American data was initially based on the Carnegie Mellon Pronouncing Dictionary and acknowledges database corrections. Consult the [source record](references/tophonetics-undated-english-transcription.md). Do not promote a tool result to an independently verified claim.
-3. **General phone and IPA symbol definitions:** the [Interactive IPA Chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_EI/IPA_charts_EI.html) helps identify phone symbols in the cross-language phonetic system. Its [source record](references/international-phonetic-association-undated-interactive-chart.md) distinguishes interactive-content and audio rights from the separately licensed static IPA chart. It does not choose the General American phoneme inventory.
+1. **Articulatory learning:** [Sounds American](https://soundsamerican.net/) describes and demonstrates selected General American sounds. Consult the [source record](sources/sounds-american-undated-chart-and-terms.md) for the limited inspection and rights statement. Do not redistribute videos, audio, images, or adapted charts.
+2. **Candidate lexical transcription:** [toPhonetics](https://tophonetics.com/) with **American** selected provides broad transcription suggestions, possible reading alternatives, and optional weak forms. Its own [FAQ](https://tophonetics.com/faq/) says the American data was initially based on the Carnegie Mellon Pronouncing Dictionary and acknowledges database corrections. Consult the [source record](sources/tophonetics-undated-english-transcription.md). Do not promote a tool result to an independently verified claim.
+3. **General phone and IPA symbol definitions:** the [Interactive IPA Chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_EI/IPA_charts_EI.html) helps identify phone symbols in the cross-language phonetic system. Its [source record](sources/international-phonetic-association-undated-interactive-chart.md) distinguishes interactive-content and audio rights from the separately licensed static IPA chart. It does not choose the General American phoneme inventory.
 
 ## Reproducible lookup and analysis
 1. Identify the intended lexeme, lexical sense, grammatical form and context, including stress where relevant.
@@ -56,4 +56,4 @@ Existing British-style symbols in older draft objects are not silently interpret
 See [vowel articulation](concepts/vowel-articulation.md), [consonant articulation](concepts/consonant-articulation.md), [representation levels](concepts/representation-levels.md), [phonological word model](models/phonological-word-model.md), and the [sound realization method](methods/analyze-sound-realization.md).
 
 ## Evidence and rights limits
-This is a **repository authoring policy**, not an independently verified pronunciation inventory. Website summaries, chart symbol identities, and tool capabilities were inspected to the extents stated in the Reference records; this does not validate every transcribed word or speaker. The sources have different rights: the Sounds American site generally specifies CC BY-NC-ND for its material; the IPA interactive chart has its own restrictions and contributor audio rights; the separately downloadable static IPA chart may be CC BY-SA. Link rather than mirror third-party material. Refer to [NOTICE](NOTICE.md) for repository licensing.
+This is a **repository authoring policy**, not an independently verified pronunciation inventory. Website summaries, chart symbol identities, and tool capabilities were inspected to the extents stated in the Source records; this does not validate every transcribed word or speaker. The sources have different rights: the Sounds American site generally specifies CC BY-NC-ND for its material; the IPA interactive chart has its own restrictions and contributor audio rights; the separately downloadable static IPA chart may be CC BY-SA. Link rather than mirror third-party material. Refer to [NOTICE](NOTICE.md) for repository licensing.

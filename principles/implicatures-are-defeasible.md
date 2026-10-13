@@ -1,18 +1,19 @@
 ---
-id: "english:principle:implicatures-are-defeasible"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:implicatures-are-defeasible"
+aliases: ["english:principle:implicatures-are-defeasible"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:implicature"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:implicature", "english:concept:gricean-reasoning", "english:concept:negation-and-entailment"]
+claims: [{"id":"key-takeaway","statement":"A context-supported inference can be cancelled without cancelling the asserted existential content that supported it.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:implicature","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:gricean-reasoning","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:negation-and-entailment","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Conversational inferences can be defeasible
 

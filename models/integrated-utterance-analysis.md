@@ -1,18 +1,19 @@
 ---
-id: "english:model:integrated-utterance-analysis"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:integrated-utterance-analysis"
+aliases: ["english:model:integrated-utterance-analysis"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["discourse","information-structure","lexicon","morphology","phonetics","phonology","pragmatics","prosody","semantics","syntax"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:relative-clause", "english:concept:semantic-role", "english:concept:allomorphy", "english:concept:contextual-resolution", "english:concept:discourse-relation", "english:concept:focus-topic-and-qud", "english:concept:interface"]
+claims: [{"id":"key-takeaway","statement":"A worked passage illustrates parallel analyses across subsystems while distinguishing explicit claims from contextual preferences.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:relative-clause","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:allomorphy","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:discourse-relation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:interface","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Integrated utterance analysis
 

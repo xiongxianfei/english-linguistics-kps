@@ -1,18 +1,19 @@
 ---
-id: "english:concept:phonotactics"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:phonotactics"
+aliases: ["english:concept:phonotactics"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["phonology","phonology:phonotactics"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:syllable-structure", "english:concept:contrast-and-distribution", "english:concept:constraint-and-preference"]
+claims: [{"id":"key-takeaway","statement":"Phonotactics concerns restrictions and preferences on segment distributions and combinations in a language or variety.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:syllable-structure","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contrast-and-distribution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constraint-and-preference","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Phonotactics
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Syllable structure](../concepts/syllable-structure.md) provides a related distinction used in the local explanation.
-- [Contrast and distribution](../concepts/contrast-and-distribution.md) provides a related distinction used in the local explanation.
-- [Constraint and preference](../concepts/constraint-and-preference.md) provides a related distinction used in the local explanation.
+- [Syllable structure](syllable-structure.md) provides a related distinction used in the local explanation.
+- [Contrast and distribution](contrast-and-distribution.md) provides a related distinction used in the local explanation.
+- [Constraint and preference](constraint-and-preference.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:method:analyze-sound-realization"
-type: "method"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:analyze-sound-realization"
+aliases: ["english:method:analyze-sound-realization"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["phonetics","phonetics:acoustic-phonetics","phonology","phonology:phonological-processes","prosody"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics","english:reference:sounds-american-undated-chart-and-terms","english:reference:tophonetics-undated-english-transcription","english:reference:international-phonetic-association-undated-interactive-chart"]
-uses_concepts: ["english:concept:representation-levels", "english:concept:allomorphy", "english:concept:phone-phoneme-and-allophone", "english:concept:consonant-articulation", "english:concept:connected-speech"]
+claims: [{"id":"key-takeaway","statement":"Distinguish morphological exponents, phonological categories and observed phonetic realizations.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:allomorphy","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:phone-phoneme-and-allophone","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:consonant-articulation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:connected-speech","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"},{"id":"source:sounds-american-undated-chart-and-terms","relation":"context-only"},{"id":"source:tophonetics-undated-english-transcription","relation":"context-only"},{"id":"source:international-phonetic-association-undated-interactive-chart","relation":"context-only"}]
 ---
+
 
 # Analyze sound realization
 
@@ -69,15 +70,15 @@ Accent, stress, rate and morphology can affect realization. The accompanying fun
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#aspiration) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#aspiration) — support is limited to the named section in that record.
 
 ## Additional source records
 
-- [Sounds American chart and terms](../references/sounds-american-undated-chart-and-terms.md#located-contributions) identifies an American instructional articulation resource, not a verified measurement.
-- [toPhonetics transcription tool and FAQ](../references/tophonetics-undated-english-transcription.md#located-contributions) establishes tool options and its stated broad convention, not output accuracy for any particular word.
-- [Interactive IPA chart](../references/international-phonetic-association-undated-interactive-chart.md#located-contributions) identifies a general IPA symbol resource, not a fixed English inventory.
+- [Sounds American chart and terms](../sources/sounds-american-undated-chart-and-terms.md#located-contributions) identifies an American instructional articulation resource, not a verified measurement.
+- [toPhonetics transcription tool and FAQ](../sources/tophonetics-undated-english-transcription.md#located-contributions) establishes tool options and its stated broad convention, not output accuracy for any particular word.
+- [Interactive IPA chart](../sources/international-phonetic-association-undated-interactive-chart.md#located-contributions) identifies a general IPA symbol resource, not a fixed English inventory.
 
 ## Related knowledge
 

@@ -1,18 +1,19 @@
 ---
-id: "english:model:utterance-interpretation-model"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:utterance-interpretation-model"
+aliases: ["english:model:utterance-interpretation-model"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:speech-actions"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:utterance-and-speaker-meaning", "english:concept:deixis", "english:concept:speech-act", "english:concept:implicature"]
+claims: [{"id":"key-takeaway","statement":"An utterance interpretation records conventional constraints, contextual values and defeasible communicated inferences separately.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:utterance-and-speaker-meaning","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:deixis","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:speech-act","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:implicature","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Utterance interpretation model
 

@@ -1,18 +1,19 @@
 ---
-id: "english:model:english-system-architecture"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:english-system-architecture"
+aliases: ["english:model:english-system-architecture"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["discourse","information-structure","lexicon","morphology","phonetics","phonology","pragmatics","prosody","semantics","syntax"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:interface", "english:concept:expression-and-representation", "english:concept:category-and-function", "english:concept:semantic-role", "english:concept:focus-topic-and-qud", "english:concept:representation-levels"]
+claims: [{"id":"key-takeaway","statement":"English is documented here through distinct, interacting representations rather than a fixed processing staircase.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:interface","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:expression-and-representation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:category-and-function","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # English system architecture
 

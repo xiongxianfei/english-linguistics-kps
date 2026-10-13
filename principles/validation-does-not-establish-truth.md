@@ -1,18 +1,19 @@
 ---
-id: "english:principle:validation-does-not-establish-truth"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:validation-does-not-establish-truth"
+aliases: ["english:principle:validation-does-not-establish-truth"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["kps:knowledge-maintenance"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:xiongxianfei-2026-knowledge-practice-system"]
-uses_concepts: ["english:concept:evidence-and-analysis", "english:concept:interface"]
+claims: [{"id":"key-takeaway","statement":"Passing publication checks establishes only the properties those checks actually inspect.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:evidence-and-analysis","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:interface","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:xiongxianfei-2026-knowledge-practice-system","relation":"context-only"}]
 ---
+
 
 # Structural validation does not establish linguistic truth
 
@@ -44,7 +45,7 @@ This is a reasoned limitation of the tooling contract. The initial package remai
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Knowledge Practice System 9.0.1](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
+- [Knowledge Practice System 9.0.1](../sources/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
 
 ## Related knowledge
 

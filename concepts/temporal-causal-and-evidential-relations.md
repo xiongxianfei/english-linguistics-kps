@@ -1,18 +1,19 @@
 ---
-id: "english:concept:temporal-causal-and-evidential-relations"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:temporal-causal-and-evidential-relations"
+aliases: ["english:concept:temporal-causal-and-evidential-relations"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
+domains: ["discourse","discourse:discourse-relations"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:tense-and-aspect", "english:concept:modality", "english:concept:discourse-relation"]
+claims: [{"id":"key-takeaway","statement":"Temporal relations locate situations before, after or overlapping others.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:tense-and-aspect","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:modality","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:discourse-relation","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Temporal causal and evidential relations
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Tense and aspect](../concepts/tense-and-aspect.md) provides a related distinction used in the local explanation.
-- [Modality](../concepts/modality.md) provides a related distinction used in the local explanation.
-- [Discourse relation](../concepts/discourse-relation.md) provides a related distinction used in the local explanation.
+- [Tense and aspect](tense-and-aspect.md) provides a related distinction used in the local explanation.
+- [Modality](modality.md) provides a related distinction used in the local explanation.
+- [Discourse relation](discourse-relation.md) provides a related distinction used in the local explanation.

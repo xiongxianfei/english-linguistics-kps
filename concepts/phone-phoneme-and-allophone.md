@@ -1,18 +1,19 @@
 ---
-id: "english:concept:phone-phoneme-and-allophone"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:phone-phoneme-and-allophone"
+aliases: ["english:concept:phone-phoneme-and-allophone"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["phonetics","phonetics:phonetic-transcription","phonology","phonology:allophonic-distribution","phonology:phonemic-contrast"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:contrast-and-distribution", "english:concept:representation-levels", "english:concept:allomorphy"]
+claims: [{"id":"key-takeaway","statement":"A phoneme is an abstract contrastive category in a language analysis.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:contrast-and-distribution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:allomorphy","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"}]
 ---
+
 
 # Phone phoneme and allophone
 
@@ -44,10 +45,10 @@ The aspiration generalization is conditioned by syllable structure, stress, styl
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#aspiration) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#aspiration) — support is limited to the named section in that record.
 
 ## Related knowledge
 
-- [Contrast and distribution](../concepts/contrast-and-distribution.md) provides a related distinction used in the local explanation.
-- [Orthography phonology and phonetics](../concepts/representation-levels.md) provides a related distinction used in the local explanation.
-- [Allomorphy](../concepts/allomorphy.md) provides a related distinction used in the local explanation.
+- [Contrast and distribution](contrast-and-distribution.md) provides a related distinction used in the local explanation.
+- [Orthography phonology and phonetics](representation-levels.md) provides a related distinction used in the local explanation.
+- [Allomorphy](allomorphy.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:suppletion"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:suppletion"
+aliases: ["english:concept:suppletion"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["morphology","morphology:inflectional-paradigms"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:paradigm-and-syncretism", "english:concept:inflection"]
+claims: [{"id":"key-takeaway","statement":"Suppletion describes paradigm-related forms whose relationship is not a regular productive phonological alternation in the synchronic system.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:paradigm-and-syncretism","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Suppletion
 
@@ -46,5 +47,5 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Paradigm and syncretism](../concepts/paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
+- [Paradigm and syncretism](paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
+- [Inflection](inflection.md) provides a related distinction used in the local explanation.

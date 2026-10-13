@@ -1,51 +1,42 @@
----
-language: "KPS 9.x"
-package_version: "0.1.0"
-status: "draft"
----
+# KPS 12 templates
 
-# English knowledge templates
-
-## Key takeaway
-Templates implement the KPS contract but do not establish that a claim has evidence.
-
-## Summary
-Templates implement the KPS contract but do not establish that a claim has evidence. The initial broad release remains provisional; supporting links and checks do not constitute independent scientific review.
-
-## Metadata
+## Knowledge frontmatter
 
 ```yaml
 ---
-id: "english:concept:example"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:example"
+aliases: []
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [0]
+domains: ["syntax"]
 evidence_status: "provisional"
+source_status: "external-support-pending"
+basis_kind: "Authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
+claims: [{"id":"key-takeaway","statement":"The visible key takeaway.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:other-item","layer":"document"}]
+sources: []
 ---
 ```
 
-Use JSON-compatible single-line values. Stable IDs are not heading fragments. Replace example fields with meaningful local content.
+Folder location supplies Concept, Principle, Model, Method or Practice. Do not add `role` or `type`.
 
-## Required opening
+## Source frontmatter
 
-```markdown
-# Semantic title
-
-## Key takeaway
-The central distinction or result.
-
-## Summary
-Its meaning, use and important limitation.
+```yaml
+---
+id: "source:creator-year-title"
+aliases: []
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
+status: "draft"
+creator: "Creator"
+publication: "Title"
+publication_date: "undated"
+date_basis: "How the date was established"
+accessed: "YYYY-MM-DD"
+access_extent: "Exactly what was inspected"
+reviewed: null
+---
 ```
-
-## Role content
-
-A Concept defines and contrasts. A Principle explains a scoped declarative relationship and counterevidence. A Model contains an actual representation with assumptions and tests. A Method includes inputs, rationale, procedure, checks and limits. A Practice contains locally executable Stage1, Stage2 and later stages with Goal, Why, What to do, What to observe, Success signal and Next. Its current-use summary stays empty until actual application.
-
-## Evidence status
-
-Add a visible Evidence status section and only inspected reference contributions. Empty references mean pending external support, not self-evident scientific truth. Reference records identify publication, date basis, access extent, claim locators and nonclaims. Every new scientific object remains provisional until documented review supports a stronger status.

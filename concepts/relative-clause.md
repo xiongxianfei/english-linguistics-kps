@@ -1,18 +1,19 @@
 ---
-id: "english:concept:relative-clause"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:relative-clause"
+aliases: ["english:concept:relative-clause"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:clause-linking"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:wh-dependency", "english:concept:constituency", "english:concept:coordination-and-subordination"]
+claims: [{"id":"key-takeaway","statement":"An integrated relative clause modifies a nominal expression and establishes a dependency involving a position within that clause.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:wh-dependency","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constituency","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:coordination-and-subordination","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Relative clause
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Wh dependency](../concepts/wh-dependency.md) provides a related distinction used in the local explanation.
-- [Constituency](../concepts/constituency.md) provides a related distinction used in the local explanation.
-- [Coordination and subordination](../concepts/coordination-and-subordination.md) provides a related distinction used in the local explanation.
+- [Wh dependency](wh-dependency.md) provides a related distinction used in the local explanation.
+- [Constituency](constituency.md) provides a related distinction used in the local explanation.
+- [Coordination and subordination](coordination-and-subordination.md) provides a related distinction used in the local explanation.

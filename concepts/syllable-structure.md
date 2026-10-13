@@ -1,18 +1,19 @@
 ---
-id: "english:concept:syllable-structure"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:syllable-structure"
+aliases: ["english:concept:syllable-structure"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["phonology","phonology:syllable-organization","prosody"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:phonotactics", "english:concept:stress", "english:concept:representation-levels"]
+claims: [{"id":"key-takeaway","statement":"A working syllable model divides a syllable into onset and rhyme, with nucleus and coda inside the rhyme.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:phonotactics","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:stress","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Syllable structure
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Phonotactics](../concepts/phonotactics.md) provides a related distinction used in the local explanation.
-- [Stress](../concepts/stress.md) provides a related distinction used in the local explanation.
-- [Orthography phonology and phonetics](../concepts/representation-levels.md) provides a related distinction used in the local explanation.
+- [Phonotactics](phonotactics.md) provides a related distinction used in the local explanation.
+- [Stress](stress.md) provides a related distinction used in the local explanation.
+- [Orthography phonology and phonetics](representation-levels.md) provides a related distinction used in the local explanation.

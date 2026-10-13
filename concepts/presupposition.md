@@ -1,18 +1,19 @@
 ---
-id: "english:concept:presupposition"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:presupposition"
+aliases: ["english:concept:presupposition"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:presupposition","semantics"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:common-ground", "english:concept:negation-and-entailment", "english:concept:implicature"]
+claims: [{"id":"key-takeaway","statement":"A presupposition is content treated as backgrounded in a use or associated with a triggering construction in a theory.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:common-ground","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:negation-and-entailment","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:implicature","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Presupposition
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Common ground](../concepts/common-ground.md) provides a related distinction used in the local explanation.
-- [Negation and entailment](../concepts/negation-and-entailment.md) provides a related distinction used in the local explanation.
-- [Conversational implicature](../concepts/implicature.md) provides a related distinction used in the local explanation.
+- [Common ground](common-ground.md) provides a related distinction used in the local explanation.
+- [Negation and entailment](negation-and-entailment.md) provides a related distinction used in the local explanation.
+- [Conversational implicature](implicature.md) provides a related distinction used in the local explanation.

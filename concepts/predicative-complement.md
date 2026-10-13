@@ -1,18 +1,19 @@
 ---
-id: "english:concept:predicative-complement"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:predicative-complement"
+aliases: ["english:concept:predicative-complement"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:grammatical-functions"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:category-and-function", "english:concept:semantic-predicate", "english:concept:object-and-pp-complement"]
+claims: [{"id":"key-takeaway","statement":"A predicative complement attributes a property, classification or identity to a predicand rather than functioning as an ordinary Object participant.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:category-and-function","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-predicate","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Predicative complement
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Category and function](../concepts/category-and-function.md) provides a related distinction used in the local explanation.
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
+- [Category and function](category-and-function.md) provides a related distinction used in the local explanation.
+- [Semantic predicate](semantic-predicate.md) provides a related distinction used in the local explanation.
+- [Object and PP complement](object-and-pp-complement.md) provides a related distinction used in the local explanation.

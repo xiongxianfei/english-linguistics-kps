@@ -1,18 +1,19 @@
 ---
-id: "english:concept:affix"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:affix"
+aliases: ["english:concept:affix"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["morphology","morphology:morphological-units"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:root-base-and-stem", "english:concept:inflection", "english:concept:derivation"]
+claims: [{"id":"key-takeaway","statement":"An affix is a bound morphological element attached to a base in the analysis adopted here.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:root-base-and-stem","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:derivation","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Affix
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Root base and stem](../concepts/root-base-and-stem.md) provides a related distinction used in the local explanation.
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
-- [Derivation](../concepts/derivation.md) provides a related distinction used in the local explanation.
+- [Root base and stem](root-base-and-stem.md) provides a related distinction used in the local explanation.
+- [Inflection](inflection.md) provides a related distinction used in the local explanation.
+- [Derivation](derivation.md) provides a related distinction used in the local explanation.

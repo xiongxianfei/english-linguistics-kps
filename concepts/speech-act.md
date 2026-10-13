@@ -1,18 +1,19 @@
 ---
-id: "english:concept:speech-act"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:speech-act"
+aliases: ["english:concept:speech-act"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:speech-actions"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:utterance-and-speaker-meaning", "english:concept:common-ground", "english:concept:deixis"]
+claims: [{"id":"key-takeaway","statement":"A speech act is a communicative action performed through an utterance, such as asserting, asking, requesting or promising.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:utterance-and-speaker-meaning","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:common-ground","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:deixis","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Speech act
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Utterance and speaker meaning](../concepts/utterance-and-speaker-meaning.md) provides a related distinction used in the local explanation.
-- [Common ground](../concepts/common-ground.md) provides a related distinction used in the local explanation.
-- [Deixis](../concepts/deixis.md) provides a related distinction used in the local explanation.
+- [Utterance and speaker meaning](utterance-and-speaker-meaning.md) provides a related distinction used in the local explanation.
+- [Common ground](common-ground.md) provides a related distinction used in the local explanation.
+- [Deixis](deixis.md) provides a related distinction used in the local explanation.

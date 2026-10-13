@@ -1,18 +1,20 @@
 ---
-id: "english:model:semantics-pragmatics-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:semantics-pragmatics-interface"
+aliases: ["english:model:semantics-pragmatics-interface"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["pragmatics","pragmatics:presupposition","semantics"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:contextual-resolution", "english:concept:implicature", "english:concept:presupposition", "english:concept:common-ground"]
+claims: [{"id":"key-takeaway","statement":"Conventional meaning, contextual resolution and defeasible inference jointly constrain utterance interpretation.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:implicature","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:presupposition","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:common-ground","layer":"document","expected_role":"concept"}]
+sources: []
+interface: {"source_domain":"semantics","source_representation":"conventional-contribution","predicate":"constrains","target_domain":"pragmatics","target_representation":"utterance-interpretation","claim":"key-takeaway","scope":"The working analysis, context and variety limits in knowledge/semantics-pragmatics-interface.md; not a neural processing claim.","cardinality":"unspecified"}
 ---
+
 
 # Semantics Pragmatics interface
 

@@ -1,18 +1,19 @@
 ---
-id: "english:model:word-formation-hierarchy"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:word-formation-hierarchy"
+aliases: ["english:model:word-formation-hierarchy"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["morphology","morphology:compounds"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:root-base-and-stem", "english:concept:compounding", "english:concept:affix", "english:concept:derivation", "english:concept:inflection"]
+claims: [{"id":"key-takeaway","statement":"Morphological analyses distinguish the element, the operation, its input base and the resulting lexeme or word form.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:root-base-and-stem","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:compounding","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:affix","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:derivation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Word formation hierarchy
 

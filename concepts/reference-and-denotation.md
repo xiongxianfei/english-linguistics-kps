@@ -1,18 +1,19 @@
 ---
-id: "english:concept:reference-and-denotation"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:reference-and-denotation"
+aliases: ["english:concept:reference-and-denotation"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:reference-and-denotation"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-predicate", "english:concept:quantification-and-scope", "english:concept:deixis"]
+claims: [{"id":"key-takeaway","statement":"Reference concerns what an expression is used to pick out in context; denotation is a semantic value under an interpretation.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:semantic-predicate","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:quantification-and-scope","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:deixis","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Reference and denotation
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
-- [Quantification and scope](../concepts/quantification-and-scope.md) provides a related distinction used in the local explanation.
-- [Deixis](../concepts/deixis.md) provides a related distinction used in the local explanation.
+- [Semantic predicate](semantic-predicate.md) provides a related distinction used in the local explanation.
+- [Quantification and scope](quantification-and-scope.md) provides a related distinction used in the local explanation.
+- [Deixis](deixis.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:principle:accent-does-not-exhaust-focus"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:accent-does-not-exhaust-focus"
+aliases: ["english:principle:accent-does-not-exhaust-focus"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["information-structure","information-structure:focus-projection","prosody","prosody:pitch-accent-and-prominence"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:focus-topic-and-qud", "english:concept:prosody", "english:concept:stress"]
+claims: [{"id":"key-takeaway","statement":"The same prominent word can participate in a narrow focus or a larger focused constituent.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:prosody","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:stress","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # An accented word need not exhaust the focus domain
 

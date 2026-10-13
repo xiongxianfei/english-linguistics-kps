@@ -1,5 +1,5 @@
 ---
-language: "KPS 9.x"
+language: "KPS 12.x"
 package_version: "0.1.0"
 status: "draft"
 ---
@@ -22,7 +22,7 @@ The English knowledge objects, worked examples, domain tests, navigation generat
 
 ## Third party sources
 
-Reference records describe external publications without relicensing them. Anderson's first-edition textbook and IPA charts have their own CC BY-SA terms; the Roberts article and RST site retain their own terms. This repository bundles none of their full texts, charts, fonts, audio or video. Do not interpret the package MIT license as permission to copy those external assets.
+Source records describe external publications without relicensing them. Anderson's first-edition textbook and IPA charts have their own CC BY-SA terms; the Roberts article and RST site retain their own terms. This repository bundles none of their full texts, charts, fonts, audio or video. Do not interpret the package MIT license as permission to copy those external assets.
 
 ## Pronunciation source and media rights
 

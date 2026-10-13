@@ -1,18 +1,19 @@
 ---
-id: "english:concept:quantification-and-scope"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:quantification-and-scope"
+aliases: ["english:concept:quantification-and-scope"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:quantification-and-scope"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:negation-and-entailment", "english:concept:implicature", "english:concept:ambiguity-and-vagueness"]
+claims: [{"id":"key-takeaway","statement":"Quantification specifies how a claim ranges over a contextually relevant domain.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:negation-and-entailment","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:implicature","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:ambiguity-and-vagueness","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Quantification and scope
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Negation and entailment](../concepts/negation-and-entailment.md) provides a related distinction used in the local explanation.
-- [Conversational implicature](../concepts/implicature.md) provides a related distinction used in the local explanation.
-- [Ambiguity and vagueness](../concepts/ambiguity-and-vagueness.md) provides a related distinction used in the local explanation.
+- [Negation and entailment](negation-and-entailment.md) provides a related distinction used in the local explanation.
+- [Conversational implicature](implicature.md) provides a related distinction used in the local explanation.
+- [Ambiguity and vagueness](ambiguity-and-vagueness.md) provides a related distinction used in the local explanation.

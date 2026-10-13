@@ -1,18 +1,19 @@
 ---
-id: "english:concept:contextual-resolution"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:contextual-resolution"
+aliases: ["english:concept:contextual-resolution"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:context-and-deixis"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:anaphora-and-accessibility", "english:concept:constraint-and-preference", "english:concept:deixis"]
+claims: [{"id":"key-takeaway","statement":"Contextual resolution identifies values needed to interpret an expression in its use, such as a pronoun referent, deictic place or relevant comparison class.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:anaphora-and-accessibility","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constraint-and-preference","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:deixis","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Contextual resolution
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Anaphora and accessibility](../concepts/anaphora-and-accessibility.md) provides a related distinction used in the local explanation.
-- [Constraint and preference](../concepts/constraint-and-preference.md) provides a related distinction used in the local explanation.
-- [Deixis](../concepts/deixis.md) provides a related distinction used in the local explanation.
+- [Anaphora and accessibility](anaphora-and-accessibility.md) provides a related distinction used in the local explanation.
+- [Constraint and preference](constraint-and-preference.md) provides a related distinction used in the local explanation.
+- [Deixis](deixis.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:lexical-entry"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:lexical-entry"
+aliases: ["english:concept:lexical-entry"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","lexicon:lexical-identity"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:valency-and-argument-structure", "english:concept:lexical-selection", "english:concept:sense-and-lexical-ambiguity"]
+claims: [{"id":"key-takeaway","statement":"A lexical entry represents item-specific linguistic information relevant to a lexeme or sense: form, category, paradigm, meaning, selection, alternations and conventional combinations.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:valency-and-argument-structure","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:lexical-selection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:sense-and-lexical-ambiguity","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Lexical entry
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Valency and argument structure](../concepts/valency-and-argument-structure.md) provides a related distinction used in the local explanation.
-- [Lexical selection](../concepts/lexical-selection.md) provides a related distinction used in the local explanation.
-- [Sense and lexical ambiguity](../concepts/sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.
+- [Valency and argument structure](valency-and-argument-structure.md) provides a related distinction used in the local explanation.
+- [Lexical selection](lexical-selection.md) provides a related distinction used in the local explanation.
+- [Sense and lexical ambiguity](sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:method:analyze-constituency"
-type: "method"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:analyze-constituency"
+aliases: ["english:method:analyze-constituency"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["syntax","syntax:constituency-and-dependency","syntax:syntactic-diagnostics"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:constituency", "english:concept:head-and-dependent", "english:concept:relative-clause", "english:concept:object-and-pp-complement"]
+claims: [{"id":"key-takeaway","statement":"Record candidate constituent boundaries and local relations using converging diagnostics.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:constituency","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:relative-clause","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Analyze constituency
 

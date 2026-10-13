@@ -1,18 +1,19 @@
 ---
-id: "english:concept:compounding"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:compounding"
+aliases: ["english:concept:compounding"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","lexicon:lexicalization","morphology","morphology:compounds"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:root-base-and-stem", "english:concept:productivity-and-lexicalization", "english:concept:compositionality"]
+claims: [{"id":"key-takeaway","statement":"Compounding combines lexical bases into a larger lexical expression.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:root-base-and-stem","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:productivity-and-lexicalization","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:compositionality","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Compounding
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Root base and stem](../concepts/root-base-and-stem.md) provides a related distinction used in the local explanation.
-- [Productivity and lexicalization](../concepts/productivity-and-lexicalization.md) provides a related distinction used in the local explanation.
-- [Compositionality](../concepts/compositionality.md) provides a related distinction used in the local explanation.
+- [Root base and stem](root-base-and-stem.md) provides a related distinction used in the local explanation.
+- [Productivity and lexicalization](productivity-and-lexicalization.md) provides a related distinction used in the local explanation.
+- [Compositionality](compositionality.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:phrase-and-clause"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:phrase-and-clause"
+aliases: ["english:concept:phrase-and-clause"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [0]
-perspectives: ["foundations"]
+domains: ["foundations","syntax","syntax:syntactic-categories"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:finiteness", "english:concept:auxiliary-chain", "english:concept:constituency"]
+claims: [{"id":"key-takeaway","statement":"A phrase is a syntactic unit organized as a phrase category; it may contain one word or many.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:finiteness","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:auxiliary-chain","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constituency","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Phrase and clause
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Finiteness](../concepts/finiteness.md) provides a related distinction used in the local explanation.
-- [Auxiliary chain](../concepts/auxiliary-chain.md) provides a related distinction used in the local explanation.
-- [Constituency](../concepts/constituency.md) provides a related distinction used in the local explanation.
+- [Finiteness](finiteness.md) provides a related distinction used in the local explanation.
+- [Auxiliary chain](auxiliary-chain.md) provides a related distinction used in the local explanation.
+- [Constituency](constituency.md) provides a related distinction used in the local explanation.

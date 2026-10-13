@@ -1,18 +1,19 @@
 ---
-id: "english:model:temporal-reference-model"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:temporal-reference-model"
+aliases: ["english:model:temporal-reference-model"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:temporal-and-event-semantics"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:tense-and-aspect", "english:concept:situation-type", "english:concept:modality"]
+claims: [{"id":"key-takeaway","statement":"Temporal interpretation separates tense, reference time, event structure and aspectual viewpoint.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:tense-and-aspect","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:situation-type","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:modality","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Temporal reference model
 

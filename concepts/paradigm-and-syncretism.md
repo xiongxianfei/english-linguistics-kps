@@ -1,18 +1,19 @@
 ---
-id: "english:concept:paradigm-and-syncretism"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:paradigm-and-syncretism"
+aliases: ["english:concept:paradigm-and-syncretism"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["morphology","morphology:inflectional-paradigms"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:inflection", "english:concept:finiteness", "english:concept:auxiliary-chain"]
+claims: [{"id":"key-takeaway","statement":"A paradigm organizes the grammatical forms of a lexeme by feature values or form categories.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:finiteness","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:auxiliary-chain","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Paradigm and syncretism
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
-- [Finiteness](../concepts/finiteness.md) provides a related distinction used in the local explanation.
-- [Auxiliary chain](../concepts/auxiliary-chain.md) provides a related distinction used in the local explanation.
+- [Inflection](inflection.md) provides a related distinction used in the local explanation.
+- [Finiteness](finiteness.md) provides a related distinction used in the local explanation.
+- [Auxiliary chain](auxiliary-chain.md) provides a related distinction used in the local explanation.

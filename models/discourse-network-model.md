@@ -1,18 +1,19 @@
 ---
-id: "english:model:discourse-network-model"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:discourse-network-model"
+aliases: ["english:model:discourse-network-model"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
+domains: ["discourse","discourse:discourse-relations"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:mann-taboada-undated-rst-introduction"]
-uses_concepts: ["english:concept:discourse-referent", "english:concept:discourse-relation", "english:concept:contrast-and-concession", "english:concept:temporal-causal-and-evidential-relations"]
+claims: [{"id":"key-takeaway","statement":"A discourse model tracks referents and relations while keeping textual order distinct from event order and causal direction.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:discourse-referent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:discourse-relation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contrast-and-concession","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:temporal-causal-and-evidential-relations","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:mann-taboada-undated-rst-introduction","relation":"context-only"}]
 ---
+
 
 # Discourse network model
 
@@ -54,7 +55,7 @@ For each edge, identify textual units, relation direction, connective if present
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Rhetorical Structure Theory website introduction and relation definitions](../references/mann-taboada-undated-rst-introduction.md#relations) — support is limited to the named section in that record.
+- [Rhetorical Structure Theory website introduction and relation definitions](../sources/mann-taboada-undated-rst-introduction.md#relations) — support is limited to the named section in that record.
 
 ## Related knowledge
 

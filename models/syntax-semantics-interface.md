@@ -1,18 +1,20 @@
 ---
-id: "english:model:syntax-semantics-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:syntax-semantics-interface"
+aliases: ["english:model:syntax-semantics-interface"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["semantics","semantics:compositional-meaning","syntax","syntax:construction-mappings"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-role", "english:concept:object-and-pp-complement", "english:concept:valency-and-argument-structure"]
+claims: [{"id":"key-takeaway","statement":"Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:valency-and-argument-structure","layer":"document","expected_role":"concept"}]
+sources: []
+interface: {"source_domain":"syntax","source_representation":"clause-functions","predicate":"maps-to","target_domain":"semantics","target_representation":"participant-roles","claim":"key-takeaway","scope":"The working analysis, context and variety limits in knowledge/syntax-semantics-interface.md; not a neural processing claim.","cardinality":"unspecified"}
 ---
+
 
 # Syntax Semantics interface
 

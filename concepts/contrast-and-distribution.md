@@ -1,18 +1,19 @@
 ---
-id: "english:concept:contrast-and-distribution"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:contrast-and-distribution"
+aliases: ["english:concept:contrast-and-distribution"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["phonology","phonology:phonemic-contrast"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:phonotactics", "english:concept:evidence-and-analysis"]
+claims: [{"id":"key-takeaway","statement":"A minimal pair differs in one relevant segment while contrasting lexical identity.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:phone-phoneme-and-allophone","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:phonotactics","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:evidence-and-analysis","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Contrast and distribution
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
-- [Phonotactics](../concepts/phonotactics.md) provides a related distinction used in the local explanation.
-- [Evidence and analysis](../concepts/evidence-and-analysis.md) provides a related distinction used in the local explanation.
+- [Phone phoneme and allophone](phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
+- [Phonotactics](phonotactics.md) provides a related distinction used in the local explanation.
+- [Evidence and analysis](evidence-and-analysis.md) provides a related distinction used in the local explanation.

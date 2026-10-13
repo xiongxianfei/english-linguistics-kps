@@ -1,18 +1,19 @@
 ---
-id: "english:concept:clause-architecture"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:clause-architecture"
+aliases: ["english:concept:clause-architecture"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:clause-architecture"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:phrase-and-clause", "english:concept:complement-and-modifier", "english:concept:category-and-function"]
+claims: [{"id":"key-takeaway","statement":"The working clause representation distinguishes Subject from Predicate and then analyzes the predicate's head, complements and modifiers.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:phrase-and-clause","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:complement-and-modifier","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:category-and-function","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Clause architecture
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Phrase and clause](../concepts/phrase-and-clause.md) provides a related distinction used in the local explanation.
-- [Complement and modifier](../concepts/complement-and-modifier.md) provides a related distinction used in the local explanation.
-- [Category and function](../concepts/category-and-function.md) provides a related distinction used in the local explanation.
+- [Phrase and clause](phrase-and-clause.md) provides a related distinction used in the local explanation.
+- [Complement and modifier](complement-and-modifier.md) provides a related distinction used in the local explanation.
+- [Category and function](category-and-function.md) provides a related distinction used in the local explanation.

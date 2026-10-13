@@ -1,18 +1,19 @@
 ---
-id: "english:concept:consonant-articulation"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:consonant-articulation"
+aliases: ["english:concept:consonant-articulation"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["phonetics","phonetics:articulatory-phonetics","phonology","phonology:distinctive-features"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:international-phonetic-association-undated-ipa-chart","english:reference:sounds-american-undated-chart-and-terms","english:reference:international-phonetic-association-undated-interactive-chart"]
-uses_concepts: ["english:concept:representation-levels", "english:concept:phone-phoneme-and-allophone", "english:concept:vowel-articulation"]
+claims: [{"id":"key-takeaway","statement":"Consonants can be classified by voicing, place and manner of articulation.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:phone-phoneme-and-allophone","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:vowel-articulation","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:international-phonetic-association-undated-ipa-chart","relation":"context-only"},{"id":"source:sounds-american-undated-chart-and-terms","relation":"context-only"},{"id":"source:international-phonetic-association-undated-interactive-chart","relation":"context-only"}]
 ---
+
 
 # Consonant articulation
 
@@ -48,15 +49,15 @@ Actual English stop contrasts use cues including voice onset timing, aspiration 
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [IPA chart and component charts on the official website](../references/international-phonetic-association-undated-ipa-chart.md#consonants) — support is limited to the named section in that record.
+- [IPA chart and component charts on the official website](../sources/international-phonetic-association-undated-ipa-chart.md#consonants) — support is limited to the named section in that record.
 
 ## Additional source records
 
-- [Sounds American chart and terms](../references/sounds-american-undated-chart-and-terms.md#located-contributions) documents the resource's American sound focus, not a recorded speaker study.
-- [Interactive IPA chart](../references/international-phonetic-association-undated-interactive-chart.md#located-contributions) supplies official symbol context, not a language-specific pronunciation dictionary.
+- [Sounds American chart and terms](../sources/sounds-american-undated-chart-and-terms.md#located-contributions) documents the resource's American sound focus, not a recorded speaker study.
+- [Interactive IPA chart](../sources/international-phonetic-association-undated-interactive-chart.md#located-contributions) supplies official symbol context, not a language-specific pronunciation dictionary.
 
 ## Related knowledge
 
-- [Orthography phonology and phonetics](../concepts/representation-levels.md) provides a related distinction used in the local explanation.
-- [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
-- [Vowel articulation](../concepts/vowel-articulation.md) provides a related distinction used in the local explanation.
+- [Orthography phonology and phonetics](representation-levels.md) provides a related distinction used in the local explanation.
+- [Phone phoneme and allophone](phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
+- [Vowel articulation](vowel-articulation.md) provides a related distinction used in the local explanation.

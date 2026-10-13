@@ -1,18 +1,19 @@
 ---
-id: "english:concept:connected-speech"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:connected-speech"
+aliases: ["english:concept:connected-speech"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["phonetics","phonetics:coarticulation-and-reduction","phonology","phonology:phonological-processes","prosody","prosody:prosodic-phrasing"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:stress", "english:concept:prosody"]
+claims: [{"id":"key-takeaway","statement":"Connected-speech processes describe context-sensitive realization across segments and word boundaries.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:phone-phoneme-and-allophone","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:stress","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:prosody","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Connected speech
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
-- [Stress](../concepts/stress.md) provides a related distinction used in the local explanation.
-- [Prosody and intonation](../concepts/prosody.md) provides a related distinction used in the local explanation.
+- [Phone phoneme and allophone](phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
+- [Stress](stress.md) provides a related distinction used in the local explanation.
+- [Prosody and intonation](prosody.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:valency-and-argument-structure"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:valency-and-argument-structure"
+aliases: ["english:concept:valency-and-argument-structure"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","lexicon:argument-frames","syntax","syntax:construction-mappings"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:lexical-selection", "english:concept:semantic-role", "english:concept:complement-and-modifier"]
+claims: [{"id":"key-takeaway","statement":"Valency describes a head's capacity for core arguments; argument structure represents the associated participant relations.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:lexical-selection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:complement-and-modifier","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Valency and argument structure
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Lexical selection](../concepts/lexical-selection.md) provides a related distinction used in the local explanation.
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Complement and modifier](../concepts/complement-and-modifier.md) provides a related distinction used in the local explanation.
+- [Lexical selection](lexical-selection.md) provides a related distinction used in the local explanation.
+- [Semantic role](semantic-role.md) provides a related distinction used in the local explanation.
+- [Complement and modifier](complement-and-modifier.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:compositionality"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:compositionality"
+aliases: ["english:concept:compositionality"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:compositional-meaning"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-predicate", "english:concept:sense-and-lexical-ambiguity", "english:concept:quantification-and-scope"]
+claims: [{"id":"key-takeaway","statement":"The compositionality principle relates the interpretation of a complex expression to interpretations of its parts and their mode of combination.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:semantic-predicate","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:sense-and-lexical-ambiguity","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:quantification-and-scope","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Compositionality
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
-- [Sense and lexical ambiguity](../concepts/sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.
-- [Quantification and scope](../concepts/quantification-and-scope.md) provides a related distinction used in the local explanation.
+- [Semantic predicate](semantic-predicate.md) provides a related distinction used in the local explanation.
+- [Sense and lexical ambiguity](sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.
+- [Quantification and scope](quantification-and-scope.md) provides a related distinction used in the local explanation.

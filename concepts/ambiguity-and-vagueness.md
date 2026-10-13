@@ -1,18 +1,19 @@
 ---
-id: "english:concept:ambiguity-and-vagueness"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:ambiguity-and-vagueness"
+aliases: ["english:concept:ambiguity-and-vagueness"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:semantic-ambiguity"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:sense-and-lexical-ambiguity", "english:concept:quantification-and-scope", "english:concept:contextual-resolution"]
+claims: [{"id":"key-takeaway","statement":"Ambiguity involves distinguishable interpretations of a form or structure.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:sense-and-lexical-ambiguity","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:quantification-and-scope","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Ambiguity and vagueness
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Sense and lexical ambiguity](../concepts/sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.
-- [Quantification and scope](../concepts/quantification-and-scope.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
+- [Sense and lexical ambiguity](sense-and-lexical-ambiguity.md) provides a related distinction used in the local explanation.
+- [Quantification and scope](quantification-and-scope.md) provides a related distinction used in the local explanation.
+- [Contextual resolution](contextual-resolution.md) provides a related distinction used in the local explanation.

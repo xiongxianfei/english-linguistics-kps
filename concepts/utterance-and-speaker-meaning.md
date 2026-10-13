@@ -1,18 +1,19 @@
 ---
-id: "english:concept:utterance-and-speaker-meaning"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:utterance-and-speaker-meaning"
+aliases: ["english:concept:utterance-and-speaker-meaning"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:speech-actions"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:deixis", "english:concept:speech-act", "english:concept:contextual-resolution"]
+claims: [{"id":"key-takeaway","statement":"A sentence is a linguistic expression considered abstractly; an utterance is a particular use in context.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:deixis","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:speech-act","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Utterance and speaker meaning
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Deixis](../concepts/deixis.md) provides a related distinction used in the local explanation.
-- [Speech act](../concepts/speech-act.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
+- [Deixis](deixis.md) provides a related distinction used in the local explanation.
+- [Speech act](speech-act.md) provides a related distinction used in the local explanation.
+- [Contextual resolution](contextual-resolution.md) provides a related distinction used in the local explanation.

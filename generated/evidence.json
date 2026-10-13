@@ -1,0 +1,260 @@
+[
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:allomorphy",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:complement-and-modifier",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:phone-phoneme-and-allophone",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:semantic-role",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:exponents-are-conditioned-by-sound",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:functions-do-not-determine-roles",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:realization-varies-with-environment",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:analyze-sound-realization",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:compare-argument-mappings",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:classify-and-produce-phone",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:anderson-2018-essentials-of-linguistics",
+    "owner": "english:learn-word-pronunciation",
+    "source": "source:anderson-2018-essentials-of-linguistics",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-diacritics-and-other-symbols",
+    "owner": "english:classify-and-produce-phone",
+    "source": "source:international-phonetic-association-undated-diacritics-and-other-symbols",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-interactive-chart",
+    "owner": "english:consonant-articulation",
+    "source": "source:international-phonetic-association-undated-interactive-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-interactive-chart",
+    "owner": "english:representation-levels",
+    "source": "source:international-phonetic-association-undated-interactive-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-interactive-chart",
+    "owner": "english:analyze-sound-realization",
+    "source": "source:international-phonetic-association-undated-interactive-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-interactive-chart",
+    "owner": "english:classify-and-produce-phone",
+    "source": "source:international-phonetic-association-undated-interactive-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-interactive-chart",
+    "owner": "english:learn-word-pronunciation",
+    "source": "source:international-phonetic-association-undated-interactive-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-ipa-chart",
+    "owner": "english:consonant-articulation",
+    "source": "source:international-phonetic-association-undated-ipa-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-ipa-chart",
+    "owner": "english:representation-levels",
+    "source": "source:international-phonetic-association-undated-ipa-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-ipa-chart",
+    "owner": "english:stress",
+    "source": "source:international-phonetic-association-undated-ipa-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-ipa-chart",
+    "owner": "english:vowel-articulation",
+    "source": "source:international-phonetic-association-undated-ipa-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-ipa-chart",
+    "owner": "english:classify-and-produce-phone",
+    "source": "source:international-phonetic-association-undated-ipa-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:international-phonetic-association-undated-ipa-chart",
+    "owner": "english:learn-word-pronunciation",
+    "source": "source:international-phonetic-association-undated-ipa-chart",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:mann-taboada-undated-rst-introduction",
+    "owner": "english:discourse-relation",
+    "source": "source:mann-taboada-undated-rst-introduction",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:mann-taboada-undated-rst-introduction",
+    "owner": "english:discourse-network-model",
+    "source": "source:mann-taboada-undated-rst-introduction",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:mann-taboada-undated-rst-introduction",
+    "owner": "english:trace-discourse-interpretation",
+    "source": "source:mann-taboada-undated-rst-introduction",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:merriam-webster-undated-pin-entry",
+    "owner": "english:learn-word-pronunciation",
+    "source": "source:merriam-webster-undated-pin-entry",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:roberts-2012-information-structure",
+    "owner": "english:focus-topic-and-qud",
+    "source": "source:roberts-2012-information-structure",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:roberts-2012-information-structure",
+    "owner": "english:information-packaging-constructions",
+    "source": "source:roberts-2012-information-structure",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:roberts-2012-information-structure",
+    "owner": "english:focus-prosody-interface",
+    "source": "source:roberts-2012-information-structure",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:sounds-american-undated-chart-and-terms",
+    "owner": "english:consonant-articulation",
+    "source": "source:sounds-american-undated-chart-and-terms",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:sounds-american-undated-chart-and-terms",
+    "owner": "english:vowel-articulation",
+    "source": "source:sounds-american-undated-chart-and-terms",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:sounds-american-undated-chart-and-terms",
+    "owner": "english:analyze-sound-realization",
+    "source": "source:sounds-american-undated-chart-and-terms",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:sounds-american-undated-chart-and-terms",
+    "owner": "english:classify-and-produce-phone",
+    "source": "source:sounds-american-undated-chart-and-terms",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:sounds-american-undated-chart-and-terms",
+    "owner": "english:learn-word-pronunciation",
+    "source": "source:sounds-american-undated-chart-and-terms",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:tophonetics-undated-english-transcription",
+    "owner": "english:representation-levels",
+    "source": "source:tophonetics-undated-english-transcription",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:tophonetics-undated-english-transcription",
+    "owner": "english:vowel-articulation",
+    "source": "source:tophonetics-undated-english-transcription",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:tophonetics-undated-english-transcription",
+    "owner": "english:analyze-sound-realization",
+    "source": "source:tophonetics-undated-english-transcription",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:tophonetics-undated-english-transcription",
+    "owner": "english:learn-word-pronunciation",
+    "source": "source:tophonetics-undated-english-transcription",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:xiongxianfei-2026-knowledge-practice-system",
+    "owner": "english:validation-does-not-establish-truth",
+    "source": "source:xiongxianfei-2026-knowledge-practice-system",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:xiongxianfei-2026-knowledge-practice-system",
+    "owner": "english:evaluate-linguistic-claim",
+    "source": "source:xiongxianfei-2026-knowledge-practice-system",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:xiongxianfei-2026-knowledge-practice-system",
+    "owner": "english:investigate-linguistic-question",
+    "source": "source:xiongxianfei-2026-knowledge-practice-system",
+    "relation": "context-only"
+  },
+  {
+    "id": "source:xiongxianfei-2026-knowledge-practice-system",
+    "owner": "english:maintain-english-package",
+    "source": "source:xiongxianfei-2026-knowledge-practice-system",
+    "relation": "context-only"
+  }
+]

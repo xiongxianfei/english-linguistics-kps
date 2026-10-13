@@ -1,18 +1,19 @@
 ---
-id: "english:concept:semantic-predicate"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:semantic-predicate"
+aliases: ["english:concept:semantic-predicate"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:compositional-meaning"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-role", "english:concept:compositionality", "english:concept:valency-and-argument-structure"]
+claims: [{"id":"key-takeaway","statement":"A semantic predicate expresses a property or relation that combines with arguments.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:compositionality","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:valency-and-argument-structure","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Semantic predicate
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Compositionality](../concepts/compositionality.md) provides a related distinction used in the local explanation.
-- [Valency and argument structure](../concepts/valency-and-argument-structure.md) provides a related distinction used in the local explanation.
+- [Semantic role](semantic-role.md) provides a related distinction used in the local explanation.
+- [Compositionality](compositionality.md) provides a related distinction used in the local explanation.
+- [Valency and argument structure](valency-and-argument-structure.md) provides a related distinction used in the local explanation.

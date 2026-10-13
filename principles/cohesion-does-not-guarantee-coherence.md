@@ -1,18 +1,19 @@
 ---
-id: "english:principle:cohesion-does-not-guarantee-coherence"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:cohesion-does-not-guarantee-coherence"
+aliases: ["english:principle:cohesion-does-not-guarantee-coherence"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
+domains: ["discourse","discourse:cohesion-and-coherence"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:cohesion-and-coherence", "english:concept:discourse-relation", "english:concept:focus-topic-and-qud"]
+claims: [{"id":"key-takeaway","statement":"Explicit linguistic links do not by themselves establish a well motivated conceptual relationship among all discourse units.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:cohesion-and-coherence","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:discourse-relation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Cohesive links do not guarantee coherence
 

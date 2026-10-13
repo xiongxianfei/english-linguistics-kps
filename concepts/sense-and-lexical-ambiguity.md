@@ -1,18 +1,19 @@
 ---
-id: "english:concept:sense-and-lexical-ambiguity"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:sense-and-lexical-ambiguity"
+aliases: ["english:concept:sense-and-lexical-ambiguity"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","lexicon:lexical-senses","semantics","semantics:semantic-ambiguity"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:lexical-entry", "english:concept:ambiguity-and-vagueness", "english:concept:contextual-resolution"]
+claims: [{"id":"key-takeaway","statement":"A sense is a conventional interpretation associated with a lexical item in an analysis.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:lexical-entry","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:ambiguity-and-vagueness","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Sense and lexical ambiguity
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Lexical entry](../concepts/lexical-entry.md) provides a related distinction used in the local explanation.
-- [Ambiguity and vagueness](../concepts/ambiguity-and-vagueness.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
+- [Lexical entry](lexical-entry.md) provides a related distinction used in the local explanation.
+- [Ambiguity and vagueness](ambiguity-and-vagueness.md) provides a related distinction used in the local explanation.
+- [Contextual resolution](contextual-resolution.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:prosody"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:prosody"
+aliases: ["english:concept:prosody"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["information-structure","phonetics","phonology","prosody","prosody:intonation","prosody:pitch-accent-and-prominence","prosody:prosodic-phrasing","prosody:rhythmic-organization"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:focus-topic-and-qud", "english:concept:stress", "english:concept:connected-speech"]
+claims: [{"id":"key-takeaway","statement":"Prosody organizes prominence, pitch patterns, timing and phrasing beyond individual segment identities.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:stress","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:connected-speech","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Prosody and intonation
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Focus topic and question under discussion](../concepts/focus-topic-and-qud.md) provides a related distinction used in the local explanation.
-- [Stress](../concepts/stress.md) provides a related distinction used in the local explanation.
-- [Connected speech](../concepts/connected-speech.md) provides a related distinction used in the local explanation.
+- [Focus topic and question under discussion](focus-topic-and-qud.md) provides a related distinction used in the local explanation.
+- [Stress](stress.md) provides a related distinction used in the local explanation.
+- [Connected speech](connected-speech.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:gricean-reasoning"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:gricean-reasoning"
+aliases: ["english:concept:gricean-reasoning"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:implicature"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:implicature", "english:concept:focus-topic-and-qud", "english:concept:constraint-and-preference"]
+claims: [{"id":"key-takeaway","statement":"Gricean analysis models conversational expectations involving informativeness, truthfulness or support, relevance and clarity.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:implicature","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constraint-and-preference","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Gricean reasoning
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Conversational implicature](../concepts/implicature.md) provides a related distinction used in the local explanation.
-- [Focus topic and question under discussion](../concepts/focus-topic-and-qud.md) provides a related distinction used in the local explanation.
-- [Constraint and preference](../concepts/constraint-and-preference.md) provides a related distinction used in the local explanation.
+- [Conversational implicature](implicature.md) provides a related distinction used in the local explanation.
+- [Focus topic and question under discussion](focus-topic-and-qud.md) provides a related distinction used in the local explanation.
+- [Constraint and preference](constraint-and-preference.md) provides a related distinction used in the local explanation.

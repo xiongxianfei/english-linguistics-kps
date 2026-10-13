@@ -1,18 +1,19 @@
 ---
-id: "english:concept:negation-and-entailment"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:negation-and-entailment"
+aliases: ["english:concept:negation-and-entailment"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:negation-and-entailment"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:quantification-and-scope", "english:concept:presupposition", "english:concept:implicature"]
+claims: [{"id":"key-takeaway","statement":"Under a stated classical interpretation, P entails Q if every model making P true makes Q true.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:quantification-and-scope","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:presupposition","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:implicature","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Negation and entailment
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Quantification and scope](../concepts/quantification-and-scope.md) provides a related distinction used in the local explanation.
-- [Presupposition](../concepts/presupposition.md) provides a related distinction used in the local explanation.
-- [Conversational implicature](../concepts/implicature.md) provides a related distinction used in the local explanation.
+- [Quantification and scope](quantification-and-scope.md) provides a related distinction used in the local explanation.
+- [Presupposition](presupposition.md) provides a related distinction used in the local explanation.
+- [Conversational implicature](implicature.md) provides a related distinction used in the local explanation.

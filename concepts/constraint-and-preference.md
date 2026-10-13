@@ -1,18 +1,19 @@
 ---
-id: "english:concept:constraint-and-preference"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:constraint-and-preference"
+aliases: ["english:concept:constraint-and-preference"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["kps:knowledge-maintenance"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:grammaticality-and-acceptability", "english:concept:lexical-selection", "english:concept:contextual-resolution"]
+claims: [{"id":"key-takeaway","statement":"A grammatical licensing condition concerns what a stated grammar permits.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:grammaticality-and-acceptability","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:lexical-selection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Constraint and preference
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Grammaticality and acceptability](../concepts/grammaticality-and-acceptability.md) provides a related distinction used in the local explanation.
-- [Lexical selection](../concepts/lexical-selection.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
+- [Grammaticality and acceptability](grammaticality-and-acceptability.md) provides a related distinction used in the local explanation.
+- [Lexical selection](lexical-selection.md) provides a related distinction used in the local explanation.
+- [Contextual resolution](contextual-resolution.md) provides a related distinction used in the local explanation.

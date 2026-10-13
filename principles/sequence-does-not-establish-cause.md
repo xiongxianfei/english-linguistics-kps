@@ -1,18 +1,19 @@
 ---
-id: "english:principle:sequence-does-not-establish-cause"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:sequence-does-not-establish-cause"
+aliases: ["english:principle:sequence-does-not-establish-cause"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
+domains: ["discourse","discourse:discourse-inference"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:temporal-causal-and-evidential-relations", "english:concept:discourse-relation", "english:concept:constraint-and-preference"]
+claims: [{"id":"key-takeaway","statement":"An event following another in time does not by itself demonstrate that the earlier event caused it.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:temporal-causal-and-evidential-relations","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:discourse-relation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constraint-and-preference","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Temporal sequence does not establish causation
 

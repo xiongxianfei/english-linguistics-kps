@@ -1,18 +1,19 @@
 ---
-id: "english:concept:object-and-pp-complement"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:object-and-pp-complement"
+aliases: ["english:concept:object-and-pp-complement"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:grammatical-functions"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:semantic-role", "english:concept:head-and-dependent", "english:concept:complement-and-modifier"]
+claims: [{"id":"key-takeaway","statement":"A Direct Object and a PP complement are different syntactic realizations.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:complement-and-modifier","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Object and PP complement
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
-- [Complement and modifier](../concepts/complement-and-modifier.md) provides a related distinction used in the local explanation.
+- [Semantic role](semantic-role.md) provides a related distinction used in the local explanation.
+- [Head and dependent](head-and-dependent.md) provides a related distinction used in the local explanation.
+- [Complement and modifier](complement-and-modifier.md) provides a related distinction used in the local explanation.

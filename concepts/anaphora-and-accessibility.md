@@ -1,18 +1,19 @@
 ---
-id: "english:concept:anaphora-and-accessibility"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:anaphora-and-accessibility"
+aliases: ["english:concept:anaphora-and-accessibility"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
+domains: ["discourse","discourse:anaphora-and-accessibility","information-structure","information-structure:givenness"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:discourse-referent", "english:concept:contextual-resolution", "english:concept:givenness-and-bridging"]
+claims: [{"id":"key-takeaway","statement":"Anaphora links an expression's interpretation to discourse material or a structurally available antecedent.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:discourse-referent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:givenness-and-bridging","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Anaphora and accessibility
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Discourse referent](../concepts/discourse-referent.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
-- [Givenness and bridging](../concepts/givenness-and-bridging.md) provides a related distinction used in the local explanation.
+- [Discourse referent](discourse-referent.md) provides a related distinction used in the local explanation.
+- [Contextual resolution](contextual-resolution.md) provides a related distinction used in the local explanation.
+- [Givenness and bridging](givenness-and-bridging.md) provides a related distinction used in the local explanation.

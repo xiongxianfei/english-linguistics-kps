@@ -1,18 +1,19 @@
 ---
-id: "english:principle:category-does-not-determine-function"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:category-does-not-determine-function"
+aliases: ["english:principle:category-does-not-determine-function"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [0]
-perspectives: ["foundations"]
+domains: ["syntax","syntax:syntactic-categories"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:category-and-function", "english:concept:complement-and-modifier"]
+claims: [{"id":"key-takeaway","statement":"A category label does not uniquely determine the grammatical function of its instances.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:category-and-function","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:complement-and-modifier","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Category does not determine grammatical function
 

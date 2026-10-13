@@ -1,18 +1,19 @@
 ---
-id: "english:principle:functions-do-not-determine-roles"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:functions-do-not-determine-roles"
+aliases: ["english:principle:functions-do-not-determine-roles"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["semantics","semantics:participant-roles","syntax","syntax:grammatical-functions"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:semantic-role", "english:concept:object-and-pp-complement"]
+claims: [{"id":"key-takeaway","statement":"A Subject need not be an Agent, and an Object need not be a Patient.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"}]
 ---
+
 
 # Grammatical functions do not determine semantic roles
 
@@ -44,7 +45,7 @@ The broad distinction is supported by the selected passive source passage; the e
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#passive) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#passive) — support is limited to the named section in that record.
 
 ## Related knowledge
 

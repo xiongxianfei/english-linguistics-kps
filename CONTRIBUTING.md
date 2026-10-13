@@ -1,5 +1,5 @@
 ---
-language: "KPS 9.x"
+language: "KPS 12.x"
 package_version: "0.1.0"
 status: "draft"
 ---

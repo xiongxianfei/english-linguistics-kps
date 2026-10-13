@@ -1,18 +1,19 @@
 ---
-id: "english:concept:derivation"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:derivation"
+aliases: ["english:concept:derivation"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","morphology","morphology:derivational-morphology"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:affix", "english:concept:productivity-and-lexicalization", "english:concept:lexeme-and-word-form"]
+claims: [{"id":"key-takeaway","statement":"Derivation forms a related lexeme using a morphological pattern.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:affix","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:productivity-and-lexicalization","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:lexeme-and-word-form","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Derivation
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Affix](../concepts/affix.md) provides a related distinction used in the local explanation.
-- [Productivity and lexicalization](../concepts/productivity-and-lexicalization.md) provides a related distinction used in the local explanation.
-- [Lexeme and word form](../concepts/lexeme-and-word-form.md) provides a related distinction used in the local explanation.
+- [Affix](affix.md) provides a related distinction used in the local explanation.
+- [Productivity and lexicalization](productivity-and-lexicalization.md) provides a related distinction used in the local explanation.
+- [Lexeme and word form](lexeme-and-word-form.md) provides a related distinction used in the local explanation.

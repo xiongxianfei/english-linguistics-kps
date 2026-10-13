@@ -1,22 +1,90 @@
 {
   "package": "English Linguistics KPS",
-  "version": "0.1.0",
-  "kps_language": "9.x",
-  "validated_with": "9.0.1",
-  "markdown_profile": "practical-markdown-v1",
+  "version": "0.2.0",
+  "kps_language": "12.x",
+  "profile": "12.0.0-draft.2",
   "scientific_status": "provisional",
   "independent_review": false,
-  "created": "2026-10-11",
-  "upstream_commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
-  "independent": true,
-  "knowledge_types": [
+  "canonical_roles": [
     "concept",
     "principle",
     "model",
     "method",
     "practice"
   ],
-  "reference_is_supporting_record": true,
-  "scope": "Broad introductory Stage 0 through 7 knowledge model; not exhaustive or scientifically certified",
-  "license": "MIT"
+  "foundation_domains": [
+    "phonetics",
+    "phonology",
+    "morphology",
+    "lexicon",
+    "syntax",
+    "semantics",
+    "pragmatics",
+    "discourse",
+    "information-structure",
+    "prosody"
+  ],
+  "vocabulary_policy": "open-authored-kebab-case",
+  "source_folder": "sources",
+  "generated_folders": [
+    "views",
+    "generated"
+  ],
+  "scope": "Foundational English linguistic knowledge across ten domains and major interfaces; not exhaustive or scientifically certified",
+  "base_commit": "034f21daa6946b744b367515cb4dbfc6a6720c4f",
+  "license": "MIT",
+  "required_interfaces": [
+    [
+      "phonology",
+      "phonetics"
+    ],
+    [
+      "prosody",
+      "phonetics"
+    ],
+    [
+      "morphology",
+      "phonology"
+    ],
+    [
+      "lexicon",
+      "morphology"
+    ],
+    [
+      "morphology",
+      "syntax"
+    ],
+    [
+      "lexicon",
+      "syntax"
+    ],
+    [
+      "lexicon",
+      "semantics"
+    ],
+    [
+      "syntax",
+      "semantics"
+    ],
+    [
+      "syntax",
+      "prosody"
+    ],
+    [
+      "semantics",
+      "pragmatics"
+    ],
+    [
+      "pragmatics",
+      "discourse"
+    ],
+    [
+      "discourse",
+      "information-structure"
+    ],
+    [
+      "information-structure",
+      "prosody"
+    ]
+  ]
 }

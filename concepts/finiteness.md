@@ -1,18 +1,19 @@
 ---
-id: "english:concept:finiteness"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:finiteness"
+aliases: ["english:concept:finiteness"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:clause-architecture"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:auxiliary-chain", "english:concept:phrase-and-clause", "english:concept:complement-clause"]
+claims: [{"id":"key-takeaway","statement":"Finiteness classifies a clause or verbal element relative to tense, agreement and distributional properties in a particular grammar.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:auxiliary-chain","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:phrase-and-clause","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:complement-clause","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Finiteness
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Auxiliary chain](../concepts/auxiliary-chain.md) provides a related distinction used in the local explanation.
-- [Phrase and clause](../concepts/phrase-and-clause.md) provides a related distinction used in the local explanation.
-- [Complement clause](../concepts/complement-clause.md) provides a related distinction used in the local explanation.
+- [Auxiliary chain](auxiliary-chain.md) provides a related distinction used in the local explanation.
+- [Phrase and clause](phrase-and-clause.md) provides a related distinction used in the local explanation.
+- [Complement clause](complement-clause.md) provides a related distinction used in the local explanation.

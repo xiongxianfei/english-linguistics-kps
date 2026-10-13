@@ -1,18 +1,19 @@
 ---
-id: "english:concept:implicature"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:implicature"
+aliases: ["english:concept:implicature"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:implicature"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:gricean-reasoning", "english:concept:quantification-and-scope", "english:concept:utterance-and-speaker-meaning"]
+claims: [{"id":"key-takeaway","statement":"Conversational implicature concerns communicated information beyond what is straightforwardly asserted under the relevant conventional interpretation.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:gricean-reasoning","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:quantification-and-scope","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:utterance-and-speaker-meaning","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Conversational implicature
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Gricean reasoning](../concepts/gricean-reasoning.md) provides a related distinction used in the local explanation.
-- [Quantification and scope](../concepts/quantification-and-scope.md) provides a related distinction used in the local explanation.
-- [Utterance and speaker meaning](../concepts/utterance-and-speaker-meaning.md) provides a related distinction used in the local explanation.
+- [Gricean reasoning](gricean-reasoning.md) provides a related distinction used in the local explanation.
+- [Quantification and scope](quantification-and-scope.md) provides a related distinction used in the local explanation.
+- [Utterance and speaker meaning](utterance-and-speaker-meaning.md) provides a related distinction used in the local explanation.

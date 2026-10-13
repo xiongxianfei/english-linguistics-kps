@@ -1,21 +1,19 @@
 ---
-id: "english:practice:maintain-english-package"
-type: "practice"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:maintain-english-package"
+aliases: ["english:practice:maintain-english-package"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["kps:knowledge-maintenance"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:xiongxianfei-2026-knowledge-practice-system"]
-uses_concepts: ["english:concept:evidence-and-analysis", "english:concept:interface", "english:concept:constraint-and-preference"]
-stage_titles: ["Stage1 Scope the change", "Stage2 Review content and dependencies", "Stage3 Check and publish"]
-practice_format: "staged-inline-stageN-v1"
-stage_order: "recommended; prerequisites and evidence govern entry"
+claims: [{"id":"key-takeaway","statement":"Review changes and publish a coherent provisional package without confusing file integrity with linguistic truth.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:evidence-and-analysis","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:interface","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constraint-and-preference","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:xiongxianfei-2026-knowledge-practice-system","relation":"context-only"}]
 ---
+
 
 # Maintain English package
 
@@ -123,7 +121,7 @@ The Practice is an authored operational synthesis. It is not an experimentally v
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Knowledge Practice System 9.0.1](../references/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
+- [Knowledge Practice System 9.0.1](../sources/xiongxianfei-2026-knowledge-practice-system.md#checks) — support is limited to the named section in that record.
 
 ## Related knowledge
 

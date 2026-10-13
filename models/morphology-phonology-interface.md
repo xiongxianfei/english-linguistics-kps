@@ -1,18 +1,20 @@
 ---
-id: "english:model:morphology-phonology-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:morphology-phonology-interface"
+aliases: ["english:model:morphology-phonology-interface"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["morphology","morphology:allomorphy","phonetics","phonology","phonology:phonological-processes"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:allomorphy", "english:concept:inflection", "english:concept:consonant-articulation", "english:concept:representation-levels"]
+claims: [{"id":"key-takeaway","statement":"Regular English inflection links morphological features to sound-conditioned exponents.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:allomorphy","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:consonant-articulation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"}]
+sources: []
+interface: {"source_domain":"morphology","source_representation":"inflection-features","predicate":"maps-to","target_domain":"phonology","target_representation":"phonological-exponent","claim":"key-takeaway","scope":"The working analysis, context and variety limits in knowledge/morphology-phonology-interface.md; not a neural processing claim.","cardinality":"unspecified"}
 ---
+
 
 # Morphology Phonology interface
 

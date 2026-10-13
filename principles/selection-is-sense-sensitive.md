@@ -1,18 +1,19 @@
 ---
-id: "english:principle:selection-is-sense-sensitive"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:selection-is-sense-sensitive"
+aliases: ["english:principle:selection-is-sense-sensitive"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","lexicon:lexical-senses","semantics","syntax"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:lexical-entry", "english:concept:lexical-selection", "english:concept:valency-and-argument-structure"]
+claims: [{"id":"key-takeaway","statement":"Knowing a word's lexical category alone does not determine all of its allowable complement patterns.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:lexical-entry","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:lexical-selection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:valency-and-argument-structure","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Complement selection is sensitive to lexical sense and construction
 

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:constituency"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:constituency"
+aliases: ["english:concept:constituency"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [0]
-perspectives: ["foundations"]
+domains: ["foundations","syntax","syntax:constituency-and-dependency"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:phrase-and-clause", "english:concept:head-and-dependent"]
+claims: [{"id":"key-takeaway","statement":"A constituent is a unit in a proposed hierarchical syntactic analysis.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:phrase-and-clause","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Constituency
 
@@ -46,5 +47,5 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Phrase and clause](../concepts/phrase-and-clause.md) provides a related distinction used in the local explanation.
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
+- [Phrase and clause](phrase-and-clause.md) provides a related distinction used in the local explanation.
+- [Head and dependent](head-and-dependent.md) provides a related distinction used in the local explanation.

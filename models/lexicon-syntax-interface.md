@@ -1,18 +1,20 @@
 ---
-id: "english:model:lexicon-syntax-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:lexicon-syntax-interface"
+aliases: ["english:model:lexicon-syntax-interface"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["lexicon","lexicon:argument-frames","syntax","syntax:construction-mappings"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:lexical-selection", "english:concept:head-and-dependent", "english:concept:object-and-pp-complement", "english:concept:valency-and-argument-structure"]
+claims: [{"id":"key-takeaway","statement":"Lexical senses and constructions constrain the category and form of licensed syntactic complements.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:lexical-selection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:valency-and-argument-structure","layer":"document","expected_role":"concept"}]
+sources: []
+interface: {"source_domain":"lexicon","source_representation":"lexical-selection-frame","predicate":"constrains","target_domain":"syntax","target_representation":"syntactic-complement-structure","claim":"key-takeaway","scope":"The working analysis, context and variety limits in knowledge/lexicon-syntax-interface.md; not a neural processing claim.","cardinality":"unspecified"}
 ---
+
 
 # Lexicon Syntax interface
 

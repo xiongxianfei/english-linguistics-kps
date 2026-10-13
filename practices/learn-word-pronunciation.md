@@ -1,26 +1,19 @@
 ---
-id: "english:practice:learn-word-pronunciation"
-type: "practice"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:learn-word-pronunciation"
+aliases: ["english:practice:learn-word-pronunciation"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6, 7]
-perspectives: ["phonetics-and-phonology", "interfaces-and-integration"]
-reference_variety: "General American"
+domains: ["lexicon","morphology","phonetics","phonetics:speech-perception","phonology","prosody","prosody:lexical-stress"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored procedure; source support for selected distinctions and resource capabilities only; learning effectiveness untested"
 reviewed: null
-uses_concepts: ["english:concept:representation-levels", "english:concept:phone-phoneme-and-allophone", "english:concept:stress", "english:concept:syllable-structure", "english:concept:connected-speech", "english:concept:evidence-and-analysis"]
-uses_principles: ["english:principle:realization-varies-with-environment", "english:principle:validation-does-not-establish-truth"]
-uses_models: ["english:model:phonological-word-model"]
-uses_methods: ["english:method:analyze-sound-realization"]
-references: ["english:reference:sounds-american-undated-chart-and-terms", "english:reference:tophonetics-undated-english-transcription", "english:reference:international-phonetic-association-undated-ipa-chart", "english:reference:international-phonetic-association-undated-interactive-chart", "english:reference:anderson-2018-essentials-of-linguistics", "english:reference:merriam-webster-undated-pin-entry"]
-practice_format: "staged-inline-stageN-v1"
-stage_order: "recommended; evidence availability and prerequisites govern entry"
-stage_titles: ["Stage1 Define the word and situation", "Stage2 Establish a candidate phonemic form", "Stage3 Listen for segments syllables and stress", "Stage4 Shape the sounds and assemble the word", "Stage5 Record compare and diagnose", "Stage6 Retrieve transfer and retain evidence"]
-composes: ["english:practice:classify-and-produce-phone"]
+claims: [{"id":"key-takeaway","statement":"Learn one General American word by connecting its intended meaning, checked phonemic form, listening evidence, articulatory actions, recorded attempts and a later unprompted check.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:phone-phoneme-and-allophone","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:stress","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:syllable-structure","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:connected-speech","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:evidence-and-analysis","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:realization-varies-with-environment","layer":"document","expected_role":"principle"},{"predicate":"uses","target":"english:validation-does-not-establish-truth","layer":"document","expected_role":"principle"},{"predicate":"uses","target":"english:phonological-word-model","layer":"document","expected_role":"model"},{"predicate":"uses","target":"english:analyze-sound-realization","layer":"document","expected_role":"method"},{"predicate":"composes","target":"english:classify-and-produce-phone","layer":"semantic"}]
+sources: [{"id":"source:sounds-american-undated-chart-and-terms","relation":"context-only"},{"id":"source:tophonetics-undated-english-transcription","relation":"context-only"},{"id":"source:international-phonetic-association-undated-ipa-chart","relation":"context-only"},{"id":"source:international-phonetic-association-undated-interactive-chart","relation":"context-only"},{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"},{"id":"source:merriam-webster-undated-pin-entry","relation":"context-only"}]
 ---
+
 
 # Learn a word pronunciation
 
@@ -45,7 +38,7 @@ A spelling such as `<pin>` is not an instruction for an exact sound. A phonemic 
 | [Sounds American](https://soundsamerican.net/) | Find the relevant sound lesson and examine its articulation and demonstration | An instructional target is not every possible American realization; a sound lesson does not establish a whole word's stress |
 | [Official IPA chart](https://www.internationalphoneticassociation.org/content/ipa-chart) and [interactive chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_EI/IPA_charts_EI.html) | Identify symbols and articulatory categories | The cross-language chart does not select an English word form or prove your production matches it |
 
-See the linked [toPhonetics record](../references/tophonetics-undated-english-transcription.md#located-contributions), [dictionary record](../references/merriam-webster-undated-pin-entry.md), [Sounds American record](../references/sounds-american-undated-chart-and-terms.md) and [IPA record](../references/international-phonetic-association-undated-ipa-chart.md) for actual authoring inspection limits. The learner must separately record what they used. Two websites drawing on the same pronunciation database are not automatically independent corroboration.
+See the linked [toPhonetics record](../sources/tophonetics-undated-english-transcription.md#located-contributions), [dictionary record](../sources/merriam-webster-undated-pin-entry.md), [Sounds American record](../sources/sounds-american-undated-chart-and-terms.md) and [IPA record](../sources/international-phonetic-association-undated-ipa-chart.md) for actual authoring inspection limits. The learner must separately record what they used. Two websites drawing on the same pronunciation database are not automatically independent corroboration.
 
 ## Stage map
 - [Stage1 Define the word and situation](#stage1-define-the-word-and-situation)
@@ -232,7 +225,7 @@ Next unresolved question and next check:
 ## Evidence status
 **Provisional.** This is an authored integration procedure, not an experimentally validated learning intervention. Proposed checks and revisit decisions are design choices. Selected sources support notation, sound categories, aspiration and tool descriptions; they do not establish this Practice's effectiveness, any learner's ability or every constructed example. No user audio was analyzed and no performance result was generated.
 
-The [toPhonetics FAQ record](../references/tophonetics-undated-english-transcription.md) supports the distinction between candidate phonemic output and actual speech. The [Merriam-Webster entry record](../references/merriam-webster-undated-pin-entry.md) supports the example lexical identification, not measured pronunciation. The [Anderson aspiration passage](../references/anderson-2018-essentials-of-linguistics.md#aspiration) supports the stated introductory `/p/` contrast. Sounds American and the interactive IPA chart are **learner-operated resources** here; authoring inspection did not include playing their media. No outside media or fonts are redistributed.
+The [toPhonetics FAQ record](../sources/tophonetics-undated-english-transcription.md) supports the distinction between candidate phonemic output and actual speech. The [Merriam-Webster entry record](../sources/merriam-webster-undated-pin-entry.md) supports the example lexical identification, not measured pronunciation. The [Anderson aspiration passage](../sources/anderson-2018-essentials-of-linguistics.md#aspiration) supports the stated introductory `/p/` contrast. Sounds American and the interactive IPA chart are **learner-operated resources** here; authoring inspection did not include playing their media. No outside media or fonts are redistributed.
 
 ## Related knowledge
 [Representation levels](../concepts/representation-levels.md), [phoneme and allophone](../concepts/phone-phoneme-and-allophone.md), [stress](../concepts/stress.md), [syllable structure](../concepts/syllable-structure.md), [connected speech](../concepts/connected-speech.md), [evidence and analysis](../concepts/evidence-and-analysis.md), [context-conditioned realization](../principles/realization-varies-with-environment.md), [validation and truth](../principles/validation-does-not-establish-truth.md), [phonological word model](../models/phonological-word-model.md), and [sound realization Method](../methods/analyze-sound-realization.md) provide reusable depth. The [General American policy](../PRONUNCIATION.md) governs notation. Essential actions and decision rules remain in the stages above.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:deixis"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:deixis"
+aliases: ["english:concept:deixis"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["pragmatics","pragmatics:context-and-deixis"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:reference-and-denotation", "english:concept:contextual-resolution", "english:concept:semantic-role"]
+claims: [{"id":"key-takeaway","statement":"Deictic expressions anchor interpretation to features of an utterance context such as speaker, addressee, place or time.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:reference-and-denotation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Deixis
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Reference and denotation](../concepts/reference-and-denotation.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
+- [Reference and denotation](reference-and-denotation.md) provides a related distinction used in the local explanation.
+- [Contextual resolution](contextual-resolution.md) provides a related distinction used in the local explanation.
+- [Semantic role](semantic-role.md) provides a related distinction used in the local explanation.

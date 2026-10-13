@@ -1,18 +1,19 @@
 ---
-id: "english:principle:exponents-are-conditioned-by-sound"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:exponents-are-conditioned-by-sound"
+aliases: ["english:principle:exponents-are-conditioned-by-sound"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["morphology","morphology:allomorphy","phonology"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:allomorphy", "english:concept:consonant-articulation", "english:concept:inflection"]
+claims: [{"id":"key-takeaway","statement":"Regular English plural and past endings vary with the relevant final sound of the base rather than its last written letter.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:allomorphy","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:consonant-articulation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"}]
 ---
+
 
 # Regular inflectional exponents are conditioned by stem sounds
 
@@ -44,7 +45,7 @@ Only regular productive suffix patterns are modeled. Irregular nouns, stem alter
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
 
 ## Related knowledge
 

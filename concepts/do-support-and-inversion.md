@@ -1,18 +1,19 @@
 ---
-id: "english:concept:do-support-and-inversion"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:do-support-and-inversion"
+aliases: ["english:concept:do-support-and-inversion"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:clause-architecture"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:auxiliary-chain", "english:concept:wh-dependency", "english:concept:finiteness"]
+claims: [{"id":"key-takeaway","statement":"Ordinary English main-clause interrogatives and sentential negation interact with auxiliary syntax.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:auxiliary-chain","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:wh-dependency","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:finiteness","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Do support and inversion
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Auxiliary chain](../concepts/auxiliary-chain.md) provides a related distinction used in the local explanation.
-- [Wh dependency](../concepts/wh-dependency.md) provides a related distinction used in the local explanation.
-- [Finiteness](../concepts/finiteness.md) provides a related distinction used in the local explanation.
+- [Auxiliary chain](auxiliary-chain.md) provides a related distinction used in the local explanation.
+- [Wh dependency](wh-dependency.md) provides a related distinction used in the local explanation.
+- [Finiteness](finiteness.md) provides a related distinction used in the local explanation.

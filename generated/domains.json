@@ -1,0 +1,943 @@
+[
+  {
+    "id": "discourse",
+    "label": "Discourse",
+    "parent": null,
+    "knowledge": [
+      "english:analyze-complete-utterance",
+      "english:anaphora-and-accessibility",
+      "english:cohesion-and-coherence",
+      "english:cohesion-does-not-guarantee-coherence",
+      "english:common-ground",
+      "english:contrast-and-concession",
+      "english:dialogue-and-turn-taking",
+      "english:discourse-information-structure-interface",
+      "english:discourse-network-model",
+      "english:discourse-referent",
+      "english:discourse-relation",
+      "english:ellipsis-and-discontinuity",
+      "english:english-system-architecture",
+      "english:focus-topic-and-qud",
+      "english:givenness-and-bridging",
+      "english:integrated-utterance-analysis",
+      "english:politeness-and-social-meaning",
+      "english:pragmatics-discourse-interface",
+      "english:sequence-does-not-establish-cause",
+      "english:temporal-causal-and-evidential-relations",
+      "english:trace-discourse-interpretation"
+    ]
+  },
+  {
+    "id": "discourse:anaphora-and-accessibility",
+    "label": "Anaphora And Accessibility",
+    "parent": "discourse",
+    "knowledge": [
+      "english:anaphora-and-accessibility",
+      "english:discourse-referent",
+      "english:givenness-and-bridging"
+    ]
+  },
+  {
+    "id": "discourse:cohesion-and-coherence",
+    "label": "Cohesion And Coherence",
+    "parent": "discourse",
+    "knowledge": [
+      "english:cohesion-and-coherence",
+      "english:cohesion-does-not-guarantee-coherence"
+    ]
+  },
+  {
+    "id": "discourse:discourse-inference",
+    "label": "Discourse Inference",
+    "parent": "discourse",
+    "knowledge": [
+      "english:pragmatics-discourse-interface",
+      "english:sequence-does-not-establish-cause",
+      "english:trace-discourse-interpretation"
+    ]
+  },
+  {
+    "id": "discourse:discourse-relations",
+    "label": "Discourse Relations",
+    "parent": "discourse",
+    "knowledge": [
+      "english:contrast-and-concession",
+      "english:discourse-network-model",
+      "english:discourse-relation",
+      "english:temporal-causal-and-evidential-relations"
+    ]
+  },
+  {
+    "id": "discourse:interaction-and-turn-taking",
+    "label": "Interaction And Turn Taking",
+    "parent": "discourse",
+    "knowledge": [
+      "english:dialogue-and-turn-taking"
+    ]
+  },
+  {
+    "id": "foundations",
+    "label": "Foundations",
+    "parent": null,
+    "knowledge": [
+      "english:category-and-function",
+      "english:constituency",
+      "english:expression-and-representation",
+      "english:grammaticality-and-acceptability",
+      "english:head-and-dependent",
+      "english:phrase-and-clause"
+    ]
+  },
+  {
+    "id": "information-structure",
+    "label": "Information Structure",
+    "parent": null,
+    "knowledge": [
+      "english:accent-does-not-exhaust-focus",
+      "english:analyze-complete-utterance",
+      "english:anaphora-and-accessibility",
+      "english:common-ground",
+      "english:discourse-information-structure-interface",
+      "english:english-system-architecture",
+      "english:focus-prosody-interface",
+      "english:focus-topic-and-qud",
+      "english:givenness-and-bridging",
+      "english:information-packaging-constructions",
+      "english:integrated-utterance-analysis",
+      "english:prosody",
+      "english:stress"
+    ]
+  },
+  {
+    "id": "information-structure:focus-and-alternatives",
+    "label": "Focus And Alternatives",
+    "parent": "information-structure",
+    "knowledge": [
+      "english:focus-prosody-interface",
+      "english:focus-topic-and-qud"
+    ]
+  },
+  {
+    "id": "information-structure:focus-projection",
+    "label": "Focus Projection",
+    "parent": "information-structure",
+    "knowledge": [
+      "english:accent-does-not-exhaust-focus",
+      "english:focus-prosody-interface"
+    ]
+  },
+  {
+    "id": "information-structure:givenness",
+    "label": "Givenness",
+    "parent": "information-structure",
+    "knowledge": [
+      "english:anaphora-and-accessibility",
+      "english:givenness-and-bridging"
+    ]
+  },
+  {
+    "id": "information-structure:information-packaging-constructions",
+    "label": "Information Packaging Constructions",
+    "parent": "information-structure",
+    "knowledge": [
+      "english:information-packaging-constructions"
+    ]
+  },
+  {
+    "id": "information-structure:qud-organization",
+    "label": "Qud Organization",
+    "parent": "information-structure",
+    "knowledge": [
+      "english:common-ground",
+      "english:focus-topic-and-qud"
+    ]
+  },
+  {
+    "id": "information-structure:topic-and-background",
+    "label": "Topic And Background",
+    "parent": "information-structure",
+    "knowledge": [
+      "english:focus-topic-and-qud"
+    ]
+  },
+  {
+    "id": "kps:knowledge-maintenance",
+    "label": "Knowledge Maintenance",
+    "parent": "kps",
+    "knowledge": [
+      "english:constraint-and-preference",
+      "english:evaluate-linguistic-claim",
+      "english:evidence-and-analysis",
+      "english:expression-and-representation",
+      "english:interface",
+      "english:investigate-linguistic-question",
+      "english:maintain-english-package",
+      "english:validation-does-not-establish-truth"
+    ]
+  },
+  {
+    "id": "lexicon",
+    "label": "Lexicon",
+    "parent": null,
+    "knowledge": [
+      "english:analyze-complete-utterance",
+      "english:collocation",
+      "english:compounding",
+      "english:derivation",
+      "english:english-system-architecture",
+      "english:inflection",
+      "english:integrated-utterance-analysis",
+      "english:learn-word-pronunciation",
+      "english:lexeme-and-word-form",
+      "english:lexical-entry",
+      "english:lexical-relations",
+      "english:lexical-selection",
+      "english:lexical-variation-and-register",
+      "english:lexicon-morphology-interface",
+      "english:lexicon-semantics-interface",
+      "english:lexicon-syntax-interface",
+      "english:productivity-and-lexicalization",
+      "english:selection-is-sense-sensitive",
+      "english:sense-and-lexical-ambiguity",
+      "english:valency-and-argument-structure"
+    ]
+  },
+  {
+    "id": "lexicon:argument-frames",
+    "label": "Argument Frames",
+    "parent": "lexicon",
+    "knowledge": [
+      "english:lexicon-syntax-interface",
+      "english:valency-and-argument-structure"
+    ]
+  },
+  {
+    "id": "lexicon:collocation",
+    "label": "Collocation",
+    "parent": "lexicon",
+    "knowledge": [
+      "english:collocation"
+    ]
+  },
+  {
+    "id": "lexicon:lexical-identity",
+    "label": "Lexical Identity",
+    "parent": "lexicon",
+    "knowledge": [
+      "english:lexeme-and-word-form",
+      "english:lexical-entry",
+      "english:lexicon-morphology-interface"
+    ]
+  },
+  {
+    "id": "lexicon:lexical-relations",
+    "label": "Lexical Relations",
+    "parent": "lexicon",
+    "knowledge": [
+      "english:lexical-relations"
+    ]
+  },
+  {
+    "id": "lexicon:lexical-senses",
+    "label": "Lexical Senses",
+    "parent": "lexicon",
+    "knowledge": [
+      "english:lexical-selection",
+      "english:selection-is-sense-sensitive",
+      "english:sense-and-lexical-ambiguity"
+    ]
+  },
+  {
+    "id": "lexicon:lexical-variation",
+    "label": "Lexical Variation",
+    "parent": "lexicon",
+    "knowledge": [
+      "english:lexical-variation-and-register"
+    ]
+  },
+  {
+    "id": "lexicon:lexicalization",
+    "label": "Lexicalization",
+    "parent": "lexicon",
+    "knowledge": [
+      "english:compounding",
+      "english:productivity-and-lexicalization"
+    ]
+  },
+  {
+    "id": "morphology",
+    "label": "Morphology",
+    "parent": null,
+    "knowledge": [
+      "english:affix",
+      "english:allomorphy",
+      "english:analyze-complete-utterance",
+      "english:compounding",
+      "english:derivation",
+      "english:english-system-architecture",
+      "english:exponents-are-conditioned-by-sound",
+      "english:inflection",
+      "english:integrated-utterance-analysis",
+      "english:learn-word-pronunciation",
+      "english:lexeme-and-word-form",
+      "english:lexicon-morphology-interface",
+      "english:morpheme",
+      "english:morphology-phonology-interface",
+      "english:morphology-syntax-interface",
+      "english:paradigm-and-syncretism",
+      "english:productivity-and-lexicalization",
+      "english:root-base-and-stem",
+      "english:suppletion",
+      "english:word-formation-hierarchy"
+    ]
+  },
+  {
+    "id": "morphology:allomorphy",
+    "label": "Allomorphy",
+    "parent": "morphology",
+    "knowledge": [
+      "english:allomorphy",
+      "english:exponents-are-conditioned-by-sound",
+      "english:morphology-phonology-interface"
+    ]
+  },
+  {
+    "id": "morphology:compounds",
+    "label": "Compounds",
+    "parent": "morphology",
+    "knowledge": [
+      "english:compounding",
+      "english:word-formation-hierarchy"
+    ]
+  },
+  {
+    "id": "morphology:derivational-morphology",
+    "label": "Derivational Morphology",
+    "parent": "morphology",
+    "knowledge": [
+      "english:derivation",
+      "english:productivity-and-lexicalization"
+    ]
+  },
+  {
+    "id": "morphology:inflectional-paradigms",
+    "label": "Inflectional Paradigms",
+    "parent": "morphology",
+    "knowledge": [
+      "english:inflection",
+      "english:paradigm-and-syncretism",
+      "english:suppletion"
+    ]
+  },
+  {
+    "id": "morphology:morphological-productivity",
+    "label": "Morphological Productivity",
+    "parent": "morphology",
+    "knowledge": [
+      "english:productivity-and-lexicalization"
+    ]
+  },
+  {
+    "id": "morphology:morphological-units",
+    "label": "Morphological Units",
+    "parent": "morphology",
+    "knowledge": [
+      "english:affix",
+      "english:lexeme-and-word-form",
+      "english:morpheme",
+      "english:root-base-and-stem"
+    ]
+  },
+  {
+    "id": "morphology:word-formation",
+    "label": "Word Formation",
+    "parent": "morphology",
+    "knowledge": [
+      "english:lexicon-morphology-interface"
+    ]
+  },
+  {
+    "id": "phonetics",
+    "label": "Phonetics",
+    "parent": null,
+    "knowledge": [
+      "english:analyze-complete-utterance",
+      "english:analyze-sound-realization",
+      "english:annotate-and-measure-prosody",
+      "english:classify-and-produce-phone",
+      "english:connected-speech",
+      "english:consonant-articulation",
+      "english:english-system-architecture",
+      "english:integrated-utterance-analysis",
+      "english:learn-word-pronunciation",
+      "english:morphology-phonology-interface",
+      "english:phone-phoneme-and-allophone",
+      "english:phonological-word-model",
+      "english:phonology-phonetics-interface",
+      "english:prosody",
+      "english:prosody-phonetics-interface",
+      "english:realization-varies-with-environment",
+      "english:representation-levels",
+      "english:stress",
+      "english:vowel-articulation"
+    ]
+  },
+  {
+    "id": "phonetics:acoustic-phonetics",
+    "label": "Acoustic Phonetics",
+    "parent": "phonetics",
+    "knowledge": [
+      "english:analyze-sound-realization",
+      "english:annotate-and-measure-prosody",
+      "english:representation-levels"
+    ]
+  },
+  {
+    "id": "phonetics:articulatory-phonetics",
+    "label": "Articulatory Phonetics",
+    "parent": "phonetics",
+    "knowledge": [
+      "english:classify-and-produce-phone",
+      "english:consonant-articulation",
+      "english:vowel-articulation"
+    ]
+  },
+  {
+    "id": "phonetics:coarticulation-and-reduction",
+    "label": "Coarticulation And Reduction",
+    "parent": "phonetics",
+    "knowledge": [
+      "english:connected-speech",
+      "english:realization-varies-with-environment"
+    ]
+  },
+  {
+    "id": "phonetics:phonetic-transcription",
+    "label": "Phonetic Transcription",
+    "parent": "phonetics",
+    "knowledge": [
+      "english:phone-phoneme-and-allophone",
+      "english:phonological-word-model",
+      "english:representation-levels"
+    ]
+  },
+  {
+    "id": "phonetics:speech-perception",
+    "label": "Speech Perception",
+    "parent": "phonetics",
+    "knowledge": [
+      "english:classify-and-produce-phone",
+      "english:learn-word-pronunciation"
+    ]
+  },
+  {
+    "id": "phonology",
+    "label": "Phonology",
+    "parent": null,
+    "knowledge": [
+      "english:allomorphy",
+      "english:analyze-complete-utterance",
+      "english:analyze-sound-realization",
+      "english:classify-and-produce-phone",
+      "english:connected-speech",
+      "english:consonant-articulation",
+      "english:contrast-and-distribution",
+      "english:english-system-architecture",
+      "english:exponents-are-conditioned-by-sound",
+      "english:integrated-utterance-analysis",
+      "english:learn-word-pronunciation",
+      "english:morphology-phonology-interface",
+      "english:phone-phoneme-and-allophone",
+      "english:phonological-analysis-frameworks",
+      "english:phonological-word-model",
+      "english:phonology-phonetics-interface",
+      "english:phonotactics",
+      "english:prosody",
+      "english:realization-varies-with-environment",
+      "english:representation-levels",
+      "english:stress",
+      "english:syllable-structure",
+      "english:vowel-articulation"
+    ]
+  },
+  {
+    "id": "phonology:allophonic-distribution",
+    "label": "Allophonic Distribution",
+    "parent": "phonology",
+    "knowledge": [
+      "english:phone-phoneme-and-allophone",
+      "english:realization-varies-with-environment"
+    ]
+  },
+  {
+    "id": "phonology:distinctive-features",
+    "label": "Distinctive Features",
+    "parent": "phonology",
+    "knowledge": [
+      "english:consonant-articulation",
+      "english:vowel-articulation"
+    ]
+  },
+  {
+    "id": "phonology:phonemic-contrast",
+    "label": "Phonemic Contrast",
+    "parent": "phonology",
+    "knowledge": [
+      "english:contrast-and-distribution",
+      "english:phone-phoneme-and-allophone"
+    ]
+  },
+  {
+    "id": "phonology:phonological-processes",
+    "label": "Phonological Processes",
+    "parent": "phonology",
+    "knowledge": [
+      "english:analyze-sound-realization",
+      "english:connected-speech",
+      "english:morphology-phonology-interface"
+    ]
+  },
+  {
+    "id": "phonology:phonological-theory-alternatives",
+    "label": "Phonological Theory Alternatives",
+    "parent": "phonology",
+    "knowledge": [
+      "english:phonological-analysis-frameworks"
+    ]
+  },
+  {
+    "id": "phonology:phonotactics",
+    "label": "Phonotactics",
+    "parent": "phonology",
+    "knowledge": [
+      "english:phonological-word-model",
+      "english:phonotactics"
+    ]
+  },
+  {
+    "id": "phonology:syllable-organization",
+    "label": "Syllable Organization",
+    "parent": "phonology",
+    "knowledge": [
+      "english:phonological-word-model",
+      "english:syllable-structure"
+    ]
+  },
+  {
+    "id": "pragmatics",
+    "label": "Pragmatics",
+    "parent": null,
+    "knowledge": [
+      "english:analyze-complete-utterance",
+      "english:common-ground",
+      "english:context-supplies-reference-values",
+      "english:contextual-resolution",
+      "english:deixis",
+      "english:dialogue-and-turn-taking",
+      "english:english-system-architecture",
+      "english:focus-prosody-interface",
+      "english:focus-topic-and-qud",
+      "english:gricean-reasoning",
+      "english:implicature",
+      "english:implicatures-are-defeasible",
+      "english:integrated-utterance-analysis",
+      "english:lexical-variation-and-register",
+      "english:politeness-and-social-meaning",
+      "english:pragmatics-discourse-interface",
+      "english:presupposition",
+      "english:semantics-pragmatics-interface",
+      "english:speech-act",
+      "english:trace-discourse-interpretation",
+      "english:utterance-and-speaker-meaning",
+      "english:utterance-interpretation-model"
+    ]
+  },
+  {
+    "id": "pragmatics:common-ground",
+    "label": "Common Ground",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:common-ground"
+    ]
+  },
+  {
+    "id": "pragmatics:context-and-deixis",
+    "label": "Context And Deixis",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:context-supplies-reference-values",
+      "english:contextual-resolution",
+      "english:deixis"
+    ]
+  },
+  {
+    "id": "pragmatics:contextual-inference",
+    "label": "Contextual Inference",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:pragmatics-discourse-interface"
+    ]
+  },
+  {
+    "id": "pragmatics:implicature",
+    "label": "Implicature",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:gricean-reasoning",
+      "english:implicature",
+      "english:implicatures-are-defeasible"
+    ]
+  },
+  {
+    "id": "pragmatics:presupposition",
+    "label": "Presupposition",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:presupposition",
+      "english:semantics-pragmatics-interface"
+    ]
+  },
+  {
+    "id": "pragmatics:question-under-discussion",
+    "label": "Question Under Discussion",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:focus-topic-and-qud"
+    ]
+  },
+  {
+    "id": "pragmatics:social-pragmatics",
+    "label": "Social Pragmatics",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:politeness-and-social-meaning"
+    ]
+  },
+  {
+    "id": "pragmatics:speech-actions",
+    "label": "Speech Actions",
+    "parent": "pragmatics",
+    "knowledge": [
+      "english:speech-act",
+      "english:utterance-and-speaker-meaning",
+      "english:utterance-interpretation-model"
+    ]
+  },
+  {
+    "id": "prosody",
+    "label": "Prosody",
+    "parent": null,
+    "knowledge": [
+      "english:accent-does-not-exhaust-focus",
+      "english:analyze-complete-utterance",
+      "english:analyze-sound-realization",
+      "english:annotate-and-measure-prosody",
+      "english:connected-speech",
+      "english:english-system-architecture",
+      "english:focus-prosody-interface",
+      "english:integrated-utterance-analysis",
+      "english:learn-word-pronunciation",
+      "english:phonological-word-model",
+      "english:prosody",
+      "english:prosody-phonetics-interface",
+      "english:stress",
+      "english:syllable-structure",
+      "english:syntax-prosody-interface"
+    ]
+  },
+  {
+    "id": "prosody:intonation",
+    "label": "Intonation",
+    "parent": "prosody",
+    "knowledge": [
+      "english:prosody"
+    ]
+  },
+  {
+    "id": "prosody:lexical-stress",
+    "label": "Lexical Stress",
+    "parent": "prosody",
+    "knowledge": [
+      "english:learn-word-pronunciation",
+      "english:stress"
+    ]
+  },
+  {
+    "id": "prosody:pitch-accent-and-prominence",
+    "label": "Pitch Accent And Prominence",
+    "parent": "prosody",
+    "knowledge": [
+      "english:accent-does-not-exhaust-focus",
+      "english:focus-prosody-interface",
+      "english:prosody"
+    ]
+  },
+  {
+    "id": "prosody:prosodic-annotation-and-measurement",
+    "label": "Prosodic Annotation And Measurement",
+    "parent": "prosody",
+    "knowledge": [
+      "english:annotate-and-measure-prosody"
+    ]
+  },
+  {
+    "id": "prosody:prosodic-phrasing",
+    "label": "Prosodic Phrasing",
+    "parent": "prosody",
+    "knowledge": [
+      "english:connected-speech",
+      "english:prosody",
+      "english:syntax-prosody-interface"
+    ]
+  },
+  {
+    "id": "prosody:rhythmic-organization",
+    "label": "Rhythmic Organization",
+    "parent": "prosody",
+    "knowledge": [
+      "english:prosody"
+    ]
+  },
+  {
+    "id": "semantics",
+    "label": "Semantics",
+    "parent": null,
+    "knowledge": [
+      "english:ambiguity-and-vagueness",
+      "english:analyze-complete-utterance",
+      "english:compare-argument-mappings",
+      "english:compositionality",
+      "english:english-system-architecture",
+      "english:functions-do-not-determine-roles",
+      "english:integrated-utterance-analysis",
+      "english:lexical-relations",
+      "english:lexical-selection",
+      "english:lexicon-semantics-interface",
+      "english:modality",
+      "english:negation-and-entailment",
+      "english:plural-and-collective-interpretation",
+      "english:presupposition",
+      "english:quantification-and-scope",
+      "english:quantifier-scope-model",
+      "english:reference-and-denotation",
+      "english:scope-determines-operator-interaction",
+      "english:selection-is-sense-sensitive",
+      "english:semantic-predicate",
+      "english:semantic-role",
+      "english:semantics-pragmatics-interface",
+      "english:sense-and-lexical-ambiguity",
+      "english:situation-type",
+      "english:syntax-semantics-interface",
+      "english:temporal-reference-model",
+      "english:tense-and-aspect"
+    ]
+  },
+  {
+    "id": "semantics:compositional-meaning",
+    "label": "Compositional Meaning",
+    "parent": "semantics",
+    "knowledge": [
+      "english:compositionality",
+      "english:semantic-predicate",
+      "english:syntax-semantics-interface"
+    ]
+  },
+  {
+    "id": "semantics:modal-semantics",
+    "label": "Modal Semantics",
+    "parent": "semantics",
+    "knowledge": [
+      "english:modality"
+    ]
+  },
+  {
+    "id": "semantics:negation-and-entailment",
+    "label": "Negation And Entailment",
+    "parent": "semantics",
+    "knowledge": [
+      "english:negation-and-entailment"
+    ]
+  },
+  {
+    "id": "semantics:participant-roles",
+    "label": "Participant Roles",
+    "parent": "semantics",
+    "knowledge": [
+      "english:compare-argument-mappings",
+      "english:functions-do-not-determine-roles",
+      "english:semantic-role"
+    ]
+  },
+  {
+    "id": "semantics:plural-and-collective-interpretation",
+    "label": "Plural And Collective Interpretation",
+    "parent": "semantics",
+    "knowledge": [
+      "english:plural-and-collective-interpretation"
+    ]
+  },
+  {
+    "id": "semantics:quantification-and-scope",
+    "label": "Quantification And Scope",
+    "parent": "semantics",
+    "knowledge": [
+      "english:quantification-and-scope",
+      "english:quantifier-scope-model",
+      "english:scope-determines-operator-interaction"
+    ]
+  },
+  {
+    "id": "semantics:reference-and-denotation",
+    "label": "Reference And Denotation",
+    "parent": "semantics",
+    "knowledge": [
+      "english:reference-and-denotation"
+    ]
+  },
+  {
+    "id": "semantics:semantic-ambiguity",
+    "label": "Semantic Ambiguity",
+    "parent": "semantics",
+    "knowledge": [
+      "english:ambiguity-and-vagueness",
+      "english:sense-and-lexical-ambiguity"
+    ]
+  },
+  {
+    "id": "semantics:temporal-and-event-semantics",
+    "label": "Temporal And Event Semantics",
+    "parent": "semantics",
+    "knowledge": [
+      "english:situation-type",
+      "english:temporal-reference-model",
+      "english:tense-and-aspect"
+    ]
+  },
+  {
+    "id": "syntax",
+    "label": "Syntax",
+    "parent": null,
+    "knowledge": [
+      "english:analyze-complete-utterance",
+      "english:analyze-constituency",
+      "english:auxiliary-chain",
+      "english:auxiliary-selection-model",
+      "english:category-and-function",
+      "english:category-does-not-determine-function",
+      "english:clause-architecture",
+      "english:compare-argument-mappings",
+      "english:complement-and-modifier",
+      "english:complement-clause",
+      "english:constituency",
+      "english:coordination-and-subordination",
+      "english:do-support-and-inversion",
+      "english:ellipsis-and-discontinuity",
+      "english:english-system-architecture",
+      "english:finiteness",
+      "english:functions-do-not-determine-roles",
+      "english:grammaticality-and-acceptability",
+      "english:head-and-dependent",
+      "english:information-packaging-constructions",
+      "english:integrated-utterance-analysis",
+      "english:lexical-selection",
+      "english:lexicon-syntax-interface",
+      "english:local-heads-determine-local-relations",
+      "english:morphology-syntax-interface",
+      "english:nested-clause-model",
+      "english:object-and-pp-complement",
+      "english:phrase-and-clause",
+      "english:predicative-complement",
+      "english:relative-clause",
+      "english:selection-is-sense-sensitive",
+      "english:syntax-prosody-interface",
+      "english:syntax-semantics-interface",
+      "english:valency-and-argument-structure",
+      "english:wh-dependency"
+    ]
+  },
+  {
+    "id": "syntax:clause-architecture",
+    "label": "Clause Architecture",
+    "parent": "syntax",
+    "knowledge": [
+      "english:auxiliary-chain",
+      "english:auxiliary-selection-model",
+      "english:clause-architecture",
+      "english:do-support-and-inversion",
+      "english:finiteness",
+      "english:nested-clause-model"
+    ]
+  },
+  {
+    "id": "syntax:clause-linking",
+    "label": "Clause Linking",
+    "parent": "syntax",
+    "knowledge": [
+      "english:complement-clause",
+      "english:coordination-and-subordination",
+      "english:relative-clause",
+      "english:wh-dependency"
+    ]
+  },
+  {
+    "id": "syntax:constituency-and-dependency",
+    "label": "Constituency And Dependency",
+    "parent": "syntax",
+    "knowledge": [
+      "english:analyze-constituency",
+      "english:complement-and-modifier",
+      "english:constituency",
+      "english:head-and-dependent",
+      "english:local-heads-determine-local-relations",
+      "english:syntax-prosody-interface"
+    ]
+  },
+  {
+    "id": "syntax:construction-mappings",
+    "label": "Construction Mappings",
+    "parent": "syntax",
+    "knowledge": [
+      "english:lexicon-syntax-interface",
+      "english:syntax-semantics-interface",
+      "english:valency-and-argument-structure"
+    ]
+  },
+  {
+    "id": "syntax:ellipsis-and-discontinuity",
+    "label": "Ellipsis And Discontinuity",
+    "parent": "syntax",
+    "knowledge": [
+      "english:ellipsis-and-discontinuity"
+    ]
+  },
+  {
+    "id": "syntax:grammatical-functions",
+    "label": "Grammatical Functions",
+    "parent": "syntax",
+    "knowledge": [
+      "english:compare-argument-mappings",
+      "english:functions-do-not-determine-roles",
+      "english:object-and-pp-complement",
+      "english:predicative-complement"
+    ]
+  },
+  {
+    "id": "syntax:syntactic-categories",
+    "label": "Syntactic Categories",
+    "parent": "syntax",
+    "knowledge": [
+      "english:category-and-function",
+      "english:category-does-not-determine-function",
+      "english:phrase-and-clause"
+    ]
+  },
+  {
+    "id": "syntax:syntactic-diagnostics",
+    "label": "Syntactic Diagnostics",
+    "parent": "syntax",
+    "knowledge": [
+      "english:analyze-constituency",
+      "english:grammaticality-and-acceptability"
+    ]
+  }
+]

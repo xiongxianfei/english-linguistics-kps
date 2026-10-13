@@ -1,18 +1,19 @@
 ---
-id: "english:concept:situation-type"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:situation-type"
+aliases: ["english:concept:situation-type"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:temporal-and-event-semantics"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:tense-and-aspect", "english:concept:semantic-role", "english:concept:lexical-entry"]
+claims: [{"id":"key-takeaway","statement":"Situation type concerns a predicate or construction's temporal and dynamic character.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:tense-and-aspect","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-role","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:lexical-entry","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # States events and lexical aspect
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Tense and aspect](../concepts/tense-and-aspect.md) provides a related distinction used in the local explanation.
-- [Semantic role](../concepts/semantic-role.md) provides a related distinction used in the local explanation.
-- [Lexical entry](../concepts/lexical-entry.md) provides a related distinction used in the local explanation.
+- [Tense and aspect](tense-and-aspect.md) provides a related distinction used in the local explanation.
+- [Semantic role](semantic-role.md) provides a related distinction used in the local explanation.
+- [Lexical entry](lexical-entry.md) provides a related distinction used in the local explanation.

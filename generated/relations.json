@@ -1,0 +1,2830 @@
+[
+  {
+    "predicate": "composes",
+    "uses": [
+      {
+        "predicate": "composes",
+        "target": "english:classify-and-produce-phone",
+        "layer": "semantic",
+        "source": "english:learn-word-pronunciation"
+      }
+    ]
+  },
+  {
+    "predicate": "depends-on-context",
+    "uses": [
+      {
+        "predicate": "depends-on-context",
+        "target": "english:common-ground",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:politeness-and-social-meaning"
+      }
+    ]
+  },
+  {
+    "predicate": "distinguishes-from",
+    "uses": [
+      {
+        "predicate": "distinguishes-from",
+        "target": "english:inflection",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:plural-and-collective-interpretation"
+      }
+    ]
+  },
+  {
+    "predicate": "interacts-with",
+    "uses": [
+      {
+        "predicate": "interacts-with",
+        "target": "english:discourse-relation",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:dialogue-and-turn-taking"
+      },
+      {
+        "predicate": "interacts-with",
+        "target": "english:prosody",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:information-packaging-constructions"
+      },
+      {
+        "predicate": "interacts-with",
+        "target": "english:reference-and-denotation",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:lexical-relations"
+      },
+      {
+        "predicate": "interacts-with",
+        "target": "english:contextual-resolution",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:lexical-variation-and-register"
+      }
+    ]
+  },
+  {
+    "predicate": "offers-alternative-analysis-of",
+    "uses": [
+      {
+        "predicate": "offers-alternative-analysis-of",
+        "target": "english:morphology-phonology-interface",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:phonological-analysis-frameworks"
+      }
+    ]
+  },
+  {
+    "predicate": "qualifies",
+    "uses": [
+      {
+        "predicate": "qualifies",
+        "target": "english:constituency",
+        "layer": "semantic",
+        "claim": "key-takeaway",
+        "source": "english:ellipsis-and-discontinuity"
+      }
+    ]
+  },
+  {
+    "predicate": "tests",
+    "uses": [
+      {
+        "predicate": "tests",
+        "target": "english:prosody-phonetics-interface",
+        "layer": "operational",
+        "claim": "key-takeaway",
+        "source": "english:annotate-and-measure-prosody"
+      }
+    ]
+  },
+  {
+    "predicate": "uses",
+    "uses": [
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:accent-does-not-exhaust-focus"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:accent-does-not-exhaust-focus"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:accent-does-not-exhaust-focus"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:derivation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:affix"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:affix"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:root-base-and-stem",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:affix"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:allomorphy"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:morpheme",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:allomorphy"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:allomorphy"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:ambiguity-and-vagueness"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:ambiguity-and-vagueness"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:sense-and-lexical-ambiguity",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:ambiguity-and-vagueness"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-complete-utterance"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-complete-utterance"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:expression-and-representation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-complete-utterance"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-complete-utterance"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constituency",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-constituency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-constituency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-constituency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:relative-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-constituency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:allomorphy",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-sound-realization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:connected-speech",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-sound-realization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:consonant-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-sound-realization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-sound-realization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:analyze-sound-realization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:anaphora-and-accessibility"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-referent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:anaphora-and-accessibility"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:givenness-and-bridging",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:anaphora-and-accessibility"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:analyze-sound-realization",
+        "layer": "document",
+        "source": "english:annotate-and-measure-prosody"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "source": "english:annotate-and-measure-prosody"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:finiteness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:auxiliary-chain"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:paradigm-and-syncretism",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:auxiliary-chain"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:tense-and-aspect",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:auxiliary-chain"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:auxiliary-selection-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:do-support-and-inversion",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:auxiliary-selection-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:finiteness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:auxiliary-selection-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:tense-and-aspect",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:auxiliary-selection-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:category-and-function"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:predicative-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:category-and-function"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:category-and-function",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:category-does-not-determine-function"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:complement-and-modifier",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:category-does-not-determine-function"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:analyze-sound-realization",
+        "layer": "document",
+        "expected_role": "method",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:consonant-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contrast-and-distribution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phonological-word-model",
+        "layer": "document",
+        "expected_role": "model",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:realization-varies-with-environment",
+        "layer": "document",
+        "expected_role": "principle",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:syllable-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:validation-does-not-establish-truth",
+        "layer": "document",
+        "expected_role": "principle",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:vowel-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:classify-and-produce-phone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:category-and-function",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:clause-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:complement-and-modifier",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:clause-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phrase-and-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:clause-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:anaphora-and-accessibility",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:cohesion-and-coherence"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:cohesion-and-coherence"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:cohesion-and-coherence"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:cohesion-and-coherence",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:cohesion-does-not-guarantee-coherence"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:cohesion-does-not-guarantee-coherence"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:cohesion-does-not-guarantee-coherence"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:collocation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:collocation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-referent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:common-ground"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:common-ground"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:presupposition",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:common-ground"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compare-argument-mappings"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compare-argument-mappings"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compare-argument-mappings"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:valency-and-argument-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compare-argument-mappings"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:complement-and-modifier"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:complement-and-modifier"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:complement-and-modifier"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:finiteness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:complement-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:complement-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:wh-dependency",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:complement-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compositionality"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-predicate",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compositionality"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:sense-and-lexical-ambiguity",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compositionality"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:compositionality",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compounding"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:productivity-and-lexicalization",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compounding"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:root-base-and-stem",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:compounding"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:connected-speech"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:connected-speech"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:connected-speech"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:consonant-articulation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:consonant-articulation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:vowel-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:consonant-articulation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:constituency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phrase-and-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:constituency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:constraint-and-preference"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:grammaticality-and-acceptability",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:constraint-and-preference"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:constraint-and-preference"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:context-supplies-reference-values"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:deixis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:context-supplies-reference-values"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:reference-and-denotation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:context-supplies-reference-values"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:anaphora-and-accessibility",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contextual-resolution"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contextual-resolution"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:deixis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contextual-resolution"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:coordination-and-subordination",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contrast-and-concession"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contrast-and-concession"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:negation-and-entailment",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contrast-and-concession"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contrast-and-distribution"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contrast-and-distribution"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phonotactics",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:contrast-and-distribution"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:coordination-and-subordination"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phrase-and-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:coordination-and-subordination"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:relative-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:coordination-and-subordination"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:deixis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:reference-and-denotation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:deixis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:deixis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:affix",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:derivation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexeme-and-word-form",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:derivation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:productivity-and-lexicalization",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:derivation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "source": "english:dialogue-and-turn-taking"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:speech-act",
+        "layer": "document",
+        "source": "english:dialogue-and-turn-taking"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "source": "english:discourse-information-structure-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-referent",
+        "layer": "document",
+        "source": "english:discourse-information-structure-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "source": "english:discourse-information-structure-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:givenness-and-bridging",
+        "layer": "document",
+        "source": "english:discourse-information-structure-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contrast-and-concession",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-network-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-referent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-network-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-network-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:temporal-causal-and-evidential-relations",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-network-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:anaphora-and-accessibility",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-referent"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-referent"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:reference-and-denotation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-referent"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:cohesion-and-coherence",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-relation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contrast-and-concession",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-relation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:temporal-causal-and-evidential-relations",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:discourse-relation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:do-support-and-inversion"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:finiteness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:do-support-and-inversion"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:wh-dependency",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:do-support-and-inversion"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:wh-dependency",
+        "layer": "document",
+        "source": "english:ellipsis-and-discontinuity"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:category-and-function",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:english-system-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:expression-and-representation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:english-system-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:english-system-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:english-system-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:english-system-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:english-system-architecture"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:evaluate-linguistic-claim"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:grammaticality-and-acceptability",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:evaluate-linguistic-claim"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:evaluate-linguistic-claim"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:expression-and-representation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:evidence-and-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:grammaticality-and-acceptability",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:evidence-and-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:evidence-and-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:allomorphy",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:exponents-are-conditioned-by-sound"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:consonant-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:exponents-are-conditioned-by-sound"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:exponents-are-conditioned-by-sound"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:category-and-function",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:expression-and-representation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:reference-and-denotation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:expression-and-representation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:finiteness"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:complement-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:finiteness"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phrase-and-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:finiteness"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:focus-prosody-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:focus-prosody-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:focus-prosody-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:focus-topic-and-qud"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:givenness-and-bridging",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:focus-topic-and-qud"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:focus-topic-and-qud"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:functions-do-not-determine-roles"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:functions-do-not-determine-roles"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:anaphora-and-accessibility",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:givenness-and-bridging"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:givenness-and-bridging"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:givenness-and-bridging"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:grammaticality-and-acceptability"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:grammaticality-and-acceptability"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:gricean-reasoning"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:gricean-reasoning"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:implicature",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:gricean-reasoning"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:category-and-function",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:head-and-dependent"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:complement-and-modifier",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:head-and-dependent"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:gricean-reasoning",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:implicature"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:implicature"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:utterance-and-speaker-meaning",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:implicature"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:gricean-reasoning",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:implicatures-are-defeasible"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:implicature",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:implicatures-are-defeasible"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:negation-and-entailment",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:implicatures-are-defeasible"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:allomorphy",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:inflection"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexeme-and-word-form",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:inflection"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:paradigm-and-syncretism",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:inflection"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:clause-architecture",
+        "layer": "document",
+        "source": "english:information-packaging-constructions"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "source": "english:information-packaging-constructions"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:allomorphy",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:integrated-utterance-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:integrated-utterance-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:integrated-utterance-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:integrated-utterance-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:integrated-utterance-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:relative-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:integrated-utterance-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:integrated-utterance-analysis"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:expression-and-representation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:investigate-linguistic-question"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:expression-and-representation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:investigate-linguistic-question"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:investigate-linguistic-question"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:analyze-sound-realization",
+        "layer": "document",
+        "expected_role": "method",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:connected-speech",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phonological-word-model",
+        "layer": "document",
+        "expected_role": "model",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:realization-varies-with-environment",
+        "layer": "document",
+        "expected_role": "principle",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:syllable-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:validation-does-not-establish-truth",
+        "layer": "document",
+        "expected_role": "principle",
+        "source": "english:learn-word-pronunciation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:derivation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexeme-and-word-form"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexeme-and-word-form"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:paradigm-and-syncretism",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexeme-and-word-form"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexical-entry"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:sense-and-lexical-ambiguity",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexical-entry"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:valency-and-argument-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexical-entry"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "source": "english:lexical-relations"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:sense-and-lexical-ambiguity",
+        "layer": "document",
+        "source": "english:lexical-relations"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:grammaticality-and-acceptability",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexical-selection"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexical-selection"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:valency-and-argument-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexical-selection"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "source": "english:lexical-variation-and-register"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:derivation",
+        "layer": "document",
+        "source": "english:lexicon-morphology-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "source": "english:lexicon-morphology-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "source": "english:lexicon-semantics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "source": "english:lexicon-semantics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-predicate",
+        "layer": "document",
+        "source": "english:lexicon-semantics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:sense-and-lexical-ambiguity",
+        "layer": "document",
+        "source": "english:lexicon-semantics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexicon-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexicon-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexicon-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:valency-and-argument-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:lexicon-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:local-heads-determine-local-relations"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:local-heads-determine-local-relations"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:maintain-english-package"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:maintain-english-package"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:maintain-english-package"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:modality"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-predicate",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:modality"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:tense-and-aspect",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:modality"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:allomorphy",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:morpheme"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:morpheme"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:root-base-and-stem",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:morpheme"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:allomorphy",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:morphology-phonology-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:consonant-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:morphology-phonology-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:morphology-phonology-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:morphology-phonology-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "source": "english:morphology-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:finiteness",
+        "layer": "document",
+        "source": "english:morphology-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "source": "english:morphology-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:paradigm-and-syncretism",
+        "layer": "document",
+        "source": "english:morphology-syntax-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:implicature",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:negation-and-entailment"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:presupposition",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:negation-and-entailment"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:negation-and-entailment"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:nested-clause-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:clause-architecture",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:nested-clause-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:nested-clause-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:relative-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:nested-clause-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:complement-and-modifier",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:object-and-pp-complement"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:object-and-pp-complement"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:object-and-pp-complement"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:paradigm-and-syncretism"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:finiteness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:paradigm-and-syncretism"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:paradigm-and-syncretism"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:allomorphy",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phone-phoneme-and-allophone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contrast-and-distribution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phone-phoneme-and-allophone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phone-phoneme-and-allophone"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contrast-and-distribution",
+        "layer": "document",
+        "source": "english:phonological-analysis-frameworks"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phonotactics",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phonological-word-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phonological-word-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phonological-word-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:syllable-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phonological-word-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "source": "english:phonology-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phonological-word-model",
+        "layer": "document",
+        "source": "english:phonology-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:realization-varies-with-environment",
+        "layer": "document",
+        "source": "english:phonology-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "source": "english:phonology-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phonotactics"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contrast-and-distribution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phonotactics"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:syllable-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phonotactics"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phrase-and-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constituency",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phrase-and-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:finiteness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:phrase-and-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "source": "english:plural-and-collective-interpretation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:speech-act",
+        "layer": "document",
+        "source": "english:politeness-and-social-meaning"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "source": "english:pragmatics-discourse-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-referent",
+        "layer": "document",
+        "source": "english:pragmatics-discourse-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:category-and-function",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:predicative-complement"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:predicative-complement"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-predicate",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:predicative-complement"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:presupposition"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:implicature",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:presupposition"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:negation-and-entailment",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:presupposition"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:compounding",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:productivity-and-lexicalization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:derivation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:productivity-and-lexicalization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:productivity-and-lexicalization"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:connected-speech",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:prosody"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:prosody"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:prosody"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:analyze-sound-realization",
+        "layer": "document",
+        "source": "english:prosody-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-prosody-interface",
+        "layer": "document",
+        "source": "english:prosody-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "source": "english:prosody-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "source": "english:prosody-phonetics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:ambiguity-and-vagueness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:quantification-and-scope"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:implicature",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:quantification-and-scope"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:negation-and-entailment",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:quantification-and-scope"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:negation-and-entailment",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:quantifier-scope-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:quantifier-scope-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-predicate",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:quantifier-scope-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contrast-and-distribution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:realization-varies-with-environment"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:realization-varies-with-environment"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:realization-varies-with-environment"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:deixis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:reference-and-denotation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:reference-and-denotation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-predicate",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:reference-and-denotation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constituency",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:relative-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:coordination-and-subordination",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:relative-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:wh-dependency",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:relative-clause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:consonant-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:representation-levels"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phone-phoneme-and-allophone",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:representation-levels"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:vowel-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:representation-levels"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:affix",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:root-base-and-stem"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:compounding",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:root-base-and-stem"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:derivation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:root-base-and-stem"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:negation-and-entailment",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:scope-determines-operator-interaction"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:quantification-and-scope",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:scope-determines-operator-interaction"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:selection-is-sense-sensitive"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:selection-is-sense-sensitive"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:valency-and-argument-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:selection-is-sense-sensitive"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:compositionality",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantic-predicate"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantic-predicate"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:valency-and-argument-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantic-predicate"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:category-and-function",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantic-role"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantic-role"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-predicate",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantic-role"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantics-pragmatics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantics-pragmatics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:implicature",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantics-pragmatics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:presupposition",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:semantics-pragmatics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:ambiguity-and-vagueness",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:sense-and-lexical-ambiguity"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:sense-and-lexical-ambiguity"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:sense-and-lexical-ambiguity"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constraint-and-preference",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:sequence-does-not-establish-cause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:sequence-does-not-establish-cause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:temporal-causal-and-evidential-relations",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:sequence-does-not-establish-cause"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-entry",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:situation-type"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:situation-type"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:tense-and-aspect",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:situation-type"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:common-ground",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:speech-act"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:deixis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:speech-act"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:utterance-and-speaker-meaning",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:speech-act"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:stress"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:syllable-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:stress"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:vowel-articulation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:stress"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:suppletion"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:paradigm-and-syncretism",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:suppletion"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:phonotactics",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:syllable-structure"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:syllable-structure"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:syllable-structure"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:constituency",
+        "layer": "document",
+        "source": "english:syntax-prosody-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:prosody",
+        "layer": "document",
+        "source": "english:syntax-prosody-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:object-and-pp-complement",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:syntax-semantics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:syntax-semantics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:valency-and-argument-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:syntax-semantics-interface"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-relation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:temporal-causal-and-evidential-relations"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:modality",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:temporal-causal-and-evidential-relations"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:tense-and-aspect",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:temporal-causal-and-evidential-relations"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:modality",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:temporal-reference-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:situation-type",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:temporal-reference-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:tense-and-aspect",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:temporal-reference-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:auxiliary-chain",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:tense-and-aspect"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:modality",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:tense-and-aspect"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:situation-type",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:tense-and-aspect"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:anaphora-and-accessibility",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:trace-discourse-interpretation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:discourse-referent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:trace-discourse-interpretation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:focus-topic-and-qud",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:trace-discourse-interpretation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:temporal-causal-and-evidential-relations",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:trace-discourse-interpretation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:contextual-resolution",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:utterance-and-speaker-meaning"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:deixis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:utterance-and-speaker-meaning"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:speech-act",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:utterance-and-speaker-meaning"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:deixis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:utterance-interpretation-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:implicature",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:utterance-interpretation-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:speech-act",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:utterance-interpretation-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:utterance-and-speaker-meaning",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:utterance-interpretation-model"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:complement-and-modifier",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:valency-and-argument-structure"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:lexical-selection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:valency-and-argument-structure"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:semantic-role",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:valency-and-argument-structure"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:evidence-and-analysis",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:validation-does-not-establish-truth"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:interface",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:validation-does-not-establish-truth"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:representation-levels",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:vowel-articulation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:stress",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:vowel-articulation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:syllable-structure",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:vowel-articulation"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:do-support-and-inversion",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:wh-dependency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:head-and-dependent",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:wh-dependency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:relative-clause",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:wh-dependency"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:affix",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:word-formation-hierarchy"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:compounding",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:word-formation-hierarchy"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:derivation",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:word-formation-hierarchy"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:inflection",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:word-formation-hierarchy"
+      },
+      {
+        "predicate": "uses",
+        "target": "english:root-base-and-stem",
+        "layer": "document",
+        "expected_role": "concept",
+        "source": "english:word-formation-hierarchy"
+      }
+    ]
+  }
+]

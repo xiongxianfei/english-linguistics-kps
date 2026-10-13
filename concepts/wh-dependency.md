@@ -1,18 +1,19 @@
 ---
-id: "english:concept:wh-dependency"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:wh-dependency"
+aliases: ["english:concept:wh-dependency"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:clause-linking"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:relative-clause", "english:concept:do-support-and-inversion", "english:concept:head-and-dependent"]
+claims: [{"id":"key-takeaway","statement":"A wh-dependency links an interrogative or relative expression with a grammatical position in a clause.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:relative-clause","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:do-support-and-inversion","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Wh dependency
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Relative clause](../concepts/relative-clause.md) provides a related distinction used in the local explanation.
-- [Do support and inversion](../concepts/do-support-and-inversion.md) provides a related distinction used in the local explanation.
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
+- [Relative clause](relative-clause.md) provides a related distinction used in the local explanation.
+- [Do support and inversion](do-support-and-inversion.md) provides a related distinction used in the local explanation.
+- [Head and dependent](head-and-dependent.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:model:quantifier-scope-model"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:quantifier-scope-model"
+aliases: ["english:model:quantifier-scope-model"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:quantification-and-scope"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:quantification-and-scope", "english:concept:negation-and-entailment", "english:concept:semantic-predicate"]
+claims: [{"id":"key-takeaway","statement":"A finite-domain toy model makes scope differences explicit without claiming that logic alone predicts English reading availability.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:quantification-and-scope","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:negation-and-entailment","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-predicate","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Quantifier scope model
 

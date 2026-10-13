@@ -1,18 +1,19 @@
 ---
-id: "english:concept:modality"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:modality"
+aliases: ["english:concept:modality"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [3]
-perspectives: ["semantics"]
+domains: ["semantics","semantics:modal-semantics"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:tense-and-aspect", "english:concept:contextual-resolution", "english:concept:semantic-predicate"]
+claims: [{"id":"key-takeaway","statement":"Modality evaluates possibilities or necessities relative to a source of constraints and, in many theories, an ordering of relevant alternatives.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:tense-and-aspect","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contextual-resolution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:semantic-predicate","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Modality
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Tense and aspect](../concepts/tense-and-aspect.md) provides a related distinction used in the local explanation.
-- [Contextual resolution](../concepts/contextual-resolution.md) provides a related distinction used in the local explanation.
-- [Semantic predicate](../concepts/semantic-predicate.md) provides a related distinction used in the local explanation.
+- [Tense and aspect](tense-and-aspect.md) provides a related distinction used in the local explanation.
+- [Contextual resolution](contextual-resolution.md) provides a related distinction used in the local explanation.
+- [Semantic predicate](semantic-predicate.md) provides a related distinction used in the local explanation.

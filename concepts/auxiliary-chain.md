@@ -1,18 +1,19 @@
 ---
-id: "english:concept:auxiliary-chain"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:auxiliary-chain"
+aliases: ["english:concept:auxiliary-chain"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:clause-architecture"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:finiteness", "english:concept:paradigm-and-syncretism", "english:concept:tense-and-aspect"]
+claims: [{"id":"key-takeaway","statement":"English auxiliary constructions constrain the form of a following verb.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:finiteness","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:paradigm-and-syncretism","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:tense-and-aspect","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Auxiliary chain
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Finiteness](../concepts/finiteness.md) provides a related distinction used in the local explanation.
-- [Paradigm and syncretism](../concepts/paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
-- [Tense and aspect](../concepts/tense-and-aspect.md) provides a related distinction used in the local explanation.
+- [Finiteness](finiteness.md) provides a related distinction used in the local explanation.
+- [Paradigm and syncretism](paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
+- [Tense and aspect](tense-and-aspect.md) provides a related distinction used in the local explanation.

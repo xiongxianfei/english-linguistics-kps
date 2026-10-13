@@ -1,0 +1,87 @@
+# Concepts
+
+## Key takeaway
+Canonical concept knowledge, classified independently from domain membership.
+
+## Summary
+Generated from canonical KPS 12 Markdown. Views are navigation artifacts, not independent knowledge or scientific review.
+- [Affix](../../concepts/affix.md) — morphology, morphology:morphological-units; provisional.
+- [Allomorphy](../../concepts/allomorphy.md) — morphology, morphology:allomorphy, phonology; provisional.
+- [Ambiguity and vagueness](../../concepts/ambiguity-and-vagueness.md) — semantics, semantics:semantic-ambiguity; provisional.
+- [Anaphora and accessibility](../../concepts/anaphora-and-accessibility.md) — discourse, discourse:anaphora-and-accessibility, information-structure, information-structure:givenness; provisional.
+- [Auxiliary chain](../../concepts/auxiliary-chain.md) — syntax, syntax:clause-architecture; provisional.
+- [Category and function](../../concepts/category-and-function.md) — foundations, syntax, syntax:syntactic-categories; provisional.
+- [Clause architecture](../../concepts/clause-architecture.md) — syntax, syntax:clause-architecture; provisional.
+- [Cohesion and coherence](../../concepts/cohesion-and-coherence.md) — discourse, discourse:cohesion-and-coherence; provisional.
+- [Collocation](../../concepts/collocation.md) — lexicon, lexicon:collocation; provisional.
+- [Common ground](../../concepts/common-ground.md) — discourse, information-structure, information-structure:qud-organization, pragmatics, pragmatics:common-ground; provisional.
+- [Complement and modifier](../../concepts/complement-and-modifier.md) — syntax, syntax:constituency-and-dependency; provisional.
+- [Complement clause](../../concepts/complement-clause.md) — syntax, syntax:clause-linking; provisional.
+- [Compositionality](../../concepts/compositionality.md) — semantics, semantics:compositional-meaning; provisional.
+- [Compounding](../../concepts/compounding.md) — lexicon, lexicon:lexicalization, morphology, morphology:compounds; provisional.
+- [Connected speech](../../concepts/connected-speech.md) — phonetics, phonetics:coarticulation-and-reduction, phonology, phonology:phonological-processes, prosody, prosody:prosodic-phrasing; provisional.
+- [Consonant articulation](../../concepts/consonant-articulation.md) — phonetics, phonetics:articulatory-phonetics, phonology, phonology:distinctive-features; provisional.
+- [Constituency](../../concepts/constituency.md) — foundations, syntax, syntax:constituency-and-dependency; provisional.
+- [Constraint and preference](../../concepts/constraint-and-preference.md) — kps:knowledge-maintenance; provisional.
+- [Contextual resolution](../../concepts/contextual-resolution.md) — pragmatics, pragmatics:context-and-deixis; provisional.
+- [Contrast and concession](../../concepts/contrast-and-concession.md) — discourse, discourse:discourse-relations; provisional.
+- [Contrast and distribution](../../concepts/contrast-and-distribution.md) — phonology, phonology:phonemic-contrast; provisional.
+- [Conversational implicature](../../concepts/implicature.md) — pragmatics, pragmatics:implicature; provisional.
+- [Coordination and subordination](../../concepts/coordination-and-subordination.md) — syntax, syntax:clause-linking; provisional.
+- [Deixis](../../concepts/deixis.md) — pragmatics, pragmatics:context-and-deixis; provisional.
+- [Derivation](../../concepts/derivation.md) — lexicon, morphology, morphology:derivational-morphology; provisional.
+- [Dialogue and turn taking](../../concepts/dialogue-and-turn-taking.md) — discourse, discourse:interaction-and-turn-taking, pragmatics; provisional.
+- [Discourse referent](../../concepts/discourse-referent.md) — discourse, discourse:anaphora-and-accessibility; provisional.
+- [Discourse relation](../../concepts/discourse-relation.md) — discourse, discourse:discourse-relations; provisional.
+- [Do support and inversion](../../concepts/do-support-and-inversion.md) — syntax, syntax:clause-architecture; provisional.
+- [Ellipsis and discontinuity](../../concepts/ellipsis-and-discontinuity.md) — syntax, syntax:ellipsis-and-discontinuity, discourse; provisional.
+- [Evidence and analysis](../../concepts/evidence-and-analysis.md) — kps:knowledge-maintenance; provisional.
+- [Expression and representation](../../concepts/expression-and-representation.md) — foundations, kps:knowledge-maintenance; provisional.
+- [Finiteness](../../concepts/finiteness.md) — syntax, syntax:clause-architecture; provisional.
+- [Focus topic and question under discussion](../../concepts/focus-topic-and-qud.md) — discourse, information-structure, information-structure:focus-and-alternatives, information-structure:qud-organization, information-structure:topic-and-background, pragmatics, pragmatics:question-under-discussion; provisional.
+- [Givenness and bridging](../../concepts/givenness-and-bridging.md) — discourse, discourse:anaphora-and-accessibility, information-structure, information-structure:givenness; provisional.
+- [Grammaticality and acceptability](../../concepts/grammaticality-and-acceptability.md) — foundations, syntax, syntax:syntactic-diagnostics; provisional.
+- [Gricean reasoning](../../concepts/gricean-reasoning.md) — pragmatics, pragmatics:implicature; provisional.
+- [Head and dependent](../../concepts/head-and-dependent.md) — foundations, syntax, syntax:constituency-and-dependency; provisional.
+- [Inflection](../../concepts/inflection.md) — lexicon, morphology, morphology:inflectional-paradigms; provisional.
+- [Information packaging constructions](../../concepts/information-packaging-constructions.md) — information-structure, information-structure:information-packaging-constructions, syntax; provisional.
+- [Lexeme and word form](../../concepts/lexeme-and-word-form.md) — lexicon, lexicon:lexical-identity, morphology, morphology:morphological-units; provisional.
+- [Lexical entry](../../concepts/lexical-entry.md) — lexicon, lexicon:lexical-identity; provisional.
+- [Lexical relations](../../concepts/lexical-relations.md) — lexicon, lexicon:lexical-relations, semantics; provisional.
+- [Lexical selection](../../concepts/lexical-selection.md) — lexicon, lexicon:lexical-senses, semantics, syntax; provisional.
+- [Lexical variation and register](../../concepts/lexical-variation-and-register.md) — lexicon, lexicon:lexical-variation, pragmatics; provisional.
+- [Linguistic interface](../../concepts/interface.md) — kps:knowledge-maintenance; provisional.
+- [Modality](../../concepts/modality.md) — semantics, semantics:modal-semantics; provisional.
+- [Morpheme](../../concepts/morpheme.md) — morphology, morphology:morphological-units; provisional.
+- [Negation and entailment](../../concepts/negation-and-entailment.md) — semantics, semantics:negation-and-entailment; provisional.
+- [Object and PP complement](../../concepts/object-and-pp-complement.md) — syntax, syntax:grammatical-functions; provisional.
+- [Orthography phonology and phonetics](../../concepts/representation-levels.md) — phonetics, phonetics:acoustic-phonetics, phonetics:phonetic-transcription, phonology; provisional.
+- [Paradigm and syncretism](../../concepts/paradigm-and-syncretism.md) — morphology, morphology:inflectional-paradigms; provisional.
+- [Phone phoneme and allophone](../../concepts/phone-phoneme-and-allophone.md) — phonetics, phonetics:phonetic-transcription, phonology, phonology:allophonic-distribution, phonology:phonemic-contrast; provisional.
+- [Phonological analysis frameworks](../../concepts/phonological-analysis-frameworks.md) — phonology, phonology:phonological-theory-alternatives; provisional.
+- [Phonotactics](../../concepts/phonotactics.md) — phonology, phonology:phonotactics; provisional.
+- [Phrase and clause](../../concepts/phrase-and-clause.md) — foundations, syntax, syntax:syntactic-categories; provisional.
+- [Plural and collective interpretation](../../concepts/plural-and-collective-interpretation.md) — semantics, semantics:plural-and-collective-interpretation; provisional.
+- [Politeness and social meaning](../../concepts/politeness-and-social-meaning.md) — pragmatics, pragmatics:social-pragmatics, discourse; provisional.
+- [Predicative complement](../../concepts/predicative-complement.md) — syntax, syntax:grammatical-functions; provisional.
+- [Presupposition](../../concepts/presupposition.md) — pragmatics, pragmatics:presupposition, semantics; provisional.
+- [Productivity and lexicalization](../../concepts/productivity-and-lexicalization.md) — lexicon, lexicon:lexicalization, morphology, morphology:derivational-morphology, morphology:morphological-productivity; provisional.
+- [Prosody and intonation](../../concepts/prosody.md) — information-structure, phonetics, phonology, prosody, prosody:intonation, prosody:pitch-accent-and-prominence, prosody:prosodic-phrasing, prosody:rhythmic-organization; provisional.
+- [Quantification and scope](../../concepts/quantification-and-scope.md) — semantics, semantics:quantification-and-scope; provisional.
+- [Reference and denotation](../../concepts/reference-and-denotation.md) — semantics, semantics:reference-and-denotation; provisional.
+- [Relative clause](../../concepts/relative-clause.md) — syntax, syntax:clause-linking; provisional.
+- [Root base and stem](../../concepts/root-base-and-stem.md) — morphology, morphology:morphological-units; provisional.
+- [Semantic predicate](../../concepts/semantic-predicate.md) — semantics, semantics:compositional-meaning; provisional.
+- [Semantic role](../../concepts/semantic-role.md) — semantics, semantics:participant-roles; provisional.
+- [Sense and lexical ambiguity](../../concepts/sense-and-lexical-ambiguity.md) — lexicon, lexicon:lexical-senses, semantics, semantics:semantic-ambiguity; provisional.
+- [Speech act](../../concepts/speech-act.md) — pragmatics, pragmatics:speech-actions; provisional.
+- [States events and lexical aspect](../../concepts/situation-type.md) — semantics, semantics:temporal-and-event-semantics; provisional.
+- [Stress](../../concepts/stress.md) — information-structure, phonetics, phonology, prosody, prosody:lexical-stress; provisional.
+- [Suppletion](../../concepts/suppletion.md) — morphology, morphology:inflectional-paradigms; provisional.
+- [Syllable structure](../../concepts/syllable-structure.md) — phonology, phonology:syllable-organization, prosody; provisional.
+- [Temporal causal and evidential relations](../../concepts/temporal-causal-and-evidential-relations.md) — discourse, discourse:discourse-relations; provisional.
+- [Tense and aspect](../../concepts/tense-and-aspect.md) — semantics, semantics:temporal-and-event-semantics; provisional.
+- [Utterance and speaker meaning](../../concepts/utterance-and-speaker-meaning.md) — pragmatics, pragmatics:speech-actions; provisional.
+- [Valency and argument structure](../../concepts/valency-and-argument-structure.md) — lexicon, lexicon:argument-frames, syntax, syntax:construction-mappings; provisional.
+- [Vowel articulation](../../concepts/vowel-articulation.md) — phonetics, phonetics:articulatory-phonetics, phonology, phonology:distinctive-features; provisional.
+- [Wh dependency](../../concepts/wh-dependency.md) — syntax, syntax:clause-linking; provisional.

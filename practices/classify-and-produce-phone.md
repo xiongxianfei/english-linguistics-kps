@@ -1,25 +1,19 @@
 ---
-id: "english:practice:classify-and-produce-phone"
-type: "practice"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:classify-and-produce-phone"
+aliases: ["english:practice:classify-and-produce-phone"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6, 7]
-perspectives: ["phonetics-and-phonology", "interfaces-and-integration"]
-reference_variety: "General American"
+domains: ["phonetics","phonetics:articulatory-phonetics","phonetics:speech-perception","phonology"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored procedure; source support for selected distinctions and resource capabilities only; learning effectiveness untested"
 reviewed: null
-uses_concepts: ["english:concept:representation-levels", "english:concept:phone-phoneme-and-allophone", "english:concept:consonant-articulation", "english:concept:vowel-articulation", "english:concept:contrast-and-distribution", "english:concept:syllable-structure"]
-uses_principles: ["english:principle:realization-varies-with-environment", "english:principle:validation-does-not-establish-truth"]
-uses_models: ["english:model:phonological-word-model"]
-uses_methods: ["english:method:analyze-sound-realization"]
-references: ["english:reference:international-phonetic-association-undated-ipa-chart", "english:reference:international-phonetic-association-undated-diacritics-and-other-symbols", "english:reference:international-phonetic-association-undated-interactive-chart", "english:reference:sounds-american-undated-chart-and-terms", "english:reference:anderson-2018-essentials-of-linguistics"]
-practice_format: "staged-inline-stageN-v1"
-stage_order: "recommended; evidence availability and prerequisites govern entry"
-stage_titles: ["Stage1 Identify the input and evidence", "Stage2 Locate the target and choose a route", "Stage3 Build the articulatory feature description", "Stage4 Listen reproduce and compare contrasts", "Stage5 Verify the classification and production", "Stage6 Record limits and test a new context"]
+claims: [{"id":"key-takeaway","statement":"Identify what the input represents, build a justified articulatory description, then listen and attempt the sound without confusing a chart label, a phoneme or an observed token.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:phone-phoneme-and-allophone","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:consonant-articulation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:vowel-articulation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:contrast-and-distribution","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:syllable-structure","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:realization-varies-with-environment","layer":"document","expected_role":"principle"},{"predicate":"uses","target":"english:validation-does-not-establish-truth","layer":"document","expected_role":"principle"},{"predicate":"uses","target":"english:phonological-word-model","layer":"document","expected_role":"model"},{"predicate":"uses","target":"english:analyze-sound-realization","layer":"document","expected_role":"method"}]
+sources: [{"id":"source:international-phonetic-association-undated-ipa-chart","relation":"context-only"},{"id":"source:international-phonetic-association-undated-diacritics-and-other-symbols","relation":"context-only"},{"id":"source:international-phonetic-association-undated-interactive-chart","relation":"context-only"},{"id":"source:sounds-american-undated-chart-and-terms","relation":"context-only"},{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"}]
 ---
+
 
 # Classify and produce a phone
 
@@ -125,7 +119,7 @@ For **vowels**, read height (close through open), backness (front, central, back
 | `[u]` | Close back rounded vowel |
 | `[ə]` | Mid central vowel; neutral or unrounded is the working English description here |
 
-These chart-based examples are symbol classifications, not measurements or a complete GA phoneme inventory. The [official chart record](../references/international-phonetic-association-undated-ipa-chart.md) supports the basic categories. The [diacritics and other symbols record](../references/international-phonetic-association-undated-diacritics-and-other-symbols.md) supports the modifiers and special cases.
+These chart-based examples are symbol classifications, not measurements or a complete GA phoneme inventory. The [official chart record](../sources/international-phonetic-association-undated-ipa-chart.md) supports the basic categories. The [diacritics and other symbols record](../sources/international-phonetic-association-undated-diacritics-and-other-symbols.md) supports the modifiers and special cases.
 
 A voiceless diacritic changes a plain vowel description: `[i̥]` must not be called voiced merely because it is a vowel. `[n̩]` marks syllabicity, not a change to vowel manner. Aspiration `[ʰ]`, nasalization and rhoticity supply different information. Schwa is often unstressed in the English system, but stress is a contextual syllable property, not a universal definition of the phone `[ə]`.
 
@@ -240,7 +234,7 @@ Next evidence or instruction needed:
 ## Evidence status
 **Provisional.** The IPA provides source support for symbol classifications and diacritics. The chart inspection did not include audio playback; Sounds American lesson recordings were not played during authoring. Existing source records retain those access limits. The instructional sequence, recording comparisons and success signals are authored proposals, not validated pedagogy. No learner recording, perceptual score, measured acoustic value or expert approval is claimed.
 
-The [official chart record](../references/international-phonetic-association-undated-ipa-chart.md), [selected diacritics and other symbols record](../references/international-phonetic-association-undated-diacritics-and-other-symbols.md), [interactive-chart record](../references/international-phonetic-association-undated-interactive-chart.md), [Sounds American record](../references/sounds-american-undated-chart-and-terms.md), and [Anderson aspiration explanation](../references/anderson-2018-essentials-of-linguistics.md#aspiration) support limited distinctions or resource roles, not every example or this Practice's effectiveness. No external charts, audio, video or fonts are bundled.
+The [official chart record](../sources/international-phonetic-association-undated-ipa-chart.md), [selected diacritics and other symbols record](../sources/international-phonetic-association-undated-diacritics-and-other-symbols.md), [interactive-chart record](../sources/international-phonetic-association-undated-interactive-chart.md), [Sounds American record](../sources/sounds-american-undated-chart-and-terms.md), and [Anderson aspiration explanation](../sources/anderson-2018-essentials-of-linguistics.md#aspiration) support limited distinctions or resource roles, not every example or this Practice's effectiveness. No external charts, audio, video or fonts are bundled.
 
 ## Related knowledge
 [Vowel articulation](../concepts/vowel-articulation.md), [consonant articulation](../concepts/consonant-articulation.md), [phone and phoneme](../concepts/phone-phoneme-and-allophone.md), [representation levels](../concepts/representation-levels.md), [contrast and distribution](../concepts/contrast-and-distribution.md), [syllable structure](../concepts/syllable-structure.md), [context-conditioned realization](../principles/realization-varies-with-environment.md), [validation and truth](../principles/validation-does-not-establish-truth.md), [phonological word model](../models/phonological-word-model.md), and [sound realization Method](../methods/analyze-sound-realization.md) deepen the analysis. The [General American policy](../PRONUNCIATION.md) defines the package convention. This Practice can be used independently; the word Practice may optionally use it, not the reverse.

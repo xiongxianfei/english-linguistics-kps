@@ -1,18 +1,19 @@
 ---
-id: "english:concept:vowel-articulation"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:vowel-articulation"
+aliases: ["english:concept:vowel-articulation"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["phonetics","phonetics:articulatory-phonetics","phonology","phonology:distinctive-features"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:international-phonetic-association-undated-ipa-chart","english:reference:sounds-american-undated-chart-and-terms","english:reference:tophonetics-undated-english-transcription"]
-uses_concepts: ["english:concept:stress", "english:concept:representation-levels", "english:concept:syllable-structure"]
+claims: [{"id":"key-takeaway","statement":"Vowel descriptions commonly use height, backness and lip rounding.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:stress","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:representation-levels","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:syllable-structure","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:international-phonetic-association-undated-ipa-chart","relation":"context-only"},{"id":"source:sounds-american-undated-chart-and-terms","relation":"context-only"},{"id":"source:tophonetics-undated-english-transcription","relation":"context-only"}]
 ---
+
 
 # Vowel articulation
 
@@ -48,15 +49,15 @@ Exact qualities, diphthongization and reduction vary by accent and context. No a
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [IPA chart and component charts on the official website](../references/international-phonetic-association-undated-ipa-chart.md#vowels) — support is limited to the named section in that record.
+- [IPA chart and component charts on the official website](../sources/international-phonetic-association-undated-ipa-chart.md#vowels) — support is limited to the named section in that record.
 
 ## Additional source records
 
-- [Sounds American chart and terms](../references/sounds-american-undated-chart-and-terms.md#located-contributions) supports the stated *resource role*, not every example or vowel realization.
-- [toPhonetics transcription tool and FAQ](../references/tophonetics-undated-english-transcription.md#located-contributions) documents the broad North American notation convention, not measured articulatory values.
+- [Sounds American chart and terms](../sources/sounds-american-undated-chart-and-terms.md#located-contributions) supports the stated *resource role*, not every example or vowel realization.
+- [toPhonetics transcription tool and FAQ](../sources/tophonetics-undated-english-transcription.md#located-contributions) documents the broad North American notation convention, not measured articulatory values.
 
 ## Related knowledge
 
-- [Stress](../concepts/stress.md) provides a related distinction used in the local explanation.
-- [Orthography phonology and phonetics](../concepts/representation-levels.md) provides a related distinction used in the local explanation.
-- [Syllable structure](../concepts/syllable-structure.md) provides a related distinction used in the local explanation.
+- [Stress](stress.md) provides a related distinction used in the local explanation.
+- [Orthography phonology and phonetics](representation-levels.md) provides a related distinction used in the local explanation.
+- [Syllable structure](syllable-structure.md) provides a related distinction used in the local explanation.

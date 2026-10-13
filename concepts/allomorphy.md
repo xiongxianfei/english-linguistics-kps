@@ -1,18 +1,19 @@
 ---
-id: "english:concept:allomorphy"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:allomorphy"
+aliases: ["english:concept:allomorphy"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["morphology","morphology:allomorphy","phonology"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:morpheme", "english:concept:phone-phoneme-and-allophone", "english:concept:inflection"]
+claims: [{"id":"key-takeaway","statement":"Allomorphy is variation in the forms realizing a morphological unit.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:morpheme","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:phone-phoneme-and-allophone","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:inflection","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"}]
 ---
+
 
 # Allomorphy
 
@@ -44,10 +45,10 @@ An alternative analysis derives these variants from a single underlying exponent
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#allomorphs) — support is limited to the named section in that record.
 
 ## Related knowledge
 
-- [Morpheme](../concepts/morpheme.md) provides a related distinction used in the local explanation.
-- [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
-- [Inflection](../concepts/inflection.md) provides a related distinction used in the local explanation.
+- [Morpheme](morpheme.md) provides a related distinction used in the local explanation.
+- [Phone phoneme and allophone](phone-phoneme-and-allophone.md) provides a related distinction used in the local explanation.
+- [Inflection](inflection.md) provides a related distinction used in the local explanation.

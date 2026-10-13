@@ -1,18 +1,19 @@
 ---
-id: "english:concept:interface"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:interface"
+aliases: ["english:concept:interface"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["kps:knowledge-maintenance"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:expression-and-representation", "english:concept:constraint-and-preference", "english:concept:evidence-and-analysis"]
+claims: [{"id":"key-takeaway","statement":"An interface is a systematic correspondence or constraint between representations in different analytical systems.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:expression-and-representation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:constraint-and-preference","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:evidence-and-analysis","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Linguistic interface
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Expression and representation](../concepts/expression-and-representation.md) provides a related distinction used in the local explanation.
-- [Constraint and preference](../concepts/constraint-and-preference.md) provides a related distinction used in the local explanation.
-- [Evidence and analysis](../concepts/evidence-and-analysis.md) provides a related distinction used in the local explanation.
+- [Expression and representation](expression-and-representation.md) provides a related distinction used in the local explanation.
+- [Constraint and preference](constraint-and-preference.md) provides a related distinction used in the local explanation.
+- [Evidence and analysis](evidence-and-analysis.md) provides a related distinction used in the local explanation.

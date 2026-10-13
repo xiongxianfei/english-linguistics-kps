@@ -1,18 +1,19 @@
 ---
-id: "english:concept:root-base-and-stem"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:root-base-and-stem"
+aliases: ["english:concept:root-base-and-stem"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["morphology","morphology:morphological-units"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:affix", "english:concept:derivation", "english:concept:compounding"]
+claims: [{"id":"key-takeaway","statement":"A root is a minimally analyzable lexical core within the chosen morphological analysis.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:affix","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:derivation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:compounding","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Root base and stem
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Affix](../concepts/affix.md) provides a related distinction used in the local explanation.
-- [Derivation](../concepts/derivation.md) provides a related distinction used in the local explanation.
-- [Compounding](../concepts/compounding.md) provides a related distinction used in the local explanation.
+- [Affix](affix.md) provides a related distinction used in the local explanation.
+- [Derivation](derivation.md) provides a related distinction used in the local explanation.
+- [Compounding](compounding.md) provides a related distinction used in the local explanation.

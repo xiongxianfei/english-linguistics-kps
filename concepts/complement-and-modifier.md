@@ -1,18 +1,19 @@
 ---
-id: "english:concept:complement-and-modifier"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:complement-and-modifier"
+aliases: ["english:concept:complement-and-modifier"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:constituency-and-dependency"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:head-and-dependent", "english:concept:lexical-selection", "english:concept:object-and-pp-complement"]
+claims: [{"id":"key-takeaway","statement":"A complement is licensed by the relevant head or construction in a closer selectional relationship; a modifier contributes a less lexically restricted elaboration.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:lexical-selection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:anderson-2018-essentials-of-linguistics","relation":"context-only"}]
 ---
+
 
 # Complement and modifier
 
@@ -44,10 +45,10 @@ The distinction has borderline cases. Noun complements, manner phrases and const
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Essentials of Linguistics, first edition, McMaster University](../references/anderson-2018-essentials-of-linguistics.md#adjuncts) — support is limited to the named section in that record.
+- [Essentials of Linguistics, first edition, McMaster University](../sources/anderson-2018-essentials-of-linguistics.md#adjuncts) — support is limited to the named section in that record.
 
 ## Related knowledge
 
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
-- [Lexical selection](../concepts/lexical-selection.md) provides a related distinction used in the local explanation.
-- [Object and PP complement](../concepts/object-and-pp-complement.md) provides a related distinction used in the local explanation.
+- [Head and dependent](head-and-dependent.md) provides a related distinction used in the local explanation.
+- [Lexical selection](lexical-selection.md) provides a related distinction used in the local explanation.
+- [Object and PP complement](object-and-pp-complement.md) provides a related distinction used in the local explanation.

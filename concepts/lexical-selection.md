@@ -1,18 +1,19 @@
 ---
-id: "english:concept:lexical-selection"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:lexical-selection"
+aliases: ["english:concept:lexical-selection"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","lexicon:lexical-senses","semantics","syntax"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:head-and-dependent", "english:concept:grammaticality-and-acceptability", "english:concept:valency-and-argument-structure"]
+claims: [{"id":"key-takeaway","statement":"Selection relates lexical senses and constructions to allowable complements and their semantic properties.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:grammaticality-and-acceptability","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:valency-and-argument-structure","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Lexical selection
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Head and dependent](../concepts/head-and-dependent.md) provides a related distinction used in the local explanation.
-- [Grammaticality and acceptability](../concepts/grammaticality-and-acceptability.md) provides a related distinction used in the local explanation.
-- [Valency and argument structure](../concepts/valency-and-argument-structure.md) provides a related distinction used in the local explanation.
+- [Head and dependent](head-and-dependent.md) provides a related distinction used in the local explanation.
+- [Grammaticality and acceptability](grammaticality-and-acceptability.md) provides a related distinction used in the local explanation.
+- [Valency and argument structure](valency-and-argument-structure.md) provides a related distinction used in the local explanation.

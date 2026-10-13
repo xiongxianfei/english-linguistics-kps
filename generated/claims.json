@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "english:accent-does-not-exhaust-focus#key-takeaway",
+    "owner": "english:accent-does-not-exhaust-focus",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "The same prominent word can participate in a narrow focus or a larger focused constituent.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/accent-does-not-exhaust-focus.md"
+  },
+  {
+    "id": "english:affix#key-takeaway",
+    "owner": "english:affix",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "An affix is a bound morphological element attached to a base in the analysis adopted here.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/affix.md"
+  },
+  {
+    "id": "english:allomorphy#key-takeaway",
+    "owner": "english:allomorphy",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Allomorphy is variation in the forms realizing a morphological unit.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/allomorphy.md"
+  },
+  {
+    "id": "english:ambiguity-and-vagueness#key-takeaway",
+    "owner": "english:ambiguity-and-vagueness",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Ambiguity involves distinguishable interpretations of a form or structure.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/ambiguity-and-vagueness.md"
+  },
+  {
+    "id": "english:analyze-complete-utterance#key-takeaway",
+    "owner": "english:analyze-complete-utterance",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Produce a multi-level analysis whose representations remain distinct and whose interfaces are explicit.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "methods/analyze-complete-utterance.md"
+  },
+  {
+    "id": "english:analyze-constituency#key-takeaway",
+    "owner": "english:analyze-constituency",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Record candidate constituent boundaries and local relations using converging diagnostics.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "methods/analyze-constituency.md"
+  },
+  {
+    "id": "english:analyze-sound-realization#key-takeaway",
+    "owner": "english:analyze-sound-realization",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Distinguish morphological exponents, phonological categories and observed phonetic realizations.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "methods/analyze-sound-realization.md"
+  },
+  {
+    "id": "english:anaphora-and-accessibility#key-takeaway",
+    "owner": "english:anaphora-and-accessibility",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Anaphora links an expression's interpretation to discourse material or a structurally available antecedent.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/anaphora-and-accessibility.md"
+  },
+  {
+    "id": "english:annotate-and-measure-prosody#key-takeaway",
+    "owner": "english:annotate-and-measure-prosody",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A prosodic investigation should keep interpretive labels, annotation decisions and acoustic measurements separate while linking each result to an identifiable recording and context.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "methods/annotate-and-measure-prosody.md"
+  },
+  {
+    "id": "english:auxiliary-chain#key-takeaway",
+    "owner": "english:auxiliary-chain",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "English auxiliary constructions constrain the form of a following verb.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/auxiliary-chain.md"
+  },
+  {
+    "id": "english:auxiliary-selection-model#key-takeaway",
+    "owner": "english:auxiliary-selection-model",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Local auxiliary selection explains the form of each following verb independently of the construction label.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/auxiliary-selection-model.md"
+  },
+  {
+    "id": "english:category-and-function#key-takeaway",
+    "owner": "english:category-and-function",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A syntactic category classifies an expression by its structural and distributional properties; a grammatical function describes its relationship within a larger construction.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/category-and-function.md"
+  },
+  {
+    "id": "english:category-does-not-determine-function#key-takeaway",
+    "owner": "english:category-does-not-determine-function",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A category label does not uniquely determine the grammatical function of its instances.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/category-does-not-determine-function.md"
+  },
+  {
+    "id": "english:classify-and-produce-phone#key-takeaway",
+    "owner": "english:classify-and-produce-phone",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Identify what the input represents, build a justified articulatory description, then listen and attempt the sound without confusing a chart label, a phoneme or an observed token.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "practices/classify-and-produce-phone.md"
+  },
+  {
+    "id": "english:clause-architecture#key-takeaway",
+    "owner": "english:clause-architecture",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "The working clause representation distinguishes Subject from Predicate and then analyzes the predicate's head, complements and modifiers.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/clause-architecture.md"
+  },
+  {
+    "id": "english:cohesion-and-coherence#key-takeaway",
+    "owner": "english:cohesion-and-coherence",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Cohesion concerns linguistic linking devices such as reference chains, repetition, lexical relations, ellipsis and connectives.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/cohesion-and-coherence.md"
+  },
+  {
+    "id": "english:cohesion-does-not-guarantee-coherence#key-takeaway",
+    "owner": "english:cohesion-does-not-guarantee-coherence",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Explicit linguistic links do not by themselves establish a well motivated conceptual relationship among all discourse units.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/cohesion-does-not-guarantee-coherence.md"
+  },
+  {
+    "id": "english:collocation#key-takeaway",
+    "owner": "english:collocation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Collocation concerns conventional patterns of lexical co-occurrence.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/collocation.md"
+  },
+  {
+    "id": "english:common-ground#key-takeaway",
+    "owner": "english:common-ground",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Common ground is information participants mutually treat as accepted for the purposes of an interaction in a working discourse model.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/common-ground.md"
+  },
+  {
+    "id": "english:compare-argument-mappings#key-takeaway",
+    "owner": "english:compare-argument-mappings",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Separate participant roles from grammatical functions when comparing constructions.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "methods/compare-argument-mappings.md"
+  },
+  {
+    "id": "english:complement-and-modifier#key-takeaway",
+    "owner": "english:complement-and-modifier",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A complement is licensed by the relevant head or construction in a closer selectional relationship; a modifier contributes a less lexically restricted elaboration.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/complement-and-modifier.md"
+  },
+  {
+    "id": "english:complement-clause#key-takeaway",
+    "owner": "english:complement-clause",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A complement clause occupies a position licensed by a head or construction.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/complement-clause.md"
+  },
+  {
+    "id": "english:compositionality#key-takeaway",
+    "owner": "english:compositionality",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "The compositionality principle relates the interpretation of a complex expression to interpretations of its parts and their mode of combination.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/compositionality.md"
+  },
+  {
+    "id": "english:compounding#key-takeaway",
+    "owner": "english:compounding",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Compounding combines lexical bases into a larger lexical expression.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/compounding.md"
+  },
+  {
+    "id": "english:connected-speech#key-takeaway",
+    "owner": "english:connected-speech",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Connected-speech processes describe context-sensitive realization across segments and word boundaries.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/connected-speech.md"
+  },
+  {
+    "id": "english:consonant-articulation#key-takeaway",
+    "owner": "english:consonant-articulation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Consonants can be classified by voicing, place and manner of articulation.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/consonant-articulation.md"
+  },
+  {
+    "id": "english:constituency#key-takeaway",
+    "owner": "english:constituency",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A constituent is a unit in a proposed hierarchical syntactic analysis.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/constituency.md"
+  },
+  {
+    "id": "english:constraint-and-preference#key-takeaway",
+    "owner": "english:constraint-and-preference",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A grammatical licensing condition concerns what a stated grammar permits.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/constraint-and-preference.md"
+  },
+  {
+    "id": "english:context-supplies-reference-values#key-takeaway",
+    "owner": "english:context-supplies-reference-values",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Conventional meaning can constrain reference without uniquely determining the referent of an utterance.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/context-supplies-reference-values.md"
+  },
+  {
+    "id": "english:contextual-resolution#key-takeaway",
+    "owner": "english:contextual-resolution",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Contextual resolution identifies values needed to interpret an expression in its use, such as a pronoun referent, deictic place or relevant comparison class.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/contextual-resolution.md"
+  },
+  {
+    "id": "english:contrast-and-concession#key-takeaway",
+    "owner": "english:contrast-and-concession",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Contrast presents a relevant difference or opposition between discourse units.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/contrast-and-concession.md"
+  },
+  {
+    "id": "english:contrast-and-distribution#key-takeaway",
+    "owner": "english:contrast-and-distribution",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A minimal pair differs in one relevant segment while contrasting lexical identity.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/contrast-and-distribution.md"
+  },
+  {
+    "id": "english:coordination-and-subordination#key-takeaway",
+    "owner": "english:coordination-and-subordination",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Coordination combines expressions of comparable syntactic status; subordination makes a clause dependent within a larger structure.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/coordination-and-subordination.md"
+  },
+  {
+    "id": "english:deixis#key-takeaway",
+    "owner": "english:deixis",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Deictic expressions anchor interpretation to features of an utterance context such as speaker, addressee, place or time.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/deixis.md"
+  },
+  {
+    "id": "english:derivation#key-takeaway",
+    "owner": "english:derivation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Derivation forms a related lexeme using a morphological pattern.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/derivation.md"
+  },
+  {
+    "id": "english:dialogue-and-turn-taking#key-takeaway",
+    "owner": "english:dialogue-and-turn-taking",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Dialogue is jointly organized through turns, responses and repair, so an utterance's contribution depends partly on its position in an interaction.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/dialogue-and-turn-taking.md"
+  },
+  {
+    "id": "english:discourse-information-structure-interface#key-takeaway",
+    "owner": "english:discourse-information-structure-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A stated discourse context constrains an information-structure analysis without making grammatical Subject, Topic and Focus interchangeable.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/discourse-information-structure-interface.md"
+  },
+  {
+    "id": "english:discourse-network-model#key-takeaway",
+    "owner": "english:discourse-network-model",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A discourse model tracks referents and relations while keeping textual order distinct from event order and causal direction.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/discourse-network-model.md"
+  },
+  {
+    "id": "english:discourse-referent#key-takeaway",
+    "owner": "english:discourse-referent",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A discourse referent is a representation used to track an individual, group, event or other object through discourse.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/discourse-referent.md"
+  },
+  {
+    "id": "english:discourse-relation#key-takeaway",
+    "owner": "english:discourse-relation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A discourse relation links units through an interpretive relation such as explanation, result, elaboration, example, contrast or condition.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/discourse-relation.md"
+  },
+  {
+    "id": "english:do-support-and-inversion#key-takeaway",
+    "owner": "english:do-support-and-inversion",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Ordinary English main-clause interrogatives and sentential negation interact with auxiliary syntax.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/do-support-and-inversion.md"
+  },
+  {
+    "id": "english:ellipsis-and-discontinuity#key-takeaway",
+    "owner": "english:ellipsis-and-discontinuity",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "An English analysis may require understood but unpronounced material or dependencies whose related elements are not adjacent, so surface contiguity is not a universal guide to structure.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/ellipsis-and-discontinuity.md"
+  },
+  {
+    "id": "english:english-system-architecture#key-takeaway",
+    "owner": "english:english-system-architecture",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "English is documented here through distinct, interacting representations rather than a fixed processing staircase.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/english-system-architecture.md"
+  },
+  {
+    "id": "english:evaluate-linguistic-claim#key-takeaway",
+    "owner": "english:evaluate-linguistic-claim",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Assess a bounded claim against inspected sources, counterexamples and its declared scope before changing evidence status.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "methods/evaluate-linguistic-claim.md"
+  },
+  {
+    "id": "english:evidence-and-analysis#key-takeaway",
+    "owner": "english:evidence-and-analysis",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "An attested token, a constructed example, an elicited judgment, a source statement and an analyst's model are different evidence objects.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/evidence-and-analysis.md"
+  },
+  {
+    "id": "english:exponents-are-conditioned-by-sound#key-takeaway",
+    "owner": "english:exponents-are-conditioned-by-sound",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Regular English plural and past endings vary with the relevant final sound of the base rather than its last written letter.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/exponents-are-conditioned-by-sound.md"
+  },
+  {
+    "id": "english:expression-and-representation#key-takeaway",
+    "owner": "english:expression-and-representation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A linguistic expression and an analysis of it are different objects.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/expression-and-representation.md"
+  },
+  {
+    "id": "english:finiteness#key-takeaway",
+    "owner": "english:finiteness",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Finiteness classifies a clause or verbal element relative to tense, agreement and distributional properties in a particular grammar.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/finiteness.md"
+  },
+  {
+    "id": "english:focus-prosody-interface#key-takeaway",
+    "owner": "english:focus-prosody-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Focus domains constrain possible prosodic realizations without being identical to the most strongly accented word.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/focus-prosody-interface.md"
+  },
+  {
+    "id": "english:focus-topic-and-qud#key-takeaway",
+    "owner": "english:focus-topic-and-qud",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Topic concerns what a discourse stretch is about; a question under discussion is the issue being addressed; focus relates an expression or domain to relevant alternatives.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/focus-topic-and-qud.md"
+  },
+  {
+    "id": "english:functions-do-not-determine-roles#key-takeaway",
+    "owner": "english:functions-do-not-determine-roles",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A Subject need not be an Agent, and an Object need not be a Patient.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/functions-do-not-determine-roles.md"
+  },
+  {
+    "id": "english:givenness-and-bridging#key-takeaway",
+    "owner": "english:givenness-and-bridging",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Givenness concerns contextual accessibility, not a permanent lexical property.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/givenness-and-bridging.md"
+  },
+  {
+    "id": "english:grammaticality-and-acceptability#key-takeaway",
+    "owner": "english:grammaticality-and-acceptability",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Grammaticality concerns licensing under a specified grammar or variety.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/grammaticality-and-acceptability.md"
+  },
+  {
+    "id": "english:gricean-reasoning#key-takeaway",
+    "owner": "english:gricean-reasoning",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Gricean analysis models conversational expectations involving informativeness, truthfulness or support, relevance and clarity.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/gricean-reasoning.md"
+  },
+  {
+    "id": "english:head-and-dependent#key-takeaway",
+    "owner": "english:head-and-dependent",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A head is the organizing element of a headed construction in a stated analysis.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/head-and-dependent.md"
+  },
+  {
+    "id": "english:implicature#key-takeaway",
+    "owner": "english:implicature",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Conversational implicature concerns communicated information beyond what is straightforwardly asserted under the relevant conventional interpretation.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/implicature.md"
+  },
+  {
+    "id": "english:implicatures-are-defeasible#key-takeaway",
+    "owner": "english:implicatures-are-defeasible",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A context-supported inference can be cancelled without cancelling the asserted existential content that supported it.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/implicatures-are-defeasible.md"
+  },
+  {
+    "id": "english:inflection#key-takeaway",
+    "owner": "english:inflection",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Inflection realizes grammatical distinctions within a lexeme's paradigm in the working lexeme-based model.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/inflection.md"
+  },
+  {
+    "id": "english:information-packaging-constructions#key-takeaway",
+    "owner": "english:information-packaging-constructions",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "English constructions can package similar propositional material differently by changing which material is presented as prominent, presupposed, topical or contrastive.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/information-packaging-constructions.md"
+  },
+  {
+    "id": "english:integrated-utterance-analysis#key-takeaway",
+    "owner": "english:integrated-utterance-analysis",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A worked passage illustrates parallel analyses across subsystems while distinguishing explicit claims from contextual preferences.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/integrated-utterance-analysis.md"
+  },
+  {
+    "id": "english:interface#key-takeaway",
+    "owner": "english:interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "An interface is a systematic correspondence or constraint between representations in different analytical systems.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/interface.md"
+  },
+  {
+    "id": "english:investigate-linguistic-question#key-takeaway",
+    "owner": "english:investigate-linguistic-question",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Turn a bounded English question into a transparent provisional analysis and a reviewable evidence trail.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "practices/investigate-linguistic-question.md"
+  },
+  {
+    "id": "english:learn-word-pronunciation#key-takeaway",
+    "owner": "english:learn-word-pronunciation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Learn one General American word by connecting its intended meaning, checked phonemic form, listening evidence, articulatory actions, recorded attempts and a later unprompted check.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "practices/learn-word-pronunciation.md"
+  },
+  {
+    "id": "english:lexeme-and-word-form#key-takeaway",
+    "owner": "english:lexeme-and-word-form",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A lexeme is an abstract lexical identity associated with a family of grammatical forms.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/lexeme-and-word-form.md"
+  },
+  {
+    "id": "english:lexical-entry#key-takeaway",
+    "owner": "english:lexical-entry",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A lexical entry represents item-specific linguistic information relevant to a lexeme or sense: form, category, paradigm, meaning, selection, alternations and conventional combinations.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/lexical-entry.md"
+  },
+  {
+    "id": "english:lexical-relations#key-takeaway",
+    "owner": "english:lexical-relations",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Lexical items and senses can stand in relations such as hyponymy, incompatibility, synonymy and opposition, but these relations apply to specified senses rather than spellings in isolation.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/lexical-relations.md"
+  },
+  {
+    "id": "english:lexical-selection#key-takeaway",
+    "owner": "english:lexical-selection",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Selection relates lexical senses and constructions to allowable complements and their semantic properties.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/lexical-selection.md"
+  },
+  {
+    "id": "english:lexical-variation-and-register#key-takeaway",
+    "owner": "english:lexical-variation-and-register",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "English lexical choices vary across communities, situations, genres and historical periods, so a lexical entry must not be treated as uniform across all speakers and contexts.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/lexical-variation-and-register.md"
+  },
+  {
+    "id": "english:lexicon-morphology-interface#key-takeaway",
+    "owner": "english:lexicon-morphology-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Lexical entries and morphological structure constrain one another without reducing every word form or derived word to an independently listed spelling.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/lexicon-morphology-interface.md"
+  },
+  {
+    "id": "english:lexicon-semantics-interface#key-takeaway",
+    "owner": "english:lexicon-semantics-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A sense-specific lexical entry constrains an interpretation without making a spelling identify one context-independent predicate.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/lexicon-semantics-interface.md"
+  },
+  {
+    "id": "english:lexicon-syntax-interface#key-takeaway",
+    "owner": "english:lexicon-syntax-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Lexical senses and constructions constrain the category and form of licensed syntactic complements.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/lexicon-syntax-interface.md"
+  },
+  {
+    "id": "english:local-heads-determine-local-relations#key-takeaway",
+    "owner": "english:local-heads-determine-local-relations",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A relation between an inner NP and its preposition must be distinguished from the relation between the whole PP and a higher head.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/local-heads-determine-local-relations.md"
+  },
+  {
+    "id": "english:maintain-english-package#key-takeaway",
+    "owner": "english:maintain-english-package",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Review changes and publish a coherent provisional package without confusing file integrity with linguistic truth.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "practices/maintain-english-package.md"
+  },
+  {
+    "id": "english:modality#key-takeaway",
+    "owner": "english:modality",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Modality evaluates possibilities or necessities relative to a source of constraints and, in many theories, an ordering of relevant alternatives.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/modality.md"
+  },
+  {
+    "id": "english:morpheme#key-takeaway",
+    "owner": "english:morpheme",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A morpheme is an abstract unit associated with a recurring grammatical or lexical contribution in a morphological analysis.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/morpheme.md"
+  },
+  {
+    "id": "english:morphology-phonology-interface#key-takeaway",
+    "owner": "english:morphology-phonology-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Regular English inflection links morphological features to sound-conditioned exponents.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/morphology-phonology-interface.md"
+  },
+  {
+    "id": "english:morphology-syntax-interface#key-takeaway",
+    "owner": "english:morphology-syntax-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Word-form features and syntactic distributions must be represented separately even when an analysis connects them through agreement or finiteness.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/morphology-syntax-interface.md"
+  },
+  {
+    "id": "english:negation-and-entailment#key-takeaway",
+    "owner": "english:negation-and-entailment",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Under a stated classical interpretation, P entails Q if every model making P true makes Q true.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/negation-and-entailment.md"
+  },
+  {
+    "id": "english:nested-clause-model#key-takeaway",
+    "owner": "english:nested-clause-model",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A clause analysis records complete constituent spans and their nesting rather than counting verb-looking tokens.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/nested-clause-model.md"
+  },
+  {
+    "id": "english:object-and-pp-complement#key-takeaway",
+    "owner": "english:object-and-pp-complement",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A Direct Object and a PP complement are different syntactic realizations.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/object-and-pp-complement.md"
+  },
+  {
+    "id": "english:paradigm-and-syncretism#key-takeaway",
+    "owner": "english:paradigm-and-syncretism",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A paradigm organizes the grammatical forms of a lexeme by feature values or form categories.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/paradigm-and-syncretism.md"
+  },
+  {
+    "id": "english:phone-phoneme-and-allophone#key-takeaway",
+    "owner": "english:phone-phoneme-and-allophone",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A phoneme is an abstract contrastive category in a language analysis.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/phone-phoneme-and-allophone.md"
+  },
+  {
+    "id": "english:phonological-analysis-frameworks#key-takeaway",
+    "owner": "english:phonological-analysis-frameworks",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A phonological analysis depends on representational and theoretical choices, so the same pattern may receive competing feature, rule, constraint or usage-based accounts.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/phonological-analysis-frameworks.md"
+  },
+  {
+    "id": "english:phonological-word-model#key-takeaway",
+    "owner": "english:phonological-word-model",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Segment categories, syllable organization, stress and phonetic realization provide distinct descriptions of a sound pattern.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/phonological-word-model.md"
+  },
+  {
+    "id": "english:phonology-phonetics-interface#key-takeaway",
+    "owner": "english:phonology-phonetics-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Phonological representations constrain possible phonetic analyses without uniquely specifying an observed speech token.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/phonology-phonetics-interface.md"
+  },
+  {
+    "id": "english:phonotactics#key-takeaway",
+    "owner": "english:phonotactics",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Phonotactics concerns restrictions and preferences on segment distributions and combinations in a language or variety.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/phonotactics.md"
+  },
+  {
+    "id": "english:phrase-and-clause#key-takeaway",
+    "owner": "english:phrase-and-clause",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A phrase is a syntactic unit organized as a phrase category; it may contain one word or many.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/phrase-and-clause.md"
+  },
+  {
+    "id": "english:plural-and-collective-interpretation#key-takeaway",
+    "owner": "english:plural-and-collective-interpretation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Plural expressions can support distributive, collective and cumulative interpretations, so grammatical plurality does not uniquely determine how a predicate applies to participants.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/plural-and-collective-interpretation.md"
+  },
+  {
+    "id": "english:politeness-and-social-meaning#key-takeaway",
+    "owner": "english:politeness-and-social-meaning",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Utterance design can manage social relationships and identities, but politeness and social meaning depend on community norms, activity and participant interpretation rather than fixed word lists.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/politeness-and-social-meaning.md"
+  },
+  {
+    "id": "english:pragmatics-discourse-interface#key-takeaway",
+    "owner": "english:pragmatics-discourse-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Contextual interpretation updates an evolving discourse model, while that discourse model in turn constrains later reference and inference.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/pragmatics-discourse-interface.md"
+  },
+  {
+    "id": "english:predicative-complement#key-takeaway",
+    "owner": "english:predicative-complement",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A predicative complement attributes a property, classification or identity to a predicand rather than functioning as an ordinary Object participant.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/predicative-complement.md"
+  },
+  {
+    "id": "english:presupposition#key-takeaway",
+    "owner": "english:presupposition",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A presupposition is content treated as backgrounded in a use or associated with a triggering construction in a theory.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/presupposition.md"
+  },
+  {
+    "id": "english:productivity-and-lexicalization#key-takeaway",
+    "owner": "english:productivity-and-lexicalization",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Productivity concerns the extendability of a pattern to suitable new bases.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/productivity-and-lexicalization.md"
+  },
+  {
+    "id": "english:prosody#key-takeaway",
+    "owner": "english:prosody",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Prosody organizes prominence, pitch patterns, timing and phrasing beyond individual segment identities.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/prosody.md"
+  },
+  {
+    "id": "english:prosody-phonetics-interface#key-takeaway",
+    "owner": "english:prosody-phonetics-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A prosodic prominence analysis must be distinguished from the phonetic measurements used to investigate its realization.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/prosody-phonetics-interface.md"
+  },
+  {
+    "id": "english:quantification-and-scope#key-takeaway",
+    "owner": "english:quantification-and-scope",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Quantification specifies how a claim ranges over a contextually relevant domain.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/quantification-and-scope.md"
+  },
+  {
+    "id": "english:quantifier-scope-model#key-takeaway",
+    "owner": "english:quantifier-scope-model",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A finite-domain toy model makes scope differences explicit without claiming that logic alone predicts English reading availability.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/quantifier-scope-model.md"
+  },
+  {
+    "id": "english:realization-varies-with-environment#key-takeaway",
+    "owner": "english:realization-varies-with-environment",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A phonological category can have different phonetic realizations without a change of lexical identity.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/realization-varies-with-environment.md"
+  },
+  {
+    "id": "english:reference-and-denotation#key-takeaway",
+    "owner": "english:reference-and-denotation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Reference concerns what an expression is used to pick out in context; denotation is a semantic value under an interpretation.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/reference-and-denotation.md"
+  },
+  {
+    "id": "english:relative-clause#key-takeaway",
+    "owner": "english:relative-clause",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "An integrated relative clause modifies a nominal expression and establishes a dependency involving a position within that clause.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/relative-clause.md"
+  },
+  {
+    "id": "english:representation-levels#key-takeaway",
+    "owner": "english:representation-levels",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Orthography describes writing; phonology describes language-specific sound organization; phonetics describes speech production, signals and perception.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/representation-levels.md"
+  },
+  {
+    "id": "english:root-base-and-stem#key-takeaway",
+    "owner": "english:root-base-and-stem",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A root is a minimally analyzable lexical core within the chosen morphological analysis.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/root-base-and-stem.md"
+  },
+  {
+    "id": "english:scope-determines-operator-interaction#key-takeaway",
+    "owner": "english:scope-determines-operator-interaction",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Reversing quantifier or negation scope can change truth conditions while leaving overt words in the same order.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/scope-determines-operator-interaction.md"
+  },
+  {
+    "id": "english:selection-is-sense-sensitive#key-takeaway",
+    "owner": "english:selection-is-sense-sensitive",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Knowing a word's lexical category alone does not determine all of its allowable complement patterns.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/selection-is-sense-sensitive.md"
+  },
+  {
+    "id": "english:semantic-predicate#key-takeaway",
+    "owner": "english:semantic-predicate",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A semantic predicate expresses a property or relation that combines with arguments.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/semantic-predicate.md"
+  },
+  {
+    "id": "english:semantic-role#key-takeaway",
+    "owner": "english:semantic-role",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A semantic role characterizes a participant's relationship to a predicate or situation.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/semantic-role.md"
+  },
+  {
+    "id": "english:semantics-pragmatics-interface#key-takeaway",
+    "owner": "english:semantics-pragmatics-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Conventional meaning, contextual resolution and defeasible inference jointly constrain utterance interpretation.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/semantics-pragmatics-interface.md"
+  },
+  {
+    "id": "english:sense-and-lexical-ambiguity#key-takeaway",
+    "owner": "english:sense-and-lexical-ambiguity",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A sense is a conventional interpretation associated with a lexical item in an analysis.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/sense-and-lexical-ambiguity.md"
+  },
+  {
+    "id": "english:sequence-does-not-establish-cause#key-takeaway",
+    "owner": "english:sequence-does-not-establish-cause",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "An event following another in time does not by itself demonstrate that the earlier event caused it.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/sequence-does-not-establish-cause.md"
+  },
+  {
+    "id": "english:situation-type#key-takeaway",
+    "owner": "english:situation-type",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Situation type concerns a predicate or construction's temporal and dynamic character.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/situation-type.md"
+  },
+  {
+    "id": "english:speech-act#key-takeaway",
+    "owner": "english:speech-act",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A speech act is a communicative action performed through an utterance, such as asserting, asking, requesting or promising.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/speech-act.md"
+  },
+  {
+    "id": "english:stress#key-takeaway",
+    "owner": "english:stress",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Lexical stress is a prominence relation among syllables in a word.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/stress.md"
+  },
+  {
+    "id": "english:suppletion#key-takeaway",
+    "owner": "english:suppletion",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Suppletion describes paradigm-related forms whose relationship is not a regular productive phonological alternation in the synchronic system.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/suppletion.md"
+  },
+  {
+    "id": "english:syllable-structure#key-takeaway",
+    "owner": "english:syllable-structure",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A working syllable model divides a syllable into onset and rhyme, with nucleus and coda inside the rhyme.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/syllable-structure.md"
+  },
+  {
+    "id": "english:syntax-prosody-interface#key-takeaway",
+    "owner": "english:syntax-prosody-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Syntactic structure constrains prosodic phrasing, but prosodic boundaries need not reproduce every syntactic constituent boundary one for one.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/syntax-prosody-interface.md"
+  },
+  {
+    "id": "english:syntax-semantics-interface#key-takeaway",
+    "owner": "english:syntax-semantics-interface",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/syntax-semantics-interface.md"
+  },
+  {
+    "id": "english:temporal-causal-and-evidential-relations#key-takeaway",
+    "owner": "english:temporal-causal-and-evidential-relations",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Temporal relations locate situations before, after or overlapping others.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/temporal-causal-and-evidential-relations.md"
+  },
+  {
+    "id": "english:temporal-reference-model#key-takeaway",
+    "owner": "english:temporal-reference-model",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Temporal interpretation separates tense, reference time, event structure and aspectual viewpoint.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/temporal-reference-model.md"
+  },
+  {
+    "id": "english:tense-and-aspect#key-takeaway",
+    "owner": "english:tense-and-aspect",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Tense relates temporal reference to an evaluation context; aspect concerns temporal perspective and situation structure.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/tense-and-aspect.md"
+  },
+  {
+    "id": "english:trace-discourse-interpretation#key-takeaway",
+    "owner": "english:trace-discourse-interpretation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Track reference and discourse relations while distinguishing asserted information from defeasible inference.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "methods/trace-discourse-interpretation.md"
+  },
+  {
+    "id": "english:utterance-and-speaker-meaning#key-takeaway",
+    "owner": "english:utterance-and-speaker-meaning",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A sentence is a linguistic expression considered abstractly; an utterance is a particular use in context.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/utterance-and-speaker-meaning.md"
+  },
+  {
+    "id": "english:utterance-interpretation-model#key-takeaway",
+    "owner": "english:utterance-interpretation-model",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "An utterance interpretation records conventional constraints, contextual values and defeasible communicated inferences separately.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/utterance-interpretation-model.md"
+  },
+  {
+    "id": "english:valency-and-argument-structure#key-takeaway",
+    "owner": "english:valency-and-argument-structure",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Valency describes a head's capacity for core arguments; argument structure represents the associated participant relations.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/valency-and-argument-structure.md"
+  },
+  {
+    "id": "english:validation-does-not-establish-truth#key-takeaway",
+    "owner": "english:validation-does-not-establish-truth",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Passing publication checks establishes only the properties those checks actually inspect.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "principles/validation-does-not-establish-truth.md"
+  },
+  {
+    "id": "english:vowel-articulation#key-takeaway",
+    "owner": "english:vowel-articulation",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Vowel descriptions commonly use height, backness and lip rounding.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/vowel-articulation.md"
+  },
+  {
+    "id": "english:wh-dependency#key-takeaway",
+    "owner": "english:wh-dependency",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "A wh-dependency links an interrogative or relative expression with a grammatical position in a clause.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "concepts/wh-dependency.md"
+  },
+  {
+    "id": "english:word-formation-hierarchy#key-takeaway",
+    "owner": "english:word-formation-hierarchy",
+    "owner_version": "1.0.0-draft.1",
+    "statement": "Morphological analyses distinguish the element, the operation, its input base and the resulting lexeme or word form.",
+    "scope": "As stated and limited in this file.",
+    "evidence_status": "provisional",
+    "path": "models/word-formation-hierarchy.md"
+  }
+]

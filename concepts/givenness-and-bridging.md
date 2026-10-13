@@ -1,18 +1,19 @@
 ---
-id: "english:concept:givenness-and-bridging"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:givenness-and-bridging"
+aliases: ["english:concept:givenness-and-bridging"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [5]
-perspectives: ["discourse-and-information-structure"]
+domains: ["discourse","discourse:anaphora-and-accessibility","information-structure","information-structure:givenness"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:anaphora-and-accessibility", "english:concept:focus-topic-and-qud", "english:concept:common-ground"]
+claims: [{"id":"key-takeaway","statement":"Givenness concerns contextual accessibility, not a permanent lexical property.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:anaphora-and-accessibility","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:common-ground","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Givenness and bridging
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Anaphora and accessibility](../concepts/anaphora-and-accessibility.md) provides a related distinction used in the local explanation.
-- [Focus topic and question under discussion](../concepts/focus-topic-and-qud.md) provides a related distinction used in the local explanation.
-- [Common ground](../concepts/common-ground.md) provides a related distinction used in the local explanation.
+- [Anaphora and accessibility](anaphora-and-accessibility.md) provides a related distinction used in the local explanation.
+- [Focus topic and question under discussion](focus-topic-and-qud.md) provides a related distinction used in the local explanation.
+- [Common ground](common-ground.md) provides a related distinction used in the local explanation.

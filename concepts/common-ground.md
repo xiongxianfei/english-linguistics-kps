@@ -1,18 +1,19 @@
 ---
-id: "english:concept:common-ground"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:common-ground"
+aliases: ["english:concept:common-ground"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [4]
-perspectives: ["pragmatics"]
+domains: ["discourse","information-structure","information-structure:qud-organization","pragmatics","pragmatics:common-ground"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:presupposition", "english:concept:discourse-referent", "english:concept:focus-topic-and-qud"]
+claims: [{"id":"key-takeaway","statement":"Common ground is information participants mutually treat as accepted for the purposes of an interaction in a working discourse model.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:presupposition","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:discourse-referent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Common ground
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Presupposition](../concepts/presupposition.md) provides a related distinction used in the local explanation.
-- [Discourse referent](../concepts/discourse-referent.md) provides a related distinction used in the local explanation.
-- [Focus topic and question under discussion](../concepts/focus-topic-and-qud.md) provides a related distinction used in the local explanation.
+- [Presupposition](presupposition.md) provides a related distinction used in the local explanation.
+- [Discourse referent](discourse-referent.md) provides a related distinction used in the local explanation.
+- [Focus topic and question under discussion](focus-topic-and-qud.md) provides a related distinction used in the local explanation.

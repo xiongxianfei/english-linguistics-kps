@@ -1,18 +1,19 @@
 ---
-id: "english:principle:local-heads-determine-local-relations"
-type: "principle"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:local-heads-determine-local-relations"
+aliases: ["english:principle:local-heads-determine-local-relations"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [0]
-perspectives: ["foundations"]
+domains: ["syntax","syntax:constituency-and-dependency"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:head-and-dependent", "english:concept:object-and-pp-complement"]
+claims: [{"id":"key-takeaway","statement":"A relation between an inner NP and its preposition must be distinguished from the relation between the whole PP and a higher head.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:head-and-dependent","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:object-and-pp-complement","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Local heads determine local dependency relations
 

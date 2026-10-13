@@ -1,18 +1,19 @@
 ---
-id: "english:concept:inflection"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:inflection"
+aliases: ["english:concept:inflection"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [1]
-perspectives: ["morphology-and-lexicon"]
+domains: ["lexicon","morphology","morphology:inflectional-paradigms"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:lexeme-and-word-form", "english:concept:paradigm-and-syncretism", "english:concept:allomorphy"]
+claims: [{"id":"key-takeaway","statement":"Inflection realizes grammatical distinctions within a lexeme's paradigm in the working lexeme-based model.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:lexeme-and-word-form","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:paradigm-and-syncretism","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:allomorphy","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Inflection
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Lexeme and word form](../concepts/lexeme-and-word-form.md) provides a related distinction used in the local explanation.
-- [Paradigm and syncretism](../concepts/paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
-- [Allomorphy](../concepts/allomorphy.md) provides a related distinction used in the local explanation.
+- [Lexeme and word form](lexeme-and-word-form.md) provides a related distinction used in the local explanation.
+- [Paradigm and syncretism](paradigm-and-syncretism.md) provides a related distinction used in the local explanation.
+- [Allomorphy](allomorphy.md) provides a related distinction used in the local explanation.

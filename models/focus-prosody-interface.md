@@ -1,18 +1,20 @@
 ---
-id: "english:model:focus-prosody-interface"
-type: "model"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:focus-prosody-interface"
+aliases: ["english:model:focus-prosody-interface"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [7]
-perspectives: ["interfaces-and-integration"]
+domains: ["information-structure","information-structure:focus-and-alternatives","information-structure:focus-projection","pragmatics","prosody","prosody:pitch-accent-and-prominence"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:roberts-2012-information-structure"]
-uses_concepts: ["english:concept:focus-topic-and-qud", "english:concept:prosody", "english:concept:stress"]
+claims: [{"id":"key-takeaway","statement":"Focus domains constrain possible prosodic realizations without being identical to the most strongly accented word.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:focus-topic-and-qud","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:prosody","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:stress","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:roberts-2012-information-structure","relation":"context-only"}]
+interface: {"source_domain":"information-structure","source_representation":"focus-domain","predicate":"constrains","target_domain":"prosody","target_representation":"prominence-pattern","claim":"key-takeaway","scope":"The working analysis, context and variety limits in knowledge/focus-prosody-interface.md; not a neural processing claim.","cardinality":"unspecified"}
 ---
+
 
 # Information Structure Prosody interface
 
@@ -52,7 +54,7 @@ Compare explicit question-answer contexts while holding the sentence string stab
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](../references/roberts-2012-information-structure.md#abstract) — support is limited to the named section in that record.
+- [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](../sources/roberts-2012-information-structure.md#abstract) — support is limited to the named section in that record.
 
 ## Related knowledge
 

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:stress"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:stress"
+aliases: ["english:concept:stress"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [6]
-perspectives: ["phonetics-and-phonology"]
+domains: ["information-structure","phonetics","phonology","prosody","prosody:lexical-stress"]
 evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:international-phonetic-association-undated-ipa-chart"]
-uses_concepts: ["english:concept:vowel-articulation", "english:concept:prosody", "english:concept:syllable-structure"]
+claims: [{"id":"key-takeaway","statement":"Lexical stress is a prominence relation among syllables in a word.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:vowel-articulation","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:prosody","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:syllable-structure","layer":"document","expected_role":"concept"}]
+sources: [{"id":"source:international-phonetic-association-undated-ipa-chart","relation":"context-only"}]
 ---
+
 
 # Stress
 
@@ -44,10 +45,10 @@ Accent-specific stress patterns need documented pronunciations. The phonetic cue
 
 Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this object. Inspect the linked record's access extent and nonclaims.
 
-- [IPA chart and component charts on the official website](../references/international-phonetic-association-undated-ipa-chart.md#suprasegmentals) — support is limited to the named section in that record.
+- [IPA chart and component charts on the official website](../sources/international-phonetic-association-undated-ipa-chart.md#suprasegmentals) — support is limited to the named section in that record.
 
 ## Related knowledge
 
-- [Vowel articulation](../concepts/vowel-articulation.md) provides a related distinction used in the local explanation.
-- [Prosody and intonation](../concepts/prosody.md) provides a related distinction used in the local explanation.
-- [Syllable structure](../concepts/syllable-structure.md) provides a related distinction used in the local explanation.
+- [Vowel articulation](vowel-articulation.md) provides a related distinction used in the local explanation.
+- [Prosody and intonation](prosody.md) provides a related distinction used in the local explanation.
+- [Syllable structure](syllable-structure.md) provides a related distinction used in the local explanation.

@@ -1,18 +1,19 @@
 ---
-id: "english:concept:complement-clause"
-type: "concept"
-version: "0.1.0"
-language: "KPS 9.x"
+id: "english:complement-clause"
+aliases: ["english:concept:complement-clause"]
+version: "1.0.0-draft.1"
+language: "KPS 12.x"
 status: "draft"
-stages: [2]
-perspectives: ["syntax"]
+domains: ["syntax","syntax:clause-linking"]
 evidence_status: "provisional"
 source_status: "external-support-pending"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
-uses_concepts: ["english:concept:finiteness", "english:concept:lexical-selection", "english:concept:wh-dependency"]
+claims: [{"id":"key-takeaway","statement":"A complement clause occupies a position licensed by a head or construction.","scope":"As stated and limited in this file.","evidence_status":"provisional"}]
+relations: [{"predicate":"uses","target":"english:finiteness","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:lexical-selection","layer":"document","expected_role":"concept"},{"predicate":"uses","target":"english:wh-dependency","layer":"document","expected_role":"concept"}]
+sources: []
 ---
+
 
 # Complement clause
 
@@ -46,6 +47,6 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 ## Related knowledge
 
-- [Finiteness](../concepts/finiteness.md) provides a related distinction used in the local explanation.
-- [Lexical selection](../concepts/lexical-selection.md) provides a related distinction used in the local explanation.
-- [Wh dependency](../concepts/wh-dependency.md) provides a related distinction used in the local explanation.
+- [Finiteness](finiteness.md) provides a related distinction used in the local explanation.
+- [Lexical selection](lexical-selection.md) provides a related distinction used in the local explanation.
+- [Wh dependency](wh-dependency.md) provides a related distinction used in the local explanation.
