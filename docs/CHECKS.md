@@ -24,6 +24,10 @@ The first checks KPS structure, local links, typed document dependencies and dep
 ## Content review
 For every new Model, hide links and inspect whether its purpose, necessary terms, representation, example, assumptions and counterevidence are locally available. A section's presence is only a mechanical check; the explanation may still be wrong or incomplete. Check referent/function/role distinctions, accent labels, inference scope and source-claim fit. Do not manufacture observations to fill empty acoustic or learner-result fields.
 
+## Learning Practice review
+
+For a learning Practice, inspect the target questions against the adopted disciplinary structure before trying its examples. Check a new or ambiguous case, the feedback, and whether essential explanations remain usable with links hidden. Compare overlapping Concepts, Models and Practice passages for meaning and scope. Record coverage, usability and source-fidelity gaps separately; no keyword test establishes them.
+
 ## Dependency snapshots
 summary-dependencies.json records which local summaries depend on which files. Ordinary validation and catalog generation never accept changed fingerprints. Review the changed source and receiving summaries first; only then run the explicit --accept-reviewed-summaries option. The edition's review note records the limited editorial review, not independent linguistic approval.
 

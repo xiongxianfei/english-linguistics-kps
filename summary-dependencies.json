@@ -725,6 +725,25 @@
       "concepts/interface.md": "557d64f7406a0fc0aff617362a311d27783b044cab7a31edd049cd1a71570e4f",
       "references/xiongxianfei-2026-knowledge-practice-system.md": "79c703ebeaf1b49931fbb8aba9f022dc2fd87f0711545b989484e9ae8d605fd3"
     },
+    "practices/learn-english-linguistics.md": {
+      "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
+      "concepts/consonant-articulation.md": "47611d826da27b0e9cabb0f991a793a94c204dfcb5a9a5c2fb832bd9e5a2b0cc",
+      "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
+      "concepts/representation-levels.md": "6e9d04e326d94331b5f50cad4bf3ce71dcba35fdd0c6321f22e7ecd820c1af78",
+      "methods/analyze-sound-realization.md": "a58ee7ad6bf1c89667b52f264b07359ce7102b0e59375d5acace5c50d6856da8",
+      "models/english-discourse-system.md": "164fb859b6ccb8e5b94c9740c477884115c5387ae18d6bc26e80093089a1325b",
+      "models/english-information-structure-system.md": "c21412c28da643feff8f524770aa0a66edfe10853848f832218392b0e9b42414",
+      "models/english-lexicon-system.md": "3b3cbf5beaef7b4986b83d21d4488910177034667d56931f2ec1d5835ba13b0a",
+      "models/english-morphology-system.md": "4e570710eb30db71f3242ce44d8023be6668dc23262c3995317eea0b7ea99bd0",
+      "models/english-phonetics-system.md": "194f424dcd3658d33ce739ff44a892b23bbd5b3bd41390f2bfec382b31e40bcf",
+      "models/english-phonology-system.md": "5aa0c78fbea93677c3fb3ce3e3c57f13f6db8d0c04c4a2a596799465bb16055d",
+      "models/english-pragmatics-system.md": "0b5bd45a36f8eb61f460ceccee2fc4fef35791d0fe5212e8045535db8a887c2b",
+      "models/english-prosody-system.md": "22f22590d454297bc7eae73274e13914b34f344ec7f0e024fd48e2900189baa8",
+      "models/english-semantics-system.md": "a2f419fe98f71c4191a4b875b97fca4230b7e997bd0f21e70ae94a6435e6a687",
+      "models/english-syntax-system.md": "3f7c88f6944bd3c87d5136a13aa4e3979da4f20d416ccd277262575d8b399b28",
+      "models/one-passage-ten-domains.md": "edb3b2f72f437e3be044bc0277bd14ff22ac633ef75c324883331f70abcc5c99",
+      "references/anderson-2018-essentials-of-linguistics.md": "e098ab4e08fd5b0d384dc2ce59f679a42bc86f4a447c9522f1b9c7ab3afcbf8e"
+    },
     "practices/learn-word-pronunciation.md": {
       "concepts/connected-speech.md": "4aa5d2e2bb2a0b72ac6d74fc06560881d5c7bfb931018b86d638d7a7d548320d",
       "concepts/evidence-and-analysis.md": "5c2d22013899542162bb3bba420d5e94539bede7408f037fc21fa62a242d52a1",

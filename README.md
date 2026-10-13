@@ -10,7 +10,11 @@ package_version: "0.2.0"
 Understand English through five kinds of self-contained knowledge, ten subsystem Models and their interfaces.
 
 ## Summary
-This foundation contains **130 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and four Practices, plus eleven supporting Reference records. It preserves all 110 existing knowledge items from main and adds ten subsystem Models, nine interface Models and one integrated worked case. The package is foundational and provisional, not a complete or independently reviewed grammar.
+This foundation contains **131 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and five Practices, plus eleven supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
+
+## Learn through a Practice
+
+[Learn English linguistics](practices/learn-english-linguistics.md) provides the target learning route and one complete sound-analysis exercise: a worked comparison, a new case, feedback and explicit evidence limits. Definitions and Models are explained again where the task needs them. The [sound coverage map](docs/SCOPE.md#sound-learning-coverage) connects ten topics to existing knowledge, source support and remaining gaps. The other learning areas are an outline for further units; no learner outcomes are claimed.
 
 ## Start with an explanation
 [One passage across ten domains](models/one-passage-ten-domains.md) analyzes *Those students repaired the printers. They tested them again.* It distinguishes word forms, clause functions, semantic participants, contextual reference, discourse connections, focus and possible pronunciation. No recording was supplied, so its phonetic observations remain unknown rather than invented.
