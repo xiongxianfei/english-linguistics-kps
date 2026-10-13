@@ -96,18 +96,18 @@ jobs:
           (root/'validation-evidence.json').write_text(json.dumps(report, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
           PY
 
-      - name: Replace branch tree with verified result
+      - name: Replace branch content with verified result
         shell: bash
         run: |
           set -euo pipefail
-          rsync -a --delete --exclude=.git /tmp/foundation/ "$GITHUB_WORKSPACE/"
+          rsync -a --delete --exclude=.git --exclude=.github /tmp/foundation/ "$GITHUB_WORKSPACE/"
           cd "$GITHUB_WORKSPACE"
-          test ! -e .migration
+          rm -rf .migration
           test ! -e entities
           test ! -e ontology
           test ! -e knowledge
           test ! -e references
-          git add -A
+          git add -A -- ':!.github'
           git diff --cached --check
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
