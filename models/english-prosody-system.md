@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-prosody-system"
 type: "model"
-version: "0.2.1"
+version: "0.2.2"
 language: "KPS 9.x"
 status: "draft"
 domains: ["prosody"]
@@ -86,6 +86,10 @@ Rhythm adds a timing question: how are the syllables between prominent positions
 
 A declarative used for confirmation can rise, while an ordinary information-seeking wh-question can fall. The distinction between clause type and use therefore cannot be replaced by a rule that rising pitch always means a question or that falling pitch always means an assertion.
 
+### Connected speech and prominence
+
+Prosodic context matters when investigating **reduction** (a less fully articulated sound) or **elision** (a segment absent from a reduced realization). For example, unstressed *you* may have [jə] instead of [ju]: the vowel remains, so this comparison illustrates reduction, not deletion. The [selected connected-speech passages](../references/anderson-2018-essentials-of-linguistics.md#connected-speech-passages) discuss reduced vowels and optional omissions. Stress and prominence help describe the conditions, but do not determine which sounds a particular speaker omitted. Keep the prosodic analysis and the proposed segment change separate; no elision is required merely to produce an assumed English rhythm.
+
 ## Interfaces
 **Phonology Prosody:** syllables, stress domains and segment patterns interact. **Syntax Prosody:** structural grouping constrains some possibilities without imposing a unique phrase boundary after each constituent. **Information Structure Prosody:** context-sensitive focus and contrast influence prominence without identifying focus with the accented word. **Prosody Phonetics:** proposed prosodic structure is realized through variable physical cues.
 
@@ -98,7 +102,7 @@ Diagnostic: does the highest measured pitch prove which word is in focus? No. Le
 The prominence and edge vocabulary is a working account, not a complete ToBI system or universal prosodic grammar. Intonational meaning, focus projection, rhythm and variety-specific patterns require additional studies. No audio measurement or experimental comprehension result is claimed.
 
 ## Evidence status
-**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records a limited suprasegmental discussion. The [MIT ToBI tutorial](../references/mit-2006-tobi-tutorial.md) supports distinguishing prominence from phrasing and high/low accents from phrase endings. The [Roberts Reference](../references/roberts-2012-information-structure.md) supports a broad QUD/prosodic-focus connection at abstract level; it does not independently verify the particular focus-projection examples here. The question table and layered analysis are authored illustrations, not observed productions or a completed ToBI annotation. Rhythm and context-dependent interpretations retain the limits above.
+**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records selected suprasegmental and connected-speech discussions. The [MIT ToBI tutorial](../references/mit-2006-tobi-tutorial.md) supports distinguishing prominence from phrasing and high/low accents from phrase endings. The [Roberts Reference](../references/roberts-2012-information-structure.md) supports a broad QUD/prosodic-focus connection at abstract level; it does not independently verify the particular focus-projection examples here. The question table and layered analysis are authored illustrations, not observed productions or a completed ToBI annotation. Rhythm and context-dependent interpretations retain the limits above.
 
 ## Related knowledge
 [Stress](../concepts/stress.md), [prosody and intonation](../concepts/prosody.md) and [connected speech](../concepts/connected-speech.md) expand the distinctions. [Syntax Prosody interface](syntax-prosody-interface.md), [Information Structure Prosody interface](focus-prosody-interface.md) and [Prosody Phonetics interface](prosody-phonetics-interface.md) explain the principal connections.

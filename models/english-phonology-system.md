@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-phonology-system"
 type: "model"
-version: "0.2.2"
+version: "0.2.3"
 language: "KPS 9.x"
 status: "draft"
 domains: ["phonology"]
@@ -10,7 +10,7 @@ source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
 references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:international-phonetic-association-undated-ipa-chart"]
-uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:contrast-and-distribution", "english:concept:syllable-structure", "english:concept:phonotactics", "english:concept:stress", "english:concept:consonant-articulation", "english:concept:vowel-articulation"]
+uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:contrast-and-distribution", "english:concept:syllable-structure", "english:concept:phonotactics", "english:concept:stress", "english:concept:consonant-articulation", "english:concept:vowel-articulation", "english:concept:connected-speech"]
 uses_models: ["english:model:morphology-phonology-interface", "english:model:phonology-phonetics-interface", "english:model:phonology-prosody-interface"]
 system_domain: "phonology"
 ---
@@ -110,6 +110,14 @@ The generalization links **category + environment** to a predicted realization: 
 
 The /p/–/b/ distinction can distinguish words; the [pʰ]–[p] difference illustrated here is a contextual realization difference associated with /p/. These are distinct conclusions. No recording has been examined, so the table predicts target phones only. It does not transcribe complete productions or specify all realizations in unstressed, final or other environments. The [inspected aspiration passage](../references/anderson-2018-essentials-of-linguistics.md#aspiration) supports the bounded pattern, not a universal timing threshold.
 
+## Connected speech patterns
+
+**Elision**, also called segment deletion, relates a fuller form to a realization lacking a segment. A possible *asked* comparison is /æskt/ with [æst]: the /k/ has no separate segment in that surface analysis. This is a context-sensitive realization proposal, not a new lexical item or proof that /k/ is absent from the language's inventory. The [inspected casual-speech passage](../references/anderson-2018-essentials-of-linguistics.md#connected-speech-passages) supplies the example; it is not a recording examined here.
+
+To turn such a comparison into a phonological generalization, specify the target segment, neighboring categories, relevant stress or boundary conditions, variety, and whether the pattern is optional. Compare retained as well as omitted realizations. One example does not license a rule deleting every stop in every cluster, and an absent audible release alone does not prove segment deletion.
+
+Other [connected-speech processes](../concepts/connected-speech.md) make different claims: assimilation changes a property toward that of a neighbor; reduction weakens a realization without necessarily removing it; linking connects articulation across a boundary without necessarily changing the segment sequence. These distinctions let an analysis state what changes before asking why it is distributed that way.
+
 ## Interfaces
 **Morphology Phonology:** regular inflection connects number or tense features with exponents whose form depends partly on stem sounds. **Phonology Prosody:** segment organization interacts with syllables, stress and larger prosodic domains. **Phonology Phonetics:** an abstract category is realized under contextual and speaker-specific conditions; a broad form does not uniquely determine a waveform.
 
@@ -122,7 +130,7 @@ Diagnostic: a phone occurs only word-finally in a small sample. Has it been prov
 The onset-rhyme representation and examples are working analyses. English varieties differ in inventories and realizations. A complete variety-specific inventory, loanword phonotactics, rule interactions and empirical processing evidence remain outside this foundational Model.
 
 ## Evidence status
-**Provisional; independent review pending.** Selected passages on contrast, natural classes, allomorphy and aspiration are identified in the [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). The [IPA chart record](../references/international-phonetic-association-undated-ipa-chart.md) supports the symbol classifications; it does not establish a complete English inventory or measured realizations. The inline feature explanations summarize the local articulation Concepts. These sources support bounded distinctions, not every generalization or the particular framework used here.
+**Provisional; independent review pending.** Selected passages on contrast, natural classes, allomorphy, connected speech and aspiration are identified in the [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). The [IPA chart record](../references/international-phonetic-association-undated-ipa-chart.md) supports the symbol classifications; it does not establish a complete English inventory or measured realizations. The inline feature explanations summarize the local articulation Concepts. These sources support bounded distinctions, not every generalization or the particular framework used here.
 
 ## Related knowledge
 [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) and [contrast and distribution](../concepts/contrast-and-distribution.md) deepen the category distinction. [Syllable structure](../concepts/syllable-structure.md), [phonotactics](../concepts/phonotactics.md) and [stress](../concepts/stress.md) expand structural details. [Phonological word model](phonological-word-model.md) provides another worked representation.

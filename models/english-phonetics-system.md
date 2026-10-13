@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-phonetics-system"
 type: "model"
-version: "0.2.2"
+version: "0.2.3"
 language: "KPS 9.x"
 status: "draft"
 domains: ["phonetics"]
@@ -10,7 +10,7 @@ source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
 references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:international-phonetic-association-undated-ipa-chart", "english:reference:mit-2006-tobi-tutorial"]
-uses_concepts: ["english:concept:representation-levels", "english:concept:consonant-articulation", "english:concept:vowel-articulation"]
+uses_concepts: ["english:concept:representation-levels", "english:concept:consonant-articulation", "english:concept:vowel-articulation", "english:concept:connected-speech"]
 uses_models: ["english:model:phonology-phonetics-interface", "english:model:prosody-phonetics-interface"]
 system_domain: "phonetics"
 ---
@@ -21,7 +21,7 @@ system_domain: "phonetics"
 Phonetics describes speech production, the acoustic signal and perception; a written transcription is an analysis, not a recording.
 
 ## Summary
-This Model connects vocal-fold activity and vocal-tract configuration with sound descriptions while separating production, acoustic evidence and perception. It explains consonant and vowel attributes with selected category tables, then compares feature bundles and contextual realizations. Inline interfaces show how phonological categories and prosodic structure relate to phonetic descriptions and evidence. New word examples use the package's General American convention. Examples are constructed; no recording or measurement is claimed.
+This Model connects vocal-fold activity and vocal-tract configuration with sound descriptions while separating production, acoustic evidence and perception. It explains consonant and vowel attributes, contextual realizations and connected-speech processes including elision. Inline interfaces show how phonological categories and prosodic structure relate to phonetic descriptions and evidence. New word examples use the package's General American convention. Examples are constructed; no recording or measurement is claimed.
 
 ## Purpose
 Given a sound category, describe its relevant articulatory attributes and explain how changing them changes the description. Given a word or recording, distinguish a predicted realization from an observed token. A broad dictionary form can start an investigation but cannot establish exactly what a speaker produced.
@@ -96,6 +96,23 @@ Orthographic <pin>, broad phonemic /pɪn/, and an illustrative phonetic [pʰɪn]
 
 **Fundamental frequency (F0)** counts repeating cycles per second, in hertz, in periodic voiced portions of a signal; perceived pitch is related but not identical to it. **Formants** are vocal-tract resonances whose frequencies help describe vowel quality. F0 and formants describe different properties, so a higher-pitched [i] can still belong to the same vowel category. **Duration** is an interval's length in time; **intensity** describes acoustic energy and is related to perceived loudness. Duration and intensity can contribute to prominence, but no single measure is a universal stress detector.
 
+## Connected speech and elision
+
+Speech gestures overlap as the articulators move between sounds; this is **coarticulation**. Consequently, a word's realization in a phrase can differ from its fuller citation form, the pronunciation used as a reference when discussing the word in isolation. Rate, prominence, neighboring sounds, style and variety must be considered. These differences can occur within a word as well as across word boundaries.
+
+| Process | What changes | Illustrative comparison |
+|---|---|---|
+| Elision or segment deletion | A segment present in the fuller comparison has no separate realization in the reduced analysis | *Asked*: [æskt] compared with possible [æst], omitting [k] |
+| Assimilation | A sound takes on a property of a neighbor | The vowel in *can* may be nasalized before /n/: [æ̃], where the tilde marks nasalization |
+| Reduction | A sound becomes less fully articulated, for example with a more central vowel; a segment may remain | Unstressed *you* may have [jə] rather than [ju] |
+| Linking | Articulation continues across a word boundary | *An apple* can be spoken continuously; joining the words does not itself delete a sound |
+
+These are schematic comparisons for the declared General American reference, not recordings or obligatory pronunciations. The [inspected connected-speech passages](../references/anderson-2018-essentials-of-linguistics.md#connected-speech-passages) support bounded process distinctions; the table does not exhaust possible changes or make them mutually exclusive.
+
+**How to interpret elision.** In the *asked* comparison, [s] and [t] remain while the intervening [k] is absent from the reduced transcription. The word and its past-tense interpretation need not change. For an actual token, identify the expected segment, inspect its interval and neighboring transitions, and compare alternatives. A stop can lack an audible release while retaining a closure; weak or overlapping cues can also be difficult to hear. Failure to hear a burst alone therefore does not establish deletion. Report an uncertain or reduced realization when the evidence cannot distinguish these possibilities.
+
+Elision is thus an analysis of a spoken realization, not an instruction to remove a written letter or to omit sounds whenever speaking faster. The [Connected Speech Concept](../concepts/connected-speech.md) provides the reusable distinctions; their necessary meaning is included here.
+
 ## Worked example
 **Classifying a sound.** Compare [b] with [m]. Both are voiced and bilabial in these categories. With the nasal passage closed, lip closure blocks outgoing airflow in [b]; opening the nasal passage permits airflow in [m]. The manner difference therefore explains why the same lip closure does not identify the same sound. This is an articulatory illustration, not a report about a measured token.
 
@@ -138,7 +155,7 @@ A useful check: does /r/ necessarily mean a trill? No. In this package it is a b
 This is a foundational explanatory Model, not a complete General American inventory, a clinical assessment or a validated pronunciation course. Individual variation, mergers, connected-speech reduction and transcription choices require local qualification. Instrumental analysis and controlled perception experiments remain further work.
 
 ## Evidence status
-**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records selected articulation, transcription and aspiration passages, including their Canadian scope. The [IPA Reference](../references/international-phonetic-association-undated-ipa-chart.md) supports the chart categories. The [MIT tutorial record](../references/mit-2006-tobi-tutorial.md) supplies selected support for prominence, phrasing and physical cues. These sources do not supply measurements of the constructed examples. The comparisons and interface summaries are authored applications, and the acoustic procedure is an investigation outline, not a newly performed experiment.
+**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records selected articulation, transcription, connected-speech and aspiration passages, including their Canadian scope. The [IPA Reference](../references/international-phonetic-association-undated-ipa-chart.md) supports the chart categories. The [MIT tutorial record](../references/mit-2006-tobi-tutorial.md) supplies selected support for prominence, phrasing and physical cues. These sources do not supply measurements of the constructed examples. The comparisons and interface summaries are authored applications, and the acoustic procedure is an investigation outline, not a newly performed experiment.
 
 ## Related knowledge
 [Representation levels](../concepts/representation-levels.md) distinguishes notation in more detail. [Consonant articulation](../concepts/consonant-articulation.md) and [vowel articulation](../concepts/vowel-articulation.md) expand feature descriptions. [Analyze sound realization](../methods/analyze-sound-realization.md) supplies a bounded investigation; [Phonology Phonetics interface](phonology-phonetics-interface.md) explains the mapping.
