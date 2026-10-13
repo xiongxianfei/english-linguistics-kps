@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-phonology-system"
 type: "model"
-version: "0.2.0"
+version: "0.2.1"
 language: "KPS 9.x"
 status: "draft"
 domains: ["phonology"]
@@ -9,8 +9,8 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:contrast-and-distribution", "english:concept:syllable-structure", "english:concept:phonotactics", "english:concept:stress"]
+references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:international-phonetic-association-undated-ipa-chart"]
+uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:contrast-and-distribution", "english:concept:syllable-structure", "english:concept:phonotactics", "english:concept:stress", "english:concept:consonant-articulation", "english:concept:vowel-articulation"]
 uses_models: ["english:model:morphology-phonology-interface", "english:model:phonology-phonetics-interface", "english:model:phonology-prosody-interface"]
 system_domain: "phonology"
 ---
@@ -21,7 +21,7 @@ system_domain: "phonology"
 Phonology models contrast, distribution and the organization of sound patterns within a specified language variety.
 
 ## Summary
-English phonology distinguishes meaning-changing sound categories from contextually distributed realizations and organizes segments into larger structures. This Model explains contrast, allophony, natural classes, syllables and phonotactics locally, then applies them to a small constructed comparison. It does not treat spelling, phonological representation and actual pronunciation as identical.
+English phonology distinguishes meaning-changing sound categories from contextually distributed realizations and organizes segments into larger structures. This Model explains vowel and consonant attributes, then uses them to explain contrast, allophony and natural classes alongside syllables and phonotactics. It does not treat spelling, phonological representation and actual pronunciation as identical.
 
 ## Purpose
 For a sound difference, ask whether it distinguishes words, follows an environment-sensitive pattern or remains unresolved. The aim is a testable analysis of distributions, not a list of IPA symbols.
@@ -47,6 +47,54 @@ A syllable can be represented as onset plus rhyme, with the rhyme divided into n
 
 A natural class groups sounds by shared relevant features. A rule or constraint can use such a class and state an environment. Rules, constraints and usage-based generalizations are alternative representational approaches; this foundation does not choose a universal theory of mental computation.
 
+### Consonant attributes
+
+Phonetics describes how sounds are produced; phonology asks which differences distinguish words or help explain patterns in a language. The following attributes provide the descriptive starting point. They describe sounds, not alphabet letters: the letters *th* can represent different sounds in *thin* and *this*.
+
+| Attribute | Meaning | Useful categories and examples |
+|---|---|---|
+| Voicing | Whether the vocal folds vibrate during the relevant sound interval | [s] is voiceless; [z] is voiced |
+| Place | Where the vocal tract is constricted | Bilabial: both lips, as in [p]; labiodental: lower lip against upper teeth, as in [f]; alveolar: tongue near the ridge behind the upper teeth, as in [t]; velar: tongue back against the soft palate, as in [k] |
+| Manner | How the constriction directs or restricts airflow | Stop: oral airflow is blocked, as in [p]; fricative: a narrow passage produces friction, as in [s]; nasal: oral closure with airflow through the nose, as in [m] |
+
+An affricate, such as [tʃ], combines a closure with a fricated release. An approximant has a more open constriction without the friction characteristic of a fricative; [j], the initial sound in *yes*, is an example. A lateral approximant such as [l] allows airflow around the tongue's sides. Thus the labels say what the articulators and airflow are doing.
+
+| Phone category | Voicing | Place | Manner |
+|---|---|---|---|
+| [p] | Voiceless | Bilabial | Stop |
+| [b] | Voiced | Bilabial | Stop |
+| [t] | Voiceless | Alveolar | Stop |
+| [k] | Voiceless | Velar | Stop |
+| [s] | Voiceless | Alveolar | Fricative |
+| [z] | Voiced | Alveolar | Fricative |
+| [m] | Voiced | Bilabial | Nasal |
+| [n] | Voiced | Alveolar | Nasal |
+| [ŋ] | Voiced | Velar | Nasal |
+
+These are introductory IPA categories, written in square brackets. The English phonemes /p/ and /b/ have several realization cues, including aspiration and timing; an English /b/ token need not be fully voiced throughout. The broad category label is not a measurement of every production.
+
+### Vowel attributes
+
+Vowels are described by the shape of the relatively open vocal tract. **Height** places the tongue body relatively high (close) or low (open); **backness** distinguishes front, central and back positions; **rounding** describes the lips. These dimensions are separate: a front vowel is not necessarily unrounded in every language.
+
+| Phone category | Height | Backness | Lips |
+|---|---|---|---|
+| [i] | Close (high) | Front | Unrounded |
+| [ɪ] | Near-close | Near-front | Unrounded |
+| [ɛ] | Open-mid | Front | Unrounded |
+| [æ] | Near-open | Front | Unrounded |
+| [u] | Close (high) | Back | Rounded |
+| [ʊ] | Near-close | Near-back | Rounded |
+| [ə] | Mid | Central | Neutral or unrounded in the working English description |
+
+In broad General American notation, *see*, *sit* and *sat* illustrate /i/, /ɪ/ and /æ/. Their quality differences involve more than simply holding one sound for longer. /u/ in *food* conventionally uses the symbol for a close back rounded vowel, but actual American realizations may be farther forward. A diphthong, such as /aɪ/ in *my*, involves movement in quality rather than one fixed position. Stress, duration, nasalization and rhoticity can require further description; none should be inferred from a vowel letter alone.
+
+### From attributes to sound patterns
+
+Compare [p] with [b]: place and manner match in these categories, while voicing differs. Compare [p] with [t]: both are voiceless stops, but their places differ. The English phonemes /p t k/ therefore form a useful **natural class of voiceless stops** for discussing aspiration, although they use different constriction locations. /m n ŋ/ form a nasal class across those locations. Whether a class explains a particular pattern still needs distributional evidence.
+
+To describe a target, first identify its sound and notation, then fill in the appropriate attributes. Finally ask a separate phonological question: does the difference distinguish words, or is it a contextual realization? Feature similarity alone cannot decide that. For vowels, *sit* /sɪt/ and *sat* /sæt/ provide a constructed lexical comparison: the matching consonant environment helps isolate the vowel contrast. These word examples are illustrations, not recorded speaker observations.
+
 ## Worked example
 The words *pin* and *bin* illustrate a broad /p/ versus /b/ contrast in a matched environment. *Pin* and *spin* instead help investigate the distribution of aspiration associated with /p/: the added /s/ changes the environment, so they are not a minimal pair differing only in aspiration.
 
@@ -64,7 +112,9 @@ Diagnostic: a phone occurs only word-finally in a small sample. Has it been prov
 The onset-rhyme representation and examples are working analyses. English varieties differ in inventories and realizations. A complete variety-specific inventory, loanword phonotactics, rule interactions and empirical processing evidence remain outside this foundational Model.
 
 ## Evidence status
-**Provisional; independent review pending.** Selected passages on contrast, allomorphy and aspiration are identified in the [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). They support bounded distinctions; they do not verify every generalization or establish the particular framework used here.
+**Provisional; independent review pending.** Selected passages on contrast, allomorphy and aspiration are identified in the [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). The [IPA chart record](../references/international-phonetic-association-undated-ipa-chart.md) supports the symbol classifications; it does not establish a complete English inventory or measured realizations. The inline feature explanations summarize the local articulation Concepts. These sources support bounded distinctions, not every generalization or the particular framework used here.
 
 ## Related knowledge
 [Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) and [contrast and distribution](../concepts/contrast-and-distribution.md) deepen the category distinction. [Syllable structure](../concepts/syllable-structure.md), [phonotactics](../concepts/phonotactics.md) and [stress](../concepts/stress.md) expand structural details. [Phonological word model](phonological-word-model.md) provides another worked representation.
+
+[Vowel articulation](../concepts/vowel-articulation.md) and [consonant articulation](../concepts/consonant-articulation.md) expand the feature descriptions. [Classify and produce a phone](../practices/classify-and-produce-phone.md) connects classification with listening, production and verification.

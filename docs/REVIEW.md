@@ -51,3 +51,9 @@ The 2026-10-11 pronunciation publication record reports authoring inspection of 
 Prioritize accent inventories and acoustic measurement, lexical exceptions, formal derivations, corpus frequencies, discourse frameworks, variation, acquisition and historical change. The current subsystem and interface Models are a bounded foundation, not exhaustive coverage.
 
 Use the [knowledge index](INDEX.md) to select a bounded claim. Read its Reference access limits, inspect the source passage, test a counterexample and record what remains unsupported. Objects without references need external support; selected references still require claim-level fit review. Never promote review status without an actual version-specific review record.
+
+## Phonology feature explanation review
+
+On 2026-10-13 the phonology Model was checked for use without following its links. It named features and natural classes but did not explain vowel or consonant attributes locally. Version 0.2.1 adds the feature meanings, selected IPA category tables and constructed comparisons connecting attributes to contrast and natural classes. This is an authored explanation, not a full General American inventory or a speaker study.
+
+The official IPA pulmonic-consonant and vowel subcharts were visually reinspected for symbol placement, voicing and rounding conventions. Existing local articulation Concepts and the phone-classification Practice were read for their definitions and accent limits. No new textbook chapter access, audio listening or acoustic measurement is claimed. The Model preserves the distinction between a chart category, an English phoneme and a contextual production. Its additional source and local dependencies were reviewed before refreshing the snapshot; no existing knowledge recipient depended on this Model in the prior snapshot. This is an assistant editorial review, not independent scientific approval.

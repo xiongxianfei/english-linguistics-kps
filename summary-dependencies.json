@@ -491,16 +491,20 @@
       "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
     },
     "models/english-phonology-system.md": {
+      "concepts/consonant-articulation.md": "47611d826da27b0e9cabb0f991a793a94c204dfcb5a9a5c2fb832bd9e5a2b0cc",
       "concepts/contrast-and-distribution.md": "97bd5ad5e0875ac888620edd2e3d263bf841144f07284549a9394b1c35587189",
       "concepts/phone-phoneme-and-allophone.md": "808e3baed0b47ac776a76ab9b7bda82d6c31e9784cf5ca77aaadb02da5b7795f",
       "concepts/phonotactics.md": "961bc1309bc7111830aa51d5f1dfc2e101cfd982c76e21a4a281671079327fd6",
       "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
       "concepts/syllable-structure.md": "eaffe32e7573485951b0b71f4372892267894074a3268cc49a0140074da8fb2f",
+      "concepts/vowel-articulation.md": "809d381b5b20ed77fb1b28ca90558359a371bd83696321d202d19a010b8376dd",
       "models/morphology-phonology-interface.md": "6e10999ad6c8681f7811395d001909240a1f785903cdfc711840e322ad494b47",
       "models/phonological-word-model.md": "9f42dbe84228ceea5453db285104b213f423a7079bfe651fde169bfb3f40e1fa",
       "models/phonology-phonetics-interface.md": "943cccd0e77c4d8a8e6edd3df3890c5475c8971cc37ba5cd4dbc2559ffe73f27",
       "models/phonology-prosody-interface.md": "3615b35a06924d5c375ded6f2f46cf00e8b5d4c8e27c9d2268150950eeb8fa02",
-      "references/anderson-2018-essentials-of-linguistics.md": "edaaab47e5cf6c5d15929565e02c5a658a7aaf193a84c30cba2e34cb2c3de07a"
+      "practices/classify-and-produce-phone.md": "c181af0494331c0acd6db476787174effc444bc98125d57867dcb94a8ae23487",
+      "references/anderson-2018-essentials-of-linguistics.md": "edaaab47e5cf6c5d15929565e02c5a658a7aaf193a84c30cba2e34cb2c3de07a",
+      "references/international-phonetic-association-undated-ipa-chart.md": "cc21c84fa7f0111e0ffb6b366594906bf321a96b5e25c5f9e5ed6a82fb3c17b1"
     },
     "models/english-pragmatics-system.md": {
       "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
