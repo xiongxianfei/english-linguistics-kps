@@ -32,7 +32,7 @@ For pin, <pin> names the spelling, /pɪn/ a broad phonemic representation, and [
 
 ## General American as primary reference
 
-The package's [pronunciation policy](../PRONUNCIATION.md) chooses General American for new broad lexical transcription examples. In this declared convention, *see* may be represented as /si/ and *car* as /kɑr/; British-style /siː/ and non-rhotic /kɑː/ remain valid only when clearly labeled as an alternate accent/convention. Broad /r/ is conventional shorthand for an American rhotic, not a phonetic assertion of trill [r]. toPhonetics can propose word-level phonemic transcription using its American setting. The interactive IPA chart identifies phone symbols, while exact token-level bracketed transcriptions require recording or direct observation.
+The package's [pronunciation policy](../docs/PRONUNCIATION.md) chooses General American for new broad lexical transcription examples. In this declared convention, *see* may be represented as /si/ and *car* as /kɑr/; British-style /siː/ and non-rhotic /kɑː/ remain valid only when clearly labeled as an alternate accent/convention. Broad /r/ is conventional shorthand for an American rhotic, not a phonetic assertion of trill [r]. toPhonetics can propose word-level phonemic transcription using its American setting. The interactive IPA chart identifies phone symbols, while exact token-level bracketed transcriptions require recording or direct observation.
 
 ## Distinctions
 

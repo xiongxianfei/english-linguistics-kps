@@ -32,7 +32,7 @@ Primary General American broad labels: /i/ close front unrounded (FLEECE), /u/ c
 
 ## General American transcription and source scope
 
-New word examples use the General American convention defined in [PRONUNCIATION](../PRONUNCIATION.md). toPhonetics can suggest a broad word transcription but cannot establish its acoustic vowel position. Sounds American helps explain instructional articulation; the International Phonetic Association chart identifies general phonetic symbols. GOOSE fronting, cot and caught mergers, schwa reduction and contextual vowel duration need separate accent-sensitive treatment. The absence of /ː/ in a conventional phonemic transcription does not imply identical phonetic durations.
+New word examples use the General American convention defined in [PRONUNCIATION](../docs/PRONUNCIATION.md). toPhonetics can suggest a broad word transcription but cannot establish its acoustic vowel position. Sounds American helps explain instructional articulation; the International Phonetic Association chart identifies general phonetic symbols. GOOSE fronting, cot and caught mergers, schwa reduction and contextual vowel duration need separate accent-sensitive treatment. The absence of /ː/ in a conventional phonemic transcription does not imply identical phonetic durations.
 
 ## Distinctions
 

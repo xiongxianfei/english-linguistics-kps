@@ -32,7 +32,7 @@ Introductory feature bundles: /p/ voiceless bilabial stop; /z/ voiced alveolar f
 
 ## General American reference system
 
-The General American pronunciation default is stated in [PRONUNCIATION](../PRONUNCIATION.md). An ordinary English rhotic can be written phonemically as /r/ for convenience while common approximant articulation is represented more precisely as [ɹ]; this notation is not a claim that speakers produce an IPA alveolar trill [r]. American intervocalic /t/ and /d/ may surface as a tap [ɾ] under suitable stress and segmental conditions. These are illustrations of phonological versus phonetic levels, not invariant pronunciations across all speakers. Sounds American offers pedagogical articulation demonstrations, whereas the interactive IPA chart describes cross-language phone symbols.
+The General American pronunciation default is stated in [PRONUNCIATION](../docs/PRONUNCIATION.md). An ordinary English rhotic can be written phonemically as /r/ for convenience while common approximant articulation is represented more precisely as [ɹ]; this notation is not a claim that speakers produce an IPA alveolar trill [r]. American intervocalic /t/ and /d/ may surface as a tap [ɾ] under suitable stress and segmental conditions. These are illustrations of phonological versus phonetic levels, not invariant pronunciations across all speakers. Sounds American offers pedagogical articulation demonstrations, whereas the interactive IPA chart describes cross-language phone symbols.
 
 ## Distinctions
 

@@ -43,7 +43,7 @@ Possible phonetic form: [pʰɪn]
 
 ## Primary General American examples
 
-The package default for a new lexical example is a **General American broad transcription**, as set out in [PRONUNCIATION](../PRONUNCIATION.md). Typical authored examples include *see* /si/, *food* /fud/ and rhotic *car* /kɑr/. Existing phonological examples such as *pin* /pɪn/ and [pʰɪn] remain usable at their stated levels. Do not convert earlier non-rhotic or British-style lexical transcriptions by replacing symbols mechanically; dialect-specific lexical incidence and stress must be checked. None of the illustrative square-bracket forms is a measured token.
+The package default for a new lexical example is a **General American broad transcription**, as set out in [PRONUNCIATION](../docs/PRONUNCIATION.md). Typical authored examples include *see* /si/, *food* /fud/ and rhotic *car* /kɑr/. Existing phonological examples such as *pin* /pɪn/ and [pʰɪn] remain usable at their stated levels. Do not convert earlier non-rhotic or British-style lexical transcriptions by replacing symbols mechanically; dialect-specific lexical incidence and stress must be checked. None of the illustrative square-bracket forms is a measured token.
 
 ## Worked interpretation
 

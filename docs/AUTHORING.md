@@ -48,6 +48,6 @@ Store publication records in references/. Identify the creator, publication, rel
 New scientific claims remain provisional until actual review supports a stronger state. Framework choices, variable English usage and missing audio must be visible. Do not relabel a Canadian transcription as General American by blind symbol replacement.
 
 ## Editing and publication
-Read the affected content and its dependencies. Revise locally sufficient explanations and review receiving summaries before accepting dependency fingerprints. Regenerate only the optional catalogs with tools/build_navigation.py. Run the checks in [Checks](docs/CHECKS.md) and state failures or evidence limits honestly. One branch and one PR are enough; do not merge or create releases without authorization.
+Read the affected content and its dependencies. Revise locally sufficient explanations and review receiving summaries before accepting dependency fingerprints. Regenerate only the optional catalogs with tools/build_navigation.py. Run the checks in [Checks](CHECKS.md) and state failures or evidence limits honestly. One branch and one PR are enough; do not merge or create releases without authorization.
 
 Ordinary relative Markdown links are used for navigation. Metadata IDs are not heading anchors. Prefer text representations and tables when sufficient; no visual toolchain is required for this package.

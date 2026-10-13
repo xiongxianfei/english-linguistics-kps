@@ -45,7 +45,7 @@ Spelling can hide the conditioning sound, and an allomorph can contain several p
 
 ## General American lookup procedure
 
-The default convention is specified in [PRONUNCIATION](../PRONUNCIATION.md). A broad /r/ is a language-analysis shorthand for an American rhotic, not an observed IPA trill. toPhonetics describes its American text outputs as phonemic, not narrow phone-by-phone acoustics; Sounds American is pedagogical articulation guidance; the interactive IPA chart is an inventory of phone symbols. If sources disagree, document the accent, conventions, morphological form, lexical sense and unresolved evidence, rather than choosing whichever symbol looks most precise.
+The default convention is specified in [PRONUNCIATION](../docs/PRONUNCIATION.md). A broad /r/ is a language-analysis shorthand for an American rhotic, not an observed IPA trill. toPhonetics describes its American text outputs as phonemic, not narrow phone-by-phone acoustics; Sounds American is pedagogical articulation guidance; the interactive IPA chart is an inventory of phone symbols. If sources disagree, document the accent, conventions, morphological form, lexical sense and unresolved evidence, rather than choosing whichever symbol looks most precise.
 
 ## Worked example
 

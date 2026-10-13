@@ -14,7 +14,7 @@ Contributions should improve a bounded claim, representation or evidence record 
 
 ## Before editing
 
-Read [Authoring](../AUTHORING.md) and [Scope](../docs/SCOPE.md). Inspect the target, direct dependencies, local evidence and review queue. Preserve IDs for revisions; create a new object only when it has a distinct reusable role. Stages and perspectives are metadata, not additional types.
+Read [Authoring](../docs/AUTHORING.md) and [Scope](../docs/SCOPE.md). Inspect the target, direct dependencies, local evidence and review priorities. Preserve IDs for revisions; create a new object only when it has a distinct reusable role. Stages and perspectives are metadata, not additional types.
 
 ## Pull request content
 
