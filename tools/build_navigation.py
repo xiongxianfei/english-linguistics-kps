@@ -21,7 +21,7 @@ def collect():
             doc = kps.parse(path)
             if doc.meta.get('type') == role:
                 title = next(h for n, h in doc.headings if n == 1)
-                summary = ' '.join(kps.section(doc, 'Key takeaway').split())
+                summary = ' '.join((kps.section(doc, 'Key takeaway') or (kps.model_introduction(doc) if role == 'model' else kps.section(doc, 'Summary'))).split())
                 docs.append((path.relative_to(ROOT).as_posix(), title, doc.meta, summary))
     return docs
 

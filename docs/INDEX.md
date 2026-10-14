@@ -196,7 +196,7 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 **[English lexicon system](../models/english-lexicon-system.md).** The lexicon connects lexical identity, form, senses and combinatorial possibilities; it is not merely a list of spellings and translations.
 
-**[English morphology system](../models/english-morphology-system.md).** Morphology relates word-internal structure, grammatical features and lexical identity without equating morphemes with letters or syllables.
+**[English morphology system](../models/english-morphology-system.md).** Morphology explains word-internal structure, grammatical forms and lexical identity. Use this Model to distinguish a new lexeme from a grammatical form, justify a proposed segmentation, and explain why the same grammatical contribution can have different realizations. Its introductory coverage follows the outline's five areas: word identity and form, internal structure, inflection and word formation, alternation and lexical limits, and allomorphy versus allophony. The examples are constructed analyses; a complete English morphological inventory and independent review remain outside the present scope.
 
 **[English phonetics system](../models/english-phonetics-system.md).** Phonetics describes speech production, the acoustic signal and perception; a written transcription is an analysis, not a recording.
 

@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-morphology-system"
 type: "model"
-version: "0.2.1"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 domains: ["morphology"]
@@ -9,64 +9,108 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics"]
-uses_concepts: ["english:concept:morpheme", "english:concept:root-base-and-stem", "english:concept:inflection", "english:concept:derivation", "english:concept:compounding", "english:concept:allomorphy", "english:concept:paradigm-and-syncretism", "english:concept:affix", "english:concept:consonant-articulation", "english:concept:representation-levels", "english:concept:lexical-entry", "english:concept:productivity-and-lexicalization", "english:concept:sense-and-lexical-ambiguity", "english:concept:finiteness", "english:concept:auxiliary-chain"]
+references: ["english:reference:richards-2022-morphology", "english:reference:anderson-2018-essentials-of-linguistics"]
+uses_concepts: ["english:concept:lexeme-and-word-form", "english:concept:suppletion", "english:concept:morpheme", "english:concept:root-base-and-stem", "english:concept:inflection", "english:concept:derivation", "english:concept:compounding", "english:concept:allomorphy", "english:concept:paradigm-and-syncretism", "english:concept:affix", "english:concept:consonant-articulation", "english:concept:representation-levels", "english:concept:lexical-entry", "english:concept:productivity-and-lexicalization", "english:concept:sense-and-lexical-ambiguity", "english:concept:finiteness", "english:concept:auxiliary-chain"]
 uses_models: ["english:model:english-lexicon-system", "english:model:english-syntax-system", "english:model:english-phonology-system"]
 system_domain: "morphology"
 ---
 
 # English morphology system
 
-## Key takeaway
-Morphology relates word-internal structure, grammatical features and lexical identity without equating morphemes with letters or syllables.
-
-## Summary
-This Model organizes lexemes, word forms, roots, affixes, inflection, derivation, compounding and allomorphy. It explains their relationships and applies them to *reports*, *teacher* and *sent*. The analyses are constructed, introductory and theory-aware; no word-list completeness or new empirical observation is claimed. A word-formation hierarchy and interfaces with Lexicon, Syntax and Phonology connect structure with lexical identity, grammatical features and realization. Source limits remain specific to each explanation.
+Morphology explains word-internal structure, grammatical forms and lexical identity. Use this Model to distinguish a new lexeme from a grammatical form, justify a proposed segmentation, and explain why the same grammatical contribution can have different realizations. Its introductory coverage follows the outline's five areas: word identity and form, internal structure, inflection and word formation, alternation and lexical limits, and allomorphy versus allophony. The examples are constructed analyses; a complete English morphological inventory and independent review remain outside the present scope.
 
 ## Contents
 
-- [Purpose](#purpose)
-- [Representation](#representation)
-- [Essential distinctions](#essential-distinctions)
+- [Word identity and form](#word-identity-and-form)
+- [Internal word structure](#internal-word-structure)
+  - [Morphemes and segmentation](#morphemes-and-segmentation)
+  - [Roots bases stems and affixes](#roots-bases-stems-and-affixes)
+- [Inflection and word formation](#inflection-and-word-formation)
+  - [Inflection](#inflection)
+  - [Derivation](#derivation)
+  - [Compounding](#compounding)
+- [Alternation and lexical limits](#alternation-and-lexical-limits)
+  - [Allomorphy and suppletion](#allomorphy-and-suppletion)
+  - [Productivity and lexicalization](#productivity-and-lexicalization)
+- [Allomorphy vs allophony](#allomorphy-vs-allophony)
 - [Worked analysis](#worked-analysis)
 - [Word formation hierarchy](#word-formation-hierarchy)
 - [Interfaces](#interfaces)
-- [Interface with Phonology](#interface-with-phonology)
-- [Interface with Lexicon](#interface-with-lexicon)
-- [Interface with Syntax](#interface-with-syntax)
+  - [Interface with Phonology](#interface-with-phonology)
+  - [Interface with Lexicon](#interface-with-lexicon)
+  - [Interface with Syntax](#interface-with-syntax)
 - [Evaluation and counterevidence](#evaluation-and-counterevidence)
 - [Assumptions and limits](#assumptions-and-limits)
 - [Evidence status](#evidence-status)
+- [Related knowledge](#related-knowledge)
 
-## Purpose
-Given a word form in context, identify its lexical identity, grammatical features and any supported internal structure. Do not split a word merely because a letter sequence resembles an affix.
+## Word identity and form
+A **lexeme** is a vocabulary identity abstracting over its grammatical forms; capital letters name one here, as in TEACH. A **word form** realizes that lexeme in a grammatical setting. *Teach*, *teaches*, *taught* and *teaching* belong to TEACH, while the person-denoting noun TEACHER is a different lexeme. Lexical identity, grammatical features, structure and pronunciation are separate descriptions.
 
-## Representation
+A **paradigm** organizes a lexeme's forms by grammatical distinctions. **Syncretism** occurs when one form occupies more than one cell. In the working TEACH paradigm, *taught* serves as past tense in “They taught” and past participle in “They have taught.” The spelling alone does not choose the grammatical analysis. Identical forms can also belong to different lexemes: noun REPORT and verb REPORT both have *reports*. That is not automatically syncretism within one paradigm.
 
-| Component | Distinction | Working example |
-|---|---|---|
-| Lexeme and word form | Vocabulary identity versus grammatical realization | REPORT and its forms *report*, *reports* |
-| Root, base and stem | Lexical core versus the form an operation takes as input | A suffix attaches to a base; an inflectional stem need not be a bare root |
-| Inflection | Grammatical realization within a paradigm | Singular/plural or present/past distinctions |
-| Derivation | Formation of a lexical item through a word-building operation | TEACH to TEACHER in a productive analysis |
-| Compounding | Combination of lexical bases | A compound is not simply any adjacent pair of words |
-| Allomorphy and suppletion | Alternative realizations associated with a morphological identity | Regular plural variants; SEND and past *sent* |
+These are working lexeme-and-paradigm distinctions, not a claim that a speaker stores a table with these exact fields. Fuller source attachment for paradigm structure and syncretism remains needed; the local [Concept](../concepts/paradigm-and-syncretism.md) retains that gap.
 
-The representation is relational: lexical identity, feature specification, structural analysis and pronounced form are recorded separately.
+## Internal word structure
 
-## Essential distinctions
-A **morpheme** is a minimal unit in a particular form-meaning or grammatical analysis; it is not necessarily a single syllable or a visible string. An **affix** combines with a base. A **root** is the lexical core in the chosen analysis; **base** names the input to an operation; **stem** is used for the form to which inflection applies. These labels may pick out the same span in a simple word but need not do so in a complex word.
+### Morphemes and segmentation
+A **morpheme** is a minimal unit pairing form with a meaning or grammatical contribution in the chosen analysis. **Free** morphemes can stand as words; **bound** morphemes require a host. In *teachers*, *teach* is free, while derivational *-er* and plural *-s* are bound. A morpheme is neither a letter nor necessarily a syllable.
 
-An inflectional **paradigm** organizes forms of a lexeme by grammatical features. One form may occupy several cells, called syncretism. Different lexemes can also share a surface form. Consequently, identical spelling does not guarantee identical grammatical analysis.
+A proposed segmentation needs recurring form-and-contribution evidence. Comparing *teach/teacher* and *work/worker* supports the person-denoting pattern; seeing the letters *er* at the end of another word is insufficient. Spelling adjustments must also be separated from morphological operations. Anderson 6.1 supports free/bound distinctions, but its wordhood diagnostics are introductory tendencies rather than universal tests for every construction.
 
-Derivation may change category or meaning, but category change is not required. Productivity is the availability of a pattern for new formations, not proof that every imaginable form is conventional. Lexicalization can make an established item's meaning or behavior less predictable from its parts. Compounds require evidence about their structure and use; spacing alone is not decisive.
+### Roots bases stems and affixes
+A **root** is a lexical core in an analysis. A **base** is the input to a word-building operation; a **stem** is the form to which inflection applies. In *restarted*, *start* is the root and the base for *re-*; *restart* is the stem for past inflection. One expression can serve different roles at different steps.
+
+An **affix** is a bound element attached to a base: a prefix precedes it and a suffix follows it. Describe what kind of base an affix combines with and what it contributes. The same written sequence need not identify the same affix. Richards's selected lecture distinguishes reversal *un-* with verbs from negative *un-* with adjectives; this is evidence for looking at meaning and combination, not letters alone. The [word-formation hierarchy](#word-formation-hierarchy) shows how several operations can be nested.
+
+## Inflection and word formation
+
+### Inflection
+**Inflection** realizes grammatical distinctions within a lexeme's paradigm. In the working noun analysis, *teacher/teachers* differs in number without creating a new lexeme. Verb forms can realize tense, agreement and participial distinctions. A grammatical distinction need not have a separate affix: *taught* cannot be described as an overt concatenation of *teach* and regular *-ed*.
+
+Anderson 6.3 supports grammatical realization through affixes and other form changes. Context remains necessary: plural noun *reports* and present-tense verb *reports* do different grammatical work despite matching spelling. Detailed inventories, case analyses and the status of particular English constructions require a fuller account.
+
+### Derivation
+**Derivation** forms a lexeme from a base. In the selected analysis, TEACH → TEACHER changes a verb into a person-denoting noun. START → RESTART retains the verb category while adding meaning. Category change is therefore a possible result, not the definition of derivation.
+
+Anderson 6.4 distinguishes these operations and shows that a derived form can become a further base. Record attachment order because different structures can imply different meanings. In *schoolteachers*, the plural applies to the compound SCHOOLTEACHER. That example does not prove an exceptionless law that every English word must be formed in the same sequence.
+
+### Compounding
+**Compounding** combines lexical bases, rather than attaching only a bound affix. In *schoolteacher*, both components contribute to the new lexical item; *teacher* is its **head**, the component determining the noun category and the relevant “kind of teacher” interpretation in this analysis.
+
+An **endocentric** compound denotes a kind of its head; an **exocentric** interpretation lacks that straightforward relation. Anderson 7.2 presents this contrast. Meaning, grammatical behavior and pronunciation can inform a compound analysis; spacing or a single stress heuristic is insufficient. English compounds often have a right-hand head, but this is not a universal claim about every compound or language. The [Lexicon interface](#interface-with-lexicon) explains why conventional interpretation can exceed what structure supplies.
+
+## Alternation and lexical limits
+
+### Allomorphy and suppletion
+**Allomorphs** are alternative forms associated with a morphological unit. In regular plurals, /s/, /z/ and a syllabic variant conventionally written /ɪz/ realize plural according to the stem's final sound. The vowel can differ by accent. The grammatical contribution is held apart from its pronounced exponent, the form that realizes it.
+
+Other alternations are lexically restricted. *Sent* belongs to SEND; do not force its surface form into an overt regular *-ed* analysis. **Suppletion** is used for sharply different stems within one paradigm, illustrated here by GO and past *went*. This is distinct from predicting every irregular form by a general sound rule. Richards's pages 8–9 compare regular and idiosyncratic alternations; they do not settle the exact boundary between suppletion and other stem changes. Our GO example and terminology retain that theoretical limit.
+
+### Productivity and lexicalization
+**Productivity** concerns a pattern's availability for new formations. Knowing many existing members is not enough to show that any new base will work. The proposed test is whether speakers can form and interpret additional cases under stated conditions; this Model reports no such experiment.
+
+**Lexicalization** concerns a form's established conventional identity and behavior. A word can remain structurally analyzable while its sense is not fully predictable from its parts. The person/device readings of *printer* illustrate why a suffix alone cannot select the intended sense. Richards's selected material motivates recording base-selection restrictions and idiosyncratic information. A comprehensive productivity measure or theory of lexical storage remains outside scope.
+
+## Allomorphy vs allophony
+Allomorphy relates forms of a morpheme; **allophony** relates phonetic realizations of a phoneme. Compare plural /s/ in *cats* with /z/ in *dogs*: the same grammatical contribution has different exponents. Compare /p/ in *pin* and *spin*: the contextual aspiration difference concerns realizations of a sound category, not a plural morpheme. Neither is a distinction between written letters.
+
+These accounts interact. A phonological theory can derive several surface exponents from one proposed underlying exponent. That does not erase the morphological question about what grammatical unit is being realized. The [Phonology interface](#interface-with-phonology) gives the regular ending patterns and their boundaries.
 
 ## Worked analysis
-In *the reports*, *reports* is a plural word form of the noun REPORT. In *she reports*, the same spelling can be a present-tense verb form. Context therefore precedes the choice of analysis.
+Use the constructed sentence “The schoolteachers went home.” The nominal structure can be represented as `[[school [teach-er]]-s]`: a derivation supplies TEACHER, compounding supplies SCHOOLTEACHER, and inflection supplies plural *schoolteachers*. This is a structural analysis, not a measured sequence of mental processing.
 
-For the ordinary noun use, a working segmentation is report + plural exponent. Its usual final stem phoneme /t/ conditions the nonsyllabic /s/ variant in this example. The morphological feature plural is not itself the sound /s/. Other regular stems select /z/ or a syllabic variant, and irregular nouns require separate treatment.
+| Comparison | What changes | What the analysis explains |
+|---|---|---|
+| *teach* → *teacher* | Derivation creates TEACHER | A word-building relation changes lexical identity |
+| *teacher* → *teachers* | Plural inflection | Grammatical number changes within TEACHER |
+| *schoolteacher* → *schoolteachers* | Plural applies to the compound | The internal structure identifies the relevant stem |
+| *cat* → *cats* | Plural exponent /s/ after /t/ | Phonological context helps select an exponent; plural is not inherently the sound /s/ |
+| *go* → *went* | An irregular past form | Lexical information is needed; a regular suffix rule does not predict this form |
 
-*Teacher* can be analyzed as teach + -er in a person-denoting derivation. That does not license the same segmentation or meaning for every word ending in the letters *er*. *Sent* is the past form of SEND; treating it as send + an overt regular -ed suffix would misdescribe the surface form. The exact analysis of stem alternation and suppletion depends on the framework.
+Now compare “the reports” with “she reports.” The first has noun REPORT with plural inflection; the second has verb REPORT with present-tense agreement. Both usually end in /s/ after stem-final /t/. The sound pattern cannot decide which grammatical analysis is intended. Conversely, the feature plural does not determine a unique sound without stem and variety information.
+
+These comparisons connect word identity, internal structure, grammatical features and realization. They do not establish that every final written *s* is an affix, every word ending in *er* contains the person-denoting suffix, or every unfamiliar word has a uniquely recoverable structure.
 
 ## Word formation hierarchy
 
@@ -98,7 +142,7 @@ A competing analysis must preserve the actual morphological contributions and th
 
 ### Word formation hierarchy evidence status
 
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+Anderson 6.4 and 7.2 supply selected support for successive derivation and compounding. The schoolteachers and restarted representations are authored applications, not source endorsements or observed processing sequences.
 
 ## Interfaces
 **Morphology Lexicon:** paradigms connect word forms with lexemes; lexicalized derivatives need lexical information. **Morphology Syntax:** number and finiteness features participate in agreement and construction licensing. **Morphology Phonology:** exponents and stems receive sound-conditioned realizations. These links do not imply that word formation always occurs before syntactic or phonological processing in time.
@@ -132,7 +176,7 @@ The supplied pure functions accept final phonemes, not English spellings; tests 
 
 #### Interface with Phonology evidence status
 
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+Anderson 6.2 supports selected regular-plural conditioning. The complete past-tense pattern and interface schema require broader claim-specific evidence; independent review remains pending.
 
 ### Interface with Lexicon
 
@@ -208,7 +252,7 @@ Diagnostic: does every final written *s* express plural? No. The string can occu
 This is a descriptive working framework rather than a commitment to one morpheme-based theory. Word-and-paradigm and constructional accounts can organize the same evidence differently. Historical etymology, complete paradigms and detailed dialectal variation require further evidence.
 
 ## Evidence status
-**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) identifies inspected allomorphy and inflection passages. Examples and the overall component map are an authored synthesis, not the source's endorsement of this repository.
+**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md#morphology-coverage-passages) identifies selected morpheme, allomorphy, inflection, derivation and compound passages. [Richards](../references/richards-2022-morphology.md) supports selected affix-selection and alternation distinctions. Paradigm/syncretism detail, productivity measurement and full accounts of conversion, clitics, nonconcatenative patterns and morphological theory remain gaps. The current outline is an introductory selection, not an exhaustive taxonomy. Examples and the overall component map are an authored synthesis, not the source's endorsement of this repository.
 
 ## Related knowledge
 [Morpheme](../concepts/morpheme.md), [root base and stem](../concepts/root-base-and-stem.md), [inflection](../concepts/inflection.md), [derivation](../concepts/derivation.md), [compounding](../concepts/compounding.md), [allomorphy](../concepts/allomorphy.md) and [paradigm and syncretism](../concepts/paradigm-and-syncretism.md) provide reusable distinctions. [Word formation hierarchy](#word-formation-hierarchy) develops internal structure.
