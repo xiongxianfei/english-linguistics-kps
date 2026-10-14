@@ -12,9 +12,13 @@ Understand English through five kinds of self-contained knowledge, ten subsystem
 ## Summary
 This foundation contains **131 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and five Practices, plus eleven supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
 
+## Explore by subject
+
+The [English linguistics subject map](docs/subject-map.md) organizes sounds, words, sentences, meaning and context. Its [thirteen sound topics](docs/subject-map.md#sound-systems) connect the established distinctions to existing Concepts, Principles, Models and Methods. Use it to understand the subject structure and find explanations; use a Practice for a learning or investigation route.
+
 ## Learn through a Practice
 
-[Learn English linguistics](practices/learn-english-linguistics.md) provides the target learning route and one complete sound-analysis exercise: a worked comparison, a new case, feedback and explicit evidence limits. Definitions and Models are explained again where the task needs them. The [sound coverage map](docs/SCOPE.md#sound-learning-coverage) connects ten topics to existing knowledge, source support and remaining gaps. The other learning areas are an outline for further units; no learner outcomes are claimed.
+[Learn English linguistics](practices/learn-english-linguistics.md) provides the target learning route and one complete sound-analysis exercise: a worked comparison, a new case, feedback and explicit evidence limits. Definitions and Models are explained again where the task needs them. The other learning areas are an outline for further units; no learner outcomes are claimed.
 
 ## Start with an explanation
 [One passage across ten domains](models/one-passage-ten-domains.md) analyzes *Those students repaired the printers. They tested them again.* It distinguishes word forms, clause functions, semantic participants, contextual reference, discourse connections, focus and possible pronunciation. No recording was supplied, so its phonetic observations remain unknown rather than invented.
@@ -56,7 +60,7 @@ Every linguistic object remains provisional. Selected source inspection does not
 
 ## Authoring and checks
 
-Reading requires no scripts. Maintainer guidance lives in `docs/`; [Checks](docs/CHECKS.md) explains the retained tools and document moves. The single optional index lives in `docs/INDEX.md`; authoring and pronunciation guidance are alongside it.
+Reading requires no scripts. Maintainer guidance lives in `docs/`; [Checks](docs/CHECKS.md) explains the retained tools and document moves. The authored subject map lives in `docs/subject-map.md`; the optional generated role index lives in `docs/INDEX.md`. Authoring and pronunciation guidance are alongside them.
 The package follows the upstream [Knowledge Practice System](https://github.com/xiongxianfei/knowledge-practice-system) KPS 9.x contract. English package version 0.2.0 is independent of upstream Core 11.0.0; the copied structural checker is 9.1.0. See [AUTHORING](docs/AUTHORING.md) and [COMPATIBILITY](docs/COMPATIBILITY.md).
 
 ```bash
