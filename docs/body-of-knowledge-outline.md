@@ -13,9 +13,9 @@ Understand English through Phonetics, Phonology, Morphology, Lexicon, Syntax, Se
 
 ## Summary
 
-This outline specifies selected introductory coverage across ten named subjects and 56 subject topics, supported by three introductory foundations topics. It reuses established linguistic distinctions and the source contributions recorded below; the selected topic placement and capability targets are authored choices for this package. They are not a universal taxonomy, a processing pipeline or a compulsory learning sequence.
+This outline specifies selected introductory coverage across ten named subjects and 62 subject topics, supported by three introductory foundations topics. It reuses established linguistic distinctions and the source contributions recorded below; the selected topic placement and capability targets are authored choices for this package. They are not a universal taxonomy, a processing pipeline or a compulsory learning sequence.
 
-The package contains 107 knowledge objects and twenty-two Reference records. Their presence does not establish complete coverage or independent linguistic review. Concepts, Principles, Models, Methods and Practices retain their primary roles and may support more than one topic.
+The package contains 107 knowledge objects and 26 Reference records. Their presence does not establish complete coverage or independent linguistic review. Concepts, Principles, Models, Methods and Practices retain their primary roles and may support more than one topic.
 
 ## Purpose and scope
 
@@ -33,7 +33,7 @@ This edition focuses on linguistic structure and interpretation. Sociolinguistic
 
 This original AI-generated overview keeps each subject name visible. Placement is for navigation, not learning order or a processing pipeline. The decorative motifs are not observations or formal analyses. [Saved generation prompt](../diagrams/body-of-knowledge-overview.prompt.txt).
 
-Three detailed views show all 56 subject topics and three foundations topics: [Phonetics, Phonology and Prosody](#sound-systems-illustration); [Morphology, Lexicon, Syntax and shared foundations](#foundations-and-structure-illustration); and [Semantics, Pragmatics, Discourse and Information Structure](#meaning-and-context-illustration). Their grouping is only a page-layout choice; each subject retains its own heading and coverage section.
+Three detailed views show all 62 subject topics and three foundations topics: [Phonetics, Phonology and Prosody](#sound-systems-illustration); [Morphology, Lexicon, Syntax and shared foundations](#foundations-and-structure-illustration); and [Semantics, Pragmatics, Discourse and Information Structure](#meaning-and-context-illustration). Their grouping is only a page-layout choice; each subject retains its own heading and coverage section.
 
 ## Overall outline
 
@@ -44,7 +44,7 @@ Three detailed views show all 56 subject topics and three foundations topics: [P
 | 1. [Phonetics](#phonetics) | Phonetics vs Phonology; Speech production; Consonant articulation; Vowel articulation; IPA and transcription; Speech acoustics; Speech perception; Connected speech processes | [Phonetics](../models/english-phonetics-system.md) |
 | 2. [Phonology](#phonology) | Phones, phonemes and allophones; Minimal pairs and contrast; Distribution and allophony; Distinctive features and natural classes; Syllable structure; Phonotactics; Lexical stress; Sound patterns and alternations; Phonological interfaces | [Phonology](../models/english-phonology-system.md) |
 | 3. [Morphology](#morphology) | Word identity and form; Internal word structure; Inflection and word formation; Alternation and lexical limits; Allomorphy vs allophony | [Morphology](../models/english-morphology-system.md) |
-| 4. [Lexicon](#lexicon) | Lexical entries and senses; Selection and arguments | [Lexicon](../models/english-lexicon-system.md) |
+| 4. [Lexicon](#lexicon) | Lexemes and lexical entries; Senses and lexical ambiguity; Lexical categories; Selection and argument structure; Lexical relations; Collocations and idioms; Register and variation; Lexical interfaces | [Lexicon](../models/english-lexicon-system.md) |
 | 5. [Syntax](#syntax) | Categories and functions; Constituents and local dependencies; Phrases and clauses; Complement constructions; Verb and auxiliary structure; Clause combination and dependencies | [Syntax](../models/english-syntax-system.md) |
 | 6. [Semantics](#semantics) | Composition and ambiguity; Predication and participants; Reference and denotation; Quantification scope and inference; Time situations and possibility | [Semantics](../models/english-semantics-system.md) |
 | 7. [Pragmatics](#pragmatics) | Sentence meaning vs speaker meaning; Context; Deixis; Reference in context; Presupposition; Entailment vs presupposition vs implicature; Conversational implicature; Gricean reasoning; Speech acts; Direct vs indirect speech acts; Common ground; Information structure and discourse context; Semantics–Pragmatics interface | [Pragmatics](../models/english-pragmatics-system.md) |
@@ -125,7 +125,7 @@ All nine topics are explained inside the single Phonology Model. The [worked com
 
 ### Foundations and structure illustration
 
-![Morphology has five topics, Lexicon two and Syntax six; a separate introductory strip lists the three shared foundations topics.](../diagrams/body-of-knowledge-foundations-and-structure.png)
+![Morphology has five topics, Lexicon eight and Syntax six; a separate introductory strip lists the three shared foundations topics.](../diagrams/body-of-knowledge-foundations-and-structure.png)
 
 This view covers [Morphology](#morphology), [Lexicon](#lexicon), [Syntax](#syntax) and [shared foundations](#shared-foundations). Foundations support every subject, including those pictured in the other views. This original AI-generated artwork uses decorative motifs, not observed data or formal analyses. [Saved generation prompt](../diagrams/body-of-knowledge-foundations-and-structure.prompt.txt).
 
@@ -151,10 +151,16 @@ The topics below appear in the [detailed illustration](#foundations-and-structur
 
 | Topic | Understand — required knowledge | Be able to do — introductory depth | Existing explanations and gaps |
 |---|---|---|---|
-| Lexical entries and senses | Lexical form, sense distinctions, ambiguity and collocation | Draft a small sense-specific lexical description and distinguish lexical ambiguity from a contextual interpretation. | **Partial:** [Lexical entry](../concepts/lexical-entry.md), [sense and lexical ambiguity](../concepts/sense-and-lexical-ambiguity.md), [collocation](../concepts/collocation.md). Sense diagnostics, collocation evidence and corpus-based lexical descriptions remain incomplete. |
-| Selection and arguments | Lexical selection, valency, argument structure and sense dependence | Compare the complements licensed by selected senses and explain why the analysis depends on sense and construction. | **Partial:** [Lexical selection](../concepts/lexical-selection.md), [valency and argument structure](../concepts/valency-and-argument-structure.md), [sense-sensitive selection](../principles/selection-is-sense-sensitive.md). Broader usage evidence and source support for competing argument-structure accounts remain needed. |
+| Lexemes and lexical entries | Lexeme, form, lemma and sense-specific entry fields | Describe what a translation or spelling alone leaves unspecified. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#lexemes-and-lexical-entries); [Lexical entry](../concepts/lexical-entry.md). Full dictionary and lexical-storage accounts remain outside scope. |
+| Senses and lexical ambiguity | Polysemy, homonymy, sense and contextual reference | Compare readings without turning every contextual inference into a new sense. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#senses-and-lexical-ambiguity); [Sense and lexical ambiguity](../concepts/sense-and-lexical-ambiguity.md). Difficult sense boundaries need lexicographic and distributional evidence. |
+| Lexical categories | Inflection, distribution and category versus function | Distinguish noun and verb uses of the same spelling. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#lexical-categories); [Lexeme and word form](../concepts/lexeme-and-word-form.md). Wider category inventories and exceptional distributions require further treatment. |
+| Selection and argument structure | Complement licensing, participants, valency and semantic compatibility | Explain DEPEND versus DISCUSS and distinguish an NP inside a PP from a verb Object. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#selection-and-argument-structure); [Lexical selection](../concepts/lexical-selection.md), [valency](../concepts/valency-and-argument-structure.md), [sense-sensitive selection](../principles/selection-is-sense-sensitive.md). Broader usage evidence and competing argument-structure theories remain gaps. |
+| Lexical relations | Synonymy, hyponymy, meronymy and antonymy between senses | Distinguish a kind-of relation from part-of and avoid unrestricted synonym substitution. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#lexical-relations); [WordNet Reference](../references/princeton-undated-wordnet.md). Only selected relations are introduced; no database inventory was verified. |
+| Collocations and idioms | Conventional co-occurrence, idiomatic meaning and variation | Separate lexical preference, complement licensing and nonliteral conventional interpretation. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#collocations-and-idioms); [Collocation](../concepts/collocation.md). Corpus frequencies, idiom patterns and variety-specific claims remain unverified. |
+| Register and variation | Situational appropriateness, connotation and community variation | Separate a usage label from grammaticality and identify evidence needed for it. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#register-and-variation); [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). Connotation has selected support; fuller register and regional-variation sources remain needed. |
+| Lexical interfaces | Word structure, complement frames and compositional meaning | Explain what each neighboring subsystem adds to a lexical entry. | **Partial:** [Lexicon explanation](../models/english-lexicon-system.md#interfaces); [Morphology](../models/english-morphology-system.md#interface-with-lexicon), [Syntax](../models/english-syntax-system.md#interface-with-lexicon), [Semantics](../models/english-semantics-system.md#interface-with-lexicon). Mappings are provisional; theory comparison and claim-level evidence remain incomplete. |
 
-[Lexicon Syntax](../models/english-lexicon-system.md#interface-with-syntax) connects lexical senses and available constructions. Existing lexical entries and constructed contrasts do not supply a corpus-based inventory or settle competing lexical theories.
+The [worked entry](../models/english-lexicon-system.md#worked-entry) connects forms, senses, conventional combinations and local complement structure. These eight coverage areas make necessary distinctions visible; they are not eight new Models or a fixed topic count for other subsystems. Constructed examples do not supply a corpus inventory or settle competing lexical theories.
 
 ## Syntax
 
@@ -313,8 +319,10 @@ This organization is a provisional authored synthesis with claim-level external 
 
 | Established account | Contribution to this outline | Boundary |
 |---|---|---|
-| [Anderson first edition](../references/anderson-2018-essentials-of-linguistics.md) | Selected accounts of articulation, transcription, contrast, sound processes, word forms, constituents and meaning | Only the recorded passages were inspected; Canadian examples do not define a full General American inventory |
+| [Anderson first edition](../references/anderson-2018-essentials-of-linguistics.md) | Selected accounts of articulation, transcription, contrast, sound processes, word forms, category diagnostics, complement selection, constituents and meaning | Only the recorded passages were inspected; Canadian examples do not define a full General American inventory |
 | [Richards on Morphology](../references/richards-2022-morphology.md) | Affix selection and regular versus idiosyncratic alternation | Selected lecture prose; no complete productivity or paradigm theory |
+| [Princeton WordNet](../references/princeton-undated-wordnet.md) | Sense-based lexical organization and selected meaning relations | Documentation only; no database queries or exhaustive relation inventory |
+| [British Council lexical combinations](../references/british-council-undated-lexical-combinations.md) | Collocation and idiomatic interpretation | Introductory teaching definitions; no frequency, register or dialect evidence |
 | [Walter on modal forms](../references/walter-2016-modal-verbs-basics.md) | Following base forms in central-modal constructions | Narrow pedagogical support; not evidence for every auxiliary construction |
 | [British Council grammar reference](../references/british-council-undated-grammar-reference.md) | Selected possibility and request constructions | No universal politeness ranking or interactional outcome established |
 | [Official IPA chart](../references/international-phonetic-association-undated-ipa-chart.md) | Symbol categories and notation, including consonant and vowel dimensions | A chart does not specify an English phoneme inventory or a speaker's realization |

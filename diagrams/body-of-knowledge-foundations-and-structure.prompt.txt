@@ -10,8 +10,14 @@ Panel heading: "Morphology". Topics, each exactly once:
 - "Alternation and lexical limits"
 - "Allomorphy vs allophony"
 Panel heading: "Lexicon". Topics, each exactly once:
-- "Lexical entries and senses"
-- "Selection and arguments"
+- "Lexemes and lexical entries"
+- "Senses and lexical ambiguity"
+- "Lexical categories"
+- "Selection and argument structure"
+- "Lexical relations"
+- "Collocations and idioms"
+- "Register and variation"
+- "Lexical interfaces"
 Panel heading: "Syntax". Topics, each exactly once:
 - "Categories and functions"
 - "Constituents and local dependencies"

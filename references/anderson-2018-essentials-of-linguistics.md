@@ -1,7 +1,7 @@
 ---
 id: "english:reference:anderson-2018-essentials-of-linguistics"
 type: "reference"
-version: "0.2.6"
+version: "0.2.7"
 language: "KPS 9.x"
 status: "draft"
 creator: "Catherine Anderson"
@@ -9,7 +9,7 @@ publication: "Essentials of Linguistics, first edition, McMaster University"
 publication_date: "2018-03-15"
 date_basis: "Publication date and creator from the inspected book landing metadata. This record is not the second edition."
 accessed: "2026-10-14"
-access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels, 4.4 Natural Classes, 3.5 Assimilation, 3.6 Other Articulatory Processes and 3.8 Transcribing Casual Speech inspected on 2026-10-13; aspiration and suprasegmental text rechecked. Sections 9.1 Ambiguity and 2.1 How Humans Produce Speech HTML inspected on 2026-10-14. Sections 4.2 and 4.3 introductory HTML and opening script passages, and 4.5 introductory HTML and script inspected on 2026-10-14. Morphology HTML selections 6.1 through 6.4 and 7.2 inspected on 2026-10-14 as recorded below. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
+access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels, 4.4 Natural Classes, 3.5 Assimilation, 3.6 Other Articulatory Processes and 3.8 Transcribing Casual Speech inspected on 2026-10-13; aspiration and suprasegmental text rechecked. Sections 9.1 Ambiguity and 2.1 How Humans Produce Speech HTML inspected on 2026-10-14. Sections 4.2 and 4.3 introductory HTML and opening script passages, and 4.5 introductory HTML and script inspected on 2026-10-14. Morphology HTML selections 6.1 through 6.4 and 7.2 inspected on 2026-10-14 as recorded below. Sections 7.1 and 8.6 HTML prose inspected on 2026-10-14 as recorded below. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
 reviewed: null
 ---
 
@@ -101,3 +101,9 @@ The introductory paragraph and HTML script of [4.5 Phonological Derivations](htt
 On 2026-10-14 the assistant inspected the prose on wordhood and free/bound morphemes in [6.1 Words and Morphemes](https://pressbooks.pub/essentialsoflinguistics/chapter/6-2-words-and-morphemes/), the HTML text of [6.2 Allomorphs](https://pressbooks.pub/essentialsoflinguistics/chapter/6-3-allomorphs/), and the introductory paragraphs and scripts of [6.3 Inflectional Morphology](https://pressbooks.pub/essentialsoflinguistics/chapter/6-4-inflectional-morphology/), [6.4 Derivational Morphology](https://pressbooks.pub/essentialsoflinguistics/chapter/6-5-unsure-how-to-format-that-derivational-morphology/) and [7.2 Compound Words](https://pressbooks.pub/essentialsoflinguistics/chapter/7-3-compound-words/). Contributions are limited to form/contribution distinctions, grammatical realization, derivational operations and compound interpretation. The Model's examples and coverage arrangement are authored applications.
 
 No embedded video or audio was played. The simplified wordhood tests, claim that inflection is always last, and general head-final wording are not adopted as exceptionless laws. The local account distinguishes roots within a compound from its head rather than treating the source's “no root” wording as a universal terminology rule. The repeated table following happiness does not supply an additional analysis. Earlier recorded contributions remain unchanged; the new passages do not validate all recipient claims.
+
+## Lexical category and selection passages
+
+On 2026-10-14 the assistant inspected the explanatory HTML prose in [7.1 Nouns, Verbs and Adjectives](https://pressbooks.pub/essentialsoflinguistics/chapter/7-2-nouns-verbs-and-adjectives-open-class-categories/) and the introductory paragraph and HTML script of [8.6 Subcategories](https://pressbooks.pub/essentialsoflinguistics/chapter/8-7-subcategories/). The bounded contributions are category diagnostics using inflection and distribution, and complement-sensitive verb subcategorization. Earlier contributions remain unchanged.
+
+The Model does not adopt the chapter's entire category inventory, X-bar trees or mental-storage account. Its generalizations about mass nouns, abstract nouns and adverb comparison are not treated as exceptionless rules; nor are all intransitives equated with one semantic participant or all dative alternants with identical meaning. No video, tree image or speaker judgments were independently evaluated. Sections 9.1 and 10.1 were reread within their existing recorded scope. New support here does not establish every example or linked object's claims.
