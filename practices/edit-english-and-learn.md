@@ -11,7 +11,7 @@ basis_kind: "AI-assisted authored synthesis and constructed examples; independen
 reviewed: null
 references: ["english:reference:skillsmith-editor-skill", "english:reference:walter-2016-modal-verbs-basics", "english:reference:british-council-undated-grammar-reference", "english:reference:anderson-2018-essentials-of-linguistics"]
 uses_concepts: ["english:concept:ambiguity-and-vagueness", "english:concept:modality", "english:concept:speech-act"]
-uses_models: ["english:model:auxiliary-selection-model"]
+uses_models: ["english:model:english-syntax-system"]
 stage_titles: ["Stage1 Establish the communication target", "Stage2 Diagnose the concrete difficulty", "Stage3 Make the smallest justified revision", "Stage4 Check fidelity and explain the pattern"]
 practice_format: "staged-inline-stageN-v1"
 stage_order: "recommended; unresolved meaning returns to clarification before revision"
@@ -87,7 +87,7 @@ Explain the mechanism before deciding what to replace. Change only what addresse
 
 **Limits:** This is a scoped standard-English construction, not a rule that every verb after every modal-like expression lacks *to*. For example, *ought to* has a different pattern. The same word *may* can concern permission elsewhere; the context here establishes possibility. If the original were already “We may deliver the update tomorrow,” proofreading would require no change.
 
-Support: [Walter on modal forms](../references/walter-2016-modal-verbs-basics.md#inspected-contribution) and [British Council on possibility](../references/british-council-undated-grammar-reference.md#possibility). The [auxiliary selection Model](../models/auxiliary-selection-model.md) generalizes the local form relationship; [modality](../concepts/modality.md) distinguishes contextual readings.
+Support: [Walter on modal forms](../references/walter-2016-modal-verbs-basics.md#inspected-contribution) and [British Council on possibility](../references/british-council-undated-grammar-reference.md#possibility). The [auxiliary selection](../models/english-syntax-system.md#auxiliary-selection) generalizes the local form relationship; [modality](../concepts/modality.md) distinguishes contextual readings.
 
 ### Case B Clarify attachment before choosing a meaning
 

@@ -22,32 +22,29 @@ class FoundationTests(unittest.TestCase):
         self.assertEqual(len(files), 10)
         self.assertEqual({kps.parse(p).meta['system_domain'] for p in files}, DOMAINS)
 
-    def test_subsystem_sections_contain_local_explanations(self):
-        for path in (ROOT/'models').glob('english-*-system.md'):
-            doc=kps.parse(path)
-            for heading in ['Purpose','Representation','Essential distinctions','Interfaces','Evaluation and counterevidence','Assumptions and limits','Evidence status']:
-                with self.subTest(file=path.name, heading=heading):
-                    self.assertTrue(kps.meaningful(kps.section(doc,heading)))
-            self.assertTrue(re.search(r'^## Worked (?:example|analysis|entry)$',doc.live,re.M))
-
-    def test_fourteen_interfaces_are_models(self):
-        paths=list((ROOT/'models').glob('*-interface.md'))
-        self.assertEqual(len(paths),14)
-        for path in paths:
-            doc=kps.parse(path)
-            self.assertEqual(doc.meta['type'],'model')
-            for heading in ['Purpose','Representation','Assumptions and limits','Evaluation and counterevidence']:
-                # Representations may be locally complete fenced text diagrams.
-                section=re.search(r'^## '+re.escape(heading)+r'\s*\n(.*?)(?=^## |\Z)',doc.body,re.M|re.S)
-                self.assertIsNotNone(section,(path,heading))
-                self.assertTrue(kps.meaningful(section[1]),(path,heading))
-
+    def test_model_prose_and_subject_headings_work_with_domain_tools(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target=pathlib.Path(tmp)/'repo'
+            shutil.copytree(ROOT,target,ignore=shutil.ignore_patterns('.git','__pycache__'))
+            path=target/'models/english-morphology-system.md'
+            text=path.read_text().replace('## Evidence status', '## Source boundaries')
+            text=text.replace('#evidence-status', '#source-boundaries')
+            path.write_text(text)
+            errors,_=check_domain.inspect(target)
+            self.assertEqual(errors,[])
+            previous=build_navigation.ROOT
+            try:
+                build_navigation.ROOT=target
+                entry=next(x for x in build_navigation.collect() if x[0]=='models/english-morphology-system.md')
+                self.assertTrue(entry[3])
+            finally:
+                build_navigation.ROOT=previous
 
     def test_language_and_versions_are_distinct(self):
         pub=json.loads((ROOT/'publication.json').read_text())
         self.assertEqual(pub['kps_language'],'9.x')
         self.assertEqual(pub['version'],'0.2.0')
-        self.assertEqual(pub['validated_with'],'9.1.0')
+        self.assertEqual(pub['validated_with'],kps.VALIDATOR_VERSION)
         self.assertEqual(pub['upstream_core'],'11.0.0')
         for folder in ['concepts','principles','models','methods','practices','references']:
             for path in (ROOT/folder).glob('*.md'):
@@ -58,7 +55,7 @@ class FoundationTests(unittest.TestCase):
         actual=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
         lock=json.loads((ROOT/'upstream-lock.json').read_text())
         self.assertEqual(actual,lock['copied_files']['validate.py'])
-        self.assertEqual(actual,'36ee1e7d6f991819d6d35b3764f7e16f8fb3fbc8')
+        self.assertEqual(lock['validator_version'],kps.VALIDATOR_VERSION)
 
 
     def test_build_does_not_accept_dependencies(self):

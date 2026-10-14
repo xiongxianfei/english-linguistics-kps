@@ -43,7 +43,7 @@ One branch and one PR are the delivery workflow. The existing read-only PR check
 | `tools/build_navigation.py` | Keep one knowledge index aligned with the canonical Markdown |
 | `tools/linguistic_examples.py` and `tests/` | Constructed examples, checker integrity, provenance and review declarations |
 
-These tools serve existing checks; none is required for reading. Catalog generation does not rewrite knowledge or accept dependency fingerprints. Keep the pinned validator local for standalone use, with Core as the upstream owner. Adopt a newer copy only through a separate compatibility review. No new sync, build or publishing script is needed.
+These tools serve existing checks; none is required for reading. Catalog generation does not rewrite knowledge or accept dependency fingerprints. Keep the pinned validator local for standalone use, with Core as the upstream owner. The flexible Model change explicitly adopts the 9.2.0 commit recorded in the lock; later adoptions still require compatibility review. No new sync, build or publishing script is needed.
 
 ## Text bytes
 

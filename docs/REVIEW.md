@@ -48,7 +48,7 @@ The 2026-10-11 pronunciation publication record reports authoring inspection of 
 
 ## Priority evidence gaps
 
-Prioritize accent inventories and acoustic measurement, lexical exceptions, formal derivations, corpus frequencies, discourse frameworks, variation, acquisition and historical change. The current subsystem and interface Models are a bounded foundation, not exhaustive coverage.
+Prioritize accent inventories and acoustic measurement, lexical exceptions, formal derivations, corpus frequencies, discourse frameworks, variation, acquisition and historical change. The ten subsystem Models and their interface sections are a bounded foundation, not exhaustive coverage.
 
 Use the [knowledge index](INDEX.md) to select a bounded claim. Read its Reference access limits, inspect the source passage, test a counterexample and record what remains unsupported. Objects without references need external support; selected references still require claim-level fit review. Never promote review status without an actual version-specific review record.
 
@@ -99,3 +99,78 @@ On 2026-10-14, the authoring assistant reviewed Edit English and learn from revi
 The complete Skillsmith editor document was inspected at the revision recorded in its new Reference. It supplies workflow provenance only. Inspected linguistic text comprises Walter's modal-form explanation, the British Council's opening Possibility and Requests explanations, and Anderson 9.1 Ambiguity. Reference records state the narrow contributions; the three revised knowledge objects retain provisional status and identify their unsupported broader claims. No source audio, external exercise results or user comments supply evidence for this addition.
 
 Before accepting fingerprints, the assistant compared the new Practice's summary and local explanations with its four knowledge dependencies and four Reference dependencies. The Summary and Evidence status sections of all 26 existing recipients of the revised Anderson record, ambiguity Concept, speech-act Concept or auxiliary Model were inspected. Anderson's earlier contributions are unchanged; the new support does not validate broader claims in receiving summaries. Those summaries remain consistent with their stated limits. The three revised objects' new Reference links were also checked. This is an editorial self-review and dependency check, not independent scientific approval or demonstrated teaching effectiveness.
+
+## Ten subsystem consolidation on 2026 10 14
+
+The 35 Model files were consolidated into the ten existing subsystem Models. Their stable subsystem IDs remain unchanged. Fourteen interface explanations now appear in both connected Models, with a local explanation, endpoint-specific purpose and reciprocal section link. Eight component explanations have these primary homes:
+
+| Component | Owning subsystem |
+|---|---|
+| Phonological word | Phonology |
+| Word formation hierarchy | Morphology |
+| Auxiliary selection and nested clauses | Syntax |
+| Quantifier scope and temporal reference | Semantics |
+| Utterance interpretation | Pragmatics |
+| Discourse network | Discourse |
+
+The body of knowledge outline retains the overall organization and now links every subject to its Model. All 40 subject-topic requirements and three foundation-topic requirements were preserved. The ten-perspective representation table is in the outline; the existing utterance-analysis Method retains the two integrated passages and passive comparison. A name mismatch between the temporal diagram and its example was corrected. Existing diagrams and their prompts remain unchanged because subject coverage did not change.
+
+The authoring assistant compared the migrated representations, worked explanations, counterconditions and limits with the prior files. Source dependencies were carried into the receiving Models or Method; source-access declarations and abstract-only limits were retained. Local Reference records were reread for their stated contributions and nonclaims. No new external publication inspection, speech recording, corpus collection, learner trial or independent linguistic review is claimed.
+
+Affected Model and Method summaries and the four receiving Practice summaries were reviewed before refreshing dependency fingerprints. Incoming links, heading fragments, typed dependencies and the existing navigation generator now address the surviving documents. No compatibility stubs or permanent migration scripts were added. The package contains 107 knowledge objects and fourteen References; every linguistic object remains provisional.
+
+The KPS validator, domain checks, generated-index freshness check and all 27 remaining tests passed. The obsolete test requiring fourteen separate interface Model files was removed; constructed linguistic fixtures, source and review checks and the pinned-validator checks remain. Additional migration checks confirmed all 25 destinations, retained component and interface content, unchanged topic requirements and Practice stage anchors, source-access limits, shared engineering principles, image bytes, Markdown table rendering and LF text. These checks support editorial consistency, not scientific completeness or demonstrated reader competence.
+
+## Pragmatics topic and source refinement on 2026 10 14
+
+Pragmatics 0.3.0 replaces three broad outline entries with thirteen visible topics inside the existing subsystem Model. The outline now contains 50 subject topics and three foundation topics; other subject coverage rows are unchanged. The Model retains the earlier contextual-resolution, folder-request and parcel-update distinctions, adds an explicit inference comparison and Gricean derivation, and connects the topics through one constructed printer-room conversation. The Semantics counterpart link follows the new visible interface heading. There are still ten Models and 107 knowledge objects, now with nineteen References.
+
+Five new teaching-source records state the inspected passages and limitations: Bhatt's implicature handout; Fox and Menendez-Benito's opening Pragmatics pages and presupposition notes; Gibson's introductory and perspective slides; and selected Edinburgh utterance, reference and speech-act readings. The reusable Gricean reasoning Concept 0.1.1 now qualifies the scalar inference and attaches the two relevant records. No source figures or publications were copied into the package. Roberts remains abstract-only, and cited underlying studies and books were not independently inspected.
+
+The authoring assistant walked through the constructed conversation: some does not identify a particular unchecked printer; both can cancel the not-all inference; prior jamming is background rather than initially shared information; identifying a requested folder and carrying out a request are distinct. Source-supported distinctions, authored applications and unverified extensions remain explicit. This is an editorial self-review, not independent linguistic review or a learner trial.
+
+Before accepting dependency fingerprints, the assistant compared the revised Model with its twelve Concept summaries, neighboring Model interfaces and six Reference records. The ten affected dependency recipients were reviewed: Gricean reasoning, Implicature, Implicatures are defeasible, Analyze complete utterance, Learn English linguistics, and the Pragmatics, Semantics, Discourse, Lexicon and Syntax Models. Receiving summaries retain their existing scope; the new sources do not automatically validate broader claims in those objects.
+
+The regenerated meaning-and-context illustration was visually checked against all 23 topic labels across its four subject panels. Its thirteen Pragmatics topics match the outline, and the saved prompt records the generation specification. The other illustrations retain the same coverage. No new permanent scripts or wording tests were introduced.
+
+The KPS validator, domain checks, navigation freshness and all 27 tests passed. Focused checks confirmed all thirteen topic anchors, unchanged coverage rows outside Pragmatics, the ten-Model inventory, valid PNG chunks and LF text. These establish publication consistency, not scientific completeness or demonstrated learning.
+
+## Phonetics coverage refinement on 2026 10 14
+
+Phonetics 0.3.0 makes eight topics visible within the existing Model. Speech production, acoustics and perception now have dedicated outline entries and explanations. The original consonant, vowel, process and interface tables are retained; renamed topic headings have their incoming links migrated. The outline now has 53 subject topics and three shared foundations. Other subject coverage rows are unchanged, and there remain ten Models and 107 knowledge objects.
+
+The assistant inspected Anderson 2.1's introductory paragraph and HTML production script, Oxford's selected source/filter and acoustics teaching prose, the Praat spectrogram manual section and selected text from Flemming's MIT perception lecture. Three new Reference records and the extended Anderson record identify access boundaries, bringing the total to twenty-two. No source audio, chart measurements or underlying experiments were inspected or replicated. The unsuccessful UCL retrievals are not used as source support.
+
+The editorial walkthrough checked whether a reader can connect lip closure and nasal airflow, distinguish F0 from formants, interpret signal-view axes, calculate the constructed +50 ms interval and explain why it does not establish a phoneme or listener response. The pin/spin/bin comparison connects the eight topics while retaining General American and observation limits. These are authored explanations, not a pronunciation trial or independent linguistic review.
+
+Before refreshing dependency fingerprints, the assistant reviewed the revised Model against its seven Concept summaries, Principle, Method, neighboring Models and six Reference records. The Summary and Evidence status sections of all 22 affected knowledge recipients were inspected. Existing Anderson contributions remain unchanged; the additional production passage does not validate unrelated recipient claims. Receiving summaries retain their existing limits.
+
+The sound-systems image was regenerated with eight Phonetics, six Phonology and three Prosody topics. A targeted image edit removed unrequested symbols from the decorative bubbles. All seventeen topic labels were visually checked against the outline; the prompt records both generation and correction. The artwork is illustrative and supplies no anatomical or acoustic measurements. Focused checks confirmed topic anchors, unchanged other-subject coverage, retained tables, timing arithmetic, ten Models, LF text and valid PNG chunks. No new permanent scripts or tests were added.
+
+The ordinary KPS validator, domain checks, navigation freshness check and all 27 tests passed after this refinement. These are publication checks, not independent factual certification.
+
+## Phonology coverage refinement on 2026 10 14
+
+Phonology 0.3.0 exposes nine topics within the existing subsystem Model. The worked comparison separates lexical contrast, candidate contextual realization and an unresolved classification. The consonant and vowel tables, phonological-word tree, connected-speech explanation and all three local interfaces are retained. The outline now contains 56 subject topics and three shared foundations; other subjects' coverage rows are unchanged. The package retains ten Models and 107 knowledge objects, with 23 Reference records.
+
+The assistant inspected Anderson 4.2 and 4.3 introductory HTML and opening scripts and 4.5's introductory paragraph and HTML script. The existing record states the limited contributions and avoids adopting the sources' shortcuts as universal claims. A new Kenstowicz record identifies selected prose from MIT Lecture 5 page 1, Lecture 19 pages 1–2 and Lecture 22 page 1. No underlying studies, recordings or complete course inspection is claimed. The inaccessible second-edition Pressbooks page was not used as support.
+
+The editorial walkthrough checked pin/bin against pin/spin, the overly broad class “voiceless sounds,” possible versus attested sequences, lexical stress versus sentence accent, and the unresolved single-phone case. Constructed transcriptions remain predictions or analytical illustrations. This is assistant self-review, not independent linguistic approval or a learner trial.
+
+Before refreshing fingerprints, the assistant compared the revised Model with its twelve Concept summaries, Principle, three neighboring Models and three Reference records. Summary and Evidence status sections of all 22 affected recipients were reviewed. Anderson's earlier contributions remain unchanged, and receiving summaries retain their previous limits. Sources attached to the Model do not silently close the reusable Concepts' separate evidence gaps.
+
+The built-in image generator produced the revised sound-systems illustration. All twenty labels were visually checked: eight Phonetics, nine Phonology and three Prosody topics. The saved prompt records the specification. Decorative anatomy, brain, speech and wave motifs are illustrative, not empirical observations or neural localization claims. No new permanent scripts or tests were added.
+
+The KPS validator, domain checks, generated-navigation freshness and all 27 tests passed. Focused checks confirmed 56 subject topics plus three foundations, unchanged other-subject coverage rows, ten Models, retained attribute sections, valid PNG chunks and LF text. These are publication checks, not independent factual certification.
+
+## Flexible Model and Morphology review on 2026 10 14
+
+The package explicitly adopts the proposed Core 9.2.0 checker at the immutable commit in upstream-lock.json. The copy is byte-identical. Model authoring now requires introductory prose and linked Contents, while coverage, connected explanations, interfaces and evidence limits remain responsibilities rather than prescribed headings. Other roles retain their opening rules. The former fixed-section assertion was replaced with a regression exercising the domain checker and catalog with flexible Model prose; evidence and review declarations remain checked.
+
+Morphology 0.3.0 uses this format. Its five existing outline areas remain intact, with internal topics visible through Contents. The worked comparison connects teacher, teachers, schoolteachers, cats and went, then distinguishes noun and verb reports. The schoolteachers hierarchy, restarted example, regular ending table and three interface explanations are retained. Coverage gaps include fuller paradigm and syncretism support, conversion, clitics, nonconcatenative patterns and competing theories. Existing illustrations still depict the same five areas and were not regenerated.
+
+The assistant inspected selected Anderson 6.1–6.4 and 7.2 HTML explanations and selected prose from Richards's MIT 2022 Lecture 3. The Reference records specify passage scope and nonclaims. The Model does not turn simplified wordhood tests, head-final statements or derivation-before-inflection examples into exceptionless rules. Its examples are constructed, not a learner trial, corpus sample or observed speech. No independent linguistic review is claimed.
+
+The revised Model's introduction and local explanations were compared with its seventeen Concept dependencies, the three neighboring Model summaries and the two Reference records. The summaries and evidence limits of all 22 affected recipients were inspected before refreshing fingerprints. The extended Anderson record preserves earlier contributions; new source support does not silently validate unrelated claims or close the Concepts' separate source gaps. The resulting package retains 107 knowledge objects, ten Models, 56 subject-topic rows and three foundations, with 24 References.
+
+The ordinary KPS validator, domain checks, navigation freshness and all 27 English tests passed. Focused comparisons confirmed unchanged non-Morphology coverage rows, unchanged bytes for the other nine Models and all diagrams, ten subsystem Models, exact checker correspondence with the pinned Core commit and LF text. These checks establish structural consistency, not factual completeness or teaching effectiveness.

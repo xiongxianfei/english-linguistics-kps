@@ -190,75 +190,25 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 ## Models
 
-**[Auxiliary selection model](../models/auxiliary-selection-model.md).** Local auxiliary selection explains the form of each following verb independently of the construction label.
-
-**[Discourse Information Structure interface](../models/discourse-information-structure-interface.md).** A stated discourse context constrains an information-structure analysis without making grammatical Subject, Topic and Focus interchangeable.
-
-**[Discourse network model](../models/discourse-network-model.md).** A discourse model tracks referents and relations while keeping textual order distinct from event order and causal direction.
-
 **[English discourse system](../models/english-discourse-system.md).** Discourse analysis connects utterances through referents, coherence relations and interaction while distinguishing text evidence from inferred interpretation.
 
 **[English information structure system](../models/english-information-structure-system.md).** Information structure distinguishes topic, focus, givenness and the question under discussion rather than equating them with grammatical positions or accented words.
 
 **[English lexicon system](../models/english-lexicon-system.md).** The lexicon connects lexical identity, form, senses and combinatorial possibilities; it is not merely a list of spellings and translations.
 
-**[English morphology system](../models/english-morphology-system.md).** Morphology relates word-internal structure, grammatical features and lexical identity without equating morphemes with letters or syllables.
+**[English morphology system](../models/english-morphology-system.md).** Morphology explains word-internal structure, grammatical forms and lexical identity. Use this Model to distinguish a new lexeme from a grammatical form, justify a proposed segmentation, and explain why the same grammatical contribution can have different realizations. Its introductory coverage follows the outline's five areas: word identity and form, internal structure, inflection and word formation, alternation and lexical limits, and allomorphy versus allophony. The examples are constructed analyses; a complete English morphological inventory and independent review remain outside the present scope.
 
 **[English phonetics system](../models/english-phonetics-system.md).** Phonetics describes speech production, the acoustic signal and perception; a written transcription is an analysis, not a recording.
 
 **[English phonology system](../models/english-phonology-system.md).** Phonology models contrast, distribution and the organization of sound patterns within a specified language variety.
 
-**[English pragmatics system](../models/english-pragmatics-system.md).** Pragmatic analysis separates contextual resolution, discourse background and defeasible reasoning about what a speaker is doing.
+**[English pragmatics system](../models/english-pragmatics-system.md).** Separate what an expression contributes, what context resolves, what is treated as background, what is inferred and what action is attempted. Explain the assumptions connecting these parts.
 
 **[English prosody system](../models/english-prosody-system.md).** Prosody organizes prominence, phrasing, timing and intonation across segments; no single pitch movement uniquely determines meaning.
 
 **[English semantics system](../models/english-semantics-system.md).** Semantic analysis distinguishes conventional meaning, compositional structure, reference and inference under an explicitly fixed interpretation.
 
 **[English syntax system](../models/english-syntax-system.md).** Syntax organizes categories, constituent structure, dependencies and grammatical functions; word order alone does not specify the whole analysis.
-
-**[English system architecture](../models/english-system-architecture.md).** English is documented here through distinct, interacting representations rather than a fixed processing staircase.
-
-**[Information Structure Prosody interface](../models/focus-prosody-interface.md).** Focus domains constrain possible prosodic realizations without being identical to the most strongly accented word.
-
-**[Integrated utterance analysis](../models/integrated-utterance-analysis.md).** A worked passage illustrates parallel analyses across subsystems while distinguishing explicit claims from contextual preferences.
-
-**[Lexicon Semantics interface](../models/lexicon-semantics-interface.md).** A sense-specific lexical entry constrains an interpretation without making a spelling identify one context-independent predicate.
-
-**[Lexicon Syntax interface](../models/lexicon-syntax-interface.md).** Lexical senses and constructions constrain the category and form of licensed syntactic complements.
-
-**[Morphology Lexicon interface](../models/morphology-lexicon-interface.md).** Word-formation structure and stored lexical knowledge jointly constrain a complex word’s interpretation without making every meaning predictable from its parts.
-
-**[Morphology Phonology interface](../models/morphology-phonology-interface.md).** Regular English inflection links morphological features to sound-conditioned exponents.
-
-**[Morphology Syntax interface](../models/morphology-syntax-interface.md).** Word-form features and syntactic distributions must be represented separately even when an analysis connects them through agreement or finiteness.
-
-**[Nested clause model](../models/nested-clause-model.md).** A clause analysis records complete constituent spans and their nesting rather than counting verb-looking tokens.
-
-**[One passage across ten linguistic domains](../models/one-passage-ten-domains.md).** The same utterance supports distinct linked analyses; a grammatical function, a semantic role, a focus and a phonetic realization are not interchangeable labels.
-
-**[Phonological word model](../models/phonological-word-model.md).** Segment categories, syllable organization, stress and phonetic realization provide distinct descriptions of a sound pattern.
-
-**[Phonology Phonetics interface](../models/phonology-phonetics-interface.md).** Phonological representations constrain possible phonetic analyses without uniquely specifying an observed speech token.
-
-**[Phonology Prosody interface](../models/phonology-prosody-interface.md).** Syllable organization and lexical stress constrain prosodic realization, but do not uniquely determine phrasal prominence or grouping.
-
-**[Pragmatics Discourse interface](../models/pragmatics-discourse-interface.md).** An utterance interpretation constrains possible discourse updates, while acceptance, challenge and wider context determine what actually becomes shared.
-
-**[Prosody Phonetics interface](../models/prosody-phonetics-interface.md).** A prosodic prominence analysis must be distinguished from the phonetic measurements used to investigate its realization.
-
-**[Quantifier scope model](../models/quantifier-scope-model.md).** A finite-domain toy model makes scope differences explicit without claiming that logic alone predicts English reading availability.
-
-**[Semantics Pragmatics interface](../models/semantics-pragmatics-interface.md).** Conventional meaning, contextual resolution and defeasible inference jointly constrain utterance interpretation.
-
-**[Syntax Prosody interface](../models/syntax-prosody-interface.md).** Syntactic grouping can constrain prosodic grouping without making syntactic constituents and prosodic phrases identical.
-
-**[Syntax Semantics interface](../models/syntax-semantics-interface.md).** Construction-sensitive mappings connect grammatical functions with semantic roles without identifying the two dimensions.
-
-**[Temporal reference model](../models/temporal-reference-model.md).** Temporal interpretation separates tense, reference time, event structure and aspectual viewpoint.
-
-**[Utterance interpretation model](../models/utterance-interpretation-model.md).** An utterance interpretation records conventional constraints, contextual values and defeasible communicated inferences separately.
-
-**[Word formation hierarchy](../models/word-formation-hierarchy.md).** Morphological analyses distinguish the element, the operation, its input base and the resulting lexeme or word form.
 
 
 ## Methods
@@ -292,8 +242,8 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 ## Reading boundaries
 
-Subsystem and interface Models are self-contained explanations, not filtered link lists. Role and domain do not determine a compulsory reading order.
+Ten subsystem Models contain their component and interface explanations. Role and domain do not determine a compulsory reading order.
 
 ## Review and scope
 
-[Review priorities](REVIEW.md#priority-evidence-gaps) explain the remaining evidence work. [One passage across ten domains](../models/one-passage-ten-domains.md) illustrates the integrated analysis; no audio means no measured phonetic result.
+[Review priorities](REVIEW.md#priority-evidence-gaps) explain the remaining evidence work. [One passage across ten domains](../methods/analyze-complete-utterance.md#one-passage-across-ten-domains) illustrates the integrated analysis; no audio means no measured phonetic result.

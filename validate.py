@@ -18,7 +18,7 @@ import sys
 from typing import Any
 from urllib.parse import unquote, urlsplit
 
-VALIDATOR_VERSION = "9.1.0"
+VALIDATOR_VERSION = "9.2.0"
 
 CORE = {"concept", "principle", "model", "method", "practice"}
 FOLDERS = {k: k + 's' for k in CORE}
@@ -106,6 +106,18 @@ def section(doc: Document, pattern: str) -> str:
     if not match:return ''
     end=re.search(r'^## ',doc.live[match.end():],re.M)
     return doc.live[match.end():match.end()+end.start()] if end else doc.live[match.end():]
+
+def model_introduction(doc: Document) -> str:
+    """Read opening prose, or an existing Summary, without prescribing prose headings."""
+    title = re.search(r'^# [^\n]+$', doc.live, re.M)
+    if title:
+        rest = doc.live[title.end():]
+        heading = HEADING.search(rest)
+        opening = rest[:heading.start()] if heading else rest
+        if meaningful(opening):
+            return opening.strip()
+    return section(doc, 'Summary').strip()
+
 
 def meaningful(text: str) -> str:
     # Strip destinations and formatting; retain link labels for normal prose.
@@ -196,9 +208,23 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
         for h,c in counts.items():
             if c>1:error('duplicate-heading',path,h)
             if not SIMPLE.fullmatch(h):error('heading-profile',path,h)
-        for wanted in ('Key takeaway','Summary'):
-            if not any(h==wanted for n,h in doc.headings):error('local-summary',path,'missing '+wanted)
-            elif not meaningful(section(doc,re.escape(wanted))):error('local-summary',path,'empty '+wanted)
+        if typ == 'model':
+            if not meaningful(model_introduction(doc)):
+                error('model-introduction', path, 'missing introductory prose or existing Summary')
+            contents = section(doc, 'Contents')
+            targets = [x[1] or x[2] for x in LINK.finditer(contents)]
+            fragments = ['#' + slug(h) for n, h in doc.headings if n >= 2 and h != 'Contents']
+            if not targets or any(t not in fragments for t in targets):
+                error('model-contents', path, 'Contents must link to actual sections in this Model')
+            elif len(set(targets)) != len(targets) or targets != sorted(targets, key=fragments.index):
+                error('model-contents', path, 'Contents links must follow heading order without duplicates')
+            if not all(meaningful(section(doc, h)) for h in ('Key takeaway', 'Summary')):
+                if not re.fullmatch(r'9\.\d+\.\d+', minimum) or tuple(map(int, minimum.split('.'))) < (9, 2, 0):
+                    error('validator-version', path, 'Models without the former opening require minimum_validator 9.2.0 or later')
+        else:
+            for wanted in ('Key takeaway','Summary'):
+                if not any(h==wanted for n,h in doc.headings):error('local-summary',path,'missing '+wanted)
+                elif not meaningful(section(doc,re.escape(wanted))):error('local-summary',path,'empty '+wanted)
         if re.search(r'<\s*a\b[^>]*\b(?:id|name)\s*=',doc.live,re.I):error('html-anchor',path,'custom HTML anchor is outside this profile')
         if re.search(r'\[\[[^\]]+\]\]',doc.live):error('wikilink',path,'application-specific wikilink')
         ident=m.get('id')
