@@ -31,7 +31,7 @@ The target is understanding how English works: describe an example, connect its 
 
 Stage order is recommended; prerequisites and available evidence govern entry. Revisit a stage whenever an unresolved distinction blocks the next task.
 
-The learning route selects established distinctions from Anderson's inspected articulation, transcription, phonological contrast and word-structure passages. The [source record](../references/anderson-2018-essentials-of-linguistics.md) gives their locations and limits. Our grouping, task sequence and feedback are authored choices. The shared [body of knowledge outline](../docs/body-of-knowledge-outline.md#sound-systems) identifies thirteen sound topics and their relationships, existing explanations and source limits. This Practice selects from that structure; its learning route is not a claim that the textbook endorses this curriculum. New examples follow the package's General American convention.
+The learning route selects established distinctions from Anderson's inspected articulation, transcription, phonological contrast and word-structure passages. The [source record](../references/anderson-2018-essentials-of-linguistics.md) gives their locations and limits. Our grouping, task sequence and feedback are authored choices. The shared [body of knowledge outline](../docs/body-of-knowledge-outline.md#phonetics) organizes sound topics under Phonetics, Phonology and Prosody, showing their relationships, existing explanations and source limits. This Practice selects from that structure; its learning route is not a claim that the textbook endorses this curriculum. New examples follow the package's General American convention.
 
 ## Learning route
 

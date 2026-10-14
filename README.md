@@ -14,11 +14,11 @@ This foundation contains **131 knowledge files**: 72 Concepts, 13 Principles, 35
 
 ## Explore by subject
 
-![English linguistics coverage: foundations of analysis, sound systems, word structure and lexical knowledge, sentence structure, meaning, and context and discourse.](diagrams/body-of-knowledge-overview.png)
+![English linguistics coverage: Phonetics, Phonology, Morphology, Lexicon, Syntax, Semantics, Pragmatics, Discourse, Information Structure and Prosody, supported by shared foundations.](diagrams/body-of-knowledge-overview.png)
 
-The [English Linguistics Body of Knowledge Outline](docs/body-of-knowledge-outline.md) defines six areas and 39 topics, with required understanding, intended capabilities, existing explanations and gaps. Start with the [complete topic outline](docs/body-of-knowledge-outline.md#overall-outline) or its [thirteen sound topics](docs/body-of-knowledge-outline.md#sound-systems). [Open the overview at full size](diagrams/body-of-knowledge-overview.png). The illustration shows selected introductory coverage, not completed learning or the whole discipline.
+The [English Linguistics Body of Knowledge Outline](docs/body-of-knowledge-outline.md) defines ten named subjects, 40 subject topics and three shared foundations topics, with required understanding, intended capabilities, existing explanations and gaps. Start with the [complete topic outline](docs/body-of-knowledge-outline.md#overall-outline) or start with [Phonetics](docs/body-of-knowledge-outline.md#phonetics), [Phonology](docs/body-of-knowledge-outline.md#phonology) and [Prosody](docs/body-of-knowledge-outline.md#prosody). [Open the overview at full size](diagrams/body-of-knowledge-overview.png). The illustration shows selected introductory coverage, not completed learning or the whole discipline.
 
-Three detailed illustrations show the topics within those areas: [sound systems](docs/body-of-knowledge-outline.md#sound-systems-illustration), [foundations, words and sentences](docs/body-of-knowledge-outline.md#foundations-and-structure-illustration), and [meaning, context and discourse](docs/body-of-knowledge-outline.md#meaning-and-context-illustration). They are embedded beside the relevant coverage tables.
+Three detailed illustrations retain the subject names and show all topic labels: [Phonetics, Phonology and Prosody](docs/body-of-knowledge-outline.md#sound-systems-illustration), [Morphology, Lexicon, Syntax and shared foundations](docs/body-of-knowledge-outline.md#foundations-and-structure-illustration), and [Semantics, Pragmatics, Discourse and Information Structure](docs/body-of-knowledge-outline.md#meaning-and-context-illustration). They are embedded beside the relevant coverage tables.
 
 ## Learn through a Practice
 

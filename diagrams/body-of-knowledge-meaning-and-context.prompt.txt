@@ -1,27 +1,23 @@
-Generation mode: built-in image_gen
-Output: body-of-knowledge-meaning-and-context.png
-
 Use case: infographic-diagram
-Asset type: detailed topic illustration for the English Linguistics Body of Knowledge Outline.
-Create a premium landscape 3:2 editorial educational infographic with exceptionally readable typography. Warm ivory background, deep navy lettering, muted teal and pale blue panels, restrained amber accents, fine ink-and-watercolour details. Match a sophisticated illustrated linguistics book. Topic text is the priority, with generous whitespace and small evocative illustrations taking at most one fifth of each panel. Render every topic label exactly once and verbatim, with natural line wrapping. Do not abbreviate. No arrows, invented linguistic examples, IPA symbols, scientific charts, anatomical instructions, performance scores, extra slogans, brands or watermarks. No text over artwork. Opaque background. The groupings are for visual navigation and do not imply processing stages or a lesson order.
-Title: "English Linguistics"
-Subtitle: "Meaning, context and discourse • 11 topics"
-Composition: Two spacious side-by-side panels; five topic rows on the left, six on the right. Strong typography, generous line spacing and small bottom illustrations. All long topic labels must remain complete and readable.
-Left panel heading: "Meaning"
-Topic labels:
-"Composition and ambiguity"
-"Predication and participants"
-"Reference and denotation"
-"Quantification scope and inference"
-"Time situations and possibility"
-Small art: magnifying glass over layered translucent abstract shapes, no semantic formulas.
-Right panel heading: "Context and discourse"
-Topic labels:
-"Utterances and contextual reference"
-"Background and inference"
-"Communicative action"
-"Reference across discourse"
-"Discourse connections"
-"Information structure"
-Small art: two relaxed adults conversing with empty speech bubbles, no written dialogue.
-Footer exact text: "Connected topics • Coverage, not a learning sequence"
+Asset type: high-quality educational editorial illustration embedded in a Markdown body of knowledge outline.
+Create a polished landscape illustration with a warm ivory paper background, fine navy ink, restrained teal, pale blue and amber watercolor accents. Typography must be large, crisp, dark, and legible when the image is displayed at 850px width. Use generous whitespace and delicate subject-relevant ink illustrations in the margins, not dense decorative labels. Clean editorial hierarchy. No watermarks, no source logos, no extra text. No arrows, numbered sequences, invented examples, IPA strings, actual data plots, or claims of completed coverage. Panels are navigation groupings, not exclusive categories or a processing pipeline. Render every supplied heading and topic verbatim. Wrap long labels naturally rather than shrinking them. Give text priority over ornament. Aim for 1536x1024 landscape composition or similarly generous resolution.
+Primary request: A premium educational topic overview. Title: "Meaning in English". Subtitle: "Body of Knowledge — Topic Detail".
+Use four clearly separated named panels in a spacious two-by-two layout. Each subject heading is large and each topic is a clearly readable line or wrapped item. Do not replace the subject headings with umbrella names. Small decorative illustrations suggest the subject without competing with the labels.
+Panel heading: "Semantics". Topics, each exactly once:
+- "Composition and ambiguity"
+- "Predication and participants"
+- "Reference and denotation"
+- "Quantification scope and inference"
+- "Time situations and possibility"
+Panel heading: "Pragmatics". Topics, each exactly once:
+- "Utterances and contextual reference"
+- "Background and inference"
+- "Communicative action"
+Panel heading: "Discourse". Topics, each exactly once:
+- "Reference across discourse"
+- "Discourse connections"
+Panel heading: "Information Structure". Topics, each exactly once:
+- "Topic, focus and QUD"
+- "Givenness and accessibility"
+- "Focus and prosodic realization"
+Footer: "QUD = question under discussion. Topics overlap across subjects."

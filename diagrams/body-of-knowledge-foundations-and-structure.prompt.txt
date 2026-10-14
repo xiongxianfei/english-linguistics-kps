@@ -1,34 +1,26 @@
-Generation mode: built-in image_gen
-Output: body-of-knowledge-foundations-and-structure.png
-
 Use case: infographic-diagram
-Asset type: detailed topic illustration for the English Linguistics Body of Knowledge Outline.
-Create a premium landscape 3:2 editorial educational infographic with exceptionally readable typography. Warm ivory background, deep navy lettering, muted teal and pale blue panels, restrained amber accents, fine ink-and-watercolour details. Match a sophisticated illustrated linguistics book. Topic text is the priority, with generous whitespace and small evocative illustrations taking at most one fifth of each panel. Render every topic label exactly once and verbatim, with natural line wrapping. Do not abbreviate. No arrows, invented linguistic examples, IPA symbols, scientific charts, anatomical instructions, performance scores, extra slogans, brands or watermarks. No text over artwork. Opaque background. The groupings are for visual navigation and do not imply processing stages or a lesson order.
-Title: "English Linguistics"
-Subtitle: "Foundations, words and sentences • 15 topics"
-Composition: A shallow full-width foundations panel at the top, with its three topic labels laid out clearly. Below it, two large equal side-by-side panels for word structure and sentence structure, with six generous topic rows each. Keep long labels on two lines if needed and illustrations small, separate from all text.
-Top panel heading: "Foundations of linguistic analysis"
-Topic labels:
-"Expressions and representations"
-"Evidence and analysis"
-"Grammaticality and acceptability"
-Small art: notebook and magnifying glass, no written words in notebook.
-Left lower panel heading: "Word structure and lexical knowledge"
-Topic labels:
-"Word identity and form"
-"Internal word structure"
-"Inflection and word formation"
-"Alternation and lexical limits"
-"Lexical entries and senses"
-"Selection and arguments"
-Small art: abstract interlocking blocks without letters.
-Right lower panel heading: "Sentence structure"
-Topic labels:
-"Categories and functions"
-"Constituents and local dependencies"
-"Phrases and clauses"
-"Complement constructions"
-"Verb and auxiliary structure"
-"Clause combination and dependencies"
-Small art: small arrangement of blank cards joined with plain lines, no arrows or tree labels.
-Footer exact text: "Connected topics • Coverage, not a learning sequence"
+Asset type: high-quality educational editorial illustration embedded in a Markdown body of knowledge outline.
+Create a polished landscape illustration with a warm ivory paper background, fine navy ink, restrained teal, pale blue and amber watercolor accents. Typography must be large, crisp, dark, and legible when the image is displayed at 850px width. Use generous whitespace and delicate subject-relevant ink illustrations in the margins, not dense decorative labels. Clean editorial hierarchy. No watermarks, no source logos, no extra text. No arrows, numbered sequences, invented examples, IPA strings, actual data plots, or claims of completed coverage. Panels are navigation groupings, not exclusive categories or a processing pipeline. Render every supplied heading and topic verbatim. Wrap long labels naturally rather than shrinking them. Give text priority over ornament. Aim for 1536x1024 landscape composition or similarly generous resolution.
+Primary request: A premium educational topic overview. Title: "Morphology · Lexicon · Syntax". Subtitle: "Body of Knowledge — Topic Detail".
+Use three clearly separated named panels. Give longer lists more room; do not shrink the labels. Each subject heading is large and each topic is a clearly readable line or wrapped item. Do not replace the subject headings with umbrella names. Small decorative illustrations suggest the subject without competing with the labels.
+Panel heading: "Morphology". Topics, each exactly once:
+- "Word identity and form"
+- "Internal word structure"
+- "Inflection and word formation"
+- "Alternation and lexical limits"
+- "Allomorphy vs allophony"
+Panel heading: "Lexicon". Topics, each exactly once:
+- "Lexical entries and senses"
+- "Selection and arguments"
+Panel heading: "Syntax". Topics, each exactly once:
+- "Categories and functions"
+- "Constituents and local dependencies"
+- "Phrases and clauses"
+- "Complement constructions"
+- "Verb and auxiliary structure"
+- "Clause combination and dependencies"
+A separate full-width introductory strip below the panels, heading "Shared foundations", containing all three labels:
+- "Expressions and representations"
+- "Evidence and analysis"
+- "Grammaticality and acceptability"
+Footer: "Shared foundations support all ten subjects."
