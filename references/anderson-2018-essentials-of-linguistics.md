@@ -1,7 +1,7 @@
 ---
 id: "english:reference:anderson-2018-essentials-of-linguistics"
 type: "reference"
-version: "0.2.3"
+version: "0.2.4"
 language: "KPS 9.x"
 status: "draft"
 creator: "Catherine Anderson"
@@ -9,7 +9,7 @@ publication: "Essentials of Linguistics, first edition, McMaster University"
 publication_date: "2018-03-15"
 date_basis: "Publication date and creator from the inspected book landing metadata. This record is not the second edition."
 accessed: "2026-10-14"
-access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels, 4.4 Natural Classes, 3.5 Assimilation, 3.6 Other Articulatory Processes and 3.8 Transcribing Casual Speech inspected on 2026-10-13; aspiration and suprasegmental text rechecked. Section 9.1 Ambiguity HTML inspected on 2026-10-14. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
+access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels, 4.4 Natural Classes, 3.5 Assimilation, 3.6 Other Articulatory Processes and 3.8 Transcribing Casual Speech inspected on 2026-10-13; aspiration and suprasegmental text rechecked. Sections 9.1 Ambiguity and 2.1 How Humans Produce Speech HTML inspected on 2026-10-14. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
 reviewed: null
 ---
 
@@ -83,3 +83,7 @@ The mirror states it is not regularly updated. Selected passages do not verify a
 On 2026-10-14, inspected the HTML explanation in [9.1 Ambiguity](https://pressbooks.pub/essentialsoflinguistics/chapter/9-2-ambiguity/). The text distinguishes lexical ambiguity from alternative syntactic structures and explains an instrument phrase attached to a nominal constituent or a seeing event. This supports the corresponding distinction and attachment analysis in the Ambiguity Concept and editing Practice. The package uses a constructed manager/binoculars example rather than reproducing the source's sentence or trees.
 
 The source adopts X-bar structure and a particular account of compositionality; the editing decision does not require accepting its complete theory. This inspection does not support every vagueness, quantifier-scope or prosody claim in the linked Concept. No video, diagram measurement, learner result or full-book inspection was added. All earlier recorded contributions and their limits remain unchanged.
+
+## Speech production passage
+
+On 2026-10-14, inspected the introductory paragraph and complete HTML Video Script of [2.1 How Humans Produce Speech](https://pressbooks.pub/essentialsoflinguistics/chapter/2-2-how-humans-produce-speech/). The passage supports respiration, laryngeal activity and articulatory shaping, including the glottis and vocal folds. No video, audio or anatomical image measurement was inspected. The Phonetics Model also uses the separately inspected Oxford source account to avoid implying that every speech sound originates in vocal-fold vibration. Earlier contributions and accent limits remain unchanged.

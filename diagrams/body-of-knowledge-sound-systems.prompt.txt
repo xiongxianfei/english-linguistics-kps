@@ -2,12 +2,15 @@ Use case: infographic-diagram
 Asset type: high-quality educational editorial illustration embedded in a Markdown body of knowledge outline.
 Create a polished landscape illustration with a warm ivory paper background, fine navy ink, restrained teal, pale blue and amber watercolor accents. Typography must be large, crisp, dark, and legible when the image is displayed at 850px width. Use generous whitespace and delicate subject-relevant ink illustrations in the margins, not dense decorative labels. Clean editorial hierarchy. No watermarks, no source logos, no extra text. No arrows, numbered sequences, invented examples, IPA strings, actual data plots, or claims of completed coverage. Panels are navigation groupings, not exclusive categories or a processing pipeline. Render every supplied heading and topic verbatim. Wrap long labels naturally rather than shrinking them. Give text priority over ornament. Aim for 1536x1024 landscape composition or similarly generous resolution.
 Primary request: A premium educational topic overview. Title: "Phonetics · Phonology · Prosody". Subtitle: "Body of Knowledge — Topic Detail".
-Use three clearly separated named panels. Give longer lists more room; do not shrink the labels. Each subject heading is large and each topic is a clearly readable line or wrapped item. Do not replace the subject headings with umbrella names. Small decorative illustrations suggest the subject without competing with the labels.
+Use three clearly separated named panels with Phonetics on the left (eight topics), Phonology in the middle (six topics), and Prosody on the right (three topics). There are seventeen topics in total. Give Phonetics the most space. Give longer lists more room; do not shrink the labels. Each subject heading is large and each topic is a clearly readable line or wrapped item. Do not replace the subject headings with umbrella names. Small decorative illustrations suggest the subject without competing with the labels.
 Panel heading: "Phonetics". Topics, each exactly once:
 - "Phonetics vs Phonology"
+- "Speech production"
 - "Consonant articulation"
 - "Vowel articulation"
 - "IPA and transcription"
+- "Speech acoustics"
+- "Speech perception"
 - "Connected speech processes"
 Panel heading: "Phonology". Topics, each exactly once:
 - "Phones, phonemes and allophones"
@@ -22,3 +25,6 @@ Panel heading: "Prosody". Topics, each exactly once:
 - "Phrasing and intonation"
 Small explanatory note below the Phonetics panel: "Connected speech includes elision, assimilation, reduction and linking."
 Footer: "Topics overlap; the written outline explains their connections."
+
+Revision prompt used on the first generated image:
+Edit the supplied educational infographic. Remove only the unsupplied letters 'p t k', 'b d g', and the phi-like symbol from the decorative speech bubbles beneath the Phonology topic list. Keep those bubbles empty watercolor shapes. Preserve all seventeen topic labels, all three panel headings, title, subtitle, note and footer verbatim. Preserve the layout, illustration style, anatomy motif, colors, image size and every other element. Do not add any text.

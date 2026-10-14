@@ -134,3 +134,17 @@ Before accepting dependency fingerprints, the assistant compared the revised Mod
 The regenerated meaning-and-context illustration was visually checked against all 23 topic labels across its four subject panels. Its thirteen Pragmatics topics match the outline, and the saved prompt records the generation specification. The other illustrations retain the same coverage. No new permanent scripts or wording tests were introduced.
 
 The KPS validator, domain checks, navigation freshness and all 27 tests passed. Focused checks confirmed all thirteen topic anchors, unchanged coverage rows outside Pragmatics, the ten-Model inventory, valid PNG chunks and LF text. These establish publication consistency, not scientific completeness or demonstrated learning.
+
+## Phonetics coverage refinement on 2026 10 14
+
+Phonetics 0.3.0 makes eight topics visible within the existing Model. Speech production, acoustics and perception now have dedicated outline entries and explanations. The original consonant, vowel, process and interface tables are retained; renamed topic headings have their incoming links migrated. The outline now has 53 subject topics and three shared foundations. Other subject coverage rows are unchanged, and there remain ten Models and 107 knowledge objects.
+
+The assistant inspected Anderson 2.1's introductory paragraph and HTML production script, Oxford's selected source/filter and acoustics teaching prose, the Praat spectrogram manual section and selected text from Flemming's MIT perception lecture. Three new Reference records and the extended Anderson record identify access boundaries, bringing the total to twenty-two. No source audio, chart measurements or underlying experiments were inspected or replicated. The unsuccessful UCL retrievals are not used as source support.
+
+The editorial walkthrough checked whether a reader can connect lip closure and nasal airflow, distinguish F0 from formants, interpret signal-view axes, calculate the constructed +50 ms interval and explain why it does not establish a phoneme or listener response. The pin/spin/bin comparison connects the eight topics while retaining General American and observation limits. These are authored explanations, not a pronunciation trial or independent linguistic review.
+
+Before refreshing dependency fingerprints, the assistant reviewed the revised Model against its seven Concept summaries, Principle, Method, neighboring Models and six Reference records. The Summary and Evidence status sections of all 22 affected knowledge recipients were inspected. Existing Anderson contributions remain unchanged; the additional production passage does not validate unrelated recipient claims. Receiving summaries retain their existing limits.
+
+The sound-systems image was regenerated with eight Phonetics, six Phonology and three Prosody topics. A targeted image edit removed unrequested symbols from the decorative bubbles. All seventeen topic labels were visually checked against the outline; the prompt records both generation and correction. The artwork is illustrative and supplies no anatomical or acoustic measurements. Focused checks confirmed topic anchors, unchanged other-subject coverage, retained tables, timing arithmetic, ten Models, LF text and valid PNG chunks. No new permanent scripts or tests were added.
+
+The ordinary KPS validator, domain checks, navigation freshness check and all 27 tests passed after this refinement. These are publication checks, not independent factual certification.
