@@ -148,3 +148,17 @@ Before refreshing dependency fingerprints, the assistant reviewed the revised Mo
 The sound-systems image was regenerated with eight Phonetics, six Phonology and three Prosody topics. A targeted image edit removed unrequested symbols from the decorative bubbles. All seventeen topic labels were visually checked against the outline; the prompt records both generation and correction. The artwork is illustrative and supplies no anatomical or acoustic measurements. Focused checks confirmed topic anchors, unchanged other-subject coverage, retained tables, timing arithmetic, ten Models, LF text and valid PNG chunks. No new permanent scripts or tests were added.
 
 The ordinary KPS validator, domain checks, navigation freshness check and all 27 tests passed after this refinement. These are publication checks, not independent factual certification.
+
+## Phonology coverage refinement on 2026 10 14
+
+Phonology 0.3.0 exposes nine topics within the existing subsystem Model. The worked comparison separates lexical contrast, candidate contextual realization and an unresolved classification. The consonant and vowel tables, phonological-word tree, connected-speech explanation and all three local interfaces are retained. The outline now contains 56 subject topics and three shared foundations; other subjects' coverage rows are unchanged. The package retains ten Models and 107 knowledge objects, with 23 Reference records.
+
+The assistant inspected Anderson 4.2 and 4.3 introductory HTML and opening scripts and 4.5's introductory paragraph and HTML script. The existing record states the limited contributions and avoids adopting the sources' shortcuts as universal claims. A new Kenstowicz record identifies selected prose from MIT Lecture 5 page 1, Lecture 19 pages 1–2 and Lecture 22 page 1. No underlying studies, recordings or complete course inspection is claimed. The inaccessible second-edition Pressbooks page was not used as support.
+
+The editorial walkthrough checked pin/bin against pin/spin, the overly broad class “voiceless sounds,” possible versus attested sequences, lexical stress versus sentence accent, and the unresolved single-phone case. Constructed transcriptions remain predictions or analytical illustrations. This is assistant self-review, not independent linguistic approval or a learner trial.
+
+Before refreshing fingerprints, the assistant compared the revised Model with its twelve Concept summaries, Principle, three neighboring Models and three Reference records. Summary and Evidence status sections of all 22 affected recipients were reviewed. Anderson's earlier contributions remain unchanged, and receiving summaries retain their previous limits. Sources attached to the Model do not silently close the reusable Concepts' separate evidence gaps.
+
+The built-in image generator produced the revised sound-systems illustration. All twenty labels were visually checked: eight Phonetics, nine Phonology and three Prosody topics. The saved prompt records the specification. Decorative anatomy, brain, speech and wave motifs are illustrative, not empirical observations or neural localization claims. No new permanent scripts or tests were added.
+
+The KPS validator, domain checks, generated-navigation freshness and all 27 tests passed. Focused checks confirmed 56 subject topics plus three foundations, unchanged other-subject coverage rows, ten Models, retained attribute sections, valid PNG chunks and LF text. These are publication checks, not independent factual certification.
