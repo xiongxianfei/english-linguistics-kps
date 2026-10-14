@@ -7,19 +7,19 @@ package_version: "0.2.0"
 # Navigation conventions
 
 ## Key takeaway
-Use the subject map to find a topic, read its explanations and follow a Practice for a target task.
+Use the body of knowledge outline to find a topic, read its explanations and follow a Practice for a target task.
 
 ## Summary
-The README links to the authored subject map and target Practices. The subject map organizes topics and their relationships; the role index catalogs files; Practices organize activities. The linked knowledge remains locally sufficient for its own purpose.
+The README links to the authored body of knowledge outline and target Practices. The body of knowledge outline organizes topics and their relationships; the role index catalogs files; Practices organize activities. The linked knowledge remains locally sufficient for its own purpose.
 
 ## Files and headings
 Use ordinary relative Markdown links to real files. Heading fragments match the full heading in lowercase with hyphens; metadata identities do not create anchors. When a heading changes, update its stage map and incoming links.
 
 ## Subject navigation
 
-[English linguistics subject map](subject-map.md) is the authoritative subject outline for this package. Its sound-system section contains thirteen annotated topics; the other sections cover word structure, syntax, meaning and context. It links to existing knowledge across KPS roles and states the source basis and limits. A topic may refer to several files, and a file may support several topics. Edit this map as prose; no generator or new knowledge type is required.
+[English Linguistics Body of Knowledge Outline](body-of-knowledge-outline.md) is the subject coverage guide for this package. Its ten subject headings are Phonetics, Phonology, Morphology, Lexicon, Syntax, Semantics, Pragmatics, Discourse, Information Structure and Prosody. Forty subject topics and three introductory foundations topics make the selected coverage visible. Shared topics are cross-linked; visual grouping does not replace the subject names. Each topic states required understanding, intended capability and existing explanations or gaps. A topic may refer to several files, and a file may support several topics. Keep this authored outline and its overview illustration aligned; no generator or new knowledge type is required. Practices and the README own task navigation.
 
-[Learn English linguistics](../practices/learn-english-linguistics.md) selects from the map and adds a learning route. Other Practices can use the same subject structure for different targets. Keep one shared subject outline rather than copying it into each Practice.
+[Learn English linguistics](../practices/learn-english-linguistics.md) selects from the outline and adds a learning route. Other Practices can use the same subject structure for different targets. Keep one shared subject outline rather than copying it into each Practice.
 
 ## Optional catalogs
 [Knowledge index](INDEX.md) summarizes each canonical item by role. [Review priorities](REVIEW.md#priority-evidence-gaps) describe remaining evidence work and coverage limits. The index is generated from canonical Markdown with `python3 tools/build_navigation.py` from the repository root; the generator does not alter knowledge or dependency fingerprints.

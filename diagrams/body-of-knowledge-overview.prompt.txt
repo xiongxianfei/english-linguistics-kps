@@ -1,0 +1,20 @@
+Use case: infographic-diagram
+Asset type: high-quality educational editorial illustration embedded in a Markdown body of knowledge outline.
+Create a polished landscape illustration with a warm ivory paper background, fine navy ink, restrained teal, pale blue and amber watercolor accents. Typography must be large, crisp, dark, and legible when the image is displayed at 850px width. Use generous whitespace and delicate subject-relevant ink illustrations in the margins, not dense decorative labels. Clean editorial hierarchy. No watermarks, no source logos, no extra text. No arrows, numbered sequences, invented examples, IPA strings, actual data plots, or claims of completed coverage. Panels are navigation groupings, not exclusive categories or a processing pipeline. Render every supplied heading and topic verbatim. Wrap long labels naturally rather than shrinking them. Give text priority over ornament. Aim for 1536x1024 landscape composition or similarly generous resolution.
+Primary request: A beautiful whole-subject overview with TEN equally prominent cards arranged as two columns of five, so the long names remain readable. Each card has the supplied subject heading, a short descriptor and a small relevant decorative ink/watercolor icon. No higher-level grouping headings. Bottom foundation strip spans both columns. Use a spacious title area and balanced typography.
+Title: "English Linguistics"
+Subtitle: "Body of Knowledge Outline"
+Cards in reading order, heading followed by descriptor:
+"Phonetics" — "Speech production, signals and perception"
+"Phonology" — "Contrast and sound organization"
+"Morphology" — "Word structure and grammatical forms"
+"Lexicon" — "Word-specific forms, senses and selection"
+"Syntax" — "Phrase and clause structure"
+"Semantics" — "Expression meaning and interpretation"
+"Pragmatics" — "Meaning in context and use"
+"Discourse" — "Reference and relations across utterances"
+"Information Structure" — "Topic, focus, givenness and QUD"
+"Prosody" — "Prominence, rhythm, phrasing and intonation"
+Foundation strip: "Shared foundations" and "Representations · Evidence · Grammaticality and acceptability"
+Footer: "Explain structures · Analyze examples · Recognize limits"
+Exact subject names must be prominent. This is an introductory selected scope, not all of linguistics. The artwork should feel like a premium illustrated textbook opening page.

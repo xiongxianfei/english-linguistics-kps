@@ -1,0 +1,26 @@
+Use case: infographic-diagram
+Asset type: high-quality educational editorial illustration embedded in a Markdown body of knowledge outline.
+Create a polished landscape illustration with a warm ivory paper background, fine navy ink, restrained teal, pale blue and amber watercolor accents. Typography must be large, crisp, dark, and legible when the image is displayed at 850px width. Use generous whitespace and delicate subject-relevant ink illustrations in the margins, not dense decorative labels. Clean editorial hierarchy. No watermarks, no source logos, no extra text. No arrows, numbered sequences, invented examples, IPA strings, actual data plots, or claims of completed coverage. Panels are navigation groupings, not exclusive categories or a processing pipeline. Render every supplied heading and topic verbatim. Wrap long labels naturally rather than shrinking them. Give text priority over ornament. Aim for 1536x1024 landscape composition or similarly generous resolution.
+Primary request: A premium educational topic overview. Title: "Morphology · Lexicon · Syntax". Subtitle: "Body of Knowledge — Topic Detail".
+Use three clearly separated named panels. Give longer lists more room; do not shrink the labels. Each subject heading is large and each topic is a clearly readable line or wrapped item. Do not replace the subject headings with umbrella names. Small decorative illustrations suggest the subject without competing with the labels.
+Panel heading: "Morphology". Topics, each exactly once:
+- "Word identity and form"
+- "Internal word structure"
+- "Inflection and word formation"
+- "Alternation and lexical limits"
+- "Allomorphy vs allophony"
+Panel heading: "Lexicon". Topics, each exactly once:
+- "Lexical entries and senses"
+- "Selection and arguments"
+Panel heading: "Syntax". Topics, each exactly once:
+- "Categories and functions"
+- "Constituents and local dependencies"
+- "Phrases and clauses"
+- "Complement constructions"
+- "Verb and auxiliary structure"
+- "Clause combination and dependencies"
+A separate full-width introductory strip below the panels, heading "Shared foundations", containing all three labels:
+- "Expressions and representations"
+- "Evidence and analysis"
+- "Grammaticality and acceptability"
+Footer: "Shared foundations support all ten subjects."
