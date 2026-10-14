@@ -1,7 +1,7 @@
 ---
 id: "english:reference:anderson-2018-essentials-of-linguistics"
 type: "reference"
-version: "0.2.7"
+version: "0.2.8"
 language: "KPS 9.x"
 status: "draft"
 creator: "Catherine Anderson"
@@ -9,7 +9,7 @@ publication: "Essentials of Linguistics, first edition, McMaster University"
 publication_date: "2018-03-15"
 date_basis: "Publication date and creator from the inspected book landing metadata. This record is not the second edition."
 accessed: "2026-10-14"
-access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels, 4.4 Natural Classes, 3.5 Assimilation, 3.6 Other Articulatory Processes and 3.8 Transcribing Casual Speech inspected on 2026-10-13; aspiration and suprasegmental text rechecked. Sections 9.1 Ambiguity and 2.1 How Humans Produce Speech HTML inspected on 2026-10-14. Sections 4.2 and 4.3 introductory HTML and opening script passages, and 4.5 introductory HTML and script inspected on 2026-10-14. Morphology HTML selections 6.1 through 6.4 and 7.2 inspected on 2026-10-14 as recorded below. Sections 7.1 and 8.6 HTML prose inspected on 2026-10-14 as recorded below. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
+access_extent: "Selected first-edition HTML passages listed below, including 2.6 Classifying Consonants, 2.7 Classifying Vowels, 4.4 Natural Classes, 3.5 Assimilation, 3.6 Other Articulatory Processes and 3.8 Transcribing Casual Speech inspected on 2026-10-13; aspiration and suprasegmental text rechecked. Sections 9.1 Ambiguity and 2.1 How Humans Produce Speech HTML inspected on 2026-10-14. Sections 4.2 and 4.3 introductory HTML and opening script passages, and 4.5 introductory HTML and script inspected on 2026-10-14. Morphology HTML selections 6.1 through 6.4 and 7.2 inspected on 2026-10-14 as recorded below. Sections 7.1 and 8.6 HTML prose inspected on 2026-10-14 as recorded below. Selected 8.3, 8.5, 8.10 and 8.11 HTML inspected on 2026-10-14 for Syntax as recorded below. Earlier inspection scope is preserved in the body. No video/audio, image measurements or full-book inspection."
 reviewed: null
 ---
 
@@ -107,3 +107,18 @@ No embedded video or audio was played. The simplified wordhood tests, claim that
 On 2026-10-14 the assistant inspected the explanatory HTML prose in [7.1 Nouns, Verbs and Adjectives](https://pressbooks.pub/essentialsoflinguistics/chapter/7-2-nouns-verbs-and-adjectives-open-class-categories/) and the introductory paragraph and HTML script of [8.6 Subcategories](https://pressbooks.pub/essentialsoflinguistics/chapter/8-7-subcategories/). The bounded contributions are category diagnostics using inflection and distribution, and complement-sensitive verb subcategorization. Earlier contributions remain unchanged.
 
 The Model does not adopt the chapter's entire category inventory, X-bar trees or mental-storage account. Its generalizations about mass nouns, abstract nouns and adverb comparison are not treated as exceptionless rules; nor are all intransitives equated with one semantic participant or all dative alternants with identical meaning. No video, tree image or speaker judgments were independently evaluated. Sections 9.1 and 10.1 were reread within their existing recorded scope. New support here does not establish every example or linked object's claims.
+
+## Syntax coverage passages
+
+On 2026-10-14, the assistant inspected selected first-edition HTML text:
+
+| Passage | Inspection and limited contribution |
+|---|---|
+| [8.3 Constituents](https://pressbooks.pub/essentialsoflinguistics/chapter/8-4-constituents/) | Replacement, Movement and Cleft Test explanations; diagnostic evidence for grouping |
+| [8.5 English Verb Forms](https://pressbooks.pub/essentialsoflinguistics/chapter/8-6-english-verb-forms/) | Verb-form tables and explanatory prose; finite and participial forms can share spelling |
+| [8.10 Wh-Movement](https://pressbooks.pub/essentialsoflinguistics/chapter/8-11-wh-movement/) | Opening script through the interrogative/direct-object comparison; surface position differs from grammatical dependency |
+| [8.11 Do-Support](https://pressbooks.pub/essentialsoflinguistics/chapter/8-12-do-support/) | Yes-No Questions, Negation and Non-modal Auxiliaries prose; DO, auxiliary and copular BE patterns |
+
+The package does not adopt the source's full movement, mental-grammar or clause-layer theory. Constituency tests remain defeasible; the discussion does not establish that adjectives never take complements. Verb-form inventories depend on the treatment of plain present forms and defective verbs. Lexical HAVE judgments and negation patterns are variety-sensitive; the chapter's exclusions are not universal prohibitions. New examples, connected analyses and the chosen six-area coverage remain authored applications.
+
+No video, tree image or speaker study was evaluated. Earlier source contributions are retained. Relative-clause inventories, control, raising, extraction restrictions and a complete coordination theory are not established by these selected passages.

@@ -208,7 +208,7 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 **[English semantics system](../models/english-semantics-system.md).** Semantic analysis distinguishes conventional meaning, compositional structure, reference and inference under an explicitly fixed interpretation.
 
-**[English syntax system](../models/english-syntax-system.md).** Syntax organizes categories, constituent structure, dependencies and grammatical functions; word order alone does not specify the whole analysis.
+**[English syntax system](../models/english-syntax-system.md).** Syntax explains how words form phrases and clauses, which expressions depend on which, and how constructions organize grammatical functions. Use this Model to build and justify a structural analysis: identify complete units, distinguish their categories from their functions, explain verb forms and clause relationships, and compare alternative groupings. A connected student-and-printer example develops from a simple clause into a sentence with auxiliaries and embedded clauses. The introductory coverage follows the outline's six areas: categories and functions, constituents and local dependencies, phrases and clauses, complement constructions, verb and auxiliary structure, and clause combination and dependencies. Interfaces connect these explanations with Morphology, Lexicon, Semantics and Prosody. The examples are constructed for ordinary standard-English readings. The account remains provisional; it uses NP terminology and a descriptive Subject/Predicate analysis rather than claiming one universal syntactic framework.
 
 
 ## Methods
