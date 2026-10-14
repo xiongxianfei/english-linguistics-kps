@@ -29,8 +29,6 @@ This edition focuses on linguistic structure and interpretation. Sociolinguistic
 
 ## Overall illustration
 
-[Open the overview at full size](../diagrams/body-of-knowledge-overview.png).
-
 ![Ten named subjects: Phonetics, Phonology, Morphology, Lexicon, Syntax, Semantics, Pragmatics, Discourse, Information Structure and Prosody. Shared foundations support all ten.](../diagrams/body-of-knowledge-overview.png)
 
 This original AI-generated overview keeps each subject name visible. Placement is for navigation, not learning order or a processing pipeline. The decorative motifs are not observations or formal analyses. [Saved generation prompt](../diagrams/body-of-knowledge-overview.prompt.txt).
@@ -78,8 +76,6 @@ These introductory distinctions support all ten subjects. The current foundation
 
 ### Sound systems illustration
 
-[Open this illustration at full size](../diagrams/body-of-knowledge-sound-systems.png).
-
 ![Fourteen topics in three explicitly named panels: Phonetics (five), Phonology (six) and Prosody (three).](../diagrams/body-of-knowledge-sound-systems.png)
 
 This view covers [Phonetics](#phonetics), [Phonology](#phonology) and [Prosody](#prosody). Connected speech includes coarticulation, assimilation, reduction, elision and linking; its conditioning also crosses these subjects. This original AI-generated artwork uses decorative motifs, not observed data or formal analyses. [Saved generation prompt](../diagrams/body-of-knowledge-sound-systems.prompt.txt).
@@ -120,8 +116,6 @@ Anderson 4.1 supports selected contrast distinctions and 4.4 natural classes. De
 [Morphology](../models/english-morphology-system.md) explains internal word structure and grammatical forms. Word identity, lexicalization and productivity overlap with [Lexicon](#lexicon); allomorphy connects with [Phonology](#phonology). The interface comparison below preserves the distinction between morpheme forms and sound-category realizations.
 
 ### Foundations and structure illustration
-
-[Open this illustration at full size](../diagrams/body-of-knowledge-foundations-and-structure.png).
 
 ![Morphology has five topics, Lexicon two and Syntax six; a separate introductory strip lists the three shared foundations topics.](../diagrams/body-of-knowledge-foundations-and-structure.png)
 
@@ -178,8 +172,6 @@ The topics below appear in the [detailed illustration](#foundations-and-structur
 The [Semantics Model](../models/english-semantics-system.md) connects expression interpretation with predicates, participants and operators. [Lexicon Semantics](../models/lexicon-semantics-interface.md) and [Syntax Semantics](../models/syntax-semantics-interface.md) connect this account to word senses and sentence structure.
 
 ### Meaning and context illustration
-
-[Open this illustration at full size](../diagrams/body-of-knowledge-meaning-and-context.png).
 
 ![Thirteen topics in four named panels: Semantics (five), Pragmatics (three), Discourse (two) and Information Structure (three).](../diagrams/body-of-knowledge-meaning-and-context.png)
 
