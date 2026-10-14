@@ -2,7 +2,7 @@ Use case: infographic-diagram.
 Create a high-quality illustrated educational overview for an English linguistics body-of-knowledge document. Portrait composition, generous resolution and sharply legible text. Refine the reference image's elegant cream paper, navy typography, muted teal/blue/gold watercolor and ink style, but redesign panel sizes to fit the new text. Text accuracy takes priority over ornament.
 Title: "Meaning in English"
 Subtitle: "Body of Knowledge — Topic Detail"
-Two equally spacious tall panels at top: Semantics left, Pragmatics right. Two shallow panels at bottom: Discourse left, Information Structure right. Each topic gets its own clearly separated line or wrapped item. Exactly 31 topics, each once. Decorative books, foliage, speech bubbles and small desk motifs at margins only. No scientific diagrams, arrows or numbering implying required sequence. No extra text, no logos.
+Two spacious panels at top: Semantics left, Pragmatics right. Two panels below: Discourse left, Information Structure right. Give the bottom row enough height for eight Discourse items. Reduce decorative objects substantially to make room; use text space efficiently. Each topic gets its own clearly separated line or wrapped item. Exactly 37 topics, each once. Decorative books, foliage, speech bubbles and small desk motifs at margins only. No scientific diagrams, arrows or numbering implying required sequence. No extra text, no logos.
 Panel "Semantics" (13 exact labels):
 Meaning and reference
 Entities, properties and relations
@@ -31,9 +31,15 @@ Direct vs indirect speech acts
 Common ground
 Information structure and discourse context
 Semantics–Pragmatics interface
-Panel "Discourse" (2 exact labels):
-Reference across discourse
-Discourse connections
+Panel "Discourse" (8 exact labels):
+Discourse units
+Discourse referents
+Anaphora and accessibility
+Givenness and bridging
+Cohesion and coherence
+Discourse relations
+Discourse structure
+Conversation and repair
 Panel "Information Structure" (3 exact labels):
 Topic, focus and QUD
 Givenness and accessibility
@@ -41,4 +47,5 @@ Focus and prosodic realization
 Footer: "QUD = question under discussion. Topics overlap across subjects."
 Keep complete headings and all long labels readable with deliberate line wrapping.
 
-Generated with the built-in image_gen tool on 2026-10-14, using the previous version of this illustration as a style reference. All 31 topic labels were visually compared with the outline. Decoration is illustrative, not observed data or a formal analysis.
+
+Generated with the built-in image_gen tool on 2026-10-14, using the previous version of this illustration as a style reference. All 37 topic labels were visually compared with the outline: thirteen Semantics, thirteen Pragmatics, eight Discourse and three Information Structure. Decoration is illustrative, not observed data or a formal analysis.

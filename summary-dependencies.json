@@ -134,7 +134,7 @@
       "concepts/cohesion-and-coherence.md": "50778c2fa719a209719e74397b3bec4af4073212fda5196ad785b3a15bec8bf6",
       "concepts/contrast-and-concession.md": "57a1849928835e74cc3df07f898c397b12a10afc168211c1e221b9263dbf0a45",
       "concepts/temporal-causal-and-evidential-relations.md": "65266678e238ab966625ed9d376e32a844c59792ecea918aae9032ffac16c606",
-      "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89"
+      "references/mann-taboada-undated-rst-introduction.md": "5ece2be1640b729d8cf4deab51624663bc18c6740b8e948133f9c79714dc9992"
     },
     "concepts/do-support-and-inversion.md": {
       "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
@@ -388,7 +388,7 @@
       "concepts/relative-clause.md": "134b48766bcbbfc9b7a6c8feac612f704f29a6bc195b01d0988197b215fd9a74",
       "concepts/representation-levels.md": "6e9d04e326d94331b5f50cad4bf3ce71dcba35fdd0c6321f22e7ecd820c1af78",
       "concepts/semantic-role.md": "724fba3f8594e30d667246a46dd5a1993214e73067b228686c328c3f1c36c862",
-      "models/english-discourse-system.md": "618ec45b3901f8ba1d923c5bfd99d70418a7a47791d2b3ef2c155dc807a39589",
+      "models/english-discourse-system.md": "44a40d728d4e1ad5d6fabfc9de047d68e9c62e1099ce11d03b9283d58f4dd2d2",
       "models/english-information-structure-system.md": "50faa976b302e0f61ba123cb04c3656c4a18886ccbc17ae325f16d851f796823",
       "models/english-lexicon-system.md": "38cb0cb187c524db9e90970961939145567deecf84d4b459844d23c92d0c987e",
       "models/english-morphology-system.md": "257f70bd948ac1929acd26240687f499c4bdcc7c0de434459cdbc58b89e72cf4",
@@ -436,7 +436,7 @@
       "concepts/discourse-referent.md": "d7e48b219114a97eac6dd3a613d165ab49559cd6ebf64fa348acf4201fe04cdf",
       "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
       "concepts/temporal-causal-and-evidential-relations.md": "65266678e238ab966625ed9d376e32a844c59792ecea918aae9032ffac16c606",
-      "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89"
+      "references/mann-taboada-undated-rst-introduction.md": "5ece2be1640b729d8cf4deab51624663bc18c6740b8e948133f9c79714dc9992"
     },
     "models/english-discourse-system.md": {
       "concepts/anaphora-and-accessibility.md": "f44a10f92c2f624acd81c84e8eb2a7ceb7f299c5e7a442b6750f493c2f19ce4d",
@@ -453,7 +453,8 @@
       "methods/trace-discourse-interpretation.md": "7ec291f97af15e7d66005a2d7c44469f2230ea47383d71aa043c404258c3a32a",
       "models/english-information-structure-system.md": "50faa976b302e0f61ba123cb04c3656c4a18886ccbc17ae325f16d851f796823",
       "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
-      "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89"
+      "references/jurafsky-martin-2026-discourse.md": "984d21a84e1186fcb7e4a568af5965d675b9a9272357c727499b3c1bafa24795",
+      "references/mann-taboada-undated-rst-introduction.md": "5ece2be1640b729d8cf4deab51624663bc18c6740b8e948133f9c79714dc9992"
     },
     "models/english-information-structure-system.md": {
       "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
@@ -462,7 +463,7 @@
       "concepts/givenness-and-bridging.md": "9873b5ec2ca62eec12d9e5f4e6dbc301e9a40f2ee04dff8b1ec4fdfba8f26c2b",
       "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
       "concepts/stress.md": "3a9a849d2c526b7cee11e45366dab1946dbb78b94344c5b6f9d293ffad08b4ee",
-      "models/english-discourse-system.md": "618ec45b3901f8ba1d923c5bfd99d70418a7a47791d2b3ef2c155dc807a39589",
+      "models/english-discourse-system.md": "44a40d728d4e1ad5d6fabfc9de047d68e9c62e1099ce11d03b9283d58f4dd2d2",
       "models/english-prosody-system.md": "f4692fd17a951eb5d5ffac4cc0b0219f3c383229e52363ec9e47b059b72f67dd",
       "models/english-syntax-system.md": "bdf38d3f47a4c6c341d4103c595b712b92126ab7478105669795d352491246d9",
       "principles/accent-does-not-exhaust-focus.md": "24b0fcf59c93151380fb4075016a6867d4da7cb612c38ab9fe826591b13a8a7a",
@@ -568,7 +569,7 @@
       "concepts/presupposition.md": "ae77e79b5998c29940ef2aa8e28c12f53417b5e1d5567c33975e81700065b3ef",
       "concepts/speech-act.md": "6547380b8497e6b9c9cea630604e0d723e7fe9e563bace8aa77447ed0fddb063",
       "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5",
-      "models/english-discourse-system.md": "618ec45b3901f8ba1d923c5bfd99d70418a7a47791d2b3ef2c155dc807a39589",
+      "models/english-discourse-system.md": "44a40d728d4e1ad5d6fabfc9de047d68e9c62e1099ce11d03b9283d58f4dd2d2",
       "models/english-information-structure-system.md": "50faa976b302e0f61ba123cb04c3656c4a18886ccbc17ae325f16d851f796823",
       "models/english-semantics-system.md": "7739f2a674df97fdb76f8e9335a61c7b0f957a0d2ace9f4bfaab8b9bfb5164f6",
       "references/bhatt-2003-implicature.md": "021bf7c6b8ad908b66ca67242670c9eca30acd48911f55d97346d15ff5b4860d",
@@ -700,7 +701,7 @@
       "concepts/representation-levels.md": "6e9d04e326d94331b5f50cad4bf3ce71dcba35fdd0c6321f22e7ecd820c1af78",
       "methods/analyze-complete-utterance.md": "ffda1fdf93c98192aad75ab4a790d2173ab3e512eff07754fab84de9db5a3ece",
       "methods/analyze-sound-realization.md": "a58ee7ad6bf1c89667b52f264b07359ce7102b0e59375d5acace5c50d6856da8",
-      "models/english-discourse-system.md": "618ec45b3901f8ba1d923c5bfd99d70418a7a47791d2b3ef2c155dc807a39589",
+      "models/english-discourse-system.md": "44a40d728d4e1ad5d6fabfc9de047d68e9c62e1099ce11d03b9283d58f4dd2d2",
       "models/english-information-structure-system.md": "50faa976b302e0f61ba123cb04c3656c4a18886ccbc17ae325f16d851f796823",
       "models/english-lexicon-system.md": "38cb0cb187c524db9e90970961939145567deecf84d4b459844d23c92d0c987e",
       "models/english-morphology-system.md": "257f70bd948ac1929acd26240687f499c4bdcc7c0de434459cdbc58b89e72cf4",

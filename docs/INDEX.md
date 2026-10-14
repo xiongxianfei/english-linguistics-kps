@@ -190,7 +190,7 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 ## Models
 
-**[English discourse system](../models/english-discourse-system.md).** Discourse analysis connects utterances through referents, coherence relations and interaction while distinguishing text evidence from inferred interpretation.
+**[English discourse system](../models/english-discourse-system.md).** A sentence can describe an event without explaining how that event fits a conversation or a text. Discourse analysis asks how stretches of language form a connected contribution: which entities they concern, how their claims relate, and how speakers respond to one another. This Model develops eight introductory areas inside one account. The aim is to explain a short passage or exchange by identifying its units, tracking reference, proposing relations and preserving unresolved alternatives. Reference tracking, rhetorical structure and conversation analysis contribute different perspectives; they are not successive stages of a single processing algorithm. The organization and examples here are authored teaching choices, grounded in the selected sources identified below.
 
 **[English information structure system](../models/english-information-structure-system.md).** Information structure distinguishes topic, focus, givenness and the question under discussion rather than equating them with grammatical positions or accented words.
 
