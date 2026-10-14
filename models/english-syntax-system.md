@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-syntax-system"
 type: "model"
-version: "0.3.0"
+version: "0.3.1"
 language: "KPS 9.x"
 status: "draft"
 domains: ["syntax"]
@@ -9,7 +9,7 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:walter-2016-modal-verbs-basics", "english:reference:british-council-undated-grammar-reference"]
+references: ["english:reference:coppock-champollion-2026-formal-semantics", "english:reference:anderson-2018-essentials-of-linguistics", "english:reference:walter-2016-modal-verbs-basics", "english:reference:british-council-undated-grammar-reference"]
 uses_concepts: ["english:concept:category-and-function", "english:concept:constituency", "english:concept:head-and-dependent", "english:concept:complement-and-modifier", "english:concept:finiteness", "english:concept:relative-clause", "english:concept:auxiliary-chain", "english:concept:tense-and-aspect", "english:concept:do-support-and-inversion", "english:concept:clause-architecture", "english:concept:inflection", "english:concept:paradigm-and-syncretism", "english:concept:lexical-selection", "english:concept:object-and-pp-complement", "english:concept:valency-and-argument-structure", "english:concept:semantic-role", "english:concept:phrase-and-clause", "english:concept:prosody", "english:concept:predicative-complement", "english:concept:complement-clause", "english:concept:coordination-and-subordination", "english:concept:wh-dependency"]
 uses_models: ["english:model:english-lexicon-system", "english:model:english-morphology-system", "english:model:english-semantics-system", "english:model:english-prosody-system"]
 system_domain: "syntax"
@@ -268,7 +268,11 @@ Compare frames, omission and meaning shifts, counting semantic arguments separat
 
 ### Interface with Semantics
 
-Syntax identifies grammatical functions; Semantics describes participants and their relationships. A construction can preserve participant relations while changing their grammatical realization. The counterpart is explained in [Semantics](english-semantics-system.md#interface-with-syntax).
+Constituent structure also guides semantic combination. Temporarily setting tense aside, in the simplified `[Maya [read [report A]]]`, READ combines with report A to produce the property of reading that report; the Subject supplies the reader. This is a compositional calculation, not a proposed temporal order of mental processing. Selected [Coppock and Champollion passages](../references/coppock-champollion-2026-formal-semantics.md) support function application; the example and NP-based grouping are local adaptations.
+
+In *Maya saw the student with binoculars*, attaching the PP inside the Object NP describes the student, whereas attaching it to the seeing description supplies an instrument. Different groupings can therefore support different interpretations. Conversely, the surface order in *Every student read a report* does not by itself settle whether one report is shared. An interface account needs semantic composition and scope assumptions as well as a tree; formal alternatives do not establish that every reading is available in every context.
+
+Syntax identifies grammatical functions; Semantics describes participants and their relationships. A construction can preserve participant relations while changing their grammatical realization. The counterpart is explained in [Semantics](english-semantics-system.md#syntax-semantics-interface).
 
 | Construction | Giver | Recipient | Theme |
 |---|---|---|---|

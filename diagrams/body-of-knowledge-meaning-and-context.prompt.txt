@@ -1,33 +1,44 @@
-Use case: infographic-diagram
-Asset type: high-quality educational editorial illustration embedded in a Markdown body of knowledge outline.
-Create a polished landscape illustration with a warm ivory paper background, fine navy ink, restrained teal, pale blue and amber watercolor accents. Typography must be large, crisp, dark, and legible when the image is displayed at 850px width. Use generous whitespace and delicate subject-relevant ink illustrations in the margins, not dense decorative labels. Clean editorial hierarchy. No watermarks, no source logos, no extra text. No arrows, numbered sequences, invented examples, IPA strings, actual data plots, or claims of completed coverage. Panels are navigation groupings, not exclusive categories or a processing pipeline. Render every supplied heading and topic verbatim. Wrap long labels naturally rather than shrinking them. Give text priority over ornament. Aim for 1536x1024 landscape composition or similarly generous resolution.
-Primary request: A premium educational topic overview. Title: "Meaning in English". Subtitle: "Body of Knowledge — Topic Detail".
-Use four clearly separated named panels. Give Pragmatics a large full-height right panel for its thirteen topics. Stack Semantics, Discourse and Information Structure on the left for their ten topics combined. Each subject heading is large and each topic is a clearly readable line or wrapped item. Do not replace the subject headings with umbrella names. Small decorative illustrations suggest the subject without competing with the labels. There are exactly twenty-three topics overall. Keep all text readable and prioritize generous space for the long Pragmatics labels.
-Panel heading: "Semantics". Topics, each exactly once:
-- "Composition and ambiguity"
-- "Predication and participants"
-- "Reference and denotation"
-- "Quantification scope and inference"
-- "Time situations and possibility"
-Panel heading: "Pragmatics". Topics, each exactly once:
-- "Sentence meaning vs speaker meaning"
-- "Context"
-- "Deixis"
-- "Reference in context"
-- "Presupposition"
-- "Entailment vs presupposition vs implicature"
-- "Conversational implicature"
-- "Gricean reasoning"
-- "Speech acts"
-- "Direct vs indirect speech acts"
-- "Common ground"
-- "Information structure and discourse context"
-- "Semantics–Pragmatics interface"
-Panel heading: "Discourse". Topics, each exactly once:
-- "Reference across discourse"
-- "Discourse connections"
-Panel heading: "Information Structure". Topics, each exactly once:
-- "Topic, focus and QUD"
-- "Givenness and accessibility"
-- "Focus and prosodic realization"
+Use case: infographic-diagram.
+Create a high-quality illustrated educational overview for an English linguistics body-of-knowledge document. Portrait composition, generous resolution and sharply legible text. Refine the reference image's elegant cream paper, navy typography, muted teal/blue/gold watercolor and ink style, but redesign panel sizes to fit the new text. Text accuracy takes priority over ornament.
+Title: "Meaning in English"
+Subtitle: "Body of Knowledge — Topic Detail"
+Two equally spacious tall panels at top: Semantics left, Pragmatics right. Two shallow panels at bottom: Discourse left, Information Structure right. Each topic gets its own clearly separated line or wrapped item. Exactly 31 topics, each once. Decorative books, foliage, speech bubbles and small desk motifs at margins only. No scientific diagrams, arrows or numbering implying required sequence. No extra text, no logos.
+Panel "Semantics" (13 exact labels):
+Meaning and reference
+Entities, properties and relations
+Predicates and arguments
+Events and states
+Semantic roles
+Compositionality
+Quantification
+Negation and entailment
+Scope
+Ambiguity
+Tense and aspect semantics
+Modality
+Syntax–Semantics interface
+Panel "Pragmatics" (13 exact labels):
+Sentence meaning vs speaker meaning
+Context
+Deixis
+Reference in context
+Presupposition
+Entailment vs presupposition vs implicature
+Conversational implicature
+Gricean reasoning
+Speech acts
+Direct vs indirect speech acts
+Common ground
+Information structure and discourse context
+Semantics–Pragmatics interface
+Panel "Discourse" (2 exact labels):
+Reference across discourse
+Discourse connections
+Panel "Information Structure" (3 exact labels):
+Topic, focus and QUD
+Givenness and accessibility
+Focus and prosodic realization
 Footer: "QUD = question under discussion. Topics overlap across subjects."
+Keep complete headings and all long labels readable with deliberate line wrapping.
+
+Generated with the built-in image_gen tool on 2026-10-14, using the previous version of this illustration as a style reference. All 31 topic labels were visually compared with the outline. Decoration is illustrative, not observed data or a formal analysis.
