@@ -16,6 +16,8 @@ The draft states its working analyses and variety limits rather than presenting 
 
 The primary audience is an independent reader learning to explain and investigate English. The [Learn English linguistics Practice](../practices/learn-english-linguistics.md) organizes selected established knowledge around that target, with a learning outline and one complete sound exercise. Concepts and Models remain independently readable, with useful overlap in explanations. The route is not a complete graded course or a demonstration of competence. The two pronunciation Practices additionally integrate listening, articulation, production and verification; learning effectiveness remains unestablished.
 
+The [editing Practice](../practices/edit-english-and-learn.md) additionally connects written-English revision to linguistic explanation. Its three constructed cases target standard written English with explicit intent and register limits. Translation and speech-performance editing remain outside this Practice, and no learner outcomes have been recorded.
+
 ## Subject organization
 
 The [English body of knowledge outline](body-of-knowledge-outline.md) owns the shared topic outline, with ten named subjects and shared foundations, their connections and existing explanations. This document states the package's boundaries and framework choices. Practices select from the body of knowledge outline to construct learning or investigation routes.
