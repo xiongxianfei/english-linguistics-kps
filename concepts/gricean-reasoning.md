@@ -1,16 +1,16 @@
 ---
 id: "english:concept:gricean-reasoning"
 type: "concept"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 stages: [4]
 perspectives: ["pragmatics"]
 evidence_status: "provisional"
-source_status: "external-support-pending"
+source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
+references: ["english:reference:bhatt-2003-implicature", "english:reference:gibson-2017-pragmatic-reference"]
 uses_concepts: ["english:concept:implicature", "english:concept:focus-topic-and-qud", "english:concept:constraint-and-preference"]
 ---
 
@@ -28,7 +28,7 @@ Gricean analysis models conversational expectations involving informativeness, t
 
 ## Worked example
 
-When asked whether all files were checked, "Some were checked" invites comparison with a stronger alternative. When asked where Ravi is, "His bicycle is outside" supplies indirect evidence. The inference depends on assuming the response bears on the conversational issue.
+When asked whether all files were checked, "Some were checked" invites comparison with a stronger alternative. A not-all conclusion requires assumptions about relevance and the speaker's knowledge; lack of complete information can block it. When asked where Ravi is, "His bicycle is outside" supplies indirect evidence. The inference depends on assuming the response bears on the conversational issue.
 
 ## Distinctions
 
@@ -42,7 +42,7 @@ This is a classical explanatory framework, not an experimentally validated algor
 
 **Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
 
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+Selected support now comes from [Bhatt on scalar reasoning](../references/bhatt-2003-implicature.md) and [Gibson on the four maxims](../references/gibson-2017-pragmatic-reference.md). This supports the named expectations and qualified scalar case, not every example or the flouting/deception distinction. Those broader claims and independent review remain pending.
 
 ## Related knowledge
 

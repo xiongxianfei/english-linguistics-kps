@@ -10,13 +10,13 @@ package_version: "0.2.0"
 Understand English through five kinds of self-contained knowledge, ten subsystem Models and their interfaces.
 
 ## Summary
-This foundation contains **107 knowledge files**: 72 Concepts, 13 Principles, ten Models, six Methods and six Practices, plus fourteen supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
+This foundation contains **107 knowledge files**: 72 Concepts, 13 Principles, ten Models, six Methods and six Practices, plus nineteen supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
 
 ## Explore by subject
 
 ![English linguistics coverage: Phonetics, Phonology, Morphology, Lexicon, Syntax, Semantics, Pragmatics, Discourse, Information Structure and Prosody, supported by shared foundations.](diagrams/body-of-knowledge-overview.png)
 
-The [English Linguistics Body of Knowledge Outline](docs/body-of-knowledge-outline.md) defines ten named subjects, 40 subject topics and three shared foundations topics, with required understanding, intended capabilities, existing explanations and gaps. Start with the [complete topic outline](docs/body-of-knowledge-outline.md#overall-outline) or start with [Phonetics](docs/body-of-knowledge-outline.md#phonetics), [Phonology](docs/body-of-knowledge-outline.md#phonology) and [Prosody](docs/body-of-knowledge-outline.md#prosody). The illustration shows selected introductory coverage, not completed learning or the whole discipline.
+The [English Linguistics Body of Knowledge Outline](docs/body-of-knowledge-outline.md) defines ten named subjects, 50 subject topics and three shared foundations topics, with required understanding, intended capabilities, existing explanations and gaps. Start with the [complete topic outline](docs/body-of-knowledge-outline.md#overall-outline) or start with [Phonetics](docs/body-of-knowledge-outline.md#phonetics), [Phonology](docs/body-of-knowledge-outline.md#phonology) and [Prosody](docs/body-of-knowledge-outline.md#prosody). The illustration shows selected introductory coverage, not completed learning or the whole discipline.
 
 Three detailed illustrations retain the subject names and show all topic labels: [Phonetics, Phonology and Prosody](docs/body-of-knowledge-outline.md#sound-systems-illustration), [Morphology, Lexicon, Syntax and shared foundations](docs/body-of-knowledge-outline.md#foundations-and-structure-illustration), and [Semantics, Pragmatics, Discourse and Information Structure](docs/body-of-knowledge-outline.md#meaning-and-context-illustration). They are embedded beside the relevant coverage tables.
 

@@ -202,7 +202,7 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 **[English phonology system](../models/english-phonology-system.md).** Phonology models contrast, distribution and the organization of sound patterns within a specified language variety.
 
-**[English pragmatics system](../models/english-pragmatics-system.md).** Pragmatic analysis separates contextual resolution, discourse background and defeasible reasoning about what a speaker is doing.
+**[English pragmatics system](../models/english-pragmatics-system.md).** Separate what an expression contributes, what context resolves, what is treated as background, what is inferred and what action is attempted. Explain the assumptions connecting these parts.
 
 **[English prosody system](../models/english-prosody-system.md).** Prosody organizes prominence, phrasing, timing and intonation across segments; no single pitch movement uniquely determines meaning.
 

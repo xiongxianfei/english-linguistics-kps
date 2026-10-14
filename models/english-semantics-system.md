@@ -217,7 +217,7 @@ Claim-level external source support has not yet been attached. Independent sourc
 
 Conventional meaning, contextual resolution and defeasible inference jointly constrain utterance interpretation.
 
-Separate conventional contributions and contextual values from additional defeasible inferences. The counterpart is explained in [Pragmatics](english-pragmatics-system.md#interface-with-semantics).
+Separate conventional contributions and contextual values from additional defeasible inferences. The counterpart is explained in [Pragmatics](english-pragmatics-system.md#semantics-pragmatics-interface).
 
 #### Interface with Pragmatics representation
 

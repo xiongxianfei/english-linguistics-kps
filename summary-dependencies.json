@@ -173,14 +173,16 @@
     "concepts/gricean-reasoning.md": {
       "concepts/constraint-and-preference.md": "49dd452032970420fdbd11186f040cc43169289160fa0708cfd4d5c77ace2020",
       "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
-      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0"
+      "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
+      "references/bhatt-2003-implicature.md": "021bf7c6b8ad908b66ca67242670c9eca30acd48911f55d97346d15ff5b4860d",
+      "references/gibson-2017-pragmatic-reference.md": "879db9609c2f55f585a376868c961eefd8c273e045d955d371ffdc9f0bfde5f5"
     },
     "concepts/head-and-dependent.md": {
       "concepts/category-and-function.md": "64527b1aa91fe1b856f2d7554ef65c4e53ea4340db53fe4a6d7f59e298c4dcac",
       "concepts/complement-and-modifier.md": "891f09711283ee26f59c544e875c463687cfc9418b2abe6e1a18a20553b78ce7"
     },
     "concepts/implicature.md": {
-      "concepts/gricean-reasoning.md": "c986b73a19ead4767de2fe709e309e821060709ab7921caa53b45311001e9dfd",
+      "concepts/gricean-reasoning.md": "7599307eb4ada1d73103f688139f332419adbc43bc97c09dd21d00e3458b484e",
       "concepts/quantification-and-scope.md": "0da1ecbc52770352d13aba9005b2dd69ab86713f19d098b97bec8bd56b18c4da",
       "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5"
     },
@@ -392,9 +394,9 @@
       "models/english-morphology-system.md": "bf95f43f62ffc1736efa4575383b2af0daccde687547da9f7e190dfd14b7e350",
       "models/english-phonetics-system.md": "b5a74382372cc7dfa5187f8ee1123d7f0e2cea41e751122883de9cb9dd02b90f",
       "models/english-phonology-system.md": "e847eaedb50b29f3ec95c48586175cef3e90ea410fe50ab0f7a144e4d9cbaaa3",
-      "models/english-pragmatics-system.md": "56948139c07f18ebc081e48dad24cd4a5f1b347ac4879cdb06f2ac0c2291b6bd",
+      "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
       "models/english-prosody-system.md": "a454b6e158e2d9e632275271ef6bc3a8268c8d4735426a1639b5c0f6e51010b6",
-      "models/english-semantics-system.md": "6188ac28378edc293d76a5bd314ed39dd56a3eef3ecc729e41144824d1117c6f",
+      "models/english-semantics-system.md": "dd0dfc332d0bfc19e84517a963fa90579991f29742aa21a3a1e6ed6e3e09cb64",
       "models/english-syntax-system.md": "4ab6514f00cf19aab33e1dad646a5aa72c08bb136f28555d1ce67106e9f5065e",
       "references/anderson-2018-essentials-of-linguistics.md": "fd4588f838b4fd7dad87dbd1458fab34282dc20553748886aee79d680f0a1dd9",
       "references/roberts-2012-information-structure.md": "792a384436c8221f5d8a970a79322e4c8c22c8eaafe2cd2d76f12ea9a09c431b"
@@ -450,7 +452,7 @@
       "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5",
       "methods/trace-discourse-interpretation.md": "7ec291f97af15e7d66005a2d7c44469f2230ea47383d71aa043c404258c3a32a",
       "models/english-information-structure-system.md": "7f47eb03ace5824ae66e206bddfb38c5eae19d42ca9e00b8e9c81afdc177633d",
-      "models/english-pragmatics-system.md": "56948139c07f18ebc081e48dad24cd4a5f1b347ac4879cdb06f2ac0c2291b6bd",
+      "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
       "references/mann-taboada-undated-rst-introduction.md": "16123c0907fab5c56e40de78f602f01336fb142616473c74a2f9995693539b89"
     },
     "models/english-information-structure-system.md": {
@@ -481,7 +483,7 @@
       "concepts/sense-and-lexical-ambiguity.md": "50f1f1d1fb7c71a1ccccbb31ba384c8fec3282adeb1851b7c99c5f83ea1e0d25",
       "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe",
       "models/english-morphology-system.md": "bf95f43f62ffc1736efa4575383b2af0daccde687547da9f7e190dfd14b7e350",
-      "models/english-semantics-system.md": "6188ac28378edc293d76a5bd314ed39dd56a3eef3ecc729e41144824d1117c6f",
+      "models/english-semantics-system.md": "dd0dfc332d0bfc19e84517a963fa90579991f29742aa21a3a1e6ed6e3e09cb64",
       "models/english-syntax-system.md": "4ab6514f00cf19aab33e1dad646a5aa72c08bb136f28555d1ce67106e9f5065e",
       "references/anderson-2018-essentials-of-linguistics.md": "fd4588f838b4fd7dad87dbd1458fab34282dc20553748886aee79d680f0a1dd9"
     },
@@ -550,12 +552,21 @@
       "concepts/contextual-resolution.md": "dc2cd12b694889f0437ac9328e837a76b407f28966885365e8231013fc4f1c0e",
       "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
       "concepts/discourse-referent.md": "d7e48b219114a97eac6dd3a613d165ab49559cd6ebf64fa348acf4201fe04cdf",
+      "concepts/focus-topic-and-qud.md": "440cfa52b823a1ecf2a9a59ca92792c73dfa6c6d881f5e7dced8c2c3c3fdac43",
+      "concepts/gricean-reasoning.md": "7599307eb4ada1d73103f688139f332419adbc43bc97c09dd21d00e3458b484e",
       "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
+      "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e",
       "concepts/presupposition.md": "ae77e79b5998c29940ef2aa8e28c12f53417b5e1d5567c33975e81700065b3ef",
       "concepts/speech-act.md": "6547380b8497e6b9c9cea630604e0d723e7fe9e563bace8aa77447ed0fddb063",
       "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5",
       "models/english-discourse-system.md": "c9a88a923c7fa331028eb5558aeacd56780d1b674bef82d75be86db41b384095",
-      "models/english-semantics-system.md": "6188ac28378edc293d76a5bd314ed39dd56a3eef3ecc729e41144824d1117c6f",
+      "models/english-information-structure-system.md": "7f47eb03ace5824ae66e206bddfb38c5eae19d42ca9e00b8e9c81afdc177633d",
+      "models/english-semantics-system.md": "dd0dfc332d0bfc19e84517a963fa90579991f29742aa21a3a1e6ed6e3e09cb64",
+      "references/bhatt-2003-implicature.md": "021bf7c6b8ad908b66ca67242670c9eca30acd48911f55d97346d15ff5b4860d",
+      "references/edinburgh-undated-pragmatic-communication.md": "a2af0607f948c7aafda623ab66514a3a65e0a6bc42a92bcdc954df2b9b1fc88f",
+      "references/fox-menendez-benito-2006-pragmatics.md": "1832251a7da20105233788bd485f49e8d8af62d84ccf535642cf60062d59bc9d",
+      "references/fox-menendez-benito-2006-presupposition.md": "4c9f62308ff861ce6a3b430974be45b1bb776cebfeeddb021f596318f2a816e4",
+      "references/gibson-2017-pragmatic-reference.md": "879db9609c2f55f585a376868c961eefd8c273e045d955d371ffdc9f0bfde5f5",
       "references/roberts-2012-information-structure.md": "792a384436c8221f5d8a970a79322e4c8c22c8eaafe2cd2d76f12ea9a09c431b"
     },
     "models/english-prosody-system.md": {
@@ -597,7 +608,7 @@
       "concepts/tense-and-aspect.md": "a811eb6b70f54112b5917308aa6aadcd20d0108f90d92a9ce67c926e32720ca6",
       "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe",
       "models/english-lexicon-system.md": "35e08db47d069c7a94674ae657fbd21d201672a7a6c3780f7ad6a9c5cf566836",
-      "models/english-pragmatics-system.md": "56948139c07f18ebc081e48dad24cd4a5f1b347ac4879cdb06f2ac0c2291b6bd",
+      "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
       "models/english-syntax-system.md": "4ab6514f00cf19aab33e1dad646a5aa72c08bb136f28555d1ce67106e9f5065e",
       "references/anderson-2018-essentials-of-linguistics.md": "fd4588f838b4fd7dad87dbd1458fab34282dc20553748886aee79d680f0a1dd9"
     },
@@ -624,7 +635,7 @@
       "models/english-lexicon-system.md": "35e08db47d069c7a94674ae657fbd21d201672a7a6c3780f7ad6a9c5cf566836",
       "models/english-morphology-system.md": "bf95f43f62ffc1736efa4575383b2af0daccde687547da9f7e190dfd14b7e350",
       "models/english-prosody-system.md": "a454b6e158e2d9e632275271ef6bc3a8268c8d4735426a1639b5c0f6e51010b6",
-      "models/english-semantics-system.md": "6188ac28378edc293d76a5bd314ed39dd56a3eef3ecc729e41144824d1117c6f",
+      "models/english-semantics-system.md": "dd0dfc332d0bfc19e84517a963fa90579991f29742aa21a3a1e6ed6e3e09cb64",
       "references/anderson-2018-essentials-of-linguistics.md": "fd4588f838b4fd7dad87dbd1458fab34282dc20553748886aee79d680f0a1dd9",
       "references/walter-2016-modal-verbs-basics.md": "47f45087ac269e32ec72747d5756bda8012fd49ad04674ac42607ff0a5a39b2e"
     },
@@ -674,9 +685,9 @@
       "models/english-morphology-system.md": "bf95f43f62ffc1736efa4575383b2af0daccde687547da9f7e190dfd14b7e350",
       "models/english-phonetics-system.md": "b5a74382372cc7dfa5187f8ee1123d7f0e2cea41e751122883de9cb9dd02b90f",
       "models/english-phonology-system.md": "e847eaedb50b29f3ec95c48586175cef3e90ea410fe50ab0f7a144e4d9cbaaa3",
-      "models/english-pragmatics-system.md": "56948139c07f18ebc081e48dad24cd4a5f1b347ac4879cdb06f2ac0c2291b6bd",
+      "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
       "models/english-prosody-system.md": "a454b6e158e2d9e632275271ef6bc3a8268c8d4735426a1639b5c0f6e51010b6",
-      "models/english-semantics-system.md": "6188ac28378edc293d76a5bd314ed39dd56a3eef3ecc729e41144824d1117c6f",
+      "models/english-semantics-system.md": "dd0dfc332d0bfc19e84517a963fa90579991f29742aa21a3a1e6ed6e3e09cb64",
       "models/english-syntax-system.md": "4ab6514f00cf19aab33e1dad646a5aa72c08bb136f28555d1ce67106e9f5065e",
       "references/anderson-2018-essentials-of-linguistics.md": "fd4588f838b4fd7dad87dbd1458fab34282dc20553748886aee79d680f0a1dd9"
     },
@@ -736,7 +747,7 @@
       "references/anderson-2018-essentials-of-linguistics.md": "fd4588f838b4fd7dad87dbd1458fab34282dc20553748886aee79d680f0a1dd9"
     },
     "principles/implicatures-are-defeasible.md": {
-      "concepts/gricean-reasoning.md": "c986b73a19ead4767de2fe709e309e821060709ab7921caa53b45311001e9dfd",
+      "concepts/gricean-reasoning.md": "7599307eb4ada1d73103f688139f332419adbc43bc97c09dd21d00e3458b484e",
       "concepts/implicature.md": "4de1f3f63c1131d5c98d2c9f384a0759e70c3a79117726dcde9c6156aa9407b0",
       "concepts/negation-and-entailment.md": "14ea029fdb59a4422be04267125ab630339427334de2341132d52750d8a2a33e"
     },
