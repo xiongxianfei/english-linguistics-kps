@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-pragmatics-system"
 type: "model"
-version: "0.3.0"
+version: "0.3.1"
 language: "KPS 9.x"
 status: "draft"
 domains: ["pragmatics"]
@@ -17,15 +17,14 @@ system_domain: "pragmatics"
 
 # English pragmatics system
 
-## Key takeaway
-Separate what an expression contributes, what context resolves, what is treated as background, what is inferred and what action is attempted. Explain the assumptions connecting these parts.
-
-## Summary
 This Model explains thirteen connected Pragmatics topics, from sentence and speaker meaning through context, reference, presupposition, implicature and speech acts to common ground and the Semantics interface. It compares three kinds of inference, works through Gricean reasoning and analyzes a constructed conversation. Topic sections supply the essential distinctions locally; Concepts deepen definitions and neighboring Models explain interfaces. Selected teaching sources support bounded claims. The analysis remains provisional and does not establish a speaker's actual intention or a learner's competence.
+
+Given an utterance and its available context, explain a plausible interpretation and what would change it. Familiarity with English sentences is sufficient to begin; the technical terms are introduced below. Missing context remains an uncertainty rather than permission to invent an intention.
 
 ## Contents
 
-- [Purpose and representation](#purpose)
+- [Representation](#representation)
+- [Essential distinctions](#essential-distinctions)
 - [Sentence meaning vs speaker meaning](#sentence-meaning-vs-speaker-meaning)
 - [Context](#context)
 - [Deixis](#deixis)
@@ -41,12 +40,11 @@ This Model explains thirteen connected Pragmatics topics, from sentence and spea
 - [Semantics Pragmatics interface](#semantics-pragmatics-interface)
 - [Worked analysis](#worked-analysis)
 - [Interfaces](#interfaces)
+  - [Interface with Discourse](#interface-with-discourse)
 - [Evaluation and counterevidence](#evaluation-and-counterevidence)
 - [Assumptions and limits](#assumptions-and-limits)
 - [Evidence status](#evidence-status)
-
-## Purpose
-Given an utterance and its available context, explain a plausible interpretation and what would change it. Familiarity with English sentences is sufficient to begin; the technical terms are introduced below. Missing context remains an uncertainty rather than permission to invent an intention.
+- [Related knowledge](#related-knowledge)
 
 ## Representation
 
@@ -224,7 +222,7 @@ For the integrated case, explain why Leo cannot infer specifically that P2 was u
 This introductory Model does not exhaust Pragmatics. Presupposition theories, scalar inference mechanisms and the semantic/pragmatic boundary remain contested. Politeness, irony, metaphor, cross-cultural interaction and processing require fuller treatment and evidence. The source selection mixes graduate and introductory teaching accounts; it is not a single validated processing theory. No speaker intentions, corpus frequencies, acoustic patterns or learner outcomes were observed here.
 
 ## Evidence status
-**Provisional; independent review pending.** Five newly inspected teaching-source records identify exact access limits: [Bhatt](../references/bhatt-2003-implicature.md), [Fox and Menendez-Benito on Pragmatics](../references/fox-menendez-benito-2006-pragmatics.md), [their presupposition notes](../references/fox-menendez-benito-2006-presupposition.md), [Gibson](../references/gibson-2017-pragmatic-reference.md) and [Edinburgh](../references/edinburgh-undated-pragmatic-communication.md). Roberts remains abstract-only. Sources support the identified distinctions; our thirteen-topic organization, representation, examples and comparison procedure are authored synthesis. Linked Concepts retain their own source limits rather than inheriting blanket validation from this Model.
+**Provisional; independent review pending.** Five teaching-source records identify exact access limits: [Bhatt](../references/bhatt-2003-implicature.md), [Fox and Menendez-Benito on Pragmatics](../references/fox-menendez-benito-2006-pragmatics.md), [their presupposition notes](../references/fox-menendez-benito-2006-presupposition.md), [Gibson](../references/gibson-2017-pragmatic-reference.md) and [Edinburgh](../references/edinburgh-undated-pragmatic-communication.md). Roberts remains abstract-only. Sources support the identified distinctions; our thirteen-topic organization, representation, examples and comparison procedure are authored synthesis. Linked Concepts retain their own source limits rather than inheriting blanket validation from this Model.
 
 ## Related knowledge
 - [Utterance and speaker meaning](../concepts/utterance-and-speaker-meaning.md), [deixis](../concepts/deixis.md) and [contextual resolution](../concepts/contextual-resolution.md) define foundational distinctions.

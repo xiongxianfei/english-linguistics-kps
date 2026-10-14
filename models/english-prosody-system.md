@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-prosody-system"
 type: "model"
-version: "0.2.3"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 domains: ["prosody"]
@@ -9,7 +9,7 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:roberts-2012-information-structure", "english:reference:mit-2006-tobi-tutorial"]
+references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:roberts-2012-information-structure", "english:reference:mit-2006-tobi-tutorial", "english:reference:krifka-2008-information-structure"]
 uses_concepts: ["english:concept:stress", "english:concept:prosody", "english:concept:connected-speech", "english:concept:syllable-structure", "english:concept:phonotactics", "english:concept:constituency", "english:concept:relative-clause", "english:concept:phrase-and-clause", "english:concept:focus-topic-and-qud"]
 uses_models: ["english:model:english-phonology-system", "english:model:english-syntax-system", "english:model:english-information-structure-system", "english:model:english-phonetics-system"]
 system_domain: "prosody"
@@ -18,231 +18,174 @@ uses_methods: ["english:method:analyze-sound-realization"]
 
 # English prosody system
 
-## Key takeaway
-Prosody organizes prominence, phrasing, timing and intonation across segments; no single pitch movement uniquely determines meaning.
+Prosody explains how speech groups material and makes some parts relatively prominent through stress, pitch organization and timing. It helps explain why the same words can support different spoken contributions, while keeping grammatical structure, contextual interpretation and acoustic measurements distinct.
 
-## Summary
-This Model relates syllables and lexical stress to utterance prominence, rhythm and phrase boundaries. Separate annotation layers show how an accented syllable, the span in focus and a phrase-ending pitch movement can differ. Constructed comparisons explain why a rise is not a universal question marker and why stress does not imply equal timing or maximum pitch. No acoustic trace or learner performance has been observed. Interfaces with Phonology, Syntax, Information Structure and Phonetics connect lexical stress, grouping, focus and physical cues. Source limits remain specific to each explanation.
+This Model develops seven introductory areas and connects them through a constructed printer-repair example. Its accent-and-boundary vocabulary draws on selected Mainstream American English ToBI materials, without claiming to supply a full annotation course or a universal prosodic grammar. General American is the convention for new lexical transcriptions. No recording, acoustic measurement or listener response is supplied.
 
 ## Contents
 
-- [Purpose](#purpose)
-- [Representation](#representation)
-- [Units and attributes at each level](#units-and-attributes-at-each-level)
-- [Essential distinctions](#essential-distinctions)
+- [Lexical stress and utterance prominence](#lexical-stress-and-utterance-prominence)
+- [Pitch accents](#pitch-accents)
+- [Phrasing and boundaries](#phrasing-and-boundaries)
+- [Intonation and interpretation](#intonation-and-interpretation)
+- [Rhythm and timing](#rhythm-and-timing)
+- [Connected speech and reduction](#connected-speech-and-reduction)
+- [Prosodic representation and acoustic evidence](#prosodic-representation-and-acoustic-evidence)
 - [Worked analysis](#worked-analysis)
 - [Interfaces](#interfaces)
   - [Interface with Phonology](#interface-with-phonology)
   - [Interface with Phonetics](#interface-with-phonetics)
   - [Interface with Syntax](#interface-with-syntax)
   - [Interface with Information Structure](#interface-with-information-structure)
-- [Evaluation and counterevidence](#evaluation-and-counterevidence)
-- [Assumptions and limits](#assumptions-and-limits)
-- [Evidence status](#evidence-status)
+- [Evidence and limits](#evidence-and-limits)
 
-## Purpose
-Describe how an utterance groups and highlights material while keeping phonological organization, discourse interpretation and physical realization distinct.
+## Lexical stress and utterance prominence
 
-## Representation
+**Lexical stress** organizes relative prominence among syllables in a word. **Utterance prominence** concerns highlighting within a spoken contribution. The two interact, but changing the prominent word in a sentence does not ordinarily rewrite that word's lexical stress pattern.
 
-| Component | What it describes | Important boundary |
+In the broad General American form *printer* /ˈprɪntər/, primary stress falls on the first syllable. A response to *Who repaired the printer?* might give the main prominence to *Maya* in *MAYA repaired the printer*. A response to *What did Maya repair?* might instead give it to *printer*. In both proposed realizations, *printer* retains its first-syllable lexical stress. The primary mark ˈ and secondary mark ˌ identify stress positions in a stated lexical analysis; they are not measurements of loudness.
+
+**Prominence** is relational: a syllable stands out against others in a particular domain. Duration, vowel quality, pitch-related movement and intensity can contribute. These cues do not have to increase together. A word can contain a lexically stressed syllable without receiving a pitch accent in a particular utterance.
+
+Keep at least four locations explicit: the word's stress-bearing syllable, an utterance's accented syllable, the contextual focus span, and a phrase edge. A reader who treats all four as “the stressed word” loses the distinctions needed to interpret the next sections. [Phonology](english-phonology-system.md#lexical-stress) supplies the lexical organization; the selected [ToBI text](../references/mit-2006-tobi-tutorial.md) distinguishes prominence and phrasing.
+
+## Pitch accents
+
+A **pitch accent** is a tonal event associated with a prominent syllable under the adopted intonational analysis. It is different from a regional “accent,” a word's IPA stress mark, or any arbitrary high point in a pitch track.
+
+The selected ToBI conventions use H and L for relatively high and low tonal targets, with a star marking the tone associated with an accented syllable. Thus H* and L* name different accent categories; a low target can still signal prominence. These are category labels interpreted in a speaker's range and context, not fixed frequencies in hertz. More complex accents and downstep exist, but are not derived or comprehensively catalogued here.
+
+A phrase can contain more than one pitch accent. Its final pitch accent is often called the **nuclear accent** in descriptions of English intonation. That position is not necessarily the final word: a correction such as *MAYA repaired the printer* can leave later words without another accent. Do not identify the nucleus by selecting the largest numerical F0 value or by assuming it must occur at the rightmost written word.
+
+Accent placement and accent type are separate decisions. Placing an accent on *Maya* says where an event belongs; deciding between a high, low or complex accent requires evidence about the realization and the adopted system. Without audio, the examples here propose locations and alternatives rather than claim exact ToBI labels.
+
+## Phrasing and boundaries
+
+**Prosodic phrasing** groups speech into units. Boundaries can be cued by tonal events, lengthening and sometimes pauses. No single cue is a necessary or sufficient universal boundary test: a boundary may lack silence, and a hesitation pause need not establish the intended syntactic grouping.
+
+The selected ToBI account distinguishes an **intermediate phrase** from a larger **intonational phrase**. Phrase accents such as H- or L- mark an intermediate phrase's tonal ending; a full intonational phrase additionally has a boundary tone, conventionally marked with %. A pitch accent belongs at a prominent syllable, whereas these edge events concern phrase endings. Section 2.8 uses break index 3 for an intermediate-phrase boundary and 4 for a full intonational-phrase boundary. The numbers are annotation categories, not a count of words or seconds of silence.
+
+A schematic organization is:
+
+```text
+Full intonational phrase
+  Intermediate phrase: one or more pitch accents + phrase accent
+  Optional further intermediate phrases
+  Final boundary tone
+```
+
+This describes the selected framework, not a universal hierarchy or a transcription of the examples. A final pitch accent can precede unaccented words before the phrase ends. Separating the accent from the edge explains why a high final pitch need not identify a high accent on the final word.
+
+Syntactic structure helps constrain grouping without determining it uniquely. In *The report that Maya prepared arrived*, the Subject includes the relative clause. Length, rate and context can support different spoken groupings of that Subject. Written brackets and commas do not supply measured pauses. The Syntax interface below retains this distinction locally.
+
+## Intonation and interpretation
+
+**Intonation** is the organization of pitch over a phrase or utterance. An accent-and-boundary analysis describes it as a configuration of events rather than one label attached to a whole sentence. The ending and an earlier accent can differ: a low accent can be followed by a high ending, and a high accent by a low ending.
+
+Intonational form does not have a one-to-one relation with sentence type or speaker intention. A declarative *Maya repaired the printer?* can be used to seek confirmation; an information-seeking *Who repaired the printer?* can have a falling ending. Neither example licenses “rise means question” or “fall means statement” as universal decoding rules.
+
+For a constructed comparison, hold *Maya repaired the printer* fixed and vary one proposed property. Moving prominence from *Maya* to *printer* can change the salient alternatives. Changing the ending while holding the prominent word fixed can contribute to a different conversational stance or continuation pattern. The context and variety must still be supplied; these schematic changes do not establish one emotion, attitude or illocution for every speaker.
+
+The [ToBI overview](../references/mit-2006-tobi-tutorial.md#additional-overview-and-phrasing-passages) explicitly treats the mapping from prosodic categories to functions as an object of investigation. Full intonational meaning, voice-quality effects and comparisons across English varieties remain further work.
+
+## Rhythm and timing
+
+**Rhythm** concerns patterns of timing and prominence across speech. Describing English as stress-timed does not mean that all intervals between stresses are exactly equal. Segment identities, syllable structure, speaking rate, phrase position and communicative context affect timing.
+
+Compare the constructed strings *Maya sent reports* and *Maya could have sent the reports*. The second has more syllables that could occur between prominent positions. A speaker might compress some material, lengthen the interval, or use different grouping. A label such as stress-timed cannot choose among those realizations or justify deleting sounds from a transcription.
+
+Keep several comparisons apart:
+
+| Timing question | Relevant observation | Invalid shortcut |
 |---|---|---|
-| Lexical stress | Relative organization of syllables within a lexical form | Not identical to the strongest word in a sentence |
-| Phrasal prominence | Relative highlighting within an utterance | Can respond to focus, contrast and context |
-| Pitch accent | A pitch event associated with a prominent position in an intonational analysis | Not every pitch fluctuation is an accent |
-| Phrasing and boundaries | Grouping into prosodic units and edge-related patterns | A comma need not correspond to a pause |
-| Acoustic realization | Pitch-related frequency, duration, intensity and other cues | A transcript is not a measurement |
+| Is a particular syllable longer? | Duration of matched tokens in a stated context | Assuming its stress mark supplies milliseconds |
+| Is phrase-final material lengthened? | Comparable segments in phrase-final and other positions | Treating every long vowel as a boundary |
+| Are intervals between prominences similar? | Defined landmarks across identified utterances | Assuming an exactly periodic beat |
+| Does faster speech change the pattern? | Matched recordings with rate and context recorded | Prescribing one obligatory reduction |
 
-These dimensions interact. A useful representation keeps the segment string, stress pattern, proposed accent/boundaries and context in separate annotation layers.
+The inspected ToBI phrasing prose supports considering phrase-final lengthening alongside tonal cues. A full theory of English rhythm, numerical thresholds and empirical rate effects are not supplied. These are questions for comparing evidence, not measurements made in this repository.
 
-## Units and attributes at each level
+## Connected speech and reduction
 
-A **syllable** groups segments around a nucleus, usually a vowel. A word can contain several syllables; an utterance groups words into prosodic phrases. These are different units, so each attribute needs an explicit location or span.
+Prosodic organization conditions the environments in which segmental changes are investigated. **Reduction** can make a sound less fully articulated while retaining it; **elision** proposes that a segment lacks a separate realization in a reduced analysis; **assimilation** changes a property toward that of a neighbor. **Linking** concerns continuity across a boundary and does not itself imply deletion.
 
-| Unit | Relevant attribute | Values or distinctions and their interpretation |
+For a schematic General American comparison, unstressed *you* may be [jə] rather than [ju]. A vowel remains, so the comparison illustrates reduction rather than deletion. In a possible *asked* comparison [æskt] versus [æst], [k] is absent from the second segmental representation. Stress, rate and phrase context are conditions to investigate, not proof that either change occurred in a particular token.
+
+**Coarticulation** is overlap among speech gestures. A weak or inaudible release can arise while a closure remains; failure to hear a burst therefore does not by itself establish elision. Separate the prosodic hypothesis about prominence from the phonetic hypothesis about what was produced. The [Anderson passages](../references/anderson-2018-essentials-of-linguistics.md#connected-speech-passages) support selected reduction and omission examples. No elision is required merely to force the words into an assumed rhythm.
+
+## Prosodic representation and acoustic evidence
+
+A useful representation keeps the wording, lexical stress, proposed accents, phrase edges, context and measurements in separate layers. The [ToBI overview](../references/mit-2006-tobi-tutorial.md#additional-overview-and-phrasing-passages) describes time-aligned annotation tiers and the recording underlying them. Our plain-language table is a teaching aid, not a completed ToBI annotation.
+
+| Layer | What it represents | Evidence boundary |
 |---|---|---|
-| Syllable within a word | Lexical stress | Primary, secondary where applicable, or unstressed; IPA ˈ and ˌ precede the relevant syllable |
-| Syllable in an utterance | Pitch accent | A tonal event associated with prominence; a relatively high or low target can both mark an accent |
-| Prosodic phrase | Grouping and boundary | Which words group together and where the group ends; boundary cues may include pitch movement and lengthening, without a required silent pause |
-| Phrase ending | Intonational pattern | A fall, rise or more complex contour; its location and context matter for interpretation |
-| Stretch of speech | Rhythm | Relative timing of prominent and less prominent material; compare durations instead of assuming equal intervals |
-| Voiced interval or segment | Physical realization | Fundamental frequency in hertz, duration in milliseconds, and intensity under a stated measurement convention; these are observations only when measured |
+| Words and syllables | Segment sequence and proposed lexical organization | Spelling is not an exact sound transcript |
+| Stress and accents | Lexical prominence and utterance tonal events | A proposed label is not a measured peak |
+| Phrasing | Group spans and edge events | Punctuation does not specify every boundary |
+| Context | Current question, intended alternatives and use | A written sentence may leave these unresolved |
+| Acoustic description | F0 in voiced intervals, duration, intensity and method | An identified recording is required |
 
-An **intonational phrase** is a prosodic grouping with its own intonational organization. In the selected ToBI account, an accent belongs to a prominent syllable while phrase tones and boundary tones describe the ending. A high accent followed by a low ending and a low accent followed by a high ending are both possible. The final pitch therefore does not identify the location or height of an earlier accent. The [MIT tutorial record](../references/mit-2006-tobi-tutorial.md) locates the supporting descriptions; this Model uses plain-language annotations rather than attempting a full ToBI transcription.
+**Fundamental frequency**, F0, describes periodic repetition in the signal; perceived pitch is related to it but not identical. **Duration** measures an interval; **intensity** is a different physical property. High F0, greater intensity and perceived prominence are not interchangeable. Voiceless intervals, irregular voicing and tracking errors can complicate a pitch trace. A missing or doubled track is not automatically an intended tonal event.
 
-## Essential distinctions
-**Stress** concerns relative prominence in a structured pattern; it is not simply loudness. **Intonation** concerns pitch organization over an utterance or phrase. In an accent-and-boundary account, pitch events associated with prominent positions are distinguished from tonal events associated with phrase edges. The chosen annotation system must be declared before assigning categorical labels.
-
-**Rhythm** concerns patterns of timing and prominence. Calling English stress-timed does not establish exactly equal intervals between stresses. Speech rate, phrase length, segment properties and context affect observed timing.
-
-Fundamental frequency is an acoustic correlate relevant to perceived pitch during voicing. Duration and intensity are separate measurements. A highest-frequency point is not automatically the focus, and automated measurements can require correction. This Model does not prescribe undocumented thresholds.
+A complete observational record identifies speaker or variety, context, recording, annotated span, measurement method and uncertainty. In this document the recording and measured-value fields remain absent. They cannot be filled by capitalizing a word or drawing an attractive contour.
 
 ## Worked analysis
-Use *Maya repaired the printer* in three constructed contexts. **Focus** is the expression or span that selects among relevant alternatives in the exchange; it need not be only the accented word. Bold marks the proposed main accented word, not a measured loudness or a complete intonational transcription.
+
+Hold *Maya repaired the printer* constant. Bold marks a possible main accented word, not a measured loudness or full contour.
 
 | Contextual question | Possible response | Intended focus span |
 |---|---|---|
-| Who repaired the printer? | **Maya** repaired the printer. | Maya, compared with other possible repairers |
-| What did Maya repair? | Maya repaired the **printer**. | The printer, compared with other possible objects |
-| What did Maya do? | Maya repaired the **printer**. | Repaired the printer, compared with other possible activities |
+| Who repaired the printer? | **Maya** repaired the printer. | Maya, among possible repairers |
+| What did Maya repair? | Maya repaired the **printer**. | The printer, among possible objects |
+| What did Maya do? | Maya repaired the **printer**. | Repaired the printer, among possible activities |
 
-For the second response, a locally complete schematic analysis is:
+For the second response, a locally complete schematic account is:
 
 | Layer | Constructed analysis |
 |---|---|
-| Word stress | *Printer* has primary stress on its first syllable: broad General American /ˈprɪntər/ |
-| Utterance prominence | Main accent on that first syllable of *printer* |
-| Focus | The object phrase *the printer* answers the stated question |
-| Grouping | One proposed phrase containing the whole response |
-| Intonation | A falling ending is one candidate realization; the written answer does not prescribe it |
-| Timing and signal | No recorded durations, intensity values or pitch track are available |
+| Word stress | *Printer* /ˈprɪntər/ has primary stress on its first syllable |
+| Pitch accent location | Proposed main accent on that first syllable |
+| Focus | The NP *the printer* answers the stated question |
+| Grouping | One proposed phrase containing the response |
+| Intonation | A falling ending is one candidate, not dictated by the transcript |
+| Timing and signal | No recorded durations, intensity values or pitch track |
 
-Moving main prominence to *Maya* does not move *printer*'s lexical stress to its second syllable. Conversely, the second and third responses show why the accented word alone does not determine the focus span. These comparisons motivate separate word-stress, accent and context fields; they do not predict every speaker's realization.
+Changing the question to *Who repaired the printer?* can shift the main accent to Maya without shifting printer's lexical stress. Changing it to *What did Maya do?* can expand focus to the VP while keeping the proposed accent on printer. Changing the response into a confirmation request can motivate a different ending without changing which word is intended to contrast. Those changes affect distinct layers.
 
-Rhythm adds a timing question: how are the syllables between prominent positions realized at the chosen speaking rate? Extra syllables do not justify inventing an equal inter-stress interval or deleting sounds from a transcription. Record timing from actual speech before claiming compression, lengthening or reduction in a token.
-
-A declarative used for confirmation can rise, while an ordinary information-seeking wh-question can fall. The distinction between clause type and use therefore cannot be replaced by a rule that rising pitch always means a question or that falling pitch always means an assertion.
-
-### Connected speech and prominence
-
-Prosodic context matters when investigating **reduction** (a less fully articulated sound) or **elision** (a segment absent from a reduced realization). For example, unstressed *you* may have [jə] instead of [ju]: the vowel remains, so this comparison illustrates reduction, not deletion. The [selected connected-speech passages](../references/anderson-2018-essentials-of-linguistics.md#connected-speech-passages) discuss reduced vowels and optional omissions. Stress and prominence help describe the conditions, but do not determine which sounds a particular speaker omitted. Keep the prosodic analysis and the proposed segment change separate; no elision is required merely to produce an assumed English rhythm.
+Now add an already established object: *The printer was broken. What did Maya do with it?* The answer *She REPAIRED the printer* can make the action contrast salient while the object is given. This possible pattern illustrates interaction between givenness and prominence, not a mandatory realization rule. [Krifka's selected discussion](../references/krifka-2008-information-structure.md#givenness-and-accent) supports the distinction; the particular examples remain authored and unrecorded.
 
 ## Interfaces
-**Phonology Prosody:** syllables, stress domains and segment patterns interact. **Syntax Prosody:** structural grouping constrains some possibilities without imposing a unique phrase boundary after each constituent. **Information Structure Prosody:** context-sensitive focus and contrast influence prominence without identifying focus with the accented word. **Prosody Phonetics:** proposed prosodic structure is realized through variable physical cues.
+
+Prosody overlaps phonological organization, syntactic grouping, contextual interpretation and physical realization. These correspondences are constraints to investigate, not a sequence of independent processing modules.
 
 ### Interface with Phonology
 
-Syllable organization and lexical stress constrain prosodic realization, but do not uniquely determine phrasal prominence or grouping.
+Phonology supplies segment categories, syllable structure and lexical stress; Prosody relates them to utterance accents and phrasing. Keep a segment string, syllable parse, lexical stress positions, proposed accents and edges in separate fields. The counterpart is explained in [Phonology](english-phonology-system.md#interface-with-prosody).
 
-Keep lexical stress organization separate from utterance accent and phrasing when comparing the same words across contexts. The counterpart is explained in [Phonology](english-phonology-system.md#interface-with-prosody).
-
-#### Interface with Phonology representation
-
-Keep a segment string and syllable parse, lexical stress positions, proposed phrasal accents, and phrase-edge annotations in different fields. A word can contain a lexically stressed syllable even when that word does not receive the strongest prominence in an utterance. Prosody is independently browsable here but overlaps phonological analysis; the domain boundary is an organizing convention.
-
-#### Interface with Phonology worked analysis
-
-In a constructed “The students repaired the printers,” lexical word forms remain the same across a who-question and a what-question context. A proposed accent can shift from students to printers, while each word retains its lexical stress organization. Do not rewrite the lexical entry to encode every sentence-specific accent.
-
-#### Interface with Phonology evaluation and counterevidence
-
-Record the source and target analyses separately. Vary one relevant condition while preserving the others, compare the proposed mapping with an alternative, and record mismatches. A shared domain tag is not evidence for the mapping. No result is assumed to be uniquely recoverable from the other representation.
-
-#### Interface with Phonology assumptions and limits
-
-This does not assign a complete metrical or tonal analysis. Stress, reduction, syllabification and phrasing vary with variety, rate and theoretical assumptions. No recorded production, corpus sample or independent expert review is supplied for this interface account.
-
-#### Interface with Phonology evidence status
-
-**Provisional; not independently reviewed.** No newly inspected external passage is asserted to verify this summary claim. Internal links provide explanatory context, not independent evidence.
+In *The students repaired the printers*, a who-question and a what-question can favor prominence on different words while their lexical forms stay the same. A lexically stressed syllable need not receive the strongest utterance prominence. Stress, reduction and boundary organization can interact, but this does not supply a complete metrical theory or a universal realization algorithm. Compare the same words across contexts instead of rewriting lexical entries for every sentence accent.
 
 ### Interface with Phonetics
 
-A prosodic prominence analysis must be distinguished from the phonetic measurements used to investigate its realization.
+Prosody proposes accent and grouping categories; Phonetics investigates their signal realization. Represent `prominence pattern {accent_location, phrasing, variety}` as constraining `prosodic acoustic description {pitch_pattern, duration, intensity, measurement_method, recording_id}`. The relation uses `kps:constrains`; it does not predict numerical values. The counterpart is explained in [Phonetics](english-phonetics-system.md#interface-with-prosody).
 
-State a prominence or phrasing analysis before asking which signal properties could support its realization. The counterpart is explained in [Phonetics](english-phonetics-system.md#interface-with-prosody).
-
-#### Interface with Phonetics representation
-
-| Endpoint | Schematic fields |
-|---|---|
-| prominence pattern | accent_location, phrasing, variety |
-| prosodic acoustic description | pitch_pattern, duration, intensity, measurement_method, recording_id |
-
-The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
-
-#### Interface with Phonetics essential terms
-
-A **prominence pattern** represents relative highlighting, stress and phrasing within an utterance. A **prosodic acoustic description** records properties of an identified signal, such as fundamental frequency in voiced intervals, duration and intensity. Perceived pitch is related to fundamental frequency but is not identical to it; prominence is not simply loudness or the highest pitch value. A proposed pitch accent and a measured frequency peak are different analytical claims.
-
-#### Interface with Phonetics worked interpretation
-
-For a reply to *Who repaired the printer?*, an analyst might predict prominence on *Nina* in *Nina repaired the printer*. A recording could realize that prominence through a combination of pitch-related movement, timing, intensity and other cues. No specific contour or measurement follows from capitalizing NINA in a transcript. To test the proposed correspondence, preserve the question context, identify the token and compare annotated prominence with the actual signal, retaining uncertainty where the cues disagree.
-
-#### Interface with Phonetics assumptions and limits
-
-The relation is schematic and potentially many-to-many, but its cardinality remains unspecified here. Acoustic cues, speakers and contexts need empirical investigation; an abstract prominence label does not predict numerical measurements.
-
-#### Interface with Phonetics evaluation and counterevidence
-
-Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
-
-#### Interface with Phonetics evidence status
-
-**Provisional.** No new external source inspection, independent expert review, audio measurement or learner outcome is claimed. This bridge is an authored synthesis of the existing distinctions below. Claim-level external support is pending.
+For *Who repaired the printer? — Nina repaired the printer*, an analyst might predict prominence on Nina. A recording could realize that prominence through several cues. Capitalization does not specify an F0 contour. Preserve the question and token identity, compare the annotation with the signal, and retain uncertainty where cues disagree. The selected ToBI prose supports separating labels and realization; no measurements of this example are claimed.
 
 ### Interface with Syntax
 
-Syntactic grouping can constrain prosodic grouping without making syntactic constituents and prosodic phrases identical.
+Syntax supplies constituents, dependencies and clause structure; Prosody supplies candidate spoken groups. In `[The report that Maya prepared] [arrived]`, the first bracket is a Subject NP containing a relative clause. A proposed realization can group the whole Subject or use finer phrasing depending on length, context and rate. Neither brackets nor a written comma establish a pause duration.
 
-Compare proposed phrase boundaries with syntactic grouping while allowing length, focus and rate to affect realization. The counterpart is explained in [Syntax](english-syntax-system.md#interface-with-prosody).
-
-#### Interface with Syntax representation
-
-| Syntactic description | Prosodic description | Required distinction |
-|---|---|---|
-| NP or clause span | Candidate prosodic phrase span | Similar boundaries are not identity. |
-| Embedded relative clause | Possible grouping around the modifier | A pause does not prove a unique parse. |
-| Constituent length and embedding | Rate-sensitive phrasing options | Optional phrasing is not a new syntax by itself. |
-
-#### Interface with Syntax worked analysis
-
-Bracket “[The report that Maya prepared] [arrived].” The subject contains a relative clause. A proposed spoken realization may group the whole subject or use finer phrasing depending on length, focus and rate. The written brackets neither specify silence durations nor justify one exact intonation transcription. Compare this with an explicit pause after report only after recording or hearing the target.
-
-#### Interface with Syntax evaluation and counterevidence
-
-Record the source and target analyses separately. Vary one relevant condition while preserving the others, compare the proposed mapping with an alternative, and record mismatches. A shared domain tag is not evidence for the mapping. No result is assumed to be uniquely recoverable from the other representation.
-
-#### Interface with Syntax assumptions and limits
-
-The mapping is framework- and context-sensitive. No one-to-one match, universal pause rule or deterministic recovery of syntax from acoustics is asserted. No recorded production, corpus sample or independent expert review is supplied for this interface account.
-
-#### Interface with Syntax evidence status
-
-**Provisional; not independently reviewed.** No newly inspected external passage is asserted to verify this summary claim. Internal links provide explanatory context, not independent evidence.
+The counterpart is explained in [Syntax](english-syntax-system.md#interface-with-prosody). Compare syntactic and prosodic spans separately; a pause after *report* would need to be heard and interpreted in context before drawing a grammatical conclusion. The selected ToBI overview motivates a structure–grouping connection, but this particular analysis remains authored. It does not establish one-to-one constituency or deterministic recovery of syntax from acoustics.
 
 ### Interface with Information Structure
 
-Focus domains constrain possible prosodic realizations without being identical to the most strongly accented word.
+Information Structure supplies the current issue and focus alternatives; Prosody supplies possible prominence and phrasing. In *Nina repaired the printer*, focus can be Nina under *Who repaired it?*, the printer under *What did Nina repair?*, or the VP under *What did Nina do?* The latter two may share a main accent on printer. The counterpart and full comparison are explained in [Information Structure](english-information-structure-system.md#interface-with-prosody).
 
-Use explicit question contexts to interpret prominence while retaining alternative focus spans. The counterpart is explained in [Information Structure](english-information-structure-system.md#interface-with-prosody).
+A focus span, an accented syllable and the highest measured pitch are three different things. Given expressions can also be accented contrastively, and a wider focus domain can contain deaccented given material. Krifka's inspected passages add selected support for these interactions; Roberts remains abstract-only. No full focus-projection derivation, fixed contour-to-meaning dictionary or recorded response is provided.
 
-#### Interface with Information Structure representation
+## Evidence and limits
 
-| QUD | Focus domain | Background | Possible strongest word |
-|---|---|---|---|
-| Who repaired the printer? | Nina | __ repaired the printer | NINA |
-| What did Nina repair? | the printer | Nina repaired __ | PRINTER |
-| What did Nina do? | repaired the printer | Nina __ | PRINTER |
+The [MIT ToBI Reference](../references/mit-2006-tobi-tutorial.md) records the selected overview, accent and phrasing passages. [Anderson](../references/anderson-2018-essentials-of-linguistics.md) supplies selected suprasegmental and connected-speech support. [Krifka](../references/krifka-2008-information-structure.md) supplies selected givenness/focus distinctions; [Roberts](../references/roberts-2012-information-structure.md) supplies only the abstract-level QUD connection. The seven-area organization and comparisons are authored synthesis.
 
-#### Interface with Information Structure worked interpretation
+This Model remains **provisional and independently unreviewed**. It does not provide all ToBI labels, a full metrical or rhythm theory, a complete intonational semantics, cross-variety inventories or measured speech. For actual data, inspect competing annotations and preserve uncertain boundaries. The highest F0 alone cannot prove focus: speaker range, edge tones, segmental context and tracking error may matter.
 
-NP focus and VP focus can share a prominent PRINTER. A broader conversation about the printer does not make Nina Topic merely because she is Subject or focused. The acoustic realization of prominence may involve pitch movement, duration and intensity.
-
-#### Interface with Information Structure assumptions and limits
-
-The table is a constructed working illustration, not an audio measurement or a complete focus-projection grammar. Roberts' abstract supports a connection between QUD and prosodic focus; detailed derivations require full-text and competing-source review.
-
-#### Interface with Information Structure evaluation and counterevidence
-
-Compare explicit question-answer contexts while holding the sentence string stable. Record focus span, accented word and lexically stressed syllable separately. Do not assign a unique focus domain from capitalization alone.
-
-#### Interface with Information Structure evidence status
-
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this section. Inspect the linked record's access extent and nonclaims.
-
-- [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](../references/roberts-2012-information-structure.md#abstract) — support is limited to the named section in that record.
-
-## Evaluation and counterevidence
-For actual data, preserve the audio, context, speaker/variety and annotation convention. Inspect alignment and ambiguous boundaries. Compare the same wording across contexts and different wordings in a similar context. A proposed interpretation should survive consideration of at least one alternative explanation.
-
-Diagnostic: does the highest measured pitch prove which word is in focus? No. Lexical/prosodic structure, boundaries, speaker range, tracking error and context may matter. The acoustic peak and the focus analysis are separate claims.
-
-## Assumptions and limits
-The prominence and edge vocabulary is a working account, not a complete ToBI system or universal prosodic grammar. Intonational meaning, focus projection, rhythm and variety-specific patterns require additional studies. No audio measurement or experimental comprehension result is claimed.
-
-## Evidence status
-**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records selected suprasegmental and connected-speech discussions. The [MIT ToBI tutorial](../references/mit-2006-tobi-tutorial.md) supports distinguishing prominence from phrasing and high/low accents from phrase endings. The [Roberts Reference](../references/roberts-2012-information-structure.md) supports a broad QUD/prosodic-focus connection at abstract level; it does not independently verify the particular focus-projection examples here. The question table and layered analysis are authored illustrations, not observed productions or a completed ToBI annotation. Rhythm and context-dependent interpretations retain the limits above.
-
-## Related knowledge
-[Stress](../concepts/stress.md), [prosody and intonation](../concepts/prosody.md) and [connected speech](../concepts/connected-speech.md) expand the distinctions. [Syntax Prosody interface](#interface-with-syntax), [Information Structure Prosody interface](#interface-with-information-structure) and [Prosody Phonetics interface](#interface-with-phonetics) explain the principal connections.
+[Stress](../concepts/stress.md), [prosody and intonation](../concepts/prosody.md), [connected speech](../concepts/connected-speech.md) and [analyze sound realization](../methods/analyze-sound-realization.md) provide optional detail and a procedure for investigation.

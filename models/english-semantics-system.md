@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-semantics-system"
 type: "model"
-version: "0.4.0"
+version: "0.4.1"
 language: "KPS 9.x"
 status: "draft"
 domains: ["semantics"]
@@ -9,9 +9,9 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:coppock-champollion-2026-formal-semantics", "english:reference:anderson-2018-essentials-of-linguistics", "english:reference:richards-2022-semantics", "english:reference:yablo-2015-modal-semantics", "english:reference:british-council-undated-grammar-reference", "english:reference:bhatt-2003-implicature", "english:reference:fox-menendez-benito-2006-presupposition"]
+references: ["english:reference:coppock-champollion-2026-formal-semantics", "english:reference:anderson-2018-essentials-of-linguistics", "english:reference:richards-2022-semantics", "english:reference:yablo-2015-modal-semantics", "english:reference:british-council-undated-grammar-reference", "english:reference:bhatt-2003-implicature", "english:reference:fox-menendez-benito-2006-presupposition", "english:reference:krifka-2008-information-structure"]
 uses_concepts: ["english:concept:compositionality", "english:concept:reference-and-denotation", "english:concept:semantic-role", "english:concept:quantification-and-scope", "english:concept:negation-and-entailment", "english:concept:tense-and-aspect", "english:concept:modality", "english:concept:semantic-predicate", "english:concept:situation-type", "english:concept:lexical-entry", "english:concept:sense-and-lexical-ambiguity", "english:concept:lexical-selection", "english:concept:object-and-pp-complement", "english:concept:valency-and-argument-structure", "english:concept:contextual-resolution", "english:concept:implicature", "english:concept:presupposition", "english:concept:common-ground"]
-uses_models: ["english:model:english-lexicon-system", "english:model:english-syntax-system", "english:model:english-pragmatics-system"]
+uses_models: ["english:model:english-lexicon-system", "english:model:english-syntax-system", "english:model:english-pragmatics-system", "english:model:english-information-structure-system"]
 system_domain: "semantics"
 ---
 
@@ -46,6 +46,7 @@ Thirteen visible topics connect meaning and reference, semantic building blocks,
 - [Other interfaces](#other-interfaces)
   - [Interface with Lexicon](#interface-with-lexicon)
   - [Interface with Pragmatics](#interface-with-pragmatics)
+  - [Interface with Information Structure](#interface-with-information-structure)
 - [Evidence and open questions](#evidence-and-open-questions)
 - [Related knowledge](#related-knowledge)
 
@@ -420,10 +421,19 @@ A **presupposition** is background information that an expression or use present
 
 The **common ground** is what interlocutors treat as shared for the conversation, not necessarily what is objectively true. Presuppositions, contextual reference and implicature can interact; they are not three mutually exclusive word lists. Annotate which contribution the expression supplies, what context resolves and which conclusion remains defeasible. These constructed examples do not establish a speaker's actual intention or a listener's observed response. The [Pragmatics counterpart](english-pragmatics-system.md#semantics-pragmatics-interface) develops the discourse side.
 
+### Interface with Information Structure
+
+Information Structure identifies contextually relevant alternatives; Semantics explains how an expression can operate over them. The counterpart is explained in [Information Structure](english-information-structure-system.md#interface-with-semantics).
+
+In *Maya only lent Leo the printer*, an object-focused reading contrasts the printer with other relevant items lent to Leo. A recipient-focused reading contrasts Leo with other relevant people lent the printer. Holding a positive lending event fixed for this comparison, the first excludes other items lent to Leo, while the second excludes other recipients of this printer. Lending a scanner to Leo defeats the first exclusion without necessarily defeating the second; lending the printer to Nina defeats the second without necessarily defeating the first.
+
+Keep the ordinary proposition, focus alternatives, operator scope and contextual domain separate. Focus and scope are related but not identical, and an accent alone cannot establish a unique reading. These simplified truth-condition comparisons do not settle every association of *only* or whether its positive contribution is asserted or presupposed. The selected [Krifka discussion](../references/krifka-2008-information-structure.md#focus-and-questions) supports the alternative-sensitive connection. It explains why changing information organization is not always semantically neutral without supplying a complete operator theory.
+
 ## Evidence and open questions
 
 **Provisional; independent review pending.** This is an introductory synthesis with constructed examples, not a comprehensive formal semantics or an empirical study. Source support is bounded:
 
+- [Krifka](../references/krifka-2008-information-structure.md): selected focus-alternative and operator distinctions at the Information Structure interface.
 - [Coppock and Champollion](../references/coppock-champollion-2026-formal-semantics.md): selected typed-denotation, function-application, event and aspect passages; the local progression, report calculations and event record are authored adaptations.
 - [Anderson](../references/anderson-2018-essentials-of-linguistics.md): selected lexical/structural ambiguity, word meaning and participant-role passages.
 - [Richards](../references/richards-2022-semantics.md): selected elementary quantifier and scope explanations; not every English scope judgment or a commitment to the lecture's derivational theory.

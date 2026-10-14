@@ -2,7 +2,7 @@ Use case: infographic-diagram.
 Create a high-quality illustrated educational overview for an English linguistics body-of-knowledge document. Portrait composition, generous resolution and sharply legible text. Refine the reference image's elegant cream paper, navy typography, muted teal/blue/gold watercolor and ink style, but redesign panel sizes to fit the new text. Text accuracy takes priority over ornament.
 Title: "Meaning in English"
 Subtitle: "Body of Knowledge — Topic Detail"
-Two spacious panels at top: Semantics left, Pragmatics right. Two panels below: Discourse left, Information Structure right. Give the bottom row enough height for eight Discourse items. Reduce decorative objects substantially to make room; use text space efficiently. Each topic gets its own clearly separated line or wrapped item. Exactly 37 topics, each once. Decorative books, foliage, speech bubbles and small desk motifs at margins only. No scientific diagrams, arrows or numbering implying required sequence. No extra text, no logos.
+Two spacious panels at top: Semantics left, Pragmatics right. Two panels below: Discourse left, Information Structure right. Give the bottom row enough height for eight Discourse items. Reduce decorative objects substantially to make room; use text space efficiently. Each topic gets its own clearly separated line or wrapped item. Exactly 41 topics, each once. Decorative books, foliage, speech bubbles and small desk motifs at margins only. No scientific diagrams, arrows or numbering implying required sequence. No extra text, no logos.
 Panel "Semantics" (13 exact labels):
 Meaning and reference
 Entities, properties and relations
@@ -40,12 +40,18 @@ Cohesion and coherence
 Discourse relations
 Discourse structure
 Conversation and repair
-Panel "Information Structure" (3 exact labels):
-Topic, focus and QUD
+Panel "Information Structure" (7 exact labels):
+Topic and comment
+Focus and background
+Questions under discussion
 Givenness and accessibility
+Contrast and alternatives
+Information packaging
 Focus and prosodic realization
 Footer: "QUD = question under discussion. Topics overlap across subjects."
 Keep complete headings and all long labels readable with deliberate line wrapping.
 
 
-Generated with the built-in image_gen tool on 2026-10-14, using the previous version of this illustration as a style reference. All 37 topic labels were visually compared with the outline: thirteen Semantics, thirteen Pragmatics, eight Discourse and three Information Structure. Decoration is illustrative, not observed data or a formal analysis.
+Remove the large book-and-pencil decoration in the Information Structure panel to fit all seven topic labels clearly. Preserve the other supplied labels; the input is the style reference.
+
+Generated with the built-in image_gen tool on 2026-10-14, using the preceding illustration as a style reference. All 41 topic labels were visually checked against the body-of-knowledge outline. Decorative motifs are illustrative, not anatomical models, observed data or formal analyses.

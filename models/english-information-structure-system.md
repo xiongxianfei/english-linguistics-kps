@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-information-structure-system"
 type: "model"
-version: "0.2.1"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 domains: ["information-structure"]
@@ -9,113 +9,165 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:roberts-2012-information-structure"]
+references: ["english:reference:roberts-2012-information-structure", "english:reference:krifka-2008-information-structure"]
 uses_concepts: ["english:concept:focus-topic-and-qud", "english:concept:givenness-and-bridging", "english:concept:common-ground", "english:concept:discourse-referent", "english:concept:prosody", "english:concept:stress"]
-uses_models: ["english:model:english-discourse-system", "english:model:english-prosody-system", "english:model:english-syntax-system"]
+uses_models: ["english:model:english-discourse-system", "english:model:english-prosody-system", "english:model:english-syntax-system", "english:model:english-semantics-system"]
 system_domain: "information-structure"
 ---
 
 # English information structure system
 
-## Key takeaway
-Information structure distinguishes topic, focus, givenness and the question under discussion rather than equating them with grammatical positions or accented words.
+Information Structure explains how an utterance fits what participants are discussing. The same sentence can answer different questions, contrast different alternatives, or present a familiar referent in a newly relevant role. To analyze that organization, keep topic, focus, givenness, grammatical function and spoken prominence distinct.
 
-## Summary
-This Model explains how an utterance organizes information relative to a discourse. It defines topic, focus, background, givenness and the question under discussion, then compares different contexts for the same sentence. It includes the prosodic connection without asserting that capitalization or an accent uniquely determines a focus domain. Interfaces with Discourse and Prosody explain why context, focus spans and accented words must be recorded separately. Source limits remain specific to each explanation.
+This Model develops seven connected areas. The reader should be able to explain why changing a question changes an answer's focus, why old information can be focused, and why neither word order nor a prominent word determines the entire analysis. The account is an introductory synthesis using an alternatives-based perspective and a questions-under-discussion perspective; it is not a claim that all theories use identical terms. Examples are constructed, and no recording or learner response is supplied.
 
 ## Contents
 
-- [Purpose](#purpose)
-- [Representation](#representation)
-- [Essential distinctions](#essential-distinctions)
+- [Topic and comment](#topic-and-comment)
+- [Focus and background](#focus-and-background)
+- [Questions under discussion](#questions-under-discussion)
+- [Givenness and accessibility](#givenness-and-accessibility)
+- [Contrast and alternatives](#contrast-and-alternatives)
+- [Information packaging](#information-packaging)
+- [Focus and prosodic realization](#focus-and-prosodic-realization)
 - [Worked analysis](#worked-analysis)
 - [Interfaces](#interfaces)
   - [Interface with Discourse](#interface-with-discourse)
   - [Interface with Prosody](#interface-with-prosody)
-- [Evaluation and counterevidence](#evaluation-and-counterevidence)
-- [Assumptions and limits](#assumptions-and-limits)
-- [Evidence status](#evidence-status)
+  - [Interface with Syntax](#interface-with-syntax)
+  - [Interface with Semantics](#interface-with-semantics)
+- [Evidence and limits](#evidence-and-limits)
 
-## Purpose
-For an utterance in context, identify what issue is being addressed, which alternatives are relevant and what information is treated as accessible. Keep that analysis separate from grammatical function and actual acoustic observation.
+## Topic and comment
 
-## Representation
+A **topic** is what a relevant utterance or discourse stretch is about. A **comment** is what is said about that topic. A topic expression is a piece of language; its referent is the person, object or situation being discussed. Keep the two apart when representing an analysis.
 
-| Dimension | Working interpretation | Not equivalent to |
+In *As for the printer, Maya repaired it yesterday*, *the printer* explicitly identifies an aboutness topic. *Maya* is the grammatical Subject of the following clause, while *it* refers back to the printer. This is why Subject and Topic cannot be treated as interchangeable labels. In a different context, *Maya repaired the printer* could contribute information about Maya.
+
+Topic–comment organization also differs from focus–background organization. Suppose the printer is already the topic and someone asks *When did Maya repair it?* In *Maya repaired it YESTERDAY*, the comment concerns the repair, while the time expression supplies the focused alternative. The entire comment need not be the focus.
+
+A topic can be introduced rather than previously mentioned: *A colleague of mine has bought a printer* can establish the colleague as the person the speaker will discuss. Conversely, *What happened? — A printer caught fire* can present a whole situation without requiring a separately expressed aboutness topic. The scope of a topic assignment therefore matters: distinguish an utterance topic from the broader subject of a conversation, and leave an assignment unresolved when context is insufficient.
+
+[Krifka's selected topic discussion](../references/krifka-2008-information-structure.md#topics-and-contrast) motivates these distinctions. Its account of aboutness is a theoretical proposal, not direct evidence that human memory consists of topic-indexed files.
+
+## Focus and background
+
+In the working account, **focus** identifies an expression or domain whose alternatives matter to the interpretation. **Background** describes what is held constant in a particular comparison. These are properties of an expression in use, not permanent attributes of a word.
+
+For *Who repaired the printer? — MAYA repaired the printer*, possible answers differ in the repairer:
+
+```text
+Maya repaired the printer.
+Nina repaired the printer.
+Leo repaired the printer.
+```
+
+The focus domain is *Maya*; the working background is `__ repaired the printer`. If the question instead asks *What did Maya repair?*, possible answers differ in the object and the background becomes `Maya repaired __`. A **narrow focus** may cover one constituent; a **broad focus** may cover a larger phrase or the whole clause. The size is established by the intended alternatives, not by counting capitalized words.
+
+Calling focus “new information” loses an important distinction. If Maya and Nina were both just mentioned, *MAYA repaired it, not Nina* can focus an already familiar name. Nor does focus mean “the most important word”: importance does not specify which alternatives are being compared.
+
+The blank-slot notation is a local explanatory device. It does not adopt a complete structured-meaning formalism or imply that the background is an independently established presupposition in every construction. [Krifka's selected focus passages](../references/krifka-2008-information-structure.md#focus-and-questions) distinguish alternative-based interpretation from several competing definitions and representations.
+
+## Questions under discussion
+
+A **question under discussion**, or QUD, is the issue a contribution addresses. It may be spoken explicitly or inferred from the exchange. It helps explain why a true sentence can nevertheless be an unsuitable answer to a particular question.
+
+| Issue | Relevant answer variation | Candidate focus in the same sentence |
 |---|---|---|
-| Topic | What the relevant discourse stretch is about | Every grammatical Subject |
-| Question under discussion | The issue the participants are addressing | Necessarily a question spoken aloud |
-| Focus | The expression or domain related to relevant alternatives | Every new word or only the loudest word |
-| Background | Material held constant in the focus comparison | Everything previously mentioned |
-| Givenness | Accessibility or prior activation under a chosen account | Lack of focus |
+| Who repaired the printer? | Different repairers | *Maya* |
+| What did Maya repair? | Different objects | *the printer* |
+| What did Maya do? | Different activities | *repaired the printer* |
+| What happened? | Different situations | Potentially the whole clause |
 
-These labels characterize an expression in a use, not permanent properties stored on the word. Different frameworks formalize focus and givenness differently.
+A question is not identical to its answer or to the grammatical wh-word. For *Who repaired the printer?*, the answer's focus is the repairer expression, not an absent *who*. A yes/no question raises alternatives about whether a proposition holds; it does not necessarily ask the listener to replace a noun.
 
-## Essential distinctions
-A **question under discussion**, or QUD, supplies an issue against which an answer can be evaluated. A **focus domain** can be a word, phrase or larger constituent. Relevant alternatives might differ in a participant, an action or a whole proposition. **Contrast** can select among previously mentioned alternatives; focused material therefore need not be new.
+Questions can form a local strategy. *Who repaired which machine?* can be addressed through *What did Maya repair?* and *What did Nina repair?* An answer to one subquestion need not settle the whole issue. This is useful for interpreting contrastive topics below, without imposing a fixed question tree on every conversation.
 
-A grammatical Subject is a syntactic function. Topic is a discourse-related interpretation. They may align, but an answer focused on the Subject does not thereby establish that the Subject is the Topic. Likewise, the background of a focus analysis is not a complete presupposition theory.
+An implicit QUD is an analytical hypothesis. For *Maya repaired the printer*, the wording alone does not tell us which row applies. State the assumed issue and compare alternatives. Roberts's [abstract](../references/roberts-2012-information-structure.md#abstract) motivates a QUD-based account; the newly inspected Krifka passages discuss question–answer congruence and implicit questions. Neither establishes that one contextual interpretation is uniquely recoverable here.
 
-Information packaging can use word order, clefts, passive constructions and prosodic prominence. The same propositional core can be packaged differently, but alternative constructions may carry additional presuppositions or restrictions; they are not automatically interchangeable paraphrases.
+## Givenness and accessibility
+
+**Givenness** concerns what is already available under the adopted account of context. **Accessibility** concerns how readily a referent or interpretation can be picked up in the relevant discourse environment. Prior mention, shared familiarity, inferability and current salience should not be collapsed into one old/new flag.
+
+In *A printer arrived. The display was cracked*, the display has not been mentioned, but a printer can make a related display inferable. This **bridging** relation is not identity: display and printer are different referents, and the association remains defeasible. In *Maya and Nina arrived. MAYA repaired the printer*, both names are discourse old while one can still be focused. Shared background knowledge also need not have been mentioned in the immediately preceding sentence.
+
+These distinctions affect expression choice. A pronoun often draws on an accessible referent; an explicit noun phrase may clarify an ambiguous one. Givenness can favor reduced prominence, but it does not prohibit accent: *I meant HIM, not her* can contrast accessible referents. Reduced prominence also does not imply that a referent has disappeared from the meaning.
+
+Krifka's selected givenness discussion supports separating focus from givenness and considering their interaction. The local [Discourse account](english-discourse-system.md#givenness-and-bridging) supplies reference tracking and bridging explanations. No single hierarchy of accessibility or automatic rule for pronouns, articles and accent is adopted here.
+
+## Contrast and alternatives
+
+An answer can select an alternative without explicitly correcting anyone. **Corrective focus** instead opposes an earlier proposed alternative: *Nina repaired it* followed by *MAYA repaired it, not Nina*. Both uses involve alternatives, but the corrective context makes the rejected candidate explicit.
+
+A **contrastive topic** can organize a broader issue into partial answers. Under *Who repaired which machine?*, consider *As for MAYA, she repaired the PRINTER; as for NINA, she repaired the SCANNER*. Maya and Nina organize the answer by person, while printer and scanner answer the corresponding subquestions. Topic and focus can therefore interact within one contribution. Capitalization marks intended contrast in this constructed example; it does not document a particular rising contour.
+
+Alternatives can also affect semantic interpretation. Compare two intended readings of *Maya only lent Leo the printer*:
+
+| Intended focus | Relevant alternatives | Bounded interpretation |
+|---|---|---|
+| *the printer* | Other relevant items she might lend Leo | She lent Leo the printer and no other relevant item |
+| *Leo* | Other relevant people she might lend the printer to | She lent Leo the printer and no other relevant person |
+
+Under the first reading, lending a scanner to Leo would violate the exclusion. Under the second, lending the same printer to Nina would violate it. Each reading leaves other matters open: excluding other items lent to Leo does not by itself exclude lending the printer to Nina. This simplified comparison holds the domain and intended reading fixed. It does not settle the presuppositional status of the positive contribution of *only*, every possible association, or how listeners resolve the sentence without context.
+
+The semantic contribution of *only* and the focus alternatives must be represented together. Scope, focus and accent are distinct; moving an accent does not automatically license every imaginable scope. [Krifka's selected semantic-focus discussion](../references/krifka-2008-information-structure.md#focus-and-questions) supplies this connection; the Semantics interface explains it from the other side.
+
+## Information packaging
+
+English can organize a contribution through prosody, expression choice and syntactic construction. **Information packaging** concerns how those resources fit the discourse. It does not imply that every alternative construction has exactly the same meaning or appropriateness.
+
+| Constructed form | Possible contribution | Boundary |
+|---|---|---|
+| *Maya repaired the printer* | A clause compatible with different focus domains | Context is still needed |
+| *The printer was repaired by Maya* | Makes the printer Subject and can support continuity about it | Passive Subject is not automatically Topic |
+| *As for the printer, Maya repaired it* | Explicitly introduces an aboutness topic | It is not simply an ordinary Object moved with no other change |
+| *It was Maya who repaired the printer* | A cleft can highlight identification of the repairer | Cleft background and possible exhaustive interpretation need separate analysis |
+
+A **cleft** divides the contribution into an identifying portion and another clause. Its ordinary use can treat the repair event as background while identifying Maya. That does not make clefts universally interchangeable with an accented simple clause. The construction, context and interpretation all require attention.
+
+The [Syntax interface](#interface-with-syntax) distinguishes grammatical changes from discourse effects. The construction examples are authored comparisons; Krifka discusses packaging and notes that cleft focus can differ interpretively from in-situ focus. A full grammar of clefts, topicalization, passive choice and information ordering remains outside this introductory account.
+
+## Focus and prosodic realization
+
+A focus span need not be identical to the word carrying a pitch accent, an intonational event associated with a prominent syllable. Compare *What did Maya repair?* with *What did Maya do?* A response with main prominence on *printer* can support either NP focus (*the printer*) or VP focus (*repaired the printer*). **Focus projection** names the issue of how a local accent can support a broader focus interpretation under an adopted account.
+
+Givenness can affect where prominence falls within a larger domain. Suppose the printer has already been discussed and the question is *What did Maya do with it?* The answer *She REPAIRED the printer* can contrast repairing with replacing or discarding it while the object remains familiar. This is a possible contextual pattern, not an exceptionless instruction that given objects must be deaccented.
+
+Keep four records separate: the QUD, the intended focus span, a proposed accented syllable, and any observed signal. Lexical stress within *printer*, conventionally /ˈprɪntər/ here, is another level. Neither the spelling nor capitalization supplies a measured pitch track. Krifka's section 4.3 discusses givenness and accent placement; detailed focus projection and variety-specific realization require broader evidence. The [Prosody interface](#interface-with-prosody) preserves this distinction locally in both Models.
 
 ## Worked analysis
-Hold the wording *Maya repaired the printer* constant.
 
-| Contextual question | Working focus domain | Background for this comparison | Possible accented word |
-|---|---|---|---|
-| Who repaired the printer? | Maya | __ repaired the printer | MAYA |
-| What did Maya repair? | the printer | Maya repaired __ | PRINTER |
-| What did Maya do? | repaired the printer | Maya __ | PRINTER |
+The constructed exchange is:
 
-The last two cases show why a prominent *printer* need not uniquely identify the focus domain. In the third context, the action phrase is the answer even if one word carries the strongest accent. Capitalization here is a schematic prominence cue, not an observed pitch contour.
+> Leo: Maya and Nina both checked the machines. Who repaired which one?
+>
+> Maya: As for Nina, she repaired the scanner. I repaired the printer.
+>
+> Leo: So Nina repaired the printer?
+>
+> Maya: No, I repaired the printer.
 
-If Maya and Nina have both already been mentioned, *MAYA repaired it, not Nina* can still focus Maya contrastively. Prior mention alone cannot decide that something is background. A topic assignment requires the wider discourse rather than a universal Subject-equals-Topic rule.
+Initially Maya, Nina and the machines are established as referents. The question organizes the missing information by repairer and machine. The first answer divides that issue into partial answers: Nina/scanner and Maya/printer. A plausible information-structure analysis treats the people as contrastive topics in this context, with machine alternatives supplying the corresponding answers. This does not establish observed accents.
+
+Leo's follow-up introduces an incorrect pairing relative to the preceding answer. Maya's final *I* can carry corrective focus against Nina even though Maya is already familiar. If the wider conversation is about the printer, the repairer expression can be focused without becoming the conversation's aboutness topic. The grammatical Subject remains *I* in that clause regardless of whether it is being contrasted.
+
+Now change the follow-up to *So you replaced the printer?* The same reply, *I repaired the printer*, can instead focus the action *repaired*. The people and object stay familiar, while the relevant alternatives change. Finally compare *What happened next?*: a broader event description may become relevant. The proposed analysis must change with the issue rather than permanently tagging words as topic or focus.
+
+The earlier three-way comparison with *Maya repaired the printer* and the corresponding *Nina repaired the printer* examples below make the same point with a fixed sentence. These are explanatory contrasts, not a completed learning activity or a record of participants' actual intentions.
 
 ## Interfaces
-**Discourse Information Structure:** accessible referents and the current issue constrain plausible topic/focus analyses. **Information Structure Prosody:** focus and prominence interact under language- and context-specific constraints; the mapping can be underdetermined. **Syntax Prosody:** available structures and phrase boundaries interact with realization. **Pragmatics** concerns relevance and conversational commitments, which are not encoded by word order alone.
+
+The same contribution has discourse history, grammatical structure, compositional meaning and possible spoken realization. The interfaces connect those descriptions without imposing a processing sequence.
 
 ### Interface with Discourse
 
-A stated discourse context constrains an information-structure analysis without making grammatical Subject, Topic and Focus interchangeable.
+Discourse records prior contributions, accessible referents and candidate issues. Information Structure relates that context to topic, focus and background. Represent the correspondence as `discourse context {accessible_referents, prior_utterances, candidate_questions}` constraining `focus domain {question_under_discussion, focus_span, background}`. The relation uses `kps:constrains`; these are analytical fields, not an algorithm or measured mental state. The counterpart is explained in [Discourse](english-discourse-system.md#interface-with-information-structure).
 
-State the assumed discourse context and question before assigning a focus span or Topic. The counterpart is explained in [Discourse](english-discourse-system.md#interface-with-information-structure).
-
-#### Interface with Discourse representation
-
-| Endpoint | Schematic fields |
-|---|---|
-| discourse context | accessible_referents, prior_utterances, candidate_questions |
-| focus domain | question_under_discussion, focus_span, background |
-
-The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
-
-#### Interface with Discourse essential terms
-
-A **discourse context** records what has been said, which referents are accessible and what issue is being addressed. A **focus domain** is the word or larger expression that supplies relevant alternatives relative to that issue. Its **background** is what the comparison holds constant. Topic concerns what the discourse is about; none of these labels is simply another name for grammatical Subject. A question under discussion can be implicit, but an analyst must state the assumed question rather than invent an observed conversational context.
-
-#### Interface with Discourse worked interpretation
-
-For *Who repaired the printer?*, the answer *Nina repaired the printer* can focus *Nina*, contrasting her with other possible repairers. For *What did Nina repair?*, the same answer can focus *the printer*, contrasting it with other possible objects. For *What did Nina do?*, the focus can be the larger phrase *repaired the printer*. These constructed pairs show that the sentence string does not by itself fix one focus span or Topic. Without a stated context, preserve alternative analyses rather than selecting one as fact.
-
-#### Interface with Discourse assumptions and limits
-
-This is a QUD-compatible working bridge, not a consensus theory of discourse. Context may be insufficient to identify one topic or focus; alternative analyses must remain explicit.
-
-#### Interface with Discourse evaluation and counterevidence
-
-Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
-
-#### Interface with Discourse evidence status
-
-**Provisional.** No new external source inspection, independent expert review, audio measurement or learner outcome is claimed. This bridge is an authored synthesis of the existing distinctions below. Claim-level external support is pending.
+For *Who repaired the printer?*, *Nina repaired the printer* can focus Nina; for *What did Nina repair?*, it can focus the printer; for *What did Nina do?*, it can focus the larger VP. A prior mention does not by itself choose between those analyses. Track both the history and the current issue, and preserve alternatives if either is missing. An assertion's uptake and truth are still Pragmatics and Discourse questions, not consequences of assigning focus.
 
 ### Interface with Prosody
 
-Focus domains constrain possible prosodic realizations without being identical to the most strongly accented word.
-
-Distinguish the span in focus from the word or syllable carrying a possible accent. The counterpart is explained in [Prosody](english-prosody-system.md#interface-with-information-structure).
-
-#### Interface with Prosody representation
+Information Structure supplies a context-dependent focus domain; Prosody supplies possible accent and phrasing patterns. Neither uniquely determines the other. The counterpart is explained in [Prosody](english-prosody-system.md#interface-with-information-structure).
 
 | QUD | Focus domain | Background | Possible strongest word |
 |---|---|---|---|
@@ -123,32 +175,24 @@ Distinguish the span in focus from the word or syllable carrying a possible acce
 | What did Nina repair? | the printer | Nina repaired __ | PRINTER |
 | What did Nina do? | repaired the printer | Nina __ | PRINTER |
 
-#### Interface with Prosody worked interpretation
+The final two rows share a possible accented word but differ in focus span. Given material can also be accented contrastively. Test any realization claim against an identified recording and context; acoustic cues can disagree and automatic pitch tracking can be wrong. Krifka supplies selected support for focus/givenness interactions, while the Roberts contribution remains abstract-only. No detailed phonological derivation or observed realization is supplied here.
 
-NP focus and VP focus can share a prominent PRINTER. A broader conversation about the printer does not make Nina Topic merely because she is Subject or focused. The acoustic realization of prominence may involve pitch movement, duration and intensity.
+### Interface with Syntax
 
-#### Interface with Prosody assumptions and limits
+Syntax describes constituents and functions; Information Structure describes their role in a particular exchange. In *Maya repaired the printer*, Maya is Subject; in *The printer was repaired by Maya*, the printer is Subject while Maya is inside a by-PP. Under an intended repair-event reading, these forms can organize the same participants differently. Neither Subject assignment establishes Topic or Focus without context.
 
-The table is a constructed working illustration, not an audio measurement or a complete focus-projection grammar. Roberts' abstract supports a connection between QUD and prosodic focus; detailed derivations require full-text and competing-source review.
+The explicit topic construction *As for the printer, Maya repaired it* makes the distinction particularly visible. Clefts add their own constructional and interpretive conditions, so they cannot be treated as moving emphasis with no grammatical consequences. Record construction, Subject/Object spans, context and proposed focus separately. The counterpart in [Syntax](english-syntax-system.md#interface-with-information-structure) provides the local grammatical explanation; the comparison is not a universal construction-selection algorithm.
 
-#### Interface with Prosody evaluation and counterevidence
+### Interface with Semantics
 
-Compare explicit question-answer contexts while holding the sentence string stable. Record focus span, accented word and lexically stressed syllable separately. Do not assign a unique focus domain from capitalization alone.
+Semantics provides ordinary interpretation and the contribution of focus-sensitive expressions; Information Structure supplies relevant alternatives. For *Maya only lent Leo the printer*, contrasting items and contrasting recipients give different exclusions, as explained above. The object-focused reading rules out relevant other items lent to Leo; the recipient-focused reading rules out relevant other people lent this printer. Neither implies the other's exclusion.
 
-#### Interface with Prosody evidence status
+This is why packaging cannot always be assumed to leave truth conditions unchanged. Keep ordinary proposition, alternative set, operator scope and discourse context distinct. The counterpart in [Semantics](english-semantics-system.md#interface-with-information-structure) gives the same bounded interpretation. The comparison adopts selected Krifka distinctions without a complete semantics for *only*, *also* or *even*.
 
-Selected source contributions are recorded below. They do not verify every example, theoretical choice or generalization in this section. Inspect the linked record's access extent and nonclaims.
+## Evidence and limits
 
-- [Information Structure: Towards an integrated formal theory of pragmatics. Semantics and Pragmatics 5, article 6.](../references/roberts-2012-information-structure.md#abstract) — support is limited to the named section in that record.
+[Krifka 2008](../references/krifka-2008-information-structure.md) supplies inspected passages on focus, questions, givenness, topics, contrast and packaging. [Roberts 2012](../references/roberts-2012-information-structure.md) remains abstract-only. These sources support the specified distinctions, not the correctness of every authored example or one universally accepted theory. New Model support does not silently upgrade evidence attached to separate Concepts or Principles.
 
-## Evaluation and counterevidence
-Keep sentence, QUD, focus span, accented syllable/word and proposed Topic in separate fields. Compare question-answer pairs while holding wording stable. Test whether changing the context changes the analysis without changing the grammatical Subject. Do not assign a unique focus domain from a transcript without contextual evidence.
+The account remains **provisional and independently unreviewed**. Full formal focus projection, inventories of constructions, fine-grained accessibility, cross-variety realization and processing evidence remain gaps. No audio, corpus analysis, listener judgment or learner result is reported. A useful analysis states the question, focus alternatives, given referents and grammatical spans, then explains which observations would distinguish competing accounts.
 
-## Assumptions and limits
-The QUD-based perspective is a working framework, not a universal consensus. Detailed focus projection, contrastive topics, givenness accounts and language-variety differences remain further work. The table is constructed and does not report recording or listener judgments.
-
-## Evidence status
-**Provisional; independent review pending.** The [Roberts Reference](../references/roberts-2012-information-structure.md) records the journal abstract's proposal connecting QUDs, discourse relevance and prosodic focus. It does not verify this table's detailed projection conditions. Those remain explicitly authored working analyses.
-
-## Related knowledge
-[Focus topic and QUD](../concepts/focus-topic-and-qud.md), [givenness and bridging](../concepts/givenness-and-bridging.md) and [common ground](../concepts/common-ground.md) provide focused explanations. [Information Structure Prosody interface](#interface-with-prosody) and [an accented word need not exhaust the focus domain](../principles/accent-does-not-exhaust-focus.md) develop the key contrast.
+[Focus topic and QUD](../concepts/focus-topic-and-qud.md), [givenness and bridging](../concepts/givenness-and-bridging.md), [common ground](../concepts/common-ground.md) and [an accented word need not exhaust the focus domain](../principles/accent-does-not-exhaust-focus.md) provide optional depth.

@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-syntax-system"
 type: "model"
-version: "0.3.1"
+version: "0.3.2"
 language: "KPS 9.x"
 status: "draft"
 domains: ["syntax"]
@@ -9,9 +9,9 @@ evidence_status: "provisional"
 source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
-references: ["english:reference:coppock-champollion-2026-formal-semantics", "english:reference:anderson-2018-essentials-of-linguistics", "english:reference:walter-2016-modal-verbs-basics", "english:reference:british-council-undated-grammar-reference"]
+references: ["english:reference:coppock-champollion-2026-formal-semantics", "english:reference:anderson-2018-essentials-of-linguistics", "english:reference:walter-2016-modal-verbs-basics", "english:reference:british-council-undated-grammar-reference", "english:reference:krifka-2008-information-structure"]
 uses_concepts: ["english:concept:category-and-function", "english:concept:constituency", "english:concept:head-and-dependent", "english:concept:complement-and-modifier", "english:concept:finiteness", "english:concept:relative-clause", "english:concept:auxiliary-chain", "english:concept:tense-and-aspect", "english:concept:do-support-and-inversion", "english:concept:clause-architecture", "english:concept:inflection", "english:concept:paradigm-and-syncretism", "english:concept:lexical-selection", "english:concept:object-and-pp-complement", "english:concept:valency-and-argument-structure", "english:concept:semantic-role", "english:concept:phrase-and-clause", "english:concept:prosody", "english:concept:predicative-complement", "english:concept:complement-clause", "english:concept:coordination-and-subordination", "english:concept:wh-dependency"]
-uses_models: ["english:model:english-lexicon-system", "english:model:english-morphology-system", "english:model:english-semantics-system", "english:model:english-prosody-system"]
+uses_models: ["english:model:english-lexicon-system", "english:model:english-morphology-system", "english:model:english-semantics-system", "english:model:english-prosody-system", "english:model:english-information-structure-system"]
 system_domain: "syntax"
 ---
 
@@ -19,7 +19,7 @@ system_domain: "syntax"
 
 Syntax explains how words form phrases and clauses, which expressions depend on which, and how constructions organize grammatical functions. Use this Model to build and justify a structural analysis: identify complete units, distinguish their categories from their functions, explain verb forms and clause relationships, and compare alternative groupings. A connected student-and-printer example develops from a simple clause into a sentence with auxiliaries and embedded clauses.
 
-The introductory coverage follows the outline's six areas: categories and functions, constituents and local dependencies, phrases and clauses, complement constructions, verb and auxiliary structure, and clause combination and dependencies. Interfaces connect these explanations with Morphology, Lexicon, Semantics and Prosody. The examples are constructed for ordinary standard-English readings. The account remains provisional; it uses NP terminology and a descriptive Subject/Predicate analysis rather than claiming one universal syntactic framework.
+The introductory coverage follows the outline's six areas: categories and functions, constituents and local dependencies, phrases and clauses, complement constructions, verb and auxiliary structure, and clause combination and dependencies. Interfaces connect these explanations with Morphology, Lexicon, Semantics, Information Structure and Prosody. The examples are constructed for ordinary standard-English readings. The account remains provisional; it uses NP terminology and a descriptive Subject/Predicate analysis rather than claiming one universal syntactic framework.
 
 ## Contents
 
@@ -39,6 +39,7 @@ The introductory coverage follows the outline's six areas: categories and functi
   - [Interface with Lexicon](#interface-with-lexicon)
   - [Interface with Semantics](#interface-with-semantics)
   - [Interface with Prosody](#interface-with-prosody)
+  - [Interface with Information Structure](#interface-with-information-structure)
 - [Checking a proposed analysis](#checking-a-proposed-analysis)
 - [Evidence and open questions](#evidence-and-open-questions)
 
@@ -297,6 +298,16 @@ Syntactic constituents constrain possible spoken grouping without being identica
 In *[The report that Maya prepared] [arrived]*, the Subject contains a relative clause. A spoken version might group the whole Subject or use finer phrasing depending on length, focus and rate. Written brackets specify neither silence durations nor exact intonation. A proposed pause after REPORT needs comparison with an actual spoken target before it can count as evidence.
 
 Record both representations and compare plausible alternatives rather than inferring a unique parse from a pause. This remains a framework-sensitive authored interface account; no new recording, acoustic measurement or independent source verification is supplied.
+
+### Interface with Information Structure
+
+Syntax represents constituents and grammatical functions; Information Structure describes topic, focus, background and givenness in a particular use. The counterpart is explained in [Information Structure](english-information-structure-system.md#interface-with-syntax).
+
+Compare *Maya repaired the printer* with *The printer was repaired by Maya*. The passive makes the printer Subject and places Maya inside a by-PP, while the intended repairer and repaired item can remain the same. The passive can fit a discourse about the printer, but Subject position alone does not prove Topic status. In *As for the printer, Maya repaired it*, the explicitly introduced topic differs from the clause's grammatical Subject.
+
+A cleft such as *It was Maya who repaired the printer* supplies a construction for identifying the repairer against a background repair description. It is not merely a simple clause with louder typography: its syntax and contextual conditions differ, and it can support an exhaustive interpretation. The selected [Krifka passages](../references/krifka-2008-information-structure.md#focus-and-questions) motivate treating packaging and interpretation together; they do not supply a complete syntax of clefts or passive choice.
+
+Record construction, constituent spans and functions separately from the assumed QUD and focus. A context change can alter focus without altering syntax; a construction change can also alter available interpretations. These authored comparisons do not justify a deterministic rule that every given expression must become Subject or every focused expression must move.
 
 ## Checking a proposed analysis
 
