@@ -13,8 +13,8 @@ stage_order: "recommended; reader prerequisites and evidence availability determ
 stage_titles: ["Stage1 Choose an analysis target", "Stage2 Explain a sound contrast", "Stage3 Plan the next linguistic question", "Stage4 Check understanding and record uncertainty"]
 references: ["english:reference:anderson-2018-essentials-of-linguistics"]
 uses_concepts: ["english:concept:representation-levels", "english:concept:phone-phoneme-and-allophone", "english:concept:consonant-articulation", "english:concept:connected-speech"]
-uses_models: ["english:model:english-phonetics-system", "english:model:english-phonology-system", "english:model:english-prosody-system", "english:model:english-morphology-system", "english:model:english-lexicon-system", "english:model:english-syntax-system", "english:model:english-semantics-system", "english:model:english-pragmatics-system", "english:model:english-discourse-system", "english:model:english-information-structure-system", "english:model:one-passage-ten-domains"]
-uses_methods: ["english:method:analyze-sound-realization"]
+uses_models: ["english:model:english-phonetics-system", "english:model:english-phonology-system", "english:model:english-prosody-system", "english:model:english-morphology-system", "english:model:english-lexicon-system", "english:model:english-syntax-system", "english:model:english-semantics-system", "english:model:english-pragmatics-system", "english:model:english-discourse-system", "english:model:english-information-structure-system"]
+uses_methods: ["english:method:analyze-sound-realization", "english:method:analyze-complete-utterance"]
 ---
 
 # Learn English linguistics
@@ -42,7 +42,7 @@ The learning route selects established distinctions from Anderson's inspected ar
 | [Syntax](../models/english-syntax-system.md) | Which words form constituents, and what functions do they have? | Plan a span-based analysis with reasons; teaching unit pending |
 | [Semantics](../models/english-semantics-system.md) | Which interpretations and consequences does the expression support? | Plan an interpretation comparison; teaching unit pending |
 | [Pragmatics](../models/english-pragmatics-system.md), [Discourse](../models/english-discourse-system.md) and [Information structure](../models/english-information-structure-system.md) | What does context contribute to reference, connection and focus? | Plan a comparison across explicit contexts; teaching unit pending |
-| [One passage across ten domains](../models/one-passage-ten-domains.md) | How do the analyses constrain each other? | Existing integrated example; independent learner transfer remains untested |
+| [One passage across ten domains](../methods/analyze-complete-utterance.md#one-passage-across-ten-domains) | How do the analyses constrain each other? | Existing integrated example; independent learner transfer remains untested |
 
 These are overlapping areas, not temporal processing stages. Use prerequisites and the current question to choose the next area. Detailed knowledge remains independently readable outside this route.
 

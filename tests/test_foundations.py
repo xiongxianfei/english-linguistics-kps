@@ -30,19 +30,6 @@ class FoundationTests(unittest.TestCase):
                     self.assertTrue(kps.meaningful(kps.section(doc,heading)))
             self.assertTrue(re.search(r'^## Worked (?:example|analysis|entry)$',doc.live,re.M))
 
-    def test_fourteen_interfaces_are_models(self):
-        paths=list((ROOT/'models').glob('*-interface.md'))
-        self.assertEqual(len(paths),14)
-        for path in paths:
-            doc=kps.parse(path)
-            self.assertEqual(doc.meta['type'],'model')
-            for heading in ['Purpose','Representation','Assumptions and limits','Evaluation and counterevidence']:
-                # Representations may be locally complete fenced text diagrams.
-                section=re.search(r'^## '+re.escape(heading)+r'\s*\n(.*?)(?=^## |\Z)',doc.body,re.M|re.S)
-                self.assertIsNotNone(section,(path,heading))
-                self.assertTrue(kps.meaningful(section[1]),(path,heading))
-
-
     def test_language_and_versions_are_distinct(self):
         pub=json.loads((ROOT/'publication.json').read_text())
         self.assertEqual(pub['kps_language'],'9.x')

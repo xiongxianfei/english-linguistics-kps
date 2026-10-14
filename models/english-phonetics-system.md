@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-phonetics-system"
 type: "model"
-version: "0.2.3"
+version: "0.2.4"
 language: "KPS 9.x"
 status: "draft"
 domains: ["phonetics"]
@@ -10,9 +10,11 @@ source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
 references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:international-phonetic-association-undated-ipa-chart", "english:reference:mit-2006-tobi-tutorial"]
-uses_concepts: ["english:concept:representation-levels", "english:concept:consonant-articulation", "english:concept:vowel-articulation", "english:concept:connected-speech"]
-uses_models: ["english:model:phonology-phonetics-interface", "english:model:prosody-phonetics-interface"]
+uses_concepts: ["english:concept:representation-levels", "english:concept:consonant-articulation", "english:concept:vowel-articulation", "english:concept:connected-speech", "english:concept:phone-phoneme-and-allophone", "english:concept:prosody", "english:concept:stress"]
+uses_models: ["english:model:english-phonology-system", "english:model:english-prosody-system", "english:model:english-information-structure-system"]
 system_domain: "phonetics"
+uses_principles: ["english:principle:realization-varies-with-environment"]
+uses_methods: ["english:method:analyze-sound-realization"]
 ---
 
 # English phonetics system
@@ -21,7 +23,21 @@ system_domain: "phonetics"
 Phonetics describes speech production, the acoustic signal and perception; a written transcription is an analysis, not a recording.
 
 ## Summary
-This Model connects vocal-fold activity and vocal-tract configuration with sound descriptions while separating production, acoustic evidence and perception. It explains consonant and vowel attributes, contextual realizations and connected-speech processes including elision. Inline interfaces show how phonological categories and prosodic structure relate to phonetic descriptions and evidence. New word examples use the package's General American convention. Examples are constructed; no recording or measurement is claimed.
+This Model connects vocal-fold activity and vocal-tract configuration with sound descriptions while separating production, acoustic evidence and perception. It explains consonant and vowel attributes, contextual realizations and connected-speech processes including elision. Inline interfaces show how phonological categories and prosodic structure relate to phonetic descriptions and evidence. New word examples use the package's General American convention. Examples are constructed; no recording or measurement is claimed. Both sound interfaces include representations, constructed comparisons and observation limits. Source limits remain specific to each explanation.
+
+## Contents
+
+- [Purpose](#purpose)
+- [Representation](#representation)
+- [Essential distinctions](#essential-distinctions)
+- [Connected speech and elision](#connected-speech-and-elision)
+- [Worked example](#worked-example)
+- [Interfaces](#interfaces)
+- [Interface with Phonology](#interface-with-phonology)
+- [Interface with Prosody](#interface-with-prosody)
+- [Evaluation and counterevidence](#evaluation-and-counterevidence)
+- [Assumptions and limits](#assumptions-and-limits)
+- [Evidence status](#evidence-status)
 
 ## Purpose
 Given a sound category, describe its relevant articulatory attributes and explain how changing them changes the description. Given a word or recording, distinguish a predicted realization from an observed token. A broad dictionary form can start an investigation but cannot establish exactly what a speaker produced.
@@ -130,21 +146,83 @@ An **interface** connects two descriptions of the same speech event. It states w
 | Phonology–Phonetics | Sound categories, neighboring sounds, syllable positions and stress | Candidate articulations and timing; the category together with its environment constrains likely realizations |
 | Prosody–Phonetics | Which syllables are prominent and how words group into phrases | Pitch-related patterns, duration, intensity and boundary cues; several physical cues can contribute to the same prominence or grouping analysis |
 
-### Phonology and phonetic realization
-
-The category /p/ occurs in both *pin* /pɪn/ and *spin* /spɪn/. In the constructed General American comparison, beginning a stressed syllable without preceding /s/ supports a prediction of aspirated [pʰ]; following /s/ in the same onset supports less aspirated [p]. Aspiration is voiceless airflow after the release. Thus the shared category does not require identical timing in both environments.
-
-To test that correspondence, identify the recordings and compare stop release with the onset of vocal-fold vibration. A mismatch calls for checking the transcription, stress, context and speaker variety before revising the generalization. The category alone supplies no exact duration, and a measured difference alone does not establish a different phoneme. The [Phonology–Phonetics Model](phonology-phonetics-interface.md) expands this correspondence; the essential example is given here.
-
-### Prosody and physical cues
-
-**Prominence** is relative highlighting; **phrasing** is grouping within an utterance. In a constructed answer to *Who repaired the printer?*, *Maya* may carry the main prominence in *Maya repaired the printer*. That proposal identifies a location to investigate. It does not assign a pitch value, loudness or duration to the word.
-
-An actual analysis compares the proposed prominent syllable and phrase boundaries with the recording. Pitch movement and timing may support the proposal; a prominent syllable need not have the highest pitch, and a phrase boundary need not contain silence. A disagreement between annotation and signal should remain visible rather than be resolved by inventing measurements. These distinctions have selected support in the [MIT tutorial record](../references/mit-2006-tobi-tutorial.md); the [Prosody–Phonetics Model](prosody-phonetics-interface.md) develops the investigation further.
-
 ### Contributions from word structure and writing
 
 Morphology contributes word structure and grammatical forms, which can affect the sound environments under analysis; this does not directly determine one waveform. Orthography supplies a written representation. Neither written letters nor word boundaries alone establish a particular articulation, pause or acoustic value. Preserve them as context while distinguishing sound categories, prosodic organization and observed realization.
+
+### Interface with Phonology
+
+Phonological representations constrain possible phonetic analyses without uniquely specifying an observed speech token.
+
+Use category and environment as constraints on a production hypothesis; identify recordings before claiming an observed realization. The counterpart is explained in [Phonology](english-phonology-system.md#interface-with-phonetics).
+
+#### Interface with Phonology representation
+
+| Endpoint | Schematic fields |
+|---|---|
+| phonological form | segments, syllables, stress |
+| phonetic realization | transcription_level, context, observed_or_predicted, recording_id |
+
+The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
+
+#### Interface with Phonology essential terms
+
+A **phonological form** describes language-specific categories and structural positions. A **phonetic realization** describes speech production or the resulting sound in a particular context. Slashes conventionally mark a phonemic analysis; square brackets mark a phonetic description. Neither notation by itself identifies a recording. Stress, neighboring sounds, rate and speaker variety can condition realization, so a phonological string need not determine one narrow transcription.
+
+#### Interface with Phonology worked interpretation
+
+Broad /pɪn/ and /spɪn/ both contain /p/. A stressed onset in *pin* can be aspirated, represented schematically as [pʰ], while the post-/s/ realization in *spin* is commonly less aspirated. The phonological environment helps explain a predicted difference without changing /p/ into a different phoneme merely because the phones differ. No token has been recorded here. To claim an observed difference, identify recordings and the criteria used to inspect the realization.
+
+#### Interface with Phonology assumptions and limits
+
+A variety, stress and segmental context must be stated. This bridge does not assert a universal phonetics–phonology boundary or an executable production model. No audio has been recorded or inspected during migration.
+
+#### Interface with Phonology evaluation and counterevidence
+
+Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
+
+#### Interface with Phonology evidence status
+
+**Provisional.** No new external source inspection, independent expert review, audio measurement or learner outcome is claimed. This bridge is an authored synthesis of the existing distinctions below. Claim-level external support is pending.
+
+Aspiration is voiceless airflow after release. Compare stop release with voicing onset in identified recordings; a mismatch requires checking stress, environment and variety. No exact duration follows from /p/, and a measured difference alone does not establish a different phoneme.
+
+### Interface with Prosody
+
+A prosodic prominence analysis must be distinguished from the phonetic measurements used to investigate its realization.
+
+Compare pitch-related frequency, timing and intensity with a proposed prominence analysis; do not identify an acoustic peak with focus. The counterpart is explained in [Prosody](english-prosody-system.md#interface-with-phonetics).
+
+#### Interface with Prosody representation
+
+| Endpoint | Schematic fields |
+|---|---|
+| prominence pattern | accent_location, phrasing, variety |
+| prosodic acoustic description | pitch_pattern, duration, intensity, measurement_method, recording_id |
+
+The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
+
+#### Interface with Prosody essential terms
+
+A **prominence pattern** represents relative highlighting, stress and phrasing within an utterance. A **prosodic acoustic description** records properties of an identified signal, such as fundamental frequency in voiced intervals, duration and intensity. Perceived pitch is related to fundamental frequency but is not identical to it; prominence is not simply loudness or the highest pitch value. A proposed pitch accent and a measured frequency peak are different analytical claims.
+
+#### Interface with Prosody worked interpretation
+
+For a reply to *Who repaired the printer?*, an analyst might predict prominence on *Nina* in *Nina repaired the printer*. A recording could realize that prominence through a combination of pitch-related movement, timing, intensity and other cues. No specific contour or measurement follows from capitalizing NINA in a transcript. To test the proposed correspondence, preserve the question context, identify the token and compare annotated prominence with the actual signal, retaining uncertainty where the cues disagree.
+
+#### Interface with Prosody assumptions and limits
+
+The relation is schematic and potentially many-to-many, but its cardinality remains unspecified here. Acoustic cues, speakers and contexts need empirical investigation; an abstract prominence label does not predict numerical measurements.
+
+#### Interface with Prosody evaluation and counterevidence
+
+Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
+
+#### Interface with Prosody evidence status
+
+**Provisional.** No new external source inspection, independent expert review, audio measurement or learner outcome is claimed. This bridge is an authored synthesis of the existing distinctions below. Claim-level external support is pending.
+
+Phrasing is grouping within an utterance. A phrase boundary need not contain silence; a disagreement between annotation and signal remains evidence to investigate. The [MIT tutorial record](../references/mit-2006-tobi-tutorial.md) supplies selected support for these distinctions without supplying measurements for this example.
 
 ## Evaluation and counterevidence
 For a proposed phonetic claim, identify the token, speaker/variety, context, notation and observation. Compare repeated tokens rather than treating one production as a universal norm. If no recording exists, the correct output is a qualified prediction, not an acoustic finding.
@@ -158,4 +236,4 @@ This is a foundational explanatory Model, not a complete General American invent
 **Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records selected articulation, transcription, connected-speech and aspiration passages, including their Canadian scope. The [IPA Reference](../references/international-phonetic-association-undated-ipa-chart.md) supports the chart categories. The [MIT tutorial record](../references/mit-2006-tobi-tutorial.md) supplies selected support for prominence, phrasing and physical cues. These sources do not supply measurements of the constructed examples. The comparisons and interface summaries are authored applications, and the acoustic procedure is an investigation outline, not a newly performed experiment.
 
 ## Related knowledge
-[Representation levels](../concepts/representation-levels.md) distinguishes notation in more detail. [Consonant articulation](../concepts/consonant-articulation.md) and [vowel articulation](../concepts/vowel-articulation.md) expand feature descriptions. [Analyze sound realization](../methods/analyze-sound-realization.md) supplies a bounded investigation; [Phonology Phonetics interface](phonology-phonetics-interface.md) explains the mapping.
+[Representation levels](../concepts/representation-levels.md) distinguishes notation in more detail. [Consonant articulation](../concepts/consonant-articulation.md) and [vowel articulation](../concepts/vowel-articulation.md) expand feature descriptions. [Analyze sound realization](../methods/analyze-sound-realization.md) supplies a bounded investigation; [Phonology Phonetics interface](#interface-with-phonology) explains the mapping.

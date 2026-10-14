@@ -13,7 +13,7 @@ basis_kind: "AI-assisted authored procedure; source support for selected distinc
 reviewed: null
 uses_concepts: ["english:concept:representation-levels", "english:concept:phone-phoneme-and-allophone", "english:concept:stress", "english:concept:syllable-structure", "english:concept:connected-speech", "english:concept:evidence-and-analysis"]
 uses_principles: ["english:principle:realization-varies-with-environment", "english:principle:validation-does-not-establish-truth"]
-uses_models: ["english:model:phonological-word-model"]
+uses_models: ["english:model:english-phonology-system"]
 uses_methods: ["english:method:analyze-sound-realization"]
 references: ["english:reference:sounds-american-undated-chart-and-terms", "english:reference:tophonetics-undated-english-transcription", "english:reference:international-phonetic-association-undated-ipa-chart", "english:reference:international-phonetic-association-undated-interactive-chart", "english:reference:anderson-2018-essentials-of-linguistics", "english:reference:merriam-webster-undated-pin-entry"]
 practice_format: "staged-inline-stageN-v1"
@@ -235,7 +235,7 @@ Next unresolved question and next check:
 The [toPhonetics FAQ record](../references/tophonetics-undated-english-transcription.md) supports the distinction between candidate phonemic output and actual speech. The [Merriam-Webster entry record](../references/merriam-webster-undated-pin-entry.md) supports the example lexical identification, not measured pronunciation. The [Anderson aspiration passage](../references/anderson-2018-essentials-of-linguistics.md#aspiration) supports the stated introductory `/p/` contrast. Sounds American and the interactive IPA chart are **learner-operated resources** here; authoring inspection did not include playing their media. No outside media or fonts are redistributed.
 
 ## Related knowledge
-[Representation levels](../concepts/representation-levels.md), [phoneme and allophone](../concepts/phone-phoneme-and-allophone.md), [stress](../concepts/stress.md), [syllable structure](../concepts/syllable-structure.md), [connected speech](../concepts/connected-speech.md), [evidence and analysis](../concepts/evidence-and-analysis.md), [context-conditioned realization](../principles/realization-varies-with-environment.md), [validation and truth](../principles/validation-does-not-establish-truth.md), [phonological word model](../models/phonological-word-model.md), and [sound realization Method](../methods/analyze-sound-realization.md) provide reusable depth. The [General American policy](../docs/PRONUNCIATION.md) governs notation. Essential actions and decision rules remain in the stages above.
+[Representation levels](../concepts/representation-levels.md), [phoneme and allophone](../concepts/phone-phoneme-and-allophone.md), [stress](../concepts/stress.md), [syllable structure](../concepts/syllable-structure.md), [connected speech](../concepts/connected-speech.md), [evidence and analysis](../concepts/evidence-and-analysis.md), [context-conditioned realization](../principles/realization-varies-with-environment.md), [validation and truth](../principles/validation-does-not-establish-truth.md), [phonological word](../models/english-phonology-system.md#phonological-word), and [sound realization Method](../methods/analyze-sound-realization.md) provide reusable depth. The [General American policy](../docs/PRONUNCIATION.md) governs notation. Essential actions and decision rules remain in the stages above.
 
 ## Current practice summary
 **Actual task:** No learner application recorded.

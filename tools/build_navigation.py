@@ -33,8 +33,8 @@ def generated():
         for path, title, meta, summary in docs:
             if meta['type'] == role:
                 index += f'**[{title}](../{path}).** {summary}\n\n'
-    index += '## Reading boundaries\n\nSubsystem and interface Models are self-contained explanations, not filtered link lists. Role and domain do not determine a compulsory reading order.\n'
-    index+='\n## Review and scope\n\n[Review priorities](REVIEW.md#priority-evidence-gaps) explain the remaining evidence work. [One passage across ten domains](../models/one-passage-ten-domains.md) illustrates the integrated analysis; no audio means no measured phonetic result.\n'
+    index += '## Reading boundaries\n\nTen subsystem Models contain their component and interface explanations. Role and domain do not determine a compulsory reading order.\n'
+    index+='\n## Review and scope\n\n[Review priorities](REVIEW.md#priority-evidence-gaps) explain the remaining evidence work. [One passage across ten domains](../methods/analyze-complete-utterance.md#one-passage-across-ten-domains) illustrates the integrated analysis; no audio means no measured phonetic result.\n'
     return {'docs/INDEX.md': index}
 
 def main():

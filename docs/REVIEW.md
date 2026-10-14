@@ -48,7 +48,7 @@ The 2026-10-11 pronunciation publication record reports authoring inspection of 
 
 ## Priority evidence gaps
 
-Prioritize accent inventories and acoustic measurement, lexical exceptions, formal derivations, corpus frequencies, discourse frameworks, variation, acquisition and historical change. The current subsystem and interface Models are a bounded foundation, not exhaustive coverage.
+Prioritize accent inventories and acoustic measurement, lexical exceptions, formal derivations, corpus frequencies, discourse frameworks, variation, acquisition and historical change. The ten subsystem Models and their interface sections are a bounded foundation, not exhaustive coverage.
 
 Use the [knowledge index](INDEX.md) to select a bounded claim. Read its Reference access limits, inspect the source passage, test a counterexample and record what remains unsupported. Objects without references need external support; selected references still require claim-level fit review. Never promote review status without an actual version-specific review record.
 
@@ -99,3 +99,24 @@ On 2026-10-14, the authoring assistant reviewed Edit English and learn from revi
 The complete Skillsmith editor document was inspected at the revision recorded in its new Reference. It supplies workflow provenance only. Inspected linguistic text comprises Walter's modal-form explanation, the British Council's opening Possibility and Requests explanations, and Anderson 9.1 Ambiguity. Reference records state the narrow contributions; the three revised knowledge objects retain provisional status and identify their unsupported broader claims. No source audio, external exercise results or user comments supply evidence for this addition.
 
 Before accepting fingerprints, the assistant compared the new Practice's summary and local explanations with its four knowledge dependencies and four Reference dependencies. The Summary and Evidence status sections of all 26 existing recipients of the revised Anderson record, ambiguity Concept, speech-act Concept or auxiliary Model were inspected. Anderson's earlier contributions are unchanged; the new support does not validate broader claims in receiving summaries. Those summaries remain consistent with their stated limits. The three revised objects' new Reference links were also checked. This is an editorial self-review and dependency check, not independent scientific approval or demonstrated teaching effectiveness.
+
+## Ten subsystem consolidation on 2026 10 14
+
+The 35 Model files were consolidated into the ten existing subsystem Models. Their stable subsystem IDs remain unchanged. Fourteen interface explanations now appear in both connected Models, with a local explanation, endpoint-specific purpose and reciprocal section link. Eight component explanations have these primary homes:
+
+| Component | Owning subsystem |
+|---|---|
+| Phonological word | Phonology |
+| Word formation hierarchy | Morphology |
+| Auxiliary selection and nested clauses | Syntax |
+| Quantifier scope and temporal reference | Semantics |
+| Utterance interpretation | Pragmatics |
+| Discourse network | Discourse |
+
+The body of knowledge outline retains the overall organization and now links every subject to its Model. All 40 subject-topic requirements and three foundation-topic requirements were preserved. The ten-perspective representation table is in the outline; the existing utterance-analysis Method retains the two integrated passages and passive comparison. A name mismatch between the temporal diagram and its example was corrected. Existing diagrams and their prompts remain unchanged because subject coverage did not change.
+
+The authoring assistant compared the migrated representations, worked explanations, counterconditions and limits with the prior files. Source dependencies were carried into the receiving Models or Method; source-access declarations and abstract-only limits were retained. Local Reference records were reread for their stated contributions and nonclaims. No new external publication inspection, speech recording, corpus collection, learner trial or independent linguistic review is claimed.
+
+Affected Model and Method summaries and the four receiving Practice summaries were reviewed before refreshing dependency fingerprints. Incoming links, heading fragments, typed dependencies and the existing navigation generator now address the surviving documents. No compatibility stubs or permanent migration scripts were added. The package contains 107 knowledge objects and fourteen References; every linguistic object remains provisional.
+
+The KPS validator, domain checks, generated-index freshness check and all 27 remaining tests passed. The obsolete test requiring fourteen separate interface Model files was removed; constructed linguistic fixtures, source and review checks and the pinned-validator checks remain. Additional migration checks confirmed all 25 destinations, retained component and interface content, unchanged topic requirements and Practice stage anchors, source-access limits, shared engineering principles, image bytes, Markdown table rendering and LF text. These checks support editorial consistency, not scientific completeness or demonstrated reader competence.

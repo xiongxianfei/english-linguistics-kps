@@ -10,7 +10,7 @@ package_version: "0.2.0"
 Understand English through five kinds of self-contained knowledge, ten subsystem Models and their interfaces.
 
 ## Summary
-This foundation contains **132 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and six Practices, plus fourteen supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
+This foundation contains **107 knowledge files**: 72 Concepts, 13 Principles, ten Models, six Methods and six Practices, plus fourteen supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
 
 ## Explore by subject
 
@@ -27,9 +27,9 @@ Three detailed illustrations retain the subject names and show all topic labels:
 [Edit English and learn from revisions](practices/edit-english-and-learn.md) applies the knowledge to writing: correct a verb form, clarify an ambiguous attachment, and offer an optional tone change. Three constructed cases explain the decisions and when to retain the original.
 
 ## Start with an explanation
-[One passage across ten domains](models/one-passage-ten-domains.md) analyzes *Those students repaired the printers. They tested them again.* It distinguishes word forms, clause functions, semantic participants, contextual reference, discourse connections, focus and possible pronunciation. No recording was supplied, so its phonetic observations remain unknown rather than invented.
+[One passage across ten domains](methods/analyze-complete-utterance.md#one-passage-across-ten-domains) analyzes *Those students repaired the printers. They tested them again.* It distinguishes word forms, clause functions, semantic participants, contextual reference, discourse connections, focus and possible pronunciation. No recording was supplied, so its phonetic observations remain unknown rather than invented.
 
-[English system architecture](models/english-system-architecture.md) explains the overall separation of representations. A subsystem Model can be read independently: it contains definitions, structure, an example, interface explanations, checks and limits. Links offer additional detail, not missing instructions.
+[English system architecture](docs/body-of-knowledge-outline.md#representations-across-subjects) explains the overall separation of representations. A subsystem Model can be read independently: it contains definitions, structure, an example, interface explanations, checks and limits. Links offer additional detail, not missing instructions.
 
 ## Ten subsystem Models
 
@@ -46,11 +46,11 @@ Three detailed illustrations retain the subject names and show all topic labels:
 | Information Structure | Topic, focus, givenness and current issues need separate labels | [Information Structure](models/english-information-structure-system.md) |
 | Prosody | Stress, prominence, phrasing and realization interact without being identical | [Prosody](models/english-prosody-system.md) |
 
-These areas overlap; their order here is neither a curriculum nor a language-processing pipeline. Fourteen interface Models explain bounded correspondences, including Morphology–Phonology, Lexicon–Syntax, Syntax–Semantics, Semantics–Pragmatics, Pragmatics–Discourse, Information Structure–Prosody and Prosody–Phonetics.
+These areas overlap; their order here is neither a curriculum nor a language-processing pipeline. Interface sections inside the connected Models explain bounded correspondences, including Morphology–Phonology, Lexicon–Syntax, Syntax–Semantics, Semantics–Pragmatics, Pragmatics–Discourse, Information Structure–Prosody and Prosody–Phonetics.
 
 ## Organization
 - `concepts/` defines reusable distinctions; `principles/` explains scoped relationships.
-- `models/` contains actual representations, including subsystem and interface syntheses.
+- `models/` contains actual representations, one self-contained Model per subsystem with its component and interface explanations.
 - `methods/` gives bounded operations; `practices/` combines operations with local decisions and fallbacks.
 - `references/` records external publications, inspected contributions and nonclaims. It is not a sixth knowledge role.
 

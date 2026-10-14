@@ -44,7 +44,7 @@ Its meaning, use and important limitation.
 
 ## Role content
 
-A Concept defines and contrasts. A Principle explains a scoped declarative relationship and counterevidence. A Model contains an actual representation with assumptions and tests. A Method includes inputs, rationale, procedure, checks and limits. A Practice contains locally executable Stage1, Stage2 and later stages with prerequisites, numbered actions or a decision table, necessary explanation, expected output and fallback decisions. Use a stage map and keep each stage usable without leaving the file. Fixed repeated labels are optional, not required. New steps-first Practices declare practice_format: "steps-first-v1". The current-use summary contains only recorded experience or an explicitly blank record.
+A Concept defines and contrasts. A Principle explains a scoped declarative relationship and counterevidence. A subsystem Model contains its central question, essential terms, representation, parts and relationships, worked examples, interface sections, assumptions and limits. Component and interface explanations stay inside the ten subsystem Models. A Method includes inputs, rationale, procedure, checks and limits. A Practice contains locally executable Stage1, Stage2 and later stages with prerequisites, numbered actions or a decision table, necessary explanation, expected output and fallback decisions. Use a stage map and keep each stage usable without leaving the file. Fixed repeated labels are optional, not required. New steps-first Practices declare practice_format: "steps-first-v1". The current-use summary contains only recorded experience or an explicitly blank record.
 
 ## Evidence status
 

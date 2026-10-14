@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-phonology-system"
 type: "model"
-version: "0.2.3"
+version: "0.2.4"
 language: "KPS 9.x"
 status: "draft"
 domains: ["phonology"]
@@ -10,9 +10,10 @@ source_status: "selected-support-only"
 basis_kind: "Authored foundational synthesis and constructed examples; independent review pending"
 reviewed: null
 references: ["english:reference:anderson-2018-essentials-of-linguistics", "english:reference:international-phonetic-association-undated-ipa-chart"]
-uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:contrast-and-distribution", "english:concept:syllable-structure", "english:concept:phonotactics", "english:concept:stress", "english:concept:consonant-articulation", "english:concept:vowel-articulation", "english:concept:connected-speech"]
-uses_models: ["english:model:morphology-phonology-interface", "english:model:phonology-phonetics-interface", "english:model:phonology-prosody-interface"]
+uses_concepts: ["english:concept:phone-phoneme-and-allophone", "english:concept:contrast-and-distribution", "english:concept:syllable-structure", "english:concept:phonotactics", "english:concept:stress", "english:concept:consonant-articulation", "english:concept:vowel-articulation", "english:concept:connected-speech", "english:concept:representation-levels", "english:concept:prosody", "english:concept:allomorphy", "english:concept:inflection"]
+uses_models: ["english:model:english-morphology-system", "english:model:english-phonetics-system", "english:model:english-prosody-system"]
 system_domain: "phonology"
+uses_principles: ["english:principle:realization-varies-with-environment"]
 ---
 
 # English phonology system
@@ -21,7 +22,23 @@ system_domain: "phonology"
 Phonology models contrast, distribution and the organization of sound patterns within a specified language variety.
 
 ## Summary
-English phonology distinguishes meaning-changing sound categories from contextually distributed realizations and organizes segments into larger structures. This Model explains vowel and consonant attributes, then uses them to explain contrast, allophony and natural classes alongside syllables and phonotactics. It does not treat spelling, phonological representation and actual pronunciation as identical.
+English phonology distinguishes meaning-changing sound categories from contextually distributed realizations and organizes segments into larger structures. This Model explains vowel and consonant attributes, then uses them to explain contrast, allophony and natural classes alongside syllables and phonotactics. It does not treat spelling, phonological representation and actual pronunciation as identical. The phonological-word account and interfaces with Morphology, Phonetics and Prosody are included locally. Source limits remain specific to each explanation.
+
+## Contents
+
+- [Purpose](#purpose)
+- [Representation](#representation)
+- [Essential distinctions](#essential-distinctions)
+- [Worked example](#worked-example)
+- [Connected speech patterns](#connected-speech-patterns)
+- [Phonological word](#phonological-word)
+- [Interfaces](#interfaces)
+- [Interface with Phonetics](#interface-with-phonetics)
+- [Interface with Prosody](#interface-with-prosody)
+- [Interface with Morphology](#interface-with-morphology)
+- [Evaluation and counterevidence](#evaluation-and-counterevidence)
+- [Assumptions and limits](#assumptions-and-limits)
+- [Evidence status](#evidence-status)
 
 ## Purpose
 For a sound difference, ask whether it distinguishes words, follows an environment-sensitive pattern or remains unresolved. The aim is a testable analysis of distributions, not a list of IPA symbols.
@@ -118,8 +135,139 @@ To turn such a comparison into a phonological generalization, specify the target
 
 Other [connected-speech processes](../concepts/connected-speech.md) make different claims: assimilation changes a property toward that of a neighbor; reduction weakens a realization without necessarily removing it; linking connects articulation across a boundary without necessarily changing the segment sequence. These distinctions let an analysis state what changes before asking why it is distributed that way.
 
+## Phonological word
+
+Segment categories, syllable organization, stress and phonetic realization provide distinct descriptions of a sound pattern.
+
+### Phonological word representation
+
+```text
+spin /spɪn/
+Syllable
+  Onset: /sp/
+  Rhyme
+    Nucleus: /ɪ/
+    Coda: /n/
+
+Orthography: <pin>
+Phonology: /pɪn/
+Possible phonetic form: [pʰɪn]
+```
+
+### Phonological word primary general american examples
+
+The package default for a new lexical example is a **General American broad transcription**, as set out in [PRONUNCIATION](../docs/PRONUNCIATION.md). Typical authored examples include *see* /si/, *food* /fud/ and rhotic *car* /kɑr/. Existing phonological examples such as *pin* /pɪn/ and [pʰɪn] remain usable at their stated levels. Do not convert earlier non-rhotic or British-style lexical transcriptions by replacing symbols mechanically; dialect-specific lexical incidence and stress must be checked. None of the illustrative square-bracket forms is a measured token.
+
+### Phonological word worked interpretation
+
+The /sp/ onset is licensed in ordinary English; /ŋl/ is not an ordinary native initial onset. Primary stress is ˈ and secondary stress ˌ. A written vowel sequence can represent one nucleus, while some consonants can be syllabic.
+
+### Phonological word assumptions and limits
+
+The model uses an onset-rhyme organization and conventional broad English symbols. Phonemic symbols do not promise exact cardinal vowel qualities, and a phone label is not a waveform measurement.
+
+### Phonological word evaluation and counterevidence
+
+Inspect a recording before making token-specific phonetic claims. Check transcription level, accent and syllable boundaries. Use possible nonwords as structural illustrations without asserting universal lexical nonexistence.
+
+### Phonological word evidence status
+
+Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+
 ## Interfaces
 **Morphology Phonology:** regular inflection connects number or tense features with exponents whose form depends partly on stem sounds. **Phonology Prosody:** segment organization interacts with syllables, stress and larger prosodic domains. **Phonology Phonetics:** an abstract category is realized under contextual and speaker-specific conditions; a broad form does not uniquely determine a waveform.
+
+### Interface with Phonetics
+
+Phonological representations constrain possible phonetic analyses without uniquely specifying an observed speech token.
+
+Relate sound categories and environments to possible realizations while keeping contrast distinct from physical difference. The counterpart is explained in [Phonetics](english-phonetics-system.md#interface-with-phonology).
+
+#### Interface with Phonetics representation
+
+| Endpoint | Schematic fields |
+|---|---|
+| phonological form | segments, syllables, stress |
+| phonetic realization | transcription_level, context, observed_or_predicted, recording_id |
+
+The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
+
+#### Interface with Phonetics essential terms
+
+A **phonological form** describes language-specific categories and structural positions. A **phonetic realization** describes speech production or the resulting sound in a particular context. Slashes conventionally mark a phonemic analysis; square brackets mark a phonetic description. Neither notation by itself identifies a recording. Stress, neighboring sounds, rate and speaker variety can condition realization, so a phonological string need not determine one narrow transcription.
+
+#### Interface with Phonetics worked interpretation
+
+Broad /pɪn/ and /spɪn/ both contain /p/. A stressed onset in *pin* can be aspirated, represented schematically as [pʰ], while the post-/s/ realization in *spin* is commonly less aspirated. The phonological environment helps explain a predicted difference without changing /p/ into a different phoneme merely because the phones differ. No token has been recorded here. To claim an observed difference, identify recordings and the criteria used to inspect the realization.
+
+#### Interface with Phonetics assumptions and limits
+
+A variety, stress and segmental context must be stated. This bridge does not assert a universal phonetics–phonology boundary or an executable production model. No audio has been recorded or inspected during migration.
+
+#### Interface with Phonetics evaluation and counterevidence
+
+Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
+
+#### Interface with Phonetics evidence status
+
+**Provisional.** No new external source inspection, independent expert review, audio measurement or learner outcome is claimed. This bridge is an authored synthesis of the existing distinctions below. Claim-level external support is pending.
+
+### Interface with Prosody
+
+Syllable organization and lexical stress constrain prosodic realization, but do not uniquely determine phrasal prominence or grouping.
+
+Relate syllables and lexical stress to possible utterance prominence without rewriting lexical entries for every sentence accent. The counterpart is explained in [Prosody](english-prosody-system.md#interface-with-phonology).
+
+#### Interface with Prosody representation
+
+Keep a segment string and syllable parse, lexical stress positions, proposed phrasal accents, and phrase-edge annotations in different fields. A word can contain a lexically stressed syllable even when that word does not receive the strongest prominence in an utterance. Prosody is independently browsable here but overlaps phonological analysis; the domain boundary is an organizing convention.
+
+#### Interface with Prosody worked analysis
+
+In a constructed “The students repaired the printers,” lexical word forms remain the same across a who-question and a what-question context. A proposed accent can shift from students to printers, while each word retains its lexical stress organization. Do not rewrite the lexical entry to encode every sentence-specific accent.
+
+#### Interface with Prosody evaluation and counterevidence
+
+Record the source and target analyses separately. Vary one relevant condition while preserving the others, compare the proposed mapping with an alternative, and record mismatches. A shared domain tag is not evidence for the mapping. No result is assumed to be uniquely recoverable from the other representation.
+
+#### Interface with Prosody assumptions and limits
+
+This does not assign a complete metrical or tonal analysis. Stress, reduction, syllabification and phrasing vary with variety, rate and theoretical assumptions. No recorded production, corpus sample or independent expert review is supplied for this interface account.
+
+#### Interface with Prosody evidence status
+
+**Provisional; not independently reviewed.** No newly inspected external passage is asserted to verify this summary claim. Internal links provide explanatory context, not independent evidence.
+
+### Interface with Morphology
+
+Regular English inflection links morphological features to sound-conditioned exponents.
+
+Use stem-final sound classes to describe the distribution of inflectional variants, keeping the grammatical feature distinct from its exponent. The counterpart is explained in [Morphology](english-morphology-system.md#interface-with-phonology).
+
+#### Interface with Morphology representation
+
+| Morpheme | Special environment first | Voiceless remainder | Voiced remainder |
+|---|---|---|---|
+| Regular plural | Sibilants -> /ɪz/ | /s/ | /z/ |
+| Regular past | /t,d/ -> /ɪd/ | /t/ | /d/ |
+
+The weak vowel can differ across accents; /əz/ and /əd/ are relevant alternatives. Vowels are included in the voiced environments of this simplified model.
+
+#### Interface with Morphology worked interpretation
+
+Watch ends in /tʃ/, not /h/, so watches selects the syllabic plural. Laugh ends in /f/, so laughs has /s/ and laughed /t/. DELIVER ends in a voiced vowel or rhotic realization in the accents at issue, so delivered has /d/.
+
+#### Interface with Morphology assumptions and limits
+
+These are regular-pattern models, not full lexical pronunciation tools. Irregular stems, lexicalized adjectives, suffix-conditioned stress and accent variation are outside the algorithm. A single-underlying-exponent analysis is a compatible alternative explanation of the surface variants.
+
+#### Interface with Morphology evaluation and counterevidence
+
+The supplied pure functions accept final phonemes, not English spellings; tests include sibilants, vowels and /t,d/. Passing proves implementation agreement with these declared cases, not scientific completeness.
+
+#### Interface with Morphology evidence status
+
+Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
 
 ## Evaluation and counterevidence
 Collect positive, negative and untested environments; compare competing classifications; separate accent-specific patterns from claims about all English. A counterexample may reveal a missing condition, a different lexical class or a faulty transcription. It should not be silently deleted.
@@ -133,6 +281,6 @@ The onset-rhyme representation and examples are working analyses. English variet
 **Provisional; independent review pending.** Selected passages on contrast, natural classes, allomorphy, connected speech and aspiration are identified in the [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md). The [IPA chart record](../references/international-phonetic-association-undated-ipa-chart.md) supports the symbol classifications; it does not establish a complete English inventory or measured realizations. The inline feature explanations summarize the local articulation Concepts. These sources support bounded distinctions, not every generalization or the particular framework used here.
 
 ## Related knowledge
-[Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) and [contrast and distribution](../concepts/contrast-and-distribution.md) deepen the category distinction. [Syllable structure](../concepts/syllable-structure.md), [phonotactics](../concepts/phonotactics.md) and [stress](../concepts/stress.md) expand structural details. [Phonological word model](phonological-word-model.md) provides another worked representation.
+[Phone phoneme and allophone](../concepts/phone-phoneme-and-allophone.md) and [contrast and distribution](../concepts/contrast-and-distribution.md) deepen the category distinction. [Syllable structure](../concepts/syllable-structure.md), [phonotactics](../concepts/phonotactics.md) and [stress](../concepts/stress.md) expand structural details. [Phonological word](#phonological-word) provides another worked representation.
 
 [Vowel articulation](../concepts/vowel-articulation.md) and [consonant articulation](../concepts/consonant-articulation.md) expand the feature descriptions. [Classify and produce a phone](../practices/classify-and-produce-phone.md) connects classification with listening, production and verification.

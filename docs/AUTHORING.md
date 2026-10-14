@@ -10,7 +10,7 @@ package_version: "0.2.0"
 Author one locally sufficient Markdown object in its primary role folder and keep provenance and limits beside the claim.
 
 ## Summary
-This guide applies the upstream [KPS authoring contract](https://github.com/xiongxianfei/knowledge-practice-system/blob/ce17edc3ce9fa42e47b1d05740489291a3087fb6/docs/authoring.md) to English linguistics. It does not define another entity language. Five knowledge roles and publication-based Reference records are sufficient for this package; subsystem and interface syntheses are Models.
+This guide applies the upstream [KPS authoring contract](https://github.com/xiongxianfei/knowledge-practice-system/blob/ce17edc3ce9fa42e47b1d05740489291a3087fb6/docs/authoring.md) to English linguistics. It does not define another entity language. Five knowledge roles and publication-based Reference records are sufficient for this package; each of the ten agreed subsystems has one Model containing its component and interface explanations.
 
 ## Roles and identity
 A Concept defines a distinction; a Principle explains a scoped declarative relationship; a Model supplies a representation, its assumptions and implications; a Method supplies a bounded operation; a Practice combines actions and decision points for a recurring purpose. Give every knowledge object one primary type and a stable ID. Its canonical folder must match the type. A role or a domain label is not scientific evidence.
@@ -43,7 +43,7 @@ This is compatible local authoring guidance. The pinned upstream release and che
 ## Local completeness
 Every substantial file has one title, Key takeaway and Summary. Its intended task must remain possible when links are hidden. Define necessary terms locally, include the actual relationship or representation, work through an example when interpretation is otherwise ambiguous, and preserve scope and counterevidence. Repeat the necessary explanation in a receiving Model without copying entire publications or creating an alternative definition.
 
-Subsystem Models explain internal structure and interfaces, not just lists of links. Interface Models identify both representations, the proposed mapping, conditions, example and failure/uncertainty cases. Indexes are catalogs; their summaries help orientation but do not replace these explanations.
+Subsystem Models explain internal structure and interfaces, not just lists of links. Each interface section identifies both representations, the proposed mapping, conditions, example and failure or uncertainty cases. Explain it locally in both connected Models from their respective perspectives. Useful overlap is allowed; a component or interface does not need a separate Model file. Integrated analysis procedures and worked passages belong in the existing Method or an appropriate Practice. Indexes are catalogs; their summaries help orientation but do not replace these explanations.
 
 ## Methods and Practices
 Methods state inputs, rationale, executable steps, expected outputs and validation or stop conditions. Practices use consecutively numbered Stage1, Stage2 and later headings with a working stage map. Stage order is recommended; actual prerequisites and safety boundaries must be explicit. These are local procedural stages, not a repository-wide learning sequence.

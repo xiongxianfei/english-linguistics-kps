@@ -27,7 +27,7 @@ Liz Walter's Cambridge Dictionary article supplies a pedagogical account of moda
 
 ## Inspected contribution
 
-The article describes modal inflection and the following verb's base form, with an explicit exception for *ought to*. This supports *may deliver* and the central-modal row of the auxiliary selection Model. The package uses *plain* and *base* for the relevant verb form. Its delivery example is constructed, not quoted from the article.
+The article describes modal inflection and the following verb's base form, with an explicit exception for *ought to*. This supports *may deliver* and the central-modal row in the Syntax Model’s auxiliary selection section. The package uses *plain* and *base* for the relevant verb form. Its delivery example is constructed, not quoted from the article.
 
 ## Nonclaims
 
