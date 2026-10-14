@@ -1,16 +1,16 @@
 ---
 id: "english:concept:speech-act"
 type: "concept"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 stages: [4]
 perspectives: ["pragmatics"]
 evidence_status: "provisional"
-source_status: "external-support-pending"
+source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
+references: ["english:reference:british-council-undated-grammar-reference"]
 uses_concepts: ["english:concept:utterance-and-speaker-meaning", "english:concept:common-ground", "english:concept:deixis"]
 ---
 
@@ -42,7 +42,7 @@ Authority, uptake, sincerity and felicity conditions matter for performatives. T
 
 **Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
 
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+The [British Council's Requests section](../references/british-council-undated-grammar-reference.md#requests) provides selected support for using *Could you …?* to request action. This supports the distinction between the example's interrogative form and request function. It does not establish the full locution/illocution/perlocution account, universal politeness rankings or any actual listener response; those broader claims remain pending dedicated evidence.
 
 ## Related knowledge
 

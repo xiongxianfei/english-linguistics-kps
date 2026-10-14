@@ -10,7 +10,7 @@ package_version: "0.2.0"
 Understand English through five kinds of self-contained knowledge, ten subsystem Models and their interfaces.
 
 ## Summary
-This foundation contains **131 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and five Practices, plus eleven supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
+This foundation contains **132 knowledge files**: 72 Concepts, 13 Principles, 35 Models, six Methods and six Practices, plus fourteen supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
 
 ## Explore by subject
 
@@ -23,6 +23,8 @@ Three detailed illustrations retain the subject names and show all topic labels:
 ## Learn through a Practice
 
 [Learn English linguistics](practices/learn-english-linguistics.md) provides the target learning route and one complete sound-analysis exercise: a worked comparison, a new case, feedback and explicit evidence limits. Definitions and Models are explained again where the task needs them. The other learning areas are an outline for further units; no learner outcomes are claimed.
+
+[Edit English and learn from revisions](practices/edit-english-and-learn.md) applies the knowledge to writing: correct a verb form, clarify an ambiguous attachment, and offer an optional tone change. Three constructed cases explain the decisions and when to retain the original.
 
 ## Start with an explanation
 [One passage across ten domains](models/one-passage-ten-domains.md) analyzes *Those students repaired the printers. They tested them again.* It distinguishes word forms, clause functions, semantic participants, contextual reference, discourse connections, focus and possible pronunciation. No recording was supplied, so its phonetic observations remain unknown rather than invented.

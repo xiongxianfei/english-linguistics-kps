@@ -1,16 +1,16 @@
 ---
 id: "english:model:auxiliary-selection-model"
 type: "model"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 stages: [2]
 perspectives: ["syntax"]
 evidence_status: "provisional"
-source_status: "external-support-pending"
+source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
+references: ["english:reference:walter-2016-modal-verbs-basics"]
 uses_concepts: ["english:concept:auxiliary-chain", "english:concept:finiteness", "english:concept:tense-and-aspect", "english:concept:do-support-and-inversion"]
 ---
 
@@ -52,7 +52,7 @@ For each chain, annotate selecting item, selected form and semantic construction
 
 **Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
 
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+The central-modal row has selected support from [Walter's modal-form explanation](../references/walter-2016-modal-verbs-basics.md#inspected-contribution). In *may deliver*, *may* selects the plain form *deliver*; changing the subject to *she* does not license *may delivers*. This narrow rule is used in the editing Practice. The other rows, full chains and construction distinctions remain authored analyses awaiting fuller source attachment; this citation does not validate them all.
 
 ## Related knowledge
 

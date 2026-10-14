@@ -1,16 +1,16 @@
 ---
 id: "english:concept:ambiguity-and-vagueness"
 type: "concept"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 stages: [3]
 perspectives: ["semantics"]
 evidence_status: "provisional"
-source_status: "external-support-pending"
+source_status: "selected-support-only"
 basis_kind: "AI-assisted authored synthesis and constructed examples; independent review pending"
 reviewed: null
-references: []
+references: ["english:reference:anderson-2018-essentials-of-linguistics"]
 uses_concepts: ["english:concept:sense-and-lexical-ambiguity", "english:concept:quantification-and-scope", "english:concept:contextual-resolution"]
 ---
 
@@ -42,7 +42,7 @@ The taxonomies overlap and depend on theory. Prosody can help without guaranteei
 
 **Provisional.** This is an AI-assisted authored draft, not independently reviewed linguistic science. Examples are constructed unless explicitly identified otherwise. No speaker study, corpus result, recorded pronunciation, learner outcome or expert approval is claimed.
 
-Claim-level external source support has not yet been attached. Independent source review and counterexample checking are explicit next tasks, not completed work.
+[Anderson 9.1](../references/anderson-2018-essentials-of-linguistics.md#editing-ambiguity-passage) supplies selected support for lexical versus structural ambiguity and the alternative attachments of an instrument phrase. In the constructed binoculars example, attachment to *the student* describes the student, while attachment to the seeing event identifies how Maya saw. Clarification is needed if the available context does not choose between those readings. The source does not establish this Concept's full scope, vagueness taxonomy or prosodic claims; those remain pending further support.
 
 ## Related knowledge
 

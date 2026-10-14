@@ -280,6 +280,8 @@ This is an optional catalog of canonical Markdown, not another knowledge store. 
 
 **[Classify and produce a phone](../practices/classify-and-produce-phone.md).** Identify what the input represents, build a justified articulatory description, then listen and attempt the sound without confusing a chart label, a phoneme or an observed token.
 
+**[Edit English and learn from revisions](../practices/edit-english-and-learn.md).** Improve a piece of English for its intended reader, preserve what its author means, and explain the useful linguistic reason behind each substantive change.
+
 **[Investigate linguistic question](../practices/investigate-linguistic-question.md).** Turn a bounded English question into a transparent provisional analysis and a reviewable evidence trail.
 
 **[Learn English linguistics](../practices/learn-english-linguistics.md).** Learn to explain and investigate English examples by connecting established linguistic distinctions, their conditions and the evidence for an analysis.
