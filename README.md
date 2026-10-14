@@ -18,6 +18,8 @@ This foundation contains **131 knowledge files**: 72 Concepts, 13 Principles, 35
 
 The [English Linguistics Body of Knowledge Outline](docs/body-of-knowledge-outline.md) defines six areas and 39 topics, with required understanding, intended capabilities, existing explanations and gaps. Start with the [complete topic outline](docs/body-of-knowledge-outline.md#overall-outline) or its [thirteen sound topics](docs/body-of-knowledge-outline.md#sound-systems). [Open the overview at full size](diagrams/body-of-knowledge-overview.png). The illustration shows selected introductory coverage, not completed learning or the whole discipline.
 
+Three detailed illustrations show the topics within those areas: [sound systems](docs/body-of-knowledge-outline.md#sound-systems-illustration), [foundations, words and sentences](docs/body-of-knowledge-outline.md#foundations-and-structure-illustration), and [meaning, context and discourse](docs/body-of-knowledge-outline.md#meaning-and-context-illustration). They are embedded beside the relevant coverage tables.
+
 ## Learn through a Practice
 
 [Learn English linguistics](practices/learn-english-linguistics.md) provides the target learning route and one complete sound-analysis exercise: a worked comparison, a new case, feedback and explicit evidence limits. Definitions and Models are explained again where the task needs them. The other learning areas are an outline for further units; no learner outcomes are claimed.

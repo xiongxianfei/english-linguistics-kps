@@ -35,6 +35,8 @@ This edition focuses on linguistic structure and interpretation. Sociolinguistic
 
 This original AI-generated illustration summarizes the selected areas. Numbers identify areas, not lesson order. The decorative waveform, cards and conversation are subject illustrations, not observed speech, a formal tree or an analysis of an actual exchange. The [generation prompt](../diagrams/body-of-knowledge-overview.prompt.txt) is saved beside the image. The text outline below lists all 39 topics.
 
+For the topic detail, use the [sound systems illustration](#sound-systems-illustration), [foundations and structure illustration](#foundations-and-structure-illustration), and [meaning and context illustration](#meaning-and-context-illustration). Together they show all 39 topic labels. The coverage tables remain authoritative for required understanding, intended depth and gaps.
+
 ## Overall outline
 
 | Area | Topics to cover |
@@ -56,6 +58,16 @@ Topic links identify existing support. Learning routes remain in Practices and d
 
 These cross-cutting distinctions are needed to interpret all the other areas. The current foundational Concepts remain provisional, with source attachment pending where stated.
 
+### Foundations and structure illustration
+
+[Open the foundations and structure illustration at full size](../diagrams/body-of-knowledge-foundations-and-structure.png).
+
+![Fifteen topics grouped under foundations of linguistic analysis, word structure and lexical knowledge, and sentence structure. Foundations covers representations, evidence and judgments; the other panels list the six word topics and six sentence topics from the outline.](../diagrams/body-of-knowledge-foundations-and-structure.png)
+
+This view covers areas 1, 3 and 4: the foundations below, [word structure and lexical knowledge](#word-structure-and-lexical-knowledge), and [sentence structure](#sentence-structure). The grouping is for readable presentation, not a dependency or learning sequence. Blank cards and blocks are decorative, not a linguistic analysis. [Saved generation prompt](../diagrams/body-of-knowledge-foundations-and-structure.prompt.txt).
+
+### Foundations coverage
+
 | Topic | Understand — required knowledge | Be able to do — introductory depth | Existing explanations and gaps |
 |---|---|---|---|
 | Expressions and representations | Expressions, analytical descriptions and levels of representation | Distinguish a written expression, a proposed grammatical analysis and a predicted or observed sound realization. | **Partial:** [Expression and representation](../concepts/expression-and-representation.md), [representation levels](../concepts/representation-levels.md). The general Concept’s claim-specific external support remains pending. |
@@ -65,6 +77,16 @@ These cross-cutting distinctions are needed to interpret all the other areas. Th
 ## Sound systems
 
 The main accounts are [Phonetics](../models/english-phonetics-system.md), [Phonology](../models/english-phonology-system.md) and [Prosody](../models/english-prosody-system.md). The following thirteen topics provide a subject outline across them; each topic need not have its own file.
+
+### Sound systems illustration
+
+[Open the sound systems illustration at full size](../diagrams/body-of-knowledge-sound-systems.png).
+
+![All thirteen sound-system topics, grouped for navigation into description and transcription, contrast and distribution, sound organization, and realization and interfaces. The labels match the sound coverage table, including connected speech processes and the morphology phonology interface.](../diagrams/body-of-knowledge-sound-systems.png)
+
+These four visual groups organize the existing thirteen topics; they do not introduce new subject divisions or stages. Connected speech processes includes elision, assimilation, reduction and linking as specified in the table. Decorative sound ribbons are not recordings, measured signals or transcription examples. [Saved generation prompt](../diagrams/body-of-knowledge-sound-systems.prompt.txt).
+
+### Sound systems coverage
 
 | Topic | Understand — required knowledge | Be able to do — introductory depth | Existing explanations and gaps |
 |---|---|---|---|
@@ -92,6 +114,8 @@ Articulatory properties help describe differences; contrast and distribution ask
 
 [Morphology](../models/english-morphology-system.md) explains internal word structure and grammatical forms. [Lexicon](../models/english-lexicon-system.md) explains item-specific forms, senses and distribution. These perspectives overlap in the description of a word.
 
+The six topics below appear in the [foundations and structure illustration](#foundations-and-structure-illustration).
+
 | Topic | Understand — required knowledge | Be able to do — introductory depth | Existing explanations and gaps |
 |---|---|---|---|
 | Word identity and form | Lexemes, word forms, paradigms and syncretism | Distinguish a lexeme from a word form and compare a small paradigm without treating identical forms as identical grammatical analyses. | **Partial:** [Lexeme and word form](../concepts/lexeme-and-word-form.md), [paradigm and syncretism](../concepts/paradigm-and-syncretism.md). Paradigm and syncretism explanations need fuller claim-specific source support. |
@@ -106,6 +130,8 @@ Word forms connect to sounds through the morphology–phonology interface and to
 ## Sentence structure
 
 The [Syntax Model](../models/english-syntax-system.md) uses a declared working account of constituents and grammatical functions. A category such as noun phrase and a function such as Subject answer different questions.
+
+The six topics below appear in the [foundations and structure illustration](#foundations-and-structure-illustration).
 
 | Topic | Understand — required knowledge | Be able to do — introductory depth | Existing explanations and gaps |
 |---|---|---|---|
@@ -122,6 +148,16 @@ The [Syntax Model](../models/english-syntax-system.md) uses a declared working a
 
 The [Semantics Model](../models/english-semantics-system.md) connects expression interpretation with predicates, participants and operators. [Lexicon Semantics](../models/lexicon-semantics-interface.md) and [Syntax Semantics](../models/syntax-semantics-interface.md) connect this account to word senses and sentence structure.
 
+### Meaning and context illustration
+
+[Open the meaning and context illustration at full size](../diagrams/body-of-knowledge-meaning-and-context.png).
+
+![Eleven topics: five in meaning and six in context and discourse, including composition and ambiguity, predication and participants, reference and denotation, quantification scope and inference, time situations and possibility, contextual reference, background and inference, communicative action, discourse reference, discourse connections and information structure.](../diagrams/body-of-knowledge-meaning-and-context.png)
+
+This view covers areas 5 and 6: meaning below and [context and discourse](#context-and-discourse). Numbers within this image enumerate its topics, not the six areas or a lesson sequence. Panel placement does not imply a fixed processing order. The conversation is decorative, not an observed exchange or evidence of an interpretation. [Saved generation prompt](../diagrams/body-of-knowledge-meaning-and-context.prompt.txt).
+
+### Meaning coverage
+
 | Topic | Understand — required knowledge | Be able to do — introductory depth | Existing explanations and gaps |
 |---|---|---|---|
 | Composition and ambiguity | Compositional interpretation, lexical and structural ambiguity, and vagueness | Give two readings of a suitable ambiguous example and explain which lexical or structural difference supports them. | **Partial:** [Compositionality](../concepts/compositionality.md), [ambiguity and vagueness](../concepts/ambiguity-and-vagueness.md). Compositional mechanisms and ambiguity diagnostics need further formal and empirical support. |
@@ -135,6 +171,8 @@ Anderson 10.1 and 9.3 supply limited word-meaning and participant-role support. 
 ## Context and discourse
 
 [Pragmatics](../models/english-pragmatics-system.md) concerns interpretation in use; [Discourse](../models/english-discourse-system.md) relates clauses and turns; [Information structure](../models/english-information-structure-system.md) distinguishes topic, focus, givenness and the current question.
+
+The six topics below appear in the [meaning and context illustration](#meaning-and-context-illustration).
 
 | Topic | Understand — required knowledge | Be able to do — introductory depth | Existing explanations and gaps |
 |---|---|---|---|
@@ -176,4 +214,4 @@ The six-area grouping is a selected organization for the target, not a structure
 
 ## Maintaining the outline
 
-Maintain this document as the single subject coverage guide. Keep the overall topic list, outcome rows, source limits and illustration consistent when scope changes. A topic can remain necessary before a satisfactory explanation exists; a file link alone does not close its gap. Keep activity sequences in Practices and the file inventory in the generated index. No outline generator is needed.
+Maintain this document as the single subject coverage guide. Keep the overall topic list, outcome rows, source limits and overall and detailed illustrations consistent when scope changes. A topic can remain necessary before a satisfactory explanation exists; a file link alone does not close its gap. Keep activity sequences in Practices and the file inventory in the generated index. No outline generator is needed.

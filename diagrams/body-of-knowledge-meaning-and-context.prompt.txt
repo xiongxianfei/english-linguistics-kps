@@ -1,0 +1,27 @@
+Generation mode: built-in image_gen
+Output: body-of-knowledge-meaning-and-context.png
+
+Use case: infographic-diagram
+Asset type: detailed topic illustration for the English Linguistics Body of Knowledge Outline.
+Create a premium landscape 3:2 editorial educational infographic with exceptionally readable typography. Warm ivory background, deep navy lettering, muted teal and pale blue panels, restrained amber accents, fine ink-and-watercolour details. Match a sophisticated illustrated linguistics book. Topic text is the priority, with generous whitespace and small evocative illustrations taking at most one fifth of each panel. Render every topic label exactly once and verbatim, with natural line wrapping. Do not abbreviate. No arrows, invented linguistic examples, IPA symbols, scientific charts, anatomical instructions, performance scores, extra slogans, brands or watermarks. No text over artwork. Opaque background. The groupings are for visual navigation and do not imply processing stages or a lesson order.
+Title: "English Linguistics"
+Subtitle: "Meaning, context and discourse • 11 topics"
+Composition: Two spacious side-by-side panels; five topic rows on the left, six on the right. Strong typography, generous line spacing and small bottom illustrations. All long topic labels must remain complete and readable.
+Left panel heading: "Meaning"
+Topic labels:
+"Composition and ambiguity"
+"Predication and participants"
+"Reference and denotation"
+"Quantification scope and inference"
+"Time situations and possibility"
+Small art: magnifying glass over layered translucent abstract shapes, no semantic formulas.
+Right panel heading: "Context and discourse"
+Topic labels:
+"Utterances and contextual reference"
+"Background and inference"
+"Communicative action"
+"Reference across discourse"
+"Discourse connections"
+"Information structure"
+Small art: two relaxed adults conversing with empty speech bubbles, no written dialogue.
+Footer exact text: "Connected topics • Coverage, not a learning sequence"

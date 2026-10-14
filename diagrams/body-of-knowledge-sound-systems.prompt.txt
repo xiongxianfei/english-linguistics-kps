@@ -1,0 +1,35 @@
+Generation mode: built-in image_gen
+Output: body-of-knowledge-sound-systems.png
+
+Use case: infographic-diagram
+Asset type: detailed topic illustration for the English Linguistics Body of Knowledge Outline.
+Create a premium landscape 3:2 editorial educational infographic with exceptionally readable typography. Warm ivory background, deep navy lettering, muted teal and pale blue panels, restrained amber accents, fine ink-and-watercolour details. Match a sophisticated illustrated linguistics book. Topic text is the priority, with generous whitespace and small evocative illustrations taking at most one fifth of each panel. Render every topic label exactly once and verbatim, with natural line wrapping. Do not abbreviate. No arrows, invented linguistic examples, IPA symbols, scientific charts, anatomical instructions, performance scores, extra slogans, brands or watermarks. No text over artwork. Opaque background. The groupings are for visual navigation and do not imply processing stages or a lesson order.
+Title: "English Linguistics"
+Subtitle: "Sound systems • 13 topics"
+Composition: Four spacious panels arranged as a balanced 2-by-2 grid. Adjust panel space to the label count; keep all labels large and fully visible.
+Panel heading: "Description and transcription"
+Topic labels:
+"Phonetics vs Phonology"
+"Phones Phonemes Allophones"
+"Consonant articulation"
+"Vowel articulation"
+"IPA and transcription"
+Small art: relaxed ear silhouette with a delicate waveform, no anatomical cutaway.
+Panel heading: "Contrast and distribution"
+Topic labels:
+"Minimal pairs and contrast"
+"Complementary distribution"
+Small art: two pairs of abstract contrasting stones, no letters or data.
+Panel heading: "Sound organization"
+Topic labels:
+"Syllable structure"
+"Phonotactics"
+"Stress"
+Small art: subtly grouped blocks with one highlighted block; no notation or exercise.
+Panel heading: "Realization and interfaces"
+Topic labels:
+"Connected speech processes"
+"Prosody and Intonation"
+"Morphology Phonology Interface"
+Small art: gently flowing ribbons meeting abstract interlocking word blocks.
+Footer exact text: "Connected topics • Visual groups, not a learning sequence"
