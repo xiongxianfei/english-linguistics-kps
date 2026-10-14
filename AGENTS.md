@@ -17,7 +17,7 @@ These repository-wide instructions apply to knowledge, code, tools and workflows
 
 ## Project purpose
 
-Help readers understand and analyze English linguistic systems and their interfaces through source-grounded explanations and learning Practices. Use [Scope](docs/SCOPE.md) for coverage and limits and the [knowledge index](docs/INDEX.md) for existing explanations.
+Help readers understand and analyze English linguistic systems and their interfaces through source-grounded explanations and learning Practices. Use the [Body of Knowledge Outline](docs/body-of-knowledge-outline.md) for required coverage, capabilities and gaps, [Scope](docs/SCOPE.md) for framework and variety limits, and the [knowledge index](docs/INDEX.md) to locate existing explanations.
 
 ## Core Engineering Principles
 
@@ -43,6 +43,7 @@ Help readers understand and analyze English linguistic systems and their interfa
 
 - Follow [Authoring](docs/AUTHORING.md), which applies the pinned KPS contract. Preserve the five primary roles, stable identities and locally sufficient explanations; supporting definitions and representations may overlap where useful.
 - Start from the learning target and established linguistic distinctions and models. Preserve the adopted framework and source subset; teaching order is not a new linguistic taxonomy.
+- Keep the authored body of knowledge outline focused on scope, topics, capabilities, relationships, sources and coverage gaps. Maintain its text and overview together; Practice catalogues and development roadmaps belong elsewhere. Retain useful topic-level links to existing explanations across the five roles.
 - Inspect affected sources and dependencies. Distinguish source statements, authored inference, pedagogical simplification and observations. Label constructed examples; a citation title is not evidence of source inspection.
 - Keep dialect, transcription and theoretical limits visible. Do not relabel a Canadian transcription as General American by blind symbol replacement. Missing context, audio and recordings remain missing.
 - Keep provisional analyses provisional until actual review supports a change. Do not invent evidence or review records, or treat a diagram, IPA string or unit test as proof of linguistic truth.

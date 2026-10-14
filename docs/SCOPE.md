@@ -18,7 +18,7 @@ The primary audience is an independent reader learning to explain and investigat
 
 ## Subject organization
 
-The [English subject map](subject-map.md) owns the shared topic outline, including thirteen sound-system topics, their connections and existing explanations. This document states the package's boundaries and framework choices. Practices select from the subject map to construct learning or investigation routes.
+The [English body of knowledge outline](body-of-knowledge-outline.md) owns the shared topic outline, including thirteen sound-system topics, their connections and existing explanations. This document states the package's boundaries and framework choices. Practices select from the body of knowledge outline to construct learning or investigation routes.
 
 ## Working syntax
 

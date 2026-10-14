@@ -1,0 +1,25 @@
+Generation mode: built-in image_gen
+Output: body-of-knowledge-overview.png
+
+Use case: infographic-diagram
+Asset type: premium editorial illustration for an introductory English linguistics body-of-knowledge outline and README.
+Create one polished landscape 3:2 overview, with crisp, highly readable typography and subtle ink-and-watercolour artwork. Warm ivory background, navy type, muted teal and soft blue, small amber accents. Six equally prominent panels in a two-column by three-row grid, numbered 01–03 down the left and 04–06 down the right. Each panel contains a large heading, one short exact subtitle and one small evocative illustration. Generous whitespace; no text over illustrations. The title and all six headings should be readable at ordinary document width.
+Exact text:
+Title: "English Linguistics"
+Subtitle: "Body of Knowledge • Introductory foundation"
+01 heading: "Foundations of linguistic analysis"
+01 subtitle: "Representations • Evidence • Judgments"
+02 heading: "Sound systems"
+02 subtitle: "Phonetics • Phonology • Prosody"
+03 heading: "Word structure and lexical knowledge"
+03 subtitle: "Morphology • Lexicon"
+04 heading: "Sentence structure"
+04 subtitle: "Syntax • Constituents • Dependencies"
+05 heading: "Meaning"
+05 subtitle: "Semantics • Reference • Scope"
+06 heading: "Context and discourse"
+06 subtitle: "Pragmatics • Discourse • Information structure"
+Bottom purpose strip: "Understand English • Analyze examples • Recognize limits"
+Footer: "Selected coverage • Connected areas, not a learning sequence"
+Art directions: 01 notebook and magnifying glass with abstract markings; 02 ear and gentle waveform; 03 simple interlocking word-like blocks with no text; 04 branching arrangement of blank cards, without arrows or tree labels; 05 a lens with layered abstract forms; 06 two relaxed people conversing with empty speech bubbles.
+Constraints: Every supplied heading and subtitle exactly once, spell all words accurately. Wrap long headings naturally. No IPA symbols, anatomical diagrams, example sentences, flags, fake data, scores, badges, extra slogans or logos. No arrows, progress steps or implied causal processing pipeline. Illustration communicates subject coverage rather than pronunciation instructions or linguistic analysis. Opaque background. Do not add the 39 topic labels; this is the overall view.

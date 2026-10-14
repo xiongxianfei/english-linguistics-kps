@@ -31,7 +31,7 @@ The target is understanding how English works: describe an example, connect its 
 
 Stage order is recommended; prerequisites and available evidence govern entry. Revisit a stage whenever an unresolved distinction blocks the next task.
 
-The learning route selects established distinctions from Anderson's inspected articulation, transcription, phonological contrast and word-structure passages. The [source record](../references/anderson-2018-essentials-of-linguistics.md) gives their locations and limits. Our grouping, task sequence and feedback are authored choices. The shared [subject map](../docs/subject-map.md#sound-systems) identifies thirteen sound topics and their relationships, existing explanations and source limits. This Practice selects from that structure; its learning route is not a claim that the textbook endorses this curriculum. New examples follow the package's General American convention.
+The learning route selects established distinctions from Anderson's inspected articulation, transcription, phonological contrast and word-structure passages. The [source record](../references/anderson-2018-essentials-of-linguistics.md) gives their locations and limits. Our grouping, task sequence and feedback are authored choices. The shared [body of knowledge outline](../docs/body-of-knowledge-outline.md#sound-systems) identifies thirteen sound topics and their relationships, existing explanations and source limits. This Practice selects from that structure; its learning route is not a claim that the textbook endorses this curriculum. New examples follow the package's General American convention.
 
 ## Learning route
 
@@ -46,7 +46,7 @@ The learning route selects established distinctions from Anderson's inspected ar
 
 These are overlapping areas, not temporal processing stages. Use prerequisites and the current question to choose the next area. Detailed knowledge remains independently readable outside this route.
 
-Further sound units need vowel and lexical-stress comparisons, syllable and phonotactic analysis, an audio-based connected-speech exercise, and a combined allomorphy/allophony task. Stage2 supplies only the initial contrast and contextual-realization exercise. Source gaps for those topics remain visible in the shared subject map; a listed topic is not a completed learning activity.
+Further sound units need vowel and lexical-stress comparisons, syllable and phonotactic analysis, an audio-based connected-speech exercise, and a combined allomorphy/allophony task. Stage2 supplies only the initial contrast and contextual-realization exercise. Source gaps for those topics remain visible in the shared body of knowledge outline; a listed topic is not a completed learning activity.
 
 ## Stage map
 
@@ -105,7 +105,7 @@ This exercise reconstructs definitions, a Model and an analysis procedure in one
 
 ## Stage3 Plan the next linguistic question
 
-1. Choose a next question from the learning route or shared subject map, based on an unresolved distinction in your answer. The task here is selecting a next investigation; the other areas remain lesson outlines.
+1. Choose a next question from the learning route or shared body of knowledge outline, based on an unresolved distinction in your answer. The task here is selecting a next investigation; the other areas remain lesson outlines.
 2. Write the example, proposed question and missing evidence. For instance, with *Those students repaired the printers. They tested them again.*, ask which group *they* refers to. One candidate is the students; another previously mentioned plural group could be available in a wider context. The written pair alone does not settle every possible context.
 3. Identify the established account and existing explanation to inspect. Record the source locator, its scope and which relationship will help answer the question. If the needed passage has not been inspected, record a support gap rather than copying a confident conclusion.
 4. Specify a new comparison and its feedback criterion before drafting another unit. For the reference question, supply two explicit contexts and ask which candidate each makes available. Keep the contextual assumption visible when comparing answers.

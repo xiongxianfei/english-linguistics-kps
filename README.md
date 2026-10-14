@@ -14,7 +14,9 @@ This foundation contains **131 knowledge files**: 72 Concepts, 13 Principles, 35
 
 ## Explore by subject
 
-The [English linguistics subject map](docs/subject-map.md) organizes sounds, words, sentences, meaning and context. Its [thirteen sound topics](docs/subject-map.md#sound-systems) connect the established distinctions to existing Concepts, Principles, Models and Methods. Use it to understand the subject structure and find explanations; use a Practice for a learning or investigation route.
+![English linguistics coverage: foundations of analysis, sound systems, word structure and lexical knowledge, sentence structure, meaning, and context and discourse.](diagrams/body-of-knowledge-overview.png)
+
+The [English Linguistics Body of Knowledge Outline](docs/body-of-knowledge-outline.md) defines six areas and 39 topics, with required understanding, intended capabilities, existing explanations and gaps. Start with the [complete topic outline](docs/body-of-knowledge-outline.md#overall-outline) or its [thirteen sound topics](docs/body-of-knowledge-outline.md#sound-systems). [Open the overview at full size](diagrams/body-of-knowledge-overview.png). The illustration shows selected introductory coverage, not completed learning or the whole discipline.
 
 ## Learn through a Practice
 
@@ -60,7 +62,7 @@ Every linguistic object remains provisional. Selected source inspection does not
 
 ## Authoring and checks
 
-Reading requires no scripts. Maintainer guidance lives in `docs/`; [Checks](docs/CHECKS.md) explains the retained tools and document moves. The authored subject map lives in `docs/subject-map.md`; the optional generated role index lives in `docs/INDEX.md`. Authoring and pronunciation guidance are alongside them.
+Reading requires no scripts. Maintainer guidance lives in `docs/`; [Checks](docs/CHECKS.md) explains the retained tools and document moves. The authored body of knowledge outline lives in `docs/body-of-knowledge-outline.md`; the optional generated role index lives in `docs/INDEX.md`. Authoring and pronunciation guidance are alongside them.
 The package follows the upstream [Knowledge Practice System](https://github.com/xiongxianfei/knowledge-practice-system) KPS 9.x contract. English package version 0.2.0 is independent of upstream Core 11.0.0; the copied structural checker is 9.1.0. See [AUTHORING](docs/AUTHORING.md) and [COMPATIBILITY](docs/COMPATIBILITY.md).
 
 ```bash
