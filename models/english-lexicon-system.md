@@ -32,9 +32,9 @@ The entry format is an analytical tool, not a claim that dictionaries or brains 
 - [Register and variation](#register-and-variation)
 - [Worked entry](#worked-entry)
 - [Interfaces](#interfaces)
-- [Interface with Morphology](#interface-with-morphology)
-- [Interface with Syntax](#interface-with-syntax)
-- [Interface with Semantics](#interface-with-semantics)
+  - [Interface with Morphology](#interface-with-morphology)
+  - [Interface with Syntax](#interface-with-syntax)
+  - [Interface with Semantics](#interface-with-semantics)
 - [Evidence and open questions](#evidence-and-open-questions)
 
 ## Lexemes and lexical entries
