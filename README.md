@@ -10,7 +10,7 @@ package_version: "0.2.0"
 Understand English through five kinds of self-contained knowledge, ten subsystem Models and their interfaces.
 
 ## Summary
-This foundation contains **107 knowledge files**: 72 Concepts, 13 Principles, ten Models, six Methods and six Practices, plus 26 supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
+This foundation contains **107 knowledge files**: 72 Concepts, 13 Principles, ten Models, six Methods and six Practices, plus 28 supporting Reference records. The package combines reusable explanations with a learning Practice that selects and connects them. It remains foundational and provisional, not a complete or independently reviewed grammar.
 
 ## Explore by subject
 

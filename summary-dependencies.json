@@ -325,7 +325,7 @@
       "concepts/common-ground.md": "4e42fa09f643d33e76543a603d5adb750b7fef1345f31f37a0af364683ecd00e",
       "concepts/deixis.md": "d60e651d91a1d436b54e9bdb23246420e413eebd903f3abc72bd9df20fecfaf6",
       "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5",
-      "references/british-council-undated-grammar-reference.md": "f6671bf24a020eae86f2b421f5db45e8d54960a184f18b7706d2d32db098996d"
+      "references/british-council-undated-grammar-reference.md": "32d8ce0c30a273871a4417a67863ac00bb0cd00385324e993203f76f9e486e01"
     },
     "concepts/stress.md": {
       "concepts/prosody.md": "9bd2d17a6285cab2c8b32ae9ce38f6e9fadd0216ef8a8556f4ca3728a7f20b32",
@@ -396,7 +396,7 @@
       "models/english-phonology-system.md": "481f5166b4695345c5c0c25afdb45e2d22e63fdc8b3b030e959cf533d8337162",
       "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
       "models/english-prosody-system.md": "f4692fd17a951eb5d5ffac4cc0b0219f3c383229e52363ec9e47b059b72f67dd",
-      "models/english-semantics-system.md": "e5f2c65cc97e7f92387f58bd3e26def602eca3f9a8536f20e026e575b1f4fad4",
+      "models/english-semantics-system.md": "4a9531d5e8a9ad7aceb0ede00f15cb226f12c495c228edb69d45060730f56252",
       "models/english-syntax-system.md": "0607bc0e2c11cb8b19e69411f046b892b2e925fe477949f26bc9d124045582ec",
       "references/anderson-2018-essentials-of-linguistics.md": "dc0c8aac3af47604952050f999546448b98410d481d9d5d345d44da47a927397",
       "references/roberts-2012-information-structure.md": "792a384436c8221f5d8a970a79322e4c8c22c8eaafe2cd2d76f12ea9a09c431b"
@@ -483,7 +483,7 @@
       "concepts/sense-and-lexical-ambiguity.md": "50f1f1d1fb7c71a1ccccbb31ba384c8fec3282adeb1851b7c99c5f83ea1e0d25",
       "concepts/valency-and-argument-structure.md": "3fee998f7b823a84bebe711574de03157f19c472a53847a6cafff91ac6f0cabe",
       "models/english-morphology-system.md": "257f70bd948ac1929acd26240687f499c4bdcc7c0de434459cdbc58b89e72cf4",
-      "models/english-semantics-system.md": "e5f2c65cc97e7f92387f58bd3e26def602eca3f9a8536f20e026e575b1f4fad4",
+      "models/english-semantics-system.md": "4a9531d5e8a9ad7aceb0ede00f15cb226f12c495c228edb69d45060730f56252",
       "models/english-syntax-system.md": "0607bc0e2c11cb8b19e69411f046b892b2e925fe477949f26bc9d124045582ec",
       "references/anderson-2018-essentials-of-linguistics.md": "dc0c8aac3af47604952050f999546448b98410d481d9d5d345d44da47a927397",
       "references/british-council-undated-lexical-combinations.md": "4b354f9dc375ccb1bfeec01f70ee449f61c7d1c39805edf1621db2c5a6212c8c",
@@ -570,7 +570,7 @@
       "concepts/utterance-and-speaker-meaning.md": "a798f1cbda114a13574d7dd6cf1cd7fbcbb56201612cad905a49347b9ed607c5",
       "models/english-discourse-system.md": "618ec45b3901f8ba1d923c5bfd99d70418a7a47791d2b3ef2c155dc807a39589",
       "models/english-information-structure-system.md": "50faa976b302e0f61ba123cb04c3656c4a18886ccbc17ae325f16d851f796823",
-      "models/english-semantics-system.md": "e5f2c65cc97e7f92387f58bd3e26def602eca3f9a8536f20e026e575b1f4fad4",
+      "models/english-semantics-system.md": "4a9531d5e8a9ad7aceb0ede00f15cb226f12c495c228edb69d45060730f56252",
       "references/bhatt-2003-implicature.md": "021bf7c6b8ad908b66ca67242670c9eca30acd48911f55d97346d15ff5b4860d",
       "references/edinburgh-undated-pragmatic-communication.md": "a2af0607f948c7aafda623ab66514a3a65e0a6bc42a92bcdc954df2b9b1fc88f",
       "references/fox-menendez-benito-2006-pragmatics.md": "1832251a7da20105233788bd485f49e8d8af62d84ccf535642cf60062d59bc9d",
@@ -619,7 +619,12 @@
       "models/english-lexicon-system.md": "38cb0cb187c524db9e90970961939145567deecf84d4b459844d23c92d0c987e",
       "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
       "models/english-syntax-system.md": "0607bc0e2c11cb8b19e69411f046b892b2e925fe477949f26bc9d124045582ec",
-      "references/anderson-2018-essentials-of-linguistics.md": "dc0c8aac3af47604952050f999546448b98410d481d9d5d345d44da47a927397"
+      "references/anderson-2018-essentials-of-linguistics.md": "dc0c8aac3af47604952050f999546448b98410d481d9d5d345d44da47a927397",
+      "references/bhatt-2003-implicature.md": "021bf7c6b8ad908b66ca67242670c9eca30acd48911f55d97346d15ff5b4860d",
+      "references/british-council-undated-grammar-reference.md": "32d8ce0c30a273871a4417a67863ac00bb0cd00385324e993203f76f9e486e01",
+      "references/fox-menendez-benito-2006-presupposition.md": "4c9f62308ff861ce6a3b430974be45b1bb776cebfeeddb021f596318f2a816e4",
+      "references/richards-2022-semantics.md": "016d094721b51720fbfff5405af2ba4e1626d799e8038baafc95d3c5e090a2e2",
+      "references/yablo-2015-modal-semantics.md": "883cd861f3c500271c6ff8c060bb9bcc08481dce2ce9c2e4e8d66363141df666"
     },
     "models/english-syntax-system.md": {
       "concepts/auxiliary-chain.md": "c54cfb2c0506e063e2643265afcc07e16cb8825fa026ed6a86b37098a5eacd23",
@@ -648,9 +653,9 @@
       "models/english-lexicon-system.md": "38cb0cb187c524db9e90970961939145567deecf84d4b459844d23c92d0c987e",
       "models/english-morphology-system.md": "257f70bd948ac1929acd26240687f499c4bdcc7c0de434459cdbc58b89e72cf4",
       "models/english-prosody-system.md": "f4692fd17a951eb5d5ffac4cc0b0219f3c383229e52363ec9e47b059b72f67dd",
-      "models/english-semantics-system.md": "e5f2c65cc97e7f92387f58bd3e26def602eca3f9a8536f20e026e575b1f4fad4",
+      "models/english-semantics-system.md": "4a9531d5e8a9ad7aceb0ede00f15cb226f12c495c228edb69d45060730f56252",
       "references/anderson-2018-essentials-of-linguistics.md": "dc0c8aac3af47604952050f999546448b98410d481d9d5d345d44da47a927397",
-      "references/british-council-undated-grammar-reference.md": "f6671bf24a020eae86f2b421f5db45e8d54960a184f18b7706d2d32db098996d",
+      "references/british-council-undated-grammar-reference.md": "32d8ce0c30a273871a4417a67863ac00bb0cd00385324e993203f76f9e486e01",
       "references/walter-2016-modal-verbs-basics.md": "47f45087ac269e32ec72747d5756bda8012fd49ad04674ac42607ff0a5a39b2e"
     },
     "practices/classify-and-produce-phone.md": {
@@ -676,7 +681,7 @@
       "concepts/speech-act.md": "6547380b8497e6b9c9cea630604e0d723e7fe9e563bace8aa77447ed0fddb063",
       "models/english-syntax-system.md": "0607bc0e2c11cb8b19e69411f046b892b2e925fe477949f26bc9d124045582ec",
       "references/anderson-2018-essentials-of-linguistics.md": "dc0c8aac3af47604952050f999546448b98410d481d9d5d345d44da47a927397",
-      "references/british-council-undated-grammar-reference.md": "f6671bf24a020eae86f2b421f5db45e8d54960a184f18b7706d2d32db098996d",
+      "references/british-council-undated-grammar-reference.md": "32d8ce0c30a273871a4417a67863ac00bb0cd00385324e993203f76f9e486e01",
       "references/skillsmith-editor-skill.md": "a428c8650eb4d3239604c7ec3c71d89f19c5ffb33c2e1477904a5ecb86c4064a",
       "references/walter-2016-modal-verbs-basics.md": "47f45087ac269e32ec72747d5756bda8012fd49ad04674ac42607ff0a5a39b2e"
     },
@@ -701,7 +706,7 @@
       "models/english-phonology-system.md": "481f5166b4695345c5c0c25afdb45e2d22e63fdc8b3b030e959cf533d8337162",
       "models/english-pragmatics-system.md": "4f07973fb1af299433009a033dadd5fb436d332dc44b3403d43a01e8b9a04fa3",
       "models/english-prosody-system.md": "f4692fd17a951eb5d5ffac4cc0b0219f3c383229e52363ec9e47b059b72f67dd",
-      "models/english-semantics-system.md": "e5f2c65cc97e7f92387f58bd3e26def602eca3f9a8536f20e026e575b1f4fad4",
+      "models/english-semantics-system.md": "4a9531d5e8a9ad7aceb0ede00f15cb226f12c495c228edb69d45060730f56252",
       "models/english-syntax-system.md": "0607bc0e2c11cb8b19e69411f046b892b2e925fe477949f26bc9d124045582ec",
       "references/anderson-2018-essentials-of-linguistics.md": "dc0c8aac3af47604952050f999546448b98410d481d9d5d345d44da47a927397"
     },
