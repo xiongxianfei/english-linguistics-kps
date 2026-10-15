@@ -1,15 +1,15 @@
 ---
 id: "english:reference:mit-2006-tobi-tutorial"
 type: "reference"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 creator: "MIT OpenCourseWare; course instructors Nanette Veilleux, Stefanie Shattuck-Hufnagel and Alejna Brugos"
 publication: "Transcribing Prosodic Structure of Spoken Utterances with ToBI, selected tutorial chapters"
 publication_date: "2006-08-09"
 date_basis: "Inspected chapter PDFs carry the header OpenCourseWare 9 August 2006; the course page identifies January IAP 2006 as the teaching session."
-accessed: "2026-10-13"
-access_extent: "Course and lecture-note metadata; extracted text of PDF sections 2.0–2.1 (five pages), 2.2 (three pages), and 2.4 (seven pages). Figures were not visually audited, recordings were not played, and TextGrid data and remaining chapters were not inspected."
+accessed: "2026-10-14"
+access_extent: "Course and lecture-note metadata; extracted text of PDF sections 2.0–2.1 (five pages), 2.2 (three pages), and 2.4 (seven pages). Figures were not visually audited, recordings were not played, and TextGrid data were not inspected. On 2026-10-14, additionally inspected extracted prose from chapter 1 pages 1–2 and the beginning of page 3, section 2.3 prose on pages 1–5 about multiple and nuclear accents and signal complications; plus section 2.8 pages 1–5 on phrase levels and tonal endings. Other chapter content remains unreviewed."
 reviewed: null
 ---
 
@@ -36,6 +36,16 @@ Selected 2006 MIT OpenCourseWare tutorial chapters support a bounded account of 
 ## Inspection extent
 
 On 2026-10-13, the extracted text of the three PDFs and course metadata was read. Figure labels were available as text; no independent visual, audio or acoustic replication was performed.
+
+## Additional overview and phrasing passages
+
+On 2026-10-14, selected extracted prose from [chapter 1](https://ocw.mit.edu/courses/6-911-transcribing-prosodic-structure-of-spoken-utterances-with-tobi-january-iap-2006/0986334a8a593bba602eaaf8ab13de2f_chap1.pdf), pages 1–2 and the beginning of page 3, was inspected. It distinguishes prominence from grouping, explains annotation tiers and their relation to recordings, and treats variable category-to-function mappings and uncertain labels as analytical issues. Its scope is Mainstream American English ToBI.
+
+Selected extracted prose from [section 2.8](https://ocw.mit.edu/courses/6-911-transcribing-prosodic-structure-of-spoken-utterances-with-tobi-january-iap-2006/c928e56df120f4dad5060f66eb2ffde4_chap2_8.pdf), pages 1–5, supports distinguishing intermediate and full intonational phrases, phrase accents and boundary tones. It discusses final lengthening, the possible separation of the final pitch accent from the final word, and terminology differences across frameworks. Figure captions were available as extracted text; the figures and linked audio were not independently audited.
+
+Selected extracted prose from [section 2.3](https://ocw.mit.edu/courses/6-911-transcribing-prosodic-structure-of-spoken-utterances-with-tobi-january-iap-2006/7ee7a82b31a4de0555c4e1a9ddd229ec_chap2_3.pdf), pages 1–5, was also inspected. It distinguishes lexical stress from pitch accent, identifies the final accent as nuclear, and discusses multiple accents, edge lengthening and segment-related interruptions of the F0 trace. Its figures and recordings were not audited.
+
+These additions support the new Model explanations without converting the constructed printer examples into source observations or supplying a complete annotation inventory.
 
 ## Nonclaims
 

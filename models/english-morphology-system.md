@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-morphology-system"
 type: "model"
-version: "0.3.0"
+version: "0.3.1"
 language: "KPS 9.x"
 status: "draft"
 domains: ["morphology"]
@@ -49,7 +49,7 @@ A **lexeme** is a vocabulary identity abstracting over its grammatical forms; ca
 
 A **paradigm** organizes a lexeme's forms by grammatical distinctions. **Syncretism** occurs when one form occupies more than one cell. In the working TEACH paradigm, *taught* serves as past tense in “They taught” and past participle in “They have taught.” The spelling alone does not choose the grammatical analysis. Identical forms can also belong to different lexemes: noun REPORT and verb REPORT both have *reports*. That is not automatically syncretism within one paradigm.
 
-These are working lexeme-and-paradigm distinctions, not a claim that a speaker stores a table with these exact fields. Fuller source attachment for paradigm structure and syncretism remains needed; the local [Concept](../concepts/paradigm-and-syncretism.md) retains that gap.
+These are working lexeme-and-paradigm distinctions, not a claim that a speaker stores a table with these exact fields. Fuller source attachment for paradigm structure and syncretism remains needed; the local [Paradigm and syncretism explanation](../concepts/paradigm-and-syncretism.md) retains that gap.
 
 ## Internal word structure
 
@@ -116,8 +116,6 @@ These comparisons connect word identity, internal structure, grammatical feature
 
 Morphological analyses distinguish the element, the operation, its input base and the resulting lexeme or word form.
 
-### Word formation hierarchy representation
-
 ```text
 TEACH --derivation with -er--> TEACHER
 SCHOOL + TEACHER --compounding--> SCHOOLTEACHER
@@ -128,19 +126,11 @@ SCHOOLTEACHER --plural inflection--> schoolteachers
 START --re- derivation--> RESTART --past inflection--> restarted
 ```
 
-### Word formation hierarchy worked interpretation
-
 Teach is one root inside schoolteachers; school is another lexical root. Teacher is the head of the compound in this analysis. For restarted, the base for re- is start, while the stem for past -ed is restart. The suffix and the operation are not interchangeable answers.
-
-### Word formation hierarchy assumptions and limits
 
 The trees are synchronic working analyses of transparent examples. No general claim that every compound is right-headed or every historically complex form remains decomposable is made.
 
-### Word formation hierarchy evaluation and counterevidence
-
 A competing analysis must preserve the actual morphological contributions and the distinction between derivation and inflection. Test analogous forms, and flag lexicalization or spelling adjustments rather than inventing extra morphemes.
-
-### Word formation hierarchy evidence status
 
 Anderson 6.4 and 7.2 supply selected support for successive derivation and compounding. The schoolteachers and restarted representations are authored applications, not source endorsements or observed processing sequences.
 
@@ -153,8 +143,6 @@ Regular English inflection links morphological features to sound-conditioned exp
 
 Explain how a grammatical exponent receives a sound-conditioned realization rather than a spelling-conditioned one. The counterpart is explained in [Phonology](english-phonology-system.md#interface-with-morphology).
 
-#### Interface with Phonology representation
-
 | Morpheme | Special environment first | Voiceless remainder | Voiced remainder |
 |---|---|---|---|
 | Regular plural | Sibilants -> /ɪz/ | /s/ | /z/ |
@@ -162,19 +150,11 @@ Explain how a grammatical exponent receives a sound-conditioned realization rath
 
 The weak vowel can differ across accents; /əz/ and /əd/ are relevant alternatives. Vowels are included in the voiced environments of this simplified model.
 
-#### Interface with Phonology worked interpretation
-
 Watch ends in /tʃ/, not /h/, so watches selects the syllabic plural. Laugh ends in /f/, so laughs has /s/ and laughed /t/. DELIVER ends in a voiced vowel or rhotic realization in the accents at issue, so delivered has /d/.
-
-#### Interface with Phonology assumptions and limits
 
 These are regular-pattern models, not full lexical pronunciation tools. Irregular stems, lexicalized adjectives, suffix-conditioned stress and accent variation are outside the algorithm. A single-underlying-exponent analysis is a compatible alternative explanation of the surface variants.
 
-#### Interface with Phonology evaluation and counterevidence
-
-The supplied pure functions accept final phonemes, not English spellings; tests include sibilants, vowels and /t,d/. Passing proves implementation agreement with these declared cases, not scientific completeness.
-
-#### Interface with Phonology evidence status
+Stem-final sounds, not English spellings, determine these regular variants. Checking sibilants and /t,d/ before the general voicing split prevents a general rule from incorrectly overriding the syllabic variants. The declared patterns do not predict every irregular word.
 
 Anderson 6.2 supports selected regular-plural conditioning. The complete past-tense pattern and interface schema require broader claim-specific evidence; independent review remains pending.
 
@@ -184,27 +164,15 @@ Word-formation structure and stored lexical knowledge jointly constrain a comple
 
 Distinguish a word-building operation from the conventional senses and uses associated with its result. The counterpart is explained in [Lexicon](english-lexicon-system.md#interface-with-morphology).
 
-#### Interface with Lexicon representation
-
 | Morphological analysis | Lexical question | Boundary |
 |---|---|---|
 | Base plus derivational affix | Does a corresponding lexeme exist and which senses are conventional? | Structural possibility is not attested use. |
 | Compound constituents | Which relation between the constituents is conventional here? | The relation may not be uniquely determined by the parts. |
 | Inflectional paradigm | Which forms realize a lexeme’s grammatical contrasts? | A form is not necessarily a new lexeme. |
 
-#### Interface with Lexicon worked analysis
-
 For printer, one working analysis combines print with agent/instrument-forming -er. The suffix gives a useful interpretation cue, but does not by itself choose between a person and a device. In printers, plural -s changes grammatical number rather than resolving that lexical sense. Store the word structure, the selected sense and the plural form separately.
 
-#### Interface with Lexicon evaluation and counterevidence
-
-Record the source and target analyses separately. Vary one relevant condition while preserving the others, compare the proposed mapping with an alternative, and record mismatches. A shared domain tag is not evidence for the mapping. No result is assumed to be uniquely recoverable from the other representation.
-
-#### Interface with Lexicon assumptions and limits
-
 The balance between lexical storage and productive formation is theory-dependent. Apparent segmentability is not proof of a synchronically productive rule; historical etymology is a separate claim. No recorded production, corpus sample or independent expert review is supplied for this interface account.
-
-#### Interface with Lexicon evidence status
 
 **Provisional; not independently reviewed.** No newly inspected external passage is asserted to verify this summary claim. Internal links provide explanatory context, not independent evidence.
 
@@ -214,8 +182,6 @@ Word-form features and syntactic distributions must be represented separately ev
 
 Relate grammatical word-form features to agreement and finiteness without assuming one spelling realizes only one feature set. The counterpart is explained in [Syntax](english-syntax-system.md#interface-with-morphology).
 
-#### Interface with Syntax representation
-
 | Endpoint | Schematic fields |
 |---|---|
 | grammatical word features | lexeme, number, person, tense, word_form |
@@ -223,23 +189,11 @@ Relate grammatical word-form features to agreement and finiteness without assumi
 
 The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
 
-#### Interface with Syntax essential terms
-
 **Word-form features** such as number, person and tense describe grammatical distinctions realized by forms. **Agreement** is a correspondence between a controller and a form in a construction, not agreement between adjacent written words. **Finiteness** concerns clause licensing and verb form, not whether an event occurs now. **Syncretism** means that one form realizes more than one feature combination, so a feature distinction need not produce an overt spelling contrast.
-
-#### Interface with Syntax worked interpretation
 
 In *This report is ready* and *These reports are ready*, singular versus plural nominal features correspond to *is* versus *are* in the illustrated construction. The head of *the report near the windows* is still singular REPORT, so *The report near the windows is ready* shows why the nearest plural noun is not a sufficient agreement rule. The examples are constructed descriptive contrasts, not a universal agreement algorithm; collective nouns and other constructions require variety-specific qualifications.
 
-#### Interface with Syntax assumptions and limits
-
 Agreement varies by construction and variety; syncretism can conceal feature differences. This is a proposed bridge based on existing distinctions, with external claim support pending.
-
-#### Interface with Syntax evaluation and counterevidence
-
-Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
-
-#### Interface with Syntax evidence status
 
 **Provisional.** No new external source inspection, independent expert review, audio measurement or learner outcome is claimed. This bridge is an authored synthesis of the existing distinctions below. Claim-level external support is pending.
 

@@ -1,7 +1,7 @@
 ---
 id: "english:model:english-phonetics-system"
 type: "model"
-version: "0.3.0"
+version: "0.3.1"
 language: "KPS 9.x"
 status: "draft"
 domains: ["phonetics"]
@@ -19,15 +19,12 @@ uses_methods: ["english:method:analyze-sound-realization"]
 
 # English phonetics system
 
-## Key takeaway
-Phonetics describes speech production, the acoustic signal and perception; a written transcription is an analysis, not a recording.
+This Model connects eight Phonetics topics: its boundary with Phonology, speech production, consonant and vowel articulation, transcription, acoustics, perception and connected speech. It explains the source and filter distinction, how to read signal representations, and why an acoustic difference does not establish a listener's response. Sound-attribute tables and interfaces explain the required distinctions locally. A constructed pin/spin/bin comparison connects category, articulation, timing, transcription and perceptual questions. General American is the declared convention for new word examples; no audio measurement or listener experiment is reported.
 
-## Summary
-This Model connects eight Phonetics topics: its boundary with Phonology, speech production, consonant and vowel articulation, transcription, acoustics, perception and connected speech. It explains the source and filter distinction, how to read signal representations, and why an acoustic difference does not establish a listener's response. Existing sound-attribute tables and interfaces remain locally available. A constructed pin/spin/bin comparison connects category, articulation, timing, transcription and perceptual questions. General American is the declared convention for new word examples; no audio measurement or listener experiment is reported.
+Given a sound category, describe its relevant articulatory attributes and explain how changing them changes the description. Explain how production can shape a signal and how a perceptual question differs from measuring that signal. Given a word or recording, distinguish a predicted realization from an observed token. A broad dictionary form can start an investigation but cannot establish exactly what a speaker produced.
 
 ## Contents
 
-- [Purpose](#purpose)
 - [Representation](#representation)
 - [Essential distinctions](#essential-distinctions)
 - [Phonetics vs Phonology](#phonetics-vs-phonology)
@@ -36,16 +33,21 @@ This Model connects eight Phonetics topics: its boundary with Phonology, speech 
 - [Vowel articulation](#vowel-articulation)
 - [IPA and transcription](#ipa-and-transcription)
 - [Speech acoustics](#speech-acoustics)
+  - [Source and filter](#source-and-filter)
+  - [Signal representations](#signal-representations)
+  - [Timing and comparison](#timing-and-comparison)
 - [Speech perception](#speech-perception)
 - [Connected speech processes](#connected-speech-processes)
 - [Worked example](#worked-example)
+  - [Connecting the whole analysis](#connecting-the-whole-analysis)
 - [Interfaces](#interfaces)
+  - [Contributions from word structure and writing](#contributions-from-word-structure-and-writing)
+  - [Interface with Phonology](#interface-with-phonology)
+  - [Interface with Prosody](#interface-with-prosody)
 - [Evaluation and counterevidence](#evaluation-and-counterevidence)
 - [Assumptions and limits](#assumptions-and-limits)
 - [Evidence status](#evidence-status)
-
-## Purpose
-Given a sound category, describe its relevant articulatory attributes and explain how changing them changes the description. Explain how production can shape a signal and how a perceptual question differs from measuring that signal. Given a word or recording, distinguish a predicted realization from an observed token. A broad dictionary form can start an investigation but cannot establish exactly what a speaker produced.
+- [Related knowledge](#related-knowledge)
 
 ## Representation
 
@@ -225,8 +227,6 @@ Phonological representations constrain possible phonetic analyses without unique
 
 Use category and environment as constraints on a production hypothesis; identify recordings before claiming an observed realization. The counterpart is explained in [Phonology](english-phonology-system.md#interface-with-phonetics).
 
-#### Interface with Phonology representation
-
 | Endpoint | Schematic fields |
 |---|---|
 | phonological form | segments, syllables, stress |
@@ -234,23 +234,11 @@ Use category and environment as constraints on a production hypothesis; identify
 
 The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
 
-#### Interface with Phonology essential terms
-
 A **phonological form** describes language-specific categories and structural positions. A **phonetic realization** describes speech production or the resulting sound in a particular context. Slashes conventionally mark a phonemic analysis; square brackets mark a phonetic description. Neither notation by itself identifies a recording. Stress, neighboring sounds, rate and speaker variety can condition realization, so a phonological string need not determine one narrow transcription.
-
-#### Interface with Phonology worked interpretation
 
 Broad /pɪn/ and /spɪn/ both contain /p/. A stressed onset in *pin* can be aspirated, represented schematically as [pʰ], while the post-/s/ realization in *spin* is commonly less aspirated. The phonological environment helps explain a predicted difference without changing /p/ into a different phoneme merely because the phones differ. No token has been recorded here. To claim an observed difference, identify recordings and the criteria used to inspect the realization.
 
-#### Interface with Phonology assumptions and limits
-
 A variety, stress and segmental context must be stated. This bridge does not assert a universal phonetics–phonology boundary or an executable production model. No audio is supplied for this worked comparison.
-
-#### Interface with Phonology evaluation and counterevidence
-
-Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
-
-#### Interface with Phonology evidence status
 
 **Provisional.** This bridge is an authored synthesis; selected source contributions are identified in the Model evidence section. They do not establish the complete mapping, measurements of this example, independent review or learner outcomes.
 
@@ -262,8 +250,6 @@ A prosodic prominence analysis must be distinguished from the phonetic measureme
 
 Compare pitch-related frequency, timing and intensity with a proposed prominence analysis; do not identify an acoustic peak with focus. The counterpart is explained in [Prosody](english-prosody-system.md#interface-with-phonetics).
 
-#### Interface with Prosody representation
-
 | Endpoint | Schematic fields |
 |---|---|
 | prominence pattern | accent_location, phrasing, variety |
@@ -271,23 +257,11 @@ Compare pitch-related frequency, timing and intensity with a proposed prominence
 
 The mapping uses `kps:constrains`. Field names identify an analytical record structure, not measured values or a complete formal linguistic theory.
 
-#### Interface with Prosody essential terms
-
 A **prominence pattern** represents relative highlighting, stress and phrasing within an utterance. A **prosodic acoustic description** records properties of an identified signal, such as fundamental frequency in voiced intervals, duration and intensity. Perceived pitch is related to fundamental frequency but is not identical to it; prominence is not simply loudness or the highest pitch value. A proposed pitch accent and a measured frequency peak are different analytical claims.
-
-#### Interface with Prosody worked interpretation
 
 For a reply to *Who repaired the printer?*, an analyst might predict prominence on *Nina* in *Nina repaired the printer*. A recording could realize that prominence through a combination of pitch-related movement, timing, intensity and other cues. No specific contour or measurement follows from capitalizing NINA in a transcript. To test the proposed correspondence, preserve the question context, identify the token and compare annotated prominence with the actual signal, retaining uncertainty where the cues disagree.
 
-#### Interface with Prosody assumptions and limits
-
 The relation is schematic and potentially many-to-many, but its cardinality remains unspecified here. Acoustic cues, speakers and contexts need empirical investigation; an abstract prominence label does not predict numerical measurements.
-
-#### Interface with Prosody evaluation and counterevidence
-
-Name the intended analysis, variety and relevant context. Inspect competing analyses and distinguish a prediction from an observation. A structural test of these records does not test the empirical correctness of the mapping. Missing observations remain missing.
-
-#### Interface with Prosody evidence status
 
 **Provisional.** This bridge is an authored synthesis; selected source contributions are identified in the Model evidence section. They do not establish the complete mapping, measurements of this example, independent review or learner outcomes.
 
@@ -302,7 +276,7 @@ A useful check: does /r/ necessarily mean a trill? No. In this package it is a b
 This is a foundational explanatory Model, not a complete General American inventory, a clinical assessment or a validated pronunciation course. Individual variation, mergers, connected-speech reduction and transcription choices require local qualification. Instrumental analysis and controlled perception experiments remain further work.
 
 ## Evidence status
-**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records selected articulation, transcription, connected-speech and aspiration passages, including their Canadian scope. The [IPA Reference](../references/international-phonetic-association-undated-ipa-chart.md) supports the chart categories. The [MIT tutorial record](../references/mit-2006-tobi-tutorial.md) supplies selected support for prominence, phrasing and physical cues. These sources do not supply measurements of the constructed examples. The new [Coleman record](../references/coleman-undated-speech-acoustics.md) supports source/filter distinctions, the [Praat record](../references/praat-undated-spectrogram-manual.md) supports spectrogram interpretation, and the [Flemming record](../references/flemming-2015-speech-perception.md) supports selected perceptual-cue distinctions. The comparisons and interface summaries are authored applications. Timing arithmetic is synthetic; no audio, source graphs or listener responses were measured.
+**Provisional; independent review pending.** The [Anderson Reference](../references/anderson-2018-essentials-of-linguistics.md) records selected articulation, transcription, connected-speech and aspiration passages, including their Canadian scope. The [IPA Reference](../references/international-phonetic-association-undated-ipa-chart.md) supports the chart categories. The [MIT tutorial record](../references/mit-2006-tobi-tutorial.md) supplies selected support for prominence, phrasing and physical cues. These sources do not supply measurements of the constructed examples. The [Coleman record](../references/coleman-undated-speech-acoustics.md) supports source/filter distinctions, the [Praat record](../references/praat-undated-spectrogram-manual.md) supports spectrogram interpretation, and the [Flemming record](../references/flemming-2015-speech-perception.md) supports selected perceptual-cue distinctions. The comparisons and interface summaries are authored applications. Timing arithmetic is synthetic; no audio, source graphs or listener responses were measured.
 
 ## Related knowledge
 [Representation levels](../concepts/representation-levels.md) distinguishes notation in more detail. [Consonant articulation](../concepts/consonant-articulation.md) and [vowel articulation](../concepts/vowel-articulation.md) expand feature descriptions. [Analyze sound realization](../methods/analyze-sound-realization.md) supplies a bounded investigation; [Phonology Phonetics interface](#interface-with-phonology) explains the mapping.
